@@ -90,6 +90,7 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
   cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
 .chip:hover { border-color: var(--accent); }
 .chip .n { font: 400 11px var(--f-mono); color: var(--muted); }
+.icon-btn:active { transform: scale(.88); }
 .chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 .chip[aria-pressed="true"] .n { color: inherit; opacity: .7; }
 .active { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 16px; font-size: 13px; color: var(--muted); }
@@ -745,12 +746,12 @@ body.vt .enter { animation: none; }
       <div class="tools">
         <button class="icon-btn" id="exportBtn" style="height:34px;border-radius:8px;font-size:13px" hidden title="Copy your Keep/Remove decisions as JSON">Copy decisions</button>
         <button class="icon-btn" id="densityBtn" style="height:34px;border-radius:8px" aria-label="Toggle list view" title="Grid / list">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"></svg>
         </button>
       </div>
     </div>
     <section class="chead" id="creatorHead" hidden></section>
-    <p class="intro" id="intro" hidden><span><b>Hand-filtered Unity 6 learning.</b> Every guide, video and repo here was checked; outdated and obsolete links are removed. Browse by topic, creator, repo or asset.</span><button id="introX" aria-label="Dismiss">✕</button></p>
+    <p class="intro" id="intro" hidden><span><b>Curated Unity learning.</b> Every guide, video and repo here was checked; outdated and obsolete links are removed. Browse by topic, creator, repo or asset.</span><button id="introX" aria-label="Dismiss">✕</button></p>
     <section class="hero" id="hero" hidden></section>
         <div class="when" id="when"></div>
     <div class="active" id="active" hidden></div>
@@ -1635,6 +1636,9 @@ body.vt .enter { animation: none; }
     $('#intro').hidden = !!(state.cat || state.q || state.tags.length || store.get('introX', false));
 
     grid.classList.toggle('list', state.list);
+    const db = $('#densityBtn');   // shows the view you'd switch to
+    db.querySelector('svg').innerHTML = state.list ? '<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>' : '<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>';
+    db.title = db.ariaLabel = state.list ? 'Switch to grid view' : 'Switch to list view';
     grid.innerHTML = list.length ? '' : (c === '__saved' ? `<div class="empty"><span class="ico">★</span><h3>Nothing saved yet</h3>Tap the star on any card to keep it here for later.<br><button class="btn" data-gohome>Browse Home</button></div>` : `<div class="empty"><span class="ico">🔍</span><h3>No matches</h3>Try a shorter search, or clear a filter.<br><button class="btn" data-reset>Reset filters</button></div>`);
     shown = 0; more();
   }
