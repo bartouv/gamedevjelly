@@ -1,6 +1,6 @@
 # Vertex displacement & animation
 
-> Shaders & rendering · 25 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 26 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
@@ -17,6 +17,7 @@
 - [Fractured Cube Breakdown](https://www.cyanilux.com/tutorials/fractured-cube-breakdown/): Breaks down a fractured cube shader displacing prefractured pieces using pivots baked into UVs. (Cyan, 2023-03-07, article, Unity-2022 era)
 - [Tornado Shader Breakdown](https://www.cyanilux.com/tutorials/tornado-shader-breakdown/): Breakdown of a tornado shader using scrolling alpha-clipped noise layers with vertex displacement. (Cyan, 2022-01-26, article, Unity-2022 era)
 - [Texture Animation Techniques](https://medium.com/tech-at-wildlife-studios/texture-animation-techniques-1daecb316657): Explains baking animations into textures for vertex-shader playback (Vertex Animation Textures). (2020-09-06, article, Unity-old era)
+- [Vertex / Fragment Shader | Unity Tuutorial](https://www.youtube.com/watch?v=GU7FJhOZoMM): Explains vertex and fragment shaders in Unity. (Jettelly, 2020-02-13, video, Unity-old era)
 - [My take on shaders: Butterflies and fish shader – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-butterflies-and-fish-shader/): Builds an unlit butterflies and fish shader. (2018-11-03, article, Unity-old era)
 - [Shader Showcase Saturday #10: Fortnite Procedural Animations](https://www.alanzucconi.com/2018/09/17/shader-showcase-saturday-10/): Recreates Fortnite-style procedural animation effects with shaders. (Alan Zucconi, 2018-09-17, article, Unity-old era)
 - [Shader Showcase Saturday #7: Billboard Impostors](https://www.alanzucconi.com/2018/08/25/shader-showcase-saturday-7/): Uses billboard impostors to reduce polygon counts in Unity. (Alan Zucconi, 2018-08-25, article, Unity-old era)

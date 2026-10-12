@@ -1,6 +1,6 @@
 # Dissolve, holograms & sci-fi FX
 
-> VFX · 26 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 27 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
 - [A dissolve effect in Unity using HLSL and VFX Graph](https://jettelly.com/blog/a-dissolve-effect-in-unity-using-hlsl-and-vfx-graph): Dissolve shader paired with VFX Graph so particles spawn only around the dissolving region. (Jettelly, 2026-07-27, article, Unity-6 era)
@@ -9,6 +9,7 @@
 - [Glitchy Textmeshpro Shader](https://www.patreon.com/posts/custom-shader-114938130): Patreon post on a glitchy TextMeshPro shader. (MinionsArt, 2024-10-01, post, Unity-6 era)
 - [Fun with Wireframe shaders](https://www.patreon.com/posts/fun-with-shaders-103077771): Patreon post on wireframe shader effects, including dissolve variants. (MinionsArt, 2024-05-01, post, Unity-2022 era)
 - [Pokémon's Terastallize Effect in Shader Graph](https://danielilett.com/2024-04-10-tut7-10-terastal-effect/): Turns meshes into crystal by triangulating them and using random vectors for lighting, like Pokemon's Terastallize. (Daniel Ilett, 2024-04-10, article, Unity-2022 era)
+- [MGS Stealth Camo in Shader Graph](https://danielilett.com/2024-03-26-tut7-9-mgs-stealth-camo/): Distorts the scene behind a mesh with Scene Color and a green tint for Metal Gear-style stealth camo. (Daniel Ilett, 2024-03-26, article, Unity-2022 era)
 - [Unity Glitch Effect Patreon post](https://www.patreon.com/posts/unity-glitchy-94335880): Patreon post on a glitchy effect in Unity. (2023-11-18, post, Unity-2022 era)
 - [GitHub - sichenn/odradek-terrain-scanner: Odradek Terrain Scanner from Death Stranding (Unity)](https://github.com/sichenn/odradek-terrain-scanner): Repo: Death Stranding Odradek terrain scanner effect in Unity. (2023-04-30, repo, Unity-2022 era)
 - [Energy Shield Hologram in Unity Shader Graph](https://danielilett.com/2023-02-09-tut6-3-energy-shield/): Builds a reactive energy shield hologram in Shader Graph. (Daniel Ilett, 2023-02-09, article, Unity-2022 era)
