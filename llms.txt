@@ -1,6 +1,6 @@
 # GamedevJelly
 
-> 1,637 hand-filtered guides, videos and posts plus 42 repos, 52 assets and 18 books. Outdated and obsolete links were removed; the focus is Unity 6.
+> 1,637 hand-filtered guides, videos and posts plus 42 repos, 52 assets and 18 books. Outdated and obsolete links were removed; the focus is current Unity.
 
 Use this when building something in Unity (shaders, VFX, gameplay systems, tools, performance) and you want vetted references: find the best guides, repos, assets and books first, then read the most relevant ones before writing code.
 
