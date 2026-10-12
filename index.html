@@ -78,6 +78,7 @@ button { font: inherit; color: inherit; }
 
 main { padding: 20px 24px 60px; min-width: 0; }
 .head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; margin-bottom: 14px; }
+.head h2.dup { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }   /* title repeats the active tab */
 .head h2 { font: 800 clamp(26px, 3.4vw, 38px)/1.05 var(--f-display); letter-spacing: -.025em; margin: 0; text-wrap: balance; }
 .head p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
 .head p b { color: var(--fg); font-variant-numeric: tabular-nums; }
@@ -896,6 +897,7 @@ body.vt .enter { animation: none; }
     const ini = name.replace(/[^A-Za-z0-9 ]/g, ' ').trim().split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0].toUpperCase()).join('') || '?';
     return `<span class="av" style="background:hsl(${hash(name) % 360} 45% 42%)" aria-hidden="true">${ini}</span>`;
   };
+  new MutationObserver(() => { const t = $('#title'); t.classList.toggle('dup', ['Home', 'Topics', 'Creators', 'Repos', 'Assets', 'Books'].includes(t.textContent)); }).observe($('#title'), { childList: true, characterData: true, subtree: true });
   $('#libnav').innerHTML = `
     <button class="cat" data-cat="" aria-pressed="true"><span class="em">◆</span><span class="nm">Home</span><span class="ct" id="allCt"></span></button>
     <button class="cat" data-cat="__saved" aria-pressed="false"><span class="em">★</span><span class="nm">Saved</span><span class="ct" id="savedCt">${saved.size}</span></button>
@@ -1413,7 +1415,7 @@ body.vt .enter { animation: none; }
     };
     $('#topicsPage').innerHTML = spot + `<div class="tjump" id="tjump">${groups.map(g => `<button data-jump="tg${g.gi}" style="--h:${hue(g)}">${esc(g.label)}</button>`).join('')}</div>` +
       groups.map(g => `<section class="tgroup" id="tg${g.gi}" style="--h:${hue(g)}"><div class="tghead"><span class="tgi">${GEM[g.label] || ''}</span><div><h2>${esc(g.label)}</h2><p>${esc(GDESC[g.label] || '')}</p></div><span class="tgc">${g.total.toLocaleString()} guides</span></div>
-        <div class="trowwrap"><div class="trow">${g.slugs.map(x => card(x, g)).join('')}</div><button class="trnav prev" data-trow="-1" aria-label="Scroll left">‹</button><button class="trnav next" data-trow="1" aria-label="Scroll right">›</button></div></section>`).join('');
+        <div class="trowwrap"><div class="trow">${g.slugs.map(x => card(x, g)).join('')}</div><button class="trnav prev" data-trow="-1" aria-label="Scroll left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="trnav next" data-trow="1" aria-label="Scroll right"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div></section>`).join('');
   }
   function renderCreatorsPage() {
     const { live, latest } = liveCounts();
@@ -1929,7 +1931,7 @@ body.vt .enter { animation: none; }
           ${o.ds ? `<p>${esc(o.ds)}</p>` : ''}<div class="hmeta">${esc(o.ch || o.host)}${tagOf(o) ? ' · ' : ''}${tagOf(o)}</div>
           <div class="hbtns"><button class="hgo" data-rel="${o.id}">Preview</button><a class="hopen" href="${esc(o.u)}" target="_blank" rel="noopener">Open ↗</a></div></div>
         <img class="himg" src="${esc(o.i)}" alt="" referrerpolicy="no-referrer" onerror="this.closest('.hslide').classList.add('noimg')"></article>`).join('')}
-      <button class="hnav prev" aria-label="Previous">‹</button><button class="hnav next" aria-label="Next">›</button>
+      <button class="hnav prev" aria-label="Previous"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="hnav next" aria-label="Next"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
       <div class="hdots">${picked.map((_, n) => `<button aria-label="Slide ${n + 1}"${n === 0 ? ' class="on"' : ''}></button>`).join('')}</div></div>`;
     const box = heroEl.querySelector('.hbanner'), slides = [...box.querySelectorAll('.hslide')], dots = [...box.querySelectorAll('.hdots button')];
     const show = n => { heroIdx = (n + slides.length) % slides.length; slides.forEach((x, k) => { x.classList.toggle('on', k === heroIdx); x.setAttribute('aria-hidden', String(k !== heroIdx)); }); dots.forEach((d, k) => d.classList.toggle('on', k === heroIdx)); };
