@@ -1,0 +1,29 @@
+:root { --bg: #fff; --fg: #181b26; --muted: #5d6478; --line: #e1e4ed; --surface: #f5f6fa; --accent: #4a4fd1; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0d1017; --fg: #e8eaf2; --muted: #98a0b6; --line: #232838; --surface: #151a25; --accent: #8c90ff; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, -apple-system, Segoe UI, sans-serif; }
+a { color: var(--accent); }
+.top { display: flex; align-items: center; gap: 24px; padding: 14px max(16px, calc((100vw - 760px) / 2)); border-bottom: 1px solid var(--line); }
+.top nav { display: flex; gap: 16px; margin-left: auto; font-size: 14px; }
+.brand b { color: var(--accent); }
+.brand { font-weight: 800; font-size: 20px; letter-spacing: -.02em; text-decoration: none; color: var(--fg); }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 60px; }
+.crumbs { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+h1 { font-size: 30px; line-height: 1.15; letter-spacing: -.02em; margin: 0 0 8px; }
+h2 { font-size: 18px; margin: 28px 0 8px; }
+.lede { color: var(--muted); margin: 0 0 18px; }
+.cta { display: inline-block; padding: 8px 14px; border-radius: 8px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; font-size: 14px; }
+@media (prefers-color-scheme: dark) { .cta { color: #0d1017; } }
+ul.links { list-style: none; padding: 0; margin: 18px 0; }
+ul.links li { padding: 12px 0; border-bottom: 1px solid var(--line); }
+ul.links a { font-weight: 600; text-decoration: none; }
+ul.links p { margin: 4px 0; color: var(--fg); opacity: .85; font-size: 15px; }
+ul.links small { color: var(--muted); font: 12px ui-monospace, monospace; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+.badges span { border: 1px solid var(--line); border-radius: 999px; padding: 2px 10px; font-size: 12.5px; color: var(--muted); }
+pre { background: var(--surface); padding: 10px 12px; border-radius: 8px; overflow-x: auto; white-space: pre-wrap; word-break: break-all; font-size: 13px; }
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); list-style: none; padding: 0; }
+.grid li { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; background: var(--surface); }
+.grid a { font-weight: 700; text-decoration: none; }
+.grid p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+footer { text-align: center; color: var(--muted); font-size: 13px; padding: 24px; border-top: 1px solid var(--line); }
