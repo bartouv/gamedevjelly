@@ -898,7 +898,6 @@ body.vt .enter { animation: none; }
   $('#libnav').innerHTML = `
     <button class="cat" data-cat="" aria-pressed="true"><span class="em">◆</span><span class="nm">Home</span><span class="ct" id="allCt"></span></button>
     <button class="cat" data-cat="__saved" aria-pressed="false"><span class="em">★</span><span class="nm">Saved</span><span class="ct" id="savedCt">${saved.size}</span></button>
-    <button class="cat" data-cat="__new" aria-pressed="false"><span class="em">✚</span><span class="nm">New this month</span><span class="ct" id="newCt"></span></button>
     ${ADMIN && /[?&]admin\b/.test(location.search) ? `<div class="adm">
       <button class="cat" data-cat="__review" aria-pressed="false"><span class="em">◐</span><span class="nm">Needs review</span><span class="ct" id="reviewCt"></span></button>
       <button class="cat" data-cat="__removed" aria-pressed="false"><span class="em">⌫</span><span class="nm">Removed</span><span class="ct" id="removedCt"></span></button></div>` : ''}`;
@@ -1047,7 +1046,8 @@ body.vt .enter { animation: none; }
     if (ac) { document.body.classList.remove('rail-open'); state.acat = ac.dataset.acat || null; go('__assets'); return; }
     const b = e.target.closest('.cat'); if (!b || b.dataset.path) return;   // path buttons are handled by the page-wide click handler
     document.body.classList.remove('rail-open');
-    go(b.dataset.cat || null);
+    const toggle = ['__saved', '__new', '__review', '__removed'].includes(b.dataset.cat) && b.getAttribute('aria-pressed') === 'true';   // pressing an active filter turns it off
+    go(toggle ? null : (b.dataset.cat || null));
   });
   nav.querySelector('.tabs').addEventListener('keydown', e => {
     if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
@@ -1617,7 +1617,6 @@ body.vt .enter { animation: none; }
     relEl.innerHTML = 'Narrow down: ' + top.map(([g, n]) => `<button class="chip" data-tag="${g}">${esc(prettyName(catBySlug[g]).split(' · ')[0])} <span class="n">${n}</span></button>`).join('');
 
     $('#allCt').textContent = items.filter(i => !i.dup && fate(i) !== 'remove' && FMT_OF[i.src] !== 'repo').length;
-    $('#newCt').textContent = items.filter(i => isNew(i) && !i.dup && fate(i) !== 'remove').length;
     // topic & creator counts: live links only (no removed links, no merged duplicates)
     const { live } = liveCounts();
     nav.querySelectorAll('.cat[data-cat]').forEach(b => {
