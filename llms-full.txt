@@ -831,11 +831,13 @@
 ## Engineering
 
 
-### C# & architecture (103 guides; slug `csharp-architecture`)
+### C# & architecture (106 guides; slug `csharp-architecture`)
 - [Unity Is Replacing Your Runtime. Are You Ready?](https://www.youtube.com/watch?v=yCyuLvA_g74): What Unity's move from Mono to CoreCLR changes in practice, including what may break builds or workflows. (Gamedev Engine Room, 2026-10-08, video, Unity-6 era)
+- [High Performance Unity Game Development: using data-oriented design (Manning)](https://manning.com/books/high-performance-unity-game-development): The book behind the data-oriented design approach: structure a Unity game around arrays of data and pure logic for high frame rates on limited hardware. (Nitzan Wilnai, 2026-10-01, article, Unity-6 era)
 - [The Real Reason Unity Is Finally Dropping Mono](https://www.youtube.com/watch?v=ojM9tgbcbwU): Explains Unity's scripting backends, Mono versus IL2CPP, and why the CoreCLR move is coming. (Gamedev Engine Room, 2026-09-23, video, Unity-6 era)
 - [Scriptable Objects Aren't Just Data Holders](https://www.youtube.com/watch?v=UmcUHOk9fX4): Goes beyond data containers to show ScriptableObjects used for architecture, events and behavior in Unity. (Gamedev Engine Room, 2026-08-26, video, Unity-6 era)
 - [Press vs Hold Interactions in Unity (With Conditions)](https://www.youtube.com/watch?v=x8hI2GjmIAE): Build a scalable unity interaction system using interfaces. Learn to create flexible code for doors, chests, and terminals. (git-amend, 2026-08-16, video, Unity-6 era)
+- [Data-oriented design: a Claude skill based on Nitzan Wilnai's book](https://github.com/Data-Oriented-Design-for-Games/data-oriented-design): A language-agnostic skill that applies the book's data/logic/memory rules to your own game code. (Nitzan Wilnai, 2026-07-21, repo, Unity-6 era)
 - [10 More Extension Methods Every Unity Developer Needs](https://www.youtube.com/watch?v=Ix_dchQ2XAQ): Writing clean code in Unity often requires repetitive boilerplate. This tutorial demonstrates 10 C# extension methods that reduce complexity in your scripts. Whether you are accessing components frequ (git-amend, 2026-07-12, video, Unity-6 era)
 - [How to Manage Scenes in Unity Games](https://www.youtube.com/watch?v=dfZ9mCgF5WI): Covers how to structure, load and manage multiple scenes in a Unity game. (Gamedev Engine Room, 2026-07-02, video, Unity-6 era)
 - [How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY): How 150 roguelike perks were structured in code so modifiers stack and stay maintainable. (Game Maker's Toolkit, 2026-06-25, video, Unity-6 era)
@@ -855,11 +857,10 @@
 - [Unity Input System: Type Safety with Generated Code (Part 3)](https://www.youtube.com/watch?v=A2Zlc1m1yfs): Uses generated C# classes in the Unity Input System for type-safe input handling. (Gamedev Engine Room, 2026-02-16, video, Unity-6 era)
 - [Unity Input System: Assets, Maps & Interactions (Part 2)](https://www.youtube.com/watch?v=dZQ85dp3w6s): Covers Input System assets, action maps and interactions like hold and tap in Unity. (Gamedev Engine Room, 2026-02-11, video, Unity-6 era)
 - [I Upgraded Unity to C# 14 - Here's What Changed](https://www.youtube.com/watch?v=9BO4gkp90Do): Walks through upgrading Unity to C# 14 and which language features actually change your code. (Gamedev Engine Room, 2026-01-28, video, Unity-6 era)
-- [NuGet in Unity: The Definitive Guide](https://www.youtube.com/watch?v=6mMnvk7hfHg): Explains how to use NuGet packages in Unity projects, with setup options and pitfalls. (Gamedev Engine Room, 2026-01-07, video, Unity-6 era)
-- [Unity Metaprogramming: Reflection, Source Generators, IL Weaving](https://www.youtube.com/watch?v=Omi2V-JuYLg): Compares Unity metaprogramming techniques: reflection, Roslyn source generators, IL weaving and Reflection.Emit. (Gamedev Engine Room, 2025-12-30, video, Unity-6 era)
 
-### Performance & optimization (103 guides; slug `performance`)
+### Performance & optimization (106 guides; slug `performance`)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
+- [High Performance Unity Game Development: using data-oriented design (Manning)](https://manning.com/books/high-performance-unity-game-development): The book behind the data-oriented design approach: structure a Unity game around arrays of data and pure logic for high frame rates on limited hardware. (Nitzan Wilnai, 2026-10-01, article, Unity-6 era)
 - [Scaling Scritchy Scratchy Across Platforms](https://unity.com/blog/scaling-scritchy-scratchy-across-platforms): Porting a game across PC, mobile and Switch while keeping performance and tactile gameplay. (Unity, 2026-09-28, article, Unity-6 era)
 - [Optimizing Deep Rock Galactic: Survivor for Mobile](https://unity.com/blog/optimizing-deep-rock-galactic-survivor-for-mobile): Mobile port techniques: flow field navigation, KD-tree queries, GPU-driven rendering, Burst jobs and Addressables. (Unity, 2026-09-18, article, Unity-6 era)
 - [The One Line That Keeps Assets Out of Your Build](https://www.youtube.com/watch?v=XID2zfC8T-w): Resources.Load = in build. Using Unity's new Content Directories you can lower build size, improve load speed, and lower memory usage! (LlamAcademy, 2026-09-17, video, Unity-6 era)
@@ -867,6 +868,7 @@
 - [Using the NEW Unity Content Directory | Unity Tutorial](https://www.youtube.com/watch?v=acOJUAjwM0M): Unity Content Directory is a powerful new tool in Unity 6.6 to help us optimize how we load assets at runtime. This is a first look at using it to replace using Resources.Load to optimize build size a (LlamAcademy, 2026-09-08, video, Unity-6 era)
 - [Unity CoreCLR is here, BUT there is an issue...](https://www.youtube.com/watch?v=MlTXhUx8WMg): ⌚ Time stamps for key topics ⌚ (Turbo Makes Games, 2026-09-03, video, Unity-6 era)
 - [Deploying and Optimizing UG for Meta Quest](https://unity.com/blog/deploying-and-optimizing-ug-for-meta-quest): Scalable networking, rapid deployment workflows and VR performance tuning for Meta Quest. (Unity, 2026-07-28, article, Unity-6 era)
+- [Data-oriented design: a Claude skill based on Nitzan Wilnai's book](https://github.com/Data-Oriented-Design-for-Games/data-oriented-design): A language-agnostic skill that applies the book's data/logic/memory rules to your own game code. (Nitzan Wilnai, 2026-07-21, repo, Unity-6 era)
 - [Fix Physics Performance In Large Unity Scenes](https://www.youtube.com/watch?v=2wl2t-p35kA): Fixes physics performance problems in large Unity scenes. (Game Dev Guide, 2026-06-11, video, Unity-6 era)
 - [How to Build Realistic AI Perception and Memory in Unity](https://www.youtube.com/watch?v=IspRyEDPCgM): Building a clean implementation of the Target Tracks Perception System from Game AI Pro. Instead of giving AI agents perfect information, we create a system where they can only perceive what they see (git-amend, 2026-06-07, video, Unity-6 era)
 - [Building Westeros For Mobile in Game of Thrones: Dragonfire](https://unity.com/blog/building-westeros-for-mobile-in-game-of-thrones-dragonfire): Optimizing a mobile RPG with scalable multiplayer, faster load times and Unity tools. (Unity, 2026-06-05, article, Unity-6 era)
@@ -882,8 +884,6 @@
 - [Ghost Textures: The Hidden Cause of Unexplained Memory](https://bartouv.github.io/articles/ghost-textures-hidden-cause-of-unexplained-memory.html): Stale texture references inside .mat files silently drag unintended asset bundles into memory at runtime. Learn how to detect and eliminate ghost textures with a simple editor tool. (Gal Bartouv, 2026-03-01, article, Unity-6 era)
 - [Unity 6.2 -> 6.3 Upgrade: 5 Reasons Your Frame Time (and Build Times) Might Finally Chill](https://thegamedev.guru/unity-upgrades/unity-6-2-to-6-3-upgrade-5-reasons-your-frame-time-and-build-times-might-finally-chill/): Lists reasons upgrading from Unity 6.2 to 6.3 may improve frame time and build times. (GameDevGuru, 2026-02-18, article, Unity 6)
 - [Unity 6.2 vs 6.1: Worth the Upgrade?](https://thegamedev.guru/unity-upgrades/unity-6-2-vs-6-1-worth-the-upgrade/): Reviews Unity 6.2's performance improvements against 6.1 to decide if upgrading is worthwhile. (GameDevGuru, 2026-02-18, article, Unity 6)
-- [Unity Performance Expertise](https://thegamedev.guru/): Performance-focused Unity site with guides and tutorials by The Gamedev Guru. (GameDevGuru, 2026-02-13, article, Unity-6 era)
-- [Unity Draw Call Batching: The Ultimate Guide (2026 Update)](https://thegamedev.guru/unity-performance/draw-call-optimization/): Guide to cutting Unity draw calls and SetPass calls with batching, material sharing and static batching. (GameDevGuru, 2026-02-13, article, Unity-6 era)
 
 ### DOTS, ECS, Jobs & Burst (20 guides; slug `dots`)
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
@@ -1237,45 +1237,46 @@
 - [MessagePipe](https://github.com/Cysharp/MessagePipe) (Async & reactive, ★2002, last push 2026-10-07): You need an in-process pub/sub or mediator that works with DI containers.
 - [ZString](https://github.com/Cysharp/ZString) (Serialization & data, ★2815, last push 2026-10-07): You build strings every frame and want zero allocations.
 - [MemoryPack](https://github.com/Cysharp/MemoryPack) (Serialization & data, ★4753, last push 2026-10-07): You need very fast binary serialization for save data or networking.
-- [MessagePack-CSharp](https://github.com/MessagePack-CSharp/MessagePack-CSharp) (Serialization & data, ★6788, last push 2026-10-09): You want compact, fast MessagePack serialization with Unity (IL2CPP) support.
+- [MessagePack-CSharp](https://github.com/MessagePack-CSharp/MessagePack-CSharp) (Serialization & data, ★6788, last push 2026-10-12): You want compact, fast MessagePack serialization with Unity (IL2CPP) support.
 - [MagicOnion](https://github.com/Cysharp/MagicOnion) (Networking & backend, ★4454, last push 2026-10-07): You want type-safe RPC between a Unity client and a C# server.
 - [VContainer](https://github.com/hadashiA/VContainer) (Dependency injection, ★3072, last push 2026-10-06): You want a fast, lightweight DI container with low GC pressure. Install: https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer
 - [Reflex](https://github.com/gustavopsantos/Reflex) (Dependency injection, ★1634, last push 2026-10-10, Unity 7: ok): You want a minimal DI container with a small API.
 - [Zenject](https://github.com/modesttree/Zenject) (Dependency injection, ★2940, last push 2024-01-26): You use Zenject. Its last push was Jan 2024; the maintained Extenject fork (below) is the one to install for new work.
 - [PrimeTween](https://github.com/KyryloKuzyk/PrimeTween) (UI & tweening, ★2003, last push 2026-07-18): You want allocation-free tweens and sequences in one line.
 - [dotween](https://github.com/Demigiant/dotween) (UI & tweening, ★2690, last push 2026-07-26, Unity 7: wip): You want the long-standing tween library; free tier, with a paid Pro add-on.
-- [SoftMaskForUGUI](https://github.com/mob-sakai/SoftMaskForUGUI) (UI & tweening, ★2832, last push 2026-08-27): You need soft (alpha) masks in uGUI.
-- [UIEffect](https://github.com/mob-sakai/UIEffect) (UI & tweening, ★7680, last push 2026-08-27): You want shader-based effects (shadow, gradient, dissolve, blur) on uGUI.
+- [SoftMaskForUGUI](https://github.com/mob-sakai/SoftMaskForUGUI) (UI & tweening, ★2833, last push 2026-08-27): You need soft (alpha) masks in uGUI.
+- [UIEffect](https://github.com/mob-sakai/UIEffect) (UI & tweening, ★7681, last push 2026-08-27): You want shader-based effects (shadow, gradient, dissolve, blur) on uGUI.
 - [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) (Editor & debugging, ★5220, last push 2026-09-16): You want inspector attributes (ShowIf, Button, Foldout) without writing editors. Install: https://github.com/dbrizov/NaughtyAttributes.git#upm
 - [graphy](https://github.com/Tayx94/graphy) (Editor & debugging, ★2909, last push 2026-08-29): You want an on-screen FPS, memory and audio overlay in builds.
 - [Harmony](https://github.com/pardeike/Harmony) (Editor & debugging, ★6683, last push 2026-10-11): You need to patch .NET methods at runtime, mostly for modding.
-- [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) (Official source & samples, ★13022, last push 2026-10-08): You want to read Unity's C# source for the engine and editor.
+- [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) (Official source & samples, ★13023, last push 2026-10-08): You want to read Unity's C# source for the engine and editor.
 - [Graphics](https://github.com/Unity-Technologies/Graphics) (Official source & samples, ★3012, last push 2026-09-29): You want the source and samples for URP, HDRP, Shader Graph and VFX Graph.
-- [InputSystem](https://github.com/Unity-Technologies/InputSystem) (Official source & samples, ★1527, last push 2026-10-07, Unity 7: ok): You use the new Input System and want its source and issues.
+- [InputSystem](https://github.com/Unity-Technologies/InputSystem) (Official source & samples, ★1527, last push 2026-10-12, Unity 7: ok): You use the new Input System and want its source and issues.
 - [Unity.Mathematics](https://github.com/Unity-Technologies/Unity.Mathematics) (Official source & samples, ★1441, last push 2026-08-06): You want Burst-friendly math types (float3, quaternion, noise).
 - [EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) (Official source & samples, ★8202, last push 2026-10-11): You are learning DOTS/ECS and want official samples.
 - [SpaceshipDemo](https://github.com/Unity-Technologies/SpaceshipDemo) (Official source & samples, ★1182, last push 2025-10-24): You want a full HDRP showcase project to read and learn from.
 - [BoatAttack](https://github.com/Unity-Technologies/BoatAttack) (Official source & samples, ★2797, last push 2025-12-05): You want a URP showcase project (water, boats, race game).
-- [com.unity.netcode.gameobjects](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects) (Networking & backend, ★2323, last push 2026-10-12, Unity 7: ok): You want Unity's official GameObject-based multiplayer.
+- [com.unity.netcode.gameobjects](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects) (Networking & backend, ★2324, last push 2026-10-12, Unity 7: ok): You want Unity's official GameObject-based multiplayer.
 - [Mirror](https://github.com/MirrorNetworking/Mirror) (Networking & backend, ★6356, last push 2026-09-19): You want a mature, community-driven multiplayer framework.
 - [FishNet](https://github.com/FirstGearGames/FishNet) (Networking & backend, ★2065, last push 2026-10-09): You want a feature-rich networking framework with prediction support.
 - [YarnSpinner-Unity](https://github.com/YarnSpinnerTool/YarnSpinner-Unity) (Dialogue, ★838, last push 2026-09-30): You want a dialogue scripting language with Unity integration.
 - [ink-unity-integration](https://github.com/inkle/ink-unity-integration) (Dialogue, ★723, last push 2026-07-08): You want to run inkle's ink narrative scripts in Unity.
 - [unity-builder](https://github.com/game-ci/unity-builder) (CI & build, ★1101, last push 2026-09-16): You want to build Unity projects in GitHub Actions.
-- [unity-mcp](https://github.com/CoplayDev/unity-mcp) (AI & agents, ★14861, last push 2026-10-08, Unity 7: ok): You want an AI client (Claude, Cursor, etc.) to drive the Unity Editor over MCP. Most popular option.
-- [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (AI & agents, ★4421, last push 2026-10-11): You want an MCP bridge between AI agents and the Unity Editor and runtime.
+- [unity-mcp](https://github.com/CoplayDev/unity-mcp) (AI & agents, ★14875, last push 2026-10-08, Unity 7: ok): You want an AI client (Claude, Cursor, etc.) to drive the Unity Editor over MCP. Most popular option.
+- [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (AI & agents, ★4424, last push 2026-10-11): You want an MCP bridge between AI agents and the Unity Editor and runtime.
 - [StableFluids](https://github.com/keijiro/StableFluids) (Rendering & VFX, ★1171, last push 2025-08-28): You want a GPU implementation of Stam's Stable Fluids.
 - [Marching-Cubes](https://github.com/SebLague/Marching-Cubes) (Learning repos, ★1121, last push 2019-07-11): You want the marching cubes algorithm in Unity.
 - [UniState](https://github.com/bazyleu/UniState) (Gameplay & AI, ★253, last push 2026-09-16): You need a scalable, async state machine for game flow, UI or characters without writing glue code. Install: https://github.com/bazyleu/UniState.git?path=Assets/UniState
 - [MGenerators](https://github.com/Engine-Room-Games/MGenerators) (C# & performance, ★14, last push 2026-05-30): You want Roslyn source generators to remove boilerplate around common gameplay patterns.
 - [MLock](https://github.com/migus88/MLock) (Gameplay & AI, ★8, last push 2025-08-18): You need to lock and unlock gameplay elements (input, doors, abilities) through configurable tags.
 - [MPath](https://github.com/migus88/MPath) (Gameplay & AI, ★16, last push 2026-06-24): You need fast A* pathfinding on a 2D grid, in Unity or plain .NET.
-- [PurrNet](https://github.com/PurrNet/PurrNet) (Networking & backend, ★691, last push 2026-10-08): You are choosing a Unity networking solution and want a modern, high-level alternative to Netcode for GameObjects. Install: https://github.com/PurrNet/PurrNet.git?path=/Assets/PurrNet#release
+- [PurrNet](https://github.com/PurrNet/PurrNet) (Networking & backend, ★691, last push 2026-10-12): You are choosing a Unity networking solution and want a modern, high-level alternative to Netcode for GameObjects. Install: https://github.com/PurrNet/PurrNet.git?path=/Assets/PurrNet#release
 - [OneOf](https://github.com/mcintyre321/OneOf) (C# & performance, ★4058, last push 2026-09-27): You want F#-style discriminated unions with exhaustive matching in C#.
 - [UniText](https://github.com/LightSideKittens/UniText) (UI & tweening, ★708, last push 2026-09-24): You need a text engine that handles every language, emoji and style beyond what TextMeshPro covers.
 - [GenJson](https://github.com/PereViader/GenJson) (Serialization & data, ★27, last push 2026-09-19): You want fast, allocation-light, source-generated JSON in Unity or plain C#.
 - [LinqGen](https://github.com/cathei/LinqGen) (C# & performance, ★316, last push 2024-07-07): You want LINQ-style queries without allocations, using code generation. Install: https://github.com/cathei/LinqGen.git?path=LinqGen.Unity/Packages/com.cathei.linqgen
 - [Fluid Behavior Tree](https://github.com/ashblue/fluid-behavior-tree) (Gameplay & AI, ★1184, last push 2026-05-08): You need behaviour trees for enemy or NPC AI with a code-first builder API.
+- [Data-Oriented Design (Claude skill)](https://github.com/Data-Oriented-Design-for-Games/data-oriented-design) (AI & agents, ★8, last push 2026-07-21): You want Claude to apply data-oriented design to your game code, following Nitzan Wilnai's book.
 
 ## Assets
 - [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570) by Amplify Creations (Shaders & look, 80.0): You want to build shaders visually with nodes, across render pipelines.
@@ -1350,3 +1351,9 @@
 - [Optimize your game performance for consoles and PCs in Unity](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) by Unity (free, Advanced): Performance tips for PC and console projects.
 - [Ultimate guide to profiling Unity games](https://unity.com/resources/ultimate-guide-to-profiling-unity-games) by Unity (free, Intermediate): Profiling workflows, memory management and power optimization with Unity's tools.
 - [Best practices for project organization and version control](https://unity.com/resources/best-practices-version-control-unity-6) by Unity (free, Intermediate): Version control concepts, a comparison of common systems and Unity's DevOps tools.
+- [Game Programming Patterns](https://gameprogrammingpatterns.com/) by Robert Nystrom (free, 2014, Intermediate): You want the patterns behind game code (state machines, observers, object pools, game loops) explained with clear examples. Free to read online.
+- [Game Engine Architecture, Third Edition](https://oreilly.com/library/view/game-engine-architecture/9781351974271) by Jason Gregory (CRC Press, 2018, Intermediate to advanced): You want to understand how a whole engine fits together: memory, rendering, animation, physics, concurrency. Written by a Naughty Dog engineer.
+- [Game Coding Complete, Fourth Edition](https://www.cengage.com/c/game-coding-complete-4e-mcshaffry/9781133776574/) by Mike McShaffry and David Graham (Cengage, 2012, Intermediate): You want a start-to-finish tour of what goes into shipping a game: architecture, resources, input, audio, AI, debugging.
+- [Learning Design Patterns with Unity](https://www.oreilly.com/library/view/learning-design-patterns/9781805120285) by Harrison Ferrone (Packt, 2024, Intermediate to advanced): You want to apply Singleton, Observer, Factory, Visitor, Decorator and other patterns in Unity projects without over-engineering.
+- [Unity Game Optimization, Third Edition](https://www.oreilly.com/library/view/-/9781838556518) by Davide Aversa and Chris Dickinson (Packt, 2019, Intermediate to advanced): You want a systematic guide to finding and fixing performance problems in scripting, rendering, memory and physics.
+- [High Performance Unity Game Development](https://manning.com/books/high-performance-unity-game-development) by Nitzan Wilnai (Manning, 2026, Intermediate to advanced): You want to architect a Unity game around data-oriented design for high frame rates without relying on an ECS framework.

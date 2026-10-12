@@ -1,11 +1,13 @@
 # C# & architecture
 
-> Engineering · 103 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 106 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Is Replacing Your Runtime. Are You Ready?](https://www.youtube.com/watch?v=yCyuLvA_g74): What Unity's move from Mono to CoreCLR changes in practice, including what may break builds or workflows. (Gamedev Engine Room, 2026-10-08, video, Unity-6 era)
+- [High Performance Unity Game Development: using data-oriented design (Manning)](https://manning.com/books/high-performance-unity-game-development): The book behind the data-oriented design approach: structure a Unity game around arrays of data and pure logic for high frame rates on limited hardware. (Nitzan Wilnai, 2026-10-01, article, Unity-6 era)
 - [The Real Reason Unity Is Finally Dropping Mono](https://www.youtube.com/watch?v=ojM9tgbcbwU): Explains Unity's scripting backends, Mono versus IL2CPP, and why the CoreCLR move is coming. (Gamedev Engine Room, 2026-09-23, video, Unity-6 era)
 - [Scriptable Objects Aren't Just Data Holders](https://www.youtube.com/watch?v=UmcUHOk9fX4): Goes beyond data containers to show ScriptableObjects used for architecture, events and behavior in Unity. (Gamedev Engine Room, 2026-08-26, video, Unity-6 era)
 - [Press vs Hold Interactions in Unity (With Conditions)](https://www.youtube.com/watch?v=x8hI2GjmIAE): Build a scalable unity interaction system using interfaces. Learn to create flexible code for doors, chests, and terminals. (git-amend, 2026-08-16, video, Unity-6 era)
+- [Data-oriented design: a Claude skill based on Nitzan Wilnai's book](https://github.com/Data-Oriented-Design-for-Games/data-oriented-design): A language-agnostic skill that applies the book's data/logic/memory rules to your own game code. (Nitzan Wilnai, 2026-07-21, repo, Unity-6 era)
 - [10 More Extension Methods Every Unity Developer Needs](https://www.youtube.com/watch?v=Ix_dchQ2XAQ): Writing clean code in Unity often requires repetitive boilerplate. This tutorial demonstrates 10 C# extension methods that reduce complexity in your scripts. Whether you are accessing components frequ (git-amend, 2026-07-12, video, Unity-6 era)
 - [How to Manage Scenes in Unity Games](https://www.youtube.com/watch?v=dfZ9mCgF5WI): Covers how to structure, load and manage multiple scenes in a Unity game. (Gamedev Engine Room, 2026-07-02, video, Unity-6 era)
 - [How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY): How 150 roguelike perks were structured in code so modifiers stack and stay maintainable. (Game Maker's Toolkit, 2026-06-25, video, Unity-6 era)
@@ -51,6 +53,7 @@
 - [Get Started with Mouse Clicks in Unity](https://www.youtube.com/watch?v=SUn-cGND4vc): Getting started with mouse clicks in Unity. (gamedev:hq, 2025-04-28, video, Unity-6 era)
 - [Access Unity's Hidden APIs With This Assembly Trick](https://www.youtube.com/watch?v=VZ6LMEU9Tjs): Accesses Unity's internal APIs using an assembly definition reference trick. (Game Dev Guide, 2025-02-11, video, Unity-6 era)
 - [C# Code Style Guide (Unity 6 edition)](https://unity.com/resources/c-sharp-style-guide-unity-6): C# style guide for Unity 6 teams: cleaner, scalable code and easier onboarding. (Unity, 2025-01-21, article, Unity-6 era)
+- [Can you spare some cache? Live data-oriented design benchmarks](https://nitzanwilnai.github.io/dod-benchmarks/): Self-contained HTML benchmark pages from his talk, showing how memory layout changes performance. (Nitzan Wilnai, 2025-01-01, article, Unity-6 era)
 - [Hierarchical AI state system from Bad North (thread)](https://bsky.app/profile/oskarstalberg.bsky.social/post/3lbekwegpfc2v): Thread on Bad North's nested state hierarchy AI, its cache-miss costs and a source-generated alternative. (Oskar Stålberg, 2024-11-20, post, Unity-6 era)
 - [Level up your code with design patterns and SOLID E-book](https://unity.com/resources/design-patterns-solid-ebook): Eleven programming patterns and SOLID principles in Unity, with a downloadable sample project. (Unity, 2024-07-23, article, Unity-2022 era)
 - [Delegates and Events in Unity](https://www.youtube.com/watch?v=U9xuVM6yGuo): Explains delegates and events in Unity C#. (gamedev:hq, 2023-09-22, video, Unity-2022 era)
