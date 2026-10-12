@@ -6,6 +6,7 @@ YouTube channel and training site offering Unity game development tutorials and 
 - site: http://gamedevhq.com/free
 - x: https://x.com/gamedevhq
 - discord: https://discordapp.com/invite/KhZ5GE5
+- linkedin: https://www.linkedin.com/in/jonweinberger
 
 - [A Beginner's Guide to Cabinet Doors in Unity](https://www.youtube.com/watch?v=yPucoDXaoeQ): Beginner guide to making openable cabinet doors in Unity. (gamedev:hq, 2025-11-13, video, Unity-6 era)
 - [Beginner's Guide to Exploding Tanks in Unity](https://www.youtube.com/watch?v=32KHX1yqStU): Beginner guide to making tanks explode in Unity. (gamedev:hq, 2025-11-06, video, Unity-6 era)

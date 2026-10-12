@@ -6,6 +6,7 @@ Official technical blog posts and free Unity 6 e-books from Unity: rendering, UR
 - youtube: https://www.youtube.com/@unity
 - x: https://x.com/unity
 - github: https://github.com/Unity-Technologies
+- linkedin: https://www.linkedin.com/company/unity
 
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [Unity External Dependency Manager: What You Need to Know About the Change](https://unity.com/blog/external-dependency-manager): How the External Dependency Manager replaces EDM4U for Android and iOS SDK dependencies. (Unity, 2026-09-29, article, Unity-6 era)
