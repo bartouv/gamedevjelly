@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suggest a resource · GamedevJelly</title>
+<meta name="description" content="Send in a guide, video, repo, asset, book or creator for the library.">
+<link rel="canonical" href="https://bartouv.github.io/gamedevjelly/suggest/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="GamedevJelly">
+<meta property="og:title" content="Suggest a resource · GamedevJelly"><meta property="og:description" content="Send in a guide, video, repo, asset, book or creator for the library."><meta property="og:url" content="https://bartouv.github.io/gamedevjelly/suggest/">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../static.css">
+<link rel="alternate" type="application/rss+xml" title="GamedevJelly: new links" href="/gamedevjelly/rss.xml">
+
+</head>
+<body>
+<header class="top"><a class="brand" href="/gamedevjelly/">Gamedev<b>Jelly</b></a><nav><a href="/gamedevjelly/">Browse all</a><a href="/gamedevjelly/repos/">Repos</a><a href="/gamedevjelly/assets/">Assets</a><a href="/gamedevjelly/books/">Books</a><a href="/gamedevjelly/suggest/">Suggest</a><a href="/gamedevjelly/about/">About</a></nav></header>
+<main>
+<p class="crumbs"><a href="/gamedevjelly/">Home</a></p>
+<h1>Suggest a resource</h1>
+<p class="lede">Know a guide, video, repo, asset, book or creator that belongs here? Send it in.</p>
+<form class="sform" id="sf">
+<label for="k">What is it?</label>
+<select id="k"><option>Guide or article</option><option>Video</option><option>Repo</option><option>Asset</option><option>Book</option><option>Creator or source</option></select>
+<label for="u">Link</label>
+<input id="u" type="url" required placeholder="https://">
+<label for="t">Title <small>Optional</small></label>
+<input id="t" type="text">
+<label for="w">Why is it good? <small>One or two lines: what you learn, which Unity version, whether you made it.</small></label>
+<textarea id="w"></textarea>
+<button type="submit">Open on GitHub to send</button>
+<small>This opens a pre-filled issue on GitHub, so you need a free GitHub account. Every suggestion is read and checked by hand before it is added.</small>
+</form>
+<script>
+document.getElementById('sf').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var g = function (i) { return document.getElementById(i).value.trim(); };
+  var title = 'Suggestion: ' + (g('t') || g('u'));
+  var body = '**Type:** ' + g('k') + '
+**Link:** ' + g('u') + '
+**Title:** ' + g('t') + '
+
+**Why it is good:**
+' + g('w') + '
+';
+  location.href = 'https://github.com/bartouv/gamedevjelly/issues/new?labels=suggestion&title=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(body);
+});
+</script>
+</main>
+<footer>GamedevJelly · Unity 6 guides, tutorials and repos, hand-filtered<br><a href="/gamedevjelly/suggest/">Suggest a resource</a> · <a href="/gamedevjelly/about/">About</a> · <a href="/gamedevjelly/privacy/">Privacy</a> · <a href="/gamedevjelly/rss.xml">RSS</a></footer>
+</body>
+</html>

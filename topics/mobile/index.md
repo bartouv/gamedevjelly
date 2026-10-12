@@ -1,12 +1,14 @@
 # Mobile
 
-> Platforms · 20 hand-filtered guides on GamedevJelly, newest first.
+> Platforms · 22 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity External Dependency Manager: What You Need to Know About the Change](https://unity.com/blog/external-dependency-manager): How the External Dependency Manager replaces EDM4U for Android and iOS SDK dependencies. (Unity, 2026-09-29, article, Unity-6 era)
 - [Scaling Scritchy Scratchy Across Platforms](https://unity.com/blog/scaling-scritchy-scratchy-across-platforms): Porting a game across PC, mobile and Switch while keeping performance and tactile gameplay. (Unity, 2026-09-28, article, Unity-6 era)
 - [DrakkenRidge: Building an open-world adventure for mobile VR](https://unity.com/blog/drakkenridge-building-open-world-mobile-vr-rpg-unity-ecs): Building a large open-world mobile VR RPG using Unity's Entity Component System. (Unity, 2026-09-08, article, Unity-6 era)
 - [Why I ALWAYS Use UI Scale Mode "Expand" in UI Toolkit](https://www.youtube.com/watch?v=DANRocoB8FA): Make your UI scale reasonably on all target aspect ratios and screen resolutions! (LlamAcademy, 2026-08-19, video, Unity-6 era)
 - [The DOTS/ECS Code of Tabletop Tavern - The Hot Path Show Ep. 59](https://www.youtube.com/watch?v=ne7mHiPTfqA): TJ's YouTube Channel: @TJGameDev (Turbo Makes Games, 2026-07-10, video, Unity-6 era)
+- [Sakura Rabbit: water effects for Unity URP on mobile](https://80.lv/articles/amazing-water-effects-for-unity-urp-on-mobile): A water shader demo made for URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-29, article, Unity-6 era)
+- [Sakura Rabbit: real-time snow coverage shader for URP on mobile](https://80.lv/articles/sakura-rabbit-built-a-real-time-snow-coverage-shader-for-unity-urp-on-mobile): Snow that builds up on surfaces in real time, running in URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-16, article, Unity-6 era)
 - [Building Westeros For Mobile in Game of Thrones: Dragonfire](https://unity.com/blog/building-westeros-for-mobile-in-game-of-thrones-dragonfire): Optimizing a mobile RPG with scalable multiplayer, faster load times and Unity tools. (Unity, 2026-06-05, article, Unity-6 era)
 - [Optimizing Battery Life in Monster Walk](https://unity.com/blog/optimizing-battery-life-in-monster-walk): Techniques for optimizing battery life in a step-counting mobile game. (Unity, 2026-06-02, article, Unity-6 era)
 - [Bringing My Talking Tom Friends 2 to Life with Animation and Physics](https://unity.com/blog/bringing-my-talking-tom-friends-2-to-life): Optimizing across devices, building a scalable animation system and managing content complexity in a mobile pet game. (Unity, 2025-11-25, article, Unity-6 era)

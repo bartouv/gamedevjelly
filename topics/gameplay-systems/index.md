@@ -1,9 +1,10 @@
 # Gameplay systems & mechanics
 
-> Gameplay & systems · 168 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 169 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
+- [Dialogue Sounds Toolkit for Unity is out](https://blog.febucci.com/2026/10/dialogue-sounds-toolkit-for-unity-is-out/): A toolkit for dialogue blips, typewriter sounds and customisable voice-like sound palettes for Unity characters. (Febucci, 2026-10-07, article, Unity-6 era)
 - [Swap Your Game's Content WITHOUT Rebuilding the Player](https://www.youtube.com/watch?v=U9y7Eq1eJxc): Unity Content Directory (new with Unity 6.6) is a powerful tool that allows you to swap the CONTENTS of your build without rebuilding the entire player - making faster iteration times. (LlamAcademy, 2026-09-14, video, Unity-6 era)
 - [A procedural wall system like StoneWorks in Unity](https://jettelly.com/blog/creating-a-procedural-wall-system-like-stoneworks-in-unity): Procedural stone wall building and real-time damage, inspired by StoneWorks. (Jettelly, 2026-08-31, article, Unity-6 era)
 - [Shifting Castle: procedural dungeon generator and combat systems breakdown](https://jettelly.com/blog/shifting-castle-dungeon-generation-and-combat-systems-breakdown): How a solo team built a procedural dungeon generator and combat system from scratch. (Jettelly, 2026-07-27, article, Unity-6 era)
@@ -151,4 +152,3 @@
 - [Object Management: Multiple Scenes](https://catlikecoding.com/unity/tutorials/object-management/multiple-scenes/): Object management tutorial on working with multiple scenes. (Catlike Coding, 2018-07-16, article, Unity-old era)
 - [Object Management: Object Variety](https://catlikecoding.com/unity/tutorials/object-management/object-variety/): Object management tutorial supporting multiple shapes, materials and colors. (Catlike Coding, 2018-05-15, article, Unity-old era)
 - [Object Management: Persisting Objects](https://catlikecoding.com/unity/tutorials/object-management/persisting-objects/): Object management tutorial on persisting object data between game sessions. (Catlike Coding, 2018-04-18, article, Unity-old era)
-- [Basics: Mathematical Surfaces](https://catlikecoding.com/unity/tutorials/basics/mathematical-surfaces/): Catlike Coding tutorial on describing mathematical surfaces and visualizing them with cubes. (Catlike Coding, 2018-01-10, article, Unity-old era)

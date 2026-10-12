@@ -6,12 +6,14 @@
 ## Shaders & rendering
 
 
-### Shader Graph (74 guides; slug `shader-graph`)
+### Shader Graph (79 guides; slug `shader-graph`)
 - [Unity Shader Graph Basics (Part 13 - Terrain Lit Official Support)](https://danielilett.com/2026-09-17-tut9-13-official-terrains/): Uses Unity 6.3's new Terrain Lit graph type and terrain nodes in Shader Graph. (Daniel Ilett, 2026-09-17, article, Unity 6)
 - [A lightning shader in Unity using a single material](https://jettelly.com/blog/building-a-lightning-shader-in-unity-using-a-single-material): One material produces main bolt, smaller branches and glow in a single lightning effect. (Jettelly, 2026-09-05, article, Unity-6 era)
 - [A real-time potion shader breakdown in Unity](https://jettelly.com/blog/a-real-time-potion-shader-breakdown-in-unity): Liquid that reacts to movement, built with C# and Shader Graph. (Jettelly, 2026-08-26, article, Unity-6 era)
 - [Unity map scanner VFX breakdown (ArtStation)](https://www.artstation.com/artwork/L4NGRk): Vladyslav Horobets' breakdown of a map scanner effect in Unity. (Jettelly, 2026-07-23, article, Unity-6 era)
+- [Sakura Rabbit: water effects for Unity URP on mobile](https://80.lv/articles/amazing-water-effects-for-unity-urp-on-mobile): A water shader demo made for URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-29, article, Unity-6 era)
 - [Custom Shader FX Nodes - No Boilerplate](https://www.youtube.com/watch?v=uFYLIdYXntk): Discover Unity 6.5’s powerful new Shader Function Reflection API. Write normal HLSL functions, add minimal boilerplate, and Unity automatically turns them into fully-featured Shader Graph nodes with p (git-amend, 2026-06-21, video, Unity-6 era)
+- [Sakura Rabbit: real-time snow coverage shader for URP on mobile](https://80.lv/articles/sakura-rabbit-built-a-real-time-snow-coverage-shader-for-unity-urp-on-mobile): Snow that builds up on surfaces in real time, running in URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-16, article, Unity-6 era)
 - [Unity Shader Graph Basics (Part 12 - Post Processing)](https://danielilett.com/2025-10-14-tut9-12-post-processing/): Reads screen contents with the Fullscreen graph type to build post-process effects in Shader Graph. (Daniel Ilett, 2025-10-14, article, Unity-6 era)
 - [Holofoil Cards in Shader Graph and Unity URP](https://danielilett.com/2025-10-13-tut11-01-holofoil-cards/): Makes Pokemon-style holofoil cards in Shader Graph using the stencil buffer and other tricks in URP. (Daniel Ilett, 2025-10-13, article, Unity-6 era, URP)
 - [Unity Shader Graph Basics (Part 11 - Terrains)](https://danielilett.com/2025-10-12-tut9-11-terrains/): Samples terrain control and splat textures in Shader Graph to shade Unity terrains. (Daniel Ilett, 2025-10-12, article, Unity-6 era)
@@ -20,6 +22,7 @@
 - [Adding Tessellation into URP Shader Graph](https://www.patreon.com/posts/adding-into-urp-130160596): Patreon post on adding tessellation to URP Shader Graph. (MinionsArt, 2025-05-01, post, Unity-6 era, URP)
 - [Create shaders and visual effects with URP (Unity 6)](https://unity.com/resources/create-shaders-visual-effects-urp-unity-6): E-book of recipes for making popular shaders and visual effects with URP in Unity 6. (Unity, 2025-03-26, article, Unity-6 era)
 - [World Position Changing Effects Video](https://youtu.be/xgDtQpu_pog): Demonstrates effects that change based on world position. (MinionsArt, 2025-02-01, video, Unity-6 era)
+- [Sakura Rabbit: realistic real-time rain shader in Unity 6](https://80.lv/articles/highly-realistic-rain-shader-set-up-in-unity-6/): Water droplets and puddles with ripples and accurate reflections in a cyberpunk scene, built in Unity 6. (Sakura Rabbit, 2024-12-16, article, Unity-6 era)
 - [Shoreline Shader Breakdown](https://www.cyanilux.com/tutorials/shoreline-shader-breakdown/): Breaks down water techniques for ocean waves crashing onto a shoreline in Shader Graph. (Cyan, 2024-12-04, article, Unity-6 era)
 - [Snow and Icicles Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118211037): Patreon post building snow and icicles in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
 - [Snow and Icicles Tessellation Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118519855): Patreon post building snow and icicles with tessellation in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
@@ -29,9 +32,6 @@
 - [Stylized Metal Shader Graph](https://www.patreon.com/posts/stylized-metal-111029610): Patreon post building a stylized metal shader in Shader Graph. (MinionsArt, 2024-08-01, post, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 10 - Custom Functions)](https://danielilett.com/2024-07-09-tut7-14-intro-to-shader-graph-part-10/): Injects custom HLSL functions into Shader Graph, including access to additional point light data. (Daniel Ilett, 2024-07-09, article, Unity-2022 era)
 - [Shader Graph Tutorial for Unity HDRP & URP | 2022 LTS](https://unity.com/blog/engine-platform/new-shader-graph-production-ready-shaders-in-unity-6): Building realistic environment materials with Shader Graph in HDRP and URP, using 25-plus ready-made assets. (Unity, 2024-07-09, article, Unity-2022 era)
-- [Worldspace Ground Fog Effect](https://www.patreon.com/posts/worldspace-fog-107004859): Patreon post on a world-space ground fog effect. (MinionsArt, 2024-06-01, post, Unity-2022 era)
-- [Unity Shader Graph Basics (Part 9 - Scene Intersections 2)](https://danielilett.com/2024-05-28-tut7-13-intro-to-shader-graph-part-9/): Uses scene intersections for foamy coastal water edges and glowing edges on passing objects. (Daniel Ilett, 2024-05-28, article, Unity-2022 era)
-- [Sun Beams / God Rays Shader Breakdown](https://www.cyanilux.com/tutorials/god-rays-shader-breakdown/): Breaks down a god rays shader using billboarded quads or particles for light shafts. (Cyan, 2024-05-22, article, Unity-2022 era)
 
 ### Shader code (HLSL) (152 guides; slug `shader-code`)
 - [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
@@ -114,11 +114,13 @@
 - [Shader Showcase Saturday #11: Return of the Obra Dinn](https://www.alanzucconi.com/2018/10/24/shader-showcase-saturday-11/): Analyzes the aesthetic of Return of the Obra Dinn and how to recreate it with shaders. (Alan Zucconi, 2018-10-24, article, Unity-old era)
 - [My take on shaders: Glitch image effect – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-glitch-image-effect/): Tutorial on building a glitch image effect. (2018-01-14, article, Unity-old era)
 
-### Render pipelines & SRP (56 guides; slug `render-pipelines`)
+### Render pipelines & SRP (58 guides; slug `render-pipelines`)
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Custom SRP 7.2: Separate Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-2/): Custom SRP tutorial introducing separate shadow passes. (Catlike Coding, 2026-09-18, article, Unity-6 era)
 - [Custom SRP 7.1: Splitting Shadow Code](https://catlikecoding.com/unity/custom-srp/7-1-0/): Custom SRP tutorial splitting directional and other shadow code. (Catlike Coding, 2026-08-19, article, Unity-6 era)
+- [Sakura Rabbit: water effects for Unity URP on mobile](https://80.lv/articles/amazing-water-effects-for-unity-urp-on-mobile): A water shader demo made for URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-29, article, Unity-6 era)
 - [Custom SRP 7.0: Unity 6.5](https://catlikecoding.com/unity/custom-srp/7-0-0/): Custom SRP tutorial upgrading to Unity 6.5. (Catlike Coding, 2026-06-26, article, Unity 6)
+- [Sakura Rabbit: real-time snow coverage shader for URP on mobile](https://80.lv/articles/sakura-rabbit-built-a-real-time-snow-coverage-shader-for-unity-urp-on-mobile): Snow that builds up on surfaces in real time, running in URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-16, article, Unity-6 era)
 - [Your PSO cache is only as good as your playthrough](https://thegamedev.guru/all/your-pso-cache-is-only-as-good-as-your-playthrough/): Explains how Unity 6.5's GraphicsStateCollection cache-miss collection reduces shader compile stutter on DX12, Vulkan and Metal. (GameDevGuru, 2026-06-01, article, Unity 6)
 - [Custom SRP 6.2 3D Color LUT](https://catlikecoding.com/unity/custom-srp/6-2-0/): Custom SRP tutorial creating a 3D color LUT. (Catlike Coding, 2026-04-10, article, Unity-6 era)
 - [Custom SRP 6.1: Showing Color LUT](https://catlikecoding.com/unity/custom-srp/6-1-0/): Custom SRP tutorial showing the color LUT for color grading. (Catlike Coding, 2026-03-27, article, Unity-6 era)
@@ -138,8 +140,6 @@
 - [Custom Post Processing with Render Graph](https://www.patreon.com/posts/custom-post-with-125382930): Patreon post on custom post processing using URP's Render Graph. (MinionsArt, 2025-03-01, post, Unity-6 era, URP)
 - [Custom Post Processing for Volumes in URP](https://www.patreon.com/posts/custom-post-for-123154106): Patreon post on custom post processing for URP volumes. (MinionsArt, 2025-02-01, post, Unity-6 era, URP)
 - [Custom SRP 4.0: Unity 6](https://catlikecoding.com/unity/custom-srp/4-0-0/): Custom SRP tutorial migrating to Unity 6. (Catlike Coding, 2024-11-22, article, Unity 6)
-- [@halisavakis.com: TotK-style fluid trails on volumetric height fog](https://bsky.app/profile/halisavakis.com/post/3l7yfdfrxi42b): Renders a sphere top-down into a buffer, then displaces and blends a custom render texture to leave distorted fog trails. (Harry Alisavakis, 2024-11-02, post, Unity-6 era)
-- [Unity 6 is here: See what's new](https://unity.com/blog/unity-6-features-announcement): Overview of Unity 6's headline features across graphics, performance, multiplayer, XR and workflow improvements. (Unity, 2024-10-17, article, Unity-6 era)
 
 ### Compute shaders & GPU (28 guides; slug `compute-gpu`)
 - [Moving two million soldiers in Unity with compute shaders and flow fields](https://jettelly.com/blog/making-two-million-soldiers-move-in-unity): How compute shaders and flow fields drive two million units at about 11 ms per frame. (Jettelly, 2026-09-27, article, Unity-6 era)
@@ -489,7 +489,7 @@
 ## VFX
 
 
-### Particles & VFX Graph (55 guides; slug `particles-vfx`)
+### Particles & VFX Graph (57 guides; slug `particles-vfx`)
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
 - [A stylized Eldritch Blast VFX in Unity](https://jettelly.com/blog/a-stylized-take-on-eldritch-blast-vfx-in-unity): Breakdown of a stylized magic blast whose inner eyes are fully procedural. (Jettelly, 2026-10-03, article, Unity-6 era)
@@ -507,14 +507,14 @@
 - [Beginner's Guide to making Barrels Explode in Unity](https://www.youtube.com/watch?v=907602fcHt0): Beginner guide to making barrels explode in Unity. (gamedev:hq, 2025-09-11, video, Unity-6 era)
 - [Unity Workshop: Setting Up Exploding Barrels](https://www.youtube.com/watch?v=eZps1ws5rCg): Workshop on setting up exploding barrels in Unity. (gamedev:hq, 2025-07-24, video, Unity-6 era)
 - [Create shaders and visual effects with URP (Unity 6)](https://unity.com/resources/create-shaders-visual-effects-urp-unity-6): E-book of recipes for making popular shaders and visual effects with URP in Unity 6. (Unity, 2025-03-26, article, Unity-6 era)
+- [Sakura Rabbit: realistic real-time rain shader in Unity 6](https://80.lv/articles/highly-realistic-rain-shader-set-up-in-unity-6/): Water droplets and puddles with ripples and accurate reflections in a cyberpunk scene, built in Unity 6. (Sakura Rabbit, 2024-12-16, article, Unity-6 era)
 - [Unity 6: The Definitive Guide to Advanced Visual Effects](https://unity.com/resources/creating-advanced-vfx-unity6): Free Unity 6 guide to VFX Graph: building real-time visual effects with its related tools. (Unity, 2024-11-18, article, Unity-6 era)
 - [Street Fighter 6 effects column: the artists behind the VFX](https://www.streetfighter.com/6/en-us/column/detail/effects01): Capcom column crediting and discussing the effects artists and craft behind Street Fighter 6. (Simon Schreibt, 2024-11-15, article, Unity-6 era)
 - [Unreal Fest 2018: Stylized VFX in RIME 2.0 - Water Edition](https://youtu.be/4FIDBeF_4SI?si=xfM2xny9S9QZ2XGU&t=171): Talk on stylized water effects in RIME, with a fire effect shown that Simon highlights as inspiring. (Simon Schreibt, 2024-11-15, video, Unity-6 era)
 - [Real-time VFX project breakdown with project files (ArtStation)](https://www.artstation.com/artwork/g0g8bP): ArtStation breakdown of a realtime VFX project, with downloadable project files. (Simon Schreibt, 2024-10-25, article, Unity-6 era)
 - [PlatinumGames VFX: Infernal Demons and Homunculi (Umbran Studies)](https://www.platinumgames.com/official-blog/article/13535): Studio blog article on how effects for demon enemies were designed and built. (Simon Schreibt, 2024-08-25, article, Unity-2022 era)
+- [Sakura Rabbit: angel wings dissipation effect in Unity](https://80.lv/articles/outstanding-angel-wings-dissipation-effect-in-unity): Feathered wings that break apart and dissipate, a VFX showcase made in Unity. (Sakura Rabbit, 2024-05-14, article, Unity-2022 era)
 - [Find a treasure trove of lighting and visual effects in our new match-3 sample Gem Hunter Match](https://unity.com/blog/engine-platform/2d-puzzle-match-3-sample-gem-hunter-match): Match-3 sample showing how URP lighting and visual effects make a 2D puzzle game stand out. (Unity, 2024-04-29, article, Unity-2022 era)
-- [Unity VFX Graph Tutorial - Comic Book Impact Effect](https://www.youtube.com/watch?v=xAdB3OxpC7Y): Creates a comic book impact effect with VFX Graph. (2023-11-13, video, Unity-2022 era)
-- [Rain Effects Breakdown](https://www.cyanilux.com/tutorials/rain-effects-breakdown/): Breakdown of rain effects including particles and ripple shaders for puddles. (2023-07-10, article, Unity-2022 era)
 
 ### Fire, magic & impacts (24 guides; slug `fire-magic`)
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
@@ -683,9 +683,10 @@
 ## Gameplay & systems
 
 
-### Gameplay systems & mechanics (168 guides; slug `gameplay-systems`)
+### Gameplay systems & mechanics (169 guides; slug `gameplay-systems`)
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
+- [Dialogue Sounds Toolkit for Unity is out](https://blog.febucci.com/2026/10/dialogue-sounds-toolkit-for-unity-is-out/): A toolkit for dialogue blips, typewriter sounds and customisable voice-like sound palettes for Unity characters. (Febucci, 2026-10-07, article, Unity-6 era)
 - [Swap Your Game's Content WITHOUT Rebuilding the Player](https://www.youtube.com/watch?v=U9y7Eq1eJxc): Unity Content Directory (new with Unity 6.6) is a powerful tool that allows you to swap the CONTENTS of your build without rebuilding the entire player - making faster iteration times. (LlamAcademy, 2026-09-14, video, Unity-6 era)
 - [A procedural wall system like StoneWorks in Unity](https://jettelly.com/blog/creating-a-procedural-wall-system-like-stoneworks-in-unity): Procedural stone wall building and real-time damage, inspired by StoneWorks. (Jettelly, 2026-08-31, article, Unity-6 era)
 - [Shifting Castle: procedural dungeon generator and combat systems breakdown](https://jettelly.com/blog/shifting-castle-dungeon-generation-and-combat-systems-breakdown): How a solo team built a procedural dungeon generator and combat system from scratch. (Jettelly, 2026-07-27, article, Unity-6 era)
@@ -708,7 +709,6 @@
 - [Hex Map 5.0: New Input System](https://catlikecoding.com/unity/hex-map/5-0-0/): Hex Map 5.0 update switching to the new Input System. (Catlike Coding, 2026-01-19, article, Unity-6 era)
 - [A Beginner's Guide to Cabinet Doors in Unity](https://www.youtube.com/watch?v=yPucoDXaoeQ): Beginner guide to making openable cabinet doors in Unity. (gamedev:hq, 2025-11-13, video, Unity-6 era)
 - [Beginner's Guide to Exploding Tanks in Unity](https://www.youtube.com/watch?v=32KHX1yqStU): Beginner guide to making tanks explode in Unity. (gamedev:hq, 2025-11-06, video, Unity-6 era)
-- [Vault Door Animation in Unity for Beginners](https://www.youtube.com/watch?v=JcRveafA3yE): Beginner guide to animating a vault door in Unity. (gamedev:hq, 2025-10-23, video, Unity-6 era)
 
 ### Animation, rigging & IK (48 guides; slug `animation`)
 - [Giving a simple fighter personality with procedural animation in Unity](https://jettelly.com/blog/giving-a-simple-fighter-personality-in-unity): Breakdown of procedural animation that gives a legless, faceless fighter character and weight. (Jettelly, 2026-10-08, article, Unity-6 era)
@@ -832,7 +832,8 @@
 - [Hex Map 4.1: Better Dragging](https://catlikecoding.com/unity/hex-map/4-1-0/): Hex Map 4.1 update improving dragging UX. (Catlike Coding, 2025-08-28, article, Unity-6 era)
 - [How to make a Stylized Minimap (with Navmesh)](https://youtu.be/L84mEQRWgSo): Builds a stylized minimap using a navmesh. (MinionsArt, 2025-07-01, video, Unity-6 era)
 
-### Audio (9 guides; slug `audio`)
+### Audio (10 guides; slug `audio`)
+- [Dialogue Sounds Toolkit for Unity is out](https://blog.febucci.com/2026/10/dialogue-sounds-toolkit-for-unity-is-out/): A toolkit for dialogue blips, typewriter sounds and customisable voice-like sound palettes for Unity characters. (Febucci, 2026-10-07, article, Unity-6 era)
 - [Smoothly Fade Between Music Tracks in Unity the EASY Way | Unity Tutorial](https://www.youtube.com/watch?v=Lq_LS3lIRbU): Backdrop Filters are a brand new (in Unity 6.6) feature in UI Toolkit that allow us to attach special effects to the "backdrop" of visual elements. This enables us to have really cool effects like a b (LlamAcademy, 2026-10-06, video, Unity-6 era)
 - [Coding Adventure: Analyzing Audio](https://www.youtube.com/watch?v=08mmKNLQVHU) (Sebastian Lague, 2026-01-06, video, Unity-6 era)
 - [Building a music-based combat system for Fretless: The Wrath of Riffson](https://unity.com/blog/how-fretless-set-up-fmod-integrations-in-unity): Using FMOD in Unity for a music-driven combat system: dynamic music, marker callbacks, programmer instruments. (Unity, 2025-07-17, article, Unity-6 era)
@@ -1123,12 +1124,14 @@
 - [Building a Fantasy VR World in Unity - SwordReverie](https://www.swordreverie.com/post/building-a-fantasy-vr-world-in-unity): Developer post on building the fantasy VR world of Sword Reverie in Unity. (article)
 - [@GameDevBill: profile, shaders and VR dev](https://twitter.com/gamedevbill): Bill Ramsour's X profile, a shader and VR developer. (GameDevBill, post)
 
-### Mobile (20 guides; slug `mobile`)
+### Mobile (22 guides; slug `mobile`)
 - [Unity External Dependency Manager: What You Need to Know About the Change](https://unity.com/blog/external-dependency-manager): How the External Dependency Manager replaces EDM4U for Android and iOS SDK dependencies. (Unity, 2026-09-29, article, Unity-6 era)
 - [Scaling Scritchy Scratchy Across Platforms](https://unity.com/blog/scaling-scritchy-scratchy-across-platforms): Porting a game across PC, mobile and Switch while keeping performance and tactile gameplay. (Unity, 2026-09-28, article, Unity-6 era)
 - [DrakkenRidge: Building an open-world adventure for mobile VR](https://unity.com/blog/drakkenridge-building-open-world-mobile-vr-rpg-unity-ecs): Building a large open-world mobile VR RPG using Unity's Entity Component System. (Unity, 2026-09-08, article, Unity-6 era)
 - [Why I ALWAYS Use UI Scale Mode "Expand" in UI Toolkit](https://www.youtube.com/watch?v=DANRocoB8FA): Make your UI scale reasonably on all target aspect ratios and screen resolutions! (LlamAcademy, 2026-08-19, video, Unity-6 era)
 - [The DOTS/ECS Code of Tabletop Tavern - The Hot Path Show Ep. 59](https://www.youtube.com/watch?v=ne7mHiPTfqA): TJ's YouTube Channel: @TJGameDev (Turbo Makes Games, 2026-07-10, video, Unity-6 era)
+- [Sakura Rabbit: water effects for Unity URP on mobile](https://80.lv/articles/amazing-water-effects-for-unity-urp-on-mobile): A water shader demo made for URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-29, article, Unity-6 era)
+- [Sakura Rabbit: real-time snow coverage shader for URP on mobile](https://80.lv/articles/sakura-rabbit-built-a-real-time-snow-coverage-shader-for-unity-urp-on-mobile): Snow that builds up on surfaces in real time, running in URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-16, article, Unity-6 era)
 - [Building Westeros For Mobile in Game of Thrones: Dragonfire](https://unity.com/blog/building-westeros-for-mobile-in-game-of-thrones-dragonfire): Optimizing a mobile RPG with scalable multiplayer, faster load times and Unity tools. (Unity, 2026-06-05, article, Unity-6 era)
 - [Optimizing Battery Life in Monster Walk](https://unity.com/blog/optimizing-battery-life-in-monster-walk): Techniques for optimizing battery life in a step-counting mobile game. (Unity, 2026-06-02, article, Unity-6 era)
 - [Bringing My Talking Tom Friends 2 to Life with Animation and Physics](https://unity.com/blog/bringing-my-talking-tom-friends-2-to-life): Optimizing across devices, building a scalable animation system and managing content complexity in a mobile pet game. (Unity, 2025-11-25, article, Unity-6 era)
@@ -1262,37 +1265,47 @@
 
 ## Repos
 - [UniTask](https://github.com/Cysharp/UniTask) (Async & reactive, ★11245, last push 2026-10-06): You want async/await in Unity without allocations, with PlayerLoop-aware delays and cancellation. Install: https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
-- [R3](https://github.com/Cysharp/R3) (Async & reactive, ★4017, last push 2026-10-08, Unity 7: workaround): You want Rx-style reactive streams; the successor to UniRx.
-- [MessagePipe](https://github.com/Cysharp/MessagePipe) (Async & reactive, ★2000, last push 2026-10-07): You need an in-process pub/sub or mediator that works with DI containers.
-- [ZString](https://github.com/Cysharp/ZString) (Serialization & data, ★2814, last push 2026-10-07): You build strings every frame and want zero allocations.
-- [MemoryPack](https://github.com/Cysharp/MemoryPack) (Serialization & data, ★4751, last push 2026-10-07): You need very fast binary serialization for save data or networking.
-- [MessagePack-CSharp](https://github.com/MessagePack-CSharp/MessagePack-CSharp) (Serialization & data, ★6787, last push 2026-10-09): You want compact, fast MessagePack serialization with Unity (IL2CPP) support.
-- [MagicOnion](https://github.com/Cysharp/MagicOnion) (Networking & backend, ★4453, last push 2026-10-07): You want type-safe RPC between a Unity client and a C# server.
+- [R3](https://github.com/Cysharp/R3) (Async & reactive, ★4018, last push 2026-10-08, Unity 7: workaround): You want Rx-style reactive streams; the successor to UniRx.
+- [MessagePipe](https://github.com/Cysharp/MessagePipe) (Async & reactive, ★2002, last push 2026-10-07): You need an in-process pub/sub or mediator that works with DI containers.
+- [ZString](https://github.com/Cysharp/ZString) (Serialization & data, ★2815, last push 2026-10-07): You build strings every frame and want zero allocations.
+- [MemoryPack](https://github.com/Cysharp/MemoryPack) (Serialization & data, ★4753, last push 2026-10-07): You need very fast binary serialization for save data or networking.
+- [MessagePack-CSharp](https://github.com/MessagePack-CSharp/MessagePack-CSharp) (Serialization & data, ★6788, last push 2026-10-09): You want compact, fast MessagePack serialization with Unity (IL2CPP) support.
+- [MagicOnion](https://github.com/Cysharp/MagicOnion) (Networking & backend, ★4454, last push 2026-10-07): You want type-safe RPC between a Unity client and a C# server.
 - [VContainer](https://github.com/hadashiA/VContainer) (Dependency injection, ★3072, last push 2026-10-06): You want a fast, lightweight DI container with low GC pressure. Install: https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer
 - [Reflex](https://github.com/gustavopsantos/Reflex) (Dependency injection, ★1634, last push 2026-10-10, Unity 7: ok): You want a minimal DI container with a small API.
-- [Zenject](https://github.com/modesttree/Zenject) (Dependency injection, ★2939, last push 2024-01-26): You use Zenject. Its last push was Jan 2024; the maintained Extenject fork (below) is the one to install for new work.
+- [Zenject](https://github.com/modesttree/Zenject) (Dependency injection, ★2940, last push 2024-01-26): You use Zenject. Its last push was Jan 2024; the maintained Extenject fork (below) is the one to install for new work.
 - [PrimeTween](https://github.com/KyryloKuzyk/PrimeTween) (UI & tweening, ★2003, last push 2026-07-18): You want allocation-free tweens and sequences in one line.
-- [dotween](https://github.com/Demigiant/dotween) (UI & tweening, ★2691, last push 2026-07-26, Unity 7: wip): You want the long-standing tween library; free tier, with a paid Pro add-on.
-- [SoftMaskForUGUI](https://github.com/mob-sakai/SoftMaskForUGUI) (UI & tweening, ★2833, last push 2026-08-27): You need soft (alpha) masks in uGUI.
-- [UIEffect](https://github.com/mob-sakai/UIEffect) (UI & tweening, ★7681, last push 2026-08-27): You want shader-based effects (shadow, gradient, dissolve, blur) on uGUI.
+- [dotween](https://github.com/Demigiant/dotween) (UI & tweening, ★2690, last push 2026-07-26, Unity 7: wip): You want the long-standing tween library; free tier, with a paid Pro add-on.
+- [SoftMaskForUGUI](https://github.com/mob-sakai/SoftMaskForUGUI) (UI & tweening, ★2832, last push 2026-08-27): You need soft (alpha) masks in uGUI.
+- [UIEffect](https://github.com/mob-sakai/UIEffect) (UI & tweening, ★7680, last push 2026-08-27): You want shader-based effects (shadow, gradient, dissolve, blur) on uGUI.
 - [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) (Editor & debugging, ★5220, last push 2026-09-16): You want inspector attributes (ShowIf, Button, Foldout) without writing editors. Install: https://github.com/dbrizov/NaughtyAttributes.git#upm
-- [graphy](https://github.com/Tayx94/graphy) (Editor & debugging, ★2908, last push 2026-08-29): You want an on-screen FPS, memory and audio overlay in builds.
-- [Harmony](https://github.com/pardeike/Harmony) (Editor & debugging, ★6685, last push 2026-10-11): You need to patch .NET methods at runtime, mostly for modding.
+- [graphy](https://github.com/Tayx94/graphy) (Editor & debugging, ★2909, last push 2026-08-29): You want an on-screen FPS, memory and audio overlay in builds.
+- [Harmony](https://github.com/pardeike/Harmony) (Editor & debugging, ★6683, last push 2026-10-11): You need to patch .NET methods at runtime, mostly for modding.
 - [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) (Official source & samples, ★13022, last push 2026-10-08): You want to read Unity's C# source for the engine and editor.
-- [Graphics](https://github.com/Unity-Technologies/Graphics) (Official source & samples, ★3010, last push 2026-09-29): You want the source and samples for URP, HDRP, Shader Graph and VFX Graph.
+- [Graphics](https://github.com/Unity-Technologies/Graphics) (Official source & samples, ★3012, last push 2026-09-29): You want the source and samples for URP, HDRP, Shader Graph and VFX Graph.
 - [InputSystem](https://github.com/Unity-Technologies/InputSystem) (Official source & samples, ★1527, last push 2026-10-07, Unity 7: ok): You use the new Input System and want its source and issues.
 - [Unity.Mathematics](https://github.com/Unity-Technologies/Unity.Mathematics) (Official source & samples, ★1441, last push 2026-08-06): You want Burst-friendly math types (float3, quaternion, noise).
-- [EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) (Official source & samples, ★8199, last push 2026-10-10): You are learning DOTS/ECS and want official samples.
+- [EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) (Official source & samples, ★8202, last push 2026-10-11): You are learning DOTS/ECS and want official samples.
 - [SpaceshipDemo](https://github.com/Unity-Technologies/SpaceshipDemo) (Official source & samples, ★1182, last push 2025-10-24): You want a full HDRP showcase project to read and learn from.
 - [BoatAttack](https://github.com/Unity-Technologies/BoatAttack) (Official source & samples, ★2797, last push 2025-12-05): You want a URP showcase project (water, boats, race game).
-- [com.unity.netcode.gameobjects](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects) (Networking & backend, ★2324, last push 2026-10-11, Unity 7: ok): You want Unity's official GameObject-based multiplayer.
+- [com.unity.netcode.gameobjects](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects) (Networking & backend, ★2323, last push 2026-10-12, Unity 7: ok): You want Unity's official GameObject-based multiplayer.
 - [Mirror](https://github.com/MirrorNetworking/Mirror) (Networking & backend, ★6356, last push 2026-09-19): You want a mature, community-driven multiplayer framework.
-- [FishNet](https://github.com/FirstGearGames/FishNet) (Networking & backend, ★2064, last push 2026-10-09): You want a feature-rich networking framework with prediction support.
+- [FishNet](https://github.com/FirstGearGames/FishNet) (Networking & backend, ★2065, last push 2026-10-09): You want a feature-rich networking framework with prediction support.
 - [unity-builder](https://github.com/game-ci/unity-builder) (CI & build, ★1101, last push 2026-09-16): You want to build Unity projects in GitHub Actions.
-- [unity-mcp](https://github.com/CoplayDev/unity-mcp) (AI & agents, ★14841, last push 2026-10-08, Unity 7: ok): You want an AI client (Claude, Cursor, etc.) to drive the Unity Editor over MCP. Most popular option.
-- [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (AI & agents, ★4418, last push 2026-10-11): You want an MCP bridge between AI agents and the Unity Editor and runtime.
+- [unity-mcp](https://github.com/CoplayDev/unity-mcp) (AI & agents, ★14861, last push 2026-10-08, Unity 7: ok): You want an AI client (Claude, Cursor, etc.) to drive the Unity Editor over MCP. Most popular option.
+- [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (AI & agents, ★4421, last push 2026-10-11): You want an MCP bridge between AI agents and the Unity Editor and runtime.
 - [StableFluids](https://github.com/keijiro/StableFluids) (Rendering & VFX, ★1171, last push 2025-08-28): You want a GPU implementation of Stam's Stable Fluids.
 - [Marching-Cubes](https://github.com/SebLague/Marching-Cubes) (Learning repos, ★1121, last push 2019-07-11): You want the marching cubes algorithm in Unity.
+- [UniState](https://github.com/bazyleu/UniState) (Gameplay & AI, ★253, last push 2026-09-16): You need a scalable, async state machine for game flow, UI or characters without writing glue code. Install: https://github.com/bazyleu/UniState.git?path=Assets/UniState
+- [MGenerators](https://github.com/Engine-Room-Games/MGenerators) (C# & performance, ★14, last push 2026-05-30): You want Roslyn source generators to remove boilerplate around common gameplay patterns.
+- [MLock](https://github.com/migus88/MLock) (Gameplay & AI, ★8, last push 2025-08-18): You need to lock and unlock gameplay elements (input, doors, abilities) through configurable tags.
+- [MPath](https://github.com/migus88/MPath) (Gameplay & AI, ★16, last push 2026-06-24): You need fast A* pathfinding on a 2D grid, in Unity or plain .NET.
+- [PurrNet](https://github.com/PurrNet/PurrNet) (Networking & backend, ★691, last push 2026-10-08): You are choosing a Unity networking solution and want a modern, high-level alternative to Netcode for GameObjects. Install: https://github.com/PurrNet/PurrNet.git?path=/Assets/PurrNet#release
+- [OneOf](https://github.com/mcintyre321/OneOf) (C# & performance, ★4058, last push 2026-09-27): You want F#-style discriminated unions with exhaustive matching in C#.
+- [UniText](https://github.com/LightSideKittens/UniText) (UI & tweening, ★708, last push 2026-09-24): You need a text engine that handles every language, emoji and style beyond what TextMeshPro covers.
+- [GenJson](https://github.com/PereViader/GenJson) (Serialization & data, ★27, last push 2026-09-19): You want fast, allocation-light, source-generated JSON in Unity or plain C#.
+- [LinqGen](https://github.com/cathei/LinqGen) (C# & performance, ★316, last push 2024-07-07): You want LINQ-style queries without allocations, using code generation. Install: https://github.com/cathei/LinqGen.git?path=LinqGen.Unity/Packages/com.cathei.linqgen
+- [Fluid Behavior Tree](https://github.com/ashblue/fluid-behavior-tree) (Gameplay & AI, ★1184, last push 2026-05-08): You need behaviour trees for enemy or NPC AI with a code-first builder API.
 
 ## Assets
 - [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570) by Amplify Creations (Shaders & look, 80.0): You want to build shaders visually with nodes, across render pipelines.

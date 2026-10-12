@@ -1,7 +1,8 @@
 # Audio
 
-> Gameplay & systems · 9 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 10 hand-filtered guides on GamedevJelly, newest first.
 
+- [Dialogue Sounds Toolkit for Unity is out](https://blog.febucci.com/2026/10/dialogue-sounds-toolkit-for-unity-is-out/): A toolkit for dialogue blips, typewriter sounds and customisable voice-like sound palettes for Unity characters. (Febucci, 2026-10-07, article, Unity-6 era)
 - [Smoothly Fade Between Music Tracks in Unity the EASY Way | Unity Tutorial](https://www.youtube.com/watch?v=Lq_LS3lIRbU): Backdrop Filters are a brand new (in Unity 6.6) feature in UI Toolkit that allow us to attach special effects to the "backdrop" of visual elements. This enables us to have really cool effects like a b (LlamAcademy, 2026-10-06, video, Unity-6 era)
 - [Coding Adventure: Analyzing Audio](https://www.youtube.com/watch?v=08mmKNLQVHU) (Sebastian Lague, 2026-01-06, video, Unity-6 era)
 - [Building a music-based combat system for Fretless: The Wrath of Riffson](https://unity.com/blog/how-fretless-set-up-fmod-integrations-in-unity): Using FMOD in Unity for a music-driven combat system: dynamic music, marker callbacks, programmer instruments. (Unity, 2025-07-17, article, Unity-6 era)

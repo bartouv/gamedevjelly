@@ -1,6 +1,6 @@
 # Particles & VFX Graph
 
-> VFX · 55 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 57 hand-filtered guides on GamedevJelly, newest first.
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
@@ -19,11 +19,13 @@
 - [Beginner's Guide to making Barrels Explode in Unity](https://www.youtube.com/watch?v=907602fcHt0): Beginner guide to making barrels explode in Unity. (gamedev:hq, 2025-09-11, video, Unity-6 era)
 - [Unity Workshop: Setting Up Exploding Barrels](https://www.youtube.com/watch?v=eZps1ws5rCg): Workshop on setting up exploding barrels in Unity. (gamedev:hq, 2025-07-24, video, Unity-6 era)
 - [Create shaders and visual effects with URP (Unity 6)](https://unity.com/resources/create-shaders-visual-effects-urp-unity-6): E-book of recipes for making popular shaders and visual effects with URP in Unity 6. (Unity, 2025-03-26, article, Unity-6 era)
+- [Sakura Rabbit: realistic real-time rain shader in Unity 6](https://80.lv/articles/highly-realistic-rain-shader-set-up-in-unity-6/): Water droplets and puddles with ripples and accurate reflections in a cyberpunk scene, built in Unity 6. (Sakura Rabbit, 2024-12-16, article, Unity-6 era)
 - [Unity 6: The Definitive Guide to Advanced Visual Effects](https://unity.com/resources/creating-advanced-vfx-unity6): Free Unity 6 guide to VFX Graph: building real-time visual effects with its related tools. (Unity, 2024-11-18, article, Unity-6 era)
 - [Street Fighter 6 effects column: the artists behind the VFX](https://www.streetfighter.com/6/en-us/column/detail/effects01): Capcom column crediting and discussing the effects artists and craft behind Street Fighter 6. (Simon Schreibt, 2024-11-15, article, Unity-6 era)
 - [Unreal Fest 2018: Stylized VFX in RIME 2.0 - Water Edition](https://youtu.be/4FIDBeF_4SI?si=xfM2xny9S9QZ2XGU&t=171): Talk on stylized water effects in RIME, with a fire effect shown that Simon highlights as inspiring. (Simon Schreibt, 2024-11-15, video, Unity-6 era)
 - [Real-time VFX project breakdown with project files (ArtStation)](https://www.artstation.com/artwork/g0g8bP): ArtStation breakdown of a realtime VFX project, with downloadable project files. (Simon Schreibt, 2024-10-25, article, Unity-6 era)
 - [PlatinumGames VFX: Infernal Demons and Homunculi (Umbran Studies)](https://www.platinumgames.com/official-blog/article/13535): Studio blog article on how effects for demon enemies were designed and built. (Simon Schreibt, 2024-08-25, article, Unity-2022 era)
+- [Sakura Rabbit: angel wings dissipation effect in Unity](https://80.lv/articles/outstanding-angel-wings-dissipation-effect-in-unity): Feathered wings that break apart and dissipate, a VFX showcase made in Unity. (Sakura Rabbit, 2024-05-14, article, Unity-2022 era)
 - [Find a treasure trove of lighting and visual effects in our new match-3 sample Gem Hunter Match](https://unity.com/blog/engine-platform/2d-puzzle-match-3-sample-gem-hunter-match): Match-3 sample showing how URP lighting and visual effects make a 2D puzzle game stand out. (Unity, 2024-04-29, article, Unity-2022 era)
 - [Unity VFX Graph Tutorial - Comic Book Impact Effect](https://www.youtube.com/watch?v=xAdB3OxpC7Y): Creates a comic book impact effect with VFX Graph. (2023-11-13, video, Unity-2022 era)
 - [Rain Effects Breakdown](https://www.cyanilux.com/tutorials/rain-effects-breakdown/): Breakdown of rain effects including particles and ripple shaders for puddles. (2023-07-10, article, Unity-2022 era)

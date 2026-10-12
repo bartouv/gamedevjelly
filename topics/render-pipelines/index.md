@@ -1,11 +1,13 @@
 # Render pipelines & SRP
 
-> Shaders & rendering · 56 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 58 hand-filtered guides on GamedevJelly, newest first.
 
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Custom SRP 7.2: Separate Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-2/): Custom SRP tutorial introducing separate shadow passes. (Catlike Coding, 2026-09-18, article, Unity-6 era)
 - [Custom SRP 7.1: Splitting Shadow Code](https://catlikecoding.com/unity/custom-srp/7-1-0/): Custom SRP tutorial splitting directional and other shadow code. (Catlike Coding, 2026-08-19, article, Unity-6 era)
+- [Sakura Rabbit: water effects for Unity URP on mobile](https://80.lv/articles/amazing-water-effects-for-unity-urp-on-mobile): A water shader demo made for URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-29, article, Unity-6 era)
 - [Custom SRP 7.0: Unity 6.5](https://catlikecoding.com/unity/custom-srp/7-0-0/): Custom SRP tutorial upgrading to Unity 6.5. (Catlike Coding, 2026-06-26, article, Unity 6)
+- [Sakura Rabbit: real-time snow coverage shader for URP on mobile](https://80.lv/articles/sakura-rabbit-built-a-real-time-snow-coverage-shader-for-unity-urp-on-mobile): Snow that builds up on surfaces in real time, running in URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-16, article, Unity-6 era)
 - [Your PSO cache is only as good as your playthrough](https://thegamedev.guru/all/your-pso-cache-is-only-as-good-as-your-playthrough/): Explains how Unity 6.5's GraphicsStateCollection cache-miss collection reduces shader compile stutter on DX12, Vulkan and Metal. (GameDevGuru, 2026-06-01, article, Unity 6)
 - [Custom SRP 6.2 3D Color LUT](https://catlikecoding.com/unity/custom-srp/6-2-0/): Custom SRP tutorial creating a 3D color LUT. (Catlike Coding, 2026-04-10, article, Unity-6 era)
 - [Custom SRP 6.1: Showing Color LUT](https://catlikecoding.com/unity/custom-srp/6-1-0/): Custom SRP tutorial showing the color LUT for color grading. (Catlike Coding, 2026-03-27, article, Unity-6 era)
