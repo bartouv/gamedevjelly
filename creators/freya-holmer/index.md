@@ -1,0 +1,62 @@
+# Freya Holmér
+
+Shader and graphics programmer, creator of Shapes and Shader Forge, known for math-heavy visual YouTube explainers and Unity shader and tooling content. Independent developer and co-founder of Neat Corporation (Budget Cuts).
+
+- youtube: https://www.youtube.com/@acegikmo
+- mastodon: https://mastodon.social/@acegikmo
+- x: https://x.com/FreyaHolmer
+- bluesky: https://bsky.app/profile/freya.bsky.social
+- patreon: https://www.patreon.com/acegikmo
+- twitch: https://www.twitch.tv/acegikmo
+- discord: https://discord.gg/v5VWuga
+
+- [@freya.bsky.social: quaternion powers q², √q and qˣ scale a rotation](https://bsky.app/profile/freya.bsky.social/post/3mwqvwetixc2r): Raising a quaternion to a power scales its rotation: square doubles, square root halves, qˣ scales by x. (Freya Holmér, 2026-09-30, post, Unity-6 era)
+- [@freya.bsky.social: quaternion (x,y,z,0) is a 180° rotation about that axis](https://bsky.app/profile/freya.bsky.social/post/3mwedrkwlk227): A unit vector as a pure quaternion gives a half-turn around it, with no trig or euler conversion. (Freya Holmér, 2026-09-25, post, Unity-6 era)
+- [@freya.bsky.social: random rotations equal uniform points on a 4D sphere](https://bsky.app/profile/freya.bsky.social/post/3mrarycmzc22x): Uniformly distributed random rotation quaternions are exactly uniform random points on the 4D sphere surface. (Freya Holmér, 2026-07-22, post, Unity-6 era)
+- [@freya.bsky.social: analytic 2D lighting with complex numbers and conformal maps](https://bsky.app/profile/freya.bsky.social/post/3mhwni2jhis2b): Shader lighting via piecewise conformal maps of angular exposure yields fully analytic penumbras. (Freya Holmér, 2026-03-26, post, Unity-6 era)
+- [@freya.bsky.social: A+B is the midpoint of A and B in homogeneous coordinates](https://bsky.app/profile/freya.bsky.social/post/3mgkadq5i3s2d): In homogeneous coordinates adding two points gives their midpoint, a trick behind w=0 or w=1 handling. (Freya Holmér, 2026-03-08, post, Unity-6 era)
+- [@freya.bsky.social: many game quantities are better as rational numbers than flo](https://bsky.app/profile/freya.bsky.social/post/3maji47rnts2k): Time, UI sliders and line intersections can be exact fractions, avoiding float rounding issues. (Freya Holmér, 2025-12-21, post, Unity-6 era)
+- [Freya's Guide to XYZ Axes and Handedness](https://mastodon.social/@acegikmo/113136806225603760): Post showing a guide to XYZ axes and handedness across coordinate systems. (Freya Holmér, 2024-09-14, post, Unity-2022 era)
+- [Unity shader .cginc to draw numbers in the fragment shader (gist)](https://gist.github.com/FreyaHolmer/71717be9f3030c1b0990d3ed1ae833e3): Repo: gist with a Unity shader include that draws numbers in the fragment shader for debugging. (Freya Holmér, 2024-08-11, article, Unity-2022 era)
+- [Debug-printing a view matrix from the GPU inside a shader](https://mastodon.social/@acegikmo/112943932215480218): Post showing how to debug-print a view matrix from the GPU inside a shader. (Freya Holmér, 2024-08-11, post, Unity-2022 era)
+- [Clean way to get meters per pixel in shaders](https://mastodon.social/@acegikmo/112905160022770339): Post showing a clean way to compute meters per pixel in shaders. (Freya Holmér, 2024-08-04, post, Unity-2022 era)
+- [Lerp smoothing is broken](https://www.youtube.com/watch?v=LSNQuFEDOyQ): Explains why the common lerp smoothing pattern is frame-rate dependent and how to fix it. (Freya Holmér, 2024-05-29, video, Unity-2022 era)
+- [Framerate-independent lerp smoothing](https://mastodon.social/@acegikmo/111931613710775864): Post working out framerate-independent lerp smoothing. (Freya Holmér, 2024-02-14, post, Unity-2022 era)
+- [Easing functions: linear, smoothstep, smootherstep and elevator-style curves](https://mastodon.social/@acegikmo/111700171912073203): Post comparing easing functions like linear, smoothstep, smootherstep and elevator-style curves. (Freya Holmér, 2024-01-04, post, Unity-2022 era)
+- [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI): Explains why vectors have no single multiplication, covering dot, cross and other products. (Freya Holmér, 2023-10-26, video, Unity-2022 era)
+- [Mathfs: Catenary2D (solving the catenary root)](https://github.com/FreyaHolmer/Mathfs/blob/master/Runtime/Curves/Catenary2D.cs): Repo: Mathfs library class for solving a 2D catenary curve in Unity. (Freya Holmér, 2022-12-25, repo, Unity-2022 era)
+- [The Continuity of Splines](https://www.youtube.com/watch?v=jvPPXbo87ds): Explains continuity of splines and what C0, C1 and C2 mean. (Freya Holmér, 2022-12-07, video, Unity-2022 era)
+- [Coordinate system chart (Unity, Unreal, 3D math)](https://mastodon.social/@acegikmo/109429307211544506): Post sharing a coordinate system chart for Unity, Unreal and 3D math. (Freya Holmér, 2022-11-29, post, Unity-2022 era)
+- [Quaternion swizzling for cheap 180-degree rotations in Unity](https://github.com/FreyaHolmer/Mathfs/blob/446593cea11f7a25b8e73b8398d77f665039bcee/Runtime/Extensions.cs#L159-L177): Repo: code snippet using quaternion swizzling for cheap 180-degree rotations in Unity. (Freya Holmér, 2022-11-25, repo, Unity-2022 era)
+- [The Art of Real-Time Mathematics (guest lecture)](https://www.youtube.com/watch?v=rbrSMaveH48): Guest lecture on real-time mathematics for game and graphics programming. (Freya Holmér, 2022-11-22, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 10] • Abstract Algebra, Procedural Animation & Splines](https://www.youtube.com/watch?v=Pku6WAs1fF8): Math for game devs part 10 covering abstract algebra, procedural animation and splines. (Freya Holmér, 2022-11-04, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 9] • Solutions to the final assignments](https://www.youtube.com/watch?v=sZKfaio97bc): Math for game devs part 9 reviewing solutions to the final assignments. (Freya Holmér, 2022-11-04, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 8] • Trajectories & Derivatives](https://www.youtube.com/watch?v=XkAuksIABHI): Math for game devs part 8 on trajectories and derivatives. (Freya Holmér, 2022-11-02, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 7] • Interpolation & Point Physics](https://www.youtube.com/watch?v=tjTRXzwdU6A): Math for game devs part 7 on interpolation and point physics. (Freya Holmér, 2022-11-01, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 6] • Solutions for Assignments 7-11](https://www.youtube.com/watch?v=o6HBZ5XkVg4): Math for game devs part 6 reviewing solutions for assignments 7-11. (Freya Holmér, 2022-11-01, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 5] • Trigonometry & Rotations](https://www.youtube.com/watch?v=86MsWRvPjMw): Math for game devs part 5 on trigonometry and rotations. (Freya Holmér, 2022-10-28, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 4] • solutions for assignments 4-6](https://www.youtube.com/watch?v=KGgkycDmv4I): Math for game devs part 4 reviewing solutions for assignments 4-6. (Freya Holmér, 2022-10-28, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 3] • Matrix4x4 & Cross Product](https://www.youtube.com/watch?v=gVgN5SU6BrA): Math for game devs part 3 on Matrix4x4 and the cross product. (Freya Holmér, 2022-10-26, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 2] solutions for assignments 1-3](https://www.youtube.com/watch?v=0bUJyuwXV0Y): Math for game devs part 2 reviewing solutions for assignments 1-3. (Freya Holmér, 2022-10-26, video, Unity-2022 era)
+- [Math for Game Devs [2022, part 1] • Numbers, Vectors & Dot Product](https://www.youtube.com/watch?v=fjOdtSu4Lm4): Math for game devs part 1 on numbers, vectors and the dot product. (Freya Holmér, 2022-10-25, video, Unity-2022 era)
+- [How to rotate a vector](https://www.youtube.com/watch?v=7j5yW5QDC2U): Explains how to rotate a vector in 2D and 3D. (Freya Holmér, 2022-02-28, video, Unity-2022 era)
+- [The Beauty of Bézier Curves](https://www.youtube.com/watch?v=aVwxzDHniEw): Visual explanation of Bezier curves and how they are built. (Freya Holmér, 2021-08-19, video, Unity-2021 era)
+- [Normal Maps, Tangent Space & IBL • Shaders for Game Devs [Part 3]](https://www.youtube.com/watch?v=E4PHFnvMzFc): Shaders for game devs part 3 on normal maps, tangent space and image-based lighting. (Freya Holmér, 2021-02-26, video, Unity-2021 era)
+- [Healthbars, SDFs & Lighting • Shaders for Game Devs [Part 2]](https://www.youtube.com/watch?v=mL8U8tIiRRg): Shaders for game devs part 2 on healthbars, SDFs and lighting. (Freya Holmér, 2021-02-26, video, Unity-2021 era)
+- [Shader Basics, Blending & Textures • Shaders for Game Devs [Part 1]](https://www.youtube.com/watch?v=kfM-yu0iQBk): Shaders for game devs part 1 on shader basics, blending and textures. (Freya Holmér, 2021-02-26, video, Unity-2021 era)
+- [Interpolation & Velocity • Math for Game Devs [Part 4]](https://www.youtube.com/watch?v=-Ii3MrJFBkQ): Math for game devs part 4 on interpolation and velocity. (Freya Holmér, 2020-11-09, video, Unity-old era)
+- [Trigonometry • Math for Game Devs [Part 3]](https://www.youtube.com/watch?v=1NLekEd770w): Math for game devs part 3 on trigonometry. (Freya Holmér, 2020-11-09, video, Unity-old era)
+- [Spaces & Cross Product • Math for Game Devs [Part 2]](https://www.youtube.com/watch?v=XiwEyopOMqg): Math for game devs part 2 on spaces and the cross product. (Freya Holmér, 2020-11-09, video, Unity-old era)
+- [Vectors & Dot Product • Math for Game Devs [Part 1]](https://www.youtube.com/watch?v=MOYiVLEnhrw): Math for game devs part 1 on vectors and the dot product. (Freya Holmér, 2020-11-09, video, Unity-old era)
+- [Intro to Tool Dev in Unity [part 4/4]](https://www.youtube.com/watch?v=6hWtXtUq7oM): Part 4 of 4 of an intro to Unity editor tool development. (Freya Holmér, 2020-05-08, video, Unity-old era)
+- [Intro to Tool Dev in Unity [part 3/4]](https://www.youtube.com/watch?v=qfGzwy_wSlw): Part 3 of 4 of an intro to Unity editor tool development. (Freya Holmér, 2020-05-07, video, Unity-old era)
+- [Intro to Tool Dev in Unity [part 2/4]](https://www.youtube.com/watch?v=limzVQFUMag): Part 2 of 4 of an intro to Unity editor tool development. (Freya Holmér, 2020-04-18, video, Unity-old era)
+- [Intro to Tool Dev in Unity - An Improvised Live Course [part 1/4]](https://www.youtube.com/watch?v=pZ45O2hg_30): Part 1 of 4 of an improvised live course on Unity editor tool development. (Freya Holmér, 2020-04-15, video, Unity-old era)
+- [Remote Math class for Game Devs (Stream Recording)](https://www.youtube.com/watch?v=1r7vCzJUoiM): Stream recording of a remote math class for game developers. (Freya Holmér, 2020-03-21, video, Unity-old era)
+- [Freya Holmér · YouTube channel](https://www.youtube.com/user/Acegikm0/featured): YouTube channel with Unity-related videos. (Freya Holmér, 2020-03-20, video, Unity-old era)
+- [Math for Game Dev - An Improvised Live Course](https://www.youtube.com/watch?v=yg6h4XQqPNQ): Improvised live course on math for game development. (Freya Holmér, 2019-09-25, video, Unity-old era)
+- [Procedural Geometry - An Improvised Live Course](https://www.youtube.com/watch?v=6xs0Saff940): Improvised live course on procedural geometry in Unity. (Freya Holmér, 2019-08-19, video, Unity-old era)
+- [Sine and Cosine - A Visual Explanation](https://www.youtube.com/watch?v=slGflbRnx1Q): Visual explanation of sine and cosine. (Freya Holmér, 2019-08-17, video, Unity-old era)
+- [Intro to Shader Coding in Unity - An Improvised Live Course](https://www.youtube.com/watch?v=9WW5-0N1DsI): Improvised live course introducing shader coding in Unity. (Freya Holmér, 2019-08-08, video, Unity-old era)
+- [Specular Lighting - A Visual Explanation](https://www.youtube.com/watch?v=JmfQLHMw7N8): Visual explanation of specular lighting. (Freya Holmér, 2019-08-06, video, Unity-old era)
+- [The Dot Product - A Visual Explanation](https://www.youtube.com/watch?v=2PrSUK1VrKA): Visual explanation of the dot product. (Freya Holmér, 2019-08-05, video, Unity-old era)

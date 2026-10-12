@@ -1,0 +1,50 @@
+# Ronja
+
+Creator of Ronja's Tutorials, an approachable written series on Unity HLSL shaders aimed at making shader programming understandable for everyone. Writes code at Chasing Carrots.
+
+- site: https://www.ronja-tutorials.com/
+- patreon: https://www.patreon.com/RonjaTutorials
+- kofi: https://ko-fi.com/ronjatutorials
+- x: https://x.com/totallyRonja
+
+- [Polar Coordinates](https://www.ronja-tutorials.com/post/053-polar-coordinates/): Explains polar coordinates in shaders for radial effects. (Ronja, 2021-06-20, article, Unity-2021 era)
+- [Inverse Lerp and Remap](https://www.ronja-tutorials.com/post/047-invlerp_remap/): Explains inverse lerp and remap functions in shaders. (Ronja, 2020-01-08, article, Unity-old era)
+- [Partial Derivatives (fwidth)](https://www.ronja-tutorials.com/post/046-fwidth/): Explains the partial derivative functions ddx, ddy and fwidth in HLSL. (Ronja, 2019-11-29, article, Unity-old era)
+- [https://www.ronja-tutorials.com/post/045-spheretracing-depth/](https://www.ronja-tutorials.com/2019/10/14/spheretracing-depth.html): Ronja tutorial on adding depth output to a sphere tracing shader. (Ronja, 2019-10-14, article, Unity-old era)
+- [Handling Depth for Spheretracing](https://www.ronja-tutorials.com/post/045-spheretracing-depth/): Handles depth when spheretracing signed distance fields. (Ronja, 2019-10-14, article, Unity-old era)
+- [https://www.ronja-tutorials.com/post/044-spheretracing-shading/](https://www.ronja-tutorials.com/2019/08/15/spheretracing-shading.html): Ronja tutorial on shading and lighting for sphere-traced signed distance fields. (Ronja, 2019-08-15, article, Unity-old era)
+- [Spheretracing with Shading](https://www.ronja-tutorials.com/post/044-spheretracing-shading/): Shades spheretraced signed distance functions in a volumetric rendering series. (Ronja, 2019-08-15, article, Unity-old era)
+- [Shader Basics](https://www.ronja-tutorials.com/basics.html): Ronja's beginner shader basics series for Unity. (Ronja, 2019-07-22, article, Unity-old era)
+- [https://www.ronja-tutorials.com/post/043-spheretracing-basics/](https://www.ronja-tutorials.com/2019/06/21/spheretracing-basics.html): Ronja tutorial on sphere tracing basics for rendering signed distance fields. (Ronja, 2019-06-21, article, Unity-old era)
+- [Spheretracing Basics](https://www.ronja-tutorials.com/post/043-spheretracing-basics/): Introduces spheretracing, a raytracing technique for signed distance functions. (Ronja, 2019-06-21, article, Unity-old era)
+- [Dithering](https://www.ronja-tutorials.com/post/042-dithering/): Uses dithering to simulate more shades than a limited color palette allows. (Ronja, 2019-05-11, article, Unity-old era)
+- [HSV Color Space](https://www.ronja-tutorials.com/post/041-hsv-colorspace/): Explains the HSV color space and using it in shaders. (Ronja, 2019-04-16, article, Unity-old era)
+- [Shader Tutorials by Ronja](https://www.ronja-tutorials.com/): Ronja's shader tutorials for Unity made easy to understand. (Ronja, 2019-03-15, article, Unity-old era)
+- [Halftone Shading](https://www.ronja-tutorials.com/post/040-halftone-shading/): Halftone toon shading using fully lit or fully unlit areas. (Ronja, 2019-03-02, article, Unity-old era)
+- [https://www.ronja-tutorials.com/post/039-screenspace-texture/](https://www.ronja-tutorials.com/2019/01/20/screenspace-texture.html): Ronja tutorial on sampling textures in screen space. (Ronja, 2019-01-20, article, Unity-old era)
+- [Screenspace Textures](https://www.ronja-tutorials.com/post/039-screenspace-texture/): Generates texture coordinates from screen space for screenspace textures. (Ronja, 2019-01-20, article, Unity-old era)
+- [2D SDF Shadows](https://www.ronja-tutorials.com/post/037-2d-shadows/): Builds 2D shadows using combined signed distance functions. (Ronja, 2018-12-01, article, Unity-old era)
+- [2D SDF Space Manipulation](https://www.ronja-tutorials.com/post/036-sdf-space-manipulation/): Manipulates space for 2D signed distance function shapes. (Ronja, 2018-11-24, article, Unity-old era)
+- [2D SDF Combination](https://www.ronja-tutorials.com/post/035-2d-sdf-combination/): Combines 2D signed distance function shapes. (Ronja, 2018-11-17, article, Unity-old era)
+- [2D Signed Distance Field Basics](https://www.ronja-tutorials.com/post/034-2d-sdf-basics/): Basics of drawing shapes with 2D signed distance fields instead of meshes. (Ronja, 2018-11-10, article, Unity-old era)
+- [Flowing River](https://www.ronja-tutorials.com/post/033-river/): Case study building a flowing river with a shader. (Ronja, 2018-11-03, article, Unity-old era)
+- [Improved Toon Light](https://www.ronja-tutorials.com/post/032-improved-toon/): Improves a simple toon light shader. (Ronja, 2018-10-27, article, Unity-old era)
+- [Single Step Toon Light](https://www.ronja-tutorials.com/post/031-single-step-toon/): Builds a single-step toon lighting shader. (Ronja, 2018-10-20, article, Unity-old era)
+- [Baking Shaders into Textures](https://www.ronja-tutorials.com/post/030-baking-shaders/): Bakes shader calculations into textures instead of computing them on the fly. (Ronja, 2018-10-13, article, Unity-old era)
+- [Tiling Noise](https://www.ronja-tutorials.com/post/029-tiling-noise/): Generates noise that tiles seamlessly in shaders. (Ronja, 2018-10-06, article, Unity-old era)
+- [Voronoi Noise](https://www.ronja-tutorials.com/post/028-voronoi-noise/): Generates Voronoi noise in shaders from random points. (Ronja, 2018-09-29, article, Unity-old era)
+- [Layered Noise](https://www.ronja-tutorials.com/post/027-layered-noise/): Layers multiple noise octaves to improve softness and detail. (Ronja, 2018-09-22, article, Unity-old era)
+- [Perlin Noise](https://www.ronja-tutorials.com/post/026-perlin-noise/): Implements Perlin gradient noise in shaders. (Ronja, 2018-09-15, article, Unity-old era)
+- [Value Noise](https://www.ronja-tutorials.com/post/025-value-noise/): Implements value noise by interpolating random values in shaders. (Ronja, 2018-09-08, article, Unity-old era)
+- [White Noise](https://www.ronja-tutorials.com/post/024-white-noise/): Generates white noise random numbers in shaders. (Ronja, 2018-09-02, article, Unity-old era)
+- [Clipping a Model with a Plane](https://www.ronja-tutorials.com/post/021-plane-clipping/): Makes a model's surface disappear beyond a plane. (Ronja, 2018-08-06, article, Unity-old era)
+- [Hull Outlines](https://www.ronja-tutorials.com/post/020-hull-outline/): Draws outlines with a second hull pass. (Ronja, 2018-07-21, article, Unity-old era)
+- [Vertex Displacement](https://www.ronja-tutorials.com/post/015-wobble-displacement/): Displaces vertices in the vertex shader for wobble effects. (Ronja, 2018-06-16, article, Unity-old era)
+- [Polygon Clipping](https://www.ronja-tutorials.com/post/014-polygon-clipping/): Clips a polygon shape in a shader against a list of points. (Ronja, 2018-06-10, article, Unity-old era)
+- [Fresnel](https://www.ronja-tutorials.com/post/012-fresnel/): Builds a fresnel effect to darken, lighten or color object edges. (Ronja, 2018-05-26, article, Unity-old era)
+- [Checkerboard Pattern](https://www.ronja-tutorials.com/post/011-chessboard/): Generates a checkerboard pattern procedurally in a shader. (Ronja, 2018-05-18, article, Unity-old era)
+- [Triplanar Mapping](https://www.ronja-tutorials.com/post/010-triplanar-mapping/): Triplanar mapping to texture objects from three axes without UVs. (Ronja, 2018-05-11, article, Unity-old era)
+- [Color Interpolation](https://www.ronja-tutorials.com/post/009-interpolating-colors/): Interpolates between colors in shaders. (Ronja, 2018-05-03, article, Unity-old era)
+- [Planar Mapping](https://www.ronja-tutorials.com/post/008-planar-mapping/): Planar mapping to texture objects without UV coordinates. (Ronja, 2018-04-23, article, Unity-old era)
+- [Basic Transparency](https://www.ronja-tutorials.com/post/006-simple-transparency/): Basic transparency in shaders by blending with the screen. (Ronja, 2018-04-06, article, Unity-old era)
+- [tutorial](https://ronja-tutorials.tumblr.com/tagged/tutorial/chrono): Ronja's tutorial series on Unity shaders, listed by the tutorial tag. (Ronja, 2018-03-20, article, Unity-old era)

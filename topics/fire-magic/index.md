@@ -1,0 +1,28 @@
+# Fire, magic & impacts
+
+> VFX · 24 hand-filtered guides on GamedevJelly, newest first.
+
+- [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
+- [A stylized Eldritch Blast VFX in Unity](https://jettelly.com/blog/a-stylized-take-on-eldritch-blast-vfx-in-unity): Breakdown of a stylized magic blast whose inner eyes are fully procedural. (Jettelly, 2026-10-03, article, Unity-6 era)
+- [A lightning shader in Unity using a single material](https://jettelly.com/blog/building-a-lightning-shader-in-unity-using-a-single-material): One material produces main bolt, smaller branches and glow in a single lightning effect. (Jettelly, 2026-09-05, article, Unity-6 era)
+- [Zeri W ability recreated in Unity with Shuriken particles (ArtStation)](https://www.artstation.com/artwork/2Bl1YJ): Fan-art breakdown of a League of Legends ability built with Shuriken particles. (Jettelly, 2026-07-18, article, Unity-6 era)
+- [Making fire feel alive: Real-time fluid simulation in Ignitement](https://unity.com/blog/real-time-fluid-simulation-fire-vfx-ignitement-breakdown): Real-time 2D fluid simulation used to create dynamic, gameplay-driven fire effects. (Unity, 2026-04-23, article, Unity-6 era)
+- [Patreon: Laser Beam for URP](https://www.patreon.com/posts/laser-beam-urp-141944688): Patreon post on a laser beam effect for URP. (2026-02-23, post, Unity-6 era, URP)
+- [Laser Beam](https://www.patreon.com/posts/141944688): Patreon post on building a laser beam effect. (MinionsArt, 2025-10-01, post, Unity-6 era)
+- [Unity Workshop: Explosive Force Against Other Objects](https://www.youtube.com/watch?v=_3QxHbBVdhg): Workshop on applying explosive force to nearby objects in Unity. (gamedev:hq, 2025-07-26, video, Unity-6 era)
+- [Unity Workshop: Light Saber Blade with Glow](https://www.youtube.com/watch?v=AowKY_k3Csg): Workshop on a glowing light saber blade in Unity. (gamedev:hq, 2025-07-20, video, Unity-6 era)
+- [Unity Workshop: An Explosion with Power](https://www.youtube.com/watch?v=5lGmLwqEYdc): Workshop on adding force to an explosion in Unity. (gamedev:hq, 2025-06-15, video, Unity-6 era)
+- [Unity Workshop: End your Rocket with a Bang](https://www.youtube.com/watch?v=DP41IMVc6qs): Workshop on ending a rocket with an explosion. (gamedev:hq, 2025-06-12, video, Unity-6 era)
+- [Unity Animation: Gunshot Flare](https://www.youtube.com/watch?v=SPY-6jiIgyA): Animates a gunshot muzzle flare in Unity. (gamedev:hq, 2025-05-23, video, Unity-6 era)
+- [Unity VFX Graph Tutorial - Comic Book Impact Effect](https://www.youtube.com/watch?v=xAdB3OxpC7Y): Creates a comic book impact effect with VFX Graph. (2023-11-13, video, Unity-2022 era)
+- [Pokémon – Rapidash](https://simonschreibt.de/gat/pokemon-rapidash/): Looks at the Rapidash fire effect in Pokemon. (Simon Schreibt, 2023-05-07, article, Unity-2022 era)
+- [The Divine Fire](https://simonschreibt.de/gat/divine-fire/): Looks at the fire effect in Divine Divinity. (Simon Schreibt, 2023-05-06, article, Unity-2022 era)
+- [Battlefront II: Layered Explosion](https://simonschreibt.de/gat/battlefront-ii-layered-explosion/): Looks at how Battlefront II builds layered explosion effects. (Simon Schreibt, 2023-04-25, article, Unity-2022 era)
+- [Tornado Shader Breakdown](https://www.cyanilux.com/tutorials/tornado-shader-breakdown/): Breakdown of a tornado shader using scrolling alpha-clipped noise layers with vertex displacement. (Cyan, 2022-01-26, article, Unity-2022 era)
+- [Stylized VFX in Unity. Part 1: Step, Smoothstep, Dissolve](https://torchinsky.me/stylized-vfx-unity-01/): Explains step, smoothstep and dissolve for stylized VFX, part one. (2020-11-26, article, Unity-old era)
+- [Lexdev: Gears Hammer of Dawn Case Study](https://lexdev.net/tutorials/case_studies/gears_hammerofdawn.html): Case study on making a sky-fired laser beam feel impactful. (2020-05-12, article, Unity-old era)
+- [Recreating Overwatch's Dragonstrike | Mix and Jam](https://www.youtube.com/watch?v=tYq58H6-Yqc): Recreates Overwatch's Dragonstrike ability effect in Unity. (Mix and Jam, 2019-05-03, video, Unity-old era)
+- [Recreating Breath of the Wild's Fire Arrow FX | Mix and Jam](https://www.youtube.com/watch?v=I5WjuVaM7fc): Recreates Breath of the Wild's fire arrow effects in Unity. (Mix and Jam, 2019-02-21, video, Unity-old era)
+- [Shader Showcase Saturday #4: How To Start A Fire With Shaders](https://www.alanzucconi.com/2018/08/05/shader-showcase-saturday-4/): Creates realistic animated fire with shaders. (Alan Zucconi, 2018-08-05, article, Unity-old era)
+- [Company of Heroes – Flamethrower](https://simonschreibt.de/gat/company-of-heroes-flamethrower/): Explains how Company of Heroes renders its flamethrower flames and fire effect. (Simon Schreibt, 2013-08-20, article, Unity-old era)
+- [Crafting a Dragon Ball VFX in Unity](https://80.lv/articles/crafting-a-kamehameha-like-vfx-001agt/): Breakdown of a Dragon Ball style laser beam effect: beam, dust circles, charging sphere and particles. (article)

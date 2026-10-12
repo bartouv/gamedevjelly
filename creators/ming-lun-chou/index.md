@@ -1,0 +1,64 @@
+# Ming-Lun Chou
+
+Game programmer at Naughty Dog (since 2014; Uncharted 4, Uncharted: The Lost Legacy and The Last of Us Part II) who writes technical blog posts on game physics, math, animation and engine programming with Unity examples.
+
+- site: https://allenchou.net
+- x: https://x.com/TheAllenChou
+- linkedin: https://www.linkedin.com/in/MingLunChou/
+- youtube: https://www.youtube.com/user/cjcat2266
+- github: https://github.com/TheAllenChou
+- patreon: https://www.patreon.com/TheAllenChou
+- twitch: https://www.twitch.tv/TheAllenChou
+- discord: https://discord.gg/vvQVN3
+
+- [Game Math: Dot Product, Rulers, And Bouncing Balls](https://allenchou.net/2020/01/dot-product-projection-reflection/): Game math primer on dot products, projection and reflection with bouncing ball examples. (Ming-Lun Chou, 2020-01-17, article, Unity-old era)
+- [Game Math: Inverse Trigonometric Functions, Slope Angles, And Facing Objects](https://allenchou.net/2019/10/inverse-trig/): Game math on inverse trigonometric functions, slope angles and facing objects. (Ming-Lun Chou, 2019-10-21, article, Unity-old era)
+- [Game Math: Trigonometry Basics – Tangent, Triangles, And Cannonballs](https://allenchou.net/2019/08/tangent-triangles-cannonballs/): Game math on tangent, triangles and cannonball trajectories. (Ming-Lun Chou, 2019-08-31, article, Unity-old era)
+- [Game Math: Trigonometry Basics – Sine & Cosine](https://allenchou.net/2019/08/trigonometry-basics-sine-cosine/): Game math primer on sine and cosine. (Ming-Lun Chou, 2019-08-25, article, Unity-old era)
+- [Readable & Debuggable Multi-Condition Game Code](https://allenchou.net/2018/07/readable-debuggable-multi-condition-game-code/): Coding patterns for writing readable, debuggable multi-condition game logic. (Ming-Lun Chou, 2018-07-20, article, Unity-old era)
+- [Game Math: Deriving the Slerp Formula](https://allenchou.net/2018/05/game-math-deriving-the-slerp-formula/): Derives the slerp formula for spherical interpolation. (Ming-Lun Chou, 2018-05-17, article, Unity-old era)
+- [Game Math: Swing-Twist Interpolation (…Sterp?)](https://allenchou.net/2018/05/game-math-swing-twist-interpolation-sterp/): Explains swing-twist interpolation for rotations, with source on GitHub. (Ming-Lun Chou, 2018-05-13, article, Unity-old era)
+- [Timeslicing Batched Algorithms in Games](https://allenchou.net/2017/03/timeslicing-batched-algorithms-across-multiple-frames/): Spreads batched algorithms across multiple frames with timeslicing. (Ming-Lun Chou, 2017-03-22, article, Unity-old era)
+- [Game Math: Curve Approximation via Curve “Projection”](https://allenchou.net/2017/02/curve-approximation-via-curve-projection/): Game math on approximating curves via curve projection. (Ming-Lun Chou, 2017-02-04, article, Unity-old era)
+- [Game Math: “Projecting” a Curve onto Another](https://allenchou.net/2017/01/projecting-a-curve-onto-another/): Game math on projecting one curve onto another. (Ming-Lun Chou, 2017-01-22, article, Unity-old era)
+- [A Brain Dump of What I Worked on for Uncharted 4](https://allenchou.net/2016/05/a-brain-dump-of-what-i-worked-on-for-uncharted-4/): Programmer's recap of the work done on Uncharted 4. (Ming-Lun Chou, 2016-05-10, article, Unity-old era)
+- [Game Math: More on Numeric Springing](https://allenchou.net/2015/04/game-math-more-on-numeric-springing/): Game math on numeric springing, continued with more details. (Ming-Lun Chou, 2015-04-26, article, Unity-old era)
+- [Game Math: Numeric Springing Examples](https://allenchou.net/2015/04/game-math-numeric-springing-examples/): Examples of numeric springing for controlling motion. (Ming-Lun Chou, 2015-04-11, article, Unity-old era)
+- [Game Math: Precise Control over Numeric Springing](https://allenchou.net/2015/04/game-math-precise-control-over-numeric-springing/): Game math on precise control over numeric springing. (Ming-Lun Chou, 2015-04-08, article, Unity-old era)
+- [Safe Scope-Based Instrumented Profiler](https://allenchou.net/2014/10/safe-scope-based-instrumented-profiler/): Builds a safe, scope-based instrumented profiler. (Ming-Lun Chou, 2014-10-13, article, Unity-old era)
+- [Scope-Based Resource Management (RAII)](https://allenchou.net/2014/10/scope-based-resource-management-raii/): Explains scope-based resource management (RAII) in game code. (Ming-Lun Chou, 2014-10-01, article, Unity-old era)
+- [Game Math: Interpolating Quaternions with Circular Blending](https://allenchou.net/2014/04/game-math-interpolating-quaternions-with-circular-blending/): Interpolates quaternions with circular blending for skeletal animation data. (Ming-Lun Chou, 2014-04-18, article, Unity-old era)
+- [Game Math: Quaternion Implementations](https://allenchou.net/2014/04/game-math-quaternion-implementations/): Quaternion implementations for game math. (Ming-Lun Chou, 2014-04-14, article, Unity-old era)
+- [Game Math: Quaternion Basics](https://allenchou.net/2014/04/game-math-quaternion-basics/): Quaternion basics for game math. (Ming-Lun Chou, 2014-04-09, article, Unity-old era)
+- [Game Math: Faster Re-Normalization of Unit Vectors.](https://allenchou.net/2014/02/game-math-fast-re-normalization-of-unit-vectors/): Faster re-normalization of unit vectors. (Ming-Lun Chou, 2014-02-28, article, Unity-old era)
+- [Game Math: Faster Sine & Cosine with Polynomial Curves](https://allenchou.net/2014/02/game-math-faster-sine-cosine-with-polynomial-curves/): Faster sine and cosine using polynomial curves. (Ming-Lun Chou, 2014-02-28, article, Unity-old era)
+- [Game Math: Approximation with Polynomial Curves](https://allenchou.net/2014/02/game-math-approximation-with-polynomial-curves/): Approximating functions with polynomial curves. (Ming-Lun Chou, 2014-02-27, article, Unity-old era)
+- [Game Math: How to Eyeball the Inverse of a Matrix](https://allenchou.net/2014/02/game-math-how-to-eyeball-the-inverse-of-a-matrix/): Tips for eyeballing the inverse of a matrix. (Ming-Lun Chou, 2014-02-27, article, Unity-old era)
+- [Game Math: Block Matrices](https://allenchou.net/2014/02/game-math-block-matrices/): Game math on block matrices. (Ming-Lun Chou, 2014-02-27, article, Unity-old era)
+- [Game Math: Alternate Views on Matrix Multiplication](https://allenchou.net/2014/02/game-math-alternate-views-on-matrix-multiplication/): Alternate views of matrix multiplication for game math. (Ming-Lun Chou, 2014-02-27, article, Unity-old era)
+- [Game Physics: Updating AABBs for Polyhedrons](https://allenchou.net/2014/02/game-physics-updating-aabbs-for-polyhedrons/): Game physics: updating AABBs for polyhedrons. (Ming-Lun Chou, 2014-02-19, article, Unity-old era)
+- [Game Physics: Implementing Support Function for Polyhedrons using Half Edges](https://allenchou.net/2014/02/game-physics-implementing-support-function-for-polyhedrons-using-half-edges/): Game physics: implementing the support function for polyhedrons with half edges. (Ming-Lun Chou, 2014-02-19, article, Unity-old era)
+- [Game Physics: Broadphase – Dynamic AABB Tree](https://allenchou.net/2014/02/game-physics-broadphase-dynamic-aabb-tree/): Game physics broadphase using a dynamic AABB tree. (Ming-Lun Chou, 2014-02-14, article, Unity-old era)
+- [Game Physics: Stability – Warm Starting](https://allenchou.net/2014/01/game-physics-stability-warm-starting/): Game physics stability with warm starting. (Ming-Lun Chou, 2014-01-07, article, Unity-old era)
+- [Game Physics: Stability – Slops](https://allenchou.net/2014/01/game-physics-stability-slops/): Game physics stability with penetration slops. (Ming-Lun Chou, 2014-01-01, article, Unity-old era)
+- [Game Physics: Resolution – Contact Constraints](https://allenchou.net/2013/12/game-physics-resolution-contact-constraints/): Game physics resolution of contact constraints. (Ming-Lun Chou, 2013-12-31, article, Unity-old era)
+- [Game Physics: Resolution – Constraints & Sequential Impulse](https://allenchou.net/2013/12/game-physics-constraints-sequential-impulse/): Game physics resolution with constraints and sequential impulse. (Ming-Lun Chou, 2013-12-30, article, Unity-old era)
+- [Game Physics: Contact Generation – EPA](https://allenchou.net/2013/12/game-physics-contact-generation-epa/): Game physics contact generation using the EPA algorithm. (Ming-Lun Chou, 2013-12-28, article, Unity-old era)
+- [Game Physics: Collision Detection – GJK](https://allenchou.net/2013/12/game-physics-collision-detection-gjk/): Game physics collision detection with GJK. (Ming-Lun Chou, 2013-12-26, article, Unity-old era)
+- [Game Physics: Collision Detection – CSO & Support Function](https://allenchou.net/2013/12/game-physics-collision-detection-csos-support-functions/): Game physics collision detection with the CSO and support functions. (Ming-Lun Chou, 2013-12-26, article, Unity-old era)
+- [Game Physics: Broadphase – Overview](https://allenchou.net/2013/12/game-physics-broadphase/): Overview of broadphase collision detection. (Ming-Lun Chou, 2013-12-25, article, Unity-old era)
+- [Game Physics: Motion Dynamics Implementations](https://allenchou.net/2013/12/game-physics-motion-dynamics-implementations/): Implementations of motion dynamics for game physics. (Ming-Lun Chou, 2013-12-19, article, Unity-old era)
+- [Game Physics: Motion Dynamics Fundamentals](https://allenchou.net/2013/12/game-physics-motion-dynamics-fundamentals/): Fundamentals of motion dynamics for game physics. (Ming-Lun Chou, 2013-12-19, article, Unity-old era)
+- [Game Physics: Introduction & Acknowledgements](https://allenchou.net/2013/12/game-physics-introduction/): Introduction and acknowledgements for a game physics series. (Ming-Lun Chou, 2013-12-18, article, Unity-old era)
+- [Intrusively Linked Lists with Safe Link Destruction](https://allenchou.net/2013/07/intrusively-linked-lists-with-safe-link-destruction/): Intrusive linked lists with safe link destruction. (Ming-Lun Chou, 2013-07-23, article, Unity-old era)
+- [Game Math: “Cross Product” of 2D Vectors](https://allenchou.net/2013/07/cross-product-of-2d-vectors/): Explains the cross product of 2D vectors. (Ming-Lun Chou, 2013-07-07, article, Unity-old era)
+- [Bending Solid Geometry in Planetary Annihilation](https://allenchou.net/2013/07/bending-solid-geometry-in-planetary-annihilation/): Internship story on bending solid geometry in Planetary Annihilation. (Ming-Lun Chou, 2013-07-04, article, Unity-old era)
+- [Memory Management part 3 of 3: STL-Compatible Allocators](https://allenchou.net/2013/05/memory-management-part-3-of-3-stl-compatible-allocators/): Memory management part three: STL-compatible allocators. (Ming-Lun Chou, 2013-05-06, article, Unity-old era)
+- [Memory Management part 2 of 3: C-Style Interface](https://allenchou.net/2013/05/memory-management-part-2-of-3-c-style-interface/): Memory management part two: a C-style interface for the allocator. (Ming-Lun Chou, 2013-05-06, article, Unity-old era)
+- [Memory Management part 1 of 3: The Allocator](https://allenchou.net/2013/05/memory-management-part-1-of-3-the-allocator/): Memory management part one: building an allocator. (Ming-Lun Chou, 2013-05-06, article, Unity-old era)
+- [Shader Primer](https://allenchou.net/2011/02/shader-primer/): Primer on shaders. (Ming-Lun Chou, 2011-02-17, article, Unity-old era)
+- [Matrix Stack and the Visitor Pattern](https://allenchou.net/2011/02/matrix-stack-and-the-visitor-pattern/): Explains using a matrix stack and the visitor pattern in a scene graph. (Ming-Lun Chou, 2011-02-11, article, Unity-old era)
+- [Gamedev Tutorials Series | Ming-Lun "Allen" Chou | 周明倫](http://allenchou.net/gamedev-tutorials-series/): Index of tutorials on game math, physics and programming by a game developer. (Ming-Lun Chou, article)
+- [Game Programming Series | Ming-Lun "Allen" Chou | 周明倫](http://allenchou.net/game-programming-series/): Index of game programming tutorials covering linked lists, resource management and more. (Ming-Lun Chou, article)
+- [Game Physics Series | Ming-Lun "Allen" Chou | 周明倫](http://allenchou.net/game-physics-series/): Index of game physics tutorial posts by a game developer. (Ming-Lun Chou, article)
+- [Game Math Series | Ming-Lun "Allen" Chou | 周明倫](http://allenchou.net/game-math-series/): Index of game math tutorials covering trigonometry and more. (Ming-Lun Chou, article)

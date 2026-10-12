@@ -1,0 +1,55 @@
+# Daniel Ilett
+
+Shader and graphics developer who teaches Unity shaders, post-processing and effects through tutorials and videos. Author of Building Quality Shaders for Unity (Apress, 2022).
+
+- site: https://danielilett.com/
+- mastodon: https://mastodon.gamedev.place/@danielilett
+- youtube: https://www.youtube.com/@danielilett
+- itch: https://danielilett.itch.io/
+- patreon: https://www.patreon.com/danielilett
+- github: https://github.com/daniel-ilett
+- x: https://x.com/daniel_ilett
+- bluesky: https://bsky.app/profile/danielilett.bsky.social
+
+- [Unity Shader Graph Basics (Part 13 - Terrain Lit Official Support)](https://danielilett.com/2026-09-17-tut9-13-official-terrains/): Uses Unity 6.3's new Terrain Lit graph type and terrain nodes in Shader Graph. (Daniel Ilett, 2026-09-17, article, Unity 6)
+- [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
+- [Unity Shader Code Basics 09 - Post Processing](https://danielilett.com/2026-09-03-tut10-09-post-processing/): Writes grayscale and other post-process effects in URP using the newer Render Graph API. (Daniel Ilett, 2026-09-03, article, Unity-6 era, URP)
+- [Unity Shader Code Basics 08 - Custom Editors](https://danielilett.com/2026-08-27-tut10-08-custom-editors/): Builds a custom shader GUI editor that bundles the shader's features into one tidy inspector. (Daniel Ilett, 2026-08-27, article, Unity-6 era)
+- [Unity Shader Code Basics 07 - Physically Based Rendering](https://danielilett.com/2026-04-28-tut10-07-pbr/): Describes surfaces by albedo, metallic, smoothness and height to build a physically based shader in HLSL for Unity. (Daniel Ilett, 2026-04-28, article, Unity-6 era)
+- [Blur Shaders Pro - A Technical Breakdown](https://danielilett.com/2026-04-22-article-blur-shaders-pro/): Walks through building a two-pass Gaussian blur with sparse kernel support for a shader asset. (Daniel Ilett, 2026-04-22, article, Unity-6 era)
+- [Unity Shader Code Basics 06 - Lighting & Shadows](https://danielilett.com/2026-04-17-tut10-06-lighting/): Loops over lights for diffuse, specular, Fresnel and ambient lighting and handles shadows in Unity shader code. (Daniel Ilett, 2026-04-17, article, Unity-6 era)
+- [Retro Shaders Pro - A Technical Breakdown](https://danielilett.com/2026-01-27-article-retro-1-5-1-update/): Devlog on PS1 visual limits (wobbly vertices, affine textures) and how each was recreated in shaders. (Daniel Ilett, 2026-01-27, article, Unity-6 era)
+- [Unity Shader Code Basics 05 - Vertex Shaders & Tessellation](https://danielilett.com/2026-01-03-tut10-05-vertex-waves/): Moves vertices in a vertex shader for waves and adds tessellation for low-poly meshes. (Daniel Ilett, 2026-01-03, article, Unity-6 era)
+- [Unity Shader Code Basics 04 - The Depth Buffer](https://danielilett.com/2026-01-02-tut10-04-depth/): Reads the depth buffer in hand-written Unity shaders to build depth-based effects. (Daniel Ilett, 2026-01-02, article, Unity-6 era)
+- [Unity Shader Code Basics 03 - Transparency](https://danielilett.com/2026-01-01-tut10-03-transparency/): Explains drawing transparent objects and blending in hand-written Unity shaders. (Daniel Ilett, 2026-01-01, article, Unity-6 era)
+- [Unity Shader Code Basics 02 - Textures & UVs](https://danielilett.com/2025-10-16-tut10-02-textures/): Explains textures and UVs in hand-written Unity HLSL shaders. (Daniel Ilett, 2025-10-16, article, Unity-6 era)
+- [Unity Shader Code Basics 01 - Your First Shader](https://danielilett.com/2025-10-15-tut10-01-your-first-shader/): Introduces writing HLSL shader code in Unity, where Shader Graph falls short. (Daniel Ilett, 2025-10-15, article, Unity-6 era)
+- [Unity Shader Graph Basics (Part 12 - Post Processing)](https://danielilett.com/2025-10-14-tut9-12-post-processing/): Reads screen contents with the Fullscreen graph type to build post-process effects in Shader Graph. (Daniel Ilett, 2025-10-14, article, Unity-6 era)
+- [Holofoil Cards in Shader Graph and Unity URP](https://danielilett.com/2025-10-13-tut11-01-holofoil-cards/): Makes Pokemon-style holofoil cards in Shader Graph using the stencil buffer and other tricks in URP. (Daniel Ilett, 2025-10-13, article, Unity-6 era, URP)
+- [Unity Shader Graph Basics (Part 11 - Terrains)](https://danielilett.com/2025-10-12-tut9-11-terrains/): Samples terrain control and splat textures in Shader Graph to shade Unity terrains. (Daniel Ilett, 2025-10-12, article, Unity-6 era)
+- [Zelda Recall Rune in Unity URP](https://danielilett.com/2025-10-11-tut7-16-recall-rune/): Recreates the Zelda Recall Rune effect by drawing chosen objects to a mask and outlining them in URP. (Daniel Ilett, 2025-10-11, article, Unity-6 era, URP)
+- [Mystery Dungeon Sketches in Unity URP](https://danielilett.com/2024-09-27-tut7-15-mystery-dungeon-sketch-urp/): Builds a Mystery Dungeon style sketch look in URP with shadow maps, depth textures, post processing and triplanar mapping. (Daniel Ilett, 2024-09-27, article, Unity-2022 era, URP)
+- [Mystery Dungeon Sketch Post Process in Unity URP](https://www.youtube.com/watch?v=h2f05Id8uKc): Builds a Mystery Dungeon style sketch post process in URP using triplanar mapping. (Daniel Ilett, 2024-09-27, video, Unity-2022 era, URP)
+- [Unity Shader Graph Basics (Part 10 - Custom Functions)](https://danielilett.com/2024-07-09-tut7-14-intro-to-shader-graph-part-10/): Injects custom HLSL functions into Shader Graph, including access to additional point light data. (Daniel Ilett, 2024-07-09, article, Unity-2022 era)
+- [Tip: RTHandles.Alloc ignores the stencil in RenderTextureDescriptor](https://mastodon.gamedev.place/@danielilett/112728826916413033): Mastodon tip: RTHandles.Alloc ignores the stencil format set in the RenderTextureDescriptor. (Daniel Ilett, 2024-07-04, post, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 9 - Scene Intersections 2)](https://danielilett.com/2024-05-28-tut7-13-intro-to-shader-graph-part-9/): Uses scene intersections for foamy coastal water edges and glowing edges on passing objects. (Daniel Ilett, 2024-05-28, article, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 8 - Scene Intersections 1)](https://danielilett.com/2024-05-21-tut7-12-intro-to-shader-graph-part-8/): Uses the depth buffer to detect where objects intersect other scene geometry in Shader Graph. (Daniel Ilett, 2024-05-21, article, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 7 - Custom Lighting)](https://danielilett.com/2024-05-07-tut7-11-intro-to-shader-graph-part-7/): Adds custom Fresnel rim light and cel-shaded lighting into Shader Graph. (Daniel Ilett, 2024-05-07, article, Unity-2022 era)
+- [Pokémon's Terastallize Effect in Shader Graph](https://danielilett.com/2024-04-10-tut7-10-terastal-effect/): Turns meshes into crystal by triangulating them and using random vectors for lighting, like Pokemon's Terastallize. (Daniel Ilett, 2024-04-10, article, Unity-2022 era)
+- [Dithered Transparency in Shader Graph](https://www.youtube.com/watch?v=NHd1PeJfyzE): Builds dithered transparency in Shader Graph. (Daniel Ilett, 2024-04-02, video, Unity-2022 era)
+- [MGS Stealth Camo in Shader Graph](https://danielilett.com/2024-03-26-tut7-9-mgs-stealth-camo/): Distorts the scene behind a mesh with Scene Color and a green tint for Metal Gear-style stealth camo. (Daniel Ilett, 2024-03-26, article, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 6 - Lighting Basics)](https://danielilett.com/2024-03-19-tut7-8-intro-to-shader-graph-part-6/): Introduces physically based rendering concepts such as albedo, metallic and smoothness in Shader Graph. (Daniel Ilett, 2024-03-19, article, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 5 - Vertex Shaders)](https://danielilett.com/2024-02-13-tut7-7-intro-to-shader-graph-part-5/): Modifies mesh vertices in Shader Graph to create wave displacement effects. (Daniel Ilett, 2024-02-13, article, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 4 - The Depth Buffer)](https://danielilett.com/2023-12-20-tut7-6-intro-to-shader-graph-part-4/): Reads the depth buffer in Shader Graph to build depth-based effects. (Daniel Ilett, 2023-12-20, article, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 3 - Transparency & Alpha)](https://danielilett.com/2023-12-11-tut7-5-intro-to-shader-graph-part-3/): Explains transparency, draw order and alpha clipping in Shader Graph. (Daniel Ilett, 2023-12-11, article, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 2 - Textures & UVs)](https://danielilett.com/2023-12-04-tut7-4-intro-to-shader-graph-part-2/): Applies textures and UV coordinates for base color in Shader Graph. (Daniel Ilett, 2023-12-04, article, Unity-2022 era)
+- [Unity Shader Graph Basics (Part 1 - Your First Graph)](https://danielilett.com/2023-09-26-tut7-3-intro-to-shader-graph/): Beginner guide to creating your first Shader Graph shader in Unity. (Daniel Ilett, 2023-09-26, article, Unity-2022 era)
+- [Voronoi-based Lava in Unity Shader Graph](https://danielilett.com/2023-06-20-tut7-2-voronoi-lava/): Builds animated lava in Shader Graph using custom Voronoi noise that exposes cell edges. (Daniel Ilett, 2023-06-20, article, Unity-2022 era)
+- [10 Shaders Explained Quickly](https://danielilett.com/2023-04-07-tut6-5-10-shaders-quickly/): Quickly explains ten shader effects from inverted-hull outlines and silhouettes to vertex animation. (Daniel Ilett, 2023-04-07, article, Unity-2022 era)
+- [Outline Post Process in Unity Shader Graph (URP)](https://danielilett.com/2023-03-21-tut7-1-fullscreen-outlines/): Draws outlines as a Fullscreen Shader Graph post process by detecting color changes between neighboring pixels. (Daniel Ilett, 2023-03-21, article, Unity-2022 era, URP)
+- [Energy Shield Hologram in Unity Shader Graph](https://danielilett.com/2023-02-09-tut6-3-energy-shield/): Builds a reactive energy shield hologram in Shader Graph. (Daniel Ilett, 2023-02-09, article, Unity-2022 era)
+- [Six Grass Rendering Techniques in Unity](https://danielilett.com/2022-12-05-tut6-2-six-grass-techniques/): Compares six different ways to render grass in Unity. (Daniel Ilett, 2022-12-05, article, Unity-2022 era)
+- [PlayStation 1 Affine Texture Mapping in Shader Code](https://danielilett.com/2021-11-06-tut5-21-ps1-affine-textures/): Reproduces PlayStation 1 affine texture warping in shader code for a retro look. (Daniel Ilett, 2021-11-06, article, Unity-2021 era)
+- [Portals: Part 3 - Matrix Clipping](https://danielilett.com/2019-12-18-tut4-3-matrix-matching/): Uses an oblique projection matrix to clip objects behind a portal correctly. (Daniel Ilett, 2019-12-18, article, Unity-old era, BUILTIN)
+- [Unity Tips | Part 3 - Interpolation](https://danielilett.com/2019-09-08-unity-tips-3-interpolation/): Unity tips on interpolation methods for blending between values smoothly. (Daniel Ilett, 2019-09-08, article, Unity-old era)
+- [Games | Shaders | Tutorials](https://danielilett.com/): Creator's site hub of Unity shader and game tutorials. (Daniel Ilett, article)

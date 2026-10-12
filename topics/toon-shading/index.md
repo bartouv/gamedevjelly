@@ -1,0 +1,26 @@
+# Toon & cel shading
+
+> Stylized looks · 22 hand-filtered guides on GamedevJelly, newest first.
+
+- [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
+- [Half Past Yellow on the gentle art of making enemies for Tempest Tower](https://unity.com/blog/half-past-yellow-creating-enemy-visuals-tempest-tower): How the crisp, clayish enemy look in a tower defense game was achieved. (Unity, 2025-04-21, article, Unity-6 era)
+- [@halisavakis.com: depth-offset rim lighting that follows light direction](https://bsky.app/profile/halisavakis.com/post/3lbbatqiwg22l): Stylized rim light from depth offset instead of thresholded fresnel, reacting to light direction; pairs well with cel shading. (Harry Alisavakis, 2024-11-19, post, Unity-6 era)
+- [Stylized Metal Shader Graph](https://www.patreon.com/posts/stylized-metal-111029610): Patreon post building a stylized metal shader in Shader Graph. (MinionsArt, 2024-08-01, post, Unity-2022 era)
+- [URP Toon Shader | VFX Shaders | Unity Asset Store](https://assetstore.unity.com/packages/vfx/shaders/urp-toon-shader-259777): Asset Store URP toon shader package by Ciro Continisio. (2023-09-30, article, Unity-2022 era, URP)
+- [Wind Waker Style Patreon post](https://www.patreon.com/posts/wind-waker-style-78831006): Patreon post on a Wind Waker style effect in Unity. (MinionsArt, 2023-02-07, post, Unity-2022 era)
+- [Toon outline shader | Unity Tutorial](https://www.youtube.com/watch?v=WnIGh8xrdG8): Writes a toon outline shader in Unity. (2021-08-06, video, Unity-2021 era)
+- [joyrok](https://joyrok.cargo.site/Tale-of-2-Engines): Joyrok's tech art post comparing two game engines. (2020-09-14, article, Unity-old era)
+- [Cel Shading | Series Introduction](https://danielilett.com/2019-05-29-tut2-intro/): Introduces a series on cel shading, the stylized look of games like Wind Waker. (2019-05-29, article, Unity-old era)
+- [https://www.ronja-tutorials.com/post/040-halftone-shading/](https://www.ronja-tutorials.com/2019/03/02/halftone-shading.html): Ronja tutorial on halftone shading in Unity. (2019-03-02, article, Unity-old era)
+- [Halftone Shading](https://www.ronja-tutorials.com/post/040-halftone-shading/): Halftone toon shading using fully lit or fully unlit areas. (Ronja, 2019-03-02, article, Unity-old era)
+- [Improved Toon Light](https://www.ronja-tutorials.com/post/032-improved-toon/): Improves a simple toon light shader. (Ronja, 2018-10-27, article, Unity-old era)
+- [Single Step Toon Light](https://www.ronja-tutorials.com/post/031-single-step-toon/): Builds a single-step toon lighting shader. (Ronja, 2018-10-20, article, Unity-old era)
+- [My take on shaders: Directional coloring – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-directional-coloring/): Explains directional coloring using the dot product. (2018-01-13, article, Unity-old era)
+- [Toon Faces](https://www.patreon.com/posts/16569049): Patreon post on toon-style faces. (MinionsArt, 2018-01-01, post, Unity-old era)
+- [Toon Skulls](https://www.patreon.com/posts/13555743): Patreon post on modeling toon skulls. (MinionsArt, 2017-07-01, post, Unity-old era)
+- [Toon Eyes](https://www.patreon.com/posts/9707447): Patreon post on toon-style eyes. (MinionsArt, 2017-05-01, post, Unity-old era)
+- [Wind Waker Graphics Analysis](https://medium.com/@gordonnl/wind-waker-graphics-analysis-a0b575a31127): Wind Waker graphics analysis covering how the game's stylized look is achieved. (2016-11-10, article, Unity-old era)
+- [Scribble Cel](https://simonschreibt.de/gat/scribble-cel/): Covers a scribbled cel-shaded look with animated hand-drawn line wobble, with several updates. (Simon Schreibt, 2013-05-15, article, Unity-old era)
+- [Cel Shading](https://simonschreibt.de/gat/cell-shading/): Compares ways of up-scaling a sprite for cel shading and why naive scaling falls short. (Simon Schreibt, 2013-01-21, article, Unity-old era)
+- [Toon Shader Survey](https://alvarber.gitlab.io/toon-shader-survey.html): Survey of toon shader approaches and techniques. (article)
+- [Comic book (halftone) shader](https://alexanderameye.github.io/notes/halftone-shader/): Builds a comic-book halftone shader that renders the camera view like CMYK print. (article)

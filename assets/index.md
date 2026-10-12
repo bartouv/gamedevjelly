@@ -1,0 +1,56 @@
+# Assets
+
+Asset Store tools and other tools worth knowing.
+
+- [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570) by Amplify Creations (Shaders & look, 80.0): You want to build shaders visually with nodes, across render pipelines.
+- [Toony Colors Pro 2](https://assetstore.unity.com/packages/vfx/shaders/toony-colors-pro-2-8105) by Jean Moreno (Shaders & look, 75.0): You want a stylized or toon look from a configurable shader generator.
+- [Shapes](https://assetstore.unity.com/packages/tools/particles-effects/shapes-173167) by Freya Holmér (Shaders & look, 100.0): You want crisp vector-style lines, shapes and text drawn in the scene or on screen (by Freya Holmér).
+- [Beautify 3 - Advanced Post Processing](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/beautify-3-advanced-post-processing-233073) by Kronnect (Shaders & look, 51.99): You want a fast all-in-one post-processing pack (color grading, sharpen, bloom and more).
+- [Volumetric Fog & Mist 2](https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/volumetric-fog-mist-2-162694) by Kronnect (Shaders & look, 69.99): You want performant volumetric fog and mist.
+- [Crest Water 5 (Oceans, Rivers, Lakes)](https://assetstore.unity.com/packages/tools/particles-effects/crest-water-5-oceans-rivers-lakes-268614) by Wave Harmonic (Shaders & look, 240.0): You want oceans, rivers and lakes with a ready water system.
+- [Enviro 3 - Sky and Weather](https://assetstore.unity.com/packages/tools/particles-effects/enviro-3-sky-and-weather-236601) by Hendrik Haupt (Shaders & look, 80.0): You want a dynamic sky, weather and time-of-day system.
+- [Gaia Pro VS - Terrain, Trees, Grass & Water for Unity 6](https://assetstore.unity.com/packages/tools/terrain/gaia-pro-vs-terrain-trees-grass-water-for-unity-6-263149) by Procedural Worlds Inc (Terrain & world, 199.0): You want to generate a whole terrain scene (terrain, trees, grass, water) quickly.
+- [MicroVerse - Core Collection](https://assetstore.unity.com/packages/tools/terrain/microverse-core-collection-232976) by Jason Booth (Terrain & world, 199.0): You want non-destructive, stamp-based terrain and world authoring.
+- [MicroSplat - Ultimate Bundle](https://assetstore.unity.com/packages/tools/terrain/microsplat-ultimate-bundle-180948) by Jason Booth (Terrain & world, 199.0): You want a fast, flexible terrain texturing shader with many add-ons.
+- [Digger PRO – Voxel Terrain Sculpting](https://assetstore.unity.com/packages/tools/terrain/digger-pro-voxel-terrain-sculpting-149753) by Amandine Entertainment (Terrain & world, 99.0): You want to carve caves and overhangs into Unity terrain.
+- [EasyRoads3D Pro v3](https://assetstore.unity.com/packages/tools/terrain/easyroads3d-pro-v3-469) by AndaSoft (Terrain & world, 45.0): You want to build roads and road networks on terrain.
+- [GPU Instancer Pro](https://assetstore.unity.com/packages/tools/utilities/gpu-instancer-pro-290293) by GurBu Technologies (Terrain & world, 128.0): You need to render huge amounts of grass, trees or crowds with GPU instancing.
+- [Odin Inspector and Serializer](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) by Sirenix (Editor & workflow, 55.0): You want custom inspectors and flexible serialization without writing editor code.
+- [Hot Reload | Edit Code Without Compiling](https://assetstore.unity.com/packages/tools/utilities/hot-reload-edit-code-without-compiling-254358) by The Naughty Cult (Editor & workflow, 79.99): You want to edit C# and see changes without a domain reload.
+- [Mesh Baker](https://assetstore.unity.com/packages/tools/modeling/mesh-baker-5017) by Ian Deane (Editor & workflow, 79.0): You want to combine meshes and materials to cut draw calls.
+- [Bakery - GPU Lightmapper](https://assetstore.unity.com/packages/tools/level-design/bakery-gpu-lightmapper-122218) by Mr F (Editor & workflow, 55.0): You want much faster GPU lightmap baking.
+- [Playmaker](https://assetstore.unity.com/packages/tools/visual-scripting/playmaker-368) by Hutong Games LLC (Editor & workflow, 65.0): You want state-machine visual scripting without writing code.
+- [Final IK](https://assetstore.unity.com/packages/tools/animation/final-ik-14290) by RootMotion (Animation, 90.0): You want IK and procedural animation for characters (aiming, grabbing, foot placement).
+- [Animancer Pro v8](https://assetstore.unity.com/packages/tools/animation/animancer-pro-v8-293522) by Kybernetik (Animation, 90.0): You want to play and blend animations from code, without Animator Controller graphs.
+- [PuppetMaster](https://assetstore.unity.com/packages/tools/physics/puppetmaster-48977) by RootMotion (Animation, 90.0): You want active-ragdoll, physics-driven character animation.
+- [Dialogue System for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672) by Pixel Crushers (Gameplay systems, 95.0): You need dialogue, conversations and quests with an editor.
+- [Behavior Designer - Behavior Trees for Everyone](https://assetstore.unity.com/packages/tools/behavior-ai/behavior-designer-behavior-trees-for-everyone-15277) by Opsive (Gameplay systems, 95.0): You want behavior trees for AI, built visually.
+- [NodeCanvas](https://assetstore.unity.com/packages/tools/visual-scripting/nodecanvas-14914) by Paradox Notion (Gameplay systems, 120.0): You want behavior trees, state machines and dialogue graphs in one toolkit.
+- [A* Pathfinding Project Pro](https://assetstore.unity.com/packages/tools/behavior-ai/a-pathfinding-project-pro-87744) by Aron Granberg (Gameplay systems, 140.0): You need robust A* pathfinding and local avoidance for AI.
+- [Game Creator 2](https://assetstore.unity.com/packages/tools/game-toolkits/game-creator-2-203069) by Catsoft Works (Gameplay systems, 79.99): You want a no-code-friendly game framework with visual scripting.
+- [Adventure Creator](https://assetstore.unity.com/packages/tools/game-toolkits/adventure-creator-11896) by ICEBOX Studios (Gameplay systems, 80.0): You want to make point-and-click adventure games.
+- [Corgi Engine - 2D + 2.5D Platformer](https://assetstore.unity.com/packages/templates/systems/corgi-engine-2d-2-5d-platformer-26617) by More Mountains (Gameplay systems, 75.0): You want a full 2D or 2.5D platformer engine.
+- [TopDown Engine](https://assetstore.unity.com/packages/templates/systems/topdown-engine-89636) by More Mountains (Gameplay systems, 75.0): You want a top-down game framework.
+- [Master Audio 2024: AAA Sound](https://assetstore.unity.com/packages/tools/audio/master-audio-2024-aaa-sound-287785) by Dark Tonic Inc. (Audio & input, 150.0): You want audio management: sound groups, playlists and ducking.
+- [Rewired](https://assetstore.unity.com/packages/tools/input-management/rewired-21676) by Guavaman Enterprises (Audio & input, 45.0): You want advanced input and controller support beyond the built-in options.
+- [DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) by Demigiant (Free essentials, 0.0): You want the free tween library (a Pro version adds a visual editor).
+- [FMOD for Unity (2.02)](https://assetstore.unity.com/packages/tools/audio/fmod-for-unity-2-02-161631) by FMOD (Free essentials, 0.0): You want FMOD audio middleware in Unity.
+- [Third Person Controller - Basic Locomotion FREE](https://assetstore.unity.com/packages/tools/game-toolkits/third-person-controller-basic-locomotion-free-82048) by Invector (Free essentials, 0.0): You want a free third-person character controller to start from.
+- [Terrain Asset Pack | Terrain Sample](https://assetstore.unity.com/packages/3d/environments/landscapes/terrain-asset-pack-terrain-sample-145808) by Unity Technologies (Free essentials, 0.0): You want Unity's official terrain sample assets.
+- [Tanks! | 3D Sample Project](https://assetstore.unity.com/packages/templates/packs/tanks-3d-sample-project-46209) by Unity Technologies (Free essentials, 0.0): You want a small official sample project to read and learn from.
+- [EasyRoads3D Free v3](https://assetstore.unity.com/packages/3d/characters/easyroads3d-free-v3-987) by AndaSoft (Free essentials, 0.0): You want the free tier of EasyRoads3D to try road building.
+- [Simplygon](https://www.simplygon.com/features/unity) by Microsoft (Optimization & LOD, See website for pricing): You want automatic LODs, mesh reduction, remeshing and impostors, with a Unity integration.
+- [InstaLOD](https://instalod.com) by InstaLOD (Optimization & LOD, See website for pricing): You want an alternative automatic mesh optimization and LOD pipeline.
+- [Blender](https://www.blender.org) by Blender Foundation (Art & 3D tools, Free, open source): You want a free, full 3D suite for modeling, rigging, animation and baking.
+- [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) by Adobe (Art & 3D tools, Subscription): You want to texture 3D models with layered PBR materials.
+- [Houdini and Houdini Engine](https://www.sidefx.com/products/houdini-engine/) by SideFX (Art & 3D tools, Free non-commercial edition; paid for commercial use): You want procedural tools and effects, with Houdini assets running inside Unity.
+- [SpeedTree](https://store.speedtree.com) by Unity Technologies / SpeedTree (Art & 3D tools, Paid): You want to model realistic trees and vegetation, with Unity support.
+- [Mixamo](https://www.mixamo.com) by Adobe (Art & 3D tools, Free with an Adobe account): You want free auto-rigging and a large animation library to start prototypes.
+- [Marmoset Toolbag](https://marmoset.co/toolbag/) by Marmoset (Art & 3D tools, Paid): You want to bake and render model presentations in real time.
+- [RenderDoc](https://renderdoc.org) by Baldur Karlsson (Profiling & debugging, Free, open source): You need to capture and inspect frames to debug rendering and shaders.
+- [PIX on Windows](https://devblogs.microsoft.com/pix/) by Microsoft (Profiling & debugging, Free): You need GPU captures and timing for DirectX 12 titles on PC and Xbox.
+- [JetBrains Rider](https://www.jetbrains.com/rider/) by JetBrains (Editor & workflow, Free for non-commercial use; paid otherwise): You want a fast C# IDE with Unity-aware inspections and debugging.
+- [Unity Version Control](https://unity.com/solutions/version-control) by Unity (Editor & workflow, Free tier available): You want version control built for large binary assets and artists.
+- [FMOD Studio](https://www.fmod.com) by Firelight Technologies (Audio & input, Free tier for small projects): You want a full audio middleware tool with an authoring app.
+- [Wwise](https://www.audiokinetic.com/products/wwise/) by Audiokinetic (Audio & input, Free tier for small projects): You want industry-standard audio middleware with an authoring app.
+- [Bezi](https://www.bezi.com) by Bezi (AI & services, Free trial (100 credits); paid from $20/month): You want an AI assistant that works inside your Unity project and can run edit and play-test loops.

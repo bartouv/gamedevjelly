@@ -1,0 +1,17 @@
+# Data, saving & localization
+
+> Engineering · 13 hand-filtered guides on GamedevJelly, newest first.
+
+- [Scriptable Objects Aren't Just Data Holders](https://www.youtube.com/watch?v=UmcUHOk9fX4): Goes beyond data containers to show ScriptableObjects used for architecture, events and behavior in Unity. (Gamedev Engine Room, 2026-08-26, video, Unity-6 era)
+- [Unity Devs Are Sleeping on This Free Alternative to Odin](https://www.youtube.com/watch?v=L0nBN6ME7VQ): Boost your workflow with Alchemy, a free Unity library providing powerful inspector attributes and serialization extensions. See how it compares to paid alternatives. (git-amend, 2026-07-19, video, Unity-6 era)
+- [Stop Fighting Unity's Serializer - Use This Instead](https://www.youtube.com/watch?v=K10lBl__xbQ): Shows Odin Serializer handling dictionaries, interfaces and abstract classes that Unity's serializer can't. (Gamedev Engine Room, 2026-04-22, video, Unity-6 era)
+- [How solo dev SlugGlove built 102 million spell combinations in Unity for Rhell: Warped Worlds & Troubled Times](https://unity.com/blog/building-102-million-spell-combinations-prefab-variants-rhell): Building a modular spell system with prefab variants that yields 102 million combinations. (Unity, 2026-04-13, article, Unity-6 era)
+- [Create modular game architecture with ScriptableObjects](https://unity.com/resources/create-modular-game-architecture-scriptableobjects-unity-6): Using ScriptableObjects in Unity 6 for modular architecture, lower memory use and simpler code. (Unity, 2025-08-22, article, Unity-6 era)
+- [Budget-Friendly Serialization & Deserialization](https://thegamedev.guru/unity-cpu-performance/budget-friendly-serialization-deserialization/): Compares serialization and deserialization options in Unity and their performance costs. (GameDevGuru, 2024-10-08, article, Unity-6 era)
+- [Unite Austin 2017 - Game Architecture with Scriptable Objects](https://www.youtube.com/watch?v=raQ3iHhE_Kk): Unite Austin 2017 talk on game architecture with ScriptableObjects. (2019-08-06, video, Unity-old era)
+- [Object Management: More Complex Levels](https://catlikecoding.com/unity/tutorials/object-management/more-complex-levels/): Object management tutorial on handling more complex levels. (Catlike Coding, 2019-03-20, article, Unity-old era)
+- [Object Management: More Game State](https://catlikecoding.com/unity/tutorials/object-management/more-game-state/): Object management tutorial on saving and loading game and level state. (Catlike Coding, 2018-09-21, article, Unity-old era)
+- [Object Management: Persisting Objects](https://catlikecoding.com/unity/tutorials/object-management/persisting-objects/): Object management tutorial on persisting object data between game sessions. (Catlike Coding, 2018-04-18, article, Unity-old era)
+- [Hex Map 12: Saving and Loading](https://catlikecoding.com/unity/tutorials/hex-map/part-12/): Hex Map part 12: saving and loading maps. (Catlike Coding, 2016-12-22, article, Unity-old era)
+- [Unity - Scripting API: PlayerPrefs](https://docs.unity3d.com/ScriptReference/PlayerPrefs.html): Unity scripting API reference for PlayerPrefs. (2014-06-01, article, Unity-old era)
+- [Architect your code for efficient changes and debugging with ScriptableObjects | Unity](https://unity.com/how-to/architect-game-code-scriptable-objects): Guide to architecting Unity code with ScriptableObjects for flexibility and easier debugging. (article)

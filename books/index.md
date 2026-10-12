@@ -1,0 +1,22 @@
+# Books
+
+Books and free Unity e-books.
+
+- [Unity 6 Shaders and Effects Cookbook](https://www.packtpub.com/product/unity-6-shaders-and-effects-cookbook-9781835468579) by John P. Doran (Packt, 2025, Intermediate): You want recipe-style Shader Graph and visual effects examples written for Unity 6.
+- [Building Quality Shaders for Unity](https://link.springer.com/book/10.1007/978-1-4842-8652-4) by Daniel Ilett (Apress, 2022, Beginner to intermediate): You want a structured path from HLSL shader code to Shader Graph, across the built-in, URP and HDRP pipelines.
+- [Beginner's Guide to Unity Shader Graph](https://link.springer.com/book/10.1007/978-1-4842-9672-1) by Álvaro Alda (Apress, 2023, Beginner): You are new to shaders and want twelve worked Shader Graph effects, from scan lines to water.
+- [Unity 6 Game Development with C# Scripting](https://www.packtpub.com/product/unity-6-game-development-with-c-scripting-9781835880401) by Lem Apperson (Packt, 2025, Beginner to intermediate): You want to learn Unity scripting in C# by building complete game projects.
+- [Learning C# by Developing Games with Unity 6](https://www.oreilly.com/library/view/-/9781805808718/) by Harrison Ferrone (Packt, 2025, Beginner): You are new to C# and want to learn it while building a first-person prototype.
+- [Create popular shaders and visual effects with the Universal Render Pipeline](https://unity.com/resources/create-shaders-visual-effects-urp-unity-6) by Unity (free, Intermediate): Toon and outline shaders in Shader Graph, plus X-ray style effects with stencils.
+- [Introduction to the Universal Render Pipeline for advanced Unity creators](https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6) by Unity (free, Advanced): Setting up URP, quality settings, Adaptive Probe Volumes and custom HLSL shaders.
+- [The definitive guide to creating advanced visual effects in Unity](https://unity.com/resources/creating-advanced-vfx-unity6) by Unity (free, Advanced): Building real-time effects with the VFX Graph and its related tools.
+- [UI Toolkit for advanced Unity developers](https://unity.com/resources/scalable-performant-ui-uitoolkit-unity-6) by Unity (free, Advanced): Scalable, performant UI with examples from the official UI Toolkit samples.
+- [Introduction to DOTS for advanced Unity developers](https://unity.com/resources/introduction-to-dots-ebook) by Unity (free, Advanced): Data-oriented programming, and how to tell whether DOTS suits your project.
+- [Create modular game architecture in Unity with ScriptableObjects](https://unity.com/resources/create-modular-game-architecture-with-scriptable-objects-ebook) by Unity (free, Intermediate): Structuring a project with ScriptableObjects, with a companion demo project.
+- [Level up your code with design patterns and SOLID](https://unity.com/resources/design-patterns-solid-ebook) by Unity (free, Intermediate): SOLID principles and common game patterns such as Factory, Observer, Singleton and Object Pooling, with a sample project.
+- [Use a C# style guide for clean and scalable game code](https://unity.com/resources/c-sharp-style-guide-unity-6) by Unity (free, Beginner to intermediate): Naming, formatting and commenting conventions for a shared Unity codebase.
+- [The ultimate guide to multiplayer networking for advanced Unity developers](https://unity.com/resources/ultimate-guide-advanced-multiplayer-networking) by Unity (free, Advanced): Core multiplayer concepts and networking models, with an example using Netcode for GameObjects.
+- [Optimize your game performance for mobile, XR, and Web in Unity](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6) by Unity (free, Advanced): Performance tips for mobile, XR and Unity Web projects.
+- [Optimize your game performance for consoles and PCs in Unity](https://unity.com/resources/console-pc-game-performance-optimization-unity-6) by Unity (free, Advanced): Performance tips for PC and console projects.
+- [Ultimate guide to profiling Unity games](https://unity.com/resources/ultimate-guide-to-profiling-unity-games) by Unity (free, Intermediate): Profiling workflows, memory management and power optimization with Unity's tools.
+- [Best practices for project organization and version control](https://unity.com/resources/best-practices-version-control-unity-6) by Unity (free, Intermediate): Version control concepts, a comparison of common systems and Unity's DevOps tools.
