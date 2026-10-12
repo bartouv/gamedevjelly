@@ -1259,6 +1259,8 @@
 - [com.unity.netcode.gameobjects](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects) (Networking & backend, ★2323, last push 2026-10-12, Unity 7: ok): You want Unity's official GameObject-based multiplayer.
 - [Mirror](https://github.com/MirrorNetworking/Mirror) (Networking & backend, ★6356, last push 2026-09-19): You want a mature, community-driven multiplayer framework.
 - [FishNet](https://github.com/FirstGearGames/FishNet) (Networking & backend, ★2065, last push 2026-10-09): You want a feature-rich networking framework with prediction support.
+- [YarnSpinner-Unity](https://github.com/YarnSpinnerTool/YarnSpinner-Unity) (Dialogue, ★838, last push 2026-09-30): You want a dialogue scripting language with Unity integration.
+- [ink-unity-integration](https://github.com/inkle/ink-unity-integration) (Dialogue, ★723, last push 2026-07-08): You want to run inkle's ink narrative scripts in Unity.
 - [unity-builder](https://github.com/game-ci/unity-builder) (CI & build, ★1101, last push 2026-09-16): You want to build Unity projects in GitHub Actions.
 - [unity-mcp](https://github.com/CoplayDev/unity-mcp) (AI & agents, ★14861, last push 2026-10-08, Unity 7: ok): You want an AI client (Claude, Cursor, etc.) to drive the Unity Editor over MCP. Most popular option.
 - [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (AI & agents, ★4421, last push 2026-10-11): You want an MCP bridge between AI agents and the Unity Editor and runtime.
