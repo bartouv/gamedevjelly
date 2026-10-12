@@ -1,6 +1,6 @@
 # Gameplay systems & mechanics
 
-> Gameplay & systems · 164 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 168 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)

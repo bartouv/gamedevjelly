@@ -1,6 +1,6 @@
 # AI, pathfinding & boids
 
-> Gameplay & systems · 22 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 28 hand-filtered guides on GamedevJelly, newest first.
 
 - [Why you should switch to NavWorld in Unity 6.6](https://www.youtube.com/watch?v=rFyHcozTF3Y): NavWorld is Unity 6.6’s way to query a NavMesh from a job. This video covers what that handle actually is, how it picks up the surfaces and links you already loaded, and why CalculatePath on the main (git-amend, 2026-10-04, video, Unity-6 era)
 - [Moving two million soldiers in Unity with compute shaders and flow fields](https://jettelly.com/blog/making-two-million-soldiers-move-in-unity): How compute shaders and flow fields drive two million units at about 11 ms per frame. (Jettelly, 2026-09-27, article, Unity-6 era)
@@ -23,4 +23,10 @@
 - [Hex Map 17: Limited Movement](https://catlikecoding.com/unity/tutorials/hex-map/part-17/): Hex Map part 17: pathfinding for turn-based limited movement. (Catlike Coding, 2017-05-24, article, Unity-old era)
 - [Hex Map 16: Pathfinding](https://catlikecoding.com/unity/tutorials/hex-map/part-16/): Hex Map part 16: adding pathfinding. (Catlike Coding, 2017-04-19, article, Unity-old era)
 - [How Event[0]'s AI Puzzle Assistant Works](https://www.youtube.com/watch?v=bCJw4hQkPj4): How Event[0] uses a typed conversational AI as both puzzle and narrative device. (Game Maker's Toolkit, 2016-12-26, video, Unity-old era)
+- [Introduction to the A* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html): Interactive walkthrough from breadth-first search to Dijkstra to A*, with heuristics explained. (Red Blob Games, 2014-05-26, article, Unity-old era)
+- [Implementation of A*](https://www.redblobgames.com/pathfinding/a-star/implementation.html): Python, C++ and C# implementations of A* with priority queues and path reconstruction. (Red Blob Games, 2014-05-26, article, Unity-old era)
+- [Breadth First Search: multiple start points](https://www.redblobgames.com/pathfinding/distance-to-any/): Distance maps from many seed points, useful for influence maps, spawn rules and AI queries. (Red Blob Games, 2014-04-14, article, Unity-old era)
+- [Grid pathfinding optimizations](https://www.redblobgames.com/pathfinding/grids/algorithms.html): Faster pathfinding on grids: jump points, hierarchical maps and other speed-ups, with their trade-offs. (Red Blob Games, 2014-03-02, article, Unity-old era)
+- [Flow Field Pathfinding for Tower Defense](https://www.redblobgames.com/pathfinding/tower-defense/): One search from the goal gives every unit its direction, ideal for crowds and tower defence. (Red Blob Games, 2014-02-06, article, Unity-old era)
+- [Grids and Graphs](https://www.redblobgames.com/pathfinding/grids/graphs.html): How to model a game map as a graph, and when grids, meshes or waypoints suit pathfinding. (Red Blob Games, 2013-02-15, article, Unity-old era)
 - [Coding Adventure: Boids](https://www.youtube.com/watch?v=bqtqltqcQhw&t=11s): Video experimenting with boids flocking simulation. (video)

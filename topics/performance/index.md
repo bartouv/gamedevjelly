@@ -1,6 +1,6 @@
 # Performance & optimization
 
-> Engineering · 102 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 103 hand-filtered guides on GamedevJelly, newest first.
 
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [Scaling Scritchy Scratchy Across Platforms](https://unity.com/blog/scaling-scritchy-scratchy-across-platforms): Porting a game across PC, mobile and Switch while keeping performance and tactile gameplay. (Unity, 2026-09-28, article, Unity-6 era)
@@ -90,6 +90,7 @@
 - [Object Management: Reusing Objects](https://catlikecoding.com/unity/tutorials/object-management/reusing-objects/): Object management tutorial on reusing objects via pooling. (Catlike Coding, 2018-06-21, article, Unity-old era)
 - [Timeslicing Batched Algorithms in Games](https://allenchou.net/2017/03/timeslicing-batched-algorithms-across-multiple-frames/): Spreads batched algorithms across multiple frames with timeslicing. (Ming-Lun Chou, 2017-03-22, article, Unity-old era)
 - [Safe Scope-Based Instrumented Profiler](https://allenchou.net/2014/10/safe-scope-based-instrumented-profiler/): Builds a safe, scope-based instrumented profiler. (Ming-Lun Chou, 2014-10-13, article, Unity-old era)
+- [Grid pathfinding optimizations](https://www.redblobgames.com/pathfinding/grids/algorithms.html): Faster pathfinding on grids: jump points, hierarchical maps and other speed-ups, with their trade-offs. (Red Blob Games, 2014-03-02, article, Unity-old era)
 - [Game Math: Faster Re-Normalization of Unit Vectors.](https://allenchou.net/2014/02/game-math-fast-re-normalization-of-unit-vectors/): Faster re-normalization of unit vectors. (Ming-Lun Chou, 2014-02-28, article, Unity-old era)
 - [Game Math: Faster Sine & Cosine with Polynomial Curves](https://allenchou.net/2014/02/game-math-faster-sine-cosine-with-polynomial-curves/): Faster sine and cosine using polynomial curves. (Ming-Lun Chou, 2014-02-28, article, Unity-old era)
 - [Game Math: Approximation with Polynomial Curves](https://allenchou.net/2014/02/game-math-approximation-with-polynomial-curves/): Approximating functions with polynomial curves. (Ming-Lun Chou, 2014-02-27, article, Unity-old era)

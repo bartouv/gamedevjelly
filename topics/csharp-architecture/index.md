@@ -1,6 +1,6 @@
 # C# & architecture
 
-> Engineering · 101 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 103 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Is Replacing Your Runtime. Are You Ready?](https://www.youtube.com/watch?v=yCyuLvA_g74): What Unity's move from Mono to CoreCLR changes in practice, including what may break builds or workflows. (Gamedev Engine Room, 2026-10-08, video, Unity-6 era)
 - [The Real Reason Unity Is Finally Dropping Mono](https://www.youtube.com/watch?v=ojM9tgbcbwU): Explains Unity's scripting backends, Mono versus IL2CPP, and why the CoreCLR move is coming. (Gamedev Engine Room, 2026-09-23, video, Unity-6 era)
@@ -94,7 +94,9 @@
 - [Iterators in C#: yield, IEnumerable & IEnumerator](https://www.alanzucconi.com/2017/01/22/iterators-c-yield-ienumerable-ienumerator/): Guide to C# iterators with yield, IEnumerable and IEnumerator. (Alan Zucconi, 2017-01-22, article, Unity-old era)
 - [Extension methods in C#](https://www.alanzucconi.com/2015/08/05/extension-methods-in-c/): Extends Unity classes using C# extension methods. (Alan Zucconi, 2015-08-05, article, Unity-old era)
 - [Enum, Flags and bitwise operators](https://www.alanzucconi.com/2015/07/26/enum-flags-and-bitwise-operators/): Explains C# enums, flags and bitwise operators. (Alan Zucconi, 2015-07-26, article, Unity-old era)
+- [Implementation of Hex Grids (with Unity/C# code)](https://www.redblobgames.com/grids/hexagons/implementation.html): Copy-ready hex grid code in C# and other languages, covering storage, maps and rendering. (Red Blob Games, 2015-05-06, article, Unity-old era)
 - [Scope-Based Resource Management (RAII)](https://allenchou.net/2014/10/scope-based-resource-management-raii/): Explains scope-based resource management (RAII) in game code. (Ming-Lun Chou, 2014-10-01, article, Unity-old era)
+- [Implementation of A*](https://www.redblobgames.com/pathfinding/a-star/implementation.html): Python, C++ and C# implementations of A* with priority queues and path reconstruction. (Red Blob Games, 2014-05-26, article, Unity-old era)
 - [Intrusively Linked Lists with Safe Link Destruction](https://allenchou.net/2013/07/intrusively-linked-lists-with-safe-link-destruction/): Intrusive linked lists with safe link destruction. (Ming-Lun Chou, 2013-07-23, article, Unity-old era)
 - [Memory Management part 3 of 3: STL-Compatible Allocators](https://allenchou.net/2013/05/memory-management-part-3-of-3-stl-compatible-allocators/): Memory management part three: STL-compatible allocators. (Ming-Lun Chou, 2013-05-06, article, Unity-old era)
 - [Memory Management part 2 of 3: C-Style Interface](https://allenchou.net/2013/05/memory-management-part-2-of-3-c-style-interface/): Memory management part two: a C-style interface for the allocator. (Ming-Lun Chou, 2013-05-06, article, Unity-old era)

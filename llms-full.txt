@@ -572,7 +572,7 @@
 ## Procedural & math
 
 
-### Procedural generation (113 guides; slug `procgen`)
+### Procedural generation (118 guides; slug `procgen`)
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
 - [Hex Map 5.5: The First Burst Job](https://catlikecoding.com/unity/hex-map/5-5-0/): Hex Map 5.5 update converting a mock job into a Burst job. (Catlike Coding, 2026-08-31, article, Unity-6 era)
@@ -683,7 +683,7 @@
 ## Gameplay & systems
 
 
-### Gameplay systems & mechanics (164 guides; slug `gameplay-systems`)
+### Gameplay systems & mechanics (168 guides; slug `gameplay-systems`)
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [Swap Your Game's Content WITHOUT Rebuilding the Player](https://www.youtube.com/watch?v=U9y7Eq1eJxc): Unity Content Directory (new with Unity 6.6) is a powerful tool that allows you to swap the CONTENTS of your build without rebuilding the entire player - making faster iteration times. (LlamAcademy, 2026-09-14, video, Unity-6 era)
@@ -764,7 +764,7 @@
 - [Movement: Physics](https://catlikecoding.com/unity/tutorials/movement/physics/): Catlike Coding movement tutorial on controlling a rigidbody sphere. (Catlike Coding, 2019-11-19, article, Unity-old era)
 - [Movement: Sliding a Sphere](https://catlikecoding.com/unity/tutorials/movement/sliding-a-sphere/): Catlike Coding movement tutorial on sliding a sphere from player input. (Catlike Coding, 2019-10-25, article, Unity-old era)
 
-### AI, pathfinding & boids (22 guides; slug `ai-pathfinding`)
+### AI, pathfinding & boids (28 guides; slug `ai-pathfinding`)
 - [Why you should switch to NavWorld in Unity 6.6](https://www.youtube.com/watch?v=rFyHcozTF3Y): NavWorld is Unity 6.6’s way to query a NavMesh from a job. This video covers what that handle actually is, how it picks up the surfaces and links you already loaded, and why CalculatePath on the main (git-amend, 2026-10-04, video, Unity-6 era)
 - [Moving two million soldiers in Unity with compute shaders and flow fields](https://jettelly.com/blog/making-two-million-soldiers-move-in-unity): How compute shaders and flow fields drive two million units at about 11 ms per frame. (Jettelly, 2026-09-27, article, Unity-6 era)
 - [Optimizing Deep Rock Galactic: Survivor for Mobile](https://unity.com/blog/optimizing-deep-rock-galactic-survivor-for-mobile): Mobile port techniques: flow field navigation, KD-tree queries, GPU-driven rendering, Burst jobs and Addressables. (Unity, 2026-09-18, article, Unity-6 era)
@@ -786,7 +786,10 @@
 - [Hex Map 17: Limited Movement](https://catlikecoding.com/unity/tutorials/hex-map/part-17/): Hex Map part 17: pathfinding for turn-based limited movement. (Catlike Coding, 2017-05-24, article, Unity-old era)
 - [Hex Map 16: Pathfinding](https://catlikecoding.com/unity/tutorials/hex-map/part-16/): Hex Map part 16: adding pathfinding. (Catlike Coding, 2017-04-19, article, Unity-old era)
 - [How Event[0]'s AI Puzzle Assistant Works](https://www.youtube.com/watch?v=bCJw4hQkPj4): How Event[0] uses a typed conversational AI as both puzzle and narrative device. (Game Maker's Toolkit, 2016-12-26, video, Unity-old era)
-- [Coding Adventure: Boids](https://www.youtube.com/watch?v=bqtqltqcQhw&t=11s): Video experimenting with boids flocking simulation. (video)
+- [Introduction to the A* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html): Interactive walkthrough from breadth-first search to Dijkstra to A*, with heuristics explained. (Red Blob Games, 2014-05-26, article, Unity-old era)
+- [Implementation of A*](https://www.redblobgames.com/pathfinding/a-star/implementation.html): Python, C++ and C# implementations of A* with priority queues and path reconstruction. (Red Blob Games, 2014-05-26, article, Unity-old era)
+- [Breadth First Search: multiple start points](https://www.redblobgames.com/pathfinding/distance-to-any/): Distance maps from many seed points, useful for influence maps, spawn rules and AI queries. (Red Blob Games, 2014-04-14, article, Unity-old era)
+- [Grid pathfinding optimizations](https://www.redblobgames.com/pathfinding/grids/algorithms.html): Faster pathfinding on grids: jump points, hierarchical maps and other speed-ups, with their trade-offs. (Red Blob Games, 2014-03-02, article, Unity-old era)
 
 ### Cameras & cutscenes (12 guides; slug `cameras`)
 - [Breaking down a 3D interactive menu in Unity](https://jettelly.com/blog/breaking-down-a-3d-interactive-menu-in-unity): A 3D menu where buttons react to the cursor, explained step by step. (Jettelly, 2026-08-23, article, Unity-6 era)
@@ -859,7 +862,7 @@
 ## Engineering
 
 
-### C# & architecture (101 guides; slug `csharp-architecture`)
+### C# & architecture (103 guides; slug `csharp-architecture`)
 - [Unity Is Replacing Your Runtime. Are You Ready?](https://www.youtube.com/watch?v=yCyuLvA_g74): What Unity's move from Mono to CoreCLR changes in practice, including what may break builds or workflows. (Gamedev Engine Room, 2026-10-08, video, Unity-6 era)
 - [The Real Reason Unity Is Finally Dropping Mono](https://www.youtube.com/watch?v=ojM9tgbcbwU): Explains Unity's scripting backends, Mono versus IL2CPP, and why the CoreCLR move is coming. (Gamedev Engine Room, 2026-09-23, video, Unity-6 era)
 - [Scriptable Objects Aren't Just Data Holders](https://www.youtube.com/watch?v=UmcUHOk9fX4): Goes beyond data containers to show ScriptableObjects used for architecture, events and behavior in Unity. (Gamedev Engine Room, 2026-08-26, video, Unity-6 era)
@@ -886,7 +889,7 @@
 - [NuGet in Unity: The Definitive Guide](https://www.youtube.com/watch?v=6mMnvk7hfHg): Explains how to use NuGet packages in Unity projects, with setup options and pitfalls. (Gamedev Engine Room, 2026-01-07, video, Unity-6 era)
 - [Unity Metaprogramming: Reflection, Source Generators, IL Weaving](https://www.youtube.com/watch?v=Omi2V-JuYLg): Compares Unity metaprogramming techniques: reflection, Roslyn source generators, IL weaving and Reflection.Emit. (Gamedev Engine Room, 2025-12-30, video, Unity-6 era)
 
-### Performance & optimization (102 guides; slug `performance`)
+### Performance & optimization (103 guides; slug `performance`)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [Scaling Scritchy Scratchy Across Platforms](https://unity.com/blog/scaling-scritchy-scratchy-across-platforms): Porting a game across PC, mobile and Switch while keeping performance and tactile gameplay. (Unity, 2026-09-28, article, Unity-6 era)
 - [Optimizing Deep Rock Galactic: Survivor for Mobile](https://unity.com/blog/optimizing-deep-rock-galactic-survivor-for-mobile): Mobile port techniques: flow field navigation, KD-tree queries, GPU-driven rendering, Burst jobs and Addressables. (Unity, 2026-09-18, article, Unity-6 era)

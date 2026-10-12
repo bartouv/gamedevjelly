@@ -1,6 +1,6 @@
 # Procedural generation
 
-> Procedural & math · 113 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 118 hand-filtered guides on GamedevJelly, newest first.
 
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
@@ -73,6 +73,7 @@
 - [Unexplored 2 dev blog: tiles to curves](https://www.gamasutra.com/blogs/JorisDormans/20190619/345048/Unexplored_2_Dev_Blog_Tiles_to_Curves.php): Dev blog on turning tile-based paths into smooth curves in Unexplored 2. (2019-06-19, article, Unity-old era)
 - [Konsoll 2018: Oskar Stålberg - Developing The Bad North Look](https://www.youtube.com/watch?v=6JcFbivo8dQ): Procedural techniques, technical challenges and art reasoning behind Bad North's minimalist island look. (Oskar Stålberg, 2019-01-29, video, Unity-old era)
 - [GitHub - BorisTheBrave/DeBroglie: DeBroglie is a C# library implementing the Wave Function Collapse algorithm with support for additional non-local constraints, and other useful features.](https://github.com/BorisTheBrave/DeBroglie): Repo: DeBroglie, a C# Wave Function Collapse library with extra constraints. (2018-09-23, repo, Unity-old era)
+- [Mapgen4: procedural map generator](https://www.redblobgames.com/maps/mapgen4/): Painted-mountain map generator with rainfall, rivers and erosion, plus a write-up of how it works. (Red Blob Games, 2018-07-20, article, Unity-old era)
 - [EPC2018 | Proceduralism and Deep Learning | Anastasia Opara](https://www.youtube.com/watch?v=dpYwLny0P8M): How deep learning can complement procedural content pipelines, from texture to shape generation. (Ana Opara, 2018-07-11, video, Unity-old era)
 - [Tech Toolbox (GDC 2018) – includes Oskar Stålberg](https://www.gdcvault.com/play/1025002/Tech): Short GDC tool talks; Stålberg's segment covers his tile-based Wave Function Collapse workflow. (Oskar Stålberg, 2018-03-19, article, Unity-old era)
 - [Hex Map 27: Wrapping](https://catlikecoding.com/unity/tutorials/hex-map/part-27/): Hex Map part 27: supporting wrapping maps. (Catlike Coding, 2018-03-13, article, Unity-old era)
@@ -83,6 +84,8 @@
 - [WaveFunctionCollapse/README.md at master · mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse/blob/master/README.md): Repo docs: reference WaveFunctionCollapse algorithm that generates bitmaps and tilemaps from a single example. (2017-11-07, repo, Unity-old era)
 - [Hex Map 22: Advanced Vision](https://catlikecoding.com/unity/tutorials/hex-map/part-22/): Hex Map part 22: more advanced unit vision. (Catlike Coding, 2017-10-14, article, Unity-old era)
 - [Hex Map 21: Exploration](https://catlikecoding.com/unity/tutorials/hex-map/part-21/): Hex Map part 21: adding map exploration. (Catlike Coding, 2017-09-21, article, Unity-old era)
+- [Resource placement on a map](https://www.redblobgames.com/x/1736-resource-placement/): Placing trees, ore and other resources with blue noise and spacing rules instead of pure random. (Red Blob Games, 2017-09-09, article, Unity-old era)
+- [Mapgen2: procedural island map generator](https://www.redblobgames.com/maps/mapgen2/): Voronoi-based island generator with elevation, rivers, moisture and biomes, plus source code. (Red Blob Games, 2017-09-01, article, Unity-old era)
 - [Hex Map 20: Fog of War](https://catlikecoding.com/unity/tutorials/hex-map/part-20/): Hex Map part 20: adding fog of war. (Catlike Coding, 2017-08-24, article, Unity-old era)
 - [Hex Map 19: Animating Movement](https://catlikecoding.com/unity/tutorials/hex-map/part-19/): Hex Map part 19: animating unit movement. (Catlike Coding, 2017-07-22, article, Unity-old era)
 - [Hex Map 18: Units](https://catlikecoding.com/unity/tutorials/hex-map/part-18/): Hex Map part 18: adding units. (Catlike Coding, 2017-06-23, article, Unity-old era)
@@ -106,8 +109,10 @@
 - [Hex Map 1: Creating a Hexagonal Grid](https://catlikecoding.com/unity/tutorials/hex-map/part-1/): Hex Map part 1: creating a hexagonal grid. (Catlike Coding, 2016-01-30, article, Unity-old era)
 - [Polygonal Planet Project – a study in tilesets](https://oskarstalberg.tumblr.com/post/136461533291/polygonal-planet-project-a-study-in-tilesets-by): Playable browser study of marching-style tilesets wrapped around a polygonal planet surface. (Oskar Stålberg, 2016-01-01, article, Unity-old era)
 - [Procedral Grid, a Unity C# Tutorial](https://catlikecoding.com/unity/tutorials/procedural-grid/): Catlike Coding tutorial on creating a grid of vertices and triangles by code. (2015-07-09, article, Unity-old era)
+- [Making maps with noise functions](https://www.redblobgames.com/maps/terrain-from-noise/): Turn noise into islands, biomes and terrain, with octaves, redistribution and moisture explained. (Red Blob Games, 2015-07-07, article, Unity-old era)
 - [1nsane Carpet 2 – Repetitive Worlds](https://simonschreibt.de/gat/1nsane-carpet-2-repetitive-worlds/): Looks at how 1nsane Carpet 2 builds repetitive, endlessly tiling worlds from reused elements. (Simon Schreibt, 2013-07-08, article, Unity-old era)
 - [Dungeon Keeper 2 – Walls](https://simonschreibt.de/gat/dungeon-keeper-2-walls/): Shows how Dungeon Keeper 2 builds its dungeon wall visuals from simple geometry and textures. (Simon Schreibt, 2013-06-06, article, Unity-old era)
+- [Hexagonal Grids: coordinates, neighbours, distances and conversions](https://www.redblobgames.com/grids/hexagons/): The reference guide to hex grids: coordinate systems, neighbours, distance, rotation, rings and pixel conversion. (Red Blob Games, 2013-03-11, article, Unity-old era)
 - [Polygonising a scalar field (Marching Cubes)](http://paulbourke.net/geometry/polygonise/): Describes the marching cubes algorithm for polygonising a scalar field. (2011-02-27, article, Unity-old era)
 - [Infinite procedurally generated city with the Wave Function Collapse algorithm](https://marian42.de/article/wfc/): Generates an infinite procedural city with the Wave Function Collapse algorithm. (article)
 - [EPC2018 | Wave Function Collapse in Bad North | Oskar Stalberg](https://www.youtube.com/watch?v=0bcZb-SsnrA&app=desktop): Talk on how Wave Function Collapse is used in Bad North. (video)
