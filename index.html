@@ -105,7 +105,32 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 .is-home .shell { grid-template-columns: minmax(0, 1fr); } .is-home .rail { display: none; } .is-home .menu-btn { display: none; }
 .is-home main { max-width: 1240px; margin: 0 auto; width: 100%; box-sizing: border-box; }
 .home { display: grid; gap: 34px; margin-top: 8px; } .home > * { min-width: 0; }
-.hintro { padding: 6px 2px 20px; max-width: 78ch; } .hintro h1 { font: 800 clamp(26px, 3.2vw, 38px)/1.1 var(--f-display); letter-spacing: -.025em; margin: 0 0 10px; text-wrap: balance; } .hintro p { margin: 0 0 16px; color: var(--muted); font-size: 16px; line-height: 1.6; }
+/* Home hero: headline + search on the left, the new-this-week carousel on the right */
+.hx { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: 36px; align-items: center; position: relative; margin-bottom: 14px; }
+.hx::before { content: ""; position: absolute; left: -10%; top: -20%; width: 60%; height: 140%; background: radial-gradient(closest-side, color-mix(in srgb, var(--accent) 22%, transparent), transparent); pointer-events: none; z-index: -1; filter: blur(10px); }
+.hintro { padding: 8px 2px; min-width: 0; }
+.hxk { display: inline-flex; align-items: center; gap: 8px; font: 600 11.5px var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); padding: 5px 12px; border-radius: 999px; margin-bottom: 16px; }
+.hxk i { width: 7px; height: 7px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 0 0 #4ade8088; animation: livepulse 2s infinite; }
+@keyframes livepulse { 70% { box-shadow: 0 0 0 8px #4ade8000; } 100% { box-shadow: 0 0 0 0 #4ade8000; } }
+.hintro h1 { font: 800 clamp(32px, 4.2vw, 54px)/1.04 var(--f-display); letter-spacing: -.03em; margin: 0 0 14px; text-wrap: balance; min-height: 3.2em; }   /* three lines reserved, so the word swap never moves what is below */
+.hintro h1 .grad { background: linear-gradient(100deg, var(--accent), #ff7ad9 60%, #ffb86b); -webkit-background-clip: text; background-clip: text; color: transparent; transition: opacity .6s ease; display: inline-block; }
+.hintro h1 .grad.out { opacity: 0; }
+.hintro p { margin: 0 0 20px; color: var(--muted); font-size: 16.5px; line-height: 1.6; max-width: 56ch; }
+.hxs { display: flex; gap: 8px; max-width: 560px; padding: 6px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); box-shadow: 0 10px 40px rgb(0 0 0 / .25); transition: border-color .2s, box-shadow .2s; }
+.hxs:focus-within { border-color: var(--accent); box-shadow: 0 10px 40px color-mix(in srgb, var(--accent) 25%, transparent); }
+.hxs input { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--fg); font: 500 16px var(--f-body); padding: 10px 12px; outline: none; }
+.hxs button { all: unset; cursor: pointer; padding: 10px 20px; border-radius: 10px; background: var(--accent); color: var(--on-accent); font-weight: 700; font-size: 14px; } .hxs button:hover { filter: brightness(1.1); }
+.hxtry { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0 22px; font-size: 13px; color: var(--muted); }
+.hxtry button { all: unset; cursor: pointer; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); } .hxtry button:hover { border-color: var(--accent); color: var(--fg); }
+.hxstats { display: flex; flex-wrap: wrap; gap: 8px 28px; } .hxstats div { display: flex; flex-direction: column; } .hxstats b { font: 800 26px/1 var(--f-display); letter-spacing: -.02em; font-variant-numeric: tabular-nums; } .hxstats span { font-size: 12.5px; color: var(--muted); margin-top: 4px; }
+.hx .hbanner { height: 420px; box-shadow: 0 24px 70px rgb(0 0 0 / .4); }
+.hx .hslide { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto; align-content: end; gap: 14px; padding: 18px 22px 46px; }
+.hx .himg { order: -1; width: 100%; max-height: 190px; justify-self: stretch; }
+.hx .hero .hbody h2 { font-size: 22px; } .hx .hbody p { -webkit-line-clamp: 1; }
+.hx .hslide::before { background: linear-gradient(0deg, rgb(10 12 20 / .8), rgb(10 12 20 / .25) 70%, transparent); }
+.hx .hdots { left: 22px; } .hx .hnav { top: 30%; }
+@media (max-width: 980px) { .hx { grid-template-columns: minmax(0, 1fr); } .hx .hbanner { height: 400px; } }
+@media (max-width: 560px) { .hxs { flex-direction: column; } .hxs button { text-align: center; } }
 .hbtns2 { display: flex; flex-wrap: wrap; gap: 10px; }
 .hintro .btn, .hfoot .btn { all: unset; cursor: pointer; box-sizing: border-box; padding: 10px 18px; border-radius: 10px; font-weight: 600; font-size: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); transition: transform .15s; }
 .hintro .btn.primary, .hfoot .btn { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
@@ -119,16 +144,48 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 .hrow .trnav { top: 100px; }
 .hfoot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
 .hfoot p { margin: 0; flex: 1; min-width: 220px; } .hfoot a.btn, .hfoot button.btn { text-decoration: none; }
-.feat { margin: 0 0 20px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 16px; background: linear-gradient(135deg, var(--accent-soft), transparent 70%), var(--surface); }
-.featk { font: 600 11px var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
-.featbody { display: flex; gap: 20px; align-items: flex-start; } .featmain { flex: 1; min-width: 0; }
-.featmain h3 { margin: 0 0 4px; font: 700 22px/1.2 var(--f-display); letter-spacing: -.01em; } .featmain p { margin: 6px 0; color: var(--muted); line-height: 1.55; max-width: 70ch; } .featmain .rown { font-family: var(--f-mono); font-size: 12px; margin: 0 0 6px; }
-.featwide { width: 220px; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 10px; flex: none; }
-@media (max-width: 600px) { .featwide { width: 100%; } }
-.featimg, .featav .av { width: 64px; height: 64px; border-radius: 16px; flex: none; } .featav .av { display: grid; place-items: center; font-size: 22px; } .featbody > .bcover { width: 96px; flex: none; border-radius: 6px; }
-.featact { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; } .featact .goal, .featmain .goal { text-decoration: none; color: var(--fg); }
-.featlinks { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; } .featlinks button { all: unset; cursor: pointer; display: flex; align-items: center; gap: 10px; max-width: 260px; padding: 6px 12px 6px 6px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); font-size: 13px; line-height: 1.3; } .featlinks button:hover { border-color: var(--accent); } .featlinks .rt { width: 56px; height: 36px; border-radius: 6px; overflow: hidden; flex: none; position: relative; background: var(--surface-2); } .featlinks .rt img, .featlinks .rt .ph { width: 100%; height: 100%; object-fit: cover; }
-@media (max-width: 600px) { .featbody { flex-direction: column; } }
+.feat { position: relative; overflow: hidden; isolation: isolate; margin: 0 0 24px; padding: 24px 28px; border: 1px solid var(--line); border-radius: 20px; background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, var(--surface)), var(--surface) 70%); box-shadow: 0 18px 50px rgb(0 0 0 / .22); }
+.featbg { position: absolute; inset: -40px; z-index: -2; background-size: cover; background-position: center; filter: blur(46px) saturate(1.5) brightness(.5); opacity: .55; transform: scale(1.1); }
+.feat::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, var(--surface) 8%, color-mix(in srgb, var(--surface) 55%, transparent) 60%, transparent); }
+.featk { display: inline-flex; align-items: center; gap: 8px; font: 600 11px var(--f-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--accent); background: var(--accent-soft); padding: 5px 12px; border-radius: 999px; margin-bottom: 16px; }
+.featk i { width: 7px; height: 7px; border-radius: 50%; background: #fbbf24; box-shadow: 0 0 10px #fbbf24aa; }
+.featbody { display: flex; gap: 26px; align-items: center; } .featmain { flex: 1; min-width: 0; }
+.featmain h3 { margin: 0 0 6px; font: 800 clamp(26px, 3vw, 36px)/1.1 var(--f-display); letter-spacing: -.025em; }
+.featmain p { margin: 8px 0; color: var(--muted); line-height: 1.6; max-width: 62ch; font-size: 15px; } .featmain p.featmeta { font: 500 12.5px var(--f-mono); color: var(--accent); margin-top: 10px; }
+.featmain .rown { font-family: var(--f-mono); font-size: 12.5px; margin: 0 0 8px; }
+.featimg, .featav .av { width: 92px; height: 92px; border-radius: 24px; flex: none; box-shadow: 0 10px 30px rgb(0 0 0 / .4); } .featav .av { display: grid; place-items: center; font-size: 30px; object-fit: cover; } .featbody > .featav, .featbody > .featimg, .featbody > .bcover { align-self: flex-start; }
+.featbody > .bcover { width: 120px; flex: none; border-radius: 8px; box-shadow: 0 14px 34px rgb(0 0 0 / .45); }
+.featact { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.featact .goal { text-decoration: none; color: var(--fg); } .featact .goal.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); } .featact .goal.primary:hover { filter: brightness(1.1); }
+.featmedia { flex: none; position: relative; width: min(46%, 520px); height: 210px; }
+.fcard { all: unset; cursor: pointer; position: absolute; width: 52%; top: 0; border-radius: 12px; overflow: hidden; background: var(--surface); border: 2px solid rgb(255 255 255 / .85); box-shadow: 0 14px 34px rgb(0 0 0 / .5); transition: transform .3s cubic-bezier(.2, .8, .2, 1), z-index 0s; }
+.fcard .fci { display: block; aspect-ratio: 16 / 10; position: relative; background: var(--surface-2); } .fcard .fci img, .fcard .fci .ph { width: 100%; height: 100%; object-fit: cover; } .fcard .fci .ph span, .fcard .fci .ph .pht, .fcard .fci .ph .phw { display: none; }
+.fcard .fct { display: none; } .fcard:hover .fct { display: block; position: absolute; inset: auto 0 0 0; background: rgb(8 10 18 / .85); padding: 7px 10px; font-size: 12px; line-height: 1.3; color: var(--fg); font-weight: 600; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.fcard.f1 { left: 0; top: 34px; transform: rotate(-6deg); z-index: 1; } .fcard.f2 { left: 24%; top: 0; transform: rotate(2deg); z-index: 3; } .fcard.f3 { right: 0; top: 40px; transform: rotate(7deg); z-index: 2; }
+.fcard:hover { transform: rotate(0) translateY(-8px) scale(1.04); z-index: 5; } .fcard:focus-visible { outline: 3px solid var(--accent); }
+.featwide { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 14px; box-shadow: 0 16px 40px rgb(0 0 0 / .5); } .feat.hasmedia .featwide { height: 100%; width: auto; max-width: 100%; margin-left: auto; display: block; }
+@media (max-width: 860px) { .featbody { flex-direction: column; align-items: stretch; } .featmedia { width: 100%; height: 180px; } .feat { padding: 20px; } }.phd { position: relative; overflow: hidden; isolation: isolate; display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: 0 0 24px; padding: 30px 34px; min-height: 190px; border: 1px solid var(--line); border-radius: 22px; background: linear-gradient(135deg, hsl(var(--h) 55% 18%), hsl(var(--h) 45% 9%)); box-shadow: 0 20px 60px rgb(0 0 0 / .3); }
+.phb { position: absolute; z-index: -1; border-radius: 50%; filter: blur(50px); opacity: .55; animation: phdrift 14s ease-in-out infinite alternate; pointer-events: none; }
+.phb.b1 { width: 340px; height: 340px; left: -80px; top: -140px; background: hsl(var(--h) 90% 55%); }
+.phb.b2 { width: 300px; height: 300px; right: 12%; bottom: -170px; background: hsl(calc(var(--h) + 50) 90% 60%); opacity: .4; animation-delay: -6s; }
+@keyframes phdrift { to { transform: translate(60px, 30px) scale(1.15); } }
+.phd::after { content: ""; position: absolute; inset: 0; z-index: -1; opacity: .35; background-image: radial-gradient(rgb(255 255 255 / .35) 1px, transparent 1.2px); background-size: 22px 22px; mask-image: linear-gradient(100deg, #000, transparent 55%); }
+.phl { min-width: 0; flex: 1; }
+.phi { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; color: #fff; background: hsl(var(--h) 80% 55% / .35); border: 1px solid rgb(255 255 255 / .2); margin-bottom: 12px; }
+.phl h1 { margin: 0; font: 800 clamp(34px, 4.2vw, 52px)/1 var(--f-display); letter-spacing: -.035em; color: #fff; }
+.phl p { margin: 8px 0 0; color: rgb(255 255 255 / .75); font-size: 16px; max-width: 46ch; }
+.phs { display: flex; gap: 10px 14px; flex-wrap: wrap; margin-top: 18px; }
+.phs span { display: inline-flex; align-items: baseline; gap: 7px; padding: 6px 14px; border-radius: 999px; background: rgb(255 255 255 / .1); border: 1px solid rgb(255 255 255 / .14); backdrop-filter: blur(8px); font-size: 13px; color: rgb(255 255 255 / .8); }
+.phs b { font: 800 17px var(--f-display); color: #fff; font-variant-numeric: tabular-nums; }
+.phv { flex: none; display: flex; align-items: center; justify-content: flex-end; position: relative; width: min(46%, 520px); height: 140px; }
+.phv .sav { margin-left: -16px; transition: transform .25s; } .phv .sav:first-child { margin-left: 0; } .phv .sav:hover { transform: translateY(-8px) scale(1.1); z-index: 3; }
+.phv .sav .av, .phv .sav img { width: 62px; height: 62px; border-radius: 50%; border: 3px solid hsl(var(--h) 45% 12%); object-fit: cover; display: grid; place-items: center; font-size: 20px; box-shadow: 0 8px 20px rgb(0 0 0 / .4); background: var(--surface-2); }
+.phv .sav { animation: savfloat 5s ease-in-out infinite; animation-delay: calc(var(--k) * -.55s); } @keyframes savfloat { 50% { translate: 0 -6px; } }
+.pfan { position: absolute; width: 38%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 12px; border: 2px solid rgb(255 255 255 / .85); box-shadow: 0 14px 34px rgb(0 0 0 / .5); transition: transform .3s; }
+.pfan.p1 { left: 0; top: 24px; transform: rotate(-8deg); } .pfan.p2 { left: 22%; top: 0; transform: rotate(3deg); z-index: 2; } .pfan.p3 { left: 44%; top: 26px; transform: rotate(-3deg); z-index: 3; } .pfan.p4 { right: 0; top: 4px; transform: rotate(8deg); z-index: 1; }
+.phv:hover .pfan { transform: rotate(0) translateY(-4px); }
+.phv .pbook { position: absolute; width: 22%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 6px; box-shadow: 0 14px 30px rgb(0 0 0 / .55); }
+@media (max-width: 860px) { .phd { padding: 22px; min-height: 0; } .phv { display: none; } }
 .fgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin-bottom: 8px; }
 .fgrid .tcard { flex: none; }
 .allhead { font: 700 18px/1.2 var(--f-display); letter-spacing: -.01em; margin: 22px 0 14px; } .allhead span { font: 500 13px var(--f-mono); color: var(--muted); margin-left: 6px; }
@@ -178,7 +235,7 @@ body.scrolled .top-in { padding-top: 8px; padding-bottom: 8px; }
 .tcv { position: relative; display: block; height: 150px; overflow: hidden; background: radial-gradient(120% 120% at 15% 10%, hsl(var(--h) 65% 42% / .55), hsl(var(--h) 55% 18% / .9) 70%), var(--surface-2); }
 .tbig { position: absolute; right: -14px; bottom: -22px; color: hsl(var(--h) 80% 75%); opacity: .16; transform: rotate(-10deg); }
 .fan { position: absolute; width: 46%; aspect-ratio: 16 / 10; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 22px rgb(0 0 0 / .5); border: 2px solid rgb(255 255 255 / .85); background: var(--surface-2); transition: transform .3s cubic-bezier(.2, .8, .2, 1); }
-.fan img { width: 100%; height: 100%; object-fit: cover; display: block; } .fan .ph { padding: 0; } .fan .ph span { display: none; }
+.fan img { width: 100%; height: 100%; object-fit: cover; display: block; } .fan .ph { padding: 0; } .fan .ph span, .fan .ph .pht, .fan .ph .phw { display: none; }
 .fan.f1 { left: 6%; top: 30px; transform: rotate(-8deg); z-index: 1; }
 .fan.f2 { left: 27%; top: 16px; transform: rotate(1deg); z-index: 3; }
 .fan.f3 { right: 6%; top: 34px; transform: rotate(8deg); z-index: 2; }
@@ -277,6 +334,11 @@ body.vt .enter { animation: none; }
 .thumb { aspect-ratio: 16 / 9; max-width: 100%; background: linear-gradient(100deg, var(--surface-2) 30%, color-mix(in srgb, var(--surface-2) 60%, var(--surface)) 50%, var(--surface-2) 70%) 0 0 / 200% 100%; animation: shimmer 1.4s linear infinite; position: relative; overflow: hidden; display: block; }
 .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .ph { position: absolute; inset: 0; display: flex; align-items: end; padding: 10px 12px; }
+.ph2 { flex-direction: column; justify-content: space-between; align-items: flex-start; overflow: hidden; color: #fff; }
+.ph2 > span { display: none; }   /* the host is already shown under the card */
+.ph2 .phw { position: absolute; right: -18px; bottom: -22px; opacity: .16; transform: rotate(-10deg); pointer-events: none; }
+.ph2 .pht { position: relative; font: 700 17px/1.22 var(--f-display); letter-spacing: -.01em; text-wrap: balance; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; text-shadow: 0 1px 12px rgb(0 0 0 / .3); }
+.pmedia .ph2 .pht { font-size: 20px; } .grid.list .ph2 .phw { width: 56px; height: 56px; }
 .ph span { font: 500 11px var(--f-mono); color: #fff; background: rgb(0 0 0 / .35); padding: 2px 8px; border-radius: 4px;
   backdrop-filter: blur(4px); max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .src { position: absolute; top: 8px; left: 8px; font: 500 11.5px var(--f-mono); letter-spacing: .04em; padding: 3px 8px;
@@ -298,6 +360,7 @@ body.vt .enter { animation: none; }
 .grid.list .card { flex-direction: row; align-items: center; }
 .grid.list .thumb { width: 120px; flex: none; aspect-ratio: 16/10; }
 .grid.list .src, .grid.list .ph span { display: none; }
+.grid.list .ph2 .pht { display: none; }
 .grid.list .body { flex-direction: row; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding: 10px 14px; }
 .grid.list .body a.t { flex: 1 1 320px; -webkit-line-clamp: 2; }
 .grid.list .tags { margin-top: 0; }
@@ -435,7 +498,7 @@ body.vt .enter { animation: none; }
 .rel button:hover, .rel button:focus-visible { background: var(--surface-2); }
 .rel .rt { width: 72px; aspect-ratio: 16 / 10; border-radius: 6px; overflow: hidden; background: var(--surface-2); position: relative; }
 .rel .rt img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.rel .rt .ph span { display: none; }
+.rel .rt .ph span, .rel .rt .ph .pht, .rel .rt .ph .phw { display: none; }
 .rel b { display: block; font-size: 13.5px; font-weight: 600; line-height: 1.3; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .rel small { display: block; font-size: 12px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .inpath { font-size: 13px; color: var(--muted); }
@@ -473,7 +536,7 @@ body.vt .enter { animation: none; }
 .ttile:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .tcover { position: relative; display: block; aspect-ratio: 16 / 9; overflow: hidden; background: var(--surface-2); }
 .tcover img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .45s cubic-bezier(.2, .8, .2, 1); }
-.tcover .ph { padding: 0; } .tcover .ph span { display: none; }
+.tcover .ph { padding: 0; } .tcover .ph span, .tcover .ph .pht, .tcover .ph .phw { display: none; }
 .ttile:hover .tcover img { transform: scale(1.06); }
 .tcover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 38%, rgb(8 10 18 / .88)); }
 .tcap { position: absolute; left: 12px; right: 12px; bottom: 9px; z-index: 1; display: flex; flex-direction: column; gap: 2px; color: #fff; }
@@ -561,7 +624,7 @@ body.vt .enter { animation: none; }
 .step .no { font: 800 22px/1 var(--f-display); color: var(--accent); text-align: center; padding-top: 4px; font-variant-numeric: tabular-nums; }
 .step .st { aspect-ratio: 16 / 10; border-radius: 6px; overflow: hidden; background: var(--surface-2); position: relative; max-width: 100%; }
 .step .st img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.step .st .ph span { display: none; }
+.step .st .ph span, .step .st .ph .pht, .step .st .ph .phw { display: none; }
 .step b { display: block; font-size: 15px; line-height: 1.3; margin-bottom: 4px; }
 .step .why { margin: 0 0 6px; font-size: 14px; }
 .step small { color: var(--muted); font-size: 12.5px; }
@@ -798,8 +861,8 @@ body.vt .enter { animation: none; }
       </div>
     </div>
     <section class="chead" id="creatorHead" hidden></section>
-    <section class="hintro" id="homeIntro" hidden></section>
-    <section class="hero" id="hero" hidden></section>
+    <div class="hx" id="hx"><section class="hintro" id="homeIntro" hidden></section>
+    <section class="hero" id="hero" hidden></section></div>
         <div class="when" id="when"></div>
     <div class="active" id="active" hidden></div>
     <div class="related subthemes" id="subthemes" hidden></div>
@@ -1206,17 +1269,11 @@ body.vt .enter { animation: none; }
 
   // ---------- placeholder art (seeded per link) ----------
   const hash = s => { let h = 2166136261; for (const c of s) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return h >>> 0; };
-  const phStyle = it => {
-    const h = hash(it.u), h1 = h % 360, h2 = (h1 + 40 + (h >> 9) % 80) % 360, k = (h >> 3) % 4;
-    const a = `hsl(${h1} 62% 46%)`, b = `hsl(${h2} 70% 28%)`;
-    const pats = [
-      `radial-gradient(circle at ${20 + h % 60}% ${30 + (h >> 4) % 40}%, ${a}, transparent 60%), linear-gradient(135deg, ${b}, hsl(${h1} 40% 14%))`,
-      `repeating-linear-gradient(${(h >> 5) % 180}deg, ${a} 0 10px, ${b} 10px 22px)`,
-      `radial-gradient(${a} 1.6px, transparent 2px) 0 0/14px 14px, linear-gradient(160deg, ${b}, hsl(${h2} 50% 12%))`,
-      `conic-gradient(from ${(h >> 6) % 360}deg at 70% 40%, ${a}, ${b}, ${a})`,
-    ];
-    return pats[k];
-  };
+  const phHue = it => { const g = it.g.map(s => catBySlug[s]).find(c => c && c.grp), base = g && GHUE[g.grp] != null ? GHUE[g.grp] : hash(it.host || it.u) % 360; return (base + (hash(it.u) % 30) - 15 + 360) % 360; };
+  const phStyle = it => { const hu = phHue(it); return `radial-gradient(120% 90% at 88% 8%, hsl(${hu} 72% 48% / .55), transparent 62%), linear-gradient(150deg, hsl(${hu} 48% 27%), hsl(${hu} 44% 12%))`; };
+  // a designed cover for links without an image: topic colour, a big topic icon, the title set as type
+  const phCard = it => { const slug = it.g.find(s => TICON[s]) || 'tools-libraries';
+    return `<div class="ph ph2" style="background:${phStyle(it)}"><svg class="phw" viewBox="0 0 24 24" width="130" height="130" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${TICON[slug]}</svg><b class="pht">${esc(it.t)}</b><span>${esc(it.host)}</span></div>`; };
   const SRC_ORDER = Object.fromEntries(SOURCES.map((s, i) => [s[0], i]));
   const SRC_LABEL = Object.fromEntries(SOURCES.map(s => [s[0], s[1]]));
   const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -1226,7 +1283,7 @@ body.vt .enter { animation: none; }
     const tags = it.g.filter(s => s !== state.cat && s !== creatorOf(it)).slice(0, 3).map(s => `<button class="tag" data-tag="${s}">${esc(prettyName(catBySlug[s]).split(' · ')[0])}</button>`).join('');
     const thumb = it.i
       ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(it.i)}" alt="">`
-      : `<div class="ph" style="background:${phStyle(it)}"><i class="phe" aria-hidden="true">${(catBySlug[it.g[0]] || {}).e || '▤'}</i><span>${esc(it.host)}</span></div>`;
+      : phCard(it);
     const eng = it.g.includes('godot') ? 'Godot' : it.g.includes('unreal') ? 'Unreal' : '';
     const health = it.st === 'dead' ? `<div class="health dead">Dead · ${esc(it.why)}${it.arc ? ` · <a class="arc" href="${esc(it.arc)}" target="_blank" rel="noopener">Archived copy ↗</a>` : ''}</div>` : it.st === 'unsure' ? `<div class="health">Unverified · ${esc(it.why)}</div>` : '';
     const f = fate(it), why = it.cur ? `${CAT_LABEL[it.cur[1]] || ''} · ${esc(it.cur[2])}` : 'Removed by you';
@@ -1316,7 +1373,7 @@ body.vt .enter { animation: none; }
     const media = vid && location.protocol === 'file:' ? `<div class="pmedia"><a href="${esc(it.u)}" target="_blank" rel="noopener" title="Embeds don't play from a local file; serve over http or deploy"><img referrerpolicy="no-referrer" src="https://i.ytimg.com/vi/${esc(vid)}/hqdefault.jpg" alt=""></a></div>`
       : vid ? `<div class="pmedia"><iframe src="https://www.youtube-nocookie.com/embed/${esc(vid)}" title="${esc(it.t)}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
         allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe></div>`
-      : it.i ? `<div class="pmedia"><img referrerpolicy="no-referrer" src="${esc(it.i)}" alt=""></div>` : `<div class="pmedia"><div class="ph" style="background:${phStyle(it)}"><span>${esc(it.host)}</span></div></div>`;
+      : it.i ? `<div class="pmedia"><img referrerpolicy="no-referrer" src="${esc(it.i)}" alt=""></div>` : `<div class="pmedia">${phCard(it)}</div>`;
     const meta = [SRC_LABEL[it.src], it.host, it.p ? `<span title="${PD_NOTE[it.ps] || ''}">${fmtDate(it)}</span>` : '', PL_LABEL[it.pl] ? `<b>${PL_LABEL[it.pl]}</b>` : '', e[1] ? (e[2] ? `<b>${esc(e[1])}</b>` : esc(e[1])) : ''].filter(Boolean);
     const tags = it.g.filter(g => catBySlug[g] && g !== 'creators').map(s => `<button class="tag" data-tag="${s}">${esc(prettyName(catBySlug[s]))}</button>`).join('');
     const paths = PATHS.filter(p => p.steps.some(s => s.u === it.u));
@@ -1392,7 +1449,7 @@ body.vt .enter { animation: none; }
   const isoWeek = () => { const d = new Date(), t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())); t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
     const w = Math.ceil(((t - Date.UTC(t.getUTCFullYear(), 0, 1)) / 864e5 + 1) / 7); return { key: t.getUTCFullYear() + '-W' + String(w).padStart(2, '0'), n: t.getUTCFullYear() * 53 + w }; };
   const ofTheWeek = (pool, kind) => { if (!pool.length) return null; const w = isoWeek(), pin = ((LIB.featured || {})[kind] || {})[w.key]; return pool.find(x => x.id === pin) || pool[w.n % pool.length]; };
-  const featBox = (kicker, lead, body, actions) => `<section class="feat"><div class="featk">${kicker}</div><div class="featbody">${lead || ''}<div class="featmain">${body}${actions ? `<div class="featact">${actions}</div>` : ''}</div></div></section>`;
+  const featBox = (kicker, lead, body, actions, media = '', bg = '') => `<section class="feat${media ? ' hasmedia' : ''}">${bg ? `<div class="featbg" style="background-image:url('${esc(bg)}')"></div>` : ''}<div class="featk"><i></i>${kicker}</div><div class="featbody">${lead || ''}<div class="featmain">${body}${actions ? `<div class="featact">${actions}</div>` : ''}</div>${media ? `<div class="featmedia">${media}</div>` : ''}</div></section>`;
   // folder landing for Repos / Assets / Books: one tile per category with what it is for
   const folderLanding = (box, cats, desc, byCat, attr, nameOf, pre = '') => {
     box.innerHTML = pre + `<div class="rfgrid">${Object.entries(cats).filter(([k]) => byCat[k]).map(([k, nm]) => {
@@ -1413,8 +1470,9 @@ body.vt .enter { animation: none; }
       const by = {}; RD.repos.forEach(r => (by[r.cat] = by[r.cat] || []).push(r));
       $('#meta').textContent = (RD.catdesc && RD.catdesc[state.rcat]) || `Open-source repos worth knowing · health checked ${pushedLabel(TODAY)}`;
       const rp = ofTheWeek(RD.repos.filter(r => health(r)[0] === 'ok' && r.st.stars >= 100).map(r => ({ id: r.id, r })).sort((a, b) => a.id.localeCompare(b.id)), 'repos'), rr = rp && rp.r;
-      const repoFeat = rr ? featBox('Repo of the week', `<img class="featimg" loading="lazy" referrerpolicy="no-referrer" src="https://github.com/${esc(rr.id.split('/')[0])}.png?size=120" alt="">`, `<h3>${esc(rr.name)}</h3><p class="rown">${esc(rr.id)}</p><p>${esc(rr.use)}</p><div class="rbadges"><span class="rb">★ ${kstars(rr.st.stars)}</span><span class="rb ok">Active · ${pushedLabel(rr.st.pushed)}</span><span class="rb rcat">${esc(RD.cats[rr.cat])}</span></div>`, `<button class="goal" data-repo="${esc(rr.id)}">See details</button><a class="goal" href="https://github.com/${esc(rr.id)}" target="_blank" rel="noopener">GitHub ↗</a>`) : '';
-      box.innerHTML = repoFeat + `<div class="rfgrid">${Object.entries(RD.cats).filter(([k]) => by[k]).map(([k, nm]) => {
+      const repoFeat = rr ? featBox('Repo of the week', `<img class="featimg" loading="lazy" referrerpolicy="no-referrer" src="https://github.com/${esc(rr.id.split('/')[0])}.png?size=120" alt="">`, `<h3>${esc(rr.name)}</h3><p class="rown">${esc(rr.id)}</p><p>${esc(rr.use)}</p><div class="rbadges"><span class="rb">★ ${kstars(rr.st.stars)}</span><span class="rb ok">Active · ${pushedLabel(rr.st.pushed)}</span><span class="rb rcat">${esc(RD.cats[rr.cat])}</span></div>`, `<button class="goal primary" data-repo="${esc(rr.id)}">See details</button><a class="goal" href="https://github.com/${esc(rr.id)}" target="_blank" rel="noopener">GitHub ↗</a>`) : '';
+      $('.head').hidden = true;
+      box.innerHTML = pageHead('repos', 'Repos', 'Open-source projects worth knowing, health-checked.', [[RD.repos.length, 'repos'], [RD.repos.filter(r => health(r)[0] === 'ok').length, 'actively maintained'], [RD.repos.filter(r => r.unity7 && r.unity7.status === 'ok').length, 'Unity 7 ready']], 150, stackAv(RD.repos.slice().sort((a, b) => b.st.stars - a.st.stars).filter((r, k, arr) => arr.findIndex(q => q.id.split('/')[0] === r.id.split('/')[0]) === k).slice(0, 8).map(r => `<img loading="lazy" referrerpolicy="no-referrer" src="https://github.com/${esc(r.id.split('/')[0])}.png?size=96" alt="" title="${esc(r.name)}">`))) + repoFeat + `<div class="rfgrid">${Object.entries(RD.cats).filter(([k]) => by[k]).map(([k, nm]) => {
         const rs = by[k].slice().sort(sorters.stars);
         return `<button class="rfolder enter" data-rcat="${k}"><span class="rfh"><h3>${esc(nm)}</h3><span class="tct">${rs.length}</span></span><span class="rfd">${esc((RD.catdesc && RD.catdesc[k]) || '')}</span><span class="rfav">${rs.slice(0, 5).map(r => `<img loading="lazy" referrerpolicy="no-referrer" src="https://github.com/${esc(r.id.split('/')[0])}.png?size=48" alt="" title="${esc(r.name)}">`).join('')}${rs.length > 5 ? `<span class="rfmore">+${rs.length - 5}</span>` : ''}</span></button>`;
       }).join('')}</div>`;
@@ -1486,7 +1544,8 @@ body.vt .enter { animation: none; }
       return `<button class="tcard enter" data-gocat="${x}"><span class="tcv"><span class="tbig">${icon(x, 110)}</span>${fan(a, 1)}${fan(b, 2)}${fan(c, 3)}${t.fresh ? `<span class="tbadge">+${t.fresh} new</span>` : ''}</span>
         <span class="thead"><span class="tic">${icon(x)}</span><span class="tnm">${esc(prettyName(catBySlug[x]))}</span><span class="tct">${t.n}</span></span></button>`;
     };
-    $('#topicsPage').innerHTML = spot +
+    $('.head').hidden = true;
+    $('#topicsPage').innerHTML = pageHead('topics', 'Topics', 'Browse everything by subject.', [[LIB.cats.filter(c => c.grp).length, 'topics'], [items.filter(i => !i.dup && fate(i) !== 'remove' && i.g.some(g => catBySlug[g] && catBySlug[g].grp)).length.toLocaleString(), 'guides'], [items.filter(i => !i.dup && fate(i) !== 'remove' && isNew(i)).length, 'new this month']], 265, fanImgs(items.filter(i => !i.dup && fate(i) !== 'remove' && i.i && isNew(i)).sort(sorters.newest).slice(0, 4).map(i => i.i))) + spot +
       groups.map(g => `<section class="tgroup" id="tg${g.gi}" style="--h:${hue(g)}"><div class="tghead"><span class="tgi">${GEM[g.label] || ''}</span><div><h2>${esc(g.label)}</h2><p>${esc(GDESC[g.label] || '')}</p></div><span class="tgc">${g.total.toLocaleString()} guides</span></div>
         <div class="trowwrap"><div class="trow">${g.slugs.map(x => card(x, g)).join('')}</div><button class="trnav prev" data-trow="-1" aria-label="Scroll left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="trnav next" data-trow="1" aria-label="Scroll right"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div></section>`).join('');
   }
@@ -1498,9 +1557,11 @@ body.vt .enter { animation: none; }
     let featC = '';
     if (cw) {
       const c = cw.c, p = PROFILES[c.s], mine = items.filter(i => i.g.includes(c.s) && !i.dup && fate(i) !== 'remove' && i.st !== 'dead').sort(sorters.newest).slice(0, 3);
-      featC = featBox('Creator of the week', `<span class="featav">${avatar(c.n, c.s)}</span>`, `<h3>${esc(c.n)}</h3><p>${esc(p.about)}</p>${mine.length ? `<div class="featlinks">${mine.map(o => `<button data-rel="${o.id}" title="${esc(o.t)}"><span class="rt">${miniThumb(o)}</span><span>${esc(o.t)}</span></button>`).join('')}</div>` : ''}`, `<button class="goal" data-gocat="${c.s}">See all their guides</button>`);
+      featC = featBox('Creator of the week', `<span class="featav">${avatar(c.n, c.s)}</span>`, `<h3>${esc(c.n)}</h3><p>${esc(p.about)}</p><p class="featmeta">${items.filter(i => i.g.includes(c.s) && !i.dup && fate(i) !== 'remove').length} guides in the library</p>`, `<button class="goal primary" data-gocat="${c.s}">See all their guides</button>`,
+        mine.map((o, k) => `<button class="fcard f${k + 1}" data-rel="${o.id}" title="${esc(o.t)}"><span class="fci">${miniThumb(o)}</span><span class="fct">${esc(o.t.replace(/^[^:]{2,40}: /, ''))}</span></button>`).join(''), (AVATARS[c.s] || (mine[0] && mine[0].i) || ''));
     }
-    $('#creatorsPage').innerHTML = featC + `<div class="rgrid">${list.map((c, i) => {
+    $('.head').hidden = true;
+    $('#creatorsPage').innerHTML = pageHead('creators', 'Creators', 'The people behind the tutorials.', [[list.length, 'creators'], [list.filter(c => latest[c.s] && latest[c.s] >= RECENT_FROM).length, 'posted this month']], 330, stackAv(list.filter(c => AVATARS[c.s]).slice(0, 9).map(c => avatar(c.n, c.s)))) + featC + `<div class="rgrid">${list.map((c, i) => {
       const p = PROFILES[c.s] || {}, lt = latest[c.s];
       return `<button class="ccard enter" style="--i:${Math.min(i, 14)}" data-gocat="${c.s}">${avatar(c.n, c.s)}<span><h3>${esc(c.n)}</h3>${p.about ? `<p>${esc(p.about)}</p>` : ''}${lt ? `<small>latest ${MONTHS[+lt.slice(5, 7) - 1]} ${lt.slice(0, 4)}</small>` : ''}</span></button>`;
     }).join('')}</div>`;
@@ -1531,8 +1592,9 @@ body.vt .enter { animation: none; }
       const by = {}; AD.assets.forEach(x => (by[x.cat] = by[x.cat] || []).push(x));
       $('#meta').textContent = 'Tools and assets worth knowing · prices and ratings checked ' + pushedLabel(AD.assets.reduce((m, a) => a.st.checked > m ? a.st.checked : m, ''));
       const ap = ofTheWeek(AD.assets.filter(x => x.st.image).map(x => ({ id: x.id, a: x })).sort((p, q) => p.id.localeCompare(q.id)), 'assets'), aa = ap && ap.a;
-      const assetFeat = aa ? featBox('Asset of the week', aa.st.image ? `<img class="featwide" loading="lazy" referrerpolicy="no-referrer" src="${esc(aa.st.image)}" alt="" onerror="this.remove()">` : '', `<h3>${esc(aa.st.name)}</h3><p class="rown">${esc(aa.st.publisher || '')}</p><p>${esc(aa.use)}</p><div class="rbadges"><span class="rb">${esc(priceOf(aa))}</span>${aa.st.count ? `<span class="rb">★ ${aa.st.rating} (${aa.st.count})</span>` : ''}<span class="rb rcat">${esc(AD.cats[aa.cat])}</span></div>`, `<button class="goal" data-asset="${esc(aa.id)}">See details</button>`) : '';
-      folderLanding(box, AD.cats, AD.catdesc, by, 'data-acat', x => x.st.name, assetFeat); return;
+      const assetFeat = aa ? featBox('Asset of the week', '', `<h3>${esc(aa.st.name)}</h3><p class="rown">${esc(aa.st.publisher || '')}</p><p>${esc(aa.use)}</p><div class="rbadges"><span class="rb">${esc(priceOf(aa))}</span>${aa.st.count ? `<span class="rb">★ ${aa.st.rating} (${aa.st.count})</span>` : ''}<span class="rb rcat">${esc(AD.cats[aa.cat])}</span></div>`, `<button class="goal primary" data-asset="${esc(aa.id)}">See details</button>`, aa.st.image ? `<img class="featwide" loading="lazy" referrerpolicy="no-referrer" src="${esc(aa.st.image)}" alt="" onerror="this.remove()">` : '', aa.st.image || '') : '';
+      $('.head').hidden = true;
+      folderLanding(box, AD.cats, AD.catdesc, by, 'data-acat', x => x.st.name, pageHead('assets', 'Assets', 'Asset Store tools worth knowing, with prices and ratings.', [[AD.assets.length, 'assets'], [AD.assets.filter(isFree).length, 'free']], 40, fanImgs(AD.assets.filter(x => x.st.image).slice(0, 4).map(x => x.st.image))) + assetFeat); return;
     }
     if (state.acat && AD.catdesc && AD.catdesc[state.acat]) $('#meta').textContent = AD.catdesc[state.acat];
     const opt = (cur, k, l) => `<option value="${k}"${cur === k ? ' selected' : ''}>${l}</option>`;
@@ -1562,8 +1624,9 @@ body.vt .enter { animation: none; }
     if (!state.bcat && !q.length) {
       const by = {}; BD.books.forEach(x => (by[x.cat] = by[x.cat] || []).push(x));
       const bp = ofTheWeek(BD.books.map(x => ({ id: x.id, b: x })).sort((a, b) => a.id.localeCompare(b.id)), 'books'), bb = bp && bp.b;
-      const bookFeat = bb ? featBox('Book of the week', bCover(bb), `<h3>${esc(bb.title)}</h3><p class="rown">${esc(bb.author || '')}${bb.author && bb.publisher ? ' · ' : ''}${esc(bb.publisher || '')}</p><p>${esc(bb.use)}</p><div class="rbadges"><span class="rb ${bb.free ? 'u7ok' : ''}">${bb.free ? 'Free' : 'Paid'}</span><span class="rb rcat">${esc(BD.cats[bb.cat])}</span></div>`, `<button class="goal" data-book="${esc(bb.id)}">See details</button>`) : '';
-      folderLanding(box, BD.cats, BD.catdesc, by, 'data-bcat', x => x.title, bookFeat); return;
+      const bookFeat = bb ? featBox('Book of the week', bCover(bb), `<h3>${esc(bb.title)}</h3><p class="rown">${esc(bb.author || '')}${bb.author && bb.publisher && bb.author !== bb.publisher ? ' · ' + esc(bb.publisher) : ''}</p><p>${esc(bb.use)}</p><div class="rbadges"><span class="rb ${bb.free ? 'u7ok' : ''}">${bb.free ? 'Free' : 'Paid'}</span><span class="rb rcat">${esc(BD.cats[bb.cat])}</span></div>`, `<button class="goal primary" data-book="${esc(bb.id)}">See details</button>`, '', bb.image || '') : '';
+      $('.head').hidden = true;
+      folderLanding(box, BD.cats, BD.catdesc, by, 'data-bcat', x => x.title, pageHead('books', 'Books', 'Books and free e-books worth reading.', [[BD.books.length, 'books'], [BD.books.filter(b => b.free).length, 'free']], 200, BD.books.filter(b => b.image).slice(0, 5).map((b, k) => `<img class="pbook" loading="lazy" referrerpolicy="no-referrer" src="${esc(b.image)}" alt="" style="left:${k * 18}%;top:${[18, 0, 24, 6, 20][k]}px;transform:rotate(${[-9, -3, 2, 6, 11][k]}deg);z-index:${k}" onerror="this.remove()">`).join('')) + bookFeat); return;
     }
     if (state.bcat && BD.catdesc && BD.catdesc[state.bcat]) $('#meta').textContent = BD.catdesc[state.bcat];
     const opt = (cur, k, l) => `<option value="${k}"${cur === k ? ' selected' : ''}>${l}</option>`;
@@ -1652,7 +1715,7 @@ body.vt .enter { animation: none; }
   grid.addEventListener('error', e => {
     if (e.target.tagName !== 'IMG') return;
     const it = items[+e.target.closest('.card').querySelector('[data-star]').dataset.star];
-    e.target.outerHTML = `<div class="ph" style="background:${phStyle(it)}"><span>${esc(it.host)}</span></div>`;
+    e.target.outerHTML = phCard(it);
   }, true);
 
   let lastCount = 0, rollRaf = 0;
@@ -2038,7 +2101,12 @@ body.vt .enter { animation: none; }
   // home: what's new this week
   const heroEl = $('#hero');
   let heroT = 0, heroIdx = 0;
+  // ---------- page headers for the main tabs ----------
+  const pageHead = (tab, title, sub, stats, hue, visual = '') => `<header class="phd" style="--h:${hue}"><i class="phb b1"></i><i class="phb b2"></i><div class="phl"><span class="phi"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${TIC[tab] || ''}</svg></span><h1>${esc(title)}</h1><p>${esc(sub)}</p><div class="phs">${stats.filter(s => s && s[0]).map(([n, l]) => `<span><b>${n}</b>${esc(l)}</span>`).join('')}</div></div>${visual ? `<div class="phv">${visual}</div>` : ''}</header>`;
+  const stackAv = xs => xs.map((x, k) => `<span class="sav" style="--k:${k}">${x}</span>`).join('');
+  const fanImgs = urls => urls.filter(Boolean).slice(0, 4).map((u, k) => `<img class="pfan p${k + 1}" loading="lazy" referrerpolicy="no-referrer" src="${esc(u)}" alt="" onerror="this.remove()">`).join('');
   // ---------- Home: a landing page, not a list ----------
+  let hxT = 0;
   function renderHome() {
     window.__renderHero?.();
     const ok = i => !i.dup && fate(i) !== 'remove' && i.st !== 'dead' && FMT_OF[i.src] !== 'repo' && !/^@/.test(i.t);
@@ -2051,7 +2119,19 @@ body.vt .enter { animation: none; }
     const savedItems = items.filter(i => saved.has(i.u) && ok(i)).slice(0, 12);
     const newBy = {}; items.forEach(i => { if (ok(i) && i.p && i.p >= RECENT_FROM) i.g.forEach(g => { if (catBySlug[g] && catBySlug[g].grp) newBy[g] = (newBy[g] || 0) + 1; }); });
     const rising = Object.entries(newBy).sort((a, b) => b[1] - a[1]).slice(0, 8);
-    $('#homeIntro').innerHTML = `<h1>Learn Unity faster, with guides worth your time.</h1><p>GamedevJelly is a hand-picked library of tutorials, videos, repos, assets and books for Unity. Everything is checked, outdated links are removed, and it is organised by what you want to build, so you spend your time making games, not searching for how.</p><div class="hbtns2"><button class="btn primary" data-gocat="__topics">Browse topics</button><button class="btn" data-gocat="__creators">Meet the creators</button></div>`;
+    const nLive = Object.keys(liveCounts().live).filter(s => catBySlug[s] && !catBySlug[s].grp).length;
+    const stats = [[items.filter(ok).length, 'guides & videos'], [nLive, 'creators'], [RD.repos.length, 'repos'], [AD.assets.length, 'assets'], [BD.books.length, 'books']];
+    $('#homeIntro').innerHTML = `<span class="hxk"><i></i>Updated weekly</span><h1>Learn <span class="grad" id="hxWord">Unity</span> faster, with guides worth your time.</h1><p>A hand-picked library of tutorials, videos, repos, assets and books. Everything is checked and outdated links are removed, so you spend your time making games, not searching for how.</p>
+      <form class="hxs" id="hxForm" role="search"><input id="hxq" type="search" placeholder="Search shaders, pathfinding, UI Toolkit…" autocomplete="off" aria-label="Search the library"><button type="submit">Search</button></form>
+      <div class="hxtry">Try: ${['stylized water shader', 'A* pathfinding', 'object pooling', 'custom render pass', 'multiplayer'].map(t => `<button type="button" data-hxq="${esc(t)}">${esc(t)}</button>`).join('')}</div>
+      <div class="hxstats">${stats.map(([n, l]) => `<div><b data-count="${n}">0</b><span>${l}</span></div>`).join('')}</div>`;
+    const runSearch = v => { v = v.trim(); if (!v) return; $('#q').value = v; state.q = v; render(); window.scrollTo({ top: 0 }); };
+    $('#hxForm').addEventListener('submit', e => { e.preventDefault(); runSearch($('#hxq').value); });
+    $('#homeIntro').querySelectorAll('[data-hxq]').forEach(b => b.addEventListener('click', () => runSearch(b.dataset.hxq)));
+    $('#homeIntro').querySelectorAll('[data-count]').forEach(el => { const to = +el.dataset.count; if (REDUCED.matches) { el.textContent = to.toLocaleString(); return; } const t0 = performance.now(); const tick = t => { const k = Math.min(1, (t - t0) / 900); el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))).toLocaleString(); if (k < 1) requestAnimationFrame(tick); }; requestAnimationFrame(tick); });
+    clearInterval(hxT);
+    if (!REDUCED.matches) { const words = ['Unity', 'shaders', 'VFX', 'gameplay', 'multiplayer', 'UI'], w = $('#hxWord'); let k = 0;
+      hxT = setInterval(() => { if (document.hidden || !w.isConnected) return; w.classList.add('out'); setTimeout(() => { k = (k + 1) % words.length; w.textContent = words[k]; w.classList.remove('out'); }, 650); }, 5000); }
     $('#homePage').innerHTML =
       sec('Fresh this week', 'The newest guides, videos and breakdowns.', fresh.length ? row(fresh) : '', `<button class="chip" data-gocat="__topics">Browse all topics →</button>`) +
       sec('Editor’s picks', 'Evergreen guides worth reading first.', picks.length ? row(picks) : '') +
