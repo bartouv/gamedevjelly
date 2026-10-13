@@ -923,8 +923,43 @@ body.vt .enter { animation: none; }
   .grid { grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); }
   .grid.list .thumb { width: 84px; }
 }
-@media (max-width: 520px) { .brand h1 { font-size: 18px; } #themeBtn { display: none; } }
+@media (max-width: 520px) { .brand h1 { font-size: 18px; } #themeBtn { height: 38px; min-width: 38px; } body.is-home .top-in { justify-content: space-between; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+/* ---------- mobile polish ---------- */
+.rown:has(> .pubby) { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; }
+@media (max-width: 860px) {
+  /* one search on Home (the big one), a readable header search elsewhere */
+  body.is-home .search { display: none; }
+  .search kbd { display: none; } .search input { padding-right: 10px; }
+  .search input, #railq, .railq, .hxs input, select { font-size: 16px; }
+  /* labelled, swipeable nav with a fade at the edge */
+  .topnav { -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 28px), transparent); padding-right: 24px; }
+  .topnav button span { display: inline; } .topnav button { padding: 8px 12px; min-height: 38px; }
+  /* banners: a single wide picture keeps the full width; fans and text are tighter */
+  .feat.hasmedia:has(.featmedia > .featwide:only-child) .featmedia { width: 100%; }
+  .feat.hasmedia .featmedia > .featwide:only-child { aspect-ratio: 2 / 1; }
+  .feat:has(.fcard) .featmedia { height: 120px; transform: none; }
+  .feat { padding: 18px; }
+  .featic { width: 64px; height: 64px; border-radius: 18px; }
+  .featmain p { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  /* Home carousel keeps its picture */
+  .hx .hslide:not(.noimg) .himg { display: block; width: 100%; max-height: 150px; }
+  .hx .hbanner { height: 430px; }
+  /* "used in" tiles: two per row, big enough to read */
+  .shotgrid { grid-template-columns: repeat(2, 1fr); }
+  .shotgrid > .shot, .shotgrid.n1 > .shot, .shotgrid.n2 > .shot, .shotgrid.n4 > .shot:nth-child(n+3) { grid-column: span 1 !important; }
+  .shotgrid > .shot:nth-child(1) { grid-column: span 2 !important; }
+  /* stats in an even grid */
+  .hxstats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px 8px; }
+  /* bigger touch targets */
+  .hdots button { width: 30px; height: 30px; background: none; }
+  .hdots button::before { content: ""; position: absolute; left: 0; right: 0; top: 13px; height: 4px; border-radius: 4px; background: rgb(255 255 255 / .3); }
+  .hdots button.on::after { inset: auto 0; top: 13px; height: 4px; border-radius: 4px; }
+  .foot a { display: inline-block; padding: 10px 4px; }
+  .chip { min-height: 36px; } .cat { min-height: 40px; } #railq, .railq { height: 40px; }
+}
+@media (hover: none) { .trowwrap .trnav { opacity: .85; } }
 </style>
 </head>
 <body>
@@ -1188,6 +1223,7 @@ body.vt .enter { animation: none; }
     const c = state.cat, inTab = c === '__topics' || c === '__creators' || c === '__paths' || c === '__repos' || c === '__assets' || c === '__books' || c === '__courses' || state.path || (c && catBySlug[c]);
     const cur = inTab ? tab : '';
     $('#topnav').querySelectorAll('button').forEach(b => b.dataset.top === cur ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
+    const curBtn = $('#topnav').querySelector('[aria-current]'); if (curBtn && matchMedia('(max-width: 860px)').matches) curBtn.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'auto' });
   };
   $('#topnav').addEventListener('click', e => {
     const b = e.target.closest('[data-top]'); if (!b) return;
@@ -2429,6 +2465,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   readHash();
   render();
 
+  { const mq = matchMedia('(max-width: 860px)'), setPh = () => { $('#q').placeholder = mq.matches ? 'Search' : 'Search guides, repos, creators…'; }; setPh(); mq.addEventListener('change', setPh); }
   // soft fade on whichever side of a card row has more to scroll to
   const fadeRow = row => { const w = row.parentElement; if (!w) return; w.classList.toggle('fl', row.scrollLeft > 4); w.classList.toggle('fr', row.scrollLeft + row.clientWidth < row.scrollWidth - 4); };
   const fadeAll = () => document.querySelectorAll('.trow').forEach(fadeRow);
