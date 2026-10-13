@@ -1025,19 +1025,7 @@ main { min-height: calc(100vh - 66px); }
   .featic, .featimg, .featav .av { width: 64px; height: 64px; border-radius: 18px; }
   .feathead .featimg { width: 56px; height: 56px; border-radius: 16px; }
   .featbody > .bcover { width: 92px; }
-  .feat.hasmedia .featbody > .featwide.lead { width: 200px; }
-  .feat:has(.shots) .featmedia { width: min(50%, 560px); height: auto; }
-  .shotk { margin-bottom: 6px; }
-  .shotgrid { grid-template-columns: repeat(4, 1fr); gap: 8px; }
-  .shotgrid > .shot, .shotgrid.n1 > .shot, .shotgrid.n2 > .shot, .shotgrid.n4 > .shot:nth-child(n+3) { grid-column: span 1 !important; }
-  .shotgrid > .shot:nth-child(n+5) { display: none; }
-  .shot { border-radius: 10px; }
-  .usedby { margin-top: 8px; }
-  /* Asset banner: picture, text and "Used in" side by side instead of stacked */
-  .feat:has(.featwide.lead) .featbody { grid-template-columns: 150px minmax(0, 1fr) minmax(0, 46%); grid-template-rows: auto; gap: 8px 22px; align-items: center; }
-  .feat.hasmedia .featbody > .featwide.lead { grid-column: 1; grid-row: 1; width: 100%; }
-  .feat:has(.featwide.lead) .featmain { grid-column: 2; grid-row: 1; }
-  .feat:has(.featwide.lead) .featmedia { grid-column: 3; grid-row: 1; }
+}
 }
 .chs { background: none; border: 0; border-left: 1px solid var(--line); border-radius: 0; padding: 2px 0 2px 22px; }
 @media (max-width: 860px) { .chs { border-left: 0; border-top: 1px solid var(--line); padding: 14px 0 0; } }
