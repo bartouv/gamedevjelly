@@ -323,6 +323,13 @@ body.scrolled .top-in { padding-top: 8px; padding-bottom: 8px; }
 .trising button b { color: var(--accent); margin-left: 4px; font-family: var(--f-mono); font-size: 12px; }
 .trising button:hover { border-color: var(--accent); }
 .trowwrap { position: relative; }
+/* themed scrollbar and soft edges, so the rows never look sliced off */
+.trow, .hero .strip { scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--accent) 50%, var(--surface-2)) transparent; padding-top: 10px; }
+.trow::-webkit-scrollbar, .hero .strip::-webkit-scrollbar { height: 6px; } .trow::-webkit-scrollbar-track, .hero .strip::-webkit-scrollbar-track { background: transparent; }
+.trow::-webkit-scrollbar-thumb, .hero .strip::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--accent) 45%, var(--surface-2)); border-radius: 999px; } .trow::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+.trowwrap.fr .trow { -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 56px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 56px), transparent); }
+.trowwrap.fl .trow { -webkit-mask-image: linear-gradient(90deg, transparent, #000 56px); mask-image: linear-gradient(90deg, transparent, #000 56px); }
+.trowwrap.fl.fr .trow { -webkit-mask-image: linear-gradient(90deg, transparent, #000 56px, #000 calc(100% - 56px), transparent); mask-image: linear-gradient(90deg, transparent, #000 56px, #000 calc(100% - 56px), transparent); }
 .trow { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x proximity; padding: 4px 2px 12px; scrollbar-width: thin; scroll-padding: 0 2px; }
 .tcard { all: unset; cursor: pointer; box-sizing: border-box; flex: 0 0 min(260px, 78%); scroll-snap-align: start; display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); transition: transform .18s, border-color .18s, box-shadow .18s; }
 .tcard:hover { transform: translateY(-3px); border-color: hsl(var(--h) 70% 62% / .75); box-shadow: 0 12px 32px rgb(0 0 0 / .35); }
@@ -2387,6 +2394,11 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   readHash();
   render();
 
+  // soft fade on whichever side of a card row has more to scroll to
+  const fadeRow = row => { const w = row.parentElement; if (!w) return; w.classList.toggle('fl', row.scrollLeft > 4); w.classList.toggle('fr', row.scrollLeft + row.clientWidth < row.scrollWidth - 4); };
+  const fadeAll = () => document.querySelectorAll('.trow').forEach(fadeRow);
+  document.addEventListener('scroll', e => { if (e.target.classList && e.target.classList.contains('trow')) fadeRow(e.target); }, true);
+  addEventListener('resize', fadeAll); new MutationObserver(() => requestAnimationFrame(fadeAll)).observe(document.querySelector('main'), { childList: true, subtree: true }); fadeAll();
   // ---------- mascot: an octopus whose eyes follow the pointer and who reacts to the site ----------
   (() => {
     const m = $('#mascot'), pups = $('#mPups'), lean = $('#mLean'), tog = $('#mascotToggle'), panelEl = $('#panel'), qEl = $('#q');
