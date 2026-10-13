@@ -942,6 +942,50 @@ main { min-height: calc(100vh - 66px); }
 @media (max-width: 860px) { body.is-home .top-in { justify-content: flex-start; } #themeBtn { margin-left: auto; } .mslot.hs { display: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
 
+/* ---------- phone layout: bottom tab bar, folded filters, readable type, roomy rows ---------- */
+.btab, .libsheet, .fltbtn { display: none; }
+@media (max-width: 860px) {
+  .topnav { display: none; }
+  .btab { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 26; padding-bottom: env(safe-area-inset-bottom, 0px); background: color-mix(in srgb, var(--bg) 90%, transparent); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border-top: 1px solid var(--line); }
+  .btab button { all: unset; flex: 1; box-sizing: border-box; min-height: 58px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font: 600 12px var(--f-body); color: var(--muted); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .btab button svg { width: 23px; height: 23px; }
+  .btab button[aria-current] { color: var(--accent); }
+  .btab button:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; border-radius: 10px; }
+  body.rail-open .btab { display: none; }
+  .libsheet:not([hidden]) { display: block; position: fixed; left: 12px; right: 12px; bottom: calc(68px + env(safe-area-inset-bottom, 0px)); z-index: 27; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 6px; box-shadow: 0 20px 60px rgb(0 0 0 / .45); }
+  .libsheet button { all: unset; box-sizing: border-box; width: 100%; display: flex; align-items: center; gap: 14px; padding: 15px 14px; border-radius: 12px; font: 600 16px var(--f-body); cursor: pointer; }
+  .libsheet button:active, .libsheet button:hover { background: var(--accent-soft); }
+  .libsheet svg { width: 22px; height: 22px; color: var(--accent); }
+  main { padding-bottom: calc(100px + env(safe-area-inset-bottom, 0px)); }
+  .totop { bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
+  .toast { bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
+  /* filters: one button, the rest folded away until you ask */
+  .fltbtn { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); font: 600 14.5px var(--f-body); cursor: pointer; }
+  .fltbtn b { background: var(--accent); color: var(--on-accent); border-radius: 999px; font: 700 12px var(--f-body); padding: 1px 8px; }
+  .when .when-row { display: none; }
+  body.flt-open .when .when-row { display: flex; flex-direction: column; align-items: stretch; gap: 12px; margin-top: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+  body.flt-open .when .sel { display: flex; justify-content: space-between; align-items: center; margin: 0; }
+  #related { display: none; } body.flt-open #related:not([hidden]) { display: flex; flex-wrap: wrap; margin-top: 10px; }
+  /* type: nothing tiny, a little more air */
+  .sub, .tbadge, .dom, .pd, button.tag, .tag, .rb, .lbl, .featk, .shotk, .health, .tct, .rfmore, .tgc, .alt, .chip, .chip .n, .hxk, .hkick, .sp2txt i, .when .lbl, small { font-size: 12.5px; }
+  body { font-size: 16px; line-height: 1.55; }
+  .ds, .hbody p { font-size: 15px; }
+  .hsec h2 { font-size: 22px; } .hsec { margin-top: 8px; }
+  /* tap targets */
+  .chip, button.tag, .tag, .cat { min-height: 38px; }
+  select { min-height: 44px; }
+  /* guide rows */
+  .grid.list { gap: 10px; }
+  .grid.list .thumb { width: 96px; }
+  .grid.list .body { padding: 12px 14px; gap: 6px 10px; }
+  .grid.list .body a.t { font-size: 15.5px; line-height: 1.3; }
+  .grid.list .tags, .grid.list .alt { display: none; }
+  .grid.list .star { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+  /* Home: a calmer first screen */
+  .hintro p { font-size: 15.5px; line-height: 1.55; }
+  .hx .himg { max-height: 130px; }
+  .hxstats { gap: 16px 8px; } .hxstats b { font-size: 24px; }
+}
 /* ---------- mobile polish ---------- */
 .rown:has(> .pubby) { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; }
 @media (max-width: 860px) {
@@ -1237,11 +1281,37 @@ main { min-height: calc(100vh - 66px); }
     books: '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5zM4 19V5.5M8 7h8M8 11h6"/>',
     courses: '<path d="M2 9l10-5 10 5-10 5zM6 11.2v4.6c0 1.4 2.7 2.7 6 2.7s6-1.3 6-2.7v-4.6M22 9v5"/>' };
   $('#topnav').innerHTML = TOPNAV.map(([k, l]) => `<button data-top="${k}" title="${l}" aria-label="${l}"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${TIC[k] || ''}</svg><span>${l}</span></button>`).join('');
+  // ---------- phone bottom bar: Home, Topics, Creators, Library (repos, assets, books, courses), Saved ----------
+  var btab = document.createElement('nav'); btab.className = 'btab'; btab.id = 'btab'; btab.setAttribute('aria-label', 'Main');
+  const LIBK = TOPNAV.filter(([k]) => ['repos', 'assets', 'books', 'courses'].includes(k));
+  TIC.__lib = TIC.books; TIC.__saved = '<path d="m12 3.5 2.6 5.3 5.9.9-4.2 4.1 1 5.8L12 16.9l-5.3 2.7 1-5.8-4.2-4.1 5.9-.9z"/>';
+  const BTAB = [['', 'Home'], ['topics', 'Topics'], ['creators', 'Creators'], ...(LIBK.length ? [['__lib', 'Library']] : []), ['__saved', 'Saved']];
+  const ico = k => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${TIC[k] || ''}</svg>`;
+  btab.innerHTML = BTAB.map(([k, l]) => `<button data-bt="${k}" aria-label="${l}">${ico(k)}<span>${l}</span></button>`).join('');
+  var libsheet = document.createElement('div'); libsheet.className = 'libsheet'; libsheet.id = 'libsheet'; libsheet.hidden = true;
+  libsheet.innerHTML = LIBK.map(([k, l]) => `<button data-lb="${k}">${ico(k)}<span>${l}</span></button>`).join('');
+  document.body.append(btab, libsheet);
+  const closeLib = () => { libsheet.hidden = true; };
+  btab.addEventListener('click', e => {
+    const b = e.target.closest('[data-bt]'); if (!b) return; const k = b.dataset.bt;
+    document.body.classList.remove('rail-open');
+    if (k === '__lib') { libsheet.hidden = !libsheet.hidden; return; }
+    closeLib();
+    if (k === '__saved') { document.querySelector('[data-cat="__saved"]')?.click(); scrollTo(0, 0); return; }
+    $('#topnav').querySelector(`[data-top="${k}"]`)?.click(); scrollTo(0, 0);
+  });
+  libsheet.addEventListener('click', e => { const b = e.target.closest('[data-lb]'); if (!b) return; closeLib(); $('#topnav').querySelector(`[data-top="${b.dataset.lb}"]`)?.click(); scrollTo(0, 0); });
+  document.addEventListener('click', e => { if (!libsheet.hidden && !e.target.closest('#libsheet, [data-bt="__lib"]')) closeLib(); });
+  function syncBtab() {
+    const cur = $('#topnav').querySelector('[aria-current]')?.dataset.top ?? '';
+    const k = state.cat === '__saved' ? '__saved' : LIBK.some(([x]) => x === cur) ? '__lib' : cur;
+    btab.querySelectorAll('button').forEach(b => b.dataset.bt === k ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
+  }
   const syncTop = () => {
     const c = state.cat, inTab = c === '__topics' || c === '__creators' || c === '__paths' || c === '__repos' || c === '__assets' || c === '__books' || c === '__courses' || state.path || (c && catBySlug[c]);
     const cur = inTab ? tab : '';
     $('#topnav').querySelectorAll('button').forEach(b => b.dataset.top === cur ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
-    const curBtn = $('#topnav').querySelector('[aria-current]'); if (curBtn && matchMedia('(max-width: 860px)').matches) curBtn.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'auto' });
+    syncBtab();
   };
   $('#topnav').addEventListener('click', e => {
     const b = e.target.closest('[data-top]'); if (!b) return;
@@ -1479,7 +1549,8 @@ main { min-height: calc(100vh - 66px); }
     const toolSel = sel('Built with', 'data-tool', opt(state.tool, '', 'Any tool') + (LIB.tools || []).map(t => opt(state.tool, t.id, esc(t.n))).join(''), !!state.tool, 'The tool or method the guide uses, whatever its subject');
     const pubSel = sel('Published', 'data-preset', (preset ? '' : opt('', '', 'Custom range')) + opt(preset, 'any', 'Any time') + opt(preset, '30d', 'Last 30 days') + opt(preset, '1y', 'Last year') + opt(preset, 'old', 'Older than a year'), preset !== 'any', 'Links with no known date are hidden while this is set');
     const anyOn = !!(state.src || state.tool || state.ver || preset !== 'any');
-    $('#when').innerHTML = `<div class="when-row">${srcSel}${toolSel}${verSel}${pubSel}
+    const nOn = [state.src, state.tool, state.ver].filter(Boolean).length + (preset !== 'any' ? 1 : 0);
+    $('#when').innerHTML = `<button class="fltbtn" data-flt aria-expanded="${document.body.classList.contains('flt-open')}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filters${nOn ? `<b>${nOn}</b>` : ''}</button><div class="when-row">${srcSel}${toolSel}${verSel}${pubSel}
       <span class="hint">${preset !== 'any' && undated ? 'Links with no known date are hidden' : ''}</span>${anyOn ? '<button class="linkbtn" data-reset>Reset filters</button>' : ''}</div>`;
   }
 
@@ -2169,6 +2240,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     if (e.target.matches('[data-rsort]')) { rsort = e.target.value; store.set('rsort', rsort); renderRepos(); }
     if (e.target.matches('[data-rstat]')) { rstat = e.target.value; store.set('rstat', rstat); renderRepos(); }
   });
+  document.addEventListener('click', e => { const f = e.target.closest('[data-flt]'); if (!f) return; const on = document.body.classList.toggle('flt-open'); f.setAttribute('aria-expanded', on); });
   $('#when').addEventListener('change', e => {
     const t = e.target;
     if (t.matches('[data-src]')) { state.src = t.value || null; render(); return; }
