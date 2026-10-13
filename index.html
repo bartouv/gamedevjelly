@@ -944,6 +944,26 @@ main { min-height: calc(100vh - 66px); }
 @media (max-width: 860px) { body.is-home .top-in { justify-content: flex-start; } #themeBtn { margin-left: auto; } .mslot.hs { display: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
 
+/* ---------- book and course panel ---------- */
+.bhero { position: relative; isolation: isolate; overflow: hidden; display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 22px; align-items: end; padding: 26px 22px 22px; border-radius: 20px; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 18px 50px rgb(0 0 0 / .35); }
+.bhero .bhbg { position: absolute; inset: -40px; z-index: -2; background-size: cover; background-position: center; filter: blur(38px) saturate(1.5) brightness(.5); transform: scale(1.15); }
+.bhero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgb(10 12 20 / .2), rgb(10 12 20 / .72)); }
+.bhero .bcover { width: 132px; border-radius: 10px; box-shadow: 0 18px 40px rgb(0 0 0 / .6), 0 0 0 1px rgb(255 255 255 / .1); transform: rotate(-2.5deg); }
+.bhero h2 { margin: 0 0 6px; font: 800 clamp(22px, 3vw, 28px)/1.15 var(--f-display); letter-spacing: -.02em; color: #fff; text-transform: none; }
+.bhero .small, .bhero .small * { color: rgb(255 255 255 / .85); } .bhero .small .linkbtn { color: #fff; }
+.bhero .rbadges { margin-top: 10px; } .bhero .rb { background: rgb(255 255 255 / .12); border-color: rgb(255 255 255 / .3); color: #fff; }
+.buse { margin: 18px 0 4px; padding: 14px 16px; border-left: 3px solid var(--accent); background: var(--accent-soft); border-radius: 0 12px 12px 0; font-size: 15.5px; line-height: 1.55; }
+.buse b { display: block; margin-bottom: 4px; font: 600 11.5px var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.bget { display: grid; gap: 10px; margin: 16px 0 8px; }
+.bbtn { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 54px; padding: 0 18px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); text-decoration: none; font: 700 15px var(--f-body); cursor: pointer; transition: transform .15s, border-color .15s, box-shadow .15s; }
+.bbtn:hover { transform: translateY(-2px); border-color: var(--accent); } .bbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.bbtn.primary { background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 55%, #ff9fd0)); color: var(--on-accent); border-color: transparent; box-shadow: 0 14px 30px -12px color-mix(in srgb, var(--accent) 75%, transparent); }
+.bbtn small { font: 500 11.5px var(--f-mono); letter-spacing: .05em; text-transform: uppercase; opacity: .78; white-space: nowrap; }
+.bsup { padding: 13px 16px; border-radius: 14px; border: 1px dashed color-mix(in srgb, var(--star) 55%, var(--line)); background: color-mix(in srgb, var(--star) 7%, transparent); font-size: 13.5px; line-height: 1.55; color: var(--muted); }
+.bsup b { display: block; margin-bottom: 3px; font: 700 13.5px var(--f-body); color: var(--star); } .bsup a { color: var(--accent); }
+.bcover.wide { width: 118px; aspect-ratio: 16 / 10; } .bhero:has(.bcover.wide) { grid-template-columns: 200px minmax(0, 1fr); } .bhero .bcover.wide { width: 200px; transform: rotate(-1.5deg); }
+@media (max-width: 560px) { .bhero:has(.bcover.wide) { grid-template-columns: minmax(0, 1fr); } .bhero .bcover.wide { width: 100%; max-width: 280px; } }
+@media (max-width: 560px) { .bhero { grid-template-columns: 96px minmax(0, 1fr); gap: 16px; padding: 20px 16px; } .bhero .bcover { width: 96px; } }
 /* ---------- phone layout: bottom tab bar, folded filters, readable type, roomy rows ---------- */
 .btab, .libsheet, .fltbtn { display: none; }
 @media (max-width: 860px) {
@@ -1970,7 +1990,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   const bookById = new Map([...BD.books, ...CD.books].map(b => [b.id, b]));
   let bshow = store.get('bshow', 'all');
   const bRelItems = b => b.rel.map(u => byUrl.get(u)).filter(o => o && !o.dup && fate(o) !== 'remove' && o.st !== 'dead');
-  const bCover = b => b.image ? `<img class="bcover" loading="lazy" referrerpolicy="no-referrer" src="${esc(b.image)}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'bcover ph0',textContent:'${esc(b.publisher.slice(0, 1))}'}))">` : `<span class="bcover ph0">${esc(b.publisher.slice(0, 1))}</span>`;
+  const bCover = b => b.image ? `<img class="bcover${b.kind === 'course' ? ' wide' : ''}" loading="lazy" referrerpolicy="no-referrer" src="${esc(b.image)}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'bcover ph0',textContent:'${esc(b.publisher.slice(0, 1))}'}))">` : `<span class="bcover ph0">${esc(b.publisher.slice(0, 1))}</span>`;
   const booksBy = slug => BD.books.filter(b => b.creator === slug);
   function renderBooks() {
     const isC = state.cat === '__courses', D = isC ? CD : BD, box = $('#bookView'), q = state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
@@ -2003,10 +2023,15 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     const rel = bRelItems(b), cr = b.creator && catBySlug[b.creator];
     const group = (label, arr) => arr.length ? `<h4>${label}</h4><div class="rel">${arr.map(o => `<button data-rel="${o.id}"><span class="rt">${miniThumb(o)}</span><span><b>${esc(o.t)}</b><small>${esc(o.ds || o.host)}</small></span></button>`).join('')}</div>` : '';
     panel.innerHTML = `<div class="ptop"><span class="sp"></span><button class="pbtn" data-pclose aria-label="Close" title="Close (Esc)">✕</button></div>
-      <div class="rdetail"><div class="bhead">${bCover(b)}<div><h2 id="pTitle">${esc(b.title)}</h2><p class="small">${byline(b.author, b.creator)}${b.year ? ' · ' + b.year : ''} · ${esc(b.publisher)}</p>
-      <div class="pactions"><a class="pbtn primary" href="${esc(b.url)}" target="_blank" rel="noopener${b.aff ? ' sponsored' : ''}">${b.kind === 'course' ? (b.free ? 'Start the free course' : 'View the course') : b.free ? 'Get the free e-book' : 'View the book'} ↗</a>${b.amz ? `<a class="pbtn" href="${esc(b.amz)}" target="_blank" rel="sponsored nofollow noopener">Find on Amazon ↗</a><span class="rb aff">Affiliate link</span>` : ''}${b.aff ? '<span class="rb aff">Affiliate link</span>' : ''}</div></div></div>
-      <p class="pds"><b>${b.kind === 'course' ? 'Take it if' : 'Read it if'}:</b> ${esc(b.use)}</p>${b.aff ? '<p class="small">This is an affiliate link: it may earn a commission and does not affect the ranking.</p>' : ''}${b.amz ? '<p class="small">The Amazon link is an affiliate link. As an Amazon Associate I earn from qualifying purchases. It never affects what is listed or how it is ranked.</p>' : ''}
-      <div class="rbadges"><span class="rb rcat">${esc((b.kind === 'course' ? CD : BD).cats[b.cat])}</span><span class="rb ${b.free ? 'u7ok' : ''}">${b.free ? 'Free' : 'Paid'}</span>${b.kind === 'course' ? '<span class="rb crs">Course</span>' : ''}${b.level ? `<span class="rb">${esc(b.level)}</span>` : ''}${b.unity ? `<span class="rb">${esc(b.unity)}</span>` : ''}</div>
+      <div class="rdetail">
+      <div class="bhero">${b.image ? `<i class="bhbg" style="background-image:url('${esc(b.image)}')"></i>` : ''}${bCover(b)}<div class="bmeta"><h2 id="pTitle">${esc(b.title)}</h2><p class="small">${byline(b.author, b.creator)}${b.year ? ' · ' + b.year : ''} · ${esc(b.publisher)}</p>
+        <div class="rbadges"><span class="rb ${b.free ? 'u7ok' : ''}">${b.free ? 'Free' : 'Paid'}</span><span class="rb rcat">${esc((b.kind === 'course' ? CD : BD).cats[b.cat])}</span>${b.kind === 'course' ? '<span class="rb crs">Course</span>' : ''}${b.level ? `<span class="rb">${esc(b.level)}</span>` : ''}${b.unity ? `<span class="rb">${esc(b.unity)}</span>` : ''}</div></div></div>
+      <div class="buse"><b>${b.kind === 'course' ? 'Take it if' : 'Read it if'}</b>${esc(b.use.replace(/^You (want|need|are|know) /, m => m.trim() + ' '))}</div>
+      <div class="bget">
+        <a class="bbtn primary" href="${esc(b.url)}" target="_blank" rel="noopener${b.aff ? ' sponsored nofollow' : ''}"><span>${b.free ? (b.kind === 'course' ? 'Start the free course' : 'Get the free e-book') : b.kind === 'course' ? `View the course on ${esc(b.publisher)}` : `Get it from ${esc(b.publisher)}`}</span><small>${b.aff ? 'Referral link ↗' : b.free ? 'Free ↗' : 'Official page ↗'}</small></a>
+        ${b.amz ? `<a class="bbtn" href="${esc(b.amz)}" target="_blank" rel="sponsored nofollow noopener"><span>Also on Amazon</span><small>Affiliate link ↗</small></a>` : ''}
+        ${b.amz || b.aff ? `<div class="bsup"><b>♥ Support GamedevJelly, only if you like</b>${b.amz ? 'The Amazon link is an affiliate link: if you buy through it, GamedevJelly earns a small commission and you pay nothing extra. ' : ''}${b.aff ? 'The button above carries a referral code that earns GamedevJelly a small commission at no extra cost to you. ' : ''}You never have to use it${b.plain ? `: <a href="${esc(b.plain)}" target="_blank" rel="noopener">go to the course directly, no referral</a>` : b.amz ? ': the official link above goes straight to the book' : ''}. Nothing here is ranked by commission.${b.amz ? ' As an Amazon Associate I earn from qualifying purchases.' : ''}</div>` : ''}
+      </div>
       ${cr ? `<p class="small">By <button class="linkbtn" data-tag="${b.creator}">${esc(cr.n)}</button>, who also has guides in the library.</p>` : ''}
       ${group('Watch', rel.filter(o => o.src === 'video'))}${group('Read', rel.filter(o => o.src !== 'video' && o.src !== 'github'))}
       ${rel.length ? '' : `<p class="small">No library guides mention this ${b.kind === 'course' ? 'course' : 'book'} yet.</p>`}</div>`;
