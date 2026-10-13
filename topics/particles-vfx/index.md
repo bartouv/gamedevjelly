@@ -1,16 +1,22 @@
 # Particles & VFX Graph
 
-> VFX · 57 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 63 hand-filtered guides on GamedevJelly, newest first.
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
 - [A stylized Eldritch Blast VFX in Unity](https://jettelly.com/blog/a-stylized-take-on-eldritch-blast-vfx-in-unity): Breakdown of a stylized magic blast whose inner eyes are fully procedural. (Jettelly, 2026-10-03, article, Unity-6 era)
+- [Unity VFX Graph - Muzzle Flash Effect Tutorial](https://www.youtube.com/watch?v=HISD_W-EwyE): Build a muzzle flash with VFX Graph, using Blender plane meshes and textures made in Material Maker. (Gabriel Aguiar Prod., 2026-08-05, video, Unity-6 era)
 - [How Mega Cat Studios Used Unity to Reimagine Backyard Baseball in 3D ❘ Unity Blog](https://unity.com/blog/reimagining-backyard-baseball-3d-level-design-and-environment-art): Readable 3D level design, decals, lighting and VFX when remaking a baseball game in 3D. (Unity, 2026-07-28, article, Unity-6 era)
 - [A dissolve effect in Unity using HLSL and VFX Graph](https://jettelly.com/blog/a-dissolve-effect-in-unity-using-hlsl-and-vfx-graph): Dissolve shader paired with VFX Graph so particles spawn only around the dissolving region. (Jettelly, 2026-07-27, article, Unity-6 era)
 - [Unity map scanner VFX breakdown (ArtStation)](https://www.artstation.com/artwork/L4NGRk): Vladyslav Horobets' breakdown of a map scanner effect in Unity. (Jettelly, 2026-07-23, article, Unity-6 era)
 - [Blood magic VFX: Houdini fluid sim baked to VAT (ArtStation)](https://www.artstation.com/artwork/rlb3BL): Fluid simulation from Houdini baked into vertex animation textures to run in real time. (Jettelly, 2026-07-22, article, Unity-6 era)
+- [Unity VFX Graph - Portal Effect Tutorial](https://www.youtube.com/watch?v=z5uJA4Ay-Po): Create a portal using VFX Graph and Shader Graph, with a Blender circle mesh and Material Maker noise textures. (Gabriel Aguiar Prod., 2026-07-22, video, Unity-6 era)
 - [Laser beam VFX breakdown in Unity (ArtStation)](https://www.artstation.com/artwork/kQyYBd): Laser beam effect in Unity with free Substance Designer textures to download. (Jettelly, 2026-07-20, article, Unity-6 era)
 - [Zeri W ability recreated in Unity with Shuriken particles (ArtStation)](https://www.artstation.com/artwork/2Bl1YJ): Fan-art breakdown of a League of Legends ability built with Shuriken particles. (Jettelly, 2026-07-18, article, Unity-6 era)
+- [Unity VFX Graph - Impact Effect Tutorial](https://www.youtube.com/watch?v=T_zktTRBCCA): Build an impact effect in VFX Graph with triangle and beam textures made in Material Maker, plus added particles. (Gabriel Aguiar Prod., 2026-07-08, video, Unity-6 era)
+- [Unity VFX Graph - Meteor Effect Tutorial](https://www.youtube.com/watch?v=6Q23T7GVXUU): Make a meteor with VFX Graph and Shader Graph, covering the Blender mesh, a fresnel shader, movement and Material Maker textures. (Gabriel Aguiar Prod., 2026-06-24, video, Unity-6 era)
+- [Unity VFX Graph - Waterfall Effect Tutorial](https://www.youtube.com/watch?v=uFcTWm40fCA): Create a waterfall with VFX Graph and Shader Graph, including the Blender meshes, waterfall shader and ripples. (Gabriel Aguiar Prod., 2026-05-27, video, Unity-6 era)
+- [Unity VFX Graph - Black Hole Effect Tutorial](https://www.youtube.com/watch?v=7iai1U150Io): Build a black hole with VFX Graph and Shader Graph, covering a fresnel shader, ring meshes and a scrolling shader. (Gabriel Aguiar Prod., 2026-05-13, video, Unity-6 era)
 - [Making fire feel alive: Real-time fluid simulation in Ignitement](https://unity.com/blog/real-time-fluid-simulation-fire-vfx-ignitement-breakdown): Real-time 2D fluid simulation used to create dynamic, gameplay-driven fire effects. (Unity, 2026-04-23, article, Unity-6 era)
 - [Patreon: Laser Beam for URP](https://www.patreon.com/posts/laser-beam-urp-141944688): Patreon post on a laser beam effect for URP. (2026-02-23, post, Unity-6 era, URP)
 - [Beginner's Guide to Exploding Tanks in Unity](https://www.youtube.com/watch?v=32KHX1yqStU): Beginner guide to making tanks explode in Unity. (gamedev:hq, 2025-11-06, video, Unity-6 era)

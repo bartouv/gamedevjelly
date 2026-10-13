@@ -1,6 +1,6 @@
 # Gameplay systems & mechanics
 
-> Gameplay & systems · 169 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 170 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
@@ -109,6 +109,7 @@
 - [Prototypes: Paddle Square](https://catlikecoding.com/unity/tutorials/prototypes/paddle-square/): Prototype tutorial building a Pong clone. (Catlike Coding, 2023-01-31, article, Unity-2022 era)
 - [Melee attacks and AI combat mechanic in 2D games - Pav Creations](https://pavcreations.com/melee-attacks-and-ai-combat-mechanic-in-2d-unity-games/): Explains building melee attacks and AI combat in 2D Unity games. (2022-08-05, article, Unity-2022 era)
 - [Unpredictably fun: The value of randomization in game design](https://blog.unity.com/technology/unpredictably-fun-the-value-of-randomization-in-game-design): Unity blog on using randomization in game design to keep players engaged. (2022-04-11, article, Unity-2022 era)
+- [UnityTerrainLayerSampler](https://github.com/staggartcreations/UnityTerrainLayerSampler): Scripting functionality to efficiently read terrain layer weights, usable to drive physics, VFX and SFX. (Staggart Creations, 2022-02-16, repo, Unity-2022 era)
 - [Recreating Metroid Dread's Speed Booster | Mix and Jam](https://www.youtube.com/watch?v=myH829zACPQ): Recreates Metroid Dread's Speed Booster mechanic in Unity. (Mix and Jam, 2022-01-20, video, Unity-2022 era)
 - [Recreating Mario Party Minigames in Game Builder Garage | Mix and Jam](https://www.youtube.com/watch?v=GxMhyyTiMA0): Recreates Mario Party minigames in Unity, inspired by Game Builder Garage. (Mix and Jam, 2021-08-11, video, Unity-2021 era)
 - [Recreating Batman Arkham's Freeflow Combat | Mix and Jam](https://www.youtube.com/watch?v=GFOpKcpKGKQ): Recreates Batman Arkham-style freeflow combat in Unity. (Mix and Jam, 2021-07-25, video, Unity-2021 era)
@@ -151,4 +152,3 @@
 - [Object Management: Spawn Zones](https://catlikecoding.com/unity/tutorials/object-management/spawn-zones/): Object management tutorial on spawn zones per level. (Catlike Coding, 2018-08-23, article, Unity-old era)
 - [Object Management: Multiple Scenes](https://catlikecoding.com/unity/tutorials/object-management/multiple-scenes/): Object management tutorial on working with multiple scenes. (Catlike Coding, 2018-07-16, article, Unity-old era)
 - [Object Management: Object Variety](https://catlikecoding.com/unity/tutorials/object-management/object-variety/): Object management tutorial supporting multiple shapes, materials and colors. (Catlike Coding, 2018-05-15, article, Unity-old era)
-- [Object Management: Persisting Objects](https://catlikecoding.com/unity/tutorials/object-management/persisting-objects/): Object management tutorial on persisting object data between game sessions. (Catlike Coding, 2018-04-18, article, Unity-old era)

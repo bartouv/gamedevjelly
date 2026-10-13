@@ -1,6 +1,6 @@
 # C# & architecture
 
-> Engineering · 106 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 109 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Is Replacing Your Runtime. Are You Ready?](https://www.youtube.com/watch?v=yCyuLvA_g74): What Unity's move from Mono to CoreCLR changes in practice, including what may break builds or workflows. (Gamedev Engine Room, 2026-10-08, video, Unity-6 era)
 - [High Performance Unity Game Development: using data-oriented design (Manning)](https://manning.com/books/high-performance-unity-game-development): The book behind the data-oriented design approach: structure a Unity game around arrays of data and pure logic for high frame rates on limited hardware. (Nitzan Wilnai, 2026-10-01, article, Unity-6 era)
@@ -12,11 +12,14 @@
 - [How to Manage Scenes in Unity Games](https://www.youtube.com/watch?v=dfZ9mCgF5WI): Covers how to structure, load and manage multiple scenes in a Unity game. (Gamedev Engine Room, 2026-07-02, video, Unity-6 era)
 - [How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY): How 150 roguelike perks were structured in code so modifiers stack and stay maintainable. (Game Maker's Toolkit, 2026-06-25, video, Unity-6 era)
 - [Unity Input System controls in Backyard Baseball 2026](https://unity.com/blog/input-system-event-driven-architecture-for-scalable-controls): Event-driven Input System setup for responsive, rebindable controls and local multiplayer. (Unity, 2026-06-22, article, Unity-6 era)
+- [Managed jobs in Unity](https://blog.s-schoener.com/2026-06-04-managed-jobs-unity/): Explains why Unity job structs must be unmanaged and how managed data can be handled in jobs. (Sebastian Schöner, 2026-06-04, article, Unity-6 era)
 - [My Unity Singletons Are Finally Testable](https://www.youtube.com/watch?v=jla72YY5Rvg): Makes Unity singletons testable by replacing hard-wired access with swappable, injectable dependencies. (Gamedev Engine Room, 2026-06-03, video, Unity-6 era)
 - [Unity Singletons Are an Anti-Pattern. Here's the Fix.](https://www.youtube.com/watch?v=WSVPbAtFQCs): Explains why Unity singletons cause problems and shows a cleaner architectural replacement. (Gamedev Engine Room, 2026-05-27, video, Unity-6 era)
 - [Architecting Albion Online: Building a PvP MMO to scale across platforms](https://unity.com/blog/albion-online-cross-platform-pvp-mmo-architecture): Technical architecture letting a PvP MMO scale across PC, mobile and console. (Unity, 2026-05-12, article, Unity-6 era)
 - [There's a Better Way to Organize Unity Game Actions](https://www.youtube.com/watch?v=Tl0RTdTRufA): Implements the Command pattern in Unity for organizing game actions, with an undo system. (Gamedev Engine Room, 2026-04-13, video, Unity-6 era)
+- [What I learned from improving Unity's Mono codegen, part 2](https://blog.s-schoener.com/2026-04-13-mono-codegen-2/): Covers the decision of whether to use LLVM when improving code generation for Unity games running on Mono. (Sebastian Schöner, 2026-04-13, article, Unity-6 era)
 - [Unity DOTS State Machines - The Hot Path Show Ep. 58](https://www.youtube.com/watch?v=cW5HAmUNAck): The Hot Path Show is a weekly livestream focused on showcasing different ways to solve problems in game development through data-oriented design. (Turbo Makes Games, 2026-04-11, video, Unity-6 era)
+- [What I learned from improving Unity's Mono codegen, part 1](https://blog.s-schoener.com/2026-04-07-mono-codegen-1/): Walks through how code flows through Mono during JIT compilation and where its generated code falls short. (Sebastian Schöner, 2026-04-07, article, Unity-6 era)
 - [You're Not Using C# Events To Their Full Potential](https://www.youtube.com/watch?v=sd_w-zPe7Bk): Shows advanced C# event techniques for decoupled Unity game code beyond basic events. (Gamedev Engine Room, 2026-04-06, video, Unity-6 era)
 - [Scaling Unity Workflows for Medium To Large Projects](https://unity.com/blog/scaling-workflows-lessons-from-medium-to-large-projects): Keeping medium and large Unity projects maintainable with assembly definitions, automated tests and Git practices. (Unity, 2026-03-31, article, Unity-6 era)
 - [The Observer Pattern Wasn't Enough. Here's What Comes Next.](https://www.youtube.com/watch?v=nwyIWnJDsdM): Tackles coupling problems the Observer pattern leaves behind, such as components that must reference each other. (Gamedev Engine Room, 2026-03-30, video, Unity-6 era)

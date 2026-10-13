@@ -1,6 +1,6 @@
 # Water, waves & ripples
 
-> Environment · 64 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 65 hand-filtered guides on GamedevJelly, newest first.
 
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
 - [A real-time potion shader breakdown in Unity](https://jettelly.com/blog/a-real-time-potion-shader-breakdown-in-unity): Liquid that reacts to movement, built with C# and Shader Graph. (Jettelly, 2026-08-26, article, Unity-6 era)
@@ -9,6 +9,7 @@
 - [Every Pixel Knows Its Nearest Shore](https://bartouv.github.io/articles/jump-flooding-the-shoreline.html): The jump flood algorithm builds a distance field to the coastline in a handful of GPU passes, and one field drives shore foam, shallow water, and fog of war. How JFA works and how to stop it flickering. (Gal Bartouv, 2026-07-01, article, Unity-6 era)
 - [Simulating surf breaks in Unity with bathymetry depth maps](https://jettelly.com/blog/simulating-surf-breaks-in-unity-with-bathymetry-depthmaps): Wave system behind a surfing game, driven by bathymetry depth maps. (Jettelly, 2026-06-24, article, Unity-6 era)
 - [Stylized Water 2026](https://www.patreon.com/minionsart/posts/stylized-water-160525474): Patreon post on a 2026 update to a stylized water shader. (MinionsArt, 2026-06-01, post, Unity-6 era)
+- [Unity VFX Graph - Waterfall Effect Tutorial](https://www.youtube.com/watch?v=uFcTWm40fCA): Create a waterfall with VFX Graph and Shader Graph, including the Blender meshes, waterfall shader and ripples. (Gabriel Aguiar Prod., 2026-05-27, video, Unity-6 era)
 - [GitHub - AshenOneArt/HPWater: HPWater](https://github.com/AshenOneArt/HPWater): Repo: Unity water rendering project called HPWater. (2026-02-15, repo, Unity-6 era)
 - [Shoreline Shader Breakdown](https://www.cyanilux.com/tutorials/shoreline-shader-breakdown/): Breaks down water techniques for ocean waves crashing onto a shoreline in Shader Graph. (Cyan, 2024-12-04, article, Unity-6 era)
 - [Unreal Fest 2018: Stylized VFX in RIME 2.0 - Water Edition](https://youtu.be/4FIDBeF_4SI?si=xfM2xny9S9QZ2XGU&t=171): Talk on stylized water effects in RIME, with a fire effect shown that Simon highlights as inspiring. (Simon Schreibt, 2024-11-15, video, Unity-6 era)

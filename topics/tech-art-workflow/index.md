@@ -1,7 +1,8 @@
 # Tech art & DCC workflow
 
-> Art & learning · 91 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 92 hand-filtered guides on GamedevJelly, newest first.
 
+- [Unity VFX Graph - Muzzle Flash Effect Tutorial](https://www.youtube.com/watch?v=HISD_W-EwyE): Build a muzzle flash with VFX Graph, using Blender plane meshes and textures made in Material Maker. (Gabriel Aguiar Prod., 2026-08-05, video, Unity-6 era)
 - [How My RGB Pipeline Supports Mods](https://www.youtube.com/watch?v=B4eVxU_eHIw): Describes an RGB color pipeline for art and how it supports modding. (Mix and Jam, 2026-05-21, video, Unity-6 era)
 - [Replicating the Shadowglass 3D pixel-art technique](https://tesseractc.at/shadowglass): Recreates the Shadowglass look for first-person 3D pixel art, explaining how the technique works. (2026-02-05, article, Unity-6 era)
 - [Patreon: Render Texture](https://www.patreon.com/posts/rendertexture-150091521?utm_campaign=patron_engagement&utm_source=post_link&post_id=150091521&utm_id=08e41892-b752-4d92-987c-5fe9687ec41a&utm_medium=email): Patreon post about using render textures in Unity. (2026-01-29, post, Unity-6 era)

@@ -1,6 +1,6 @@
 # Debugging & testing
 
-> Workflow & tools · 23 hand-filtered guides on GamedevJelly, newest first.
+> Workflow & tools · 24 hand-filtered guides on GamedevJelly, newest first.
 
 - [My Unity Singletons Are Finally Testable](https://www.youtube.com/watch?v=jla72YY5Rvg): Makes Unity singletons testable by replacing hard-wired access with swappable, injectable dependencies. (Gamedev Engine Room, 2026-06-03, video, Unity-6 era)
 - [You're Using Debug.Log Wrong in Unity](https://www.youtube.com/watch?v=Jid2tW-B_Y0): Uses Unity's logging attributes and APIs to tag, filter and organize logs beyond plain Debug.Log. (Gamedev Engine Room, 2026-05-11, video, Unity-6 era)
@@ -18,6 +18,7 @@
 - [Ultimate Guide to Profiling Unity 6 Games](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6): Unity 6 profiling toolset guide: Profiler, memory analysis and finding bottlenecks across platforms. (Unity, 2025-07-11, article, Unity-6 era)
 - [The Game Kitchen on 3 technical challenges making The Stone of Madness](https://unity.com/blog/the-game-kitchen-stone-of-madness-3-technical-challenges): Three technical challenges in custom rendering, UI and testing while building a 2.5D adventure. (Unity, 2025-03-06, article, Unity-6 era)
 - [Profiling the Unity Beast: Sampling vs Instrumentation](https://thegamedev.guru/unity-cpu-performance/profiling-the-unity-beast-sampling-vs-instrumentation/): Compares sampling and instrumentation profiling to diagnose lag in Unity games. (GameDevGuru, 2025-01-31, article, Unity-6 era)
+- [Thread States in Superluminal and some Unity job system follow-up](https://blog.s-schoener.com/2025-01-21-unity-vfx-graph-multithread/): Measure job scheduling cost in Unity using Superluminal thread states and Profile Analyzer. (Sebastian Schöner, 2025-01-22, article, Unity-6 era)
 - [Master Class: Being a Tech Art Detective](https://www.youtube.com/watch?v=etNmLiaLxb8): Master class on investigating rendering issues as a technical artist. (Simon Schreibt, 2024-09-23, video, Unity-2022 era)
 - [Unity shader .cginc to draw numbers in the fragment shader (gist)](https://gist.github.com/FreyaHolmer/71717be9f3030c1b0990d3ed1ae833e3): Repo: gist with a Unity shader include that draws numbers in the fragment shader for debugging. (Freya Holmér, 2024-08-11, article, Unity-2022 era)
 - [Debug-printing a view matrix from the GPU inside a shader](https://mastodon.social/@acegikmo/112943932215480218): Post showing how to debug-print a view matrix from the GPU inside a shader. (Freya Holmér, 2024-08-11, post, Unity-2022 era)

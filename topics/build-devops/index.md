@@ -1,6 +1,6 @@
 # Builds, version control & DevOps
 
-> Workflow & tools · 22 hand-filtered guides on GamedevJelly, newest first.
+> Workflow & tools · 23 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Is Replacing Your Runtime. Are You Ready?](https://www.youtube.com/watch?v=yCyuLvA_g74): What Unity's move from Mono to CoreCLR changes in practice, including what may break builds or workflows. (Gamedev Engine Room, 2026-10-08, video, Unity-6 era)
 - [Unity External Dependency Manager: What You Need to Know About the Change](https://unity.com/blog/external-dependency-manager): How the External Dependency Manager replaces EDM4U for Android and iOS SDK dependencies. (Unity, 2026-09-29, article, Unity-6 era)
@@ -22,5 +22,6 @@
 - [Taming the PR Chaos](https://bartouv.github.io/articles/fighting-entropy-in-development-taming-the-pr-chaos.html): Managing pull requests in game development teams. Strategies for code review, merge conflicts, and keeping development velocity high. (Gal Bartouv, 2023-01-01, article, Unity-2022 era)
 - [Git Custom Commands That Actually Save Time](https://bartouv.github.io/articles/fighting-entropy-in-git-custom-commands-that-actually-save-time.html): Creating git aliases and custom commands for common Unity workflows. Automate repetitive tasks and streamline your version control. (Gal Bartouv, 2023-01-01, article, Unity-2022 era)
 - [Taming Git Chaos with Custom Commands](https://bartouv.github.io/articles/fighting-entropy-in-unity-taming-git-chaos-with-custom-commands.html): Advanced git workflows for Unity projects. Handle binary files, solve merge conflicts, and maintain clean commit history in team environments. (Gal Bartouv, 2023-01-01, article, Unity-2022 era)
+- [Improvements to shader build time and runtime memory usage](https://forum.unity.com/threads/improvements-to-shader-build-time-and-runtime-memory-usage.1305615/): How variant prefiltering and dynamic variant loading cut shader build time and runtime memory in Unity. (2022-10-21, article, Unity-2022 era)
 - [The Legends of Runeterra CI/CD Pipeline](https://technology.riotgames.com/news/legends-runeterra-cicd-pipeline): Riot Games article on the CI/CD pipeline for Legends of Runeterra builds and deploys. (2021-05-31, article, Unity-2021 era)
 - [Building Assemble With Care: Unity Build Pipeline](https://medium.com/@ustwogames/building-assemble-with-care-8ad6554ad925): Describes the build pipeline used to speed up Unity development on Assemble With Care. (2020-05-02, article, Unity-old era)

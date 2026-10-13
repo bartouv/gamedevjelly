@@ -1,11 +1,14 @@
 # Fire, magic & impacts
 
-> VFX · 24 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 27 hand-filtered guides on GamedevJelly, newest first.
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [A stylized Eldritch Blast VFX in Unity](https://jettelly.com/blog/a-stylized-take-on-eldritch-blast-vfx-in-unity): Breakdown of a stylized magic blast whose inner eyes are fully procedural. (Jettelly, 2026-10-03, article, Unity-6 era)
 - [A lightning shader in Unity using a single material](https://jettelly.com/blog/building-a-lightning-shader-in-unity-using-a-single-material): One material produces main bolt, smaller branches and glow in a single lightning effect. (Jettelly, 2026-09-05, article, Unity-6 era)
+- [Unity VFX Graph - Muzzle Flash Effect Tutorial](https://www.youtube.com/watch?v=HISD_W-EwyE): Build a muzzle flash with VFX Graph, using Blender plane meshes and textures made in Material Maker. (Gabriel Aguiar Prod., 2026-08-05, video, Unity-6 era)
 - [Zeri W ability recreated in Unity with Shuriken particles (ArtStation)](https://www.artstation.com/artwork/2Bl1YJ): Fan-art breakdown of a League of Legends ability built with Shuriken particles. (Jettelly, 2026-07-18, article, Unity-6 era)
+- [Unity VFX Graph - Impact Effect Tutorial](https://www.youtube.com/watch?v=T_zktTRBCCA): Build an impact effect in VFX Graph with triangle and beam textures made in Material Maker, plus added particles. (Gabriel Aguiar Prod., 2026-07-08, video, Unity-6 era)
+- [Unity VFX Graph - Meteor Effect Tutorial](https://www.youtube.com/watch?v=6Q23T7GVXUU): Make a meteor with VFX Graph and Shader Graph, covering the Blender mesh, a fresnel shader, movement and Material Maker textures. (Gabriel Aguiar Prod., 2026-06-24, video, Unity-6 era)
 - [Making fire feel alive: Real-time fluid simulation in Ignitement](https://unity.com/blog/real-time-fluid-simulation-fire-vfx-ignitement-breakdown): Real-time 2D fluid simulation used to create dynamic, gameplay-driven fire effects. (Unity, 2026-04-23, article, Unity-6 era)
 - [Patreon: Laser Beam for URP](https://www.patreon.com/posts/laser-beam-urp-141944688): Patreon post on a laser beam effect for URP. (2026-02-23, post, Unity-6 era, URP)
 - [Laser Beam](https://www.patreon.com/posts/141944688): Patreon post on building a laser beam effect. (MinionsArt, 2025-10-01, post, Unity-6 era)

@@ -1,9 +1,13 @@
 # Shader basics & recipes
 
-> Shaders & rendering · 25 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 30 hand-filtered guides on GamedevJelly, newest first.
 
 - [Understanding Unity shader structure](https://jettelly.com/blog/understanding-unity-shader-structure): Quick look at what goes into a Unity shader: ShaderLab, HLSL and related pieces. (Jettelly, 2026-08-21, article, Unity-6 era)
+- [Unity VFX Graph - Portal Effect Tutorial](https://www.youtube.com/watch?v=z5uJA4Ay-Po): Create a portal using VFX Graph and Shader Graph, with a Blender circle mesh and Material Maker noise textures. (Gabriel Aguiar Prod., 2026-07-22, video, Unity-6 era)
+- [Unity VFX Graph - Meteor Effect Tutorial](https://www.youtube.com/watch?v=6Q23T7GVXUU): Make a meteor with VFX Graph and Shader Graph, covering the Blender mesh, a fresnel shader, movement and Material Maker textures. (Gabriel Aguiar Prod., 2026-06-24, video, Unity-6 era)
 - [Custom Shader FX Nodes - No Boilerplate](https://www.youtube.com/watch?v=uFYLIdYXntk): Discover Unity 6.5’s powerful new Shader Function Reflection API. Write normal HLSL functions, add minimal boilerplate, and Unity automatically turns them into fully-featured Shader Graph nodes with p (git-amend, 2026-06-21, video, Unity-6 era)
+- [Unity VFX Graph - Waterfall Effect Tutorial](https://www.youtube.com/watch?v=uFcTWm40fCA): Create a waterfall with VFX Graph and Shader Graph, including the Blender meshes, waterfall shader and ripples. (Gabriel Aguiar Prod., 2026-05-27, video, Unity-6 era)
+- [Unity VFX Graph - Black Hole Effect Tutorial](https://www.youtube.com/watch?v=7iai1U150Io): Build a black hole with VFX Graph and Shader Graph, covering a fresnel shader, ring meshes and a scrolling shader. (Gabriel Aguiar Prod., 2026-05-13, video, Unity-6 era)
 - [Unity Shader Code Basics 01 - Your First Shader](https://danielilett.com/2025-10-15-tut10-01-your-first-shader/): Introduces writing HLSL shader code in Unity, where Shader Graph falls short. (Daniel Ilett, 2025-10-15, article, Unity-6 era)
 - [@halisavakis.com: HLSL function declared in one file, defined in another](https://bsky.app/profile/halisavakis.com/post/3lyhyn55eyc2l): Shader tip: split declaration and definition across include files so passes share code while implementations vary. (Harry Alisavakis, 2025-09-10, post, Unity-6 era)
 - [Unity Shader Graph Basics (Part 10 - Custom Functions)](https://danielilett.com/2024-07-09-tut7-14-intro-to-shader-graph-part-10/): Injects custom HLSL functions into Shader Graph, including access to additional point light data. (Daniel Ilett, 2024-07-09, article, Unity-2022 era)
@@ -13,6 +17,7 @@
 - [The Best Darn Grid Shader (Yet)](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8): How to draw a clean, anti-aliased grid in a shader that holds up at any distance and viewing angle. (Ben Golus, 2023-10-20, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 1 - Your First Graph)](https://danielilett.com/2023-09-26-tut7-3-intro-to-shader-graph/): Beginner guide to creating your first Shader Graph shader in Unity. (Daniel Ilett, 2023-09-26, article, Unity-2022 era)
 - [Just a moment...](https://www.patreon.com/posts/shader-graph-for-81985104): Patreon post on building an effect in Shader Graph. (2023-04-26, post, Unity-2022 era)
+- [Improvements to shader build time and runtime memory usage](https://forum.unity.com/threads/improvements-to-shader-build-time-and-runtime-memory-usage.1305615/): How variant prefiltering and dynamic variant loading cut shader build time and runtime memory in Unity. (2022-10-21, article, Unity-2022 era)
 - [Distinctive Derivative Differences](https://bgolus.medium.com/distinctive-derivative-differences-cce38d36797b): A look at the different kinds of shader derivatives and how they differ in practice. (Ben Golus, 2021-04-13, article, Unity-2021 era)
 - [What is a Shader? | Unity Tutorial](https://www.youtube.com/watch?v=UZgxS5hJscY): Explains what a shader is in Unity. (Jettelly, 2021-02-09, video, Unity-2021 era)
 - [Skillshot Arrow Shader | Sawce](https://www.sawcegames.com/en/post/skillshot-arrow-shader): Blog post on a skillshot arrow indicator shader. (Sawce Games, 2020-03-06, article, Unity-old era)
