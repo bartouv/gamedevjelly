@@ -7,6 +7,7 @@
 <meta name='impact-site-verification' value='a9b92abe-5983-4f76-92f6-b1f0869e9a84'><meta name="description" content="Unity guides, tutorials and repos, hand-filtered. Hand-picked, checked and kept current."><link rel="canonical" href="https://gamedevjelly.com/"><meta property="og:type" content="website"><meta property="og:site_name" content="GamedevJelly"><meta property="og:title" content="GamedevJelly: Unity guides, tutorials and repos, hand-filtered"><meta property="og:description" content="Hand-picked Unity guides, repos, assets, books and courses. Checked and kept current."><meta property="og:url" content="https://gamedevjelly.com/"><meta property="og:image" content="https://gamedevjelly.com/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://gamedevjelly.com/og.png"><script>window.goatcounter={no_onload:true};(function(){var last='';function c(){var p=location.pathname+location.hash;if(p===last)return;last=p;(function t(n){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p});else if(n<20)setTimeout(function(){t(n+1)},300)})(0)}
 ['pushState','replaceState'].forEach(function(f){var o=history[f];history[f]=function(){var r=o.apply(this,arguments);setTimeout(c,0);return r}});
 addEventListener('popstate',c);addEventListener('hashchange',c);addEventListener('load',c)})();</script><script data-goatcounter="https://bartouv.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><script>(function(){function ev(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a||!/^https?:/.test(a.href)||a.hostname===location.hostname)return;var h=a.hostname.replace(/^www\./,''),rel=a.rel||'',n;
+var fp=a.closest('[data-follow]');if(fp){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:'follow-'+fp.getAttribute('data-follow'),title:(fp.getAttribute('data-cr')||'')+' '+h,event:true});return}
 var sp=a.closest('[data-support]');if(sp){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:'support-'+sp.getAttribute('data-support'),title:(sp.getAttribute('data-cr')||'')+' '+h,event:true});return}
 if(/amazon\./.test(h))n='aff-amazon';else if(/dometrain/.test(h)&&/[?&]ref=/.test(a.href))n='aff-dometrain';else if(/sponsored/.test(rel))n='aff-other';
 else if(a.closest('.bpub'))n='out-publisher';else if(a.closest('.bget'))n='out-book';else if(a.closest('.socials,.soc'))n='out-social';else if(a.closest('.card,.pactions,.spot2,.hbanner,.hero,.links'))n='out-guide';else n='out-other';
@@ -985,15 +986,32 @@ main { min-height: calc(100vh - 66px); }
 .rimg .rfh h3 { font-size: 18px; } .rimg .rfd { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .rimg .rffree { align-self: flex-start; font: 600 11.5px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: hsl(var(--h) 75% 70%); background: hsl(var(--h) 70% 60% / .14); border-radius: 999px; padding: 3px 10px; }
 .rimg:hover .f1 { transform: rotate(-12deg) translateX(-4px); } .rimg:hover .f3 { transform: rotate(12deg) translateX(4px); } .rimg:hover .f2 { transform: rotate(0deg) translateY(-5px); }
-/* ---------- creator support card ---------- */
-.supcard { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin: 6px 0 14px; padding: 14px 18px; max-width: 720px; border-radius: 16px; border: 1px solid color-mix(in srgb, var(--star) 40%, var(--line)); background: linear-gradient(135deg, color-mix(in srgb, var(--star) 10%, transparent), color-mix(in srgb, #ff7eb6 8%, transparent)); }
-.suph { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border-radius: 50%; background: color-mix(in srgb, #ff7eb6 22%, transparent); color: #ff7eb6; font-size: 20px; }
-.supt { flex: 1 1 240px; min-width: 0; display: flex; flex-direction: column; gap: 2px; } .supt b { font: 700 16px var(--f-display); } .supt span { font-size: 13.5px; line-height: 1.5; color: var(--muted); }
-.supb { display: flex; flex-wrap: wrap; gap: 8px; }
-.supbtn { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); text-decoration: none; font: 600 14px var(--f-body); transition: transform .15s, border-color .15s; }
-.supbtn:hover { transform: translateY(-2px); border-color: #ff7eb6; } .supbtn.primary { background: linear-gradient(135deg, #ff7eb6, color-mix(in srgb, var(--accent) 70%, #ff7eb6)); color: #1a1030; border-color: transparent; }
+/* ---------- creator header: one warm card ---------- */
+.chead { display: block; max-width: 1060px; margin: -2px 0 22px; }
+.chero { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px 26px; padding: 24px; border-radius: 22px; border: 1px solid hsl(var(--h) 45% 55% / .28); background: radial-gradient(120% 140% at 0% 0%, hsl(var(--h) 65% 50% / .16), transparent 60%), radial-gradient(90% 120% at 100% 100%, hsl(calc(var(--h) + 50) 65% 55% / .10), transparent 65%), var(--surface); box-shadow: 0 18px 50px -24px rgb(0 0 0 / .5); }
+.chero.hasside { grid-template-columns: minmax(0, 1fr) 300px; }
+.chmain { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 20px; align-items: start; }
+.chero .big { width: 92px; height: 92px; border-radius: 50%; object-fit: cover; display: grid; place-items: center; font: 800 30px var(--f-display); color: #fff; border: 3px solid hsl(var(--h) 70% 68% / .65); box-shadow: 0 10px 28px -8px hsl(var(--h) 70% 50% / .55); }
+.chero .cabout { margin: 2px 0 12px; font-size: 16px; line-height: 1.6; max-width: 62ch; }
+.cstat { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0 0 14px; font: 500 12.5px var(--f-mono); color: var(--muted); } .cstat b { color: var(--fg); font-weight: 700; }
+.chero .socials { gap: 8px; }
+.chero .socials a.soc { width: 40px; height: 40px; padding: 0; justify-content: center; gap: 0; font-size: 0; background: color-mix(in srgb, var(--surface) 70%, transparent); }
+.chero .socials .ic { width: 32px; height: 32px; } .chero .socials .ic svg { width: 17px; height: 17px; }
+.chs { display: flex; flex-direction: column; gap: 10px; align-self: stretch; padding: 18px; border-radius: 18px; border: 1px solid color-mix(in srgb, #ff7eb6 34%, var(--line)); background: linear-gradient(160deg, color-mix(in srgb, #ff7eb6 11%, var(--surface)), color-mix(in srgb, var(--star) 7%, var(--surface))); }
+.chs.fol { border-color: hsl(var(--h) 50% 60% / .3); background: linear-gradient(160deg, hsl(var(--h) 60% 55% / .12), var(--surface)); }
+.chsh { display: flex; align-items: center; gap: 10px; } .chsh b { font: 700 16.5px/1.25 var(--f-display); }
+.suph { display: grid; place-items: center; flex: none; width: 34px; height: 34px; border-radius: 50%; background: color-mix(in srgb, #ff7eb6 22%, transparent); color: #ff7eb6; font-size: 17px; } .chs.fol .suph { background: hsl(var(--h) 70% 60% / .2); color: hsl(var(--h) 80% 72%); }
+.chs p { margin: 0; font-size: 13.5px; line-height: 1.55; color: var(--muted); }
+.supb { display: flex; flex-direction: column; gap: 8px; margin-top: 2px; }
+.supbtn { display: flex; align-items: center; gap: 10px; min-height: 42px; padding: 0 16px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); text-decoration: none; font: 600 14px var(--f-body); transition: transform .15s, border-color .15s; }
+.supbtn svg { width: 17px; height: 17px; fill: currentColor; flex: none; }
+.supbtn:hover { transform: translateY(-2px); border-color: #ff7eb6; } .chs.fol .supbtn:hover { border-color: hsl(var(--h) 70% 65%); }
+.supbtn.primary { background: linear-gradient(135deg, #ff7eb6, color-mix(in srgb, var(--accent) 70%, #ff7eb6)); color: #1a1030; border-color: transparent; box-shadow: 0 12px 26px -12px #ff7eb6; } .chs.fol .supbtn.primary { background: linear-gradient(135deg, hsl(var(--h) 75% 68%), hsl(calc(var(--h) + 40) 70% 66%)); box-shadow: 0 12px 26px -12px hsl(var(--h) 75% 60%); }
+.chalso { grid-column: 1 / -1; display: grid; gap: 8px; padding-top: 16px; border-top: 1px solid hsl(var(--h) 30% 60% / .22); }
+.chalso .cbooks { margin: 0; }
 .psup { margin-left: 8px; font: 600 12.5px var(--f-body); color: #ff7eb6; text-decoration: none; } .psup:hover { text-decoration: underline; }
-@media (max-width: 560px) { .supcard { padding: 14px; } .supb { width: 100%; } .supbtn { flex: 1; justify-content: center; } }
+@media (max-width: 860px) { .chero.hasside { grid-template-columns: minmax(0, 1fr); } .chero { padding: 18px; } .chmain { grid-template-columns: 72px minmax(0, 1fr); gap: 14px; } .chero .big { width: 72px; height: 72px; font-size: 24px; } }
+@media (max-width: 520px) { .chmain { grid-template-columns: minmax(0, 1fr); } .chero .cabout { font-size: 15px; } }
 /* ---------- phone layout: bottom tab bar, folded filters, readable type, roomy rows ---------- */
 .btab, .libsheet, .fltbtn { display: none; }
 @media (max-width: 860px) {
@@ -1726,9 +1744,14 @@ main { min-height: calc(100vh - 66px); }
   // ways to say thanks to a creator: only links taken from their own pages, shown as one calm card
   const SUPPORT = [['patreon', 'Support on Patreon'], ['kofi', 'Buy a coffee on Ko-fi'], ['buymeacoffee', 'Buy a coffee'], ['sponsors', 'Sponsor on GitHub'], ['fanbox', 'Support on Fanbox']];
   const supportOf = p => SUPPORT.filter(([k]) => p && p.links && p.links[k]);
+  const FOLLOW = [['youtube', 'Follow on YouTube'], ['bluesky', 'Follow on Bluesky'], ['mastodon', 'Follow on Mastodon'], ['x', 'Follow on X'], ['github', 'Follow on GitHub']];
+  const brandIcon = k => { const o = SOCIAL.find(x => x[0] === k); return o && o[2] ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${o[2]}"/></svg>` : ''; };
+  // one calm panel: say thanks if they take support, otherwise invite you to follow them
   const supportCard = (p, name, slug) => {
-    const L = supportOf(p); if (!L.length) return '';
-    return `<div class="supcard"><span class="suph" aria-hidden="true">♥</span><div class="supt"><b>Support ${esc(name)}</b><span>If their work helped you, this is how to say thanks. It goes to them, not to GamedevJelly.</span></div><div class="supb">${L.map(([k, label], i) => `<a class="supbtn${i ? '' : ' primary'}" data-support="${k}" data-cr="${esc(slug)}" href="${esc(p.links[k])}" target="_blank" rel="noopener me">${label} ↗</a>`).join('')}</div></div>`;
+    const L = supportOf(p);
+    if (L.length) return `<aside class="chs"><div class="chsh"><span class="suph" aria-hidden="true">♥</span><b>Say thanks to ${esc(name)}</b></div><p>If their work helped you, this is how to support them. It goes straight to them, not to GamedevJelly.</p><div class="supb">${L.map(([k, label], i) => `<a class="supbtn${i ? '' : ' primary'}" data-support="${k}" data-cr="${esc(slug)}" href="${esc(p.links[k])}" target="_blank" rel="noopener me">${brandIcon(k) || '<span aria-hidden="true">♥</span>'}<span>${label}</span></a>`).join('')}</div></aside>`;
+    const F = FOLLOW.filter(([k]) => p && p.links && p.links[k]).slice(0, 3);
+    return F.length ? `<aside class="chs fol"><div class="chsh"><span class="suph" aria-hidden="true">✦</span><b>Like their work?</b></div><p>Follow ${esc(name)} to see what they make next.</p><div class="supb">${F.map(([k, label], i) => `<a class="supbtn${i ? '' : ' primary'}" data-follow="${k}" data-cr="${esc(slug)}" href="${esc(p.links[k])}" target="_blank" rel="noopener me">${brandIcon(k)}<span>${label}</span></a>`).join('')}</div></aside>` : '';
   };
   function renderCreatorHead(c) {
     const el = $('#creatorHead'), cat = catBySlug[c];
@@ -1736,17 +1759,15 @@ main { min-height: calc(100vh - 66px); }
     const p = PROFILES[c] || { links: {} }, { live, latest } = liveCounts(), lt = latest[c];
     const pic = AVATARS[c] ? `<img class="big" src="${AVATARS[c]}" alt="">` : `<span class="big" style="background:hsl(${hash(cat.n) % 360} 45% 42%)">${esc(cat.n[0])}</span>`;
     el.hidden = false;
-    el.innerHTML = `${pic}<div>${p.about ? `<p>${esc(p.about)}</p>` : ''}
-      <div class="meta2">${live[c] || 0} links in the library${lt ? ` · latest ${MONTHS[+lt.slice(5, 7) - 1]} ${lt.slice(0, 4)}` : ''}</div>
-      ${supportCard(p, cat.n, c)}
-      ${p.links && Object.keys(p.links).length ? `<div class="socials">${socialLinks({ links: Object.fromEntries(Object.entries(p.links).filter(([k]) => !supportOf(p).some(([s]) => s === k))) })}</div>` : ''}
-      ${(() => {
-        const row = (lbl, arr, mk) => arr.length ? `<div class="cbooks"><span class="lbl">${lbl}</span>${arr.slice(0, 10).map(mk).join('')}${arr.length > 10 ? `<span class="lbl">+${arr.length - 10} more</span>` : ''}</div>` : '';
-        return row('Books', BD.books.filter(b => b.creator === c), b => `<button class="tag repo" data-book="${esc(b.id)}">${esc(b.title)}</button>`) +
-          row('Courses', CD.books.filter(b => b.creator === c), b => `<button class="tag repo" data-book="${esc(b.id)}">${esc(b.title)}</button>`) +
-          row('Assets', AD.assets.filter(x => (creatorFor(x.st.publisher) || {}).s === c), x => `<button class="tag repo" data-asset="${esc(x.id)}">${esc(x.st.name)}</button>`) +
-          row('Repos', RD.repos.filter(x => (repoCreator(x.id) || {}).s === c), x => `<button class="tag repo" data-repo="${esc(x.id)}">${esc(x.name)}</button>`);
-      })()}</div>`;
+    const hue = hash(cat.n) % 360, nSup = supportOf(p);
+    const icons = p.links && Object.keys(p.links).length ? `<div class="socials">${socialLinks({ links: Object.fromEntries(Object.entries(p.links).filter(([k]) => !nSup.some(([x]) => x === k))) }, true)}</div>` : '';
+    const row = (lbl, arr, mk) => arr.length ? `<div class="cbooks"><span class="lbl">${lbl}</span>${arr.slice(0, 10).map(mk).join('')}${arr.length > 10 ? `<span class="lbl">+${arr.length - 10} more</span>` : ''}</div>` : '';
+    const also = row('Books', BD.books.filter(b => b.creator === c), b => `<button class="tag repo" data-book="${esc(b.id)}">${esc(b.title)}</button>`) +
+      row('Courses', CD.books.filter(b => b.creator === c), b => `<button class="tag repo" data-book="${esc(b.id)}">${esc(b.title)}</button>`) +
+      row('Assets', AD.assets.filter(x => (creatorFor(x.st.publisher) || {}).s === c), x => `<button class="tag repo" data-asset="${esc(x.id)}">${esc(x.st.name)}</button>`) +
+      row('Repos', RD.repos.filter(x => (repoCreator(x.id) || {}).s === c), x => `<button class="tag repo" data-repo="${esc(x.id)}">${esc(x.name)}</button>`);
+    const side = supportCard(p, cat.n, c);
+    el.innerHTML = `<div class="chero${side ? ' hasside' : ''}" style="--h:${hue}"><div class="chmain">${pic}<div class="chtx">${p.about ? `<p class="cabout">${esc(p.about)}</p>` : ''}<div class="cstat"><span><b>${live[c] || 0}</b> guide${(live[c] || 0) === 1 ? '' : 's'} in the library</span>${lt ? `<span>latest <b>${MONTHS[+lt.slice(5, 7) - 1]} ${lt.slice(0, 4)}</b></span>` : ''}</div>${icons}</div></div>${side}${also ? `<div class="chalso">${also}</div>` : ''}</div>`;
   }
 
   // ---------- related links ----------
