@@ -1,6 +1,6 @@
 # GamedevJelly: full index
 
-> Hand-filtered Unity library. Newest guides per topic, then repos, assets and books. Complete data: https://bartouv.github.io/gamedevjelly/data/library.json
+> Hand-filtered Unity library. Newest guides per topic, then repos, assets and books. Complete data: https://gamedevjelly.com/data/library.json
 
 
 ## Shaders & rendering
