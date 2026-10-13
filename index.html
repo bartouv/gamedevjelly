@@ -2151,8 +2151,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
       fEl.innerHTML = `<div class="fgrid">${[...cs, { id: '_other', n: 'More' }].filter(s => by[s.id]).map(s => tile(s, by[s.id])).join('')}</div>`;
     }
     const relEl = $('#related');
-    relEl.hidden = !(c && top.length) || !!cs;
-    relEl.innerHTML = 'Narrow down: ' + top.map(([g, n]) => `<button class="chip" data-tag="${g}">${esc(prettyName(catBySlug[g]).split(' · ')[0])} <span class="n">${n}</span></button>`).join('');
+    relEl.hidden = true; relEl.innerHTML = '';   // the "Narrow down" chip row was removed: the card tags and Filters do the same job
 
     $('#allCt').textContent = items.filter(i => !i.dup && fate(i) !== 'remove' && FMT_OF[i.src] !== 'repo').length;
     // topic & creator counts: live links only (no removed links, no merged duplicates)
