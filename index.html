@@ -986,32 +986,31 @@ main { min-height: calc(100vh - 66px); }
 .rimg .rfh h3 { font-size: 18px; } .rimg .rfd { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .rimg .rffree { align-self: flex-start; font: 600 11.5px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: hsl(var(--h) 75% 70%); background: hsl(var(--h) 70% 60% / .14); border-radius: 999px; padding: 3px 10px; }
 .rimg:hover .f1 { transform: rotate(-12deg) translateX(-4px); } .rimg:hover .f3 { transform: rotate(12deg) translateX(4px); } .rimg:hover .f2 { transform: rotate(0deg) translateY(-5px); }
-/* ---------- creator header: one warm card ---------- */
-.chead { display: block; max-width: 1060px; margin: -2px 0 22px; }
-.chero { position: relative; display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px 26px; padding: 24px; border-radius: 22px; border: 1px solid hsl(var(--h) 45% 55% / .28); background: radial-gradient(120% 140% at 0% 0%, hsl(var(--h) 65% 50% / .16), transparent 60%), radial-gradient(90% 120% at 100% 100%, hsl(calc(var(--h) + 50) 65% 55% / .10), transparent 65%), var(--surface); box-shadow: 0 18px 50px -24px rgb(0 0 0 / .5); }
-.chero.hasside { grid-template-columns: minmax(0, 1fr) 300px; }
-.chmain { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 20px; align-items: start; }
-.chero .big { width: 92px; height: 92px; border-radius: 50%; object-fit: cover; display: grid; place-items: center; font: 800 30px var(--f-display); color: #fff; border: 3px solid hsl(var(--h) 70% 68% / .65); box-shadow: 0 10px 28px -8px hsl(var(--h) 70% 50% / .55); }
-.chero .cabout { margin: 2px 0 12px; font-size: 16px; line-height: 1.6; max-width: 62ch; }
-.cstat { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0 0 14px; font: 500 12.5px var(--f-mono); color: var(--muted); } .cstat b { color: var(--fg); font-weight: 700; }
-.chero .socials { gap: 8px; }
-.chero .socials a.soc { width: 40px; height: 40px; padding: 0; justify-content: center; gap: 0; font-size: 0; background: color-mix(in srgb, var(--surface) 70%, transparent); }
-.chero .socials .ic { width: 32px; height: 32px; } .chero .socials .ic svg { width: 17px; height: 17px; }
-.chs { display: flex; flex-direction: column; gap: 10px; align-self: stretch; padding: 18px; border-radius: 18px; border: 1px solid color-mix(in srgb, #ff7eb6 34%, var(--line)); background: linear-gradient(160deg, color-mix(in srgb, #ff7eb6 11%, var(--surface)), color-mix(in srgb, var(--star) 7%, var(--surface))); }
-.chs.fol { border-color: hsl(var(--h) 50% 60% / .3); background: linear-gradient(160deg, hsl(var(--h) 60% 55% / .12), var(--surface)); }
-.chsh { display: flex; align-items: center; gap: 10px; } .chsh b { font: 700 16.5px/1.25 var(--f-display); }
-.suph { display: grid; place-items: center; flex: none; width: 34px; height: 34px; border-radius: 50%; background: color-mix(in srgb, #ff7eb6 22%, transparent); color: #ff7eb6; font-size: 17px; } .chs.fol .suph { background: hsl(var(--h) 70% 60% / .2); color: hsl(var(--h) 80% 72%); }
-.chs p { margin: 0; font-size: 13.5px; line-height: 1.55; color: var(--muted); }
-.supb { display: flex; flex-direction: column; gap: 8px; margin-top: 2px; }
-.supbtn { display: flex; align-items: center; gap: 10px; min-height: 42px; padding: 0 16px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); text-decoration: none; font: 600 14px var(--f-body); transition: transform .15s, border-color .15s; }
-.supbtn svg { width: 17px; height: 17px; fill: currentColor; flex: none; }
-.supbtn:hover { transform: translateY(-2px); border-color: #ff7eb6; } .chs.fol .supbtn:hover { border-color: hsl(var(--h) 70% 65%); }
-.supbtn.primary { background: linear-gradient(135deg, #ff7eb6, color-mix(in srgb, var(--accent) 70%, #ff7eb6)); color: #1a1030; border-color: transparent; box-shadow: 0 12px 26px -12px #ff7eb6; } .chs.fol .supbtn.primary { background: linear-gradient(135deg, hsl(var(--h) 75% 68%), hsl(calc(var(--h) + 40) 70% 66%)); box-shadow: 0 12px 26px -12px hsl(var(--h) 75% 60%); }
-.chalso { grid-column: 1 / -1; display: grid; gap: 8px; padding-top: 16px; border-top: 1px solid hsl(var(--h) 30% 60% / .22); }
+/* ---------- creator header: a quiet card ---------- */
+.chead { display: block; max-width: 1000px; margin: 0 0 18px; }
+.chero { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px 24px; padding: 18px 20px; border-radius: 16px; border: 1px solid var(--line); background: var(--surface); }
+.chero.hasside { grid-template-columns: minmax(0, 1fr) 260px; }
+.chmain { display: grid; grid-template-columns: 68px minmax(0, 1fr); gap: 16px; align-items: start; }
+.chero .big { width: 68px; height: 68px; border-radius: 50%; object-fit: cover; display: grid; place-items: center; font: 800 24px var(--f-display); color: #fff; border: 2px solid var(--line); }
+.chero .cabout { margin: 0 0 8px; font-size: 14.5px; line-height: 1.55; max-width: 62ch; }
+.cstat { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0 0 10px; font: 400 12px var(--f-mono); color: var(--muted); } .cstat b { color: var(--fg); font-weight: 600; }
+.chero .socials { gap: 6px; }
+.chero .socials a.soc { width: 34px; height: 34px; padding: 0; justify-content: center; gap: 0; font-size: 0; }
+.chero .socials .ic { width: 26px; height: 26px; } .chero .socials .ic svg { width: 14px; height: 14px; }
+.chs { display: flex; flex-direction: column; gap: 8px; align-self: start; padding: 14px 16px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface-2); }
+.chsh { display: flex; align-items: center; gap: 8px; } .chsh b { font: 700 14.5px/1.25 var(--f-display); }
+.suph { flex: none; color: var(--accent); font-size: 15px; line-height: 1; }
+.chs p { margin: 0; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+.supb { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+.supbtn { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); text-decoration: none; font: 600 13px var(--f-body); transition: border-color .15s, background .15s; }
+.supbtn svg { width: 15px; height: 15px; fill: currentColor; flex: none; }
+.supbtn:hover { border-color: var(--accent); background: var(--accent-soft); }
+.supbtn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); } .supbtn.primary:hover { filter: brightness(1.08); background: var(--accent); }
+.chalso { grid-column: 1 / -1; display: grid; gap: 6px; padding-top: 12px; border-top: 1px solid var(--line); }
 .chalso .cbooks { margin: 0; }
-.psup { margin-left: 8px; font: 600 12.5px var(--f-body); color: #ff7eb6; text-decoration: none; } .psup:hover { text-decoration: underline; }
-@media (max-width: 860px) { .chero.hasside { grid-template-columns: minmax(0, 1fr); } .chero { padding: 18px; } .chmain { grid-template-columns: 72px minmax(0, 1fr); gap: 14px; } .chero .big { width: 72px; height: 72px; font-size: 24px; } }
-@media (max-width: 520px) { .chmain { grid-template-columns: minmax(0, 1fr); } .chero .cabout { font-size: 15px; } }
+.psup { margin-left: 8px; font: 600 12.5px var(--f-body); color: var(--accent); text-decoration: none; } .psup:hover { text-decoration: underline; }
+@media (max-width: 860px) { .chero.hasside { grid-template-columns: minmax(0, 1fr); } .chmain { grid-template-columns: 60px minmax(0, 1fr); gap: 12px; } .chero .big { width: 60px; height: 60px; font-size: 20px; } }
+@media (max-width: 520px) { .chmain { grid-template-columns: minmax(0, 1fr); } .chero { padding: 16px; } }
 /* ---------- phone layout: bottom tab bar, folded filters, readable type, roomy rows ---------- */
 .btab, .libsheet, .fltbtn { display: none; }
 @media (max-width: 860px) {
@@ -1749,9 +1748,9 @@ main { min-height: calc(100vh - 66px); }
   // one calm panel: say thanks if they take support, otherwise invite you to follow them
   const supportCard = (p, name, slug) => {
     const L = supportOf(p);
-    if (L.length) return `<aside class="chs"><div class="chsh"><span class="suph" aria-hidden="true">♥</span><b>Say thanks to ${esc(name)}</b></div><p>If their work helped you, this is how to support them. It goes straight to them, not to GamedevJelly.</p><div class="supb">${L.map(([k, label], i) => `<a class="supbtn${i ? '' : ' primary'}" data-support="${k}" data-cr="${esc(slug)}" href="${esc(p.links[k])}" target="_blank" rel="noopener me">${brandIcon(k) || '<span aria-hidden="true">♥</span>'}<span>${label}</span></a>`).join('')}</div></aside>`;
-    const F = FOLLOW.filter(([k]) => p && p.links && p.links[k]).slice(0, 3);
-    return F.length ? `<aside class="chs fol"><div class="chsh"><span class="suph" aria-hidden="true">✦</span><b>Like their work?</b></div><p>Follow ${esc(name)} to see what they make next.</p><div class="supb">${F.map(([k, label], i) => `<a class="supbtn${i ? '' : ' primary'}" data-follow="${k}" data-cr="${esc(slug)}" href="${esc(p.links[k])}" target="_blank" rel="noopener me">${brandIcon(k)}<span>${label}</span></a>`).join('')}</div></aside>` : '';
+    if (L.length) return `<aside class="chs"><div class="chsh"><span class="suph" aria-hidden="true">♥</span><b>Say thanks to ${esc(name)}</b></div><p>If their work helped you, you can support them directly. It goes to them, not to GamedevJelly.</p><div class="supb">${L.map(([k, label], i) => `<a class="supbtn${i ? '' : ' primary'}" data-support="${k}" data-cr="${esc(slug)}" href="${esc(p.links[k])}" target="_blank" rel="noopener me">${brandIcon(k) || '<span aria-hidden="true">♥</span>'}<span>${label}</span></a>`).join('')}</div></aside>`;
+    const F = FOLLOW.filter(([k]) => p && p.links && p.links[k]).slice(0, 2);
+    return F.length ? `<aside class="chs fol"><div class="chsh"><span class="suph" aria-hidden="true">✦</span><b>Like their work?</b></div><p>Follow them to see what they make next.</p><div class="supb">${F.map(([k, label], i) => `<a class="supbtn${i ? '' : ' primary'}" data-follow="${k}" data-cr="${esc(slug)}" href="${esc(p.links[k])}" target="_blank" rel="noopener me">${brandIcon(k)}<span>${label}</span></a>`).join('')}</div></aside>` : '';
   };
   function renderCreatorHead(c) {
     const el = $('#creatorHead'), cat = catBySlug[c];
@@ -1761,7 +1760,7 @@ main { min-height: calc(100vh - 66px); }
     el.hidden = false;
     const hue = hash(cat.n) % 360, nSup = supportOf(p);
     const icons = p.links && Object.keys(p.links).length ? `<div class="socials">${socialLinks({ links: Object.fromEntries(Object.entries(p.links).filter(([k]) => !nSup.some(([x]) => x === k))) }, true)}</div>` : '';
-    const row = (lbl, arr, mk) => arr.length ? `<div class="cbooks"><span class="lbl">${lbl}</span>${arr.slice(0, 10).map(mk).join('')}${arr.length > 10 ? `<span class="lbl">+${arr.length - 10} more</span>` : ''}</div>` : '';
+    const row = (lbl, arr, mk) => arr.length ? `<div class="cbooks"><span class="lbl">${lbl}</span>${arr.slice(0, 5).map(mk).join('')}${arr.length > 5 ? `<span class="lbl">+${arr.length - 5} more</span>` : ''}</div>` : '';
     const also = row('Books', BD.books.filter(b => b.creator === c), b => `<button class="tag repo" data-book="${esc(b.id)}">${esc(b.title)}</button>`) +
       row('Courses', CD.books.filter(b => b.creator === c), b => `<button class="tag repo" data-book="${esc(b.id)}">${esc(b.title)}</button>`) +
       row('Assets', AD.assets.filter(x => (creatorFor(x.st.publisher) || {}).s === c), x => `<button class="tag repo" data-asset="${esc(x.id)}">${esc(x.st.name)}</button>`) +
