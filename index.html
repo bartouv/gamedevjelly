@@ -966,6 +966,18 @@ main { min-height: calc(100vh - 66px); }
 .bcover.wide { width: 118px; aspect-ratio: 16 / 10; } .bhero:has(.bcover.wide) { grid-template-columns: 200px minmax(0, 1fr); } .bhero .bcover.wide { width: 200px; transform: rotate(-1.5deg); }
 @media (max-width: 560px) { .bhero:has(.bcover.wide) { grid-template-columns: minmax(0, 1fr); } .bhero .bcover.wide { width: 100%; max-width: 280px; } }
 @media (max-width: 560px) { .bhero { grid-template-columns: 96px minmax(0, 1fr); gap: 16px; padding: 20px 16px; } .bhero .bcover { width: 96px; } }
+/* ---------- Assets, Books and Courses hubs: image tiles ---------- */
+.rfolder.rimg { padding: 0; gap: 0; overflow: hidden; }
+.rfolder.rimg:hover { border-color: hsl(var(--h) 70% 62% / .75); }
+.rimg .tcv { height: 176px; }
+.rimg .fan.port { width: 27%; aspect-ratio: 3 / 4; border-radius: 6px; border-width: 2px; }
+.rimg .fan.port.f1 { left: 9%; top: 26px; } .rimg .fan.port.f2 { left: 36.5%; top: 12px; } .rimg .fan.port.f3 { right: 9%; top: 30px; }
+.rimg .fan.land { width: 50%; }
+.rimg .fan.land.f1 { left: 5%; top: 40px; } .rimg .fan.land.f2 { left: 25%; top: 18px; } .rimg .fan.land.f3 { right: 5%; top: 46px; }
+.rimg .rfb { display: flex; flex-direction: column; gap: 8px; padding: 16px 18px 18px; }
+.rimg .rfh h3 { font-size: 18px; } .rimg .rfd { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.rimg .rffree { align-self: flex-start; font: 600 11.5px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: hsl(var(--h) 75% 70%); background: hsl(var(--h) 70% 60% / .14); border-radius: 999px; padding: 3px 10px; }
+.rimg:hover .f1 { transform: rotate(-12deg) translateX(-4px); } .rimg:hover .f3 { transform: rotate(12deg) translateX(4px); } .rimg:hover .f2 { transform: rotate(0deg) translateY(-5px); }
 /* ---------- phone layout: bottom tab bar, folded filters, readable type, roomy rows ---------- */
 .btab, .libsheet, .fltbtn { display: none; }
 @media (max-width: 860px) {
@@ -1828,9 +1840,13 @@ main { min-height: calc(100vh - 66px); }
   const ofTheWeek = (pool, kind) => { if (!pool.length) return null; const w = isoWeek(), pin = ((LIB.featured || {})[kind] || {})[w.key]; return pool.find(x => x.id === pin) || pool[w.n % pool.length]; };
   const featBox = (kicker, lead, body, actions, media = '', bg = '') => `<section class="feat${media ? ' hasmedia' : ''}">${bg ? `<div class="featbg" style="background-image:url('${esc(bg)}')"></div>` : ''}<div class="featk"><i></i>${kicker}</div><div class="featbody">${lead || ''}<div class="featmain">${body}${actions ? `<div class="featact">${actions}</div>` : ''}</div>${media ? `<div class="featmedia">${media}</div>` : ''}</div></section>`;
   // folder landing for Repos / Assets / Books: one tile per category with what it is for
-  const folderLanding = (box, cats, desc, byCat, attr, nameOf, pre = '') => {
+  const folderLanding = (box, cats, desc, byCat, attr, nameOf, pre = '', imgOf = null, shape = 'land') => {
     box.innerHTML = pre + `<div class="rfgrid">${Object.entries(cats).filter(([k]) => byCat[k]).map(([k, nm]) => {
       const xs = byCat[k];
+      if (imgOf) {   // a tinted stage with a fan of what is inside, then the name, count and description
+        const pics = xs.map(imgOf).filter(Boolean).slice(0, 3), free = xs.filter(x => x.free || (x.st && x.st.price === 0)).length;
+        return `<button class="rfolder rimg enter" ${attr}="${k}" style="--h:${hash(nm) % 360}"><span class="tcv">${pics.map((u, i) => `<span class="fan f${pics.length === 1 ? 2 : pics.length === 2 && i === 1 ? 3 : i + 1} ${shape}"><img loading="lazy" referrerpolicy="no-referrer" src="${esc(u)}" alt="" onerror="this.parentNode.remove()"></span>`).join('')}</span><span class="rfb"><span class="rfh"><h3>${esc(nm)}</h3><span class="tct">${xs.length}</span></span><span class="rfd">${esc((desc || {})[k] || '')}</span>${free ? `<span class="rffree">${free} free</span>` : ''}</span></button>`;
+      }
       return `<button class="rfolder enter" ${attr}="${k}"><span class="rfh"><h3>${esc(nm)}</h3><span class="tct">${xs.length}</span></span><span class="rfd">${esc((desc || {})[k] || '')}</span><span class="rfnames">${xs.slice(0, 3).map(x => `<span>${esc(nameOf(x))}</span>`).join('')}${xs.length > 3 ? `<span class="rfmore">+${xs.length - 3}</span>` : ''}</span></button>`;
     }).join('')}</div>`;
   };
@@ -1974,7 +1990,7 @@ main { min-height: calc(100vh - 66px); }
             const aaShots = aa && aa.used_by ? aa.used_by.items.filter(x => x[2]) : [];
 const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.image ? `<img class="featwide lead" loading="lazy" referrerpolicy="no-referrer" src="${esc(aa.st.image)}" alt="" onerror="this.remove()">` : '', `<h3>${esc(aa.st.name)}</h3><p class="rown">${byline(aa.st.publisher)}</p><p>${esc(aa.use)}</p><div class="rbadges"><span class="rb">${esc(priceOf(aa))}</span>${aa.st.count ? `<span class="rb">★ ${aa.st.rating} (${aa.st.count})</span>` : ''}<span class="rb rcat">${esc(AD.cats[aa.cat])}</span></div>`, `<button class="goal primary" data-asset="${esc(aa.id)}">See details</button>`, (aaShots.length ? `<div class="shots"><div class="shotk">Used in${aa.used_by.src ? ` <a href="${esc(aa.used_by.src)}" target="_blank" rel="noopener" title="${esc(aa.used_by.note)}">source ↗</a>` : ''}</div><div class="shotgrid n${Math.min(aaShots.length, 5)}">${aaShots.slice(0, 5).map(([n, u, im]) => `<a class="shot" href="${esc(u)}" target="_blank" rel="noopener"><img loading="lazy" referrerpolicy="no-referrer" src="${esc(im)}" alt="" onerror="this.remove()"><span>${esc(n)}</span></a>`).join('')}</div></div>` : '') + (aa.st.image && !aaShots.length ? `<img class="featwide" loading="lazy" referrerpolicy="no-referrer" src="${esc(aa.st.image)}" alt="" onerror="this.remove()">` : ''), aa.st.image || '') : '';
       $('.head').hidden = true;
-      folderLanding(box, AD.cats, AD.catdesc, by, 'data-acat', x => x.st.name, pageHead('assets', 'Assets', 'Asset Store tools worth knowing, with prices and ratings.', [[AD.assets.length, 'assets'], [AD.assets.filter(isFree).length, 'free']], 40, fanImgs(AD.assets.filter(x => x.st.image).slice(0, 4).map(x => x.st.image))) + assetFeat); return;
+      folderLanding(box, AD.cats, AD.catdesc, by, 'data-acat', x => x.st.name, pageHead('assets', 'Assets', 'Asset Store tools worth knowing, with prices and ratings.', [[AD.assets.length, 'assets'], [AD.assets.filter(isFree).length, 'free']], 40, fanImgs(AD.assets.filter(x => x.st.image).slice(0, 4).map(x => x.st.image))) + assetFeat, x => x.st.image, 'land'); return;
     }
     if (state.acat && AD.catdesc && AD.catdesc[state.acat]) $('#meta').textContent = AD.catdesc[state.acat];
     const opt = (cur, k, l) => `<option value="${k}"${cur === k ? ' selected' : ''}>${l}</option>`;
@@ -2007,7 +2023,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
       const big = bb && bb.image ? bb.image.replace('/w153/', '/w400/') : '';
       const bookFeat = bb ? featBox(isC ? 'Course of the week' : 'Book of the week', '', `<h3>${esc(bb.title)}</h3><p class="rown">${isC ? '' : 'by '}${byline(bb.author || '', bb.creator)}${bb.author && bb.publisher && bb.author !== bb.publisher ? ' · ' + esc(bb.publisher) : ''}${bb.year ? ' · ' + bb.year : ''}</p><p class="bkuse"><b>${isC ? 'Take it when' : 'Read it when'}</b> ${esc(bb.use.replace(/^You (want|need) /, '').replace(/^to /, 'to '))}</p><div class="rbadges"><span class="rb ${bb.free ? 'u7ok' : ''}">${bb.free ? 'Free' : 'Paid'}</span><span class="rb rcat">${esc(D.cats[bb.cat])}</span>${bb.level ? `<span class="rb">${esc(bb.level)}</span>` : ''}</div>${bb.unity ? `<p class="featmeta">${esc(bb.unity)}</p>` : ''}`, `<button class="goal primary" data-book="${esc(bb.id)}">See details</button>${bb.url ? `<a class="goal" href="${esc(bb.url)}" target="_blank" rel="noopener">${isC ? (bb.free ? 'Start the free course' : 'View the course') : bb.free ? 'Get the free e-book' : 'View the book'} ↗</a>` : ''}${bb.creator && catBySlug[bb.creator] ? `<button class="goal" data-gocat="${esc(bb.creator)}">More from ${esc(bb.author)}</button>` : ''}`, isC && bb.image ? `<img class="featwide" loading="lazy" referrerpolicy="no-referrer" src="${esc(bb.image.replace('hqdefault', 'maxresdefault'))}" alt="" onerror="this.onerror=null;this.src='${esc(bb.image)}'">` : big ? `<div class="bookhero"><img class="bh2" src="${esc(big)}" alt="" referrerpolicy="no-referrer" aria-hidden="true"><img class="bh1" src="${esc(big)}" alt="${esc(bb.title)}" referrerpolicy="no-referrer" onerror="this.src='${esc(bb.image)}'"></div>` : '', big) : '';
       $('.head').hidden = true;
-      folderLanding(box, D.cats, D.catdesc, by, 'data-bcat', x => x.title, pageHead(isC ? 'courses' : 'books', isC ? 'Courses' : 'Books', isC ? 'Courses worth your time.' : 'Books and free e-books worth reading.', [[D.books.length, isC ? 'courses' : 'books'], [D.books.filter(b => b.free).length, 'free']], 200, D.books.filter(b => b.image).slice(0, 5).map((b, k) => `<img class="pbook" loading="lazy" referrerpolicy="no-referrer" src="${esc(b.image)}" alt="" style="left:${22 + k * 14}%;top:${[8, 0, 10, 2, 8][k]}px;transform:rotate(${[-9, -3, 2, 6, 11][k]}deg);z-index:${k}" onerror="this.remove()">`).join('')) + bookFeat); return;
+      folderLanding(box, D.cats, D.catdesc, by, 'data-bcat', x => x.title, pageHead(isC ? 'courses' : 'books', isC ? 'Courses' : 'Books', isC ? 'Courses worth your time.' : 'Books and free e-books worth reading.', [[D.books.length, isC ? 'courses' : 'books'], [D.books.filter(b => b.free).length, 'free']], 200, D.books.filter(b => b.image).slice(0, 5).map((b, k) => `<img class="pbook" loading="lazy" referrerpolicy="no-referrer" src="${esc(b.image)}" alt="" style="left:${22 + k * 14}%;top:${[8, 0, 10, 2, 8][k]}px;transform:rotate(${[-9, -3, 2, 6, 11][k]}deg);z-index:${k}" onerror="this.remove()">`).join('')) + bookFeat, x => x.image, isC ? 'land' : 'port'); return;
     }
     if (state.bcat && D.catdesc && D.catdesc[state.bcat]) $('#meta').textContent = D.catdesc[state.bcat];
     const opt = (cur, k, l) => `<option value="${k}"${cur === k ? ' selected' : ''}>${l}</option>`;
