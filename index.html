@@ -142,6 +142,7 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 .hintro .btn.primary, .hfoot .btn { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 .hintro .btn:hover, .hfoot .btn:hover { transform: translateY(-2px); } .hintro .btn:focus-visible, .hfoot .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .hsec h2 { font: 700 20px/1.2 var(--f-display); letter-spacing: -.01em; margin: 0 0 4px; } .hsec .hsub { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
+.hsec.hpanel { margin-top: 44px; padding: 22px 24px 26px; border: 1px solid var(--line); border-radius: 20px; background: color-mix(in srgb, var(--surface) 55%, transparent); } .hsec.hpanel .hsub { margin-bottom: 18px; }
 .hsec .hhead { display: flex; align-items: baseline; gap: 12px; } .hsec .hhead .chip { margin-left: auto; }
 .goals { display: flex; flex-wrap: wrap; gap: 10px; }
 .goal { all: unset; cursor: pointer; box-sizing: border-box; display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-weight: 600; font-size: 14px; transition: transform .15s, border-color .15s, background .15s; }
@@ -248,6 +249,8 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 /* asset banner: picture and text stacked on the left, the games it is used in fill the right */
 .feat:has(.featwide.lead) .featbody { display: grid; grid-template-columns: minmax(260px, 340px) minmax(0, 1fr); grid-template-rows: auto 1fr; gap: 16px 32px; align-items: start; }
 .feat.hasmedia .featbody > .featwide.lead { grid-column: 1; grid-row: 1; width: 100%; max-width: none; aspect-ratio: 16 / 10; height: auto; margin: 0; }
+/* the card fan sits on the banner's own vertical centre, not on the area under the label pill */
+.feat:has(.fcard) .featmedia { transform: translateY(-22px); }
 .feat:has(.featwide.lead) .featmain { grid-column: 1; grid-row: 2; }
 .feat:has(.featwide.lead) .featmedia { grid-column: 2; grid-row: 1 / span 2; width: auto; height: auto; }
 @media (max-width: 860px) { .feat:has(.featwide.lead) .featbody { display: flex; flex-direction: column; } .feat.hasmedia .featbody > .featwide.lead { width: 100%; } }
@@ -798,16 +801,16 @@ body.vt .enter { animation: none; }
 .mascot { position: fixed; left: 0; top: 0; z-index: 12; transform-origin: 0 0; width: 38px; height: 40px; margin: 0; cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
 .mascot[hidden] { display: none; }
 .mascot svg { width: 100%; height: 100%; overflow: visible; }
-.mascot .body { fill: url(#mg); } .mascot .shade { fill: #7468e6; }
+.mascot .body { fill: #8f82ff; } .mascot .shade { fill: #7468e6; }
 .mascot .cheek, .mascot .shine { display: inline; } .mascot .eyew { fill: #fff; } .mascot .pup { fill: #1b1b33; } .mascot .cheek { fill: #ff9fc2; } .mascot .mouth { fill: #1b1b33; }
-.mascot .sleepEye { display: none; fill: none; stroke: #1b1b33; stroke-width: .45; stroke-linecap: round; } .mascot.sleep .sleepEye { display: block; }
-.mascot .lid { fill: #9a8dfa; transform: scaleY(0); transform-origin: 0 4px; transition: transform .08s; }
-.mascot .eyew, .mascot .pup, .mascot .gl { transform-box: fill-box; transform-origin: center; } .mascot.blink .eyew, .mascot.blink .pup { transform: scaleY(.08); } .mascot.blink .gl, .mascot.sleep .eyew, .mascot.sleep .pups { display: none; }
+.mascot .sleepEye { display: none; fill: none; stroke: #1b1b33; stroke-width: .45; stroke-linecap: round; } .mascot.sleep .sleepEye, .mascot.blink .sleepEye { display: block; }
+.mascot .lid { fill: #8f82ff; transform: scaleY(0); transform-origin: 0 4px; transition: transform .08s; }
+.mascot .eyew, .mascot .pup, .mascot .gl { transform-box: fill-box; transform-origin: center; } .mascot.blink .eyew, .mascot.blink .pups, .mascot.sleep .eyew, .mascot.sleep .pups { display: none; }
 .mascot.sad .mouth { transform: scaleY(-1); transform-box: fill-box; transform-origin: center; }
 .mascot .pups { transition: transform .12s ease-out; }
 .mascot .lean { transition: transform .2s ease-out; }
 .mascot .bob { animation: m-bob 2.8s ease-in-out infinite; }
-.mascot .tent { fill: #7f72f0; } .mascot .ridge { fill: none; stroke: #4b3fc4; stroke-width: .4; stroke-linecap: round; opacity: .16; } .mascot path.mouth { fill: none; stroke: #1b1b33; stroke-width: .5; stroke-linecap: round; } .mascot.r-yawn .mouth, .mascot.r-uhoh .mouth { fill: #1b1b33; } .mascot .rim { fill: url(#mr); pointer-events: none; } .mascot .shine { fill: none; stroke: #fff; stroke-width: .75; stroke-linecap: round; opacity: .6; } .mascot .cheek { opacity: .75; } .mascot .lash { fill: none; stroke: #1b1b33; stroke-width: .38; stroke-linecap: round; } .mascot .gl { fill: #fff; } .mascot svg { filter: drop-shadow(0 1px 5px rgb(143 130 255 / .55)); }
+.mascot .tent { fill: #7468e6; } .mascot .ridge { fill: none; stroke: #4b3fc4; stroke-width: .4; stroke-linecap: round; opacity: .16; } .mascot path.mouth { fill: none; stroke: #1b1b33; stroke-width: .5; stroke-linecap: round; } .mascot.r-yawn .mouth, .mascot.r-uhoh .mouth { fill: #1b1b33; } .mascot .rim { fill: url(#mr); pointer-events: none; } .mascot .shine { fill: none; stroke: #fff; stroke-width: .75; stroke-linecap: round; opacity: .6; } .mascot .cheek { opacity: .75; } .mascot .lash { fill: none; stroke: #1b1b33; stroke-width: .38; stroke-linecap: round; } .mascot .gl { fill: #fff; } .mascot svg { filter: drop-shadow(0 1px 3px rgb(143 130 255 / .35)); }
 .mascot .body { opacity: .96; }
 .mascot .t { animation: m-wig 1.5s ease-in-out infinite alternate; transform-box: fill-box; } .mascot .t2, .mascot .t4 { animation-name: m-wigL; } .mascot .t2 { animation-delay: -.3s; } .mascot .t3 { animation-delay: -.6s; } .mascot .t4 { animation-delay: -.15s; }
 .mascot .shadow { fill: rgb(0 0 0 / .25); }
@@ -923,8 +926,8 @@ body.vt .enter { animation: none; }
   <svg viewBox="0 0 16 17"><defs><radialGradient id="mg" cx=".35" cy=".28" r=".95"><stop offset="0" stop-color="#c3b6ff"/><stop offset=".5" stop-color="#9487fb"/><stop offset="1" stop-color="#7468e6"/></radialGradient><linearGradient id="mt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8576f0"/><stop offset="1" stop-color="#ff9fd0"/></linearGradient><radialGradient id="mr" cx=".5" cy=".62" r=".62"><stop offset=".7" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".5"/></radialGradient></defs><g class="lean" id="mLean"><g class="bob">
     <g class="t t1"><rect class="tent" x="2.75" y="10" width="2.5" height="4.2" rx="1.25"/></g><g class="t t2"><rect class="tent" x="5.45" y="10" width="2.5" height="4.2" rx="1.25"/></g><g class="t t3"><rect class="tent" x="8.05" y="10" width="2.5" height="4.2" rx="1.25"/></g><g class="t t4"><rect class="tent" x="10.75" y="10" width="2.5" height="4.2" rx="1.25"/></g>
     <g class="arms"></g>
-    <path class="body" d="M1.6 10.6C1.2 4 4 .8 8 .8s6.8 3.2 6.4 9.8c0 1-.8 1.2-1.6 1.2H3.2c-.8 0-1.6-.2-1.6-1.2Z"/><path class="ridge" d="M6.2 1.3C5.5 2.8 5.3 4.2 5.5 5.4M9.8 1.3C10.5 2.8 10.7 4.2 10.5 5.4"/>
-    <circle class="eyew" cx="5.4" cy="7.2" r="2.15"/><circle class="eyew" cx="10.6" cy="7.2" r="2.15"/><g class="pups" id="mPups"><circle class="pup" cx="5.4" cy="7.2" r="1.7"/><circle class="pup" cx="10.6" cy="7.2" r="1.7"/><circle class="gl" cx="4.8" cy="6.6" r=".5"/><circle class="gl" cx="10" cy="6.6" r=".5"/></g><path class="shine" d="M3.3 6C3.5 3.9 5 2.3 6.8 1.9"/><ellipse class="lid" cx="5.4" cy="7.2" rx="2.25" ry="2.25"/><ellipse class="lid" cx="10.6" cy="7.2" rx="2.25" ry="2.25"/><path class="sleepEye" d="M3.7 7.5Q5.4 8.9 7.1 7.5M9.1 7.5Q10.8 8.9 12.5 7.5"/><path class="mouth" d="M7 10.1Q8 11.2 9 10.1"/>
+    <path class="body" d="M1.6 10.6C1.2 4 4 .8 8 .8s6.8 3.2 6.4 9.8c0 1-.8 1.2-1.6 1.2H3.2c-.8 0-1.6-.2-1.6-1.2Z"/>
+    <circle class="eyew" cx="5.4" cy="7.2" r="2.15"/><circle class="eyew" cx="10.6" cy="7.2" r="2.15"/><g class="pups" id="mPups"><circle class="pup" cx="5.4" cy="7.2" r="1.7"/><circle class="pup" cx="10.6" cy="7.2" r="1.7"/></g><ellipse class="lid" cx="5.4" cy="7.2" rx="2.25" ry="2.25"/><ellipse class="lid" cx="10.6" cy="7.2" rx="2.25" ry="2.25"/><path class="sleepEye" d="M3.7 7.5Q5.4 8.9 7.1 7.5M9.1 7.5Q10.8 8.9 12.5 7.5"/><path class="mouth" d="M7 10.1Q8 11.2 9 10.1"/>
     <g class="acc a-laptop"><g class="lpArm la1"><rect x="2" y="10.6" width="1.4" height="2.6" rx=".6" fill="#7468e6"/></g><g class="lpArm la2"><rect x="12.6" y="10.6" width="1.4" height="2.6" rx=".6" fill="#7468e6"/></g>
       <rect x="3" y="11.4" width="10" height="4.6" rx=".7" fill="#2c3050"/><rect x="3" y="11.4" width="10" height=".7" rx=".35" fill="#434a78"/><circle class="lpLogo" cx="8" cy="13.7" r=".95" fill="#9a8cff"/>
       <rect class="lpKey k1" x="4.1" y="15.2" width="1.5" height=".5" rx=".2" fill="#cfd3ff"/><rect class="lpKey k2" x="7.2" y="15.2" width="1.5" height=".5" rx=".2" fill="#cfd3ff"/><rect class="lpKey k3" x="10.3" y="15.2" width="1.5" height=".5" rx=".2" fill="#cfd3ff"/></g>
@@ -1679,8 +1682,7 @@ body.vt .enter { animation: none; }
       spot = `<div class="tspotwrap2" style="--h:${hu}">` + featBox(t.fresh ? 'Topic of the week' : 'Featured topic', `<span class="featic" style="--h:${hu}">${icon(x, 44)}</span>`,
         `<h3>${esc(prettyName(cat))}</h3>${cat.ds ? `<p>${esc(cat.ds)}</p>` : ''}<p class="featmeta">${t.fresh ? `${t.fresh} new this month · ` : ''}${t.n} guides${g ? ' · ' + esc(g.label) : ''}</p>`,
         `<button class="goal primary" data-gocat="${x}">Browse topic</button>${o ? `<button class="goal" data-rel="${o.id}">Preview the latest</button>` : ''}`,
-        pics.map((p, k) => `<button class="fcard f${k + 1}" data-rel="${p.id}" title="${esc(p.t)}"><span class="fci">${miniThumb(p)}</span><span class="fct">${esc(p.t)}</span></button>`).join(''), o.i || '') +
-        `<div class="trising"><span class="lbl">Rising</span>${hot.filter(([, t2]) => t2.fresh).slice(0, 6).map(([k, t2]) => `<button data-gocat="${k}">${esc(prettyName(catBySlug[k]).split(' · ')[0])} <b>+${t2.fresh}</b></button>`).join('')}</div></div>`;
+        pics.map((p, k) => `<button class="fcard f${k + 1}" data-rel="${p.id}" title="${esc(p.t)}"><span class="fci">${miniThumb(p)}</span><span class="fct">${esc(p.t)}</span></button>`).join(''), o.i || '') + `</div>`;
     }
     const card = (x, g) => {
       const t = info[x], [a, b, c] = t.last;
@@ -2051,7 +2053,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     cb.checked ? pathDone.add(cb.dataset.done) : pathDone.delete(cb.dataset.done);
     store.set('pathDone', [...pathDone]); cb.closest('.step').classList.toggle('done', cb.checked);
   });
-  let qt; $('#q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
+  let qt; $('#q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { if (e.target.value.trim().length < 2) { state.q = e.target.value; render(); } }, 120); });   // longer queries only show the dropdown while typing; the page below updates on Enter, so nothing flickers
   document.addEventListener('keydown', e => {
     if (e.key === '/' && document.activeElement.tagName !== 'INPUT') { e.preventDefault(); (document.body.classList.contains('is-home') && $('#hxq') ? $('#hxq') : $('#q')).focus(); }
     if (e.key === 'Escape') {
@@ -2220,8 +2222,13 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   const liveEl = $('#live'), qEl = $('#q');
   const closeLive = () => { liveEl.hidden = true; };
   const lv = makeList(liveEl, searchAll, r => { closeLive(); qEl.value = ''; state.q = ''; r.act(); });
-  qEl.addEventListener('input', () => { if (qEl.value.trim().length >= 2) { liveEl.hidden = !lv.set(qEl.value, 8); } else closeLive(); });
-  qEl.addEventListener('keydown', e => { if (e.key === 'Escape') closeLive(); else if (!liveEl.hidden && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter')) lv.key(e); });
+  let navd = false;
+  qEl.addEventListener('input', () => { navd = false; if (qEl.value.trim().length >= 2) { liveEl.hidden = !lv.set(qEl.value, 8); } else closeLive(); });
+  qEl.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeLive();
+    else if (e.key === 'Enter' && !navd && qEl.value.trim().length >= 2) { e.preventDefault(); closeLive(); state.q = qEl.value; render(); window.scrollTo({ top: 0 }); }   // plain Enter runs the full search
+    else if (!liveEl.hidden && (e.key === 'ArrowDown' || e.key === 'ArrowUp' || e.key === 'Enter')) { if (e.key !== 'Enter') navd = true; lv.key(e); }
+  });
   liveEl.addEventListener('mousedown', e => e.preventDefault());
   liveEl.addEventListener('click', e => lv.click(e));
   qEl.addEventListener('blur', () => setTimeout(closeLive, 120));
@@ -2309,7 +2316,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
       <ol class="sp2list">${ps.map(({ o, by }, k) => { const c = by ? { n: by, s: (LIB.cats.find(x => x.n === by) || {}).s || '' } : cname(o); return `<li><button class="sp2row${k === 0 ? ' on' : ''}" data-pkrow="${k}" data-rel="${o.id}"><em>${String(k + 1).padStart(2, '0')}</em><span class="sp2th">${spImg(o, '')}</span><span class="sp2rt"><b>${esc(o.t)}</b><small>${avatar(c.n, c.s || '')}${esc(c.n)}</small></span></button></li>`; }).join('')}</ol></div>`;
     const pick = ({ o, note, by }) => { const c = by ? { n: by } : cname(o);
       return `<button class="pick" data-rel="${o.id}"><span class="pkimg">${o.i ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(o.i)}" alt="">` : phCard(o)}</span><span class="pkbody"><b>${esc(o.t)}</b><span class="pknote">${esc(note)}</span><span class="pkby">${esc(c.n)}</span></span></button>`; };
-    const sec = (title, sub, body, more) => body ? `<section class="hsec"><div class="hhead"><h2>${title}</h2>${more || ''}</div>${sub ? `<p class="hsub">${sub}</p>` : ''}${body}</section>` : '';
+    const sec = (title, sub, body, more, cls = '') => body ? `<section class="hsec ${cls}"><div class="hhead"><h2>${title}</h2>${more || ''}</div>${sub ? `<p class="hsub">${sub}</p>` : ''}${body}</section>` : '';
     const fresh = items.filter(i => ok(i) && i.p && i.p >= RECENT_FROM && i.i).sort(sorters.newest).slice(0, 16);
     const byUrl = new Map(items.map(i => [i.u, i]));
     const picks = (LIB.picks || []).map(p => { const o = byUrl.get(p.u || p); return o && ok(o) ? { o, note: p.note || '', by: p.by || '' } : null; }).filter(Boolean);
@@ -2318,7 +2325,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     const rising = Object.entries(newBy).sort((a, b) => b[1] - a[1]).slice(0, 8);
     const nLive = Object.keys(liveCounts().live).filter(s => catBySlug[s] && !catBySlug[s].grp).length;
     const stats = [[items.filter(ok).length, 'guides & videos'], [nLive, 'creators'], [RD.repos.length, 'repos'], [AD.assets.length, 'assets'], [BD.books.length, 'books']];
-    $('#homeIntro').innerHTML = `<div class="hxrow"><span class="mslot hs" id="hxSlot"></span><span class="hxk"><i></i>Updated weekly</span></div><h1>Learn <span class="grad" id="hxWord">Unity</span> faster, with guides worth your time.</h1><p>A hand-picked library of Unity tutorials, videos, repos, assets and books. Every link is checked and kept current, so you spend your time making games, not hunting for answers.</p>
+    $('#homeIntro').innerHTML = `<div class="hxrow"><span class="mslot hs" id="hxSlot"></span><span class="hxk"><i></i>Updated weekly</span></div><h1>Learn <span class="grad" id="hxWord">Unity</span><br>faster, with guides<br>worth your time.</h1><p>A hand-picked library of Unity tutorials, videos, repos, assets and books. Every link is checked and kept current, so you spend your time making games, not hunting for answers.</p>
       <div class="hxwrap">      <form class="hxs" id="hxForm" role="search"><input id="hxq" type="search" placeholder="Search shaders, pathfinding, UI Toolkit…" autocomplete="off" aria-label="Search the library"><button type="submit">Search</button></form><div class="live hxlive" id="hxLive" role="listbox" hidden></div></div>
       <div class="hxstats">${stats.map(([n, l]) => `<div><b data-count="${n}">0</b><span>${l}</span></div>`).join('')}</div>`;
     window.__hxInit?.();
@@ -2327,7 +2334,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     if (!REDUCED.matches) { const words = ['Unity', 'shaders', 'VFX', 'gameplay', 'multiplayer', 'UI'], w = $('#hxWord'); let k = 0;
       hxT = setInterval(() => { if (document.hidden || !w.isConnected) return; w.classList.add('out'); setTimeout(() => { k = (k + 1) % words.length; w.textContent = words[k]; w.classList.remove('out'); }, 650); }, 5000); }
     $('#homePage').innerHTML =
-      sec('Editor’s picks', 'Timeless, a little bit magical. Worth your next hour.', picks.length ? spotlight(picks) : '') +
+      sec('Editor’s picks', 'Timeless, a little bit magical. Worth your next hour.', picks.length ? spotlight(picks) : '', '', 'hpanel') +
       sec('Your saved', 'Pick up where you left off.', savedItems.length ? row(savedItems) : '', `<button class="chip" data-gocat="__saved">See all →</button>`) +
       `<section class="hfoot"><p><b>Know something good?</b> Send in a guide, video, repo or creator for the library.</p><a class="btn" href="/gamedevjelly/suggest/">Suggest a resource</a></section>`;
   }
@@ -2421,7 +2428,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
       placeRaf = 0;
       const [md, r] = where(), to = `translate(${r.left.toFixed(1)}px, ${r.top.toFixed(1)}px) scale(${(r.width / 38).toFixed(3)})`;
       if (mode !== null && ready && md !== mode && !REDUCED.matches && !m.hidden && getComputedStyle(m).display !== 'none') {   // he jumps straight to the other spot, then hops
-        m.style.transform = to; say('hop', 600);
+        m.style.transform = to;
       } else m.style.transform = to;
       mode = md;
     };
