@@ -938,7 +938,7 @@ main { min-height: calc(100vh - 66px); }
   .grid { grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr)); }
   .grid.list .thumb { width: 84px; }
 }
-@media (max-width: 520px) { .search { min-width: 0; } .search input { padding: 0 8px 0 34px; } .search svg { left: 11px; } .top-in { gap: 8px; } .brand h1 { font-size: 17px; } #themeBtn { height: 38px; min-width: 38px; } body.is-home .top-in { justify-content: flex-start; } .search input::placeholder { color: transparent; } }
+@media (max-width: 520px) { .search { min-width: 0; } .search input { padding: 0 8px 0 34px; } .search svg { left: 11px; } .top-in { gap: 8px; } .brand h1 { font-size: 17px; } #themeBtn { height: 38px; min-width: 38px; } body.is-home .top-in { justify-content: flex-start; } }
 @media (max-width: 860px) { body.is-home .top-in { justify-content: flex-start; } #themeBtn { margin-left: auto; } .mslot.hs { display: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
 
@@ -985,6 +985,48 @@ main { min-height: calc(100vh - 66px); }
   .hintro p { font-size: 15.5px; line-height: 1.55; }
   .hx .himg { max-height: 130px; }
   .hxstats { gap: 16px 8px; } .hxstats b { font-size: 24px; }
+}
+/* ---------- phone UX pass: learner-first Home, full-screen search, sticky actions, back links ---------- */
+.hxchips { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 22px; } .hxcl { font: 600 12px var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.backlink, #msearch { display: none; }
+@media (max-width: 860px) {
+  .menu-btn { display: none !important; }
+  .search input::placeholder { color: var(--muted) !important; }
+  /* Home: promise, search, quick topics, then content */
+  .hintro > p { display: none; }
+  .hintro h1 { font-size: clamp(30px, 8.4vw, 38px); margin-bottom: 16px; }
+  .hxchips { flex-wrap: nowrap; overflow-x: auto; margin: 4px -16px 16px; padding: 2px 16px 4px; scrollbar-width: none; } .hxchips::-webkit-scrollbar { display: none; }
+  .hxchips .goal { flex: none; padding: 9px 15px; font-size: 14px; } .hxcl { flex: none; }
+  .hxs button { display: none; } .hxs { padding: 4px; } .hxs input { min-height: 46px; }
+  .hxstats { display: flex; gap: 22px; margin-bottom: 8px; } .hxstats div:nth-child(n+4) { display: none; } .hxstats b { font-size: 20px; } .hxstats span { font-size: 12.5px; }
+  /* full-screen search */
+  #msearch:not([hidden]) { display: flex; flex-direction: column; position: fixed; inset: 0; z-index: 90; background: var(--bg); }
+  body.ms-open { overflow: hidden; }
+  .msbar { display: flex; align-items: center; gap: 4px; padding: calc(10px + env(safe-area-inset-top, 0px)) 8px 10px 4px; border-bottom: 1px solid var(--line); }
+  .msback, .msclr { all: unset; flex: none; width: 44px; height: 44px; display: grid; place-items: center; font-size: 22px; color: var(--fg); cursor: pointer; }
+  .msclr[hidden] { display: none; }
+  #msq { flex: 1; min-width: 0; height: 46px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); font: 500 16px var(--f-body); padding: 0 12px; }
+  #msq:focus { outline: none; border-color: var(--accent); }
+  .msbody { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 4px 12px calc(28px + env(safe-area-inset-bottom, 0px)); }
+  .mssec { font: 600 12px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 20px 6px 6px; }
+  .msrow { all: unset; box-sizing: border-box; display: block; width: 100%; padding: 12px; border-radius: 12px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .msrow:active { background: var(--accent-soft); }
+  .msb { display: block; font: 600 16px/1.3 var(--f-body); } .mss { display: block; color: var(--muted); font-size: 13.5px; margin-top: 3px; }
+  .mschips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 4px; } .mschips .goal { padding: 10px 15px; font-size: 14px; }
+  .msnone { color: var(--muted); padding: 24px 8px; }
+  .msall { all: unset; box-sizing: border-box; display: block; width: 100%; margin-top: 18px; padding: 15px; text-align: center; border-radius: 12px; background: var(--accent); color: var(--on-accent); font: 700 15px var(--f-body); cursor: pointer; }
+  /* detail panels: title first, the action stays reachable */
+  .panel { padding-bottom: 0; }
+  .panel .pactions { order: 90; position: sticky; bottom: 0; z-index: 3; margin: 0 -22px; padding: 12px 22px calc(12px + env(safe-area-inset-bottom, 0px)); background: color-mix(in srgb, var(--bg) 94%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-top: 1px solid var(--line); }
+  .panel .pactions .pbtn { height: 46px; padding: 0 20px; font-size: 15px; font-weight: 600; } .panel .pactions .pbtn.primary { flex: 1; justify-content: center; }
+  .panel .pbtn { min-height: 38px; }
+  /* topic and creator pages: a way back, a short description, icon-only socials */
+  .backlink { display: inline-flex; align-items: center; min-height: 40px; margin: -6px 0 2px; padding: 0 2px; border: 0; background: none; color: var(--accent); font: 600 15px var(--f-body); cursor: pointer; }
+  .backlink[hidden] { display: none; }
+  #meta { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; } #meta.open { display: block; }
+  .socials { gap: 10px; }
+  .socials a.soc { width: 44px; height: 44px; padding: 0; justify-content: center; gap: 0; font-size: 0; }
+  .socials .ic { width: 36px; height: 36px; } .socials .ic svg { width: 18px; height: 18px; }
 }
 /* ---------- mobile polish ---------- */
 .rown:has(> .pubby) { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 6px; }
@@ -1097,6 +1139,7 @@ main { min-height: calc(100vh - 66px); }
     <div id="rail" role="tabpanel"></div>
   </nav>
   <main>
+    <button class="backlink" id="backLink" hidden></button>
     <div class="head">
       <div>
         <h2 id="title">Home</h2>
@@ -2044,6 +2087,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   }
   function render() {
     const c = state.cat;
+    { const bl = $('#backLink'), cc = c && catBySlug[c]; bl.hidden = !cc; if (cc) { bl.dataset.gocat = cc.grp ? '__topics' : '__creators'; bl.textContent = cc.grp ? '← All topics' : '← All creators'; } }
     $('#title').textContent = c == null ? 'Home' : ({ __topics: 'Topics', __creators: 'Creators', __assets: 'Assets', __books: 'Books', __courses: 'Courses', __repos: 'Repos', __paths: 'Learning paths', __new: 'New this month', __saved: 'Saved', __dead: 'Dead links', __unsure: 'Couldn’t verify', __review: 'Needs review', __removed: 'Removed' })[c] || prettyName(catBySlug[c]);
     // follow the view: a creator view shows the Creators tab, a topic view the Topics tab, a path the Paths tab
     const viewKey = (state.path || '') + '|' + (c || '');
@@ -2240,6 +2284,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     if (e.target.matches('[data-rsort]')) { rsort = e.target.value; store.set('rsort', rsort); renderRepos(); }
     if (e.target.matches('[data-rstat]')) { rstat = e.target.value; store.set('rstat', rstat); renderRepos(); }
   });
+  $('#meta').addEventListener('click', () => { if (phone.matches) $('#meta').classList.toggle('open'); });
   document.addEventListener('click', e => { const f = e.target.closest('[data-flt]'); if (!f) return; const on = document.body.classList.toggle('flt-open'); f.setAttribute('aria-expanded', on); });
   $('#when').addEventListener('change', e => {
     const t = e.target;
@@ -2403,6 +2448,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   // Home search: the same engine as the palette, as a dropdown under the big box
   const hxRecent = () => { try { return JSON.parse(localStorage.getItem('us.recentQ') || '[]'); } catch { return []; } };
   const hxRemember = q => { q = q.trim(); if (!q) return; try { localStorage.setItem('us.recentQ', JSON.stringify([q, ...hxRecent().filter(x => x !== q)].slice(0, 5))); } catch {} };
+  const QUICK_TOPICS = ['shader-basics', 'particles-vfx', 'ui', 'multiplayer', 'dots', 'animation', 'procgen', 'performance'];
   const HX_TRY = ['stylized water shader', 'A* pathfinding', 'object pooling', 'custom render pass', 'multiplayer'];
   function hxInit() {
     const inp = $('#hxq'), box = $('#hxLive'), form = $('#hxForm'); if (!inp || !box || inp.dataset.bound) return; inp.dataset.bound = '1';
@@ -2421,6 +2467,47 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     inp.addEventListener('blur', () => setTimeout(() => { box.hidden = true; }, 120));
     form.addEventListener('submit', e => { e.preventDefault(); runFull(inp.value); });
   }
+  // phone search: tapping either search box opens one full-screen page with grouped results
+  const MS = document.createElement('div'); MS.id = 'msearch'; MS.hidden = true;
+  MS.innerHTML = '<div class="msbar"><button class="msback" aria-label="Close search">←</button><input id="msq" type="search" enterkeyhint="search" placeholder="Search guides, topics, creators…" autocomplete="off" aria-label="Search"><button class="msclr" aria-label="Clear" hidden>✕</button></div><div class="msbody" id="msbody"></div>';
+  document.body.appendChild(MS);
+  const msq = MS.querySelector('#msq'), msb = MS.querySelector('#msbody'), msclr = MS.querySelector('.msclr'), phone = matchMedia('(max-width: 860px)');
+  let msRes = [];
+  const msRow = (r, i) => `<button class="msrow" data-ms="${i}"><span class="msb">${esc(r.lb)}</span>${r.sub ? `<span class="mss">${esc(r.sub)}</span>` : ''}</button>`;
+  const msFull = v => { v = v.trim(); if (!v) return; hxRemember(v); closeMS(); $('#q').value = v; state.q = v; render(); window.scrollTo({ top: 0 }); };
+  function msPaint() {
+    const q = msq.value.trim(); msclr.hidden = !q; msRes = []; let h = '';
+    if (q.length < 2) {
+      const rec = hxRecent();
+      if (rec.length) h += `<div class="mssec">Recent</div>` + rec.map(r => { msRes.push({ lb: r, sub: '', act: () => msFull(r) }); return msRow(msRes[msRes.length - 1], msRes.length - 1); }).join('');
+      h += `<div class="mssec">Popular topics</div><div class="mschips">${QUICK_TOPICS.filter(t => catBySlug[t]).map(t => `<button class="goal" data-msgo="${t}">${esc(prettyName(catBySlug[t]).split(' · ')[0].replace(/ & .*/, ''))}</button>`).join('')}</div>`;
+      h += `<div class="mssec">Try</div><div class="mschips">${HX_TRY.map(t => `<button class="goal" data-mst="${esc(t)}">${esc(t)}</button>`).join('')}</div>`;
+    } else {
+      const words = q.toLowerCase().split(/\s+/).filter(Boolean), by = {};
+      const hits = items.filter(it => !it.dup && fate(it) !== 'remove' && it.st !== 'dead' && words.every(w => it.hay.includes(w)));
+      const tScore = it => (words.every(w => it.t.toLowerCase().includes(w)) ? 0 : 2) + (it.t.toLowerCase().startsWith(words[0]) ? 0 : 1);   // title matches first, newest first
+      by.Guide = hits.sort((a, b) => tScore(a) - tScore(b) || (b.p || '').localeCompare(a.p || '')).slice(0, 15).map(it => ({ ty: 'Guide', lb: it.t, sub: [catBySlug[creatorOf(it)]?.n, it.host].filter(Boolean).join(' · '), act: () => openPanel(it, 'grid') }));
+      searchAll(q, 200).forEach(r => { if (r.ty !== 'Guide' && r.ty !== 'View') (by[r.ty] = by[r.ty] || []).push(r); });
+      const names = { Guide: 'Guides', Topic: 'Topics', Creator: 'Creators', Course: 'Courses', Book: 'Books', Repo: 'Repos', Asset: 'Assets' };
+      Object.keys(names).forEach(ty => { if (!(by[ty] || []).length) return; h += `<div class="mssec">${names[ty]} · ${by[ty].length}</div>` + by[ty].slice(0, ty === 'Guide' ? 15 : 6).map(r => { msRes.push(r); return msRow(r, msRes.length - 1); }).join(''); });
+      h = (h || '<p class="msnone">Nothing found. Try fewer or different words.</p>') + `<button class="msall" data-msall>See all results for “${esc(q)}” →</button>`;
+    }
+    msb.innerHTML = h;
+  }
+  function openMS(v) { MS.hidden = false; document.body.classList.add('ms-open'); msq.value = v || ''; msPaint(); msq.focus(); }
+  function closeMS() { MS.hidden = true; document.body.classList.remove('ms-open'); msq.blur(); }
+  msq.addEventListener('input', msPaint);
+  msq.addEventListener('keydown', e => { if (e.key === 'Escape') closeMS(); else if (e.key === 'Enter') { e.preventDefault(); msFull(msq.value); } });
+  MS.querySelector('.msback').addEventListener('click', closeMS);
+  msclr.addEventListener('click', () => { msq.value = ''; msPaint(); msq.focus(); });
+  msb.addEventListener('click', e => {
+    const row = e.target.closest('[data-ms]'), go2 = e.target.closest('[data-msgo]'), tr = e.target.closest('[data-mst]');
+    if (row) { hxRemember(msq.value); const r = msRes[+row.dataset.ms]; closeMS(); r.act(); }
+    else if (go2) { closeMS(); go(go2.dataset.msgo); window.scrollTo({ top: 0 }); }
+    else if (tr) { msq.value = tr.dataset.mst; msPaint(); }
+    else if (e.target.closest('[data-msall]')) msFull(msq.value);
+  });
+  document.addEventListener('focusin', e => { if (phone.matches && (e.target.id === 'q' || e.target.id === 'hxq')) { e.target.blur(); openMS(''); } });
   window.__hxInit = hxInit; if (document.getElementById('hxq')) hxInit();
   addEventListener('keydown', e => { if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k' && document.body.classList.contains('is-home') && $('#hxq') && pWrap.hidden) { e.preventDefault(); $('#hxq').focus(); } else if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); pWrap.hidden ? openPalette() : closePalette(); } else if (e.key === 'Escape' && !pWrap.hidden) closePalette(); });
 
@@ -2495,6 +2582,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     const stats = [[items.filter(ok).length, 'guides & videos'], [nLive, 'creators'], [RD.repos.length, 'repos'], [AD.assets.length, 'assets'], [BD.books.length, 'books'], [CD.books.length, 'courses']].filter(s => s[0] > 0);
     $('#homeIntro').innerHTML = `<div class="hxrow"><span class="mslot hs" id="hxSlot"></span><span class="hxk"><i></i>Updated weekly</span></div><h1>Learn <span class="grad" id="hxWord">Unity</span><br>faster, with guides<br>worth your time.</h1><p>A hand-picked library of Unity tutorials, videos, repos, assets and books. Every link is checked and kept current, so you spend your time making games, not hunting for answers.</p>
       <div class="hxwrap">      <form class="hxs" id="hxForm" role="search"><input id="hxq" type="search" placeholder="Search shaders, pathfinding, UI Toolkit…" autocomplete="off" aria-label="Search the library"><button type="submit">Search</button></form><div class="live hxlive" id="hxLive" role="listbox" hidden></div></div>
+      <div class="hxchips"><span class="hxcl">Start with</span>${QUICK_TOPICS.filter(t => catBySlug[t]).map(t => `<button class="goal" data-gocat="${t}">${esc(prettyName(catBySlug[t]).split(' · ')[0].replace(/ & .*/, ''))}</button>`).join('')}</div>
       <div class="hxstats">${stats.map(([n, l]) => `<div><b data-count="${n}">0</b><span>${l}</span></div>`).join('')}</div>`;
     window.__hxInit?.();
     $('#homeIntro').querySelectorAll('[data-count]').forEach(el => { const to = +el.dataset.count; if (REDUCED.matches) { el.textContent = to.toLocaleString(); return; } const t0 = performance.now(); const tick = t => { const k = Math.min(1, (t - t0) / 900); el.textContent = Math.round(to * (1 - Math.pow(1 - k, 3))).toLocaleString(); if (k < 1) requestAnimationFrame(tick); }; requestAnimationFrame(tick); });
