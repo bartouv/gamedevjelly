@@ -39,6 +39,7 @@ Game dev education studio publishing Unity and Godot eBooks, video courses and Y
 - [A procedural spider walk in Unity](https://jettelly.com/blog/how-did-this-developer-make-a-procedural-spider-walk-in-unity): Spider legs driven by IK, raycasts and stepping rules, with no baked animation. (Jettelly, 2026-06-20, article, Unity-6 era)
 - [Smoothing tire grip over time to fix jitter and sliding in Unity](https://youtu.be/2d_kAyWs1_A): PaceGame fixes jittering and sliding by smoothing how tire grip is applied across frames. (Jettelly, 2026-05-03, video, Unity-6 era)
 - [Barely Breathing: state-based physics controller for a fish](https://jettelly.com/blog/barely-breathing-a-state-based-physics-controller-for-a-fish-in-a-3d-platformer): Player movement changes with environment through a state-based physics system in Unity. (Jettelly, 2026-04-20, article, Unity-6 era)
+- [Toon outline shader | Unity Tutorial](https://www.youtube.com/watch?v=WnIGh8xrdG8): Writes a toon outline shader in Unity. (Jettelly, 2021-08-06, video, Unity-2021 era)
 - [What is a Shader? | Unity Tutorial](https://www.youtube.com/watch?v=UZgxS5hJscY): Explains what a shader is in Unity. (Jettelly, 2021-02-09, video, Unity-2021 era)
 - [Jettelly · YouTube channel](https://www.youtube.com/jettelly): Jettelly's YouTube channel with Unity shader and game art tutorials. (Jettelly, 2020-10-19, video, Unity-old era)
 - [What should I know about shaders | Unity Tutorial](https://www.youtube.com/watch?v=sXV_-436oUA): Overview of what to know before learning shaders in Unity. (Jettelly, 2020-02-15, video, Unity-old era)
@@ -46,3 +47,4 @@ Game dev education studio publishing Unity and Godot eBooks, video courses and Y
 - [What is a Shader | Unity Tutorial](https://www.youtube.com/watch?v=orSUgPwlSHc): Explains what a shader is in Unity. (Jettelly, 2020-02-08, video, Unity-old era)
 - [Shader structure | Unity Tutorial](https://www.youtube.com/watch?v=GlKVvyTSSqQ): Explains the structure of a Unity shader file. (Jettelly, 2020-02-08, video, Unity-old era)
 - [Z-Buffer & Color Buffer | Unity Tutorial](https://www.youtube.com/watch?v=CVGlOfQMNdQ): Explains the Z-buffer and color buffer in rendering. (Jettelly, 2020-02-08, video, Unity-old era)
+- [Causticas para tu JUEGO! | Parte 02](https://www.youtube.com/watch?v=f_o51cXyQXU): Spanish video on making caustics effects for your game, part two. (Jettelly, video)

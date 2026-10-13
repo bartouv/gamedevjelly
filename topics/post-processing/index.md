@@ -36,7 +36,7 @@
 - [Deus Ex – Scanlines](https://simonschreibt.de/gat/deus-ex-scanlines/): Looks at the scanline effect used on screens in Deus Ex. (Simon Schreibt, 2013-01-23, article, Unity-old era)
 - [Deus Ex 3 – Folds](https://simonschreibt.de/gat/deus-ex-3-folds/): Examines the folding-pattern shader effect in Deus Ex 3 and its sound pairing. (Simon Schreibt, 2013-01-22, article, Unity-old era)
 - [Teleglitch – RGB Flickering](https://simonschreibt.de/gat/teleglitch-rgb-flickering/): Explains Teleglitch's RGB flicker effect that plays when using a teleporter. (Simon Schreibt, 2013-01-21, article, Unity-old era)
-- [Pixelation Shader](https://alexanderameye.github.io/pixelation): Tutorial on creating a pixelation shader. (article)
+- [Pixelation Shader](https://alexanderameye.github.io/pixelation): Tutorial on creating a pixelation shader. (Alexander Ameye, article)
 - [GBCamera for Unity by rogueNoodle](https://roguenoodle.itch.io/gbcamera-for-unity): Itch.io asset: camera setup and shader that emulate Game Boy visuals in Unity. (article)
 - [Custom SRP 2.4.0](https://catlikecoding.com/unity/custom-srp/2-4-0/): Catlike Coding tutorial on letting the render graph manage post-FX textures in a custom SRP. (Catlike Coding, article)
 - [Custom Renderer Features](https://www.cyanilux.com/tutorials/custom-renderer-features/): Explains writing custom renderer features and scriptable render passes for Universal RP with examples. (Cyan, article, URP)

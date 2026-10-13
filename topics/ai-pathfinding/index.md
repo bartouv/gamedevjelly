@@ -29,4 +29,4 @@
 - [Grid pathfinding optimizations](https://www.redblobgames.com/pathfinding/grids/algorithms.html): Faster pathfinding on grids: jump points, hierarchical maps and other speed-ups, with their trade-offs. (Red Blob Games, 2014-03-02, article, Unity-old era)
 - [Flow Field Pathfinding for Tower Defense](https://www.redblobgames.com/pathfinding/tower-defense/): One search from the goal gives every unit its direction, ideal for crowds and tower defence. (Red Blob Games, 2014-02-06, article, Unity-old era)
 - [Grids and Graphs](https://www.redblobgames.com/pathfinding/grids/graphs.html): How to model a game map as a graph, and when grids, meshes or waypoints suit pathfinding. (Red Blob Games, 2013-02-15, article, Unity-old era)
-- [Coding Adventure: Boids](https://www.youtube.com/watch?v=bqtqltqcQhw&t=11s): Video experimenting with boids flocking simulation. (video)
+- [Coding Adventure: Boids](https://www.youtube.com/watch?v=bqtqltqcQhw&t=11s): Video experimenting with boids flocking simulation. (Sebastian Lague, video)

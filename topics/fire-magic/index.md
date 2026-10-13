@@ -19,7 +19,7 @@
 - [The Divine Fire](https://simonschreibt.de/gat/divine-fire/): Looks at the fire effect in Divine Divinity. (Simon Schreibt, 2023-05-06, article, Unity-2022 era)
 - [Battlefront II: Layered Explosion](https://simonschreibt.de/gat/battlefront-ii-layered-explosion/): Looks at how Battlefront II builds layered explosion effects. (Simon Schreibt, 2023-04-25, article, Unity-2022 era)
 - [Tornado Shader Breakdown](https://www.cyanilux.com/tutorials/tornado-shader-breakdown/): Breakdown of a tornado shader using scrolling alpha-clipped noise layers with vertex displacement. (Cyan, 2022-01-26, article, Unity-2022 era)
-- [Stylized VFX in Unity. Part 1: Step, Smoothstep, Dissolve](https://torchinsky.me/stylized-vfx-unity-01/): Explains step, smoothstep and dissolve for stylized VFX, part one. (2020-11-26, article, Unity-old era)
+- [Stylized VFX in Unity. Part 1: Step, Smoothstep, Dissolve](https://torchinsky.me/stylized-vfx-unity-01/): Explains step, smoothstep and dissolve for stylized VFX, part one. (Torch in Sky, 2020-11-26, article, Unity-old era)
 - [Lexdev: Gears Hammer of Dawn Case Study](https://lexdev.net/tutorials/case_studies/gears_hammerofdawn.html): Case study on making a sky-fired laser beam feel impactful. (2020-05-12, article, Unity-old era)
 - [Recreating Overwatch's Dragonstrike | Mix and Jam](https://www.youtube.com/watch?v=tYq58H6-Yqc): Recreates Overwatch's Dragonstrike ability effect in Unity. (Mix and Jam, 2019-05-03, video, Unity-old era)
 - [Recreating Breath of the Wild's Fire Arrow FX | Mix and Jam](https://www.youtube.com/watch?v=I5WjuVaM7fc): Recreates Breath of the Wild's fire arrow effects in Unity. (Mix and Jam, 2019-02-21, video, Unity-old era)

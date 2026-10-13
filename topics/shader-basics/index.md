@@ -15,7 +15,7 @@
 - [Just a moment...](https://www.patreon.com/posts/shader-graph-for-81985104): Patreon post on building an effect in Shader Graph. (2023-04-26, post, Unity-2022 era)
 - [Distinctive Derivative Differences](https://bgolus.medium.com/distinctive-derivative-differences-cce38d36797b): A look at the different kinds of shader derivatives and how they differ in practice. (Ben Golus, 2021-04-13, article, Unity-2021 era)
 - [What is a Shader? | Unity Tutorial](https://www.youtube.com/watch?v=UZgxS5hJscY): Explains what a shader is in Unity. (Jettelly, 2021-02-09, video, Unity-2021 era)
-- [Skillshot Arrow Shader | Sawce](https://www.sawcegames.com/en/post/skillshot-arrow-shader): Blog post on a skillshot arrow indicator shader. (2020-03-06, article, Unity-old era)
+- [Skillshot Arrow Shader | Sawce](https://www.sawcegames.com/en/post/skillshot-arrow-shader): Blog post on a skillshot arrow indicator shader. (Sawce Games, 2020-03-06, article, Unity-old era)
 - [What should I know about shaders | Unity Tutorial](https://www.youtube.com/watch?v=sXV_-436oUA): Overview of what to know before learning shaders in Unity. (Jettelly, 2020-02-15, video, Unity-old era)
 - [What is a Shader | Unity Tutorial](https://www.youtube.com/watch?v=orSUgPwlSHc): Explains what a shader is in Unity. (Jettelly, 2020-02-08, video, Unity-old era)
 - [Shader structure | Unity Tutorial](https://www.youtube.com/watch?v=GlKVvyTSSqQ): Explains the structure of a Unity shader file. (Jettelly, 2020-02-08, video, Unity-old era)

@@ -30,7 +30,7 @@
 - [Reddit: Explaining procedural animation](https://www.reddit.com/r/Unity3D/comments/fqabkx/i_tried_to_explain_procedural_animation_in_10/): Reddit post explaining procedural animation. (2021-08-28, article, Unity-2021 era)
 - [Recreating Batman Arkham's Freeflow Combat | Mix and Jam](https://www.youtube.com/watch?v=GFOpKcpKGKQ): Recreates Batman Arkham-style freeflow combat in Unity. (Mix and Jam, 2021-07-25, video, Unity-2021 era)
 - [Texture Animation Techniques](https://medium.com/tech-at-wildlife-studios/texture-animation-techniques-1daecb316657): Explains baking animations into textures for vertex-shader playback (Vertex Animation Textures). (2020-09-06, article, Unity-old era)
-- [Shader animation in Unity](https://torchinsky.me/shader-animation-unity/): Explains shader-driven respawn animation and effects for a game character. (2020-06-16, article, Unity-old era)
+- [Shader animation in Unity](https://torchinsky.me/shader-animation-unity/): Explains shader-driven respawn animation and effects for a game character. (Torch in Sky, 2020-06-16, article, Unity-old era)
 - [https://weaverdev.io/projects/bonehead-procedural-animation/](https://weaverdev.io/blog/bonehead-procedural-animation): Weaverdev project write-up on procedural animation for a Bonehead character. (2020-03-13, article, Unity-old era)
 - [Tower Defense: Animation](https://catlikecoding.com/unity/tutorials/tower-defense/animation/): Tower defense tutorial animating enemy movement, intro, outro and death. (Catlike Coding, 2019-09-19, article, Unity-old era)
 - [Recreating Pokemon Let's GO's Capture Animation | Mix and Jam](https://www.youtube.com/watch?v=8KS5FPZq4j8): Recreates the Pokemon Let's GO capture animation in Unity. (Mix and Jam, 2019-02-27, video, Unity-old era)

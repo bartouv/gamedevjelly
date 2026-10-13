@@ -43,5 +43,5 @@
 - [Triplanar Mapping](http://www.martinpalko.com/triplanar-mapping/): Explains triplanar mapping in shaders for intermediate developers. (2014-03-20, article, Unity-old era)
 - [Don’t starve, Diablo – Parallax 7](https://simonschreibt.de/gat/dont-starve-diablo-parallax-7/): Looks at parallax layers in Don't Starve and Diablo. (Simon Schreibt, 2014-02-25, article, Unity-old era)
 - [Handmade Normal Maps](https://simonschreibt.de/gat/handmade-normal-maps/): Looks at handmade normal maps and what went wrong. (Simon Schreibt, 2013-12-04, article, Unity-old era)
-- [Parallax Card](https://alexanderameye.github.io/parallax-card): Tutorial on building a parallax card effect. (article)
-- [Advanced shaders in Unity - Parallax mapping | Habrador](https://www.habrador.com/tutorials/shaders/3-parallax-mapping/): Tutorial on implementing parallax mapping in advanced Unity shaders. (article)
+- [Parallax Card](https://alexanderameye.github.io/parallax-card): Tutorial on building a parallax card effect. (Alexander Ameye, article)
+- [Advanced shaders in Unity - Parallax mapping | Habrador](https://www.habrador.com/tutorials/shaders/3-parallax-mapping/): Tutorial on implementing parallax mapping in advanced Unity shaders. (Habrador (Erik Nordeus), article)

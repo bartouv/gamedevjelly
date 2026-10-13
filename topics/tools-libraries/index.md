@@ -29,7 +29,7 @@
 - [ShaderGraph Markdown | com.needle.shadergraph-markdown | Unity Package Manager (UPM)](https://openupm.com/packages/com.needle.shadergraph-markdown/): Package adding markdown-like syntax to Shader Graph properties for better material inspectors. (2021-01-04, article, Unity-2021 era)
 - [Shader Viewer Directory](https://xibanya.github.io/URPShaderViewer/): Experimental web viewer for searching built-in URP shader includes. (2021-01-03, article, Unity-2021 era, URP)
 - [Shader Viewer Directory](https://xibanya.github.io/UnityShaderViewer/): Web viewer that renders shaders with formatting, colors and links. (2020-09-16, article, Unity-old era)
-- [Stylized Water For URP](https://alexanderameye.github.io/stylized-water): Product page for a stylized water shader for URP. (2020-09-09, article, Unity-old era, URP)
+- [Stylized Water For URP](https://alexanderameye.github.io/stylized-water): Product page for a stylized water shader for URP. (Alexander Ameye, 2020-09-09, article, Unity-old era, URP)
 - [Precision Color by Scribbl](https://scribbl.itch.io/precision-color): Itch.io color effect for the Unity post-processing stack. (2020-09-07, article, Unity-old era)
 - [slipster216 - Repositories](https://github.com/slipster216?tab=repositories): Repo list for slipster216, a graphics and shader developer known for Unity terrain and shader tools. (2020-08-29, repo, Unity-old era)
 - [MudBun: Volumetric VFX Mesh Tool for Unity](http://longbunnylabs.com/MudBun/): Product page for MudBun, a volumetric VFX mesh tool that generates meshes procedurally. (2020-07-08, article, Unity-old era)

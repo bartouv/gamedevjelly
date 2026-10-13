@@ -19,6 +19,6 @@
 - [Pixel-Perfect Outline Shaders for Unity](https://www.videopoetics.com/tutorials/pixel-perfect-outline-shaders-unity/#working-in-clip-space): Creates pixel-perfect outline shaders with stable screen-space width. (2018-01-25, article, Unity-old era)
 - [Shaders Case Study - Pixel Art Palette Swapping](https://www.youtube.com/watch?v=u4Iz5AJa31Q): Case study on swapping pixel art palettes with shaders. (Makin' Stuff Look Good, 2016-09-13, video, Unity-old era)
 - [What is Color Banding? And what is it not?](https://simonschreibt.de/gat/colorbanding/): Explains what color banding is and how to avoid it. (Simon Schreibt, 2015-12-02, article, Unity-old era)
-- [Pixelation Shader](https://alexanderameye.github.io/pixelation): Tutorial on creating a pixelation shader. (article)
+- [Pixelation Shader](https://alexanderameye.github.io/pixelation): Tutorial on creating a pixelation shader. (Alexander Ameye, article)
 - [GBCamera for Unity by rogueNoodle](https://roguenoodle.itch.io/gbcamera-for-unity): Itch.io asset: camera setup and shader that emulate Game Boy visuals in Unity. (article)
 - [2D Water Shader Breakdown](https://www.cyanilux.com/tutorials/2d-water-shader-breakdown/): Breakdown of a 2D water shader with pixelated highlights, distortion, reflections and shoreline ripples. (article)

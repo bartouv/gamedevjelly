@@ -29,4 +29,4 @@
 - [How to Use Shaders for Simulations - Alan Zucconi](https://www.alanzucconi.com/2016/03/02/shaders-for-simulations/): Series on using GPU shaders to run simulations. (Alan Zucconi, 2016-03-02, article, Unity-old era)
 - [Actually Making Signed Distance Field Textures With JFA](https://blog.demofox.org/2016/03/02/actually-making-signed-distance-field-textures-with-jfa/): Explains generating signed distance field textures with the jump flooding algorithm. (2016-03-02, article, Unity-old era)
 - [Compute Shaders](https://catlikecoding.com/unity/tutorials/basics/compute-shaders/): Catlike Coding tutorial using a compute shader to display a million moving cubes. (article)
-- [Coding Adventure: Marching Cubes](https://www.youtube.com/watch?v=M3iI2l0ltbE): Video experimenting with the marching cubes algorithm for terrain meshes. (video)
+- [Coding Adventure: Marching Cubes](https://www.youtube.com/watch?v=M3iI2l0ltbE): Video experimenting with the marching cubes algorithm for terrain meshes. (Sebastian Lague, video)

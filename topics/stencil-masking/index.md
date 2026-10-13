@@ -14,7 +14,7 @@
 - [https://www.ronja-tutorials.com/post/042-dithering/](https://www.ronja-tutorials.com/2019/05/11/dithering.html): Ronja tutorial on dithering in shaders for transparency effects. (2019-05-11, article, Unity-old era)
 - [Stencil Buffers](https://www.ronja-tutorials.com/post/022-stencil-buffers/): Explains stencil buffers and how they differ from depth buffer testing. (2018-08-18, article, Unity-old era)
 - [Deus Ex – Occlusion](https://simonschreibt.de/gat/deus-ex-occlusion/): Explains how Deus Ex handles occlusion and object visibility through walls, with updates. (Simon Schreibt, 2013-01-21, article, Unity-old era)
-- [Parallax Card](https://alexanderameye.github.io/parallax-card): Tutorial on building a parallax card effect. (article)
+- [Parallax Card](https://alexanderameye.github.io/parallax-card): Tutorial on building a parallax card effect. (Alexander Ameye, article)
 - [My take on shaders: Stencil shader (Antichamber effect) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-stencil-shader-antichamber-effect/): Builds an Antichamber-style effect with a stencil shader. (article)
 - [Stencil Portal in Unity: VFX Breakdown](https://shahriyarshahrabi.medium.com/stencil-portal-in-unity-vfx-breakdown-3dd76b60ad07): Breakdown of VFX tricks in a scene, including a stencil portal and related rendering issues. (article)
 - [How I’d do it: ABZÛ portal cards – Harry Alisavakis](http://halisavakis.com/how-id-do-it-abzu-portal-cards/): Recreates ABZU portal cards, inspired by a GDC talk on the game's art tricks. (article)

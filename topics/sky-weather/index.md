@@ -26,5 +26,5 @@
 - [Homeworld 2 – Backgrounds Tech](https://simonschreibt.de/gat/homeworld-2-backgrounds-tech/): Technical follow-up on how Homeworld 2's detailed spherical space backgrounds were created. (Simon Schreibt, 2013-03-18, article, Unity-old era)
 - [Homeworld 2: Backgrounds](https://simonschreibt.de/gat/homeworld-2-backgrounds/): Explains how Homeworld 2 builds its colorful nebula backgrounds, with multiple updates. (Simon Schreibt, 2013-03-15, article, Unity-old era)
 - [Crafting a Sky System in Unity](https://www.ardenfall.com/blog/crafting-a-sky-system-in-unity): Explains the sky system of a Unity game, with color blending, weather and ambient sounds. (article)
-- [Coding Adventure: Clouds](https://www.youtube.com/watch?v=4QOcCGI6xOU&t=1s): Video experimenting with rendering volumetric clouds. (video)
-- [Coding Adventure: Atmosphere](https://www.youtube.com/watch?v=DxfEbulyFcY): Video experimenting with atmospheric scattering to render a planet's atmosphere. (video)
+- [Coding Adventure: Clouds](https://www.youtube.com/watch?v=4QOcCGI6xOU&t=1s): Video experimenting with rendering volumetric clouds. (Sebastian Lague, video)
+- [Coding Adventure: Atmosphere](https://www.youtube.com/watch?v=DxfEbulyFcY): Video experimenting with atmospheric scattering to render a planet's atmosphere. (Sebastian Lague, video)
