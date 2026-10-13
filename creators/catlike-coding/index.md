@@ -8,6 +8,8 @@ Jasper Flick's long-running written Unity tutorial series covering rendering, cu
 - x: https://x.com/catlikecoding
 - bluesky: https://bsky.app/profile/catlikecoding.com
 - linkedin: https://www.linkedin.com/in/jrjflick
+- patreon: https://www.patreon.com/catlikecoding
+- kofi: https://ko-fi.com/catlikecoding
 
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
