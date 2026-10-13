@@ -7,6 +7,7 @@
 <meta name='impact-site-verification' value='a9b92abe-5983-4f76-92f6-b1f0869e9a84'><meta name="description" content="Unity guides, tutorials and repos, hand-filtered. Hand-picked, checked and kept current."><link rel="canonical" href="https://gamedevjelly.com/"><meta property="og:type" content="website"><meta property="og:site_name" content="GamedevJelly"><meta property="og:title" content="GamedevJelly: Unity guides, tutorials and repos, hand-filtered"><meta property="og:description" content="Hand-picked Unity guides, repos, assets, books and courses. Checked and kept current."><meta property="og:url" content="https://gamedevjelly.com/"><meta property="og:image" content="https://gamedevjelly.com/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://gamedevjelly.com/og.png"><script>window.goatcounter={no_onload:true};(function(){var last='';function c(){var p=location.pathname+location.hash;if(p===last)return;last=p;(function t(n){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p});else if(n<20)setTimeout(function(){t(n+1)},300)})(0)}
 ['pushState','replaceState'].forEach(function(f){var o=history[f];history[f]=function(){var r=o.apply(this,arguments);setTimeout(c,0);return r}});
 addEventListener('popstate',c);addEventListener('hashchange',c);addEventListener('load',c)})();</script><script data-goatcounter="https://bartouv.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><script>(function(){function ev(e){var a=e.target.closest&&e.target.closest('a[href]');if(!a||!/^https?:/.test(a.href)||a.hostname===location.hostname)return;var h=a.hostname.replace(/^www\./,''),rel=a.rel||'',n;
+var sp=a.closest('[data-support]');if(sp){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:'support-'+sp.getAttribute('data-support'),title:(sp.getAttribute('data-cr')||'')+' '+h,event:true});return}
 if(/amazon\./.test(h))n='aff-amazon';else if(/dometrain/.test(h)&&/[?&]ref=/.test(a.href))n='aff-dometrain';else if(/sponsored/.test(rel))n='aff-other';
 else if(a.closest('.bpub'))n='out-publisher';else if(a.closest('.bget'))n='out-book';else if(a.closest('.socials,.soc'))n='out-social';else if(a.closest('.card,.pactions,.spot2,.hbanner,.hero,.links'))n='out-guide';else n='out-other';
 if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n,title:h,event:true})}
@@ -984,6 +985,15 @@ main { min-height: calc(100vh - 66px); }
 .rimg .rfh h3 { font-size: 18px; } .rimg .rfd { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .rimg .rffree { align-self: flex-start; font: 600 11.5px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: hsl(var(--h) 75% 70%); background: hsl(var(--h) 70% 60% / .14); border-radius: 999px; padding: 3px 10px; }
 .rimg:hover .f1 { transform: rotate(-12deg) translateX(-4px); } .rimg:hover .f3 { transform: rotate(12deg) translateX(4px); } .rimg:hover .f2 { transform: rotate(0deg) translateY(-5px); }
+/* ---------- creator support card ---------- */
+.supcard { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin: 6px 0 14px; padding: 14px 18px; max-width: 720px; border-radius: 16px; border: 1px solid color-mix(in srgb, var(--star) 40%, var(--line)); background: linear-gradient(135deg, color-mix(in srgb, var(--star) 10%, transparent), color-mix(in srgb, #ff7eb6 8%, transparent)); }
+.suph { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border-radius: 50%; background: color-mix(in srgb, #ff7eb6 22%, transparent); color: #ff7eb6; font-size: 20px; }
+.supt { flex: 1 1 240px; min-width: 0; display: flex; flex-direction: column; gap: 2px; } .supt b { font: 700 16px var(--f-display); } .supt span { font-size: 13.5px; line-height: 1.5; color: var(--muted); }
+.supb { display: flex; flex-wrap: wrap; gap: 8px; }
+.supbtn { display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); text-decoration: none; font: 600 14px var(--f-body); transition: transform .15s, border-color .15s; }
+.supbtn:hover { transform: translateY(-2px); border-color: #ff7eb6; } .supbtn.primary { background: linear-gradient(135deg, #ff7eb6, color-mix(in srgb, var(--accent) 70%, #ff7eb6)); color: #1a1030; border-color: transparent; }
+.psup { margin-left: 8px; font: 600 12.5px var(--f-body); color: #ff7eb6; text-decoration: none; } .psup:hover { text-decoration: underline; }
+@media (max-width: 560px) { .supcard { padding: 14px; } .supb { width: 100%; } .supbtn { flex: 1; justify-content: center; } }
 /* ---------- phone layout: bottom tab bar, folded filters, readable type, roomy rows ---------- */
 .btab, .libsheet, .fltbtn { display: none; }
 @media (max-width: 860px) {
@@ -1713,6 +1723,13 @@ main { min-height: calc(100vh - 66px); }
   const socialLinks = (p, compact) => SOCIAL.filter(([k]) => p.links && p.links[k]).map(([k, label, path, color]) =>
     `<a class="soc" href="${esc(p.links[k])}" target="_blank" rel="noopener me" title="${label}" style="--brand:${color || 'var(--fg)'}">
       <span class="ic">${path ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${path}"/></svg>` : GLOBE}</span>${compact ? `<span class="sr">${label}</span>` : label}</a>`).join('');
+  // ways to say thanks to a creator: only links taken from their own pages, shown as one calm card
+  const SUPPORT = [['patreon', 'Support on Patreon'], ['kofi', 'Buy a coffee on Ko-fi'], ['buymeacoffee', 'Buy a coffee'], ['sponsors', 'Sponsor on GitHub'], ['fanbox', 'Support on Fanbox']];
+  const supportOf = p => SUPPORT.filter(([k]) => p && p.links && p.links[k]);
+  const supportCard = (p, name, slug) => {
+    const L = supportOf(p); if (!L.length) return '';
+    return `<div class="supcard"><span class="suph" aria-hidden="true">♥</span><div class="supt"><b>Support ${esc(name)}</b><span>If their work helped you, this is how to say thanks. It goes to them, not to GamedevJelly.</span></div><div class="supb">${L.map(([k, label], i) => `<a class="supbtn${i ? '' : ' primary'}" data-support="${k}" data-cr="${esc(slug)}" href="${esc(p.links[k])}" target="_blank" rel="noopener me">${label} ↗</a>`).join('')}</div></div>`;
+  };
   function renderCreatorHead(c) {
     const el = $('#creatorHead'), cat = catBySlug[c];
     if (!cat || cat.grp) { el.hidden = true; el.innerHTML = ''; return; }
@@ -1721,7 +1738,8 @@ main { min-height: calc(100vh - 66px); }
     el.hidden = false;
     el.innerHTML = `${pic}<div>${p.about ? `<p>${esc(p.about)}</p>` : ''}
       <div class="meta2">${live[c] || 0} links in the library${lt ? ` · latest ${MONTHS[+lt.slice(5, 7) - 1]} ${lt.slice(0, 4)}` : ''}</div>
-      ${p.links && Object.keys(p.links).length ? `<div class="socials">${socialLinks(p)}</div>` : ''}
+      ${supportCard(p, cat.n, c)}
+      ${p.links && Object.keys(p.links).length ? `<div class="socials">${socialLinks({ links: Object.fromEntries(Object.entries(p.links).filter(([k]) => !supportOf(p).some(([s]) => s === k))) })}</div>` : ''}
       ${(() => {
         const row = (lbl, arr, mk) => arr.length ? `<div class="cbooks"><span class="lbl">${lbl}</span>${arr.slice(0, 10).map(mk).join('')}${arr.length > 10 ? `<span class="lbl">+${arr.length - 10} more</span>` : ''}</div>` : '';
         return row('Books', BD.books.filter(b => b.creator === c), b => `<button class="tag repo" data-book="${esc(b.id)}">${esc(b.title)}</button>`) +
@@ -1791,7 +1809,7 @@ main { min-height: calc(100vh - 66px); }
       ${it.ds ? `<p class="pds">${esc(it.ds)}</p>` : ''}
       <div class="pmeta">${meta.map(m => `<span>${m}</span>`).join('')}</div>
       ${health}${note}
-      ${(() => { const cr = creatorOf(it); return cr && catBySlug[cr] ? `<div class="pcreator">${AVATARS[cr] ? `<img class="av" src="${AVATARS[cr]}" alt="">` : ''}<span>By <button data-tag="${cr}">${esc(catBySlug[cr].n)}</button></span>${PROFILES[cr] ? `<span class="socials" style="margin-left:auto">${socialLinks({ links: Object.fromEntries(Object.entries(PROFILES[cr].links || {}).filter(([k]) => ['site', 'youtube', 'mastodon', 'bluesky', 'x', 'github'].includes(k))) }, true)}</span>` : ''}</div>` : ''; })()}
+      ${(() => { const cr = creatorOf(it); return cr && catBySlug[cr] ? `<div class="pcreator">${AVATARS[cr] ? `<img class="av" src="${AVATARS[cr]}" alt="">` : ''}<span>By <button data-tag="${cr}">${esc(catBySlug[cr].n)}</button></span>${(() => { const sp = supportOf(PROFILES[cr])[0]; return sp ? `<a class="psup" data-support="${sp[0]}" data-cr="${esc(cr)}" href="${esc(PROFILES[cr].links[sp[0]])}" target="_blank" rel="noopener me" title="${esc(sp[1])}">♥ Support</a>` : ''; })()}${PROFILES[cr] ? `<span class="socials" style="margin-left:auto">${socialLinks({ links: Object.fromEntries(Object.entries(PROFILES[cr].links || {}).filter(([k]) => ['site', 'youtube', 'mastodon', 'bluesky', 'x', 'github'].includes(k))) }, true)}</span>` : ''}</div>` : ''; })()}
       ${it.alt.length ? `<div class="alt">Also on: ${it.alt.map(([u, lb]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(lb)}</a>`).join(' · ')}</div>` : ''}
       ${paths.length ? `<p class="inpath">Part of ${paths.map(p => `<a data-path="${p.id}">${esc(p.title)}</a>`).join(', ')}</p>` : ''}
       ${(reposOf.get(it.u) || []).length ? `<h4>Repos</h4><div class="tags">${reposOf.get(it.u).map(r => `<button class="tag repo" data-repo="${esc(r.id)}">${esc(r.name)}</button>`).join('')}</div>` : ''}
