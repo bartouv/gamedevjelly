@@ -7,7 +7,7 @@
 <title>GamedevJelly</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=optional">
 <style>
 /* Layout: app shell — sticky top bar, category rail on the left, card grid of guides on the right. */
 :root {
@@ -234,6 +234,11 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 .f1, .p1, .bh1 { animation-duration: 8.6s; animation-delay: -1.5s; } .f2, .p2 { animation-duration: 7.4s; } .f3, .p3, .bh2 { animation-duration: 9.2s; animation-delay: -4s; } .p4 { animation-duration: 8s; animation-delay: -2.5s; }
 .fcard:hover, .phv:hover .pfan { animation-play-state: paused; }
 @keyframes fcfloat { 0%, 100% { translate: 0 0; } 50% { translate: 0 -4px; } }
+/* floating only runs while the element is on screen (see the observer in the script) */
+.fcard, .fan, .pfan, .bookhero img, .feat .featic, .feat .featimg, .feat .featav, .feat .bcover, .feat .featwide, .feat .shot, .phv .sav { animation-play-state: paused; }
+.fcard.fl, .fan.fl, .pfan.fl, .bookhero img.fl, .feat .featic.fl, .feat .featimg.fl, .feat .featav.fl, .feat .bcover.fl, .feat .featwide.fl, .feat .shot.fl, .phv .sav.fl { animation-play-state: running; }
+.fcard.fl:hover, .feat .shot.fl:hover, .phv:hover .pfan.fl { animation-play-state: paused; }
+@media (max-width: 860px), (hover: none) { .fcard, .fan, .pfan, .bookhero img, .feat .featic, .feat .featimg, .feat .featav, .feat .bcover, .feat .featwide, .feat .shot, .phv .sav { animation: none; } }
 .feat .featic, .feat .featimg, .feat .featav, .feat .bcover, .feat .featwide, .feat .shot { animation: fcfloat 8s ease-in-out infinite; }
 .feat .shot:nth-child(2n) { animation-duration: 9s; animation-delay: -2s; } .feat .shot:nth-child(3n) { animation-duration: 7.6s; animation-delay: -4s; } .feat .shot:hover { animation-play-state: paused; }
 @media (prefers-reduced-motion: reduce) { .feat .featic, .feat .featimg, .feat .featav, .feat .bcover, .feat .featwide, .feat .shot { animation: none; } }
@@ -282,6 +287,7 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 .phv .pbook { position: absolute; width: 13%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 6px; box-shadow: 0 14px 30px rgb(0 0 0 / .55); }
 @media (max-width: 860px) { .phd { padding: 14px 16px; } .phv { display: none; } }
 /* tab header bands are off: kept in the DOM for screen readers (the page heading), invisible on screen */
+.phb, .phd::after { display: none; }
 .phd { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); border: 0; white-space: nowrap; }
 .confetti { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 200; }
 .fgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; margin-bottom: 8px; }
@@ -747,6 +753,8 @@ body.vt .enter { animation: none; }
 .empty h3 { font: 800 22px var(--f-display); color: var(--fg); margin: 0 0 6px; }
 .sentinel { height: 1px; }
 .foot { margin-top: 40px; color: var(--muted); font-size: 12.5px; }
+body:not(.ready) .foot { visibility: hidden; }
+main { min-height: calc(100vh - 66px); }
 .foot a { color: inherit; }
 
 
@@ -2464,13 +2472,17 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
 
   readHash();
   render();
+  document.body.classList.add('ready');
 
   { const mq = matchMedia('(max-width: 860px)'), setPh = () => { $('#q').placeholder = mq.matches ? 'Search' : 'Search guides, repos, creators…'; }; setPh(); mq.addEventListener('change', setPh); }
   // soft fade on whichever side of a card row has more to scroll to
   const fadeRow = row => { const w = row.parentElement; if (!w) return; w.classList.toggle('fl', row.scrollLeft > 4); w.classList.toggle('fr', row.scrollLeft + row.clientWidth < row.scrollWidth - 4); };
   const fadeAll = () => document.querySelectorAll('.trow').forEach(fadeRow);
   document.addEventListener('scroll', e => { if (e.target.classList && e.target.classList.contains('trow')) fadeRow(e.target); }, true);
-  addEventListener('resize', fadeAll); new MutationObserver(() => requestAnimationFrame(fadeAll)).observe(document.querySelector('main'), { childList: true, subtree: true }); fadeAll();
+  const FLOATS = '.fcard, .fan, .pfan, .bookhero img, .feat .featic, .feat .featimg, .feat .featav, .feat .bcover, .feat .featwide, .feat .shot, .phv .sav';
+  const floatIO = 'IntersectionObserver' in window ? new IntersectionObserver(es => es.forEach(e => e.target.classList.toggle('fl', e.isIntersecting)), { rootMargin: '80px' }) : null;
+  const watchFloats = () => { if (!floatIO) { document.querySelectorAll(FLOATS).forEach(e => e.classList.add('fl')); return; } document.querySelectorAll(FLOATS).forEach(e => { if (!e._fo) { e._fo = 1; floatIO.observe(e); } }); };
+  addEventListener('resize', fadeAll); new MutationObserver(() => requestAnimationFrame(() => { fadeAll(); watchFloats(); })).observe(document.querySelector('main'), { childList: true, subtree: true }); fadeAll(); watchFloats();
   // ---------- mascot: an octopus whose eyes follow the pointer and who reacts to the site ----------
   (() => {
     const m = $('#mascot'), pups = $('#mPups'), lean = $('#mLean'), tog = $('#mascotToggle'), panelEl = $('#panel'), qEl = $('#q');
