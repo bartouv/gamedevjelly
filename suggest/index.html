@@ -47,15 +47,11 @@ document.addEventListener('click',ev,true);document.addEventListener('auxclick',
     return { title: 'Suggestion: ' + (g('t') || g('u')),
       body: 'Type: ' + g('k') + '\nLink: ' + g('u') + '\nTitle: ' + g('t') + '\n\nWhy it is good:\n' + g('w') + '\n' };
   }
-  function github() { var m = parts(); count('suggest-github'); location.href = 'https://github.com/bartouv/gamedevjelly/issues/new?labels=suggestion&title=' + encodeURIComponent(m.title) + '&body=' + encodeURIComponent(m.body); }
   document.getElementById('sf').addEventListener('submit', function (e) {
     e.preventDefault();
-    if (!EM) return github();
     var m = parts(); count('suggest-email');
     location.href = 'mailto:' + EM + '?subject=' + encodeURIComponent(m.title) + '&body=' + encodeURIComponent(m.body);
   });
-  var gh = document.getElementById('gh');
-  if (gh) gh.addEventListener('click', function () { var f = document.getElementById('sf'); if (f.reportValidity()) github(); });
 })();
 </script>
 </main>
