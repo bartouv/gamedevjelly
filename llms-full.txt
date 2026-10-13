@@ -658,7 +658,7 @@
 ## Gameplay & systems
 
 
-### Gameplay systems & mechanics (170 guides; slug `gameplay-systems`)
+### Gameplay systems & mechanics (171 guides; slug `gameplay-systems`)
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [Dialogue Sounds Toolkit for Unity is out](https://blog.febucci.com/2026/10/dialogue-sounds-toolkit-for-unity-is-out/): A toolkit for dialogue blips, typewriter sounds and customisable voice-like sound palettes for Unity characters. (Febucci, 2026-10-07, article, Unity-6 era)
@@ -1184,7 +1184,7 @@
 - [Simon’s Tech Art Learning Materials | Simonschreibt.](https://simonschreibt.de/gat/tech-art-course/): Simon's tech art course learning materials and slides. (Simon Schreibt, 2022-08-13, article, Unity-2022 era)
 - [How to (Not) Create Textures for VFX](https://www.youtube.com/watch?v=KaNDezgsg4M): Advice on how not to create textures for VFX. (Simon Schreibt, 2022-06-18, video, Unity-2022 era)
 
-### Game design & analysis (199 guides; slug `game-design`)
+### Game design & analysis (200 guides; slug `game-design`)
 - [How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY): How 150 roguelike perks were structured in code so modifiers stack and stay maintainable. (Game Maker's Toolkit, 2026-06-25, video, Unity-6 era)
 - [The Secrets Behind THAT Cyberpunk 2077 Montage](https://www.youtube.com/watch?v=NlAFWaa9UQo): Breaks down how Cyberpunk 2077's famous montage scene was built from in-engine systems and editing. (Game Maker's Toolkit, 2026-05-15, video, Unity-6 era)
 - [How Rockstar fit an entire city into PlayStation 2 memory](https://www.youtube.com/watch?v=cIbCxbrBCys): How GTA on PS2 streamed a whole city through tiny memory using chunking and asset tricks. (Game Maker's Toolkit, 2026-05-11, video, Unity-6 era)

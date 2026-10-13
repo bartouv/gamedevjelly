@@ -1,6 +1,6 @@
 # GamedevJelly
 
-> 1,659 hand-filtered guides, videos and posts plus 45 repos, 52 assets and 24 books. Outdated and obsolete links were removed; the focus is current Unity.
+> 1,660 hand-filtered guides, videos and posts plus 45 repos, 52 assets and 24 books. Outdated and obsolete links were removed; the focus is current Unity.
 
 Use this when building something in Unity (shaders, VFX, gameplay systems, tools, performance) and you want vetted references: find the best guides, repos, assets and books first, then read the most relevant ones before writing code.
 
@@ -11,15 +11,15 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 - [repos.json](https://gamedevjelly.com/data/repos.json), [assets.json](https://gamedevjelly.com/data/assets.json) and [books.json](https://gamedevjelly.com/data/books.json) list tools and reading; repos include install instructions and a `unity7` status where known.
 
 ## Data
-- [Library (all guides)](https://gamedevjelly.com/data/library.json): 1,659 items
+- [Library (all guides)](https://gamedevjelly.com/data/library.json): 1,660 items
 - [Topics](https://gamedevjelly.com/data/topics.json): slugs, names, groups, counts
 - [Creators](https://gamedevjelly.com/data/creators.json): who made the guides, with links
 - [Repos](https://gamedevjelly.com/data/repos.json), [Assets](https://gamedevjelly.com/data/assets.json), [Books](https://gamedevjelly.com/data/books.json)
 - [Everything in one text file](https://gamedevjelly.com/llms-full.txt)
 
 ## Topics (Markdown, newest first)
-- [Game design & analysis](https://gamedevjelly.com/topics/game-design/index.md): Art & learning, 199 guides
-- [Gameplay systems & mechanics](https://gamedevjelly.com/topics/gameplay-systems/index.md): Gameplay & systems, 170 guides
+- [Game design & analysis](https://gamedevjelly.com/topics/game-design/index.md): Art & learning, 200 guides
+- [Gameplay systems & mechanics](https://gamedevjelly.com/topics/gameplay-systems/index.md): Gameplay & systems, 171 guides
 - [Math for game devs](https://gamedevjelly.com/topics/math/index.md): Procedural & math, 149 guides
 - [Game art breakdowns](https://gamedevjelly.com/topics/game-art-breakdowns/index.md): Art & learning, 139 guides
 - [Procedural generation](https://gamedevjelly.com/topics/procgen/index.md): Procedural & math, 118 guides

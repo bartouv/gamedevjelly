@@ -1,6 +1,6 @@
 # Game design & analysis
 
-> Art & learning · 199 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 200 hand-filtered guides on GamedevJelly, newest first.
 
 - [How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY): How 150 roguelike perks were structured in code so modifiers stack and stay maintainable. (Game Maker's Toolkit, 2026-06-25, video, Unity-6 era)
 - [The Secrets Behind THAT Cyberpunk 2077 Montage](https://www.youtube.com/watch?v=NlAFWaa9UQo): Breaks down how Cyberpunk 2077's famous montage scene was built from in-engine systems and editing. (Game Maker's Toolkit, 2026-05-15, video, Unity-6 era)
