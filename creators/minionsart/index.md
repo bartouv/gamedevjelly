@@ -41,7 +41,7 @@ Artist, shader programmer and indie developer who writes approachable Unity shad
 - [Basic Quad/Octree Culling 2](https://www.patreon.com/posts/basic-quad-for-2-80481579): Patreon post on basic quadtree and octree culling, part 2. (MinionsArt, 2023-03-01, post, Unity-2022 era)
 - [Recreating Wind Waker Style Lights in Unity](https://youtu.be/mNndyHHNh78): Recreates Wind Waker style lights in Unity using stencil techniques. (MinionsArt, 2023-03-01, video, Unity-2022 era)
 - [Even Better Interactive Grass System](https://youtu.be/2OA9sicjj7E): Improved interactive grass system for Unity. (MinionsArt, 2023-03-01, video, Unity-2022 era)
-- [Just a moment...](https://www.patreon.com/posts/basic-quad-for-1-80481278): Patreon post on setting up a basic quad for an effect in Unity. (MinionsArt, 2023-02-28, post, Unity-2022 era)
+- [Patreon: Basic quad setup for an effect](https://www.patreon.com/posts/basic-quad-for-1-80481278): Patreon post on setting up a basic quad for an effect in Unity. (MinionsArt, 2023-02-28, post, Unity-2022 era)
 - [Wind Waker Style Patreon post](https://www.patreon.com/posts/wind-waker-style-78831006): Patreon post on a Wind Waker style effect in Unity. (MinionsArt, 2023-02-07, post, Unity-2022 era)
 - [World Position Effects 2: More Shapes](https://www.patreon.com/posts/urp-world-part-2-77812661): Patreon post on world position effects with more shapes for URP. (MinionsArt, 2023-01-01, post, Unity-2022 era, URP)
 - [Santa Hat](https://www.patreon.com/posts/23472026): Patreon post modeling a Santa hat. (MinionsArt, 2018-12-01, post, Unity-old era)
