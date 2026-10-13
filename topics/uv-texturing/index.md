@@ -1,6 +1,6 @@
 # UVs, triplanar & texturing
 
-> Shaders & rendering · 39 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 43 hand-filtered guides on GamedevJelly, newest first.
 
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
 - [Terrain/Mesh Blending for URP](https://www.patreon.com/posts/terrain-mesh-urp-152116212): Patreon post on blending terrain and mesh surfaces together in URP. (MinionsArt, 2026-03-01, post, Unity-6 era, URP)
@@ -17,10 +17,12 @@
 - [PlayStation 1 Affine Texture Mapping in Shader Code](https://danielilett.com/2021-11-06-tut5-21-ps1-affine-textures/): Reproduces PlayStation 1 affine texture warping in shader code for a retro look. (Daniel Ilett, 2021-11-06, article, Unity-2021 era)
 - [Normal Maps, Tangent Space & IBL • Shaders for Game Devs [Part 3]](https://www.youtube.com/watch?v=E4PHFnvMzFc): Shaders for game devs part 3 on normal maps, tangent space and image-based lighting. (Freya Holmér, 2021-02-26, video, Unity-2021 era)
 - [Modeling with Tiling Textures | onlineportfolio](https://tylergibbonsart.wixsite.com/onlineportfolio/modeling-with-tiling-textures): Portfolio page on modeling with tiling textures. (2020-09-09, article, Unity-old era)
+- [Generating Perfect Normal Maps for Unity (and Other Programs)](https://bgolus.medium.com/generating-perfect-normal-maps-for-unity-f929e673fc57): How to generate accurate normal maps for Unity and other programs from a high-poly model. (Ben Golus, 2020-02-03, article, Unity-old era)
 - [World space UVs & Triplanar Mapping](https://cyangamedev.wordpress.com/2020/01/28/worldspace-uvs-triplanar-mapping/): Explains world-space UVs and triplanar mapping in Unity shaders. (2020-01-28, article, Unity-old era)
 - [EPC2019 | More Like This, Please! Single Example Texture Synthesis & Remixing | Anastasia Opara](https://www.youtube.com/watch?v=kFLZiak5gyc): Single-example texture synthesis: generating, remixing and inpainting textures from one reference image. (Ana Opara, 2019-11-06, video, Unity-old era)
 - [Journey Sand Shader: Sand Normal](https://www.alanzucconi.com/2019/10/08/journey-sand-shader-3/): Part three of a series on the normal mapping behind Journey's sand. (Alan Zucconi, 2019-10-08, article, Unity-old era)
 - [Shader Series 4 – Colors As Math](https://gamedevbill.com/shader-series-4-colors-as-math/): Explains encoding data into textures, such as normal, displacement and noise maps, for shaders. (GameDevBill, 2019-09-02, article, Unity-old era)
+- [Sharper Mipmapping using Shader Based Supersampling](https://bgolus.medium.com/sharper-mipmapping-using-shader-based-supersampling-ed7aadb47bec): A shader-based supersampling approach for sharper results than plain mipmapping. (Ben Golus, 2019-08-10, article, Unity-old era)
 - [My take on shaders: Parallax effect (Part II) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-parallax-effect-part-ii/): Second part of a tutorial on parallax effects. (2019-04-18, article, Unity-old era)
 - [My take on shaders: Interior mapping – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-interior-mapping/): Tutorial on interior mapping, the third part of the parallax series. (2019-04-14, article, Unity-old era)
 - [https://www.ronja-tutorials.com/post/039-screenspace-texture/](https://www.ronja-tutorials.com/2019/01/20/screenspace-texture.html): Ronja tutorial on sampling textures in screen space. (Ronja, 2019-01-20, article, Unity-old era)
@@ -28,11 +30,13 @@
 - [Parallax Shaders & Depth Maps](https://www.alanzucconi.com/2019/01/01/parallax-shader/): Builds a parallax shader that turns 2D images and depth maps into 3D-feeling photos. (Alan Zucconi, 2019-01-01, article, Unity-old era)
 - [Inside Facebook 3D Photos: Parallax Shaders](https://www.alanzucconi.com/2019/01/01/facebook-3d-photos-2/): Explains how Facebook 3D photos work and how to build parallax shaders in Unity. (Alan Zucconi, 2019-01-01, article, Unity-old era)
 - [Shader Showcase Saturday #9: Interior Mapping - Alan Zucconi](https://www.alanzucconi.com/2018/09/10/shader-showcase-9/): Shader Showcase Saturday on recreating interior mapping from Spider-Man. (2018-09-10, article, Unity-old era)
+- [The Team Color Problem](https://bgolus.medium.com/the-team-color-problem-b70ec69d109f): Approaches to recolouring part of an object, such as team colours, in a shader. (Ben Golus, 2018-07-11, article, Unity-old era)
 - [Texture Distortion](https://catlikecoding.com/unity/tutorials/flow/texture-distortion/): Catlike Coding tutorial on distorting textures to simulate flowing surfaces. (Catlike Coding, 2018-05-30, article, Unity-old era)
 - [Triplanar Mapping](https://www.ronja-tutorials.com/post/010-triplanar-mapping/): Triplanar mapping to texture objects from three axes without UVs. (Ronja, 2018-05-11, article, Unity-old era)
 - [Zelda – The Bling-Bling Offset](https://simonschreibt.de/gat/zelda-the-bling-bling-offset/): Looks at the offset bling-bling effect in Zelda. (Simon Schreibt, 2018-05-05, article, Unity-old era)
 - [Planar Mapping](https://www.ronja-tutorials.com/post/008-planar-mapping/): Planar mapping to texture objects without UV coordinates. (Ronja, 2018-04-23, article, Unity-old era)
 - [Cool Stuff with Textures](https://simonschreibt.de/gat/cool-stuff-with-textures/): Talk on using textures for purposes beyond color, at the Digital Art Conference 2017. (Simon Schreibt, 2017-09-27, article, Unity-old era)
+- [Normal Mapping for a Triplanar Shader](https://bgolus.medium.com/normal-mapping-for-a-triplanar-shader-10bf39dca05a): How to get correct normal mapping on triplanar-mapped surfaces. (Ben Golus, 2017-09-17, article, Unity-old era)
 - [Diablo 3 – The sacred spiderweb](https://simonschreibt.de/gat/diablo-3-the-sacred-spiderweb/): Looks at the sacred spiderweb effect in Diablo 3. (Simon Schreibt, 2016-01-14, article, Unity-old era)
 - [Delayed Reference Method](https://simonschreibt.de/wft/delayed-reference-method/): Explains the delayed reference method in game rendering. (Simon Schreibt, 2016-01-05, article, Unity-old era)
 - [Windows AC/Row/Infinite](https://simonschreibt.de/gat/windows-ac-row-ininite/): Overview of advanced window rendering tricks in games. (Simon Schreibt, 2014-04-02, article, Unity-old era)

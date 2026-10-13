@@ -1,6 +1,6 @@
 # Tech art & DCC workflow
 
-> Art & learning · 90 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 91 hand-filtered guides on GamedevJelly, newest first.
 
 - [How My RGB Pipeline Supports Mods](https://www.youtube.com/watch?v=B4eVxU_eHIw): Describes an RGB color pipeline for art and how it supports modding. (Mix and Jam, 2026-05-21, video, Unity-6 era)
 - [Replicating the Shadowglass 3D pixel-art technique](https://tesseractc.at/shadowglass): Recreates the Shadowglass look for first-person 3D pixel art, explaining how the technique works. (2026-02-05, article, Unity-6 era)
@@ -32,6 +32,7 @@
 - [Math in Art - Game Dev Bill](https://gamedevbill.com/math-in-art/): Explains embedding math in art to make shaders cheaper. (GameDevBill, 2020-09-21, article, Unity-old era)
 - [joyrok](https://joyrok.cargo.site/Tale-of-2-Engines): Joyrok's tech art post comparing two game engines. (2020-09-14, article, Unity-old era)
 - [Modeling with Tiling Textures | onlineportfolio](https://tylergibbonsart.wixsite.com/onlineportfolio/modeling-with-tiling-textures): Portfolio page on modeling with tiling textures. (2020-09-09, article, Unity-old era)
+- [Generating Perfect Normal Maps for Unity (and Other Programs)](https://bgolus.medium.com/generating-perfect-normal-maps-for-unity-f929e673fc57): How to generate accurate normal maps for Unity and other programs from a high-poly model. (Ben Golus, 2020-02-03, article, Unity-old era)
 - [Konsoll 2018: Oskar Stålberg - Developing The Bad North Look](https://www.youtube.com/watch?v=6JcFbivo8dQ): Procedural techniques, technical challenges and art reasoning behind Bad North's minimalist island look. (Oskar Stålberg, 2019-01-29, video, Unity-old era)
 - [Santa Hat](https://www.patreon.com/posts/23472026): Patreon post modeling a Santa hat. (MinionsArt, 2018-12-01, post, Unity-old era)
 - [Baking Shaders into Textures](https://www.ronja-tutorials.com/post/030-baking-shaders/): Bakes shader calculations into textures instead of computing them on the fly. (Ronja, 2018-10-13, article, Unity-old era)

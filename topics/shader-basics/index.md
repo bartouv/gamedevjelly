@@ -1,6 +1,6 @@
 # Shader basics & recipes
 
-> Shaders & rendering · 19 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 25 hand-filtered guides on GamedevJelly, newest first.
 
 - [Understanding Unity shader structure](https://jettelly.com/blog/understanding-unity-shader-structure): Quick look at what goes into a Unity shader: ShaderLab, HLSL and related pieces. (Jettelly, 2026-08-21, article, Unity-6 era)
 - [Custom Shader FX Nodes - No Boilerplate](https://www.youtube.com/watch?v=uFYLIdYXntk): Discover Unity 6.5’s powerful new Shader Function Reflection API. Write normal HLSL functions, add minimal boilerplate, and Unity automatically turns them into fully-featured Shader Graph nodes with p (git-amend, 2026-06-21, video, Unity-6 era)
@@ -10,14 +10,20 @@
 - [Unity Shader Graph Basics (Part 9 - Scene Intersections 2)](https://danielilett.com/2024-05-28-tut7-13-intro-to-shader-graph-part-9/): Uses scene intersections for foamy coastal water edges and glowing edges on passing objects. (Daniel Ilett, 2024-05-28, article, Unity-2022 era)
 - [New Shader Graph feature examples in 2022 LTS](https://unity.com/blog/engine-platform/shader-graph-feature-examples-2022-lts): Sample set of Shader Graph feature examples you can import to learn many effects and techniques. (Unity, 2024-03-19, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 3 - Transparency & Alpha)](https://danielilett.com/2023-12-11-tut7-5-intro-to-shader-graph-part-3/): Explains transparency, draw order and alpha clipping in Shader Graph. (Daniel Ilett, 2023-12-11, article, Unity-2022 era)
+- [The Best Darn Grid Shader (Yet)](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8): How to draw a clean, anti-aliased grid in a shader that holds up at any distance and viewing angle. (Ben Golus, 2023-10-20, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 1 - Your First Graph)](https://danielilett.com/2023-09-26-tut7-3-intro-to-shader-graph/): Beginner guide to creating your first Shader Graph shader in Unity. (Daniel Ilett, 2023-09-26, article, Unity-2022 era)
 - [Just a moment...](https://www.patreon.com/posts/shader-graph-for-81985104): Patreon post on building an effect in Shader Graph. (2023-04-26, post, Unity-2022 era)
+- [Distinctive Derivative Differences](https://bgolus.medium.com/distinctive-derivative-differences-cce38d36797b): A look at the different kinds of shader derivatives and how they differ in practice. (Ben Golus, 2021-04-13, article, Unity-2021 era)
 - [What is a Shader? | Unity Tutorial](https://www.youtube.com/watch?v=UZgxS5hJscY): Explains what a shader is in Unity. (Jettelly, 2021-02-09, video, Unity-2021 era)
 - [Skillshot Arrow Shader | Sawce](https://www.sawcegames.com/en/post/skillshot-arrow-shader): Blog post on a skillshot arrow indicator shader. (2020-03-06, article, Unity-old era)
 - [What should I know about shaders | Unity Tutorial](https://www.youtube.com/watch?v=sXV_-436oUA): Overview of what to know before learning shaders in Unity. (Jettelly, 2020-02-15, video, Unity-old era)
 - [What is a Shader | Unity Tutorial](https://www.youtube.com/watch?v=orSUgPwlSHc): Explains what a shader is in Unity. (Jettelly, 2020-02-08, video, Unity-old era)
 - [Shader structure | Unity Tutorial](https://www.youtube.com/watch?v=GlKVvyTSSqQ): Explains the structure of a Unity shader file. (Jettelly, 2020-02-08, video, Unity-old era)
+- [Sharper Mipmapping using Shader Based Supersampling](https://bgolus.medium.com/sharper-mipmapping-using-shader-based-supersampling-ed7aadb47bec): A shader-based supersampling approach for sharper results than plain mipmapping. (Ben Golus, 2019-08-10, article, Unity-old era)
+- [The Team Color Problem](https://bgolus.medium.com/the-team-color-problem-b70ec69d109f): Approaches to recolouring part of an object, such as team colours, in a shader. (Ben Golus, 2018-07-11, article, Unity-old era)
 - [Shader bits: World and screen space position – Harry Alisavakis](http://halisavakis.com/shader-bits-world-and-screen-space-position/): Shader snippets for getting world and screen space position. (Harry Alisavakis, 2017-11-26, article, Unity-old era)
 - [Shader bits: Camera distance, view direction and normal vectors – Harry Alisavakis](http://halisavakis.com/shader-bits-camera-distance-view-direction-and-normal-vectors/): Shader snippets for camera distance, view direction and normal vectors. (Harry Alisavakis, 2017-11-24, article, Unity-old era)
+- [Normal Mapping for a Triplanar Shader](https://bgolus.medium.com/normal-mapping-for-a-triplanar-shader-10bf39dca05a): How to get correct normal mapping on triplanar-mapped surfaces. (Ben Golus, 2017-09-17, article, Unity-old era)
+- [Anti-aliased Alpha Test: The Esoteric Alpha To Coverage](https://bgolus.medium.com/anti-aliased-alpha-test-the-esoteric-alpha-to-coverage-8b177335ae4f): How alpha to coverage gives anti-aliased alpha-tested edges, which matters most in VR. (Ben Golus, 2017-08-12, article, Unity-old era)
 - [Shaders 101 - Intro to Shaders](https://www.youtube.com/watch?v=T-HXmQAMhG0): Introduction to what shaders are and how they work in Unity. (Makin' Stuff Look Good, 2016-02-24, video, Unity-old era)
 - [Intro to Shader Graph](https://www.cyanilux.com/tutorials/intro-to-shader-graph/): Detailed Shader Graph introduction covering graph setup, data types, previews and more. (article)

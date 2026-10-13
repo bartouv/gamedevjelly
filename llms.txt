@@ -1,6 +1,6 @@
 # GamedevJelly
 
-> 1,640 hand-filtered guides, videos and posts plus 45 repos, 52 assets and 24 books. Outdated and obsolete links were removed; the focus is current Unity.
+> 1,646 hand-filtered guides, videos and posts plus 45 repos, 52 assets and 24 books. Outdated and obsolete links were removed; the focus is current Unity.
 
 Use this when building something in Unity (shaders, VFX, gameplay systems, tools, performance) and you want vetted references: find the best guides, repos, assets and books first, then read the most relevant ones before writing code.
 
@@ -11,7 +11,7 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 - [repos.json](https://bartouv.github.io/gamedevjelly/data/repos.json), [assets.json](https://bartouv.github.io/gamedevjelly/data/assets.json) and [books.json](https://bartouv.github.io/gamedevjelly/data/books.json) list tools and reading; repos include install instructions and a `unity7` status where known.
 
 ## Data
-- [Library (all guides)](https://bartouv.github.io/gamedevjelly/data/library.json): 1,640 items
+- [Library (all guides)](https://bartouv.github.io/gamedevjelly/data/library.json): 1,646 items
 - [Topics](https://bartouv.github.io/gamedevjelly/data/topics.json): slugs, names, groups, counts
 - [Creators](https://bartouv.github.io/gamedevjelly/data/creators.json): who made the guides, with links
 - [Repos](https://bartouv.github.io/gamedevjelly/data/repos.json), [Assets](https://bartouv.github.io/gamedevjelly/data/assets.json), [Books](https://bartouv.github.io/gamedevjelly/data/books.json)
@@ -20,13 +20,13 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 ## Topics (Markdown, newest first)
 - [Game design & analysis](https://bartouv.github.io/gamedevjelly/topics/game-design/index.md): Art & learning, 199 guides
 - [Gameplay systems & mechanics](https://bartouv.github.io/gamedevjelly/topics/gameplay-systems/index.md): Gameplay & systems, 169 guides
-- [Math for game devs](https://bartouv.github.io/gamedevjelly/topics/math/index.md): Procedural & math, 147 guides
+- [Math for game devs](https://bartouv.github.io/gamedevjelly/topics/math/index.md): Procedural & math, 149 guides
 - [Game art breakdowns](https://bartouv.github.io/gamedevjelly/topics/game-art-breakdowns/index.md): Art & learning, 139 guides
 - [Procedural generation](https://bartouv.github.io/gamedevjelly/topics/procgen/index.md): Procedural & math, 118 guides
 - [Courses, series & lectures](https://bartouv.github.io/gamedevjelly/topics/courses-series/index.md): Art & learning, 114 guides
 - [Performance & optimization](https://bartouv.github.io/gamedevjelly/topics/performance/index.md): Engineering, 106 guides
 - [C# & architecture](https://bartouv.github.io/gamedevjelly/topics/csharp-architecture/index.md): Engineering, 106 guides
-- [Tech art & DCC workflow](https://bartouv.github.io/gamedevjelly/topics/tech-art-workflow/index.md): Art & learning, 90 guides
+- [Tech art & DCC workflow](https://bartouv.github.io/gamedevjelly/topics/tech-art-workflow/index.md): Art & learning, 91 guides
 - [Lighting & shadows](https://bartouv.github.io/gamedevjelly/topics/lighting/index.md): Shaders & rendering, 84 guides
 - [Water, waves & ripples](https://bartouv.github.io/gamedevjelly/topics/water/index.md): Environment, 64 guides
 - [UI & UI Toolkit](https://bartouv.github.io/gamedevjelly/topics/ui/index.md): Gameplay & systems, 61 guides
@@ -37,18 +37,19 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 - [Animation, rigging & IK](https://bartouv.github.io/gamedevjelly/topics/animation/index.md): Gameplay & systems, 48 guides
 - [Raymarching & SDF](https://bartouv.github.io/gamedevjelly/topics/raymarching-sdf/index.md): Procedural & math, 45 guides
 - [2D games](https://bartouv.github.io/gamedevjelly/topics/2d/index.md): Platforms, 45 guides
+- [UVs, triplanar & texturing](https://bartouv.github.io/gamedevjelly/topics/uv-texturing/index.md): Shaders & rendering, 43 guides
 - [Volumetrics & fog](https://bartouv.github.io/gamedevjelly/topics/volumetrics/index.md): Shaders & rendering, 40 guides
 - [Post-processing & image effects](https://bartouv.github.io/gamedevjelly/topics/post-processing/index.md): Shaders & rendering, 40 guides
-- [UVs, triplanar & texturing](https://bartouv.github.io/gamedevjelly/topics/uv-texturing/index.md): Shaders & rendering, 39 guides
 - [Editor tools & extensions](https://bartouv.github.io/gamedevjelly/topics/editor-tools/index.md): Workflow & tools, 34 guides
+- [Glass, refraction & transparency](https://bartouv.github.io/gamedevjelly/topics/transparency/index.md): Shaders & rendering, 30 guides
 - [Grass, trees & foliage](https://bartouv.github.io/gamedevjelly/topics/vegetation/index.md): Environment, 29 guides
-- [Glass, refraction & transparency](https://bartouv.github.io/gamedevjelly/topics/transparency/index.md): Shaders & rendering, 29 guides
 - [Compute shaders & GPU](https://bartouv.github.io/gamedevjelly/topics/compute-gpu/index.md): Shaders & rendering, 28 guides
 - [AI, pathfinding & boids](https://bartouv.github.io/gamedevjelly/topics/ai-pathfinding/index.md): Gameplay & systems, 28 guides
 - [Noise & procedural textures](https://bartouv.github.io/gamedevjelly/topics/procedural-noise/index.md): Procedural & math, 27 guides
 - [Dissolve, holograms & sci-fi FX](https://bartouv.github.io/gamedevjelly/topics/dissolve-fx/index.md): VFX, 27 guides
 - [Vertex displacement & animation](https://bartouv.github.io/gamedevjelly/topics/vertex-effects/index.md): Shaders & rendering, 26 guides
 - [Sky, clouds & weather](https://bartouv.github.io/gamedevjelly/topics/sky-weather/index.md): Environment, 26 guides
+- [Shader basics & recipes](https://bartouv.github.io/gamedevjelly/topics/shader-basics/index.md): Shaders & rendering, 25 guides
 - [Fire, magic & impacts](https://bartouv.github.io/gamedevjelly/topics/fire-magic/index.md): VFX, 24 guides
 - [Debugging & testing](https://bartouv.github.io/gamedevjelly/topics/debugging-testing/index.md): Workflow & tools, 23 guides
 - [Toon & cel shading](https://bartouv.github.io/gamedevjelly/topics/toon-shading/index.md): Stylized looks, 22 guides
@@ -57,13 +58,12 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 - [AR & VR](https://bartouv.github.io/gamedevjelly/topics/xr/index.md): Platforms, 20 guides
 - [Pixel art, dithering & retro](https://bartouv.github.io/gamedevjelly/topics/pixel-retro/index.md): Stylized looks, 20 guides
 - [DOTS, ECS, Jobs & Burst](https://bartouv.github.io/gamedevjelly/topics/dots/index.md): Engineering, 20 guides
-- [Shader basics & recipes](https://bartouv.github.io/gamedevjelly/topics/shader-basics/index.md): Shaders & rendering, 19 guides
 - [Terrain & landscapes](https://bartouv.github.io/gamedevjelly/topics/terrain/index.md): Environment, 18 guides
 - [Stencil, masks & decals](https://bartouv.github.io/gamedevjelly/topics/stencil-masking/index.md): Shaders & rendering, 16 guides
 - [Multiplayer & netcode](https://bartouv.github.io/gamedevjelly/topics/multiplayer/index.md): Gameplay & systems, 14 guides
-- [Outlines & edge detection](https://bartouv.github.io/gamedevjelly/topics/outlines/index.md): Stylized looks, 13 guides
 - [Data, saving & localization](https://bartouv.github.io/gamedevjelly/topics/data-scriptableobjects/index.md): Engineering, 13 guides
 - [Snow, ice, sand & lava](https://bartouv.github.io/gamedevjelly/topics/snow-ice-sand/index.md): Environment, 12 guides
+- [Outlines & edge detection](https://bartouv.github.io/gamedevjelly/topics/outlines/index.md): Stylized looks, 12 guides
 - [Cameras & cutscenes](https://bartouv.github.io/gamedevjelly/topics/cameras/index.md): Gameplay & systems, 12 guides
 - [Audio](https://bartouv.github.io/gamedevjelly/topics/audio/index.md): Gameplay & systems, 10 guides
 - [Addressables, assets & loading](https://bartouv.github.io/gamedevjelly/topics/assets-loading/index.md): Engineering, 10 guides

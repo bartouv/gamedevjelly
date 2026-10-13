@@ -1,6 +1,6 @@
 # Glass, refraction & transparency
 
-> Shaders & rendering · 29 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 30 hand-filtered guides on GamedevJelly, newest first.
 
 - [GitHub - Youssef-Afella/UnityURP-FakeRealGlass: Fast glass shader that doesn't require any RayTracing or RayMarching](https://github.com/Youssef-Afella/UnityURP-FakeRealGlass): Repo: URP glass shader that fakes realistic refraction without ray tracing or raymarching. (2026-02-08, repo, Unity-6 era, URP)
 - [Unity Shader Code Basics 03 - Transparency](https://danielilett.com/2026-01-01-tut10-03-transparency/): Explains drawing transparent objects and blending in hand-written Unity shaders. (Daniel Ilett, 2026-01-01, article, Unity-6 era)
@@ -22,6 +22,7 @@
 - [Alpha to Coverage Anti-Aliasing](https://www.patreon.com/posts/alpha-to-or-anti-33042721): Patreon post on alpha-to-coverage and anti-aliasing for cutout transparency. (2020-01-14, post, Unity-old era)
 - [Shader Showcase Saturday #1: Volumetric Crystals](https://www.alanzucconi.com/2018/07/14/shader-showcase-saturday-1/): Creates volumetric crystals with shaders. (Alan Zucconi, 2018-07-14, article, Unity-old era)
 - [Basic Transparency](https://www.ronja-tutorials.com/post/006-simple-transparency/): Basic transparency in shaders by blending with the screen. (Ronja, 2018-04-06, article, Unity-old era)
+- [Anti-aliased Alpha Test: The Esoteric Alpha To Coverage](https://bgolus.medium.com/anti-aliased-alpha-test-the-esoteric-alpha-to-coverage-8b177335ae4f): How alpha to coverage gives anti-aliased alpha-tested edges, which matters most in VR. (Ben Golus, 2017-08-12, article, Unity-old era)
 - [Shaders Case Study - Spelunky Ice Cave Crystals](https://www.youtube.com/watch?v=7fMCTVhEzmU): Case study recreating Spelunky's ice cave crystal look with shaders. (Makin' Stuff Look Good, 2016-04-30, video, Unity-old era)
 - [Blubb! – Fish Tanks in Games](https://simonschreibt.de/gat/fishtanks-in-games/): Looks at fish tanks in games. (Simon Schreibt, 2016-02-02, article, Unity-old era)
 - [Alpha 1 – My Top 5 Usecases](https://simonschreibt.de/gat/alpha1-top5/): Five favorite use cases for the alpha channel. (Simon Schreibt, 2016-01-22, article, Unity-old era)

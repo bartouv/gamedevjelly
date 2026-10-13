@@ -1,6 +1,6 @@
 # Math for game devs
 
-> Procedural & math · 147 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 149 hand-filtered guides on GamedevJelly, newest first.
 
 - [@freya.bsky.social: quaternion powers q², √q and qˣ scale a rotation](https://bsky.app/profile/freya.bsky.social/post/3mwqvwetixc2r): Raising a quaternion to a power scales its rotation: square doubles, square root halves, qˣ scales by x. (Freya Holmér, 2026-09-30, post, Unity-6 era)
 - [@freya.bsky.social: quaternion (x,y,z,0) is a 180° rotation about that axis](https://bsky.app/profile/freya.bsky.social/post/3mwedrkwlk227): A unit vector as a pure quaternion gives a half-turn around it, with no trig or euler conversion. (Freya Holmér, 2026-09-25, post, Unity-6 era)
@@ -23,6 +23,7 @@
 - [Easing functions: linear, smoothstep, smootherstep and elevator-style curves](https://mastodon.social/@acegikmo/111700171912073203): Post comparing easing functions like linear, smoothstep, smootherstep and elevator-style curves. (Freya Holmér, 2024-01-04, post, Unity-2022 era)
 - [3D Math Primer for Graphics and Game Development](https://gamemath.com/): Landing page of a 3D math textbook for graphics and game development. (Simon Schreibt, 2023-11-10, article, Unity-2022 era)
 - [Why can't you multiply vectors?](https://www.youtube.com/watch?v=htYh-Tq7ZBI): Explains why vectors have no single multiplication, covering dot, cross and other products. (Freya Holmér, 2023-10-26, video, Unity-2022 era)
+- [The Best Darn Grid Shader (Yet)](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8): How to draw a clean, anti-aliased grid in a shader that holds up at any distance and viewing angle. (Ben Golus, 2023-10-20, article, Unity-2022 era)
 - [Unity 4D #4: Creating 4D Objects](https://www.alanzucconi.com/2023/07/06/creating-4d-objects/): Explains how to create four-dimensional objects for the Unity4D extension. (Alan Zucconi, 2023-07-06, article, Unity-2022 era)
 - [Unity 4D #3: Rendering 4D Objects](https://www.alanzucconi.com/2023/07/06/rendering-4d-objects/): Renders 4D objects in Unity with orthographic, perspective and cross-section projections. (Alan Zucconi, 2023-07-06, article, Unity-2022 era)
 - [Unity 4D #2: Extending Unity to 4D](https://www.alanzucconi.com/2023/07/06/unity-3d-to-4d/): Extends Unity to support four-dimensional geometry. (Alan Zucconi, 2023-07-06, article, Unity-2022 era)
@@ -59,6 +60,7 @@
 - [Polar Coordinates](https://www.ronja-tutorials.com/post/053-polar-coordinates/): Explains polar coordinates in shaders for radial effects. (Ronja, 2021-06-20, article, Unity-2021 era)
 - [Perlin Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/perlin-noise/): Catlike Coding tutorial on implementing Perlin noise in C#. (Catlike Coding, 2021-06-18, article, Unity-2021 era)
 - [Value Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/value-noise/): Catlike Coding tutorial on implementing value noise in C#. (Catlike Coding, 2021-05-30, article, Unity-2021 era)
+- [Distinctive Derivative Differences](https://bgolus.medium.com/distinctive-derivative-differences-cce38d36797b): A look at the different kinds of shader derivatives and how they differ in practice. (Ben Golus, 2021-04-13, article, Unity-2021 era)
 - [Pseudorandom Noise: Hashing](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/hashing/): Builds a small xxHash-style hash function and visualizes hash output for pseudorandom noise. (Catlike Coding, 2021-03-24, article, Unity-2021 era)
 - [Piecewise Interpolation - Alan Zucconi](https://www.alanzucconi.com/2021/01/24/piecewise-interpolation/): Explains piecewise interpolation for blending between multiple values. (Alan Zucconi, 2021-01-24, article, Unity-2021 era)
 - [Linear Interpolation - Alan Zucconi](https://www.alanzucconi.com/2021/01/24/linear-interpolation/): Explains linear interpolation for moving objects in code. (Alan Zucconi, 2021-01-24, article, Unity-2021 era)
@@ -73,7 +75,7 @@
 - [An Introduction to Floating-Point Arithmetic - Alan Zucconi](https://www.alanzucconi.com/2020/08/03/floating-point-arithmetic/): Explains how floating-point numbers work in C# and the surprising bugs they can cause. (Alan Zucconi, 2020-08-03, article, Unity-old era)
 - [Improving Floating-Point Precision in C#](https://www.alanzucconi.com/2020/08/03/improving-floating-point/): Techniques for improving floating-point precision in C# for high-precision simulations. (Alan Zucconi, 2020-08-03, article, Unity-old era)
 - [An Introduction to Mie Theory](https://www.alanzucconi.com/2020/07/30/atmospheric-scattering-8/): Introduction to Mie theory for atmospheric scattering (members-only post). (Alan Zucconi, 2020-07-30, article, Unity-old era)
-- [Progressing in Circles](https://medium.com/@bgolus/progressing-in-circles-13452434fdb9): Medium post by Ben Golus on progressing in circles, a shader or math topic around circular shapes. (2020-06-01, article, Unity-old era)
+- [Progressing in Circles](https://medium.com/@bgolus/progressing-in-circles-13452434fdb9): Medium post by Ben Golus on progressing in circles, a shader or math topic around circular shapes. (Ben Golus, 2020-06-01, article, Unity-old era)
 - [Remote Math class for Game Devs (Stream Recording)](https://www.youtube.com/watch?v=1r7vCzJUoiM): Stream recording of a remote math class for game developers. (Freya Holmér, 2020-03-21, video, Unity-old era)
 - [Game Math: Dot Product, Rulers, And Bouncing Balls](https://allenchou.net/2020/01/dot-product-projection-reflection/): Game math primer on dot products, projection and reflection with bouncing ball examples. (Ming-Lun Chou, 2020-01-17, article, Unity-old era)
 - [https://www.ronja-tutorials.com/post/047-invlerp_remap/](https://www.ronja-tutorials.com/2020/01/08/invlerp_remap.html): Ronja tutorial on inverse lerp and remapping values in shaders. (2020-01-08, article, Unity-old era)
