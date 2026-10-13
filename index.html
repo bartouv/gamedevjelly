@@ -114,6 +114,7 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 @keyframes livepulse { 70% { box-shadow: 0 0 0 8px #4ade8000; } 100% { box-shadow: 0 0 0 0 #4ade8000; } }
 .hintro h1 { font: 800 clamp(32px, 4.2vw, 54px)/1.04 var(--f-display); letter-spacing: -.03em; margin: 0 0 14px; text-wrap: balance; min-height: 3.2em; }   /* three lines reserved, so the word swap never moves what is below */
 .hintro h1 .grad { background: linear-gradient(100deg, var(--accent), #ff7ad9 60%, #ffb86b); -webkit-background-clip: text; background-clip: text; color: transparent; transition: opacity .6s ease; display: inline-block; }
+.hxrow { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; } .hxrow .hxk { margin: 0; }
 .hintro h1 .grad.out { opacity: 0; }
 .hintro p { margin: 0 0 20px; color: var(--muted); font-size: 16.5px; line-height: 1.6; max-width: 56ch; }
 .hxs { display: flex; gap: 8px; max-width: 560px; padding: 6px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); box-shadow: 0 10px 40px rgb(0 0 0 / .25); transition: border-color .2s, box-shadow .2s; }
@@ -772,7 +773,10 @@ body.vt .enter { animation: none; }
 .rail-group:not(.collapsed) { background: color-mix(in srgb, var(--surface-2) 45%, transparent); border-radius: 10px; padding-bottom: 4px; }
 
 /* mascot */
-.mascot { position: relative; flex: none; width: 38px; height: 40px; margin: -4px -6px -4px 0; cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
+.mslot { flex: none; width: 38px; height: 40px; margin: -4px -6px -4px 0; } .mslot.hs { width: 60px; height: 63px; margin: 0; }
+.no-mascot .mslot { display: none; }
+
+.mascot { position: fixed; left: 0; top: 0; z-index: 12; transform-origin: 0 0; width: 38px; height: 40px; margin: 0; cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
 .mascot[hidden] { display: none; }
 .mascot svg { width: 100%; height: 100%; overflow: visible; }
 .mascot .body { fill: url(#mg); } .mascot .shade { fill: #7468e6; }
@@ -808,7 +812,7 @@ body.vt .enter { animation: none; }
 @keyframes m-z { 50% { transform: translate(2px, -3px); opacity: .4; } }
 
 .mascot .acc { display: none; }
-.mascot.s-pumpkin .a-pumpkin, .mascot.s-party .a-party, .mascot.s-santa .a-cap, .mascot.lv1 .a-badge, .mascot.lv2 .a-badge, .mascot.lv3 .a-badge, .mascot.r-bubbles .a-bubbles { display: inline; }
+.mascot.s-party .a-party, .mascot.s-santa .a-cap, .mascot.lv1 .a-badge, .mascot.lv2 .a-badge, .mascot.lv3 .a-badge, .mascot.r-bubbles .a-bubbles { display: inline; }
 .mascot.r-cap .a-season { display: none; }
 .mascot .a-badge { fill: #cd7f32; stroke: rgb(0 0 0 / .25); stroke-width: .15; } .mascot.lv2 .a-badge { fill: #d3dbee; } .mascot.lv3 .a-badge { fill: #ffd34d; }
 .mascot .bb { fill: rgb(255 255 255 / .22); stroke: rgb(255 255 255 / .8); stroke-width: .18; animation: m-rise 2.2s ease-out infinite; } .mascot .b2 { animation-delay: -.7s; } .mascot .b3 { animation-delay: -1.4s; }
@@ -864,7 +868,7 @@ body.vt .enter { animation: none; }
 @keyframes m-shake { 50% { transform: translateX(.7px); } }
 @keyframes m-flip { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .mascot .hr, .mascot .fh, .mascot .sp, .mascot .arm, .mascot .sw, .mascot .dot, .mascot .steam { animation: none !important; } }
-@media (max-width: 860px), (hover: none) { .mascot { display: none; } }
+@media (max-width: 860px), (hover: none) { .mascot, .mslot { display: none; } }
 @media (prefers-reduced-motion: reduce) { .mascot .bob, .mascot .t, .mascot .body, .mascot.sleep .zzz { animation: none !important; } }
 @media (max-width: 1000px) { .topnav button span { display: none; } .topnav button { padding: 8px 10px; } .search kbd.k2 { display: none; } .search input { padding-right: 44px; } }
 @media (max-width: 860px) {
@@ -890,7 +894,7 @@ body.vt .enter { animation: none; }
     <button class="icon-btn menu-btn" id="menuBtn" aria-label="Show categories">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
     </button>
-    <div class="mascot" id="mascot" aria-hidden="true" hidden>
+    <span class="mslot" id="mSlot"></span><div class="mascot" id="mascot" aria-hidden="true" hidden>
   <svg viewBox="0 0 16 17"><defs><radialGradient id="mg" cx=".35" cy=".28" r=".95"><stop offset="0" stop-color="#c3b6ff"/><stop offset=".5" stop-color="#9487fb"/><stop offset="1" stop-color="#7468e6"/></radialGradient><linearGradient id="mt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8576f0"/><stop offset="1" stop-color="#ff9fd0"/></linearGradient><radialGradient id="mr" cx=".5" cy=".62" r=".62"><stop offset=".7" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".5"/></radialGradient></defs><g class="lean" id="mLean"><g class="bob">
     <g class="t t1"><rect class="tent" x="2.75" y="10" width="2.5" height="4.2" rx="1.25"/></g><g class="t t2"><rect class="tent" x="5.45" y="10" width="2.5" height="4.2" rx="1.25"/></g><g class="t t3"><rect class="tent" x="8.05" y="10" width="2.5" height="4.2" rx="1.25"/></g><g class="t t4"><rect class="tent" x="10.75" y="10" width="2.5" height="4.2" rx="1.25"/></g>
     <g class="arms"></g>
@@ -911,7 +915,6 @@ body.vt .enter { animation: none; }
     <g class="acc a-swirl"><rect class="sw" x="4.5" y="6.3" width="1.8" height="1.8" fill="#1b1b33"/><rect class="sw" x="9.7" y="6.3" width="1.8" height="1.8" fill="#1b1b33"/></g>
     <path class="acc a-sweat" d="M12.9 2.2c.6 1 1 1.6 1 2.1a1 1 0 0 1-2 0c0-.5.4-1.1 1-2.1z" fill="#9fd8ff"/>
     <g class="acc a-think"><rect class="dot d1" x="11.6" y="0" width=".9" height=".9" fill="#cfd3ff"/><rect class="dot d2" x="12.9" y="0" width=".9" height=".9" fill="#cfd3ff"/><rect class="dot d3" x="14.2" y="0" width=".9" height=".9" fill="#cfd3ff"/></g>
-    <g class="acc a-season a-pumpkin"><ellipse cx="8" cy=".7" rx="2.7" ry="1.7" fill="#ff8a1f"/><path d="M6.7 -.9C6.9 .3 6.9 1.4 6.7 2.2M9.3 -.9C9.1 .3 9.1 1.4 9.3 2.2" stroke="#d96a00" stroke-width=".35" fill="none"/><rect x="7.6" y="-2.1" width=".8" height="1.4" rx=".3" fill="#4a9d4a"/></g>
     <g class="acc a-season a-party"><path d="M5.6 2.2 8 -2.6 10.4 2.2Z" fill="#ff7aa8"/><circle cx="8" cy="-2.8" r=".7" fill="#ffe27a"/><path d="M6.5 .9h2.1M7.3 -.6h1.5" stroke="#fff" stroke-width=".4"/></g>
     <g class="acc a-badge"><path transform="translate(2.4 8.4) scale(1.3)" d="M1 0l.3.7.8.1-.6.5.2.8L1 1.7.3 2.1l.2-.8L-.1.8l.8-.1z"/></g>
     <g class="acc a-bubbles"><circle class="bb b1" cx="3" cy="1.5" r=".5"/><circle class="bb b2" cx="13" cy="2.5" r=".7"/><circle class="bb b3" cx="11" cy=".5" r=".4"/></g>
@@ -2284,7 +2287,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     const rising = Object.entries(newBy).sort((a, b) => b[1] - a[1]).slice(0, 8);
     const nLive = Object.keys(liveCounts().live).filter(s => catBySlug[s] && !catBySlug[s].grp).length;
     const stats = [[items.filter(ok).length, 'guides & videos'], [nLive, 'creators'], [RD.repos.length, 'repos'], [AD.assets.length, 'assets'], [BD.books.length, 'books']];
-    $('#homeIntro').innerHTML = `<span class="hxk"><i></i>Updated weekly</span><h1>Learn <span class="grad" id="hxWord">Unity</span> faster, with guides worth your time.</h1><p>A hand-picked library of Unity tutorials, videos, repos, assets and books. Every link is checked and kept current, so you spend your time making games, not hunting for answers.</p>
+    $('#homeIntro').innerHTML = `<div class="hxrow"><span class="mslot hs" id="hxSlot"></span><span class="hxk"><i></i>Updated weekly</span></div><h1>Learn <span class="grad" id="hxWord">Unity</span> faster, with guides worth your time.</h1><p>A hand-picked library of Unity tutorials, videos, repos, assets and books. Every link is checked and kept current, so you spend your time making games, not hunting for answers.</p>
       <div class="hxwrap">      <form class="hxs" id="hxForm" role="search"><input id="hxq" type="search" placeholder="Search shaders, pathfinding, UI Toolkit…" autocomplete="off" aria-label="Search the library"><button type="submit">Search</button></form><div class="live hxlive" id="hxLive" role="listbox" hidden></div></div>
       <div class="hxstats">${stats.map(([n, l]) => `<div><b data-count="${n}">0</b><span>${l}</span></div>`).join('')}</div>`;
     window.__hxInit?.();
@@ -2372,7 +2375,28 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     const startWork = () => { if (!on || REDUCED.matches || cur || m.classList.contains('sleep') || document.hidden) return; m.classList.add('r-work'); const r = m.getBoundingClientRect(); look(r.left + r.width / 2, r.bottom + 160); };   // idle: he gets on his laptop
     const wake = () => { m.classList.remove('sleep'); stopWork(); clearTimeout(idleT); idleT = setTimeout(() => { stopWork(); m.classList.add('sleep'); }, 45000); workT = setTimeout(startWork, 9000); };
     const blink = () => { if (on && !m.classList.contains('sleep')) { m.classList.add('blink'); setTimeout(() => m.classList.remove('blink'), 140); } setTimeout(blink, 2500 + Math.random() * 3500); };
-    function apply() { m.hidden = !on; if (tog) tog.textContent = on ? 'Hide mascot' : 'Show mascot'; if (on) wake(); }
+    // ---------- one jelly, two homes: beside the badge on Home, in the header elsewhere; he swims between them ----------
+    document.body.appendChild(m);
+    let mode = null, placeRaf = 0;
+    const where = () => {
+      const hs = $('#hxSlot');
+      if (document.body.classList.contains('is-home') && hs && hs.offsetParent) { const r = hs.getBoundingClientRect(); if (r.bottom > 78) return ['home', r]; }
+      return ['hdr', $('#mSlot').getBoundingClientRect()];
+    };
+    const place = () => {
+      placeRaf = 0;
+      const [md, r] = where(), to = `translate(${r.left.toFixed(1)}px, ${r.top.toFixed(1)}px) scale(${(r.width / 38).toFixed(3)})`;
+      if (mode !== null && ready && md !== mode && !REDUCED.matches && !m.hidden && getComputedStyle(m).display !== 'none') {   // he jumps straight to the other spot, then hops
+        m.style.transform = to; say('hop', 600);
+      } else m.style.transform = to;
+      mode = md;
+    };
+    const queuePlace = () => { if (!placeRaf) placeRaf = requestAnimationFrame(place); };
+    addEventListener('scroll', queuePlace, { passive: true }); addEventListener('resize', queuePlace);
+    new MutationObserver(queuePlace).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    new MutationObserver(() => { queuePlace(); setTimeout(queuePlace, 120); setTimeout(queuePlace, 500); }).observe($('#homeIntro'), { childList: true });
+    (document.fonts?.ready || Promise.resolve()).then(queuePlace); addEventListener('load', queuePlace);
+    function apply() { document.body.classList.toggle('no-mascot', !on); m.hidden = !on; queuePlace(); if (tog) tog.textContent = on ? 'Hide mascot' : 'Show mascot'; if (on) wake(); }
 
     addEventListener('pointermove', e => { if (!on || REDUCED.matches) return; wake(); look(e.clientX, e.clientY); }, { passive: true });
     // poking him: hop, then dizzy, then a flip
@@ -2455,8 +2479,8 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     const setLevel = () => { const n = saved.size, lv = n >= 30 ? 3 : n >= 15 ? 2 : n >= 5 ? 1 : 0, was = +(m.dataset.lv || 0); m.classList.remove('lv1', 'lv2', 'lv3'); if (lv) m.classList.add('lv' + lv); m.dataset.lv = lv; return lv > was ? lv : 0; };
     setLevel();
     const afterSave = added => { const up = setLevel(); if (!on) return; if (up) { act('cheer', 1600, true); talk('Level up! ' + saved.size + ' guides saved.', { force: true }); } else if (added) talk(pick(['Nice pick!', 'Saved. Good taste.', 'Added to your shelf.', 'Ooh, that one is good.'])); };
-    const d0 = new Date(), mo = d0.getMonth(), dy = d0.getDate(), season = mo === 9 ? 'pumpkin' : (mo === 11 && dy >= 10) ? 'santa' : (mo === 0 && dy <= 3) ? 'party' : '';
-    if (season) { m.classList.add('s-' + season); if (!ss.get('mascotSeason')) setTimeout(() => { ss.set('mascotSeason'); talk({ pumpkin: 'Spooky season. Happy Halloween!', santa: 'Happy holidays!', party: 'Happy new year!' }[season], { force: true }); }, 6000); }
+    const d0 = new Date(), mo = d0.getMonth(), dy = d0.getDate(), season = (mo === 11 && dy >= 10) ? 'santa' : (mo === 0 && dy <= 3) ? 'party' : '';
+    if (season) { m.classList.add('s-' + season); if (!ss.get('mascotSeason')) setTimeout(() => { ss.set('mascotSeason'); talk({ santa: 'Happy holidays!', party: 'Happy new year!' }[season], { force: true }); }, 6000); }
     setInterval(() => { if (on && !cur && !document.hidden && !m.classList.contains('sleep') && !m.classList.contains('r-work')) act('bubbles', 3600); }, 26000);
     let sy = scrollY; addEventListener('scroll', () => { const dir = scrollY - sy; if (Math.abs(dir) > 40) { sy = scrollY; look(innerWidth / 2, dir > 0 ? innerHeight : 0); } }, { passive: true });
 
