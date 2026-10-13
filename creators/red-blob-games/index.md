@@ -4,6 +4,8 @@ Amit Patel’s site of interactive tutorials on hex grids, A* pathfinding and pr
 
 - site: https://www.redblobgames.com/
 - x: https://x.com/redblobgames
+- bluesky: https://bsky.app/profile/redblobgames.com
+- github: https://github.com/redblobgames
 
 - [Mapgen4: procedural map generator](https://www.redblobgames.com/maps/mapgen4/): Painted-mountain map generator with rainfall, rivers and erosion, plus a write-up of how it works. (Red Blob Games, 2018-07-20, article, Unity-old era)
 - [Resource placement on a map](https://www.redblobgames.com/x/1736-resource-placement/): Placing trees, ore and other resources with blue noise and spacing rules instead of pure random. (Red Blob Games, 2017-09-09, article, Unity-old era)

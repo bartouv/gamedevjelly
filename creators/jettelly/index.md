@@ -7,6 +7,8 @@ Game dev education studio publishing Unity and Godot eBooks, video courses and Y
 - x: https://x.com/jettelly
 - bluesky: https://bsky.app/profile/jettelly.bsky.social
 - linkedin: https://linkedin.com/company/jettelly
+- instagram: https://www.instagram.com/jettelly.inc
+- artstation: https://www.artstation.com/jettelly
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)

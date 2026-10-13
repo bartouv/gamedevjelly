@@ -9,6 +9,7 @@ Technical artist known for approachable shader and VFX tutorials on his blog and
 - linkedin: https://www.linkedin.com/in/haliss/
 - patreon: https://www.patreon.com/bePatron?u=19923710
 - bluesky: https://bsky.app/profile/halisavakis.com
+- instagram: https://www.instagram.com/halisavakis
 
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
 - [Jack Gutmann interviews Harry Alisavakis on shaders and tech art](https://youtu.be/PhlS-phZ1oE): Long conversation about shader work, tech art practice and breaking into the industry. (Harry Alisavakis, 2025-12-27, video, Unity-6 era)

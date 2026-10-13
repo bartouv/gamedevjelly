@@ -9,6 +9,7 @@ Content about building games with data-oriented design: Unity DOTS and ECS, incl
 - patreon: https://patreon.com/turbomakesgames
 - discord: https://discord.gg/sGZeCNZ
 - itch: https://johnnyturbo.itch.io/
+- github: https://github.com/johnnyturbo
 
 - [Unity removed DOTS features and I am sad...](https://www.youtube.com/watch?v=1XEKPxONR1c): - 0:00 - Hello Unity Sailors (Turbo Makes Games, 2026-09-18, video, Unity-6 era)
 - [Unity CoreCLR is here, BUT there is an issue...](https://www.youtube.com/watch?v=MlTXhUx8WMg): ⌚ Time stamps for key topics ⌚ (Turbo Makes Games, 2026-09-03, video, Unity-6 era)

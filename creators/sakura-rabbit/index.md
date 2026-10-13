@@ -3,6 +3,8 @@
 VFX artist and developer known for real-time Unity shader showcases: rain, snow coverage, water and character effects, several built for URP on mobile. Some projects are downloadable. Covered by 80 Level.
 
 - x: https://x.com/Sakura_Rabbiter
+- fanbox: https://sakura-rabbit.fanbox.cc/
+- instagram: https://www.instagram.com/sakura_rabbiter/
 
 - [Sakura Rabbit: water effects for Unity URP on mobile](https://80.lv/articles/amazing-water-effects-for-unity-urp-on-mobile): A water shader demo made for URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-29, article, Unity-6 era)
 - [Sakura Rabbit: real-time snow coverage shader for URP on mobile](https://80.lv/articles/sakura-rabbit-built-a-real-time-snow-coverage-shader-for-unity-urp-on-mobile): Snow that builds up on surfaces in real time, running in URP on mobile. The project is available to download. (Sakura Rabbit, 2026-06-16, article, Unity-6 era)

@@ -8,6 +8,8 @@ Game artist and VFX artist behind the Game Art Tricks blog, which breaks down ho
 - kofi: https://ko-fi.com/simonschreibt
 - discord: https://discord.simonschreibt.de
 - bluesky: https://bsky.app/profile/simonschreibt.bsky.social
+- artstation: https://www.artstation.com/simont
+- instagram: https://www.instagram.com/simonschreibt
 
 - [Sims 4: Mirrors](https://simonschreibt.de/gat/sims-4-mirrors/): Analysis of how mirrors are rendered in The Sims 4. (Simon Schreibt, 2025-03-28, article, Unity-6 era)
 - [The High Heel Problem](https://simonschreibt.de/gat/the-high-heel-problem/): Game art investigation into the high heel problem in character models. (Simon Schreibt, 2025-03-17, article, Unity-6 era)

@@ -8,6 +8,7 @@ Unity developer writing about procedural generation, shaders, UI performance, C#
 - linkedin: https://www.linkedin.com/in/gal-bar-touv-65a331b6/
 - itch: https://bartouv.itch.io/rise-of-the-machines-2
 - discord: https://discord.com/users/bartouv
+- artstation: https://www.artstation.com/galbartouv
 
 - [Generating a Living Sea](https://bartouv.github.io/articles/generating-a-living-sea.html): The three systems behind a Privateer battle are really one pipeline: wave function collapse builds an island map, the jump flood algorithm turns its coast into a distance field, and the boids fish read that field to stay in the water. (Gal Bartouv, 2026-07-01, article, Unity-6 era)
 - [Charting a New Sea Every Run](https://bartouv.github.io/articles/charting-a-new-sea-every-run.html): How the run map is generated: Poisson disc scatter for even beacons, Delaunay triangulation for natural links, then pruning and connectivity guarantees so an FTL-style sea is always playable start to boss. (Gal Bartouv, 2026-07-01, article, Unity-6 era)

@@ -13,6 +13,8 @@ Game developer and graphics engineer producing Unity shader tutorials in written
 - discord: https://discord.gg/ubxSVBK
 - github: https://github.com/nedmakesgames
 - bluesky: https://bsky.app/profile/nedmakesgames.bsky.social
+- instagram: https://www.instagram.com/nedmakesgames
+- tiktok: https://www.tiktok.com/@nedmakesgames
 
 - [Writing Unity URP Shaders with Code (series intro)](https://nedmakesgames.medium.com/6c4ae9875529): Intro to a tutorial series on writing Unity URP shaders in code. (Ned Makes Games, 2023-04-10, article, Unity-2022 era, URP)
 - [URP Shaders in Code, Part 3: Transparent and Crystal Clear](https://nedmakesgames.medium.com/transparent-and-crystal-clear-writing-unity-urp-shaders-with-code-part-3-f6ccd6686507): Part three of writing URP shaders in code, covering transparency and crystal-clear materials. (Ned Makes Games, article, URP)

@@ -8,6 +8,7 @@ Goldsmiths senior lecturer and science communicator known for Unity shader tutor
 - patreon: https://www.patreon.com/AlanZucconi
 - x: https://x.com/AlanZucconi
 - bluesky: https://bsky.app/profile/alanzucconi.com
+- tiktok: https://www.tiktok.com/@alanzucconi.com
 
 - [Maths Archives - Alan Zucconi](https://www.alanzucconi.com/category/maths/): Archive of Alan Zucconi's math tutorials for games. (Alan Zucconi, 2026-08-15, article, Unity-6 era)
 - [Xorshift Generators](https://www.alanzucconi.com/2026/08/15/xorshift-generators/): Deep dive into xorshift pseudo-random number generators. (Alan Zucconi, 2026-08-15, article, Unity-6 era)
