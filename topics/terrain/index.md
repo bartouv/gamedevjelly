@@ -1,12 +1,15 @@
 # Terrain & landscapes
 
-> Environment · 19 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 22 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Graph Basics (Part 13 - Terrain Lit Official Support)](https://danielilett.com/2026-09-17-tut9-13-official-terrains/): Uses Unity 6.3's new Terrain Lit graph type and terrain nodes in Shader Graph. (Daniel Ilett, 2026-09-17, article, Unity 6)
 - [Cairn technical art deep dive: Rendering gameplay-specific rock materials on top of level design](https://unity.com/blog/cairn-technical-art-rendering-gameplay-rock-materials): Using 3D blendmaps and compute shaders to keep climbable rock surfaces consistent between visuals and gameplay. (Unity, 2026-04-17, article, Unity-6 era)
 - [Terrain and mesh blending in URP (tutorial with code)](https://www.patreon.com/posts/152116212): Post with shaders and code to blend a mesh smoothly into an environment mesh or terrain in URP. (MinionsArt, 2026-03-04, post, Unity-6 era)
 - [Terrain/Mesh Blending for URP](https://www.patreon.com/posts/terrain-mesh-urp-152116212): Patreon post on blending terrain and mesh surfaces together in URP. (MinionsArt, 2026-03-01, post, Unity-6 era, URP)
+- [Marching Cubes: how it works](https://moonjump.com/game-dev-mechanics-marching-cubes-how-it-works/): Learn how Marching Cubes converts a 3D scalar field into a smooth triangle mesh for metaballs and volumetric terrain. (Moonjump, 2025-12-08, article, Unity-6 era)
+- [Noise Functions (Perlin & Simplex): how it works](https://moonjump.com/game-dev-mechanics-noise-functions-perlin-simplex-how-it-works/): Learn how Perlin and Simplex noise generate coherent randomness for procedural terrain, textures, and animation. (Moonjump, 2025-12-05, article, Unity-6 era)
 - [Unity Shader Graph Basics (Part 11 - Terrains)](https://danielilett.com/2025-10-12-tut9-11-terrains/): Samples terrain control and splat textures in Shader Graph to shade Unity terrains. (Daniel Ilett, 2025-10-12, article, Unity-6 era)
+- [Procedural Terrain Generation: how it works](https://moonjump.com/game-dev-mechanics-procedural-terrain-generation-how-it-works/): Learn how Perlin noise, fractal Brownian motion and domain warping combine to generate believable procedural landscapes. (Moonjump, 2025-10-12, article, Unity-6 era)
 - [Level layout and terrain workflows in Survival Kids](https://unity.com/blog/level-layout-and-terrain-workflows-in-survival-kids): Terrain and level-building workflows built for fast iteration and fewer reworks in Survival Kids. (Unity, 2025-09-03, article, Unity-6 era)
 - [Deus Ex – Alpha Terrain](https://simonschreibt.de/gat/deus-ex-alpha-terrain/): Explains how Deus Ex alpha terrain blends with stone objects. (Simon Schreibt, 2023-05-28, article, Unity-2022 era)
 - [GitHub - sichenn/odradek-terrain-scanner: Odradek Terrain Scanner from Death Stranding (Unity)](https://github.com/sichenn/odradek-terrain-scanner): Repo: Death Stranding Odradek terrain scanner effect in Unity. (2023-04-30, repo, Unity-2022 era)

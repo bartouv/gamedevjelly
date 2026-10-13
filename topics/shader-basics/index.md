@@ -1,6 +1,6 @@
 # Shader basics & recipes
 
-> Shaders & rendering · 30 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 35 hand-filtered guides on GamedevJelly, newest first.
 
 - [Understanding Unity shader structure](https://jettelly.com/blog/understanding-unity-shader-structure): Quick look at what goes into a Unity shader: ShaderLab, HLSL and related pieces. (Jettelly, 2026-08-21, article, Unity-6 era)
 - [Unity VFX Graph - Portal Effect Tutorial](https://www.youtube.com/watch?v=z5uJA4Ay-Po): Create a portal using VFX Graph and Shader Graph, with a Blender circle mesh and Material Maker noise textures. (Gabriel Aguiar Prod., 2026-07-22, video, Unity-6 era)
@@ -8,6 +8,11 @@
 - [Custom Shader FX Nodes - No Boilerplate](https://www.youtube.com/watch?v=uFYLIdYXntk): Discover Unity 6.5’s powerful new Shader Function Reflection API. Write normal HLSL functions, add minimal boilerplate, and Unity automatically turns them into fully-featured Shader Graph nodes with p (git-amend, 2026-06-21, video, Unity-6 era)
 - [Unity VFX Graph - Waterfall Effect Tutorial](https://www.youtube.com/watch?v=uFcTWm40fCA): Create a waterfall with VFX Graph and Shader Graph, including the Blender meshes, waterfall shader and ripples. (Gabriel Aguiar Prod., 2026-05-27, video, Unity-6 era)
 - [Unity VFX Graph - Black Hole Effect Tutorial](https://www.youtube.com/watch?v=7iai1U150Io): Build a black hole with VFX Graph and Shader Graph, covering a fresnel shader, ring meshes and a scrolling shader. (Gabriel Aguiar Prod., 2026-05-13, video, Unity-6 era)
+- [Normal Mapping: how it works](https://moonjump.com/game-dev-mechanics-normal-mapping-how-it-works/): Covers tangent space and the TBN matrix, with a shader implementation that adds surface detail to flat polygons. (Moonjump, 2026-02-04, article, Unity-6 era)
+- [Bloom (Post-Processing): how it works](https://moonjump.com/game-dev-mechanics-bloom-post-processing-how-it-works/): Breaks down bloom into brightness extraction, Gaussian blur, and HDR compositing, with math and shader code. (Moonjump, 2026-01-31, article, Unity-6 era)
+- [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
+- [Metaballs & Implicit Surfaces: how it works](https://moonjump.com/game-dev-mechanics-metaballs-implicit-surfaces-how-it-works/): Explains scalar fields and falloff functions that merge organic blobby shapes, plus real-time GPU rendering approaches. (Moonjump, 2026-01-21, article, Unity-6 era)
+- [Ray Marching & Signed Distance Fields: how it works](https://moonjump.com/game-dev-mechanics-ray-marching-signed-distance-fields-how-it-works/): Learn how signed distance fields and ray marching render complex 3D shapes from mathematical functions on the GPU. (Moonjump, 2025-12-26, article, Unity-6 era)
 - [Unity Shader Code Basics 01 - Your First Shader](https://danielilett.com/2025-10-15-tut10-01-your-first-shader/): Introduces writing HLSL shader code in Unity, where Shader Graph falls short. (Daniel Ilett, 2025-10-15, article, Unity-6 era)
 - [@halisavakis.com: HLSL function declared in one file, defined in another](https://bsky.app/profile/halisavakis.com/post/3lyhyn55eyc2l): Shader tip: split declaration and definition across include files so passes share code while implementations vary. (Harry Alisavakis, 2025-09-10, post, Unity-6 era)
 - [Unity Shader Graph Basics (Part 10 - Custom Functions)](https://danielilett.com/2024-07-09-tut7-14-intro-to-shader-graph-part-10/): Injects custom HLSL functions into Shader Graph, including access to additional point light data. (Daniel Ilett, 2024-07-09, article, Unity-2022 era)

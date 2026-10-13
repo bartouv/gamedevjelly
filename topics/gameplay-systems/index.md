@@ -1,6 +1,6 @@
 # Gameplay systems & mechanics
 
-> Gameplay & systems · 171 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 174 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
@@ -25,12 +25,15 @@
 - [Unity Input System: The Basics (Part 1)](https://www.youtube.com/watch?v=aMFYcwv5g78): Introduces the Unity Input System basics: setup, actions and reading player input. (Gamedev Engine Room, 2026-02-04, video, Unity-6 era)
 - [Complete Rebindable Controls Tutorial | Unity Input System](https://www.youtube.com/watch?v=y6oXjn0PSDs): Builds a complete rebindable controls system with Unity's Input System. (Game Dev Guide, 2026-01-28, video, Unity-6 era)
 - [Hex Map 5.0: New Input System](https://catlikecoding.com/unity/hex-map/5-0-0/): Hex Map 5.0 update switching to the new Input System. (Catlike Coding, 2026-01-19, article, Unity-6 era)
+- [Projectile Trajectories & Ballistics: how it works](https://moonjump.com/game-dev-mechanics-projectile-trajectories-ballistics-how-it-works/): Covers kinematic equations, inverse aiming solutions, and arc visualization for projectiles like grenades and artillery shells. (Moonjump, 2026-01-13, article, Unity-6 era)
 - [A Beginner's Guide to Cabinet Doors in Unity](https://www.youtube.com/watch?v=yPucoDXaoeQ): Beginner guide to making openable cabinet doors in Unity. (gamedev:hq, 2025-11-13, video, Unity-6 era)
+- [Finite State Machines: how it works](https://moonjump.com/game-dev-mechanics-finite-state-machines-how-it-works/): Learn how finite state machines drive enemy AI and how to build your own with states, transitions, and hierarchies. (Moonjump, 2025-11-13, article, Unity-6 era)
 - [Beginner's Guide to Exploding Tanks in Unity](https://www.youtube.com/watch?v=32KHX1yqStU): Beginner guide to making tanks explode in Unity. (gamedev:hq, 2025-11-06, video, Unity-6 era)
 - [Vault Door Animation in Unity for Beginners](https://www.youtube.com/watch?v=JcRveafA3yE): Beginner guide to animating a vault door in Unity. (gamedev:hq, 2025-10-23, video, Unity-6 era)
 - [Beginner's Guide to Using Raycasting in your Game](https://www.youtube.com/watch?v=81lhivk4AxI): Beginner guide to raycasting in Unity. (gamedev:hq, 2025-10-16, video, Unity-6 era)
 - [Beginner's guide to making a live Surveillance Feed in Unity](https://www.youtube.com/watch?v=T1rKyH07pW8): Beginner guide to a live surveillance camera feed in Unity. (gamedev:hq, 2025-10-09, video, Unity-6 era)
 - [Balancing animation fluidity with player inputs in Bye Sweet Carole](https://unity.com/blog/bye-sweet-carole-animation-fluidity-player-inputs): Balancing hand-drawn animation fluidity against responsive player input in a 2.5D horror game. (Unity, 2025-10-09, article, Unity-6 era)
+- [Spring Physics: how it works](https://moonjump.com/game-dev-mechanics-spring-physics-how-it-works/): Learn Hooke's Law, numerical integration and spring chains for bouncy platforms, ropes, camera lag and ragdoll-style effects. (Moonjump, 2025-10-05, article, Unity-6 era)
 - [Beginner's guide to Automatic Doors in Unity](https://www.youtube.com/watch?v=Thx01nUrAew): Beginner guide to automatic doors in Unity. (gamedev:hq, 2025-10-02, video, Unity-6 era)
 - [Beginner's Guide to SMGs in Unity](https://www.youtube.com/watch?v=32rZzCnCDjQ): Beginner guide to building SMG weapons in Unity. (gamedev:hq, 2025-09-25, video, Unity-6 era)
 - [Beginner's Guide to Shooting Handguns in Unity](https://www.youtube.com/watch?v=JqJxEhJ94EM): Beginner guide to shooting handguns in Unity. (gamedev:hq, 2025-09-18, video, Unity-6 era)
@@ -149,6 +152,3 @@
 - [Object Management: Shape Behavior](https://catlikecoding.com/unity/tutorials/object-management/shape-behavior/): Object management tutorial adding modular behavior to shapes. (Catlike Coding, 2018-12-21, article, Unity-old era)
 - [Object Management: More Factories](https://catlikecoding.com/unity/tutorials/object-management/more-factories/): Object management tutorial on composite shapes and multiple shape factories. (Catlike Coding, 2018-11-24, article, Unity-old era)
 - [Object Management: Configuring Shapes](https://catlikecoding.com/unity/tutorials/object-management/configuring-shapes/): Object management tutorial on configuring and moving shapes. (Catlike Coding, 2018-10-25, article, Unity-old era)
-- [Object Management: Spawn Zones](https://catlikecoding.com/unity/tutorials/object-management/spawn-zones/): Object management tutorial on spawn zones per level. (Catlike Coding, 2018-08-23, article, Unity-old era)
-- [Object Management: Multiple Scenes](https://catlikecoding.com/unity/tutorials/object-management/multiple-scenes/): Object management tutorial on working with multiple scenes. (Catlike Coding, 2018-07-16, article, Unity-old era)
-- [Object Management: Object Variety](https://catlikecoding.com/unity/tutorials/object-management/object-variety/): Object management tutorial supporting multiple shapes, materials and colors. (Catlike Coding, 2018-05-15, article, Unity-old era)

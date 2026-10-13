@@ -1,7 +1,8 @@
 # Toon & cel shading
 
-> Stylized looks · 22 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 23 hand-filtered guides on GamedevJelly, newest first.
 
+- [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
 - [Half Past Yellow on the gentle art of making enemies for Tempest Tower](https://unity.com/blog/half-past-yellow-creating-enemy-visuals-tempest-tower): How the crisp, clayish enemy look in a tower defense game was achieved. (Unity, 2025-04-21, article, Unity-6 era)
 - [@halisavakis.com: depth-offset rim lighting that follows light direction](https://bsky.app/profile/halisavakis.com/post/3lbbatqiwg22l): Stylized rim light from depth offset instead of thresholded fresnel, reacting to light direction; pairs well with cel shading. (Harry Alisavakis, 2024-11-19, post, Unity-6 era)

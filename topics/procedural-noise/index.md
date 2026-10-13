@@ -1,8 +1,11 @@
 # Noise & procedural textures
 
-> Procedural & math · 27 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 30 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
+- [Voronoi Diagrams: how it works](https://moonjump.com/game-dev-mechanics-voronoi-diagrams-how-it-works/): Explains Voronoi partitioning and its uses in map generation, fracture, Worley noise, and GPU signed distance fields. (Moonjump, 2026-01-06, article, Unity-6 era)
+- [Noise Functions (Perlin & Simplex): how it works](https://moonjump.com/game-dev-mechanics-noise-functions-perlin-simplex-how-it-works/): Learn how Perlin and Simplex noise generate coherent randomness for procedural terrain, textures, and animation. (Moonjump, 2025-12-05, article, Unity-6 era)
+- [Procedural Terrain Generation: how it works](https://moonjump.com/game-dev-mechanics-procedural-terrain-generation-how-it-works/): Learn how Perlin noise, fractal Brownian motion and domain warping combine to generate believable procedural landscapes. (Moonjump, 2025-10-12, article, Unity-6 era)
 - [@alanzucconi.com: noise shader makes a game impossible to screenshot](https://bsky.app/profile/alanzucconi.com/post/3lcvd3j4vh22e): Horror game uses a noise shader so the hidden content only reads in motion; stills look like static. (Alan Zucconi, 2024-12-09, post, Unity-6 era)
 - [Voronoi-based Lava in Unity Shader Graph](https://danielilett.com/2023-06-20-tut7-2-voronoi-lava/): Builds animated lava in Shader Graph using custom Voronoi noise that exposes cell edges. (Daniel Ilett, 2023-06-20, article, Unity-2022 era)
 - [Procedural scales setup in Shader Graph](https://mastodon.gamedev.place/@Cyanilux/109802160890634216): Post showing a procedural scales pattern built in Shader Graph. (Cyan, 2023-02-03, post, Unity-2022 era)

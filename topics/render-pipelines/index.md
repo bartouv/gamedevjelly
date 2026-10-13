@@ -1,6 +1,6 @@
 # Render pipelines & SRP
 
-> Shaders & rendering · 58 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 61 hand-filtered guides on GamedevJelly, newest first.
 
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Custom SRP 7.2: Separate Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-2/): Custom SRP tutorial introducing separate shadow passes. (Catlike Coding, 2026-09-18, article, Unity-6 era)
@@ -13,7 +13,10 @@
 - [Custom SRP 6.1: Showing Color LUT](https://catlikecoding.com/unity/custom-srp/6-1-0/): Custom SRP tutorial showing the color LUT for color grading. (Catlike Coding, 2026-03-27, article, Unity-6 era)
 - [Rendering at 500 km/h in Gear.Club Unlimited 3](https://unity.com/blog/eden-games-gear-club-unlimited-3): Rendering tech behind a racing game: GPU-driven architecture, ray tracing and 60 fps at high speed. (Unity, 2026-03-25, article, Unity-6 era)
 - [How Toca Boca Built a High-performance Scalable Rendering Backend](https://unity.com/blog/how-toca-boca-built-a-high-performance-scalable-rendering-backend): Custom Batch Renderer used to render many avatars efficiently and at scale. (Unity, 2026-03-20, article, Unity-6 era)
+- [Screen Space Ambient Occlusion (SSAO): how it works](https://moonjump.com/game-dev-mechanics-screen-space-ambient-occlusion-ssao-how-it-works/): Covers the SSAO algorithm from the AO integral and depth sampling through hemisphere kernels and noise rotation. (Moonjump, 2026-03-08, article, Unity-6 era)
+- [GPU Instancing: how it works](https://moonjump.com/game-dev-mechanics-gpu-instancing-how-it-works/): Explains how uploading one mesh plus per-instance transforms collapses thousands of draw calls into one. (Moonjump, 2026-01-10, article, Unity-6 era)
 - [Custom SRP 6.0: Unity 6.3](https://catlikecoding.com/unity/custom-srp/6-0-0/): Custom SRP tutorial upgrading to Unity 6.3. (Catlike Coding, 2025-12-22, article, Unity 6)
+- [Shadow Mapping: how it works](https://moonjump.com/game-dev-mechanics-shadow-mapping-how-it-works/): Learn how two-pass shadow mapping works, including bias, PCF filtering, and cascaded shadow maps for large worlds. (Moonjump, 2025-11-28, article, Unity-6 era)
 - [Zelda Recall Rune in Unity URP](https://danielilett.com/2025-10-11-tut7-16-recall-rune/): Recreates the Zelda Recall Rune effect by drawing chosen objects to a mask and outlining them in URP. (Daniel Ilett, 2025-10-11, article, Unity-6 era, URP)
 - [Custom SRP 5.1: Raster Render Passes](https://catlikecoding.com/unity/custom-srp/5-1-0/): Custom SRP tutorial using raster render passes. (Catlike Coding, 2025-09-30, article, Unity-6 era)
 - [How we use visual effects to build atmosphere in our cRPG, Glasshouse](https://unity.com/blog/glasshouse-flat28-building-atmosphere-hdrp): Using HDRP and visual effects to build the moody feudalpunk atmosphere of a CRPG. (Unity, 2025-09-29, article, Unity-6 era)

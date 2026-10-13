@@ -1,12 +1,13 @@
 # 2D games
 
-> Platforms · 45 hand-filtered guides on GamedevJelly, newest first.
+> Platforms · 46 hand-filtered guides on GamedevJelly, newest first.
 
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [Breaking down Moon Reader's 2.5D pixel art style in Unity](https://jettelly.com/blog/breaking-down-moon-reader-s-2-5d-pixel-art-style): How a 2.5D pixel art look was made in Unity, simpler than it appears. (Jettelly, 2026-07-28, article, Unity-6 era)
 - [Create an Asteroids Game - Full Unity Tutorial for Beginners](https://www.youtube.com/watch?v=zt3zbbYwObE): Full beginner tutorial for making an Asteroids game in Unity. (Game Dev Guide, 2026-06-22, video, Unity-6 era)
 - [Unity 2D Crash Course - Making A Complete Asteroids Game](https://www.youtube.com/watch?v=QGeru-kYxHY): Unity 2D crash course building a complete Asteroids game. (Game Dev Guide, 2026-03-05, video, Unity-6 era)
 - [How to make a 2D game: art, animation, and lighting for artists (Unity 6.3 LTS edition)](https://unity.com/resources/2d-game-art-animation-lighting-unity-6-3-lts): Unity 6.3 LTS guide to 2D: project setup, sprite workflows, tilemaps, animation and lighting. (Unity, 2026-02-16, article, Unity-6 era)
+- [Parallax Scrolling: how it works](https://moonjump.com/game-dev-mechanics-parallax-scrolling-how-it-works/): Explains how moving background layers at different speeds creates depth, with the math and implementation patterns. (Moonjump, 2026-01-24, article, Unity-6 era)
 - [Tips on Editor workflows, debugging, and 2D best practices in Unity 6](https://unity.com/blog/editor-workflows-debugging-2d-best-practices-unity-6): Unity 6 Editor workflow, debugging and 2D tips for saving time throughout development. (Unity, 2025-07-25, article, Unity-6 era)
 - [Hue-shifting colours for nicer shadows](https://bsky.app/profile/gamemakerstoolkit.com/post/3lrxecikwz22a): Colour tip: darken shadows by shifting hue as well as brightness to avoid muddy tones. (Game Maker's Toolkit, 2025-06-19, post, Unity-6 era)
 - [Find a treasure trove of lighting and visual effects in our new match-3 sample Gem Hunter Match](https://unity.com/blog/engine-platform/2d-puzzle-match-3-sample-gem-hunter-match): Match-3 sample showing how URP lighting and visual effects make a 2D puzzle game stand out. (Unity, 2024-04-29, article, Unity-2022 era)

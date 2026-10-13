@@ -1,6 +1,6 @@
 # AI, pathfinding & boids
 
-> Gameplay & systems · 28 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 35 hand-filtered guides on GamedevJelly, newest first.
 
 - [Why you should switch to NavWorld in Unity 6.6](https://www.youtube.com/watch?v=rFyHcozTF3Y): NavWorld is Unity 6.6’s way to query a NavMesh from a job. This video covers what that handle actually is, how it picks up the surfaces and links you already loaded, and why CalculatePath on the main (git-amend, 2026-10-04, video, Unity-6 era)
 - [Moving two million soldiers in Unity with compute shaders and flow fields](https://jettelly.com/blog/making-two-million-soldiers-move-in-unity): How compute shaders and flow fields drive two million units at about 11 ms per frame. (Jettelly, 2026-09-27, article, Unity-6 era)
@@ -14,6 +14,13 @@
 - [How to Build Realistic AI Perception and Memory in Unity](https://www.youtube.com/watch?v=IspRyEDPCgM): Building a clean implementation of the Target Tracks Perception System from Game AI Pro. Instead of giving AI agents perfect information, we create a system where they can only perceive what they see (git-amend, 2026-06-07, video, Unity-6 era)
 - [Coding Adventure: Improving my Rubik's Cube Solver](https://www.youtube.com/watch?v=Eysf6-E3ino) (Sebastian Lague, 2026-06-03, video, Unity-6 era)
 - [Coding Adventure: Rubik's Cube](https://www.youtube.com/watch?v=fy0HRViXZnE) (Sebastian Lague, 2026-05-07, video, Unity-6 era)
+- [Navigation Meshes (NavMesh): how it works](https://moonjump.com/game-dev-mechanics-navigation-meshes-navmesh-how-it-works/): Explains how navmeshes decompose walkable space into convex polygons, from Recast generation to the funnel algorithm. (Moonjump, 2026-02-26, article, Unity-6 era)
+- [Flow Fields: how it works](https://moonjump.com/game-dev-mechanics-flow-fields-how-it-works/): Shows how a single vector field built in three layers guides hundreds of agents efficiently, as in RTS games. (Moonjump, 2026-01-17, article, Unity-6 era)
+- [Behavior Trees: how it works](https://moonjump.com/game-dev-mechanics-behavior-trees-how-it-works/): Explains how Selectors, Sequences, and leaf nodes combine into modular hierarchical AI, with an interactive demo. (Moonjump, 2025-12-30, article, Unity-6 era)
+- [Finite State Machines: how it works](https://moonjump.com/game-dev-mechanics-finite-state-machines-how-it-works/): Learn how finite state machines drive enemy AI and how to build your own with states, transitions, and hierarchies. (Moonjump, 2025-11-13, article, Unity-6 era)
+- [Steering Behaviors: how it works](https://moonjump.com/game-dev-mechanics-steering-behaviors-how-it-works/): Learn Reynolds' Seek, Flee, Arrive, and Wander steering behaviors using vector math for natural autonomous movement. (Moonjump, 2025-11-10, article, Unity-6 era)
+- [A* Pathfinding: how it works](https://moonjump.com/game-dev-mechanics-a-pathfinding-how-it-works/): Learn how A* combines exact movement costs with heuristic estimates to find shortest paths efficiently. (Moonjump, 2025-10-19, article, Unity-6 era)
+- [Flocking with Boids: how it works](https://moonjump.com/game-dev-mechanics-flocking-with-boids-how-it-works/): Learn how separation, alignment and cohesion rules combine to produce convincing flocking behavior. (Moonjump, 2025-10-01, article, Unity-6 era)
 - [Exploring procedural design in Rain World: The Watcher](https://unity.com/blog/exploring-procedural-design-rain-world): Procedural animation and emergent enemy behaviors that drive Rain World's living ecosystem. (Unity, 2025-09-25, article, Unity-6 era)
 - [Hierarchical AI state system from Bad North (thread)](https://bsky.app/profile/oskarstalberg.bsky.social/post/3lbekwegpfc2v): Thread on Bad North's nested state hierarchy AI, its cache-miss costs and a source-generated alternative. (Oskar Stålberg, 2024-11-20, post, Unity-6 era)
 - [The Genius AI Behind The Sims](https://www.youtube.com/watch?v=9gf2MT-IOsg): Explains The Sims' utility-based AI where objects advertise needs that drive character behaviour. (Game Maker's Toolkit, 2023-06-30, video, Unity-2022 era)

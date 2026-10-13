@@ -1,6 +1,6 @@
 # C# & architecture
 
-> Engineering · 109 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 111 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Is Replacing Your Runtime. Are You Ready?](https://www.youtube.com/watch?v=yCyuLvA_g74): What Unity's move from Mono to CoreCLR changes in practice, including what may break builds or workflows. (Gamedev Engine Room, 2026-10-08, video, Unity-6 era)
 - [High Performance Unity Game Development: using data-oriented design (Manning)](https://manning.com/books/high-performance-unity-game-development): The book behind the data-oriented design approach: structure a Unity game around arrays of data and pure logic for high frame rates on limited hardware. (Nitzan Wilnai, 2026-10-01, article, Unity-6 era)
@@ -32,10 +32,12 @@
 - [I Upgraded Unity to C# 14 - Here's What Changed](https://www.youtube.com/watch?v=9BO4gkp90Do): Walks through upgrading Unity to C# 14 and which language features actually change your code. (Gamedev Engine Room, 2026-01-28, video, Unity-6 era)
 - [NuGet in Unity: The Definitive Guide](https://www.youtube.com/watch?v=6mMnvk7hfHg): Explains how to use NuGet packages in Unity projects, with setup options and pitfalls. (Gamedev Engine Room, 2026-01-07, video, Unity-6 era)
 - [Unity Metaprogramming: Reflection, Source Generators, IL Weaving](https://www.youtube.com/watch?v=Omi2V-JuYLg): Compares Unity metaprogramming techniques: reflection, Roslyn source generators, IL weaving and Reflection.Emit. (Gamedev Engine Room, 2025-12-30, video, Unity-6 era)
+- [Behavior Trees: how it works](https://moonjump.com/game-dev-mechanics-behavior-trees-how-it-works/): Explains how Selectors, Sequences, and leaf nodes combine into modular hierarchical AI, with an interactive demo. (Moonjump, 2025-12-30, article, Unity-6 era)
 - [@freya.bsky.social: many game quantities are better as rational numbers than flo](https://bsky.app/profile/freya.bsky.social/post/3maji47rnts2k): Time, UI sliders and line intersections can be exact fractions, avoiding float rounding issues. (Freya Holmér, 2025-12-21, post, Unity-6 era)
 - [Fun And "Magical" C# Features](https://www.youtube.com/watch?v=IO3vYSaf4GQ): Demonstrates obscure C# features like custom awaiters and undocumented keywords, and when they matter. (Gamedev Engine Room, 2025-12-11, video, Unity-6 era)
 - [Top Useless C# Features (Part 1)](https://www.youtube.com/watch?v=dYyTU6J7vPg): Shows rarely used C# features and explains when they are actually useful in game code. (Gamedev Engine Room, 2025-12-04, video, Unity-6 era)
 - [Everyone's Wrong About For vs Foreach - I Ran The Benchmarks](https://www.youtube.com/watch?v=fWItdpi0c8o): Benchmarks for versus foreach loops in C# and Unity to see which is actually faster. (Gamedev Engine Room, 2025-11-13, video, Unity-6 era)
+- [Finite State Machines: how it works](https://moonjump.com/game-dev-mechanics-finite-state-machines-how-it-works/): Learn how finite state machines drive enemy AI and how to build your own with states, transitions, and hierarchies. (Moonjump, 2025-11-13, article, Unity-6 era)
 - [UniTask Best Practices - Better Async Code in Unity](https://www.youtube.com/watch?v=VvONeAfSO0A): Best practices for UniTask in Unity: cancellation, error handling and efficient asynchronous code. (Gamedev Engine Room, 2025-10-24, video, Unity-6 era)
 - [Async Programming in Unity - What You NEED To Know](https://www.youtube.com/watch?v=fMZ8ErK3YEI): Explains async programming options in Unity: coroutines, async/await and UniTask, and when to use each. (Gamedev Engine Room, 2025-10-17, video, Unity-6 era)
 - [Level Up Your Unity Game: Master Dependency Injection with VContainer!](https://www.youtube.com/watch?v=G3dzcKoo62U): Hands-on dependency injection in Unity using VContainer: registering, injecting and structuring game code. (Gamedev Engine Room, 2025-09-26, video, Unity-6 era)

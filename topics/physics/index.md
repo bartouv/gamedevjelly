@@ -1,6 +1,6 @@
 # Physics & collisions
 
-> Gameplay & systems · 55 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 65 hand-filtered guides on GamedevJelly, newest first.
 
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
 - [How Rust LTD Built The Deep Firearm Simulation in Hot Dogs, Horseshoes & Hand Grenades 2](https://unity.com/blog/rust-ltd-hot-dogs-horseshoes-hand-grenades-2): ECS ballistics, custom firearm physics and Quest 3 frame budgeting in a VR firearm simulator. (Unity, 2026-09-25, article, Unity-6 era)
@@ -12,7 +12,17 @@
 - [Smoothing tire grip over time to fix jitter and sliding in Unity](https://youtu.be/2d_kAyWs1_A): PaceGame fixes jittering and sliding by smoothing how tire grip is applied across frames. (Jettelly, 2026-05-03, video, Unity-6 era)
 - [Barely Breathing: state-based physics controller for a fish](https://jettelly.com/blog/barely-breathing-a-state-based-physics-controller-for-a-fish-in-a-3d-platformer): Player movement changes with environment through a state-based physics system in Unity. (Jettelly, 2026-04-20, article, Unity-6 era)
 - [Networking a Physics Co-op Game: LEGO Voyagers](https://unity.com/blog/light-brick-studio-lego-voyagers): Retrofitting online co-op into a physics-heavy project late in development. (Unity, 2026-02-26, article, Unity-6 era)
+- [Octrees: how it works](https://moonjump.com/game-dev-mechanics-octrees-how-it-works/): Explains octree space partitioning and how it speeds up spatial queries such as collision detection and frustum culling. (Moonjump, 2026-02-11, article, Unity-6 era)
+- [Projectile Trajectories & Ballistics: how it works](https://moonjump.com/game-dev-mechanics-projectile-trajectories-ballistics-how-it-works/): Covers kinematic equations, inverse aiming solutions, and arc visualization for projectiles like grenades and artillery shells. (Moonjump, 2026-01-13, article, Unity-6 era)
+- [Verlet Integration: how it works](https://moonjump.com/game-dev-mechanics-verlet-integration-how-it-works/): Breaks down the position Verlet formula and Jakobsen's constraint relaxation for simulating cloth, rope, and ragdolls. (Moonjump, 2026-01-03, article, Unity-6 era)
+- [Separating Axis Theorem (SAT): how it works](https://moonjump.com/game-dev-mechanics-separating-axis-theorem-sat-how-it-works/): Learn how SAT detects convex-shape collisions and how to compute the Minimum Translation Vector for physics resolution. (Moonjump, 2025-12-23, article, Unity-6 era)
+- [Rigid Body Physics: how it works](https://moonjump.com/game-dev-mechanics-rigid-body-physics-how-it-works/): Learn how impulse-based collision response works, the math behind major physics engines, with an interactive simulation. (Moonjump, 2025-11-17, article, Unity-6 era)
+- [Spatial Hashing: how it works](https://moonjump.com/game-dev-mechanics-spatial-hashing-how-it-works/): Learn how a uniform grid and hash map reduce collision checks from O(n²) to near-linear by finding only nearby pairs. (Moonjump, 2025-11-06, article, Unity-6 era)
+- [Rope & Cloth Physics: how it works](https://moonjump.com/game-dev-mechanics-rope-cloth-physics-how-it-works/): Learn how Verlet integration and distance constraints simulate ropes, capes, and flags in real time. (Moonjump, 2025-10-30, article, Unity-6 era)
+- [Raycasting: how it works](https://moonjump.com/game-dev-mechanics-raycasting-how-it-works/): Learn the DDA raycasting algorithm from first principles, plus its uses in picking and AI line-of-sight. (Moonjump, 2025-10-23, article, Unity-6 era)
 - [Beginner's Guide to Using Raycasting in your Game](https://www.youtube.com/watch?v=81lhivk4AxI): Beginner guide to raycasting in Unity. (gamedev:hq, 2025-10-16, video, Unity-6 era)
+- [Quadtrees: how it works](https://moonjump.com/game-dev-mechanics-quadtrees-how-it-works/): Learn how quadtrees recursively divide 2D space to speed up collision detection and scene queries, including the algorithm and math. (Moonjump, 2025-10-08, article, Unity-6 era)
+- [Spring Physics: how it works](https://moonjump.com/game-dev-mechanics-spring-physics-how-it-works/): Learn Hooke's Law, numerical integration and spring chains for bouncy platforms, ropes, camera lag and ragdoll-style effects. (Moonjump, 2025-10-05, article, Unity-6 era)
 - [How Games Do Destruction](https://www.youtube.com/watch?v=JZ9GRFD-mSc): Surveys how games implement destructible environments, from scripted breakage to physics-driven simulation. (Game Maker's Toolkit, 2025-10-02, video, Unity-6 era)
 - [Orbital Mechanics](https://www.alanzucconi.com/2025/09/04/orbital-mechanics/): Teaches orbital mechanics basics, from gravity simulation to Keplerian two-body orbits. (Alan Zucconi, 2025-09-04, article, Unity-6 era)
 - [Unity Workshop: Explosive Force Against Other Objects](https://www.youtube.com/watch?v=_3QxHbBVdhg): Workshop on applying explosive force to nearby objects in Unity. (gamedev:hq, 2025-07-26, video, Unity-6 era)

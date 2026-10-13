@@ -1,6 +1,6 @@
 # Lighting & shadows
 
-> Shaders & rendering · 84 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 87 hand-filtered guides on GamedevJelly, newest first.
 
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Custom SRP 7.2: Separate Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-2/): Custom SRP tutorial introducing separate shadow passes. (Catlike Coding, 2026-09-18, article, Unity-6 era)
@@ -9,8 +9,11 @@
 - [Unity Shader Code Basics 07 - Physically Based Rendering](https://danielilett.com/2026-04-28-tut10-07-pbr/): Describes surfaces by albedo, metallic, smoothness and height to build a physically based shader in HLSL for Unity. (Daniel Ilett, 2026-04-28, article, Unity-6 era)
 - [Unity Shader Code Basics 06 - Lighting & Shadows](https://danielilett.com/2026-04-17-tut10-06-lighting/): Loops over lights for diffuse, specular, Fresnel and ambient lighting and handles shadows in Unity shader code. (Daniel Ilett, 2026-04-17, article, Unity-6 era)
 - [@freya.bsky.social: analytic 2D lighting with complex numbers and conformal maps](https://bsky.app/profile/freya.bsky.social/post/3mhwni2jhis2b): Shader lighting via piecewise conformal maps of angular exposure yields fully analytic penumbras. (Freya Holmér, 2026-03-26, post, Unity-6 era)
+- [Screen Space Ambient Occlusion (SSAO): how it works](https://moonjump.com/game-dev-mechanics-screen-space-ambient-occlusion-ssao-how-it-works/): Covers the SSAO algorithm from the AO integral and depth sampling through hemisphere kernels and noise rotation. (Moonjump, 2026-03-08, article, Unity-6 era)
 - [How to make a 2D game: art, animation, and lighting for artists (Unity 6.3 LTS edition)](https://unity.com/resources/2d-game-art-animation-lighting-unity-6-3-lts): Unity 6.3 LTS guide to 2D: project setup, sprite workflows, tilemaps, animation and lighting. (Unity, 2026-02-16, article, Unity-6 era)
+- [Volumetric Lighting (God Rays): how it works](https://moonjump.com/game-dev-mechanics-volumetric-lighting-god-rays-how-it-works/): Explains light scattering, the Beer-Lambert law, and the screen-space radial blur used for god rays. (Moonjump, 2026-02-15, article, Unity-6 era)
 - [Unity Shader Code Basics 04 - The Depth Buffer](https://danielilett.com/2026-01-02-tut10-04-depth/): Reads the depth buffer in hand-written Unity shaders to build depth-based effects. (Daniel Ilett, 2026-01-02, article, Unity-6 era)
+- [Shadow Mapping: how it works](https://moonjump.com/game-dev-mechanics-shadow-mapping-how-it-works/): Learn how two-pass shadow mapping works, including bias, PCF filtering, and cascaded shadow maps for large worlds. (Moonjump, 2025-11-28, article, Unity-6 era)
 - [Red Mage job stone shader walkthrough](https://bobacupcake.com/posts/2025-11-04-red-mage-job-stone-shader-walkthrough): Getting a cut gemstone to sparkle through bevelled geometry choices and specular shader setup. (rob (bobacupcake), 2025-11-04, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
 - [How to create atmospheric environments on a budget](https://unity.com/blog/how-to-create-atmospheric-environments-on-a-budget): Building cinematic atmospheric environments with HDRP and volumetric lighting while keeping performance budget low. (Unity, 2025-08-22, article, Unity-6 era)

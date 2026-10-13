@@ -1,7 +1,8 @@
 # Outlines & edge detection
 
-> Stylized looks · 12 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 13 hand-filtered guides on GamedevJelly, newest first.
 
+- [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Zelda Recall Rune in Unity URP](https://danielilett.com/2025-10-11-tut7-16-recall-rune/): Recreates the Zelda Recall Rune effect by drawing chosen objects to a mask and outlining them in URP. (Daniel Ilett, 2025-10-11, article, Unity-6 era, URP)
 - [Cyberpunk: Broken Edges](https://simonschreibt.de/gat/cyberpunk-broken-edges/): Looks at broken edges and outline artifacts in Cyberpunk. (Simon Schreibt, 2025-02-10, article, Unity-6 era)
 - [Screen buffer based depth outline shader](https://gist.github.com/BrianAmadori/72230debd937c45e92795a2200e2792c): Gist: Depth outline shader using the screen buffer. (2023-05-30, article, Unity-2022 era)

@@ -1,8 +1,10 @@
 # Raymarching & SDF
 
-> Procedural & math · 45 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 47 hand-filtered guides on GamedevJelly, newest first.
 
 - [Distance-field textures for infinitely sharp maps](https://bsky.app/profile/alexstrook.bsky.social/post/3mf6m7ajwrk2r): Using distance-field textures in shaders to render crisp, vector-like map lines at any zoom. (Alex Strook, 2026-02-19, post, Unity-6 era)
+- [Metaballs & Implicit Surfaces: how it works](https://moonjump.com/game-dev-mechanics-metaballs-implicit-surfaces-how-it-works/): Explains scalar fields and falloff functions that merge organic blobby shapes, plus real-time GPU rendering approaches. (Moonjump, 2026-01-21, article, Unity-6 era)
+- [Ray Marching & Signed Distance Fields: how it works](https://moonjump.com/game-dev-mechanics-ray-marching-signed-distance-fields-how-it-works/): Learn how signed distance fields and ray marching render complex 3D shapes from mathematical functions on the GPU. (Moonjump, 2025-12-26, article, Unity-6 era)
 - [Coding Adventure: Ray-Tracing Glass](https://www.youtube.com/watch?v=wA1KVZ1eOuA) (Sebastian Lague, 2025-08-16, video, Unity-6 era)
 - [Rendering Tiny Glades With Entirely Too Much Ray Marching](https://www.youtube.com/watch?v=jusWW2pPnA0): Pounce Light talk on Tiny Glade rendering: raymarched GI, tilt-shift DoF and stable shadows on old GPUs. (Ana Opara, 2024-12-04, video, Unity-6 era)
 - [Volumetrics: Introduction to ray marching | Tutorial](https://www.youtube.com/watch?v=hXYOlXVRRL8): Introduces volumetric ray marching in Unity. (Unity, 2023-09-14, video, Unity-2022 era)

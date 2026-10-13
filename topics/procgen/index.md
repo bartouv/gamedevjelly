@@ -1,6 +1,6 @@
 # Procedural generation
 
-> Procedural & math · 118 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 126 hand-filtered guides on GamedevJelly, newest first.
 
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
@@ -18,9 +18,17 @@
 - [Hex Map 5.3: Storing the Found Path](https://catlikecoding.com/unity/hex-map/5-3-0/): Hex Map 5.3 update storing the found path. (Catlike Coding, 2026-06-10, article, Unity-6 era)
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
 - [Hex Map 5.2: Save and Load Menu](https://catlikecoding.com/unity/hex-map/5-2-0/): Hex Map 5.2 update converting the Save and Load menu to UI Toolkit. (Catlike Coding, 2026-02-27, article, Unity-6 era)
+- [Procedural Dungeon Generation: how it works](https://moonjump.com/game-dev-mechanics-procedural-dungeon-generation-how-it-works/): Shows how Binary Space Partitioning trees generate roguelike dungeon layouts, with an interactive demo. (Moonjump, 2026-02-22, article, Unity-6 era)
 - [Hex Map 5.1: New Map Menu](https://catlikecoding.com/unity/hex-map/5-1-0/): Hex Map 5.1 update converting the New Map menu to UI Toolkit. (Catlike Coding, 2026-02-20, article, Unity-6 era)
+- [Poisson Disk Sampling: how it works](https://moonjump.com/game-dev-mechanics-poisson-disk-sampling-how-it-works/): Teaches Bridson's O(n) algorithm for evenly spaced random points, useful for placing trees, rocks, and spawn points. (Moonjump, 2026-02-08, article, Unity-6 era)
 - [Hex Map 5.0: New Input System](https://catlikecoding.com/unity/hex-map/5-0-0/): Hex Map 5.0 update switching to the new Input System. (Catlike Coding, 2026-01-19, article, Unity-6 era)
+- [Voronoi Diagrams: how it works](https://moonjump.com/game-dev-mechanics-voronoi-diagrams-how-it-works/): Explains Voronoi partitioning and its uses in map generation, fracture, Worley noise, and GPU signed distance fields. (Moonjump, 2026-01-06, article, Unity-6 era)
+- [Wave Function Collapse: how it works](https://moonjump.com/game-dev-mechanics-wave-function-collapse-how-it-works/): Learn how the Wave Function Collapse constraint-satisfaction algorithm generates varied worlds from simple tile rules. (Moonjump, 2025-12-19, article, Unity-6 era)
+- [Cellular Automata: how it works](https://moonjump.com/game-dev-mechanics-cellular-automata-how-it-works/): Learn how neighbor-counting rules turn random noise into organic cave systems for procedural generation. (Moonjump, 2025-12-12, article, Unity-6 era)
+- [Marching Cubes: how it works](https://moonjump.com/game-dev-mechanics-marching-cubes-how-it-works/): Learn how Marching Cubes converts a 3D scalar field into a smooth triangle mesh for metaballs and volumetric terrain. (Moonjump, 2025-12-08, article, Unity-6 era)
+- [Noise Functions (Perlin & Simplex): how it works](https://moonjump.com/game-dev-mechanics-noise-functions-perlin-simplex-how-it-works/): Learn how Perlin and Simplex noise generate coherent randomness for procedural terrain, textures, and animation. (Moonjump, 2025-12-05, article, Unity-6 era)
 - [Maze 5.1.0](https://catlikecoding.com/unity/maze/5-1-0/): Tutorial: adds windows to maze walls in Unity (Maze 5.1.0). (Catlike Coding, 2025-10-30, article, Unity-6 era)
+- [Procedural Terrain Generation: how it works](https://moonjump.com/game-dev-mechanics-procedural-terrain-generation-how-it-works/): Learn how Perlin noise, fractal Brownian motion and domain warping combine to generate believable procedural landscapes. (Moonjump, 2025-10-12, article, Unity-6 era)
 - [Exploring procedural design in Rain World: The Watcher](https://unity.com/blog/exploring-procedural-design-rain-world): Procedural animation and emergent enemy behaviors that drive Rain World's living ecosystem. (Unity, 2025-09-25, article, Unity-6 era)
 - [Hex Map 4.1: Better Dragging](https://catlikecoding.com/unity/hex-map/4-1-0/): Hex Map 4.1 update improving dragging UX. (Catlike Coding, 2025-08-28, article, Unity-6 era)
 - [Maze 5.0.0](https://catlikecoding.com/unity/maze/5-0-0/): Tutorial: adds ornaments to maze cells in Unity (Maze 5.0.0). (Catlike Coding, 2025-07-26, article, Unity-6 era)

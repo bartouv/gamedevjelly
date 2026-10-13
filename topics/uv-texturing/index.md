@@ -1,10 +1,11 @@
 # UVs, triplanar & texturing
 
-> Shaders & rendering · 43 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 44 hand-filtered guides on GamedevJelly, newest first.
 
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
 - [Terrain/Mesh Blending for URP](https://www.patreon.com/posts/terrain-mesh-urp-152116212): Patreon post on blending terrain and mesh surfaces together in URP. (MinionsArt, 2026-03-01, post, Unity-6 era, URP)
 - [Distance-field textures for infinitely sharp maps](https://bsky.app/profile/alexstrook.bsky.social/post/3mf6m7ajwrk2r): Using distance-field textures in shaders to render crisp, vector-like map lines at any zoom. (Alex Strook, 2026-02-19, post, Unity-6 era)
+- [Normal Mapping: how it works](https://moonjump.com/game-dev-mechanics-normal-mapping-how-it-works/): Covers tangent space and the TBN matrix, with a shader implementation that adds surface detail to flat polygons. (Moonjump, 2026-02-04, article, Unity-6 era)
 - [What vertex color is and why to use it](https://bsky.app/profile/alexstrook.bsky.social/post/3m5wgmgsdl22y): Explains vertex colour as cheap per-vertex data for gradients, masks and texture-free stylised art. (Alex Strook, 2025-11-18, post, Unity-6 era)
 - [Snom gummies shader walkthrough](https://bobacupcake.com/posts/2025-11-01-snom-gummies-shader-walkthrough.html): Making gummy candy look edible using a noise texture as a normal map plus sparkle highlights. (rob (bobacupcake), 2025-11-01, article, Unity-6 era)
 - [Unity Shader Code Basics 02 - Textures & UVs](https://danielilett.com/2025-10-16-tut10-02-textures/): Explains textures and UVs in hand-written Unity HLSL shaders. (Daniel Ilett, 2025-10-16, article, Unity-6 era)

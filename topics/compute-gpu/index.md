@@ -1,11 +1,12 @@
 # Compute shaders & GPU
 
-> Shaders & rendering · 28 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 29 hand-filtered guides on GamedevJelly, newest first.
 
 - [Moving two million soldiers in Unity with compute shaders and flow fields](https://jettelly.com/blog/making-two-million-soldiers-move-in-unity): How compute shaders and flow fields drive two million units at about 11 ms per frame. (Jettelly, 2026-09-27, article, Unity-6 era)
 - [Making fire feel alive: Real-time fluid simulation in Ignitement](https://unity.com/blog/real-time-fluid-simulation-fire-vfx-ignitement-breakdown): Real-time 2D fluid simulation used to create dynamic, gameplay-driven fire effects. (Unity, 2026-04-23, article, Unity-6 era)
 - [Cairn technical art deep dive: Rendering gameplay-specific rock materials on top of level design](https://unity.com/blog/cairn-technical-art-rendering-gameplay-rock-materials): Using 3D blendmaps and compute shaders to keep climbable rock surfaces consistent between visuals and gameplay. (Unity, 2026-04-17, article, Unity-6 era)
 - [Rendering at 500 km/h in Gear.Club Unlimited 3](https://unity.com/blog/eden-games-gear-club-unlimited-3): Rendering tech behind a racing game: GPU-driven architecture, ray tracing and 60 fps at high speed. (Unity, 2026-03-25, article, Unity-6 era)
+- [GPU Instancing: how it works](https://moonjump.com/game-dev-mechanics-gpu-instancing-how-it-works/): Explains how uploading one mesh plus per-instance transforms collapses thousands of draw calls into one. (Moonjump, 2026-01-10, article, Unity-6 era)
 - [Bad Apple!! but it's a smoke simulation](https://www.youtube.com/watch?v=8BCdKJ4ObZ4) (Sebastian Lague, 2025-10-26, video, Unity-6 era)
 - [Coding Adventure: Simulating Smoke](https://www.youtube.com/watch?v=Q78wvrQ9xsU) (Sebastian Lague, 2025-10-11, video, Unity-6 era)
 - [GPU Instanced Grass Breakdown](https://www.cyanilux.com/tutorials/gpu-instanced-grass-breakdown/): Breakdown of GPU instanced grass using Shader Graph with DrawMeshInstanced APIs. (Cyan, 2025-10-03, article, Unity-6 era)
