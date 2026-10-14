@@ -227,7 +227,7 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 .usedby { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 14px; font-size: 13px; } .usedby > span { font: 600 11px var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); } .usedby a, .usedby em { font-style: normal; padding: 3px 11px; border-radius: 999px; background: rgb(255 255 255 / .08); border: 1px solid var(--line); color: var(--fg); text-decoration: none; } .usedby a:hover { border-color: var(--accent); } .usedby a.usrc { background: none; border: 0; color: var(--muted); font-size: 12px; }
 .feat:has(.shots) .featmedia { width: min(52%, 600px); height: auto; }
 .shots { width: 100%; } .shotk { font: 600 11px var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: rgb(255 255 255 / .7); margin: 0 0 10px; } .shotk a { color: inherit; text-transform: none; letter-spacing: 0; margin-left: 8px; opacity: .7; }
-.shotgrid { display: grid; gap: 10px; grid-template-columns: repeat(6, 1fr); }
+.shotgrid { display: grid; gap: 10px; grid-template-columns: repeat(6, 1fr);  max-width: 880px; }
 .shot { position: relative; display: block; overflow: hidden; border-radius: 12px; aspect-ratio: 16 / 10; border: 1px solid rgb(255 255 255 / .22); box-shadow: 0 12px 28px rgb(0 0 0 / .45); text-decoration: none; transition: transform .3s cubic-bezier(.2, .8, .2, 1), box-shadow .3s; background: var(--surface-2); }
 .shot img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s; }
 .shot::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgb(8 10 18 / .85), transparent 55%); }
