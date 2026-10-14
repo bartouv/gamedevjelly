@@ -17,7 +17,9 @@ var fp=a.closest('[data-follow]');if(fp){if(window.goatcounter&&window.goatcount
 var sp=a.closest('[data-support]');if(sp){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:'support-'+sp.getAttribute('data-support'),title:(sp.getAttribute('data-cr')||'')+' '+h,event:true});return}
 if(/amazon\./.test(h))n='aff-amazon';else if(/dometrain/.test(h)&&/[?&]ref=/.test(a.href))n='aff-dometrain';else if(/sponsored/.test(rel))n='aff-other';
 else if(a.closest('.bpub'))n='out-publisher';else if(a.closest('.bget'))n='out-book';else if(a.closest('.socials,.soc'))n='out-social';else if(a.closest('.card,.pactions,.spot2,.hbanner,.hero,.links'))n='out-guide';else n='out-other';
-if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n,title:h,event:true})}
+var g='',cd=a.closest('.card');if(cd){var ta=cd.querySelector('a.t');g=ta?ta.textContent:''}else if(a.closest('#panel')){var pt=document.getElementById('pTitle');g=pt?pt.textContent:''}
+if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n,title:g?h+' · '+g.trim().slice(0,90):h,event:true})}
+var st;window.__gcSearch=function(q,n){clearTimeout(st);q=(q||'').trim().toLowerCase();if(q.length<3)return;st=setTimeout(function(){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n?'search':'search-none',title:q.slice(0,60),event:true})},1500)};
 document.addEventListener('click',ev,true);document.addEventListener('auxclick',ev,true)})();</script>
 </head>
 <body>

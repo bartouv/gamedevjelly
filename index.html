@@ -11,7 +11,9 @@ var fp=a.closest('[data-follow]');if(fp){if(window.goatcounter&&window.goatcount
 var sp=a.closest('[data-support]');if(sp){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:'support-'+sp.getAttribute('data-support'),title:(sp.getAttribute('data-cr')||'')+' '+h,event:true});return}
 if(/amazon\./.test(h))n='aff-amazon';else if(/dometrain/.test(h)&&/[?&]ref=/.test(a.href))n='aff-dometrain';else if(/sponsored/.test(rel))n='aff-other';
 else if(a.closest('.bpub'))n='out-publisher';else if(a.closest('.bget'))n='out-book';else if(a.closest('.socials,.soc'))n='out-social';else if(a.closest('.card,.pactions,.spot2,.hbanner,.hero,.links'))n='out-guide';else n='out-other';
-if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n,title:h,event:true})}
+var g='',cd=a.closest('.card');if(cd){var ta=cd.querySelector('a.t');g=ta?ta.textContent:''}else if(a.closest('#panel')){var pt=document.getElementById('pTitle');g=pt?pt.textContent:''}
+if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n,title:g?h+' · '+g.trim().slice(0,90):h,event:true})}
+var st;window.__gcSearch=function(q,n){clearTimeout(st);q=(q||'').trim().toLowerCase();if(q.length<3)return;st=setTimeout(function(){if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:n?'search':'search-none',title:q.slice(0,60),event:true})},1500)};
 document.addEventListener('click',ev,true);document.addEventListener('auxclick',ev,true)})();</script><title>GamedevJelly</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -2534,7 +2536,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   const closePalette = () => { pWrap.hidden = true; pInput.value = ''; };
   const pal = makeList(pListEl, searchAll, r => { closePalette(); r.act(); });
   const openPalette = () => { closeLive(); pWrap.hidden = false; pInput.value = ''; pal.set('', 12); pInput.focus(); };
-  pInput.addEventListener('input', () => pal.set(pInput.value, 12));
+  pInput.addEventListener('input', () => { const nr = pal.set(pInput.value, 12); window.__gcSearch?.(pInput.value, nr); });
   pInput.addEventListener('keydown', e => { if (e.key === 'Escape') { closePalette(); return; } pal.key(e); });
   pListEl.addEventListener('click', e => pal.click(e));
   pWrap.addEventListener('mousedown', e => { if (e.target === pWrap) closePalette(); });
@@ -2543,7 +2545,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   const closeLive = () => { liveEl.hidden = true; };
   const lv = makeList(liveEl, searchAll, r => { closeLive(); qEl.value = ''; state.q = ''; r.act(); });
   let navd = false;
-  qEl.addEventListener('input', () => { navd = false; if (qEl.value.trim().length >= 2) { liveEl.hidden = !lv.set(qEl.value, 8); } else closeLive(); });
+  qEl.addEventListener('input', () => { navd = false; if (qEl.value.trim().length >= 2) { const nr = lv.set(qEl.value, 8); liveEl.hidden = !nr; window.__gcSearch?.(qEl.value, nr); } else closeLive(); });
   qEl.addEventListener('keydown', e => {
     if (e.key === 'Escape') closeLive();
     else if (e.key === 'Enter' && !navd && qEl.value.trim().length >= 2) { e.preventDefault(); closeLive(); state.q = qEl.value; render(); window.scrollTo({ top: 0 }); }   // plain Enter runs the full search
