@@ -1,6 +1,6 @@
 # Editor tools & extensions
 
-> Workflow & tools · 35 hand-filtered guides on GamedevJelly, newest first.
+> Workflow & tools · 36 hand-filtered guides on GamedevJelly, newest first.
 
 - [5 tips for speeding up your XR dev workflows with Unity CLI](https://unity.com/blog/5-tips-for-speeding-up-your-xr-dev-workflows-with-unity-cli): Meta developer tips for speeding up XR development workflows using the Unity CLI. (Unity, 2026-09-17, article, Unity-6 era)
 - [Swap Your Game's Content WITHOUT Rebuilding the Player](https://www.youtube.com/watch?v=U9y7Eq1eJxc): Unity Content Directory (new with Unity 6.6) is a powerful tool that allows you to swap the CONTENTS of your build without rebuilding the entire player - making faster iteration times. (LlamAcademy, 2026-09-14, video, Unity-6 era)
@@ -32,6 +32,7 @@
 - [GitHub - leth4/InstantPipes: Unity editor tool for quickly generating pipes—with pathfinding](https://github.com/letharqic/InstantPipes): Repo: editor tool that generates pipes with pathfinding. (2023-05-11, repo, Unity-2022 era)
 - [Building a Video Scrubber to Match Unity Animations](https://bartouv.github.io/articles/from-art-to-code-building-a-video-scrubber-to-match-unity-animations.html): Creating custom editor tools to sync video references with animation timelines. Bridge the gap between concept art and implementation. (Gal Bartouv, 2023-01-01, article, Unity-2022 era)
 - [Scene Tool](https://bartouv.github.io/articles/scene-tool.html): Building custom scene view tools for level design workflows. Extend Unity's editor to match your team's specific needs. (Gal Bartouv, 2023-01-01, article, Unity-2022 era)
+- [Build a better collider importer with Asset Processors](https://bronsonzgeb.com/index.php/2021/11/27/better-collider-generation-with-asset-processors/): Uses an AssetPostprocessor to automate collider setup when models are imported. (Bronson Zgeb, 2021-11-27, article, Unity-2021 era)
 - [Intro to Tool Dev in Unity [part 4/4]](https://www.youtube.com/watch?v=6hWtXtUq7oM): Part 4 of 4 of an intro to Unity editor tool development. (Freya Holmér, 2020-05-08, video, Unity-old era)
 - [Intro to Tool Dev in Unity [part 3/4]](https://www.youtube.com/watch?v=qfGzwy_wSlw): Part 3 of 4 of an intro to Unity editor tool development. (Freya Holmér, 2020-05-07, video, Unity-old era)
 - [Intro to Tool Dev in Unity [part 2/4]](https://www.youtube.com/watch?v=limzVQFUMag): Part 2 of 4 of an intro to Unity editor tool development. (Freya Holmér, 2020-04-18, video, Unity-old era)

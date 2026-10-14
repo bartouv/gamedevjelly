@@ -1,6 +1,6 @@
 # Mobile
 
-> Platforms · 22 hand-filtered guides on GamedevJelly, newest first.
+> Platforms · 23 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity External Dependency Manager: What You Need to Know About the Change](https://unity.com/blog/external-dependency-manager): How the External Dependency Manager replaces EDM4U for Android and iOS SDK dependencies. (Unity, 2026-09-29, article, Unity-6 era)
 - [Scaling Scritchy Scratchy Across Platforms](https://unity.com/blog/scaling-scritchy-scratchy-across-platforms): Porting a game across PC, mobile and Switch while keeping performance and tactile gameplay. (Unity, 2026-09-28, article, Unity-6 era)
@@ -21,6 +21,7 @@
 - [6 ways to start building for Android XR with Unity 6](https://unity.com/blog/6-ways-to-start-building-for-android-xr-with-unity-6): Six ways to begin building Android XR apps with Unity 6, including tools and samples. (Unity, 2024-12-12, article, Unity-6 era)
 - [Optimize performance for mobile, XR & web games (Unity 6 edition)](https://unity.com/resources/mobile-xr-web-game-performance-optimization-unity-6): Unity 6 performance tips for mobile, XR and web games. (Unity, 2024-10-17, article, Unity-6 era)
 - [A look at mobile screen reader support in the Unity Engine](https://unity.com/blog/engine-platform/mobile-screen-reader-support-in-unity): How to make mobile games work with iOS and Android screen readers using Unity's accessibility support. (Unity, 2024-01-19, article, Unity-2022 era)
+- [Low Power mode in Unity](https://bronsonzgeb.com/index.php/2021/10/16/low-power-mode-in-unity/): Lowers frame rate and work when a Unity game does not need full power, saving battery. (Bronson Zgeb, 2021-10-16, article, Unity-2021 era)
 - [Porting Falcon Age to the Oculus Quest](https://outerloop.tumblr.com/post/628004985846792192/porting-falcon-age-to-the-oculus-quest): Blog on lessons from porting the VR game Falcon Age to the Oculus Quest. (2020-08-31, article, Unity-old era)
 - [Iridescence on Mobile](https://www.alanzucconi.com/2017/07/21/iridescence-on-mobile/): Efficient mobile-friendly way to simulate iridescent reflections. (Alan Zucconi, 2017-07-21, article, Unity-old era)
 - [Arm & Unity Presents: 3D Art Optimization for Mobile Applications](https://learn.unity.com/course/3d-art-optimization-for-mobile-gaming-5474): Arm and Unity course on optimizing 3D art for mobile applications. (article)

@@ -1,13 +1,15 @@
 # Vertex displacement & animation
 
-> Shaders & rendering · 26 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 28 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
 - [Blood magic VFX: Houdini fluid sim baked to VAT (ArtStation)](https://www.artstation.com/artwork/rlb3BL): Fluid simulation from Houdini baked into vertex animation textures to run in real time. (Jettelly, 2026-07-22, article, Unity-6 era)
 - [Vertex Flowmap Painter](https://www.patreon.com/minionsart/posts/basic-vertex-161842846): Patreon post on a tool for painting vertex-color flowmaps used in vertex displacement. (MinionsArt, 2026-06-01, post, Unity-6 era)
+- [Interactive Water Unity Shader Graph | Tutorial](https://www.youtube.com/watch?v=Wlz6juBHkoQ): Stylised water that reacts to objects touching it, built with Shader Graph and a little C#. (Game Slave, 2026-02-19, video, Unity-6 era)
 - [Unity Shader Code Basics 05 - Vertex Shaders & Tessellation](https://danielilett.com/2026-01-03-tut10-05-vertex-waves/): Moves vertices in a vertex shader for waves and adds tessellation for low-poly meshes. (Daniel Ilett, 2026-01-03, article, Unity-6 era)
+- [Interactive Grass | Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=GzK9P3MOvp8): Grass that bends away from the player, in Shader Graph. (Game Slave, 2025-11-18, video, Unity-6 era)
 - [Patreon: Animated Mesh](https://www.patreon.com/posts/animated-mesh-142420286): Patreon post on animated mesh effects in Unity. (2025-10-08, post, Unity-6 era)
 - [Adding Tessellation into URP Shader Graph](https://www.patreon.com/posts/adding-into-urp-130160596): Patreon post on adding tessellation to URP Shader Graph. (MinionsArt, 2025-05-01, post, Unity-6 era, URP)
 - [Unity Shader Graph Basics (Part 5 - Vertex Shaders)](https://danielilett.com/2024-02-13-tut7-7-intro-to-shader-graph-part-5/): Modifies mesh vertices in Shader Graph to create wave displacement effects. (Daniel Ilett, 2024-02-13, article, Unity-2022 era)

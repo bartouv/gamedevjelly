@@ -1,9 +1,10 @@
 # Stencil, masks & decals
 
-> Shaders & rendering · 16 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 17 hand-filtered guides on GamedevJelly, newest first.
 
 - [Holofoil Cards in Shader Graph and Unity URP](https://danielilett.com/2025-10-13-tut11-01-holofoil-cards/): Makes Pokemon-style holofoil cards in Shader Graph using the stencil buffer and other tricks in URP. (Daniel Ilett, 2025-10-13, article, Unity-6 era, URP)
 - [Infinity Nikki: One-way Window](https://simonschreibt.de/gat/infinity-nikki-one-way-window/): Looks at the one-way window effect in Infinity Nikki. (Simon Schreibt, 2025-02-23, article, Unity-6 era)
+- [Stencil Buffer | Fake holes and portals | Unity Shader Tutorial](https://www.youtube.com/watch?v=g__WNGV7BnQ): Fake holes and portals with the stencil buffer in a Unity shader. (Game Slave, 2024-08-04, video, Unity-2022 era)
 - [Tip: RTHandles.Alloc ignores the stencil in RenderTextureDescriptor](https://mastodon.gamedev.place/@danielilett/112728826916413033): Mastodon tip: RTHandles.Alloc ignores the stencil format set in the RenderTextureDescriptor. (Daniel Ilett, 2024-07-04, post, Unity-2022 era)
 - [Dithered Transparency in Shader Graph](https://www.youtube.com/watch?v=NHd1PeJfyzE): Builds dithered transparency in Shader Graph. (Daniel Ilett, 2024-04-02, video, Unity-2022 era)
 - [Portal Effect Patreon post](https://www.patreon.com/posts/portal-effect-88069142): Patreon post breaking down a portal effect in Unity. (2023-10-09, post, Unity-2022 era)

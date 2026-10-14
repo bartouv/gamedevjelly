@@ -1,13 +1,16 @@
 # Toon & cel shading
 
-> Stylized looks · 23 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 26 hand-filtered guides on GamedevJelly, newest first.
 
 - [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
 - [Half Past Yellow on the gentle art of making enemies for Tempest Tower](https://unity.com/blog/half-past-yellow-creating-enemy-visuals-tempest-tower): How the crisp, clayish enemy look in a tower defense game was achieved. (Unity, 2025-04-21, article, Unity-6 era)
 - [@halisavakis.com: depth-offset rim lighting that follows light direction](https://bsky.app/profile/halisavakis.com/post/3lbbatqiwg22l): Stylized rim light from depth offset instead of thresholded fresnel, reacting to light direction; pairs well with cel shading. (Harry Alisavakis, 2024-11-19, post, Unity-6 era)
 - [Stylized Metal Shader Graph](https://www.patreon.com/posts/stylized-metal-111029610): Patreon post building a stylized metal shader in Shader Graph. (MinionsArt, 2024-08-01, post, Unity-2022 era)
+- [Water Ghibli Style Unity Shader Graph | Tutorial](https://www.youtube.com/watch?v=4X9ak_SjNwU): Ghibli-style stylised water in Shader Graph. (Game Slave, 2024-01-17, video, Unity-2022 era)
 - [URP Toon Shader | VFX Shaders | Unity Asset Store](https://assetstore.unity.com/packages/vfx/shaders/urp-toon-shader-259777): Asset Store URP toon shader package by Ciro Continisio. (2023-09-30, article, Unity-2022 era, URP)
+- [Toon Shader Fácil Parte 2 - Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=2Zwg-xgRg-4): Easy toon shading in Shader Graph, part 2. In Spanish. (Game Slave, 2023-06-08, video, Unity-2022 era)
+- [Toon Shader Fácil Parte 1 - Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=gRLwk0rGCcc): Easy toon shading in Shader Graph, part 1. In Spanish. (Game Slave, 2023-04-29, video, Unity-2022 era)
 - [Wind Waker Style Patreon post](https://www.patreon.com/posts/wind-waker-style-78831006): Patreon post on a Wind Waker style effect in Unity. (MinionsArt, 2023-02-07, post, Unity-2022 era)
 - [Toon outline shader | Unity Tutorial](https://www.youtube.com/watch?v=WnIGh8xrdG8): Writes a toon outline shader in Unity. (Jettelly, 2021-08-06, video, Unity-2021 era)
 - [joyrok](https://joyrok.cargo.site/Tale-of-2-Engines): Joyrok's tech art post comparing two game engines. (Joyrok, 2020-09-14, article, Unity-old era)

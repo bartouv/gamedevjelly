@@ -1,6 +1,6 @@
 # Particles & VFX Graph
 
-> VFX · 64 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 65 hand-filtered guides on GamedevJelly, newest first.
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
@@ -35,6 +35,7 @@
 - [Sakura Rabbit: angel wings dissipation effect in Unity](https://80.lv/articles/outstanding-angel-wings-dissipation-effect-in-unity): Feathered wings that break apart and dissipate, a VFX showcase made in Unity. (Sakura Rabbit, 2024-05-14, article, Unity-2022 era)
 - [Find a treasure trove of lighting and visual effects in our new match-3 sample Gem Hunter Match](https://unity.com/blog/engine-platform/2d-puzzle-match-3-sample-gem-hunter-match): Match-3 sample showing how URP lighting and visual effects make a 2D puzzle game stand out. (Unity, 2024-04-29, article, Unity-2022 era)
 - [Unity VFX Graph Tutorial - Comic Book Impact Effect](https://www.youtube.com/watch?v=xAdB3OxpC7Y): Creates a comic book impact effect with VFX Graph. (2023-11-13, video, Unity-2022 era)
+- [Lava Lamp Unity Shader Graph | Tutorial](https://www.youtube.com/watch?v=HmICrwj2Exo): A lava-lamp fluid effect in URP with Shader Graph; the technique also works for other liquids. (Game Slave, 2023-07-16, video, Unity-2022 era)
 - [Rain Effects Breakdown](https://www.cyanilux.com/tutorials/rain-effects-breakdown/): Breakdown of rain effects including particles and ripple shaders for puddles. (2023-07-10, article, Unity-2022 era)
 - [Jedi: Fallen Order – Splishy Splashy](https://simonschreibt.de/gat/jedi-fallen-order-splishy-splashy/): Looks at the water splash effects in Jedi: Fallen Order. (Simon Schreibt, 2023-05-22, article, Unity-2022 era)
 - [Battlefront II: Layered Explosion](https://simonschreibt.de/gat/battlefront-ii-layered-explosion/): Looks at how Battlefront II builds layered explosion effects. (Simon Schreibt, 2023-04-25, article, Unity-2022 era)

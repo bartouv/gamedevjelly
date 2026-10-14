@@ -1,7 +1,8 @@
 # Shader basics & recipes
 
-> Shaders & rendering · 35 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 42 hand-filtered guides on GamedevJelly, newest first.
 
+- [The Shader Survival Guide — MASTER SHADER GRAPH with Unity](https://www.youtube.com/watch?v=qx7pn6JMBnY): Master Shader Graph in Unity: a guided tour of the nodes and the thinking behind shaders. (Game Slave, 2026-08-26, video, Unity-6 era)
 - [Understanding Unity shader structure](https://jettelly.com/blog/understanding-unity-shader-structure): Quick look at what goes into a Unity shader: ShaderLab, HLSL and related pieces. (Jettelly, 2026-08-21, article, Unity-6 era)
 - [Unity VFX Graph - Portal Effect Tutorial](https://www.youtube.com/watch?v=z5uJA4Ay-Po): Create a portal using VFX Graph and Shader Graph, with a Blender circle mesh and Material Maker noise textures. (Gabriel Aguiar Prod., 2026-07-22, video, Unity-6 era)
 - [Unity VFX Graph - Meteor Effect Tutorial](https://www.youtube.com/watch?v=6Q23T7GVXUU): Make a meteor with VFX Graph and Shader Graph, covering the Blender mesh, a fresnel shader, movement and Material Maker textures. (Gabriel Aguiar Prod., 2026-06-24, video, Unity-6 era)
@@ -17,12 +18,18 @@
 - [@halisavakis.com: HLSL function declared in one file, defined in another](https://bsky.app/profile/halisavakis.com/post/3lyhyn55eyc2l): Shader tip: split declaration and definition across include files so passes share code while implementations vary. (Harry Alisavakis, 2025-09-10, post, Unity-6 era)
 - [Unity Shader Graph Basics (Part 10 - Custom Functions)](https://danielilett.com/2024-07-09-tut7-14-intro-to-shader-graph-part-10/): Injects custom HLSL functions into Shader Graph, including access to additional point light data. (Daniel Ilett, 2024-07-09, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 9 - Scene Intersections 2)](https://danielilett.com/2024-05-28-tut7-13-intro-to-shader-graph-part-9/): Uses scene intersections for foamy coastal water edges and glowing edges on passing objects. (Daniel Ilett, 2024-05-28, article, Unity-2022 era)
+- [Unity - Foil Card Shader Graph](https://www.youtube.com/watch?v=f-ca4lAf_Gw): A holographic foil trading-card effect in Shader Graph. (Game Slave, 2024-05-15, video, Unity-2022 era)
 - [New Shader Graph feature examples in 2022 LTS](https://unity.com/blog/engine-platform/shader-graph-feature-examples-2022-lts): Sample set of Shader Graph feature examples you can import to learn many effects and techniques. (Unity, 2024-03-19, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 3 - Transparency & Alpha)](https://danielilett.com/2023-12-11-tut7-5-intro-to-shader-graph-part-3/): Explains transparency, draw order and alpha clipping in Shader Graph. (Daniel Ilett, 2023-12-11, article, Unity-2022 era)
 - [The Best Darn Grid Shader (Yet)](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8): How to draw a clean, anti-aliased grid in a shader that holds up at any distance and viewing angle. (Ben Golus, 2023-10-20, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 1 - Your First Graph)](https://danielilett.com/2023-09-26-tut7-3-intro-to-shader-graph/): Beginner guide to creating your first Shader Graph shader in Unity. (Daniel Ilett, 2023-09-26, article, Unity-2022 era)
+- [Lava Lamp Unity Shader Graph | Tutorial](https://www.youtube.com/watch?v=HmICrwj2Exo): A lava-lamp fluid effect in URP with Shader Graph; the technique also works for other liquids. (Game Slave, 2023-07-16, video, Unity-2022 era)
 - [Patreon: Building an effect in Shader Graph](https://www.patreon.com/posts/shader-graph-for-81985104): Patreon post on building an effect in Shader Graph. (2023-04-26, post, Unity-2022 era)
+- [Efectos visuales en armas Tutorial - Unity Shader Graph](https://www.youtube.com/watch?v=ad6iOHNkLoc): Weapon visual effects with Shader Graph. In Spanish. (Game Slave, 2023-04-11, video, Unity-2022 era)
 - [Improvements to shader build time and runtime memory usage](https://forum.unity.com/threads/improvements-to-shader-build-time-and-runtime-memory-usage.1305615/): How variant prefiltering and dynamic variant loading cut shader build time and runtime memory in Unity. (2022-10-21, article, Unity-2022 era)
+- [Drawing with SDFs in Unity](https://bronsonzgeb.com/index.php/2022/01/15/drawing-with-sdfs-in-unity/): Draws shapes with signed distance fields in a Unity shader, from the basics. (Bronson Zgeb, 2022-01-15, article, Unity-2022 era)
+- [Custom Lighting in Shader Graph Part 2](https://bronsonzgeb.com/index.php/2021/10/11/custom-lighting-in-shader-graph-part-2/): Continues the custom lighting series: adding more lighting terms in a Shader Graph. (Bronson Zgeb, 2021-10-11, article, Unity-2021 era)
+- [Custom Lighting in URP with Shader Graph](https://bronsonzgeb.com/index.php/2021/10/04/custom-lighting-in-urp-with-shader-graph/): Builds custom lighting for URP inside Shader Graph using custom function nodes. (Bronson Zgeb, 2021-10-04, article, Unity-2021 era)
 - [Distinctive Derivative Differences](https://bgolus.medium.com/distinctive-derivative-differences-cce38d36797b): A look at the different kinds of shader derivatives and how they differ in practice. (Ben Golus, 2021-04-13, article, Unity-2021 era)
 - [What is a Shader? | Unity Tutorial](https://www.youtube.com/watch?v=UZgxS5hJscY): Explains what a shader is in Unity. (Jettelly, 2021-02-09, video, Unity-2021 era)
 - [Skillshot Arrow Shader | Sawce](https://www.sawcegames.com/en/post/skillshot-arrow-shader): Blog post on a skillshot arrow indicator shader. (Sawce Games, 2020-03-06, article, Unity-old era)

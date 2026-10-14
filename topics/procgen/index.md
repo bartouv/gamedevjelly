@@ -1,6 +1,6 @@
 # Procedural generation
 
-> Procedural & math · 126 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 127 hand-filtered guides on GamedevJelly, newest first.
 
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
@@ -57,6 +57,7 @@
 - [Oskar Stålberg- Townscaper- A tour of Townscaper](https://www.youtube.com/watch?v=sBMnM2-lOPs): Tour of Townscaper's technology, grid design and aesthetics, presented to an architecture audience. (Oskar Stålberg, 2022-08-17, video, Unity-2022 era)
 - [Surface Elevation](https://catlikecoding.com/unity/tutorials/pseudorandom-surfaces/surface-elevation/): Catlike Coding tutorial on generating surfaces with varying elevation. (Catlike Coding, 2022-07-28, article, Unity-2022 era)
 - [Konsoll 2021: Oskar Stålberg - The Story of Townscaper](https://www.youtube.com/watch?v=5xrRTOikBBg): How Townscaper was built: irregular quad grid, WFC-driven tiles and the design decisions around them. (Oskar Stålberg, 2022-03-16, video, Unity-2022 era)
+- [Procedural Generation with Cellular Automata](https://bronsonzgeb.com/index.php/2022/01/30/procedural-generation-with-cellular-automata/): Generates cave-like levels in Unity with cellular automata, step by step. (Bronson Zgeb, 2022-01-30, article, Unity-2022 era)
 - [Triangle Grid](https://catlikecoding.com/unity/tutorials/procedural-meshes/triangle-grid/): Catlike Coding tutorial on generating triangle and hexagon grid meshes procedurally. (Catlike Coding, 2021-12-18, article, Unity-2021 era)
 - [SGC21- Oskar Stålberg - Beyond Townscapers](https://www.youtube.com/watch?v=Uxeo9c-PX-w): Experimental tile-based procedural generation beyond Townscaper: irregular grids, dual meshes and new tile setups. (Oskar Stålberg, 2021-12-08, video, Unity-2021 era)
 - [Modified Grid](https://catlikecoding.com/unity/tutorials/procedural-meshes/modified-grid/): Catlike Coding tutorial on sharing vertices in a grid mesh and modifying it. (Catlike Coding, 2021-12-07, article, Unity-2021 era)

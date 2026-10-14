@@ -1,6 +1,6 @@
 # DOTS, ECS, Jobs & Burst
 
-> Engineering · 22 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 23 hand-filtered guides on GamedevJelly, newest first.
 
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
 - [How Rust LTD Built The Deep Firearm Simulation in Hot Dogs, Horseshoes & Hand Grenades 2](https://unity.com/blog/rust-ltd-hot-dogs-horseshoes-hand-grenades-2): ECS ballistics, custom firearm physics and Quest 3 frame budgeting in a VR firearm simulator. (Unity, 2026-09-25, article, Unity-6 era)
@@ -24,3 +24,4 @@
 - [Data-oriented design roundtable: Your questions, answered](https://unity.com/blog/engine-platform/dots-webinar-roundtable-q-a): Unity engineers and studios answer practical questions and share hard-won tips on data-oriented design in production. (Unity, 2024-02-28, article, Unity-2022 era)
 - [Start learning data-oriented design in Unity with these resources](https://unity.com/blog/engine-platform/dots-bootcamp-resources): Curated articles, samples and templates for learning data-oriented design and DOTS in Unity 2022 LTS. (Unity, 2024-02-22, article, Unity-2022 era)
 - [Pseudorandom Noise: Simplex Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/simplex-noise/): Implements simplex noise in C# with Burst-style jobs. (Catlike Coding, 2021-09-23, article, Unity-2021 era)
+- [Behind the burst compiler](https://xoofx.github.io/blog/2019/03/28/behind-the-burst-compiler): How the Burst compiler works, from its author: IL to optimised native code through LLVM. (Alexandre Mutel (xoofx), 2019-03-28, article, Unity-old era)

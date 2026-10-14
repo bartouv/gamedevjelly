@@ -1,6 +1,6 @@
 # Performance & optimization
 
-> Engineering · 121 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 125 hand-filtered guides on GamedevJelly, newest first.
 
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [High Performance Unity Game Development: using data-oriented design (Manning)](https://manning.com/books/high-performance-unity-game-development): The book behind the data-oriented design approach: structure a Unity game around arrays of data and pure logic for high frame rates on limited hardware. (Nitzan Wilnai, 2026-10-01, article, Unity-6 era)
@@ -85,6 +85,7 @@
 - [SRP Batcher: Does it "Truly Suck"?](https://thegamedev.guru/unity-cpu-performance/srp-batcher/): Examines whether the SRP Batcher really helps performance in Unity. (GameDevGuru, 2023-12-26, article, Unity-2022 era, URP)
 - [Prewarming Your Lazy Shaders to Avoid Store-Rejecting Hiccups](https://thegamedev.guru/unity-gpu-performance/shader-prewarming/): Explains shader prewarming to avoid hiccups at first use that can cause store rejections. (GameDevGuru, 2023-12-08, article, Unity-2022 era)
 - [Hex Map 3.0: No More Cell GOs](https://catlikecoding.com/unity/hex-map/3-0-0/): Hex Map 3.0 update removing cell game objects. (Catlike Coding, 2023-11-09, article, Unity-2022 era)
+- [10x Performance with SIMD Vectorized Code in C#/.NET](https://xoofx.github.io/blog/2023/07/09/10x-performance-with-simd-in-csharp-dotnet): Speeds up C# code with SIMD vectorisation; the ideas apply to Burst and Unity jobs. (Alexandre Mutel (xoofx), 2023-07-09, article, Unity-2022 era)
 - [High Performance Collections in Unity C#](https://thegamedev.guru/unity-cpu-performance/high-performance-collections/): Shows how to use Unity's official object pool API in Unity 2021 for high-performance collections. (GameDevGuru, 2023-07-03, article, Unity 2021)
 - [Static Batching May Not Reduce Your Draw Calls](https://thegamedev.guru/unity-performance/static-batching-draw-call-count/): Explains that static batching may not reduce draw call count but still has benefits. (GameDevGuru, 2023-05-23, article, Unity-2022 era)
 - [Basic Quad/Octree Culling 2](https://www.patreon.com/posts/basic-quad-for-2-80481579): Patreon post on basic quadtree and octree culling, part 2. (MinionsArt, 2023-03-01, post, Unity-2022 era)
@@ -93,6 +94,7 @@
 - [Early vs. Late Z-Kill (+ Hiring AI Dev)](https://thegamedev.guru/ramblings/early-vs-late-z-kill/): Explains why late Z-kill is costly for the GPU compared to early Z-kill. (GameDevGuru, 2022-12-20, article, Unity-2022 era)
 - [Improvements to shader build time and runtime memory usage](https://forum.unity.com/threads/improvements-to-shader-build-time-and-runtime-memory-usage.1305615/): How variant prefiltering and dynamic variant loading cut shader build time and runtime memory in Unity. (2022-10-21, article, Unity-2022 era)
 - [Is GPU Overdraw Worse in 2D Games?](https://thegamedev.guru/ramblings/overdraw-2d/): Discusses whether GPU overdraw is worse in 2D games, from a reader question. (GameDevGuru, 2022-08-29, article, Unity-2022 era)
+- [Low Power mode in Unity](https://bronsonzgeb.com/index.php/2021/10/16/low-power-mode-in-unity/): Lowers frame rate and work when a Unity game does not need full power, saving battery. (Bronson Zgeb, 2021-10-16, article, Unity-2021 era)
 - [Unity UI performance optimization tips](https://unity.com/how-to/unity-ui-optimization-tips): Unity guide with tips for optimizing UI performance. (2021-08-29, article, Unity-2021 era)
 - [Smooth Scene Streaming with Unity3D](https://80.lv/articles/smooth-scene-streaming-with-unity3d/): Interview on designing smooth scene streaming in Unity for a large game. (2021-08-23, article, Unity-2021 era)
 - [Introduction to The P3 Optimization Framework](https://thegamedev.guru/unity-performance/p3-optimization-framework/): Introduces a structured framework for finding and fixing Unity performance problems to raise frame rate. (GameDevGuru, 2021-05-22, article, Unity-2021 era)
@@ -104,8 +106,10 @@
 - [Unity Performance: CPU Slicing Secrets](https://thegamedev.guru/unity-performance/cpu-slicing-secrets/): Explains CPU time slicing techniques to spread expensive work across frames in Unity. (GameDevGuru, 2020-02-10, article, Unity-old era)
 - [Zero allocation code in C# and Unity - Seba's Lab](http://www.sebaslab.com/zero-allocation-code-in-unity/): Article on writing zero-allocation C# code in Unity to avoid garbage collection. (2019-12-15, article, Unity-old era)
 - [Memory Management in Unity - Unity Learn](https://learn.unity.com/tutorial/memory-management-in-unity): Unity Learn guide to memory management in Unity. (2019-07-22, article, Unity-old era)
+- [Behind the burst compiler](https://xoofx.github.io/blog/2019/03/28/behind-the-burst-compiler): How the Burst compiler works, from its author: IL to optimised native code through LLVM. (Alexandre Mutel (xoofx), 2019-03-28, article, Unity-old era)
 - [Shader Showcase Saturday #7: Billboard Impostors](https://www.alanzucconi.com/2018/08/25/shader-showcase-saturday-7/): Uses billboard impostors to reduce polygon counts in Unity. (Alan Zucconi, 2018-08-25, article, Unity-old era)
 - [Object Management: Reusing Objects](https://catlikecoding.com/unity/tutorials/object-management/reusing-objects/): Object management tutorial on reusing objects via pooling. (Catlike Coding, 2018-06-21, article, Unity-old era)
+- [Porting the Unity Engine to .NET CoreCLR](https://xoofx.github.io/blog/2018/04/06/porting-unity-to-coreclr): An experiment running the Unity engine on CoreCLR, with what worked and what broke. (Alexandre Mutel (xoofx), 2018-04-06, article, Unity-old era)
 - [Timeslicing Batched Algorithms in Games](https://allenchou.net/2017/03/timeslicing-batched-algorithms-across-multiple-frames/): Spreads batched algorithms across multiple frames with timeslicing. (Ming-Lun Chou, 2017-03-22, article, Unity-old era)
 - [Safe Scope-Based Instrumented Profiler](https://allenchou.net/2014/10/safe-scope-based-instrumented-profiler/): Builds a safe, scope-based instrumented profiler. (Ming-Lun Chou, 2014-10-13, article, Unity-old era)
 - [Grid pathfinding optimizations](https://www.redblobgames.com/pathfinding/grids/algorithms.html): Faster pathfinding on grids: jump points, hierarchical maps and other speed-ups, with their trade-offs. (Red Blob Games, 2014-03-02, article, Unity-old era)

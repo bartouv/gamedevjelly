@@ -1,6 +1,6 @@
 # Cameras & cutscenes
 
-> Gameplay & systems · 14 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 18 hand-filtered guides on GamedevJelly, newest first.
 
 - [Breaking down a 3D interactive menu in Unity](https://jettelly.com/blog/breaking-down-a-3d-interactive-menu-in-unity): A 3D menu where buttons react to the cursor, explained step by step. (Jettelly, 2026-08-23, article, Unity-6 era)
 - [Third-Person Camera Systems: how it works](https://moonjump.com/game-dev-mechanics-third-person-camera-systems-how-it-works/): Shows follow cameras, exponential damping, and raycast-based collision avoidance for third-person cameras. (Moonjump, 2026-03-01, article, Unity-6 era)
@@ -12,6 +12,10 @@
 - [How Kluge Interactive Punched Up VR Gesture Recognition in FINAL FURY](https://unity.com/blog/how-kluge-interactive-punched-up-vr-gesture-recognition-in-final-fury): Building gesture recognition and camera systems that balance immersion and pace in a VR game. (Unity, 2025-05-08, article, Unity-6 era)
 - [Civilization VII's diplomacy screen framing (thread)](https://bsky.app/profile/gamemakerstoolkit.com/post/3li3bo6d2fs2w): How character framing in Civ VII's diplomacy UI undermines the player's head-of-state fantasy. (Game Maker's Toolkit, 2025-02-13, post, Unity-6 era)
 - [How to Make a Good 2D Camera](https://www.youtube.com/watch?v=TdWFzpgnljs): Covers 2D camera techniques like deadzones, look-ahead, smoothing and framing for platformers. (Game Maker's Toolkit, 2023-09-12, video, Unity-2022 era)
+- [How to Program in Unity: Third Person Movement Explained](https://www.youtube.com/watch?v=-shDcRpTypk): Third-person character movement in Unity, explained step by step. (iHeartGameDev, 2022-10-09, video, Unity-2022 era)
+- [Camera-Relative Movement in Unity 3D Explained](https://www.youtube.com/watch?v=7kGCrq1cJew): Makes character movement relative to the camera. (iHeartGameDev, 2022-06-26, video, Unity-2022 era)
+- [How to use Cameras in Unity: Cinemachine Virtual Cameras Explained](https://www.youtube.com/watch?v=asruvbmUyw8): Cinemachine virtual cameras explained. (iHeartGameDev, 2022-01-02, video, Unity-2022 era)
+- [How to use Cameras in Unity: Cinemachine Overview and Brain Explained!](https://www.youtube.com/watch?v=P_ibDJhFVMU): An overview of Cinemachine and the Brain component. (iHeartGameDev, 2021-12-05, video, Unity-2021 era)
 - [Orbit Camera](https://catlikecoding.com/unity/tutorials/movement/orbit-camera/): Catlike Coding tutorial on controlling a sphere through an orbit camera. (Catlike Coding, 2020-01-26, article, Unity-old era)
 - [Portals | Series Introduction](https://danielilett.com/2019-12-01-tut4-intro-portals/): Introduction to a series on portal rendering techniques. (2019-12-01, article, Unity-old era)
 - [Recreating Monument Valley's Level Design | Mix and Jam](https://www.youtube.com/watch?v=hetaWVfaLQc): Recreates Monument Valley's impossible level design in Unity. (Mix and Jam, 2019-09-19, video, Unity-old era)

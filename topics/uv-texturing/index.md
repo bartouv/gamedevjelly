@@ -1,6 +1,6 @@
 # UVs, triplanar & texturing
 
-> Shaders & rendering · 44 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 45 hand-filtered guides on GamedevJelly, newest first.
 
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
 - [Terrain/Mesh Blending for URP](https://www.patreon.com/posts/terrain-mesh-urp-152116212): Patreon post on blending terrain and mesh surfaces together in URP. (MinionsArt, 2026-03-01, post, Unity-6 era, URP)
@@ -11,6 +11,7 @@
 - [Unity Shader Code Basics 02 - Textures & UVs](https://danielilett.com/2025-10-16-tut10-02-textures/): Explains textures and UVs in hand-written Unity HLSL shaders. (Daniel Ilett, 2025-10-16, article, Unity-6 era)
 - [World Position Changing Effects Video](https://youtu.be/xgDtQpu_pog): Demonstrates effects that change based on world position. (MinionsArt, 2025-02-01, video, Unity-6 era)
 - [World Position Effects 3: Textures](https://www.patreon.com/posts/world-position-3-110217346): Patreon post on world position effects using textures. (MinionsArt, 2024-08-01, post, Unity-2022 era)
+- [Unity - Foil Card Shader Graph](https://www.youtube.com/watch?v=f-ca4lAf_Gw): A holographic foil trading-card effect in Shader Graph. (Game Slave, 2024-05-15, video, Unity-2022 era)
 - [Local UVs for Sprites in Sprite Sheet/Atlas](https://www.cyanilux.com/tutorials/sprite-local-uv/): Converts sprite sheet or atlas UVs into local 0-1 UVs for per-sprite effects. (Cyan, 2024-03-13, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 2 - Textures & UVs)](https://danielilett.com/2023-12-04-tut7-4-intro-to-shader-graph-part-2/): Applies textures and UV coordinates for base color in Shader Graph. (Daniel Ilett, 2023-12-04, article, Unity-2022 era)
 - [Deus Ex – Alpha Terrain](https://simonschreibt.de/gat/deus-ex-alpha-terrain/): Explains how Deus Ex alpha terrain blends with stone objects. (Simon Schreibt, 2023-05-28, article, Unity-2022 era)

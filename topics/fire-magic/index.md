@@ -1,6 +1,6 @@
 # Fire, magic & impacts
 
-> VFX · 27 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 28 hand-filtered guides on GamedevJelly, newest first.
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [A stylized Eldritch Blast VFX in Unity](https://jettelly.com/blog/a-stylized-take-on-eldritch-blast-vfx-in-unity): Breakdown of a stylized magic blast whose inner eyes are fully procedural. (Jettelly, 2026-10-03, article, Unity-6 era)
@@ -21,6 +21,7 @@
 - [Pokémon – Rapidash](https://simonschreibt.de/gat/pokemon-rapidash/): Looks at the Rapidash fire effect in Pokemon. (Simon Schreibt, 2023-05-07, article, Unity-2022 era)
 - [The Divine Fire](https://simonschreibt.de/gat/divine-fire/): Looks at the fire effect in Divine Divinity. (Simon Schreibt, 2023-05-06, article, Unity-2022 era)
 - [Battlefront II: Layered Explosion](https://simonschreibt.de/gat/battlefront-ii-layered-explosion/): Looks at how Battlefront II builds layered explosion effects. (Simon Schreibt, 2023-04-25, article, Unity-2022 era)
+- [Efectos visuales en armas Tutorial - Unity Shader Graph](https://www.youtube.com/watch?v=ad6iOHNkLoc): Weapon visual effects with Shader Graph. In Spanish. (Game Slave, 2023-04-11, video, Unity-2022 era)
 - [Tornado Shader Breakdown](https://www.cyanilux.com/tutorials/tornado-shader-breakdown/): Breakdown of a tornado shader using scrolling alpha-clipped noise layers with vertex displacement. (Cyan, 2022-01-26, article, Unity-2022 era)
 - [Stylized VFX in Unity. Part 1: Step, Smoothstep, Dissolve](https://torchinsky.me/stylized-vfx-unity-01/): Explains step, smoothstep and dissolve for stylized VFX, part one. (Torch in Sky, 2020-11-26, article, Unity-old era)
 - [Lexdev: Gears Hammer of Dawn Case Study](https://lexdev.net/tutorials/case_studies/gears_hammerofdawn.html): Case study on making a sky-fired laser beam feel impactful. (2020-05-12, article, Unity-old era)

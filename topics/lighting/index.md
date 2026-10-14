@@ -1,6 +1,6 @@
 # Lighting & shadows
 
-> Shaders & rendering · 87 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 89 hand-filtered guides on GamedevJelly, newest first.
 
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Custom SRP 7.2: Separate Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-2/): Custom SRP tutorial introducing separate shadow passes. (Catlike Coding, 2026-09-18, article, Unity-6 era)
@@ -45,6 +45,8 @@
 - [How do I make a shader that will work with Unity 2D Lights? - Questions & Answers - Unity Discussions](https://discussions.unity.com/t/how-do-i-make-a-shader-that-will-work-with-unity-2d-lights/256215/2): Forum answer on adapting a sprite shader to work with Unity 2D lights. (2023-01-13, article, Unity-2022 era)
 - [Rendering realtime caustics](https://alexanderameye.github.io/notes/realtime-caustics/): Tutorial with code on rendering realtime caustics in Unity using shaders. (Alexander Ameye, 2022-03-21, article, Unity-2022 era)
 - [Showing multiple matcap techniques, including a proposed improved method that's no more expensive than the usual fix if you're starting with the world position and world normal.](https://gist.github.com/bgolus/02e37cd76568520e20219dc51653ceaa): Gist: Compares several matcap techniques including an improved method. (Ben Golus, 2022-01-29, article, Unity-2022 era)
+- [Custom Lighting in Shader Graph Part 2](https://bronsonzgeb.com/index.php/2021/10/11/custom-lighting-in-shader-graph-part-2/): Continues the custom lighting series: adding more lighting terms in a Shader Graph. (Bronson Zgeb, 2021-10-11, article, Unity-2021 era)
+- [Custom Lighting in URP with Shader Graph](https://bronsonzgeb.com/index.php/2021/10/04/custom-lighting-in-urp-with-shader-graph/): Builds custom lighting for URP inside Shader Graph using custom function nodes. (Bronson Zgeb, 2021-10-04, article, Unity-2021 era)
 - [The Secret Behind Valve’s Flickering Lights](https://www.alanzucconi.com/2021/06/15/valve-flickering-lights/): Explains how Valve's classic flickering light effect works and how to reuse it. (Alan Zucconi, 2021-06-15, article, Unity-2021 era)
 - [Unity Fake Volumetric Light](https://realtimevfx.com/t/unity-fake-volumetric-light/16480?utm_source=dlvr.it&utm_medium=twitter): Forum post on a fake volumetric light shader that fades vertex color by view normal. (2021-05-04, article, Unity-2021 era)
 - [Normal Maps, Tangent Space & IBL • Shaders for Game Devs [Part 3]](https://www.youtube.com/watch?v=E4PHFnvMzFc): Shaders for game devs part 3 on normal maps, tangent space and image-based lighting. (Freya Holmér, 2021-02-26, video, Unity-2021 era)

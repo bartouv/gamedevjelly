@@ -1,6 +1,6 @@
 # Animation, rigging & IK
 
-> Gameplay & systems · 52 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 59 hand-filtered guides on GamedevJelly, newest first.
 
 - [Giving a simple fighter personality with procedural animation in Unity](https://jettelly.com/blog/giving-a-simple-fighter-personality-in-unity): Breakdown of procedural animation that gives a legless, faceless fighter character and weight. (Jettelly, 2026-10-08, article, Unity-6 era)
 - [Self-balancing active ragdoll in Unity](https://jettelly.com/blog/self-balancing-active-ragdoll-in-unity-breakdown-of-an-upcoming-tool): Active ragdoll combining physics, IK and procedural animation, with a breakdown of the upcoming tool. (Jettelly, 2026-07-20, article, Unity-6 era)
@@ -21,14 +21,21 @@
 - [Unity Workshop: Animating Lever to Open a Door](https://www.youtube.com/watch?v=36dy6ySTmhg): Workshop on animating a lever that opens a door. (gamedev:hq, 2025-06-16, video, Unity-6 era)
 - [Unity Animation: Gunshot Flare](https://www.youtube.com/watch?v=SPY-6jiIgyA): Animates a gunshot muzzle flare in Unity. (gamedev:hq, 2025-05-23, video, Unity-6 era)
 - [The High Heel Problem](https://simonschreibt.de/gat/the-high-heel-problem/): Game art investigation into the high heel problem in character models. (Simon Schreibt, 2025-03-17, article, Unity-6 era)
+- [Learn Procedural Animation in Unity (Free complete course - Unity tutorial)](https://www.youtube.com/watch?v=cg_vXWPaG8A): A free complete course on procedural animation in Unity: IK, rigging and environment interaction. (iHeartGameDev, 2024-12-08, video, Unity-6 era)
+- [Procedural Animation in Unity: Environment Interactions [FINAL]](https://www.youtube.com/watch?v=J2Dr_l4ISfU): Final part of the environment-interaction series: characters reacting to the world with animation rigging. (iHeartGameDev, 2024-11-03, video, Unity-6 era)
 - [Definitive guide to animation with Unity 2022 LTS](https://unity.com/resources/definitive-guide-animation-unity-2022-lts-ebook): Unity's animation tools and techniques: importing, humanoid rigs, animation controllers and more. (Unity, 2024-06-13, article, Unity-2022 era)
 - [Lerp smoothing is broken](https://www.youtube.com/watch?v=LSNQuFEDOyQ): Explains why the common lerp smoothing pattern is frame-rate dependent and how to fix it. (Freya Holmér, 2024-05-29, video, Unity-2022 era)
 - [Framerate-independent lerp smoothing](https://mastodon.social/@acegikmo/111931613710775864): Post working out framerate-independent lerp smoothing. (Freya Holmér, 2024-02-14, post, Unity-2022 era)
+- [How to Program in Unity: Using my "BETTER" State Machine for Procedural Animation](https://www.youtube.com/watch?v=N3jOOm--TTg): Applies his state machine design to procedural animation. (iHeartGameDev, 2024-02-07, video, Unity-2022 era)
 - [Easing functions: linear, smoothstep, smootherstep and elevator-style curves](https://mastodon.social/@acegikmo/111700171912073203): Post comparing easing functions like linear, smoothstep, smootherstep and elevator-style curves. (Freya Holmér, 2024-01-04, post, Unity-2022 era)
+- [How to build a Character Rig and State Machine for Procedural Animation | Unity Tutorial](https://www.youtube.com/watch?v=-Oqa-iOZpIE): Builds a character rig and a state machine that drives procedural animation. (iHeartGameDev, 2023-12-02, video, Unity-2022 era)
 - [UI Toolkit Primer - Build UIs like a Programmer](https://www.youtube.com/watch?v=I1JcytXwXM4): Building interfaces is now effortlessly simple with the powerful new UI Toolkit. I'll guide you through how I, as a programmer, construct these interfaces and walk you through the essential fundamenta (Tarodev, 2023-08-29, video, Unity-2022 era)
+- [The Secret behind this Uncharted Animation | Procedural Environment Interactions [2]](https://www.youtube.com/watch?v=dlQqiJYdyYM): Part 2: how Uncharted-style hand and body reactions are built with procedural animation. (iHeartGameDev, 2023-08-24, video, Unity-2022 era)
+- [Procedural Animation in Unity | Procedural Environment Interactions [1] Intro & Character Setup](https://www.youtube.com/watch?v=Y6hJlaOwpds): Part 1: character setup for procedural environment interactions. (iHeartGameDev, 2023-07-13, video, Unity-2022 era)
 - [GitHub - annulusgames/TweenPlayables: Tween Animation Library for Unity Timeline](https://github.com/AnnulusGames/TweenPlayables): Repo: tween animation library for Unity Timeline. (2023-03-27, repo, Unity-2022 era)
 - [Building a Video Scrubber to Match Unity Animations](https://bartouv.github.io/articles/from-art-to-code-building-a-video-scrubber-to-match-unity-animations.html): Creating custom editor tools to sync video references with animation timelines. Bridge the gap between concept art and implementation. (Gal Bartouv, 2023-01-01, article, Unity-2022 era)
 - [The Rain World Animation Process](https://www.youtube.com/watch?v=sVntwsrjNe4): Explains how Rain World's animation is produced procedurally. (Alan Zucconi, 2022-12-28, video, Unity-2022 era)
+- [Intro to Animation Rigging & Procedural Animation in Unity](https://www.youtube.com/watch?v=Wx1s3CJ8NHw): An introduction to Unity Animation Rigging and procedural animation. (iHeartGameDev, 2022-11-23, video, Unity-2022 era)
 - [Add Motion to Concept Art | Simon Trümpler | EXP Expo 2022](https://www.youtube.com/watch?v=_r7o5NgPypo): Talk on adding motion to concept art. (Simon Schreibt, 2022-10-19, video, Unity-2022 era)
 - [Sine Waves Visualized](https://www.youtube.com/watch?v=7JcmpBUx4ag): Learn how to use sin and cos waves. I use unity here but, but the math is agnostic (Tarodev, 2022-05-20, video, Unity-2022 era)
 - [Reddit: Explaining procedural animation](https://www.reddit.com/r/Unity3D/comments/fqabkx/i_tried_to_explain_procedural_animation_in_10/): Reddit post explaining procedural animation. (2021-08-28, article, Unity-2021 era)

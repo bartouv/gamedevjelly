@@ -1,6 +1,6 @@
 # Gameplay systems & mechanics
 
-> Gameplay & systems · 174 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 179 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
@@ -100,6 +100,7 @@
 - [Create a Zombie FPS Game in Unity - A Better Layout | Unity Fundamentals](https://www.youtube.com/watch?v=h7uU9awLVfE): Zombie FPS fundamentals lesson on setting up a better editor layout. (gamedev:hq, 2024-09-04, video, Unity-2022 era)
 - [Create a Zombie FPS Game in Unity - Creating a New Unity Project | Unity Fundamentals](https://www.youtube.com/watch?v=iZVC1fk4XPY): Zombie FPS fundamentals lesson on creating a new Unity project. (gamedev:hq, 2024-09-02, video, Unity-2022 era)
 - [Recreating Balatro's Game Feel | Mix and Jam](https://www.youtube.com/watch?v=I1dAZuWurw4): Recreates the game feel of Balatro's cards in Unity. (Mix and Jam, 2024-04-29, video, Unity-2022 era)
+- [Programming a BETTER state machine](https://www.youtube.com/watch?v=qsIiFsddGV4): A cleaner state machine design in C#, with the reasoning behind it. (iHeartGameDev, 2023-10-05, video, Unity-2022 era)
 - [Creating Hey Listen | Mix and Jam](https://www.youtube.com/watch?v=et8uk9-Tib4): Builds a Hey Listen style hint companion in Unity. (Mix and Jam, 2023-08-17, video, Unity-2022 era)
 - [Prototypes: Bouncy Ball Shooter](https://catlikecoding.com/unity/tutorials/prototypes/bouncy-ball-shooter/): Prototype tutorial building a simple 2D ball-shooting action game. (Catlike Coding, 2023-07-31, article, Unity-2022 era)
 - [Prototypes: Match 3](https://catlikecoding.com/unity/tutorials/prototypes/match-3/): Prototype tutorial building a simple match-3 game. (Catlike Coding, 2023-06-30, article, Unity-2022 era)
@@ -110,10 +111,14 @@
 - [Recreating The Pathless' Gameplay | Mix and Jam](https://www.youtube.com/watch?v=xzFsbQEqFdg): Recreates the gameplay mechanics of The Pathless in Unity. (Mix and Jam, 2023-03-29, video, Unity-2022 era)
 - [Minecomb](https://catlikecoding.com/unity/tutorials/prototypes/minecomb/): Catlike Coding tutorial on creating a mine-sweeping game prototype. (Catlike Coding, 2023-02-28, article, Unity-2022 era)
 - [Prototypes: Paddle Square](https://catlikecoding.com/unity/tutorials/prototypes/paddle-square/): Prototype tutorial building a Pong clone. (Catlike Coding, 2023-01-31, article, Unity-2022 era)
+- [How to Program in Unity: Third Person Movement Explained](https://www.youtube.com/watch?v=-shDcRpTypk): Third-person character movement in Unity, explained step by step. (iHeartGameDev, 2022-10-09, video, Unity-2022 era)
 - [Melee attacks and AI combat mechanic in 2D games - Pav Creations](https://pavcreations.com/melee-attacks-and-ai-combat-mechanic-in-2d-unity-games/): Explains building melee attacks and AI combat in 2D Unity games. (2022-08-05, article, Unity-2022 era)
+- [Camera-Relative Movement in Unity 3D Explained](https://www.youtube.com/watch?v=7kGCrq1cJew): Makes character movement relative to the camera. (iHeartGameDev, 2022-06-26, video, Unity-2022 era)
 - [Unpredictably fun: The value of randomization in game design](https://blog.unity.com/technology/unpredictably-fun-the-value-of-randomization-in-game-design): Unity blog on using randomization in game design to keep players engaged. (2022-04-11, article, Unity-2022 era)
 - [UnityTerrainLayerSampler](https://github.com/staggartcreations/UnityTerrainLayerSampler): Scripting functionality to efficiently read terrain layer weights, usable to drive physics, VFX and SFX. (Staggart Creations, 2022-02-16, repo, Unity-2022 era)
 - [Recreating Metroid Dread's Speed Booster | Mix and Jam](https://www.youtube.com/watch?v=myH829zACPQ): Recreates Metroid Dread's Speed Booster mechanic in Unity. (Mix and Jam, 2022-01-20, video, Unity-2022 era)
+- [How to Program in Unity: Hierarchical State Machine Refactor [Built-In Character Controller #5]](https://www.youtube.com/watch?v=kV06GiJgFhc): Refactors a character controller into a hierarchical state machine. (iHeartGameDev, 2021-11-07, video, Unity-2021 era)
+- [How to Program in Unity: State Machines Explained](https://www.youtube.com/watch?v=Vt8aZDPzRjI): The state machine pattern explained for Unity beginners. (iHeartGameDev, 2021-08-29, video, Unity-2021 era)
 - [Recreating Mario Party Minigames in Game Builder Garage | Mix and Jam](https://www.youtube.com/watch?v=GxMhyyTiMA0): Recreates Mario Party minigames in Unity, inspired by Game Builder Garage. (Mix and Jam, 2021-08-11, video, Unity-2021 era)
 - [Recreating Batman Arkham's Freeflow Combat | Mix and Jam](https://www.youtube.com/watch?v=GFOpKcpKGKQ): Recreates Batman Arkham-style freeflow combat in Unity. (Mix and Jam, 2021-07-25, video, Unity-2021 era)
 - [Recreating the Drawing Mechanic from Half-Life: Alyx in Unity](https://80.lv/articles/recreating-the-drawing-mechanic-from-half-life-alyx-in-unity/): Interview on recreating the Half-Life: Alyx drawing mechanic in Unity. (2021-02-23, article, Unity-2021 era)
@@ -147,8 +152,3 @@
 - [Recreating God of War's Axe Throw | Mix and Jam](https://www.youtube.com/watch?v=M-3P59GtRW4): Recreates God of War's axe throw and recall in Unity. (Mix and Jam, 2019-03-28, video, Unity-old era)
 - [Object Management: More Complex Levels](https://catlikecoding.com/unity/tutorials/object-management/more-complex-levels/): Object management tutorial on handling more complex levels. (Catlike Coding, 2019-03-20, article, Unity-old era)
 - [Recreating Pokemon Let's GO's Capture Animation | Mix and Jam](https://www.youtube.com/watch?v=8KS5FPZq4j8): Recreates the Pokemon Let's GO capture animation in Unity. (Mix and Jam, 2019-02-27, video, Unity-old era)
-- [Object Management: Lifecycle](https://catlikecoding.com/unity/tutorials/object-management/lifecycle/): Object management tutorial on growing and dying shapes. (Catlike Coding, 2019-02-19, article, Unity-old era)
-- [Object Management: Satellites](https://catlikecoding.com/unity/tutorials/object-management/satellites/): Object management tutorial creating behavior for satellite shapes. (Catlike Coding, 2019-01-22, article, Unity-old era)
-- [Object Management: Shape Behavior](https://catlikecoding.com/unity/tutorials/object-management/shape-behavior/): Object management tutorial adding modular behavior to shapes. (Catlike Coding, 2018-12-21, article, Unity-old era)
-- [Object Management: More Factories](https://catlikecoding.com/unity/tutorials/object-management/more-factories/): Object management tutorial on composite shapes and multiple shape factories. (Catlike Coding, 2018-11-24, article, Unity-old era)
-- [Object Management: Configuring Shapes](https://catlikecoding.com/unity/tutorials/object-management/configuring-shapes/): Object management tutorial on configuring and moving shapes. (Catlike Coding, 2018-10-25, article, Unity-old era)

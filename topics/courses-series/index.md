@@ -1,12 +1,13 @@
 # Courses, series & lectures
 
-> Art & learning · 114 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 115 hand-filtered guides on GamedevJelly, newest first.
 
 - [Maths Archives - Alan Zucconi](https://www.alanzucconi.com/category/maths/): Archive of Alan Zucconi's math tutorials for games. (Alan Zucconi, 2026-08-15, article, Unity-6 era)
 - [Unity Performance Expertise](https://thegamedev.guru/): Performance-focused Unity site with guides and tutorials by The Gamedev Guru. (GameDevGuru, 2026-02-13, article, Unity-6 era)
 - [10-Part Tutorial Series to Integrate Unity Gaming Services into Mobile Games](https://unity.com/blog/10-part-tutorial-series-unity-gaming-services-mobile-gaming): Ten-part tutorial series on integrating Unity Gaming Services features into a mobile game. (Unity, 2025-11-17, article, Unity-6 era)
 - [Shader basics](https://bobacupcake.com/shader-basics): Beginner-friendly reference of individual shader techniques like sparkles, fresnel and normal tricks. (rob (bobacupcake), 2025-04-17, article, Unity-6 era)
 - [Simonschreibt.](https://simonschreibt.de/): Simonschreibt's blog of game visual breakdowns and technical details. (2025-03-28, article, Unity-6 era)
+- [Learn Procedural Animation in Unity (Free complete course - Unity tutorial)](https://www.youtube.com/watch?v=cg_vXWPaG8A): A free complete course on procedural animation in Unity: IK, rigging and environment interaction. (iHeartGameDev, 2024-12-08, video, Unity-6 era)
 - [Code a Zombie FPS Game in Unity - Creating Materials | Unity Fundamentals](https://www.youtube.com/watch?v=4nHQoK8XKBI): Zombie FPS fundamentals lesson on creating materials in Unity. (gamedev:hq, 2024-09-25, video, Unity-2022 era)
 - [Code a Zombie FPS Game in Unity - Manipulating Game Objects | Unity Fundamentals](https://www.youtube.com/watch?v=XGJzIOjFMTk): Zombie FPS fundamentals lesson on manipulating game objects. (gamedev:hq, 2024-09-23, video, Unity-2022 era)
 - [Create a Zombie FPS Game in Unity - Fly Through Scene Mode | Unity Fundamentals](https://www.youtube.com/watch?v=bNeOghf5dG0): Zombie FPS fundamentals lesson on the fly-through scene mode. (gamedev:hq, 2024-09-13, video, Unity-2022 era)
