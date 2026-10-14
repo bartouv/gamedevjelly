@@ -1,10 +1,13 @@
 # Animation, rigging & IK
 
-> Gameplay & systems · 59 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 62 hand-filtered guides on GamedevJelly, newest first.
 
 - [Giving a simple fighter personality with procedural animation in Unity](https://jettelly.com/blog/giving-a-simple-fighter-personality-in-unity): Breakdown of procedural animation that gives a legless, faceless fighter character and weight. (Jettelly, 2026-10-08, article, Unity-6 era)
 - [Self-balancing active ragdoll in Unity](https://jettelly.com/blog/self-balancing-active-ragdoll-in-unity-breakdown-of-an-upcoming-tool): Active ragdoll combining physics, IK and procedural animation, with a breakdown of the upcoming tool. (Jettelly, 2026-07-20, article, Unity-6 era)
+- [What I learned about using Unity Timeline to create a short film](https://www.youtube.com/watch?v=j1JvhqnxgEY): What she learned making a short film with Unity Timeline: how she built it and which assets she used. (Christina Creates Games, 2026-06-24, video, Unity-6 era)
 - [A procedural spider walk in Unity](https://jettelly.com/blog/how-did-this-developer-make-a-procedural-spider-walk-in-unity): Spider legs driven by IK, raycasts and stepping rules, with no baked animation. (Jettelly, 2026-06-20, article, Unity-6 era)
+- [How to create a UI Dangle and Wave juice effect in Unity](https://www.youtube.com/watch?v=EvC6nffdvUc): Build a reusable dangle-and-wave effect for UI elements to add game feel. (Christina Creates Games, 2026-05-25, video, Unity-6 era)
+- [How to create a UI card flip animation in Unity](https://www.youtube.com/watch?v=1rlPgSA_i8Y): Build a UI card flip animation as a component you can attach to any UI object. (Christina Creates Games, 2026-05-11, video, Unity-6 era)
 - [How to make a flapping text effect in Unity](https://blog.febucci.com/2026/04/how-to-make-a-flapping-text-effect-in-unity/): Recreates an airport-board flip text effect in Unity using the Text Animator asset. (Febucci, 2026-04-16, article, Unity-6 era)
 - [Skeletal Animation & Skinning: how it works](https://moonjump.com/game-dev-mechanics-skeletal-animation-skinning-how-it-works/): Explains bone hierarchies, inverse bind matrices, and linear blend skinning that deform meshes into animated characters. (Moonjump, 2026-03-05, article, Unity-6 era)
 - [Data-Oriented Next Fest - The Hot Path Show Ep. 56](https://www.youtube.com/watch?v=sP5E4Enoh4k): Last year I did a livestream with Nitzan Wilnai who is writing a book on data-oriented design in Unity. Nitzan's upcoming game: Cardwheel is in Steam Next Fest right now! (Turbo Makes Games, 2026-02-28, video, Unity-6 era)

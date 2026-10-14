@@ -1,14 +1,19 @@
 # Tech art & DCC workflow
 
-> Art & learning · 92 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 97 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity VFX Graph - Muzzle Flash Effect Tutorial](https://www.youtube.com/watch?v=HISD_W-EwyE): Build a muzzle flash with VFX Graph, using Blender plane meshes and textures made in Material Maker. (Gabriel Aguiar Prod., 2026-08-05, video, Unity-6 era)
+- [What I learned about using Unity Timeline to create a short film](https://www.youtube.com/watch?v=j1JvhqnxgEY): What she learned making a short film with Unity Timeline: how she built it and which assets she used. (Christina Creates Games, 2026-06-24, video, Unity-6 era)
+- [How to create a shader for expressions and use it on your Synty Character](https://www.youtube.com/watch?v=QmMb3Op-eg0): Create a shader that shows a range of facial expressions on a Synty POLYGON character's face. (Christina Creates Games, 2026-06-03, video, Unity-6 era)
+- [How to Change the Faces of Synty Characters](https://www.youtube.com/watch?v=aL8N01orAz4): Switch the faces of Synty characters with a customisable face-plate system. (Christina Creates Games, 2026-06-01, video, Unity-6 era)
 - [How My RGB Pipeline Supports Mods](https://www.youtube.com/watch?v=B4eVxU_eHIw): Describes an RGB color pipeline for art and how it supports modding. (Mix and Jam, 2026-05-21, video, Unity-6 era)
 - [Replicating the Shadowglass 3D pixel-art technique](https://tesseractc.at/shadowglass): Recreates the Shadowglass look for first-person 3D pixel art, explaining how the technique works. (2026-02-05, article, Unity-6 era)
 - [Patreon: Render Texture](https://www.patreon.com/posts/rendertexture-150091521?utm_campaign=patron_engagement&utm_source=post_link&post_id=150091521&utm_id=08e41892-b752-4d92-987c-5fe9687ec41a&utm_medium=email): Patreon post about using render textures in Unity. (2026-01-29, post, Unity-6 era)
 - [Jack Gutmann interviews Harry Alisavakis on shaders and tech art](https://youtu.be/PhlS-phZ1oE): Long conversation about shader work, tech art practice and breaking into the industry. (Harry Alisavakis, 2025-12-27, video, Unity-6 era)
+- [What I learned about environment building in Unity](https://www.youtube.com/watch?v=-GTWrxSDm1o): How she builds interesting environments in Unity, with what she has learned over several years. (Christina Creates Games, 2025-11-26, video, Unity-6 era)
 - [Yooka-Replaylee: A fresh coat of paint](https://unity.com/blog/playtonic-yooka-replaylee-a-fresh-coat-of-paint): Concept artist's behind-the-scenes look at reimagining a platformer's look with new tech. (Unity, 2025-11-26, article, Unity-6 era)
 - [What vertex color is and why to use it](https://bsky.app/profile/alexstrook.bsky.social/post/3m5wgmgsdl22y): Explains vertex colour as cheap per-vertex data for gradients, masks and texture-free stylised art. (Alex Strook, 2025-11-18, post, Unity-6 era)
+- [How to design levels with modular asset packs in Unity](https://www.youtube.com/watch?v=0o-QnNs-stc): How to design levels with modular asset packs in Unity, from lessons learned over the years. (Christina Creates Games, 2025-11-10, video, Unity-6 era)
 - [bobacupcake's tutorials index](https://bobacupcake.com/tutorials): Collection of shader and VFX tutorials with animated gifs, consolidated on the creator's site. (rob (bobacupcake), 2025-11-05, article, Unity-6 era)
 - [Quantum shard shader walkthrough](https://bobacupcake.com/posts/2025-11-02-quantum-shard-shader-walkthrough.html): Sculpting a crystal shard and building its glowing, sparkly shader step by step. (rob (bobacupcake), 2025-11-02, article, Unity-6 era)
 - [How PlaySide Studios Built KILL KNIGHT's Visual Identity](https://unity.com/blog/how-playside-studios-built-kill-knight-visual-identity): An art pipeline and development challenges behind a stylized action game's visual identity. (Unity, 2025-10-28, article, Unity-6 era)

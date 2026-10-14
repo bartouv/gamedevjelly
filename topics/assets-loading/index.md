@@ -1,7 +1,8 @@
 # Addressables, assets & loading
 
-> Engineering · 10 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 11 hand-filtered guides on GamedevJelly, newest first.
 
+- [Introduction to content directories](https://www.youtube.com/watch?v=RRiDA2e76lA): Learn what Unity 6.6 content directories are, how they improve asset packing, how to start using them, and when AssetBundles still fit. (Unity, 2026-10-14, video, Unity-6 era)
 - [Content directories: Beyond the AssetBundle](https://unity.com/blog/content-directories-beyond-the-assetbundle): Unity 6.6 content directories as a faster, more granular AssetBundle replacement with smaller builds and quicker loads. (Unity, 2026-09-22, article, Unity-6 era)
 - [Optimizing Godforge: 200+ heroes, million-polygon worlds](https://unity.com/blog/optimizing-godforge-200-heroes-million-polygon-worlds): Cutting memory from 4 GB to 1.3 GB and raising frame rate 57 percent. (Unity, 2026-05-22, article, Unity-6 era)
 - [How Rockstar fit an entire city into PlayStation 2 memory](https://www.youtube.com/watch?v=cIbCxbrBCys): How GTA on PS2 streamed a whole city through tiny memory using chunking and asset tricks. (Game Maker's Toolkit, 2026-05-11, video, Unity-6 era)

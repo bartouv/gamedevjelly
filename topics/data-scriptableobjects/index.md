@@ -1,8 +1,9 @@
 # Data, saving & localization
 
-> Engineering · 16 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 17 hand-filtered guides on GamedevJelly, newest first.
 
 - [Scriptable Objects Aren't Just Data Holders](https://www.youtube.com/watch?v=UmcUHOk9fX4): Goes beyond data containers to show ScriptableObjects used for architecture, events and behavior in Unity. (Gamedev Engine Room, 2026-08-26, video, Unity-6 era)
+- [Struggling with the new input system in Unity? Watch this.](https://www.youtube.com/watch?v=MaulSHrhA8I): A simple way to use the new Input System through a ScriptableObject that any script can react to. (Christina Creates Games, 2026-08-03, video, Unity-6 era)
 - [Unity Devs Are Sleeping on This Free Alternative to Odin](https://www.youtube.com/watch?v=L0nBN6ME7VQ): Boost your workflow with Alchemy, a free Unity library providing powerful inspector attributes and serialization extensions. See how it compares to paid alternatives. (git-amend, 2026-07-19, video, Unity-6 era)
 - [Stop Fighting Unity's Serializer - Use This Instead](https://www.youtube.com/watch?v=K10lBl__xbQ): Shows Odin Serializer handling dictionaries, interfaces and abstract classes that Unity's serializer can't. (Gamedev Engine Room, 2026-04-22, video, Unity-6 era)
 - [How solo dev SlugGlove built 102 million spell combinations in Unity for Rhell: Warped Worlds & Troubled Times](https://unity.com/blog/building-102-million-spell-combinations-prefab-variants-rhell): Building a modular spell system with prefab variants that yields 102 million combinations. (Unity, 2026-04-13, article, Unity-6 era)

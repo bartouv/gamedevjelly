@@ -1,9 +1,10 @@
 # Game art breakdowns
 
-> Art & learning · 139 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 140 hand-filtered guides on GamedevJelly, newest first.
 
 - [The Secrets Behind THAT Cyberpunk 2077 Montage](https://www.youtube.com/watch?v=NlAFWaa9UQo): Breaks down how Cyberpunk 2077's famous montage scene was built from in-engine systems and editing. (Game Maker's Toolkit, 2026-05-15, video, Unity-6 era)
 - [Cairn technical art deep dive: Rendering gameplay-specific rock materials on top of level design](https://unity.com/blog/cairn-technical-art-rendering-gameplay-rock-materials): Using 3D blendmaps and compute shaders to keep climbable rock surfaces consistent between visuals and gameplay. (Unity, 2026-04-17, article, Unity-6 era)
+- [What I learned about environment building in Unity](https://www.youtube.com/watch?v=-GTWrxSDm1o): How she builds interesting environments in Unity, with what she has learned over several years. (Christina Creates Games, 2025-11-26, video, Unity-6 era)
 - [Yooka-Replaylee: A fresh coat of paint](https://unity.com/blog/playtonic-yooka-replaylee-a-fresh-coat-of-paint): Concept artist's behind-the-scenes look at reimagining a platformer's look with new tech. (Unity, 2025-11-26, article, Unity-6 era)
 - [How PlaySide Studios Built KILL KNIGHT's Visual Identity](https://unity.com/blog/how-playside-studios-built-kill-knight-visual-identity): An art pipeline and development challenges behind a stylized action game's visual identity. (Unity, 2025-10-28, article, Unity-6 era)
 - [Shader Breakdown: Night in the Woods' Wobbly Dialogue Effect](https://bartouv.github.io/articles/shader-breakdown-recreating-night-in-the-woods-wobbly-dialogue-effect.html): Recreating the distinctive wobbly text shader from Night in the Woods. A deep dive into vertex displacement and shader graph techniques. (Gal Bartouv, 2025-09-01, article, Unity-6 era)

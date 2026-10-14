@@ -10,6 +10,7 @@ Official technical blog posts and free Unity 6 e-books from Unity: rendering, UR
 - instagram: https://www.instagram.com/unitytechnologies
 - bluesky: https://bsky.app/profile/unity.com
 
+- [Introduction to content directories](https://www.youtube.com/watch?v=RRiDA2e76lA): Learn what Unity 6.6 content directories are, how they improve asset packing, how to start using them, and when AssetBundles still fit. (Unity, 2026-10-14, video, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [Unity External Dependency Manager: What You Need to Know About the Change](https://unity.com/blog/external-dependency-manager): How the External Dependency Manager replaces EDM4U for Android and iOS SDK dependencies. (Unity, 2026-09-29, article, Unity-6 era)
 - [Scaling Scritchy Scratchy Across Platforms](https://unity.com/blog/scaling-scritchy-scratchy-across-platforms): Porting a game across PC, mobile and Switch while keeping performance and tactile gameplay. (Unity, 2026-09-28, article, Unity-6 era)

@@ -1,7 +1,8 @@
 # Builds, version control & DevOps
 
-> Workflow & tools · 23 hand-filtered guides on GamedevJelly, newest first.
+> Workflow & tools · 24 hand-filtered guides on GamedevJelly, newest first.
 
+- [Introduction to content directories](https://www.youtube.com/watch?v=RRiDA2e76lA): Learn what Unity 6.6 content directories are, how they improve asset packing, how to start using them, and when AssetBundles still fit. (Unity, 2026-10-14, video, Unity-6 era)
 - [Unity Is Replacing Your Runtime. Are You Ready?](https://www.youtube.com/watch?v=yCyuLvA_g74): What Unity's move from Mono to CoreCLR changes in practice, including what may break builds or workflows. (Gamedev Engine Room, 2026-10-08, video, Unity-6 era)
 - [Unity External Dependency Manager: What You Need to Know About the Change](https://unity.com/blog/external-dependency-manager): How the External Dependency Manager replaces EDM4U for Android and iOS SDK dependencies. (Unity, 2026-09-29, article, Unity-6 era)
 - [The Real Reason Unity Is Finally Dropping Mono](https://www.youtube.com/watch?v=ojM9tgbcbwU): Explains Unity's scripting backends, Mono versus IL2CPP, and why the CoreCLR move is coming. (Gamedev Engine Room, 2026-09-23, video, Unity-6 era)
