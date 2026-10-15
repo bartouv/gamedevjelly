@@ -1617,7 +1617,7 @@ main { min-height: calc(100vh - 66px); }
     const cl = e.target.closest('[data-clear]');
     if (cl) {
       const k = cl.dataset.clear;
-      if (k === 'all') { state.tags = []; state.src = null; state.pipe = ''; store.set('pipe', ''); state.ver = ''; state.from = state.to = ''; state.q = ''; $('#q').value = ''; go(null); return; }
+      if (k === 'all') { clearFilters({ tags: true }); go(null); return; }
       if (k === 'view') { go(null); return; }
       if (k.startsWith('tag:')) state.tags = state.tags.filter(t => t !== k.slice(4));
       if (k === 'src') state.src = null;
@@ -1729,7 +1729,9 @@ main { min-height: calc(100vh - 66px); }
     }
   });
   // Home means the landing page: clear every filter first, otherwise a leftover Unity version, tool, date or source keeps the list view up
-  function goHome() { state.q = ''; $('#q').value = ''; state.tags = []; state.src = null; state.pipe = ''; store.set('pipe', ''); state.ver = ''; state.from = state.to = ''; state.tool = ''; state.sub = ''; go(null); }
+  // every filter in one place: Home, "Clear all" and "Reset filters" each used to carry their own copy of this list
+  function clearFilters({ tags = false } = {}) { if (tags) state.tags = []; state.src = null; state.pipe = ''; store.set('pipe', ''); state.ver = ''; state.from = state.to = ''; state.tool = ''; state.q = ''; $('#q').value = ''; }
+  function goHome() { clearFilters({ tags: true }); state.sub = ''; go(null); }
   window.addEventListener('popstate', () => { readHash(); render(); });
 
   // ---------- filtering ----------
@@ -1983,6 +1985,17 @@ main { min-height: calc(100vh - 66px); }
     else { panel.classList.remove('open'); void panel.offsetWidth; }  // swapping content: replay the content rise
     panel.classList.add('open'); scrim.classList.add('open');
   }
+  // ---- shared by the repo, book and asset panels ----
+  const PANEL_TOP = '<div class="ptop"><span class="sp"></span><button class="pbtn" data-pclose aria-label="Close" title="Close (Esc)">✕</button></div>';
+  const relGroup = (label, arr) => arr.length ? `<h4>${label}</h4><div class="rel">${arr.map(o => `<button data-rel="${o.id}"><span class="rt">${miniThumb(o)}</span><span><b>${esc(o.t)}</b><small>${esc(o.ds || o.host)}</small></span></button>`).join('')}</div>` : '';
+  const usedGrid = ub => `<h4>Used in</h4><div class="usedgrid">${ub.items.map(([n, u, im]) => `<${u ? 'a href="' + esc(u) + '" target="_blank" rel="noopener"' : 'span'} class="ucard">${im ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(im)}" alt="" onerror="this.remove()">` : ''}<b>${esc(n)}</b></${u ? 'a' : 'span'}>`).join('')}</div>`;
+  function openSidePanel(ctx, html) {   // the one way a repo, book or asset opens in the side panel
+    if (panel.hidden) lastFocus = document.activeElement;
+    pCtx = ctx; pItem = null;
+    panel.innerHTML = PANEL_TOP + html;
+    showPanel();
+    panel.querySelector('[data-pclose]').focus({ preventScroll: true });
+  }
   function closePanel() {
     if (panel.hidden || closing) return;
     closing = true; panel.classList.remove('open'); scrim.classList.remove('open');
@@ -2018,6 +2031,7 @@ main { min-height: calc(100vh - 66px); }
     const w = Math.ceil(((t - Date.UTC(t.getUTCFullYear(), 0, 1)) / 864e5 + 1) / 7); return { key: t.getUTCFullYear() + '-W' + String(w).padStart(2, '0'), n: t.getUTCFullYear() * 53 + w }; };
   const ofTheWeek = (pool, kind) => { if (!pool.length) return null; const w = isoWeek(), pin = ((LIB.featured || {})[kind] || {})[w.key]; return pool.find(x => x.id === pin) || pool[w.n % pool.length]; };
   const featBox = (kicker, lead, body, actions, media = '', bg = '') => `<section class="feat${media ? ' hasmedia' : ''}">${bg ? `<div class="featbg" style="background-image:url('${esc(bg)}')"></div>` : ''}<div class="featk"><i></i>${kicker}</div><div class="featbody">${lead || ''}<div class="featmain">${body}${actions ? `<div class="featact">${actions}</div>` : ''}</div>${media ? `<div class="featmedia">${media}</div>` : ''}</div></section>`;
+  const NO_MATCHES = '<div class="empty"><h3>No matches</h3>Try a shorter search or clear a filter.</div>';
   // folder landing for Repos / Assets / Books: one tile per category with what it is for
   const folderLanding = (box, cats, desc, byCat, attr, nameOf, pre = '', imgOf = null, shape = 'land') => {
     box.innerHTML = pre + `<div class="rfgrid">${Object.entries(cats).filter(([k]) => byCat[k]).map(([k, nm]) => {
@@ -2059,30 +2073,25 @@ main { min-height: calc(100vh - 66px); }
         const h = health(r), n = relItems(r).length;
         return `<button class="rcard enter" style="--i:${Math.min(i, 14)}" data-repo="${esc(r.id)}"><span class="rhead"><img class="ricon" loading="lazy" referrerpolicy="no-referrer" src="https://github.com/${esc(r.id.split('/')[0])}.png?size=72" alt=""><span><h3>${esc(r.name)}</h3><span class="rown">${repoCreator(r.id) ? byline(repoCreator(r.id).n, repoCreator(r.id).s, false) : esc(r.id.split('/')[0])}</span></span></span><p class="ruse">${esc(r.use)}</p>
           <div class="rbadges"><span class="rb rcat">${esc(RD.cats[r.cat])}</span><span class="rb ${h[0]}" title="Last push ${r.st.pushed}">${h[1]} · ${pushedLabel(r.st.pushed)}</span><span class="rb">★ ${kstars(r.st.stars)}</span>${u7Badge(r)}${n ? `<span class="rb guides">${n} guide${n > 1 ? 's' : ''}</span>` : ''}</div></button>`;
-      }).join('')}</div>` : '<div class="empty"><h3>No matches</h3>Try a shorter search or clear a filter.</div>');
+      }).join('')}</div>` : NO_MATCHES);
   }
   function openRepo(id) {
     const r = repoById.get(id); if (!r) return;
-    if (panel.hidden) lastFocus = document.activeElement;
-    pCtx = 'repo'; pItem = null;
     const h = health(r), rel = relItems(r);
-    const group = (label, arr) => arr.length ? `<h4>${label}</h4><div class="rel">${arr.map(o => `<button data-rel="${o.id}"><span class="rt">${miniThumb(o)}</span><span><b>${esc(o.t)}</b><small>${esc(o.ds || o.host)}</small></span></button>`).join('')}</div>` : '';
     const alts = (r.alt || []).map(a => repoById.get(a)).filter(Boolean);
-    panel.innerHTML = `<div class="ptop"><span class="sp"></span><button class="pbtn" data-pclose aria-label="Close" title="Close (Esc)">✕</button></div>
+    openSidePanel('repo', `
       <div class="rdetail"><img class="rbanner" loading="lazy" referrerpolicy="no-referrer" src="https://opengraph.githubassets.com/1/${esc(r.id)}" alt="" onerror="this.remove()">
       <div class="pactions"><a class="pbtn primary" href="https://github.com/${esc(r.id)}" target="_blank" rel="noopener">GitHub ↗</a></div><h2 id="pTitle">${esc(r.name)}</h2><p class="small">${esc(r.id)}</p>${repoCreator(r.id) ? `<p class="small">By ${byline(repoCreator(r.id).n, repoCreator(r.id).s)}</p>` : ''}
       <p class="pds"><b>Use it when:</b> ${esc(r.use)}</p>
-      ${r.used_by ? `<h4>Used in</h4><div class="usedgrid">${r.used_by.items.map(([n, u, im]) => `<${u ? 'a href="' + esc(u) + '" target="_blank" rel="noopener"' : 'span'} class="ucard">${im ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(im)}" alt="" onerror="this.remove()">` : ''}<b>${esc(n)}</b></${u ? 'a' : 'span'}>`).join('')}</div><p class="small">From <a href="${esc(r.used_by.src)}" target="_blank" rel="noopener">${esc(r.used_by.note)}</a>. Listed by the project itself, not independently verified.</p>` : ''}
+      ${r.used_by ? `${usedGrid(r.used_by)}<p class="small">From <a href="${esc(r.used_by.src)}" target="_blank" rel="noopener">${esc(r.used_by.note)}</a>. Listed by the project itself, not independently verified.</p>` : ''}
       <div class="rbadges"><span class="rb rcat">${esc(RD.cats[r.cat])}</span><span class="rb ${h[0]}">${h[1]} · last push ${pushedLabel(r.st.pushed)}</span><span class="rb">★ ${kstars(r.st.stars)}</span>${r.st.license && r.st.license !== '-' && r.st.license !== 'NOASSERTION' ? `<span class="rb">${esc(r.st.license)}</span>` : ''}</div>
       ${r.unity7 && U7[r.unity7.status] ? `<p class="small u7note"><b>${U7[r.unity7.status][0]}.</b> ${esc(r.unity7.note)}. <a href="${esc(r.unity7.url)}" target="_blank" rel="noopener">Evidence ↗</a> <span class="muted">Based on merged or proposed changes in the repo; Unity 7 is still in beta, so check the repo before relying on it.</span></p>` : ''}
       ${r.st.desc ? `<p class="small">GitHub: ${esc(r.st.desc)}</p>` : ''}
       ${(r.forks || []).map(f => `<p class="small"><b>Maintained fork:</b> <a href="https://github.com/${esc(f.id)}" target="_blank" rel="noopener">${esc(f.name)}</a> · ★ ${kstars(f.st.stars)} · last push ${pushedLabel(f.st.pushed)}</p>`).join('')}
       ${r.install ? `<h4>Install (Package Manager → Add from git URL)</h4><div class="copyrow"><pre>${esc(r.install.value)}</pre><button class="copybtn" data-copy="${esc(r.install.value)}">Copy</button></div>` : ''}
       ${alts.length ? `<h4>Alternatives</h4><div class="alts">${alts.map(a => `<button data-repo="${esc(a.id)}">${esc(a.name)}</button>`).join('')}</div>` : ''}
-      ${docsGroup(r.docs)}${group('Watch', rel.filter(o => o.src === 'video'))}${group('Read', rel.filter(o => o.src !== 'video' && o.src !== 'github'))}${group('Code & repos', rel.filter(o => o.src === 'github'))}
-      ${rel.length || (r.docs || []).length ? '' : '<p class="small">No library guides mention this repo yet.</p>'}</div>`;
-    showPanel();
-    panel.querySelector('[data-pclose]').focus({ preventScroll: true });
+      ${docsGroup(r.docs)}${relGroup('Watch', rel.filter(o => o.src === 'video'))}${relGroup('Read', rel.filter(o => o.src !== 'video' && o.src !== 'github'))}${relGroup('Code & repos', rel.filter(o => o.src === 'github'))}
+      ${rel.length || (r.docs || []).length ? '' : '<p class="small">No library guides mention this repo yet.</p>'}</div>`);
   }
   // ---------- section pages: all topics, all creators ----------
   function renderTopicsPage() {
@@ -2182,7 +2191,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
         const h = ahealth(a), n = aRelItems(a).length;
         return `<button class="rcard enter" style="--i:${Math.min(i, 14)}" data-asset="${esc(a.id)}">${aImg(a)}<span class="rhead"><span><h3>${esc(a.st.name)}</h3><span class="rown">${byline(a.st.publisher, '', false)}</span></span></span><p class="ruse">${esc(a.use)}</p>
           <div class="rbadges"><span class="rb rcat">${esc(AD.cats[a.cat])}</span><span class="rb">${esc(priceOf(a))}</span>${a.st.count ? `<span class="rb" title="${a.st.count} ratings">★ ${a.st.rating} (${a.st.count})</span>` : ''}${a.aff ? '<span class="rb aff">Affiliate</span>' : ''}${n ? `<span class="rb guides">${n} guide${n > 1 ? 's' : ''}</span>` : ''}</div></button>`;
-      }).join('')}</div>` : '<div class="empty"><h3>No matches</h3>Try a shorter search or clear a filter.</div>');
+      }).join('')}</div>` : NO_MATCHES);
   }
   // ---------- books ----------
   const bookById = new Map([...BD.books, ...CD.books].map(b => [b.id, b]));
@@ -2212,15 +2221,12 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
         const n = bRelItems(b).length;
         return `<button class="rcard bcard enter${b.free ? ' isfree' : ''}" style="--i:${Math.min(i, 14)}" data-book="${esc(b.id)}">${b.free ? '<span class="ribbon" aria-label="Free"><b>FREE</b></span>' : ''}${bCover(b)}<span class="bmain"><h3>${esc(b.title)}</h3><span class="rown">${byline(b.author, b.creator, false)}${b.year ? ' · ' + b.year : ''}</span><p class="ruse">${esc(b.use)}</p>
           <span class="rbadges"><span class="rb rcat">${esc(D.cats[b.cat])}</span><span class="rb">${esc(b.publisher)}</span>${b.unity ? `<span class="rb">${esc(b.unity.split(';')[0])}</span>` : ''}${n ? `<span class="rb guides">${n} guide${n > 1 ? 's' : ''}</span>` : ''}</span></span></button>`;
-      }).join('')}</div>` : '<div class="empty"><h3>No matches</h3>Try a shorter search or clear a filter.</div>');
+      }).join('')}</div>` : NO_MATCHES);
   }
   function openBook(id) {
     const b = bookById.get(id); if (!b) return;
-    if (panel.hidden) lastFocus = document.activeElement;
-    pCtx = 'book'; pItem = null;
     const rel = bRelItems(b), cr = b.creator && catBySlug[b.creator];
-    const group = (label, arr) => arr.length ? `<h4>${label}</h4><div class="rel">${arr.map(o => `<button data-rel="${o.id}"><span class="rt">${miniThumb(o)}</span><span><b>${esc(o.t)}</b><small>${esc(o.ds || o.host)}</small></span></button>`).join('')}</div>` : '';
-    panel.innerHTML = `<div class="ptop"><span class="sp"></span><button class="pbtn" data-pclose aria-label="Close" title="Close (Esc)">✕</button></div>
+    openSidePanel('book', `
       <div class="rdetail">
       <div class="bhero">${b.image ? `<i class="bhbg" style="background-image:url('${esc(b.image)}')"></i>` : ''}${bCover(b)}<div class="bmeta"><h2 id="pTitle">${esc(b.title)}</h2><p class="small">${byline(b.author, b.creator)}${b.year ? ' · ' + b.year : ''} · ${esc(b.publisher)}</p>
         <div class="rbadges"><span class="rb ${b.free ? 'u7ok' : ''}">${b.free ? 'Free' : 'Paid'}</span><span class="rb rcat">${esc((b.kind === 'course' ? CD : BD).cats[b.cat])}</span>${b.kind === 'course' ? '<span class="rb crs">Course</span>' : ''}${b.level ? `<span class="rb">${esc(b.level)}</span>` : ''}${b.unity ? `<span class="rb">${esc(b.unity)}</span>` : ''}</div></div></div>
@@ -2232,32 +2238,25 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
         ${b.amz || b.aff ? `<div class="bsup"><b>♥ Support GamedevJelly, only if you like</b>${b.amz ? 'The Amazon link is an affiliate link: if you buy through it, GamedevJelly earns a small commission and you pay nothing extra. ' : ''}${b.aff ? 'The button above carries a referral code that earns GamedevJelly a small commission at no extra cost to you. ' : ''}You never have to use it${b.plain ? `: <a href="${esc(b.plain)}" target="_blank" rel="noopener">go to the course directly, no referral</a>` : b.amz ? ': the publisher\'s own page is linked just above' : ''}. Nothing here is ranked by commission.${b.amz ? ' As an Amazon Associate I earn from qualifying purchases.' : ''}</div>` : ''}
       </div>
       ${cr ? `<p class="small">By <button class="linkbtn" data-tag="${b.creator}">${esc(cr.n)}</button>, who also has guides in the library.</p>` : ''}
-      ${group('Watch', rel.filter(o => o.src === 'video'))}${group('Read', rel.filter(o => o.src !== 'video' && o.src !== 'github'))}
-      ${rel.length ? '' : `<p class="small">No library guides mention this ${b.kind === 'course' ? 'course' : 'book'} yet.</p>`}</div>`;
-    showPanel();
-    panel.querySelector('[data-pclose]').focus({ preventScroll: true });
+      ${relGroup('Watch', rel.filter(o => o.src === 'video'))}${relGroup('Read', rel.filter(o => o.src !== 'video' && o.src !== 'github'))}
+      ${rel.length ? '' : `<p class="small">No library guides mention this ${b.kind === 'course' ? 'course' : 'book'} yet.</p>`}</div>`);
   }
   function openAsset(id) {
     const a = assetById.get(id); if (!a) return;
-    if (panel.hidden) lastFocus = document.activeElement;
-    pCtx = 'asset'; pItem = null;
     const h = ahealth(a), rel = aRelItems(a);
-    const group = (label, arr) => arr.length ? `<h4>${label}</h4><div class="rel">${arr.map(o => `<button data-rel="${o.id}"><span class="rt">${miniThumb(o)}</span><span><b>${esc(o.t)}</b><small>${esc(o.ds || o.host)}</small></span></button>`).join('')}</div>` : '';
     const alts = a.alt.map(x => assetById.get(x)).filter(Boolean);
-    panel.innerHTML = `<div class="ptop"><span class="sp"></span><button class="pbtn" data-pclose aria-label="Close" title="Close (Esc)">✕</button></div>
+    openSidePanel('asset', `
       <div class="rdetail">${a.st.image ? `<img class="rbanner" referrerpolicy="no-referrer" src="${esc(a.st.image)}" alt="" onerror="this.remove()">` : ''}
       <div class="pactions"><a class="pbtn primary" href="${esc(aHref(a))}" target="_blank" rel="noopener${a.aff ? ' sponsored' : ''}">${a.st.external ? 'Website' : 'Asset Store'} ↗</a>${a.aff ? '<span class="rb aff">Affiliate link</span>' : ''}</div>
       <h2 id="pTitle">${esc(a.st.name)}</h2><p class="small">${byline(a.st.publisher)}</p>
       <p class="pds"><b>Use it when:</b> ${esc(a.use)}</p>
-      ${a.used_by ? `<h4>Used in</h4><div class="usedgrid">${a.used_by.items.map(([n, u, im]) => `<${u ? 'a href="' + esc(u) + '" target="_blank" rel="noopener"' : 'span'} class="ucard">${im ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(im)}" alt="" onerror="this.remove()">` : ''}<b>${esc(n)}</b></${u ? 'a' : 'span'}>`).join('')}</div><p class="small">${a.used_by.src ? `From <a href="${esc(a.used_by.src)}" target="_blank" rel="noopener">${esc(a.used_by.note)}</a>.` : esc(a.used_by.note) + '.'}</p>` : ''}
+      ${a.used_by ? `${usedGrid(a.used_by)}<p class="small">${a.used_by.src ? `From <a href="${esc(a.used_by.src)}" target="_blank" rel="noopener">${esc(a.used_by.note)}</a>.` : esc(a.used_by.note) + '.'}</p>` : ''}
       <div class="rbadges"><span class="rb rcat">${esc(AD.cats[a.cat])}</span><span class="rb">${esc(priceOf(a))}</span>${a.st.count ? `<span class="rb">★ ${a.st.rating} (${a.st.count} ratings)</span>` : ''}${h ? `<span class="rb ${h[0]}">${h[1]}</span>` : ''}${a.st.pipes.map(p => `<span class="rb">${PIPE_NAME[p]}</span>`).join('')}</div>
       ${a.st.unity ? `<p class="small">Latest listing supports Unity ${esc(a.st.unity)} and up. Check the Asset Store page for your version and render pipeline.</p>` : ''}
       ${a.aff ? '<p class="small">This is an affiliate link: it may earn a commission and does not affect the ranking.</p>' : ''}
       ${alts.length ? `<h4>Alternatives</h4><div class="alts">${alts.map(x => `<button data-asset="${esc(x.id)}">${esc(x.st.name)}</button>`).join('')}</div>` : ''}
-      ${docsGroup(a.docs)}${group('Watch', rel.filter(o => o.src === 'video'))}${group('Read', rel.filter(o => o.src !== 'video' && o.src !== 'github'))}${group('Code & repos', rel.filter(o => o.src === 'github'))}
-      ${rel.length || (a.docs || []).length ? '' : '<p class="small">No library guides mention this asset yet.</p>'}</div>`;
-    showPanel();
-    panel.querySelector('[data-pclose]').focus({ preventScroll: true });
+      ${docsGroup(a.docs)}${relGroup('Watch', rel.filter(o => o.src === 'video'))}${relGroup('Read', rel.filter(o => o.src !== 'video' && o.src !== 'github'))}${relGroup('Code & repos', rel.filter(o => o.src === 'github'))}
+      ${rel.length || (a.docs || []).length ? '' : '<p class="small">No library guides mention this asset yet.</p>'}</div>`);
   }
   function renderPaths() {
     const box = $('#pathsView');
@@ -2768,7 +2767,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
   grid.addEventListener('pointerout', e => { if (!e.relatedTarget || !e.relatedTarget.closest || !e.relatedTarget.closest('.card')) hideHover(); });
   document.addEventListener('click', hideHover, true);
 
-  grid.addEventListener('click', e => { if (e.target.closest('[data-reset]')) { state.src = null; state.tool = ''; state.pipe = ''; state.ver = ''; state.from = state.to = ''; state.q = ''; $('#q').value = ''; render(); } });
+  grid.addEventListener('click', e => { if (e.target.closest('[data-reset]')) { clearFilters(); render(); } });
   // arrow-key browsing of the grid
   grid.addEventListener('keydown', e => {
     const k = e.key; if (!['ArrowRight', 'ArrowLeft', 'ArrowDown', 'ArrowUp'].includes(k) || !panel.hidden) return;
