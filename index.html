@@ -790,8 +790,23 @@ main { min-height: calc(100vh - 66px); }
 .sugbtn:hover { background: color-mix(in srgb, var(--accent) 22%, transparent); transform: translateY(-1px); }
 @media (max-width: 1180px) { .sugbtn span { display: none; } .sugbtn { padding: 9px; } }
 @media (max-width: 860px) { .sugbtn { margin-left: auto; } .sugbtn + .icon-btn { margin-left: 0; } }
-.sugdlg { border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 20px; background: var(--surface); color: var(--fg); padding: 0; width: min(540px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; box-shadow: 0 40px 100px rgb(0 0 0 / .6); }
-.sugdlg[open] { animation: sdin .3s cubic-bezier(.2, .8, .2, 1); } @keyframes sdin { from { opacity: 0; } to { opacity: 1; } }   /* opacity only: a transform would make the dialog the reference for the fixed-position jelly inside it */
+.sugdlg { border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 20px; background: var(--surface); color: var(--fg); padding: 0; width: min(540px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; box-shadow: 0 0 0 1px rgb(148 135 251 / .12), 0 0 70px -10px rgb(116 104 230 / .45), 0 40px 100px rgb(0 0 0 / .6); }
+/* the card springs up from slightly small; its pieces rise in one after another; the jelly steps in once it has landed (JS) */
+.sugdlg[open] { animation: sdin .46s cubic-bezier(.2, 1.15, .3, 1); } @keyframes sdin { from { opacity: 0; transform: translateY(26px) scale(.86); } 60% { opacity: 1; } to { opacity: 1; transform: none; } }
+.sugdlg.closing { animation: sdout .17s ease-in forwards; } @keyframes sdout { to { opacity: 0; transform: translateY(10px) scale(.94); } }
+.sugdlg[open]::backdrop { animation: sdfade .35s ease; } .sugdlg.closing::backdrop { animation: sdfade .17s ease reverse forwards; } @keyframes sdfade { from { opacity: 0; } }
+.sugdlg[open] form > :not(.sdx):not(.hp) { animation: sdrise .5s cubic-bezier(.2, .8, .2, 1) both; } @keyframes sdrise { from { opacity: 0; transform: translateY(14px); } }
+.sugdlg[open] form > :nth-child(3) { animation-delay: .10s; } .sugdlg[open] form > :nth-child(4) { animation-delay: .15s; } .sugdlg[open] form > :nth-child(5) { animation-delay: .20s; } .sugdlg[open] form > :nth-child(6) { animation-delay: .25s; } .sugdlg[open] form > :nth-child(7) { animation-delay: .30s; } .sugdlg[open] form > :nth-child(8) { animation-delay: .35s; }
+.sdhero { position: relative; overflow: hidden; } .sdhero::before, .sdhero::after { content: ""; position: absolute; pointer-events: none; animation: sdorb 7s ease-in-out infinite alternate; }
+.sdhero::before { width: 240px; height: 150px; left: -50px; top: -50px; background: radial-gradient(closest-side, rgb(255 122 217 / .26), transparent); } .sdhero::after { width: 260px; height: 150px; right: -60px; top: -50px; background: radial-gradient(closest-side, rgb(124 196 255 / .22), transparent); animation-delay: -3.5s; }
+@keyframes sdorb { to { transform: translate(26px, 18px) scale(1.18); } }
+.sdhero > * { position: relative; }
+.sdj .mascot { animation: sdpop .5s cubic-bezier(.2, 1.4, .4, 1) both; } @keyframes sdpop { from { opacity: 0; transform: scale(.4); } }
+.sdkind input:checked + span { animation: sdchip .3s cubic-bezier(.2, 1.6, .4, 1); } @keyframes sdchip { 40% { transform: scale(1.1); } }
+.sdgo { position: relative; overflow: hidden; } .sdgo::after { content: ""; position: absolute; inset: 0; background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / .38) 50%, transparent 65%); transform: translateX(-120%); } .sdgo:hover::after { transform: translateX(120%); transition: transform .6s ease; }
+.sdok { position: relative; } .sdok h2 { background: linear-gradient(100deg, var(--fg), var(--accent) 55%, #ff7ad9); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.sdc { position: absolute; left: 50%; top: 34%; width: 8px; height: 12px; border-radius: 2px; background: var(--c); pointer-events: none; animation: sdc 1.1s cubic-bezier(.15, .7, .3, 1) both; } .sdc:nth-child(3n) { width: 8px; height: 8px; border-radius: 50%; }
+@keyframes sdc { from { transform: translate(-50%, -50%) scale(.4); opacity: 1; } 70% { opacity: 1; } to { transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y) + 70px)) rotate(var(--r)) scale(1); opacity: 0; } }
 .sugdlg::backdrop { background: radial-gradient(60% 50% at 50% 30%, rgb(116 104 230 / .2), transparent 70%), rgb(5 7 14 / .66); backdrop-filter: blur(5px); }
 .sugdlg form { position: relative; padding: 0 26px 22px; display: grid; gap: 14px; }
 .sdhero { margin: 0 -26px; padding: 26px 26px 16px; text-align: center; background: radial-gradient(90% 130% at 50% 0%, color-mix(in srgb, var(--accent) 30%, transparent), transparent 72%); }
@@ -816,8 +831,8 @@ main { min-height: calc(100vh - 66px); }
 .sdmsg { font-size: 13.5px; color: var(--muted); } .sdmsg.bad { color: #ef8f8f; } .sdmsg a { color: var(--accent); }
 .sdn { margin: 0; font-size: 12.5px; color: var(--muted); text-align: center; }
 .sdok { padding: 30px 26px 28px; text-align: center; margin: 0 -26px; background: radial-gradient(90% 120% at 50% 0%, color-mix(in srgb, var(--accent) 26%, transparent), transparent 72%); } .sdok h2 { margin: 12px 0 8px; font: 800 30px/1.05 var(--f-display); letter-spacing: -.03em; } .sdok p { margin: 0 0 18px; color: var(--muted); }
-@media (max-width: 860px) { .sugdlg { margin: auto 0 0; width: 100vw; max-width: none; border-radius: 20px 20px 0 0; border-bottom: 0; } .sdhero { padding-top: 22px; } }
-@media (prefers-reduced-motion: reduce) { .sugdlg[open] { animation: none; } }
+@media (max-width: 860px) { .sugdlg[open] { animation-name: sdup; } .sugdlg.closing { animation-name: sddown; } @keyframes sdup { from { transform: translateY(60%); opacity: 0; } } @keyframes sddown { to { transform: translateY(40%); opacity: 0; } } .sugdlg { margin: auto 0 0; width: 100vw; max-width: none; border-radius: 20px 20px 0 0; border-bottom: 0; } .sdhero { padding-top: 22px; } }
+@media (prefers-reduced-motion: reduce) { .sugdlg[open], .sugdlg.closing, .sugdlg[open] form > *, .sdhero::before, .sdhero::after, .sdj .mascot { animation: none; } .sugdlg.closing { opacity: 0; } }
 .sugend { margin: 28px 0 8px; padding: 14px 16px; border: 1px dashed var(--line); border-radius: 12px; color: var(--muted); font-size: 14px; text-align: center; } .sugend a { color: var(--accent); font-weight: 600; text-decoration: none; } .sugend a:hover { text-decoration: underline; }
 .empty a.btn { text-decoration: none; margin-left: 8px; }
 .topnav { display: flex; gap: 2px; margin-left: 4px; }
@@ -1688,7 +1703,7 @@ main { min-height: calc(100vh - 66px); }
   const jellyEl = cls => { const svg = document.querySelector('#mascot svg'); if (!svg) return ''; return '<div class="mascot ' + cls + '">' + svg.outerHTML.replace(/ id="(mLean|mPups)"/g, '').replace(/id="(mg|mt|mr)"/g, 'id="$1p"').replace(/url\(#(mg|mt|mr)\)/g, 'url(#$1p)') + '</div>'; };
   let sugFrom = '', sugHtml = sugForm.innerHTML;
   // the popup borrows the page's own jelly (see the mascot code): sugSlot is where it stands, mascotInDialog moves it in and back
-  let sugSlot = null, sugMascot = false, mascotInDialog = () => false;
+  let sugSlot = null, sugMascot = false, mascotInDialog = () => false, sugT = 0;
   function openSuggest(o = {}) {
     if (!sugDlg.showModal) { location.href = '/suggest/'; return; }
     sugForm.innerHTML = sugHtml; sugMsgEl().textContent = ''; sugFrom = o.ref || 'popup';
@@ -1696,11 +1711,22 @@ main { min-height: calc(100vh - 66px); }
     const w = sugForm.elements.why;
     if (o.q) w.value = 'I searched for "' + o.q.slice(0, 80) + '" and could not find it here.'; else if (o.topic) w.value = 'Topic: ' + o.topic.slice(0, 80) + '. ';
     if (!sugDlg.open) sugDlg.showModal();
-    if (!mascotInDialog(true)) sugSlot.innerHTML = jellyEl('happy');   // mascot switched off: a still copy instead
+    clearTimeout(sugT); sugT = setTimeout(() => { if (sugDlg.open && sugSlot && !mascotInDialog(true)) sugSlot.innerHTML = jellyEl('happy'); }, REDUCED.matches ? 0 : 360);   // the jelly steps in once the card has landed (a moving card would throw off his fixed position); mascot switched off: a still copy instead
     sugForm.elements.link.focus();
     gcEvent('suggest-open-' + sugFrom);
   }
-  const closeSuggest = () => { sugDlg.close(); mascotInDialog(false); sugSlot = null; };   // the jelly goes home with the popup
+  const closeSuggest = () => {   // the card shrinks away, the jelly goes home with it
+    if (!sugDlg.open || sugDlg.classList.contains('closing')) return;
+    clearTimeout(sugT); mascotInDialog(false); sugSlot = null;
+    if (REDUCED.matches) { sugDlg.close(); return; }
+    sugDlg.classList.add('closing'); setTimeout(() => { sugDlg.classList.remove('closing'); sugDlg.close(); }, 170);
+  };
+  sugDlg.addEventListener('cancel', e => { e.preventDefault(); closeSuggest(); });   // Esc takes the same animated way out
+  const sugConfetti = host => {
+    if (REDUCED.matches || !host) return;
+    const cols = ['#9487fb', '#ff7ad9', '#ffb86b', '#6be3c0', '#7cc4ff'];
+    for (let i = 0; i < 26; i++) { const s = document.createElement('i'), a = Math.random() * Math.PI * 2, d = 90 + Math.random() * 130; s.className = 'sdc'; s.style.cssText = '--x:' + Math.cos(a) * d + 'px;--y:' + (Math.sin(a) * d - 40) + 'px;--r:' + Math.round(Math.random() * 720 - 360) + 'deg;--c:' + cols[i % cols.length] + ';animation-delay:' + (Math.random() * .12) + 's'; host.appendChild(s); }
+  };
   sugDlg.addEventListener('close', () => { mascotInDialog(false); sugSlot = null; });   // Esc closes the dialog natively
   document.addEventListener('click', e => {
     const a = e.target.closest('a[href^="/suggest/"], a[href="suggest/"]');
@@ -1724,7 +1750,7 @@ main { min-height: calc(100vh - 66px); }
       const r = await fetch(SUG_URL, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(data) });
       const j = await r.json().catch(() => ({}));
       if (!r.ok || !j.ok) throw new Error(j.error || 'failed');
-      gcEvent('suggest-sent'); sugForm.innerHTML = '<button type="button" class="sdx" data-sugclose aria-label="Close">×</button><div class="sdok"><div class="sdj big" aria-hidden="true"></div><h2>Thank you!</h2><p>Your suggestion is on its way. Every one is read and checked by hand before it is added.</p><button type="button" class="sdgo" data-sugclose>Close</button></div>'; sugSlot = sugForm.querySelector('.sdj'); if (!sugMascot) sugSlot.innerHTML = jellyEl('happy hop');
+      gcEvent('suggest-sent'); sugForm.innerHTML = '<button type="button" class="sdx" data-sugclose aria-label="Close">×</button><div class="sdok"><div class="sdj big" aria-hidden="true"></div><h2>Thank you!</h2><p>Your suggestion is on its way. Every one is read and checked by hand before it is added.</p><button type="button" class="sdgo" data-sugclose>Close</button></div>'; sugSlot = sugForm.querySelector('.sdj'); if (!sugMascot) sugSlot.innerHTML = jellyEl('happy hop'); sugConfetti(sugForm.querySelector('.sdok'));
     } catch (err) {
       gcEvent('suggest-failed'); btn.disabled = false; sugMsgEl().className = 'sdmsg bad';
       const body = 'Type: ' + data.kind + '\nLink: ' + data.link + '\nTitle: ' + data.title + '\n\nWhy it is good:\n' + data.why + '\n';
