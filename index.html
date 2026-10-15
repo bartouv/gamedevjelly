@@ -149,9 +149,9 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 @media (max-width: 980px) { .hx { grid-template-columns: minmax(0, 1fr); } .hx .hbanner { min-height: 400px; } }
 @media (max-width: 560px) { .hxs { flex-direction: column; } .hxs button { text-align: center; } }
 .hbtns2 { display: flex; flex-wrap: wrap; gap: 10px; }
-.hintro .btn, .hfoot .btn { all: unset; cursor: pointer; box-sizing: border-box; padding: 10px 18px; border-radius: 10px; font-weight: 600; font-size: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); transition: transform .15s; }
-.hintro .btn.primary, .hfoot .btn { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
-.hintro .btn:hover, .hfoot .btn:hover { transform: translateY(-2px); } .hintro .btn:focus-visible, .hfoot .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hintro .btn { all: unset; cursor: pointer; box-sizing: border-box; padding: 10px 18px; border-radius: 10px; font-weight: 600; font-size: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); transition: transform .15s; }
+.hintro .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.hintro .btn:hover { transform: translateY(-2px); } .hintro .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .hsec h2 { font: 700 20px/1.2 var(--f-display); letter-spacing: -.01em; margin: 0 0 4px; } .hsec .hsub { margin: 0 0 12px; color: var(--muted); font-size: 14px; }
 .hsec.hpanel { margin-top: 44px; padding: 22px 24px 26px; border: 1px solid var(--line); border-radius: 20px; background: color-mix(in srgb, var(--surface) 55%, transparent); } .hsec.hpanel .hsub { margin-bottom: 18px; }
 .hsec .hhead { display: flex; align-items: baseline; gap: 12px; } .hsec .hhead .chip { margin-left: auto; }
@@ -208,8 +208,6 @@ select { height: 34px; border-radius: 8px; border: 1px solid var(--line); backgr
 .pkby { font: 600 11px var(--f-mono); color: var(--accent); letter-spacing: .04em; }
 .hrow.picks .trnav { top: 50px; } .hrow.posters .trnav { top: 116px; }
 .hrow .trnav { top: 100px; }
-.hfoot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding: 20px 22px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
-.hfoot p { margin: 0; flex: 1; min-width: 220px; } .hfoot a.btn, .hfoot button.btn { text-decoration: none; }
 .feat { position: relative; overflow: hidden; isolation: isolate; margin: 0 0 24px; padding: 24px 28px; border: 1px solid var(--line); border-radius: 20px; background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 16%, var(--surface)), var(--surface) 70%); box-shadow: 0 18px 50px rgb(0 0 0 / .22); }
 .featbg { position: absolute; inset: -40px; z-index: -2; background-size: cover; background-position: center; filter: blur(46px) saturate(1.5) brightness(.5); opacity: .55; transform: scale(1.1); }
 .feat::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, var(--surface) 8%, color-mix(in srgb, var(--surface) 55%, transparent) 60%, transparent); }
@@ -793,7 +791,7 @@ main { min-height: calc(100vh - 66px); }
 @media (max-width: 1180px) { .sugbtn span { display: none; } .sugbtn { padding: 9px; } }
 @media (max-width: 860px) { .sugbtn { margin-left: auto; } .sugbtn + .icon-btn { margin-left: 0; } }
 .sugdlg { border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 20px; background: var(--surface); color: var(--fg); padding: 0; width: min(540px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; box-shadow: 0 40px 100px rgb(0 0 0 / .6); }
-.sugdlg[open] { animation: sdin .3s cubic-bezier(.2, .8, .2, 1); } @keyframes sdin { from { opacity: 0; transform: translateY(14px) scale(.97); } to { opacity: 1; transform: none; } }
+.sugdlg[open] { animation: sdin .3s cubic-bezier(.2, .8, .2, 1); } @keyframes sdin { from { opacity: 0; } to { opacity: 1; } }   /* opacity only: a transform would make the dialog the reference for the fixed-position jelly inside it */
 .sugdlg::backdrop { background: radial-gradient(60% 50% at 50% 30%, rgb(116 104 230 / .2), transparent 70%), rgb(5 7 14 / .66); backdrop-filter: blur(5px); }
 .sugdlg form { position: relative; padding: 0 26px 22px; display: grid; gap: 14px; }
 .sdhero { margin: 0 -26px; padding: 26px 26px 16px; text-align: center; background: radial-gradient(90% 130% at 50% 0%, color-mix(in srgb, var(--accent) 30%, transparent), transparent 72%); }
@@ -1689,16 +1687,21 @@ main { min-height: calc(100vh - 66px); }
 // the popup shows the site's own jelly: a copy of the mascot's drawing, with its ids renamed so the two never clash
   const jellyEl = cls => { const svg = document.querySelector('#mascot svg'); if (!svg) return ''; return '<div class="mascot ' + cls + '">' + svg.outerHTML.replace(/ id="(mLean|mPups)"/g, '').replace(/id="(mg|mt|mr)"/g, 'id="$1p"').replace(/url\(#(mg|mt|mr)\)/g, 'url(#$1p)') + '</div>'; };
   let sugFrom = '', sugHtml = sugForm.innerHTML;
+  // the popup borrows the page's own jelly (see the mascot code): sugSlot is where it stands, mascotInDialog moves it in and back
+  let sugSlot = null, sugMascot = false, mascotInDialog = () => false;
   function openSuggest(o = {}) {
     if (!sugDlg.showModal) { location.href = '/suggest/'; return; }
     sugForm.innerHTML = sugHtml; sugMsgEl().textContent = ''; sugFrom = o.ref || 'popup';
-    sugForm.querySelector('.sdj').innerHTML = jellyEl('happy');
+    sugSlot = sugForm.querySelector('.sdj'); sugSlot.innerHTML = '';
     const w = sugForm.elements.why;
     if (o.q) w.value = 'I searched for "' + o.q.slice(0, 80) + '" and could not find it here.'; else if (o.topic) w.value = 'Topic: ' + o.topic.slice(0, 80) + '. ';
     if (!sugDlg.open) sugDlg.showModal();
+    if (!mascotInDialog(true)) sugSlot.innerHTML = jellyEl('happy');   // mascot switched off: a still copy instead
     sugForm.elements.link.focus();
     gcEvent('suggest-open-' + sugFrom);
   }
+  const closeSuggest = () => { sugDlg.close(); mascotInDialog(false); sugSlot = null; };   // the jelly goes home with the popup
+  sugDlg.addEventListener('close', () => { mascotInDialog(false); sugSlot = null; });   // Esc closes the dialog natively
   document.addEventListener('click', e => {
     const a = e.target.closest('a[href^="/suggest/"], a[href="suggest/"]');
     if (a && !e.metaKey && !e.ctrlKey && !e.shiftKey && !e.altKey && e.button === 0) {
@@ -1707,7 +1710,7 @@ main { min-height: calc(100vh - 66px); }
       openSuggest({ ref: p.get('ref') || 'link', q: p.get('q') || '', topic: p.get('topic') || '' });
       return;
     }
-    if (e.target.closest('[data-sugclose]') || e.target === sugDlg) sugDlg.close();
+    if (e.target.closest('[data-sugclose]') || e.target === sugDlg) closeSuggest();
   });
   sugForm.addEventListener('submit', async e => {
     e.preventDefault();
@@ -1721,7 +1724,7 @@ main { min-height: calc(100vh - 66px); }
       const r = await fetch(SUG_URL, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(data) });
       const j = await r.json().catch(() => ({}));
       if (!r.ok || !j.ok) throw new Error(j.error || 'failed');
-      gcEvent('suggest-sent'); sugForm.innerHTML = '<button type="button" class="sdx" data-sugclose aria-label="Close">×</button><div class="sdok"><div class="sdj big" aria-hidden="true">' + jellyEl('happy hop') + '</div><h2>Thank you!</h2><p>Your suggestion is on its way. Every one is read and checked by hand before it is added.</p><button type="button" class="sdgo" data-sugclose>Close</button></div>';
+      gcEvent('suggest-sent'); sugForm.innerHTML = '<button type="button" class="sdx" data-sugclose aria-label="Close">×</button><div class="sdok"><div class="sdj big" aria-hidden="true"></div><h2>Thank you!</h2><p>Your suggestion is on its way. Every one is read and checked by hand before it is added.</p><button type="button" class="sdgo" data-sugclose>Close</button></div>'; sugSlot = sugForm.querySelector('.sdj'); if (!sugMascot) sugSlot.innerHTML = jellyEl('happy hop');
     } catch (err) {
       gcEvent('suggest-failed'); btn.disabled = false; sugMsgEl().className = 'sdmsg bad';
       const body = 'Type: ' + data.kind + '\nLink: ' + data.link + '\nTitle: ' + data.title + '\n\nWhy it is good:\n' + data.why + '\n';
@@ -2827,8 +2830,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
       hxT = setInterval(() => { if (document.hidden || !w.isConnected) return; w.classList.add('out'); setTimeout(() => { k = (k + 1) % words.length; w.textContent = words[k]; w.classList.remove('out'); }, 650); }, 5000); }
     $('#homePage').innerHTML =
       sec('Editor’s picks', 'Timeless, a little bit magical. Worth your next hour.', picks.length ? spotlight(picks) : '', '', 'hpanel') +
-      sec('Your saved', 'Pick up where you left off.', savedItems.length ? row(savedItems) : '', `<button class="chip" data-gocat="__saved">See all →</button>`) +
-      `<section class="hfoot"><p><b>Know something good?</b> Send in a guide, video, repo or creator for the library.</p><a class="btn" href="/suggest/">Suggest a resource</a></section>`;
+      sec('Your saved', 'Pick up where you left off.', savedItems.length ? row(savedItems) : '', `<button class="chip" data-gocat="__saved">See all →</button>`);
   }
   function renderHero() {
     clearInterval(heroT);
@@ -2922,6 +2924,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     document.body.appendChild(m);
     let mode = null, placeRaf = 0;
     const where = () => {
+      if (sugMascot && sugSlot && sugSlot.isConnected) return ['pop', sugSlot.getBoundingClientRect()];   // standing in the suggest popup
       const hs = $('#hxSlot');
       if (document.body.classList.contains('is-home') && hs && hs.offsetParent) { const r = hs.getBoundingClientRect(); if (r.bottom > 78) return ['home', r]; }
       return ['hdr', $('#mSlot').getBoundingClientRect()];
@@ -2935,6 +2938,16 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
       mode = md;
     };
     const queuePlace = () => { if (!placeRaf) placeRaf = requestAnimationFrame(place); };
+    let popRaf = 0;
+    mascotInDialog = on => {   // into the suggest popup (it sits in the top layer, so he has to live inside it) and back to the page
+      if (on && !m.hidden && getComputedStyle(m).display !== 'none') {
+        sugMascot = true; sugDlg.appendChild(m); cancelAnimationFrame(popRaf);
+        const loop = () => { if (!sugMascot) return; place(); popRaf = requestAnimationFrame(loop); }; loop();
+        return true;
+      }
+      if (sugMascot) { sugMascot = false; cancelAnimationFrame(popRaf); document.body.appendChild(m); queuePlace(); }
+      return false;
+    };
     addEventListener('scroll', queuePlace, { passive: true }); addEventListener('resize', queuePlace);
     new MutationObserver(queuePlace).observe(document.body, { attributes: true, attributeFilter: ['class'] });
     new MutationObserver(() => { queuePlace(); setTimeout(queuePlace, 120); setTimeout(queuePlace, 500); }).observe($('#homeIntro'), { childList: true });
