@@ -790,7 +790,7 @@ main { min-height: calc(100vh - 66px); }
 .sugbtn:hover { background: color-mix(in srgb, var(--accent) 22%, transparent); transform: translateY(-1px); }
 @media (max-width: 1180px) { .sugbtn span { display: none; } .sugbtn { padding: 9px; } }
 @media (max-width: 860px) { .sugbtn { margin-left: auto; } .sugbtn + .icon-btn { margin-left: 0; } }
-.sugdlg { border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 20px; background: var(--surface); color: var(--fg); padding: 0; width: min(540px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; box-shadow: 0 0 0 1px rgb(148 135 251 / .12), 0 0 70px -10px rgb(116 104 230 / .45), 0 40px 100px rgb(0 0 0 / .6); }
+.sugdlg { transform: translateZ(0); border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); border-radius: 20px; background: var(--surface); color: var(--fg); padding: 0; width: min(540px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; box-shadow: 0 0 0 1px rgb(148 135 251 / .12), 0 0 70px -10px rgb(116 104 230 / .45), 0 40px 100px rgb(0 0 0 / .6); }
 /* the card springs up from slightly small; its pieces rise in one after another; the jelly steps in once it has landed (JS) */
 .sugdlg[open] { animation: sdin .46s cubic-bezier(.2, 1.15, .3, 1); } @keyframes sdin { from { opacity: 0; transform: translateY(26px) scale(.86); } 60% { opacity: 1; } to { opacity: 1; transform: none; } }
 .sugdlg.closing { animation: sdout .17s ease-in forwards; } @keyframes sdout { to { opacity: 0; transform: translateY(10px) scale(.94); } }
@@ -813,7 +813,8 @@ main { min-height: calc(100vh - 66px); }
 .sdl { margin: 0; color: var(--muted); font-size: 14.5px; }
 .sdj { width: 78px; height: 82px; margin: 0 auto; filter: drop-shadow(0 8px 18px rgb(148 135 251 / .55)); } .sdj.big { width: 104px; height: 110px; }
 .sdj .mascot { position: static; width: 100%; height: 100%; cursor: default; pointer-events: none; }
-.sdt { margin: 10px 0 6px; font: 800 clamp(28px, 6vw, 38px)/1.04 var(--f-display); letter-spacing: -.03em; text-wrap: balance; }
+.sdrow { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; } .sdrow .sdj { margin: 0; width: 54px; height: 57px; flex: none; }
+.sdt { margin: 0; font: 800 clamp(26px, 6vw, 36px)/1.04 var(--f-display); letter-spacing: -.03em; text-wrap: balance; }
 .sdt .grad { background: linear-gradient(100deg, var(--accent), #ff7ad9 60%, #ffb86b); -webkit-background-clip: text; background-clip: text; color: transparent; display: inline-block; }
 .sdx { all: unset; cursor: pointer; position: absolute; top: 12px; right: 12px; z-index: 2; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; color: var(--muted); font-size: 22px; line-height: 1; } .sdx:hover { background: color-mix(in srgb, var(--fg) 10%, transparent); color: var(--fg); } .sdx:focus-visible { outline: 2px solid var(--accent); }
 .sdkind { border: 0; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; } .sdkind legend { font: 600 13px var(--f-body); padding: 0 0 8px; }
@@ -1266,7 +1267,7 @@ main { min-height: calc(100vh - 66px); }
 <dialog id="sugDlg" class="sugdlg" aria-labelledby="sugTitle">
   <form id="sugForm" novalidate>
     <button type="button" class="sdx" data-sugclose aria-label="Close">×</button>
-    <div class="sdhero"><div class="sdj" aria-hidden="true"></div><h2 id="sugTitle" class="sdt">Suggest a <span class="grad">resource</span></h2><p class="sdl">Know something that belongs here? Send it in.</p></div>
+    <div class="sdhero"><div class="sdrow"><div class="sdj" aria-hidden="true"></div><h2 id="sugTitle" class="sdt">Suggest a <span class="grad">resource</span></h2></div><p class="sdl">Know something that belongs here? Send it in.</p></div>
     <fieldset class="sdkind"><legend>What is it?</legend>
       <label><input type="radio" name="kind" value="Guide or article" checked><span>Guide</span></label>
       <label><input type="radio" name="kind" value="Video"><span>Video</span></label>
@@ -1703,7 +1704,7 @@ main { min-height: calc(100vh - 66px); }
   const jellyEl = cls => { const svg = document.querySelector('#mascot svg'); if (!svg) return ''; return '<div class="mascot ' + cls + '">' + svg.outerHTML.replace(/ id="(mLean|mPups)"/g, '').replace(/id="(mg|mt|mr)"/g, 'id="$1p"').replace(/url\(#(mg|mt|mr)\)/g, 'url(#$1p)') + '</div>'; };
   let sugFrom = '', sugHtml = sugForm.innerHTML;
   // the popup borrows the page's own jelly (see the mascot code): sugSlot is where it stands, mascotInDialog moves it in and back
-  let sugSlot = null, sugMascot = false, mascotInDialog = () => false, sugT = 0;
+  let sugSlot = null, sugMascot = false, mascotInDialog = () => false;
   function openSuggest(o = {}) {
     if (!sugDlg.showModal) { location.href = '/suggest/'; return; }
     sugForm.innerHTML = sugHtml; sugMsgEl().textContent = ''; sugFrom = o.ref || 'popup';
@@ -1711,15 +1712,15 @@ main { min-height: calc(100vh - 66px); }
     const w = sugForm.elements.why;
     if (o.q) w.value = 'I searched for "' + o.q.slice(0, 80) + '" and could not find it here.'; else if (o.topic) w.value = 'Topic: ' + o.topic.slice(0, 80) + '. ';
     if (!sugDlg.open) sugDlg.showModal();
-    clearTimeout(sugT); sugT = setTimeout(() => { if (sugDlg.open && sugSlot && !mascotInDialog(true)) sugSlot.innerHTML = jellyEl('happy'); }, REDUCED.matches ? 0 : 360);   // the jelly steps in once the card has landed (a moving card would throw off his fixed position); mascot switched off: a still copy instead
+    if (!mascotInDialog(true)) sugSlot.innerHTML = jellyEl('happy');   // the jelly moves in with the card; mascot switched off: a still copy instead
     sugForm.elements.link.focus();
     gcEvent('suggest-open-' + sugFrom);
   }
-  const closeSuggest = () => {   // the card shrinks away, the jelly goes home with it
+  const closeSuggest = () => {   // the card shrinks away with the jelly on it, then he goes home
     if (!sugDlg.open || sugDlg.classList.contains('closing')) return;
-    clearTimeout(sugT); mascotInDialog(false); sugSlot = null;
-    if (REDUCED.matches) { sugDlg.close(); return; }
-    sugDlg.classList.add('closing'); setTimeout(() => { sugDlg.classList.remove('closing'); sugDlg.close(); }, 170);
+    const done = () => { sugDlg.classList.remove('closing'); sugDlg.close(); mascotInDialog(false); sugSlot = null; };
+    if (REDUCED.matches) { done(); return; }
+    sugDlg.classList.add('closing'); setTimeout(done, 170);
   };
   sugDlg.addEventListener('cancel', e => { e.preventDefault(); closeSuggest(); });   // Esc takes the same animated way out
   const sugConfetti = host => {
@@ -2950,7 +2951,10 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     document.body.appendChild(m);
     let mode = null, placeRaf = 0;
     const where = () => {
-      if (sugMascot && sugSlot && sugSlot.isConnected) return ['pop', sugSlot.getBoundingClientRect()];   // standing in the suggest popup
+      if (sugMascot && sugSlot && sugSlot.isConnected) {   // standing in the suggest popup: placed by layout offsets inside the dialog (which is his reference), so he rides the card's own animation
+        let x = 0, y = 0, el = sugSlot; while (el && el !== sugDlg) { x += el.offsetLeft; y += el.offsetTop; el = el.offsetParent; }
+        return ['pop', { left: x, top: y, width: sugSlot.offsetWidth, bottom: y + sugSlot.offsetHeight }];
+      }
       const hs = $('#hxSlot');
       if (document.body.classList.contains('is-home') && hs && hs.offsetParent) { const r = hs.getBoundingClientRect(); if (r.bottom > 78) return ['home', r]; }
       return ['hdr', $('#mSlot').getBoundingClientRect()];
