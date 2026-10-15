@@ -369,6 +369,15 @@ body.scrolled .top-in { padding-top: 8px; padding-bottom: 8px; }
 .fan.f3 { right: 6%; top: 34px; transform: rotate(8deg); z-index: 2; }
 .tcard:hover .f1 { transform: rotate(-12deg) translateX(-4px); } .tcard:hover .f3 { transform: rotate(12deg) translateX(4px); } .tcard:hover .f2 { transform: rotate(0deg) translateY(-4px); }
 .tbadge { position: absolute; top: 10px; right: 10px; z-index: 5; font: 700 11px var(--f-mono); background: var(--accent); color: var(--on-accent); padding: 2px 8px; border-radius: 999px; }
+/* topic cards: flat, neutral, one image each (colour only on the small icon chip and the hover border) */
+.tcard .tcv { height: 130px; background: var(--surface-2); }
+.tcard .tbig, .tcard .fan:not(.solo) { display: none; }
+.tcard .fan.solo { display: block; inset: 0; width: 100%; aspect-ratio: auto; transform: none; border: 0; border-radius: 0; box-shadow: none; animation: none; }
+.tcard .fan.solo img { transition: transform .4s cubic-bezier(.2, .8, .2, 1); } .tcard:hover .fan.solo img { transform: scale(1.04); }
+.tcard .tcv::after { content: ""; position: absolute; inset: 0; z-index: 4; pointer-events: none; background: linear-gradient(transparent 60%, rgb(0 0 0 / .3)); }
+.tspotwrap2 .fcard.f1, .tspotwrap2 .fcard.f3 { display: none; }
+.tspotwrap2 .fcard.f2 { left: 0; top: 0; width: 100%; height: 100%; transform: none; animation: none; border: 0; border-radius: 12px; box-shadow: none; }
+.tspotwrap2 .fcard.f2:hover { transform: none; } .tspotwrap2 .fcard.f2 .fci { aspect-ratio: auto; height: 100%; }
 .tcard .thead { display: flex; align-items: center; gap: 10px; padding: 11px 14px 12px; font-weight: 700; }
 .tcard .tic { width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; flex: none; color: hsl(var(--h) 75% 66%); background: hsl(var(--h) 70% 60% / .14); }
 .tcard .tnm { flex: 1; min-width: 0; font-size: 14.5px; line-height: 1.25; }
@@ -1978,7 +1987,7 @@ main { min-height: calc(100vh - 66px); }
     const info = {};   // per topic: count, new this month, latest posts
     for (const c of LIB.cats) if (c.grp) info[c.s] = { n: 0, fresh: 0, last: [] };
     for (const o of items) if (okPost(o)) for (const g of o.g) { const t = info[g]; if (!t) continue; t.n++; if (isNew(o)) t.fresh++; t.last.push(o); }
-    for (const t of Object.values(info)) t.last = t.last.sort(sorters.newest).slice(0, 3);
+    for (const t of Object.values(info)) { t.last = t.last.sort(sorters.newest); t.pool = t.last.filter(o => o.i).slice(0, 10); t.last = t.last.slice(0, 3); }
     const groups = GROUPS.filter(([label]) => label !== 'Creators').map(([label, sl], gi) => {
       const slugs = sl.split(' ').filter(x => catBySlug[x] && live[x]); if (!slugs.length) return null;
       const set = new Set(slugs);
@@ -1997,10 +2006,11 @@ main { min-height: calc(100vh - 66px); }
         `<button class="goal primary" data-gocat="${x}">Browse topic</button>${o ? `<button class="goal" data-rel="${o.id}">Preview the latest</button>` : ''}`,
         pics.map((p, k) => `<button class="fcard f${k + 1}" data-rel="${p.id}" title="${esc(p.t)}"><span class="fci">${miniThumb(p)}</span><span class="fct">${esc(p.t)}</span></button>`).join(''), o.i || '') + `</div>`;
     }
+    const usedImg = new Set();   // each card gets its own picture: skip images another card on the page already shows
     const card = (x, g) => {
-      const t = info[x], [a, b, c] = t.last;
-      const fan = (o, k) => o ? `<span class="fan f${k}">${miniThumb(o)}</span>` : '';
-      return `<button class="tcard enter" data-gocat="${x}"><span class="tcv"><span class="tbig">${icon(x, 110)}</span>${fan(a, 1)}${fan(b, 2)}${fan(c, 3)}${t.fresh ? `<span class="tbadge">+${t.fresh} new</span>` : ''}</span>
+      const t = info[x], o = t.pool.find(p => !usedImg.has(p.i)) || t.pool[0] || t.last[0];
+      if (o && o.i) usedImg.add(o.i);
+      return `<button class="tcard enter" data-gocat="${x}"><span class="tcv">${o ? `<span class="fan solo">${miniThumb(o)}</span>` : ''}${t.fresh ? `<span class="tbadge">+${t.fresh} new</span>` : ''}</span>
         <span class="thead"><span class="tic">${icon(x)}</span><span class="tnm">${esc(prettyName(catBySlug[x]))}</span><span class="tct">${t.n}</span></span></button>`;
     };
     $('.head').hidden = true;
@@ -2254,8 +2264,10 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     if (!fEl.hidden) {   // folders: one tile per sub-category, with a fan of its newest thumbnails
       const by = {}; list.forEach(it => { const s = (it.sb && it.sb[c]) || '_other'; (by[s] = by[s] || []).push(it); });
       const hue = GHUE[catBySlug[c].grp] || 260;
-      const tile = (s, ls) => { const pics = ls.filter(o => o.i).slice(0, 3), fan = (o, k) => o ? `<span class="fan f${k}">${miniThumb(o)}</span>` : '';
-        return `<button class="tcard enter" data-sub="${s.id}" style="--h:${hue}"><span class="tcv">${fan(pics[0], 1)}${fan(pics[1], 2)}${fan(pics[2], 3)}</span><span class="thead"><span class="tnm">${esc(s.n)}</span><span class="tct">${ls.length}</span></span></button>`; };
+      const usedSub = new Set();
+      const tile = (s, ls) => { const pics = ls.filter(o => o.i).slice(0, 10), o = pics.find(p => !usedSub.has(p.i)) || pics[0];
+        if (o) usedSub.add(o.i);
+        return `<button class="tcard enter" data-sub="${s.id}" style="--h:${hue}"><span class="tcv">${o ? `<span class="fan solo">${miniThumb(o)}</span>` : ''}</span><span class="thead"><span class="tnm">${esc(s.n)}</span><span class="tct">${ls.length}</span></span></button>`; };
       fEl.innerHTML = `<div class="fgrid">${[...cs, { id: '_other', n: 'More' }].filter(s => by[s.id]).map(s => tile(s, by[s.id])).join('')}</div>`;
     }
     const relEl = $('#related');
