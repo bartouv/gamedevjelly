@@ -45,6 +45,10 @@ document.addEventListener('click',ev,true);document.addEventListener('auxclick',
   var EM = "hello@gamedevjelly.com";
   function count(n) { try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: n, event: true }); } catch (x) {} }
   var g = function (i) { return document.getElementById(i).value.trim(); };
+  try { var sp = new URLSearchParams(location.search), sq = sp.get('q'), st = sp.get('topic');   // sent from the empty-search and end-of-topic prompts
+    if (sq) document.getElementById('w').value = 'I searched for "' + sq.slice(0, 80) + '" and could not find it here.';
+    else if (st) document.getElementById('w').value = 'Topic: ' + st.slice(0, 80) + '. ';
+  } catch (x) {}
   function parts() {
     return { title: 'Suggestion: ' + (g('t') || g('u')),
       body: 'Type: ' + g('k') + '\nLink: ' + g('u') + '\nTitle: ' + g('t') + '\n\nWhy it is good:\n' + g('w') + '\n' };

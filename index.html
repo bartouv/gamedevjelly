@@ -788,6 +788,12 @@ main { min-height: calc(100vh - 66px); }
 
 /* top nav */
 .brand { color: inherit; text-decoration: none; }
+.sugbtn { display: inline-flex; align-items: center; gap: 6px; flex: none; padding: 7px 13px 7px 10px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--line)); color: var(--accent); background: var(--accent-soft); font: 600 13.5px var(--f-body); text-decoration: none; white-space: nowrap; transition: background .15s, transform .15s; }
+.sugbtn:hover { background: color-mix(in srgb, var(--accent) 22%, transparent); transform: translateY(-1px); }
+@media (max-width: 1180px) { .sugbtn span { display: none; } .sugbtn { padding: 9px; } }
+@media (max-width: 860px) { .sugbtn { margin-left: auto; } .sugbtn + .icon-btn { margin-left: 0; } }
+.sugend { margin: 28px 0 8px; padding: 14px 16px; border: 1px dashed var(--line); border-radius: 12px; color: var(--muted); font-size: 14px; text-align: center; } .sugend a { color: var(--accent); font-weight: 600; text-decoration: none; } .sugend a:hover { text-decoration: underline; }
+.empty a.btn { text-decoration: none; margin-left: 8px; }
 .topnav { display: flex; gap: 2px; margin-left: 4px; }
 .topnav button { display: inline-flex; align-items: center; gap: 7px; border: 0; background: none; color: var(--muted); font: 600 14px var(--f-body); padding: 7px 12px; border-radius: 8px; cursor: pointer; position: relative; transition: color .15s, background .15s; }
 .topnav button:hover { color: var(--fg); background: var(--surface-2); }
@@ -1209,6 +1215,7 @@ main { min-height: calc(100vh - 66px); }
       <kbd>/</kbd><kbd class="k2">⌘K</kbd>
       <div class="live" id="live" hidden role="listbox"></div>
     </label>
+    <a class="sugbtn" id="sugBtn" href="/suggest/?ref=header" title="Suggest a guide, repo, asset, book or creator"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.4A8 8 0 1 1 21 12z"/><path d="M12 8.5v5M9.5 11h5"/></svg><span>Suggest</span></a>
     <button class="icon-btn" id="themeBtn" aria-label="Toggle theme" title="Toggle theme">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
     </button>
@@ -1267,6 +1274,7 @@ main { min-height: calc(100vh - 66px); }
     <section class="home" id="homePage" hidden></section>
     <section class="grid" id="grid" aria-live="polite"></section>
     <div class="sentinel" id="sentinel"></div>
+    <p class="sugend" id="sugEnd" hidden></p>
     <p class="foot"><a href="/topics/">Topics</a> · <a href="/creators/">Creators</a> · <a href="/books/">Books</a> · <a href="/courses/">Courses</a> · <a href="/repos/">Repos</a> · <a href="/assets/">Assets</a><br><a href="/suggest/">Suggest a resource</a> · <a href="/about/">About</a> · <a href="/privacy/">Privacy</a> · <a href="/rss.xml">RSS</a> · <a href="#" id="mascotToggle">Hide mascot</a><br><small>Unity is a trademark of Unity Technologies. This site is not affiliated with or endorsed by Unity Technologies.</small><br><small>Some links are affiliate links. As an Amazon Associate I earn from qualifying purchases.</small></p>
   </main>
 </div>
@@ -2192,7 +2200,16 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     grid.insertAdjacentHTML('beforeend', list.slice(shown, shown + PAGE).map(card).join(''));
     for (let k = before, n = 0; k < grid.children.length; k++, n++) { const c = grid.children[k]; c.style.setProperty('--i', Math.min(n, 14)); c.classList.add('enter'); }
     shown += PAGE;
+    syncSugEnd();
   };
+  let sugCat = null;   // the topic or creator being listed, or null on every other view
+  function syncSugEnd() {   // after the last card of a topic or creator: a nudge to send in what is missing
+    const el = $('#sugEnd'), c = sugCat && catBySlug[sugCat];
+    el.hidden = !(c && list.length && shown >= list.length && !grid.hidden);
+    if (el.hidden) return;
+    const nm = prettyName(c);
+    el.innerHTML = c.cr ? `Know a guide by ${esc(nm)} that is missing? <a href="/suggest/?ref=creator-end&topic=${encodeURIComponent(nm)}">Suggest it →</a>` : `Missing a guide on ${esc(nm)}? <a href="/suggest/?ref=topic-end&topic=${encodeURIComponent(nm)}">Suggest one →</a>`;
+  }
   grid.addEventListener('error', e => {
     if (e.target.tagName !== 'IMG' || !e.target.closest('.thumb')) return;   // only the thumbnail; a failed avatar must not cover the card
     const it = items[+e.target.closest('.card').querySelector('[data-star]').dataset.star];
@@ -2231,7 +2248,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     if (inCreators) { $('#active').hidden = $('#related').hidden = true; }
     ['#when', '.head .tools'].forEach(s => $(s).hidden = other);
     if (other) { $('#hero').hidden = true; $('#folders').hidden = true; $('#subthemes').hidden = true; }   // topic folders belong to topic pages only
-    $('#pathsView').hidden = !inPaths; $('#repoView').hidden = !inRepos; $('#assetView').hidden = !inAssets; $('#bookView').hidden = !inBooks; grid.hidden = other; $('#sentinel').hidden = other;
+    $('#pathsView').hidden = !inPaths; $('#repoView').hidden = !inRepos; $('#assetView').hidden = !inAssets; $('#bookView').hidden = !inBooks; grid.hidden = other; $('#sentinel').hidden = other; $('#sugEnd').hidden = true;
     renderCreatorHead(other ? null : c);
     if (inTopics) { renderTopicsPage(); return; }
     if (inCreators) { renderCreatorsPage(); return; }
@@ -2240,7 +2257,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     if (inRepos) { $('#active').hidden = $('#related').hidden = true; renderRepos(); return; }
     if (inPaths) { $('#active').hidden = $('#related').hidden = true; renderPaths(); return; }
 
-    if (homeMode) { ['#when', '#active', '#related', '#folders', '#subthemes'].forEach(s => $(s).hidden = true); grid.hidden = true; $('#sentinel').hidden = true; renderHome(); return; }
+    if (homeMode) { ['#when', '#active', '#related', '#folders', '#subthemes'].forEach(s => $(s).hidden = true); grid.hidden = true; $('#sentinel').hidden = true; $('#sugEnd').hidden = true; renderHome(); return; }
     // source chips with counts (computed ignoring the source filter)
     const base = filtered(true, false);
     const counts = {}; base.forEach(it => counts[FMT_OF[it.src]] = (counts[FMT_OF[it.src]] || 0) + 1);
@@ -2297,10 +2314,11 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     const db = $('#densityBtn');   // shows the view you'd switch to
     db.querySelector('svg').innerHTML = state.list ? '<rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>' : '<path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>';
     db.title = db.ariaLabel = state.list ? 'Switch to grid view' : 'Switch to list view';
-    grid.innerHTML = list.length ? '' : (c === '__saved' ? `<div class="empty"><span class="ico">★</span><h3>Nothing saved yet</h3>Tap the star on any card to keep it here for later.<br><button class="btn" data-gohome>Browse Home</button></div>` : `<div class="empty"><span class="ico">🔍</span><h3>No matches</h3>Try a shorter search, or clear a filter.<br><button class="btn" data-reset>Reset filters</button></div>`);
-    shown = 0;
+    grid.innerHTML = list.length ? '' : (c === '__saved' ? `<div class="empty"><span class="ico">★</span><h3>Nothing saved yet</h3>Tap the star on any card to keep it here for later.<br><button class="btn" data-gohome>Browse Home</button></div>` : `<div class="empty"><span class="ico">🔍</span><h3>No matches</h3>Try a shorter search, or clear a filter.<br><button class="btn" data-reset>Reset filters</button>${state.q.trim() ? `<a class="btn" href="/suggest/?ref=no-results&q=${encodeURIComponent(state.q.trim().slice(0, 80))}">Suggest “${esc(state.q.trim().slice(0, 40))}”</a>` : ''}</div>`);
+    shown = 0; sugCat = c && catBySlug[c] && fEl.hidden ? c : null;
     if (!fEl.hidden) { grid.innerHTML = ''; shown = list.length; }   // folder landing: just the folders, guides live inside them
     else more();
+    syncSugEnd();
   }
 
   // ---------- events ----------
