@@ -1,10 +1,9 @@
 # Physics & collisions
 
-> Gameplay & systems · 65 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 64 hand-filtered guides on GamedevJelly, newest first.
 
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
 - [How Rust LTD Built The Deep Firearm Simulation in Hot Dogs, Horseshoes & Hand Grenades 2](https://unity.com/blog/rust-ltd-hot-dogs-horseshoes-hand-grenades-2): ECS ballistics, custom firearm physics and Quest 3 frame budgeting in a VR firearm simulator. (Unity, 2026-09-25, article, Unity-6 era)
-- [Breaking down a soft body tire system in Unity](https://jettelly.com/blog/breaking-down-a-soft-body-tire-system-in-unity): Soft body tires built from sphere colliders and joints that deform like real rubber. (Jettelly, 2026-08-18, article, Unity-6 era)
 - [Self-balancing active ragdoll in Unity](https://jettelly.com/blog/self-balancing-active-ragdoll-in-unity-breakdown-of-an-upcoming-tool): Active ragdoll combining physics, IK and procedural animation, with a breakdown of the upcoming tool. (Jettelly, 2026-07-20, article, Unity-6 era)
 - [A physics-based character movement system in Unity](https://jettelly.com/blog/a-physics-based-character-movement-system-in-unity): Code-only character movement using physics with no animation clips. (Jettelly, 2026-07-11, article, Unity-6 era)
 - [Realistic building destruction with Unity ECS](https://jettelly.com/blog/realistic-building-destruction-with-unity-ecs): Buildings collapse according to how their parts are supported, built on Unity ECS. (Jettelly, 2026-07-08, article, Unity-6 era)

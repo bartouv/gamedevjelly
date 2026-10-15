@@ -1,6 +1,6 @@
 # GamedevJelly
 
-> 1,768 hand-filtered guides, videos and posts plus 57 repos, 72 assets and 39 books. Outdated and obsolete links were removed; the focus is current Unity.
+> 1,767 hand-filtered guides, videos and posts plus 57 repos, 72 assets and 39 books. Outdated and obsolete links were removed; the focus is current Unity.
 
 Use this when building something in Unity (shaders, VFX, gameplay systems, tools, performance) and you want vetted references: find the best guides, repos, assets and books first, then read the most relevant ones before writing code.
 
@@ -11,7 +11,7 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 - [repos.json](https://gamedevjelly.com/data/repos.json), [assets.json](https://gamedevjelly.com/data/assets.json) and [books.json](https://gamedevjelly.com/data/books.json) list tools and reading; repos include install instructions and a `unity7` status where known.
 
 ## Data
-- [Library (all guides)](https://gamedevjelly.com/data/library.json): 1,768 items
+- [Library (all guides)](https://gamedevjelly.com/data/library.json): 1,767 items
 - [Topics](https://gamedevjelly.com/data/topics.json): slugs, names, groups, counts
 - [Creators](https://gamedevjelly.com/data/creators.json): who made the guides, with links
 - [Repos](https://gamedevjelly.com/data/repos.json), [Assets](https://gamedevjelly.com/data/assets.json), [Books](https://gamedevjelly.com/data/books.json)
@@ -30,8 +30,8 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 - [Lighting & shadows](https://gamedevjelly.com/topics/lighting/index.md): Shaders & rendering, 89 guides
 - [UI & UI Toolkit](https://gamedevjelly.com/topics/ui/index.md): Gameplay & systems, 76 guides
 - [Water, waves & ripples](https://gamedevjelly.com/topics/water/index.md): Environment, 68 guides
-- [Physics & collisions](https://gamedevjelly.com/topics/physics/index.md): Gameplay & systems, 65 guides
 - [Particles & VFX Graph](https://gamedevjelly.com/topics/particles-vfx/index.md): VFX, 65 guides
+- [Physics & collisions](https://gamedevjelly.com/topics/physics/index.md): Gameplay & systems, 64 guides
 - [Animation, rigging & IK](https://gamedevjelly.com/topics/animation/index.md): Gameplay & systems, 62 guides
 - [Render pipelines & SRP](https://gamedevjelly.com/topics/render-pipelines/index.md): Shaders & rendering, 61 guides
 - [Libraries, packages & assets](https://gamedevjelly.com/topics/tools-libraries/index.md): Workflow & tools, 57 guides

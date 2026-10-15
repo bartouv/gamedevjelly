@@ -720,10 +720,9 @@
 - [Procedural Animation in Unity: Environment Interactions [FINAL]](https://www.youtube.com/watch?v=J2Dr_l4ISfU): Final part of the environment-interaction series: characters reacting to the world with animation rigging. (iHeartGameDev, 2024-11-03, video, Unity-6 era)
 - [Definitive guide to animation with Unity 2022 LTS](https://unity.com/resources/definitive-guide-animation-unity-2022-lts-ebook): Unity's animation tools and techniques: importing, humanoid rigs, animation controllers and more. (Unity, 2024-06-13, article, Unity-2022 era)
 
-### Physics & collisions (65 guides; slug `physics`)
+### Physics & collisions (64 guides; slug `physics`)
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
 - [How Rust LTD Built The Deep Firearm Simulation in Hot Dogs, Horseshoes & Hand Grenades 2](https://unity.com/blog/rust-ltd-hot-dogs-horseshoes-hand-grenades-2): ECS ballistics, custom firearm physics and Quest 3 frame budgeting in a VR firearm simulator. (Unity, 2026-09-25, article, Unity-6 era)
-- [Breaking down a soft body tire system in Unity](https://jettelly.com/blog/breaking-down-a-soft-body-tire-system-in-unity): Soft body tires built from sphere colliders and joints that deform like real rubber. (Jettelly, 2026-08-18, article, Unity-6 era)
 - [Self-balancing active ragdoll in Unity](https://jettelly.com/blog/self-balancing-active-ragdoll-in-unity-breakdown-of-an-upcoming-tool): Active ragdoll combining physics, IK and procedural animation, with a breakdown of the upcoming tool. (Jettelly, 2026-07-20, article, Unity-6 era)
 - [A physics-based character movement system in Unity](https://jettelly.com/blog/a-physics-based-character-movement-system-in-unity): Code-only character movement using physics with no animation clips. (Jettelly, 2026-07-11, article, Unity-6 era)
 - [Realistic building destruction with Unity ECS](https://jettelly.com/blog/realistic-building-destruction-with-unity-ecs): Buildings collapse according to how their parts are supported, built on Unity ECS. (Jettelly, 2026-07-08, article, Unity-6 era)
@@ -746,6 +745,7 @@
 - [Orbital Mechanics](https://www.alanzucconi.com/2025/09/04/orbital-mechanics/): Teaches orbital mechanics basics, from gravity simulation to Keplerian two-body orbits. (Alan Zucconi, 2025-09-04, article, Unity-6 era)
 - [Unity Workshop: Explosive Force Against Other Objects](https://www.youtube.com/watch?v=_3QxHbBVdhg): Workshop on applying explosive force to nearby objects in Unity. (gamedev:hq, 2025-07-26, video, Unity-6 era)
 - [Breaking down the completely destructible world of Deliver At All Costs](https://unity.com/blog/breaking-down-the-completely-destructible-world-of-deliver-at-all-costs): How a fully destructible game world was built so players can break through and smash assets. (Unity, 2025-07-15, article, Unity-6 era)
+- [Unity Workshop: An Explosion with Power](https://www.youtube.com/watch?v=5lGmLwqEYdc): Workshop on adding force to an explosion in Unity. (gamedev:hq, 2025-06-15, video, Unity-6 era)
 
 ### AI, pathfinding & boids (35 guides; slug `ai-pathfinding`)
 - [Why you should switch to NavWorld in Unity 6.6](https://www.youtube.com/watch?v=rFyHcozTF3Y): NavWorld is Unity 6.6’s way to query a NavMesh from a job. This video covers what that handle actually is, how it picks up the surfaces and links you already loaded, and why CalculatePath on the main (git-amend, 2026-10-04, video, Unity-6 era)
