@@ -450,16 +450,14 @@ body.scrolled .top-in { padding-top: 8px; padding-bottom: 8px; }
 html.theme-vt::view-transition-old(root), html.theme-vt::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
 @media (prefers-reduced-motion: reduce) { .progress, .totop, .toast { transition: none !important; } }
 
-/* subtopic folders: a tabbed folder with up to three thumbnails and a labelled count, so they don't read as guides */
-.fhead { margin: 0 0 18px; } .fhead h2 { margin: 0 0 4px; font: 800 17px var(--f-display); letter-spacing: -.01em; } .fhead p { margin: 0; color: var(--muted); font-size: 13.5px; }
-.fgrid { row-gap: 26px; }
-.fold { all: unset; cursor: pointer; box-sizing: border-box; position: relative; display: flex; flex-direction: column; gap: 8px; padding: 16px 16px 14px; margin-top: 12px; border: 1px solid hsl(var(--h) 45% 55% / .35); border-radius: 4px 16px 16px 16px; background: linear-gradient(160deg, hsl(var(--h) 50% 40% / .22), hsl(var(--h) 40% 20% / .12)), var(--surface); transition: transform .18s, border-color .18s, box-shadow .18s; }
-.fold::before { content: ""; position: absolute; left: -1px; top: -13px; width: 112px; height: 14px; border: 1px solid hsl(var(--h) 45% 55% / .35); border-bottom: 0; border-radius: 9px 9px 0 0; background: hsl(var(--h) 45% 30% / .6); }
-.fold::after { content: ""; position: absolute; inset: auto 10px -6px 10px; height: 8px; z-index: -1; border-radius: 0 0 14px 14px; border: 1px solid hsl(var(--h) 45% 55% / .22); border-top: 0; background: var(--surface-2); }
-.fold:hover { transform: translateY(-3px); border-color: hsl(var(--h) 75% 65% / .8); box-shadow: 0 14px 34px rgb(0 0 0 / .35); } .fold:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.fdtab { position: absolute; left: 9px; top: -13px; height: 14px; display: inline-flex; align-items: center; gap: 5px; font: 600 9.5px/1 var(--f-mono); letter-spacing: .09em; text-transform: uppercase; color: hsl(var(--h) 80% 85%); } .fdtab svg { width: 10px; height: 10px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
-.fdpics { display: flex; gap: 6px; height: 74px; } .fdp { position: relative; flex: 1; min-width: 0; border-radius: 8px; overflow: hidden; background: var(--surface-2); border: 1px solid rgb(255 255 255 / .08); } .fdp img, .fdp .ph { width: 100%; height: 100%; object-fit: cover; display: block; } .fdp .phav, .fdp .ph span, .fdp .ph .pht { display: none; }
-.fdnm { font: 700 15px/1.25 var(--f-display); margin-top: 2px; } .fdct { display: inline-flex; align-items: center; gap: 6px; font: 500 12px var(--f-mono); color: var(--muted); } .fdct i { font-style: normal; transition: transform .18s; } .fold:hover .fdct { color: hsl(var(--h) 80% 82%); } .fold:hover .fdct i { transform: translateX(4px); }
+/* subtopic folders: flat rows with a folder icon, the name, the guide count and a chevron, so they read as navigation and not as guides */
+.fhead { margin: 0 0 14px; } .fhead h2 { margin: 0 0 3px; font: 800 17px var(--f-display); letter-spacing: -.01em; } .fhead p { margin: 0; color: var(--muted); font-size: 13.5px; }
+.fgrid { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 10px; }
+.fold { all: unset; cursor: pointer; box-sizing: border-box; display: flex; align-items: center; gap: 12px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); transition: border-color .15s, background .15s; }
+.fold:hover { border-color: hsl(var(--h) 60% 62% / .8); background: var(--surface-2); } .fold:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.fdic { flex: none; width: 22px; height: 22px; fill: hsl(var(--h) 70% 68% / .18); stroke: hsl(var(--h) 75% 72%); stroke-width: 1.7; stroke-linejoin: round; }
+.fdnm { flex: 1; min-width: 0; font: 600 14.5px/1.3 var(--f-body); } .fdct { font: 500 12px var(--f-mono); color: var(--muted); }
+.fdgo { flex: none; width: 16px; height: 16px; fill: none; stroke: var(--muted); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform .15s, stroke .15s; } .fold:hover .fdgo { transform: translateX(3px); stroke: var(--fg); }
 /* motion */
 @keyframes rise { from { opacity: 0; } }
 main.navfade { animation: fade .18s ease-out; }
@@ -2473,12 +2471,9 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
     if (!fEl.hidden) {   // folders: one tile per sub-category, with a fan of its newest thumbnails
       const by = {}; list.forEach(it => { const s = (it.sb && it.sb[c]) || '_other'; (by[s] = by[s] || []).push(it); });
       const hue = GHUE[catBySlug[c].grp] || 260;
-      const usedSub = new Set();
-      const tile = (s, ls) => { const pics = ls.filter(o => o.i), fresh = pics.filter(p => !usedSub.has(p.i)), pick = [...fresh, ...pics.filter(p => !fresh.includes(p))].slice(0, 3);
-        pick.forEach(o => usedSub.add(o.i));
-        return `<button class="fold enter" data-sub="${s.id}" style="--h:${hue}"><span class="fdtab" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>Subtopic</span><span class="fdpics">${pick.map(o => `<span class="fdp">${miniThumb(o)}</span>`).join('')}</span><span class="fdnm">${esc(s.n)}</span><span class="fdct">${ls.length} ${ls.length === 1 ? 'guide' : 'guides'} <i>→</i></span></button>`; };
+      const tile = (s, ls) => `<button class="fold enter" data-sub="${s.id}" style="--h:${hue}"><svg class="fdic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><span class="fdnm">${esc(s.n)}</span><span class="fdct">${ls.length}</span><svg class="fdgo" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>`;
       const tiles = [...cs, { id: '_other', n: 'More' }].filter(s => by[s.id]);
-      fEl.innerHTML = `<div class="fhead"><h2>Browse this topic</h2><p>${tiles.length} subtopics, ${list.length} guides. Pick one to open its guides.</p></div><div class="fgrid">${tiles.map(s => tile(s, by[s.id])).join('')}</div>`;
+      fEl.innerHTML = `<div class="fhead"><h2>Browse this topic</h2><p>${tiles.length} subtopics, ${list.length} guides</p></div><div class="fgrid">${tiles.map(s => tile(s, by[s.id])).join('')}</div>`;
     }
     const relEl = $('#related');
     relEl.hidden = true; relEl.innerHTML = '';   // the "Narrow down" chip row was removed: the card tags and Filters do the same job
