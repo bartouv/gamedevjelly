@@ -1,6 +1,6 @@
 # Noise & procedural textures
 
-> Procedural & math · 30 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 31 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
 - [Voronoi Diagrams: how it works](https://moonjump.com/game-dev-mechanics-voronoi-diagrams-how-it-works/): Explains Voronoi partitioning and its uses in map generation, fracture, Worley noise, and GPU signed distance fields. (Moonjump, 2026-01-06, article, Unity-6 era)
@@ -14,6 +14,7 @@
 - [Voronoi Derivatives](https://catlikecoding.com/unity/tutorials/pseudorandom-surfaces/voronoi-derivatives/): Catlike Coding tutorial on computing derivatives of Voronoi noise for surfaces. (2022-10-14, article, Unity-2022 era)
 - [Perlin Derivatives](https://catlikecoding.com/unity/tutorials/pseudorandom-surfaces/perlin-derivatives/): Catlike Coding tutorial on computing derivatives of Perlin noise for surfaces. (Catlike Coding, 2022-09-15, article, Unity-2022 era)
 - [Pseudorandom Surfaces: Simplex Derivatives](https://catlikecoding.com/unity/tutorials/pseudorandom-surfaces/simplex-derivatives/): Calculates analytic derivatives of simplex noise for pseudorandom surfaces. (Catlike Coding, 2022-08-30, article, Unity-2022 era)
+- [Random Noise - Shader Graph Basics - Episode 35](https://www.youtube.com/watch?v=5v6tvkb63XU): Generating random noise values and using them to scramble textures. (Ben Cloward, 2022-02-24, video, Unity-2022 era)
 - [Pseudorandom Noise: Simplex Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/simplex-noise/): Implements simplex noise in C# with Burst-style jobs. (Catlike Coding, 2021-09-23, article, Unity-2021 era)
 - [Voronoi Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/voronoi-noise/): Catlike Coding tutorial on generating Voronoi noise variants in C#. (Catlike Coding, 2021-08-02, article, Unity-2021 era)
 - [Pseudorandom Noise: Noise Variants](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/noise-variants/): Creates fractal and tiling variants of Perlin and value noise. (Catlike Coding, 2021-07-07, article, Unity-2021 era)

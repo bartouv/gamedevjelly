@@ -1,6 +1,6 @@
 # Toon & cel shading
 
-> Stylized looks · 26 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 29 hand-filtered guides on GamedevJelly, newest first.
 
 - [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
@@ -12,6 +12,8 @@
 - [Toon Shader Fácil Parte 2 - Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=2Zwg-xgRg-4): Easy toon shading in Shader Graph, part 2. In Spanish. (Game Slave, 2023-06-08, video, Unity-2022 era)
 - [Toon Shader Fácil Parte 1 - Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=gRLwk0rGCcc): Easy toon shading in Shader Graph, part 1. In Spanish. (Game Slave, 2023-04-29, video, Unity-2022 era)
 - [Wind Waker Style Patreon post](https://www.patreon.com/posts/wind-waker-style-78831006): Patreon post on a Wind Waker style effect in Unity. (MinionsArt, 2023-02-07, post, Unity-2022 era)
+- [Toon Shader Ink Outlines - Shader Graph Basics - Episode 39](https://www.youtube.com/watch?v=IaHl5hKnjq4): Three methods for toon shader ink outlines. (Ben Cloward, 2022-03-24, video, Unity-2022 era)
+- [Toon Shader Paint - Shader Graph Basics - Episode 38](https://www.youtube.com/watch?v=SOYNf4sYNzY): Several ways to create the painted look of a toon shader. (Ben Cloward, 2022-03-17, video, Unity-2022 era)
 - [Toon outline shader | Unity Tutorial](https://www.youtube.com/watch?v=WnIGh8xrdG8): Writes a toon outline shader in Unity. (Jettelly, 2021-08-06, video, Unity-2021 era)
 - [joyrok](https://joyrok.cargo.site/Tale-of-2-Engines): Joyrok's tech art post comparing two game engines. (Joyrok, 2020-09-14, article, Unity-old era)
 - [Cel Shading | Series Introduction](https://danielilett.com/2019-05-29-tut2-intro/): Introduces a series on cel shading, the stylized look of games like Wind Waker. (2019-05-29, article, Unity-old era)
@@ -21,6 +23,7 @@
 - [Single Step Toon Light](https://www.ronja-tutorials.com/post/031-single-step-toon/): Builds a single-step toon lighting shader. (Ronja, 2018-10-20, article, Unity-old era)
 - [My take on shaders: Directional coloring – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-directional-coloring/): Explains directional coloring using the dot product. (2018-01-13, article, Unity-old era)
 - [Toon Faces](https://www.patreon.com/posts/16569049): Patreon post on toon-style faces. (MinionsArt, 2018-01-01, post, Unity-old era)
+- [Cel Shader with Outline in Unity](https://lindenreidblog.com/2017/12/19/cel-shader-with-outline-in-unity/): A tutorial on how to write a shader in Unity with cel/toon lighting and an outline effect. (Linden Reid, 2017-12-19, article, Unity-old era)
 - [Toon Skulls](https://www.patreon.com/posts/13555743): Patreon post on modeling toon skulls. (MinionsArt, 2017-07-01, post, Unity-old era)
 - [Toon Eyes](https://www.patreon.com/posts/9707447): Patreon post on toon-style eyes. (MinionsArt, 2017-05-01, post, Unity-old era)
 - [Wind Waker Graphics Analysis](https://medium.com/@gordonnl/wind-waker-graphics-analysis-a0b575a31127): Wind Waker graphics analysis covering how the game's stylized look is achieved. (2016-11-10, article, Unity-old era)

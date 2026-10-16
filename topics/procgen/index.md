@@ -1,6 +1,6 @@
 # Procedural generation
 
-> Procedural & math · 127 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 131 hand-filtered guides on GamedevJelly, newest first.
 
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
@@ -86,11 +86,15 @@
 - [EPC2018 | Proceduralism and Deep Learning | Anastasia Opara](https://www.youtube.com/watch?v=dpYwLny0P8M): How deep learning can complement procedural content pipelines, from texture to shape generation. (Ana Opara, 2018-07-11, video, Unity-old era)
 - [Tech Toolbox (GDC 2018) – includes Oskar Stålberg](https://www.gdcvault.com/play/1025002/Tech): Short GDC tool talks; Stålberg's segment covers his tile-based Wave Function Collapse workflow. (Oskar Stålberg, 2018-03-19, article, Unity-old era)
 - [Hex Map 27: Wrapping](https://catlikecoding.com/unity/tutorials/hex-map/part-27/): Hex Map part 27: supporting wrapping maps. (Catlike Coding, 2018-03-13, article, Unity-old era)
+- [Intro to Procedural Geometry, Part 2](https://lindenreidblog.com/2018/02/24/intro-to-procedural-geometry-part-2/): A tutorial on the basics of coding procedural geometry in Unity. (Linden Reid, 2018-02-24, article, Unity-old era)
+- [Intro to Procedural Geometry, Part 3](https://lindenreidblog.com/2018/02/24/intro-to-procedural-geometry-part-3/): A tutorial on how to calculate normals and UVs for procedural meshes. (Linden Reid, 2018-02-24, article, Unity-old era)
 - [Hex Map 26: Biomes and Rivers](https://catlikecoding.com/unity/tutorials/hex-map/part-26/): Hex Map part 26: procedurally generating biomes and rivers. (Catlike Coding, 2018-02-20, article, Unity-old era)
 - [Hex Map 25: Water Cycle](https://catlikecoding.com/unity/tutorials/hex-map/part-25/): Hex Map part 25: simulating a partial water cycle. (Catlike Coding, 2018-01-22, article, Unity-old era)
+- [Intro to Procedural Geometry, Part 1](https://lindenreidblog.com/2018/01/20/intro-to-procedural-geometry-part-1/): A tutorial on the basics of coding procedural geometry in Unity. (Linden Reid, 2018-01-20, article, Unity-old era)
 - [Hex Map 24: Regions and Erosion](https://catlikecoding.com/unity/tutorials/hex-map/part-24/): Hex Map part 24: generating regions and applying erosion. (Catlike Coding, 2017-12-14, article, Unity-old era)
 - [Hex Map 23: Generating Land](https://catlikecoding.com/unity/tutorials/hex-map/part-23/): Hex Map part 23: procedurally generating land. (Catlike Coding, 2017-11-14, article, Unity-old era)
 - [WaveFunctionCollapse/README.md at master · mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse/blob/master/README.md): Repo docs: reference WaveFunctionCollapse algorithm that generates bitmaps and tilemaps from a single example. (2017-11-07, repo, Unity-old era)
+- [Procedural Mesh Extrusion Tutorial](https://lindenreidblog.com/2017/11/05/procedural-mesh-extrusion-tutorial/): A procedural graphics tutorial on how to extrude every triangle on a mesh. (Linden Reid, 2017-11-05, article, Unity-old era)
 - [Hex Map 22: Advanced Vision](https://catlikecoding.com/unity/tutorials/hex-map/part-22/): Hex Map part 22: more advanced unit vision. (Catlike Coding, 2017-10-14, article, Unity-old era)
 - [Hex Map 21: Exploration](https://catlikecoding.com/unity/tutorials/hex-map/part-21/): Hex Map part 21: adding map exploration. (Catlike Coding, 2017-09-21, article, Unity-old era)
 - [Resource placement on a map](https://www.redblobgames.com/x/1736-resource-placement/): Placing trees, ore and other resources with blue noise and spacing rules instead of pure random. (Red Blob Games, 2017-09-09, article, Unity-old era)

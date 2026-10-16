@@ -1,6 +1,6 @@
 # Dissolve, holograms & sci-fi FX
 
-> VFX · 29 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 30 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
 - [A dissolve effect in Unity using HLSL and VFX Graph](https://jettelly.com/blog/a-dissolve-effect-in-unity-using-hlsl-and-vfx-graph): Dissolve shader paired with VFX Graph so particles spawn only around the dissolving region. (Jettelly, 2026-07-27, article, Unity-6 era)
@@ -22,6 +22,7 @@
 - [https://www.ronja-tutorials.com/post/038-dissolve/](https://www.ronja-tutorials.com/2018/12/15/dissolve.html): Ronja tutorial on dissolve effects with a shader. (2018-12-15, article, Unity-old era)
 - [Clipping a Model with a Plane](https://www.ronja-tutorials.com/post/021-plane-clipping/): Makes a model's surface disappear beyond a plane. (Ronja, 2018-08-06, article, Unity-old era)
 - [My take on shaders: Glitch image effect – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-glitch-image-effect/): Tutorial on building a glitch image effect. (2018-01-14, article, Unity-old era)
+- [Dissolve Shader in Unity](https://lindenreidblog.com/2017/12/16/dissolve-shader-in-unity/): A tutorial on how to write a dissolve shader in Unity with colored edges and a gradual fade. (Linden Reid, 2017-12-16, article, Unity-old era)
 - [My take on shaders: Dissolve shader – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-dissolve-shader/): Tutorial on writing a dissolve shader. (2017-10-11, article, Unity-old era)
 - [3D Printer Shader Effect – Part 2](https://www.alanzucconi.com/2016/10/02/3d-printer-shader-effect-part-2/): Part two of replicating the 3D printer build-up shader effect. (Alan Zucconi, 2016-10-02, article, Unity-old era)
 - [3D Printer Shader Effect – Part 1](https://www.alanzucconi.com/2016/10/02/3d-printer-shader-effect-part-1/): Part one of replicating the 3D printer build-up shader effect seen in Astroneer. (Alan Zucconi, 2016-10-02, article, Unity-old era)

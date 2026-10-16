@@ -1,6 +1,6 @@
 # Post-processing & image effects
 
-> Shaders & rendering · 43 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 47 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 09 - Post Processing](https://danielilett.com/2026-09-03-tut10-09-post-processing/): Writes grayscale and other post-process effects in URP using the newer Render Graph API. (Daniel Ilett, 2026-09-03, article, Unity-6 era, URP)
 - [Recreating a painterly shader in Unity URP](https://jettelly.com/blog/recreating-a-painterly-shader-in-unity-urp): Rebuilding a painterly look in URP over a few days using post-process passes. (Jettelly, 2026-07-19, article, Unity-6 era)
@@ -21,6 +21,9 @@
 - [GTA V – Underestimated Glow](https://simonschreibt.de/gat/gta-v-underestimated-glow/): Explains how the nighttime glow on GTA V traffic lights works. (Simon Schreibt, 2023-06-11, article, Unity-2022 era)
 - [Outline Post Process in Unity Shader Graph (URP)](https://danielilett.com/2023-03-21-tut7-1-fullscreen-outlines/): Draws outlines as a Fullscreen Shader Graph post process by detecting color changes between neighboring pixels. (Daniel Ilett, 2023-03-21, article, Unity-2022 era, URP)
 - [Patreon: Basic quad setup for an effect](https://www.patreon.com/posts/basic-quad-for-1-80481278): Patreon post on setting up a basic quad for an effect in Unity. (MinionsArt, 2023-02-28, post, Unity-2022 era)
+- [Pixelation Filter - Shader Graph Basics - Episode 61](https://www.youtube.com/watch?v=x95xhWCxBb4): A pixelation filter built as a post-processing shader. (Ben Cloward, 2022-09-15, video, Unity-2022 era)
+- [Fullscreen Masks - Shader Graph Basics - Episode 50](https://www.youtube.com/watch?v=HcMFgJas0yg): Three types of fullscreen mask for post-processing shaders. (Ben Cloward, 2022-06-16, video, Unity-2022 era)
+- [Basic Post-Processing Effects - Shader Graph Basics - Episode 49](https://www.youtube.com/watch?v=ipKQt0BxQSA): The setup for post-process shaders, and the first basic effects. (Ben Cloward, 2022-06-09, video, Unity-2022 era)
 - [Shader bits: World space reconstruction, orthographic camera texture projection & fake perspective UVs – Harry Alisavakis](https://halisavakis.com/shader-bits-world-space-reconstruction-orthographic-camera-texture-projection-fake-perspective-uvs/): Shader snippets for world space reconstruction and orthographic camera texture projection. (Harry Alisavakis, 2022-03-25, article, Unity-2022 era)
 - [Different methods for getting World Normal from Depth Texture, without any external script dependencies.](https://gist.github.com/bgolus/a07ed65602c009d5e2f753826e8078a0): Repo: shader gist with several ways to reconstruct world-space normals from the depth texture without scripts. (Ben Golus, 2021-02-26, article, Unity-2021 era)
 - [Precision Color by Scribbl](https://scribbl.itch.io/precision-color): Itch.io color effect for the Unity post-processing stack. (2020-09-07, article, Unity-old era)
@@ -29,6 +32,7 @@
 - [Ultra Effects | Series Introduction](https://danielilett.com/2019-09-18-tut3-intro-ultra/): Introduction to a series on image effects such as fisheye lenses. (2019-09-18, article, Unity-old era)
 - [Recreating Red Dead Redemption's Dead Eye | Mix and Jam](https://www.youtube.com/watch?v=jPnMVeWnZLc): Recreates Red Dead Redemption's Dead Eye slow-motion targeting in Unity. (Mix and Jam, 2019-04-25, video, Unity-old era)
 - [Shader Showcase Saturday #11: Return of the Obra Dinn](https://www.alanzucconi.com/2018/10/24/shader-showcase-saturday-11/): Analyzes the aesthetic of Return of the Obra Dinn and how to recreate it with shaders. (Alan Zucconi, 2018-10-24, article, Unity-old era)
+- [Heat Distortion Shader Tutorial](https://lindenreidblog.com/2018/03/05/heat-distortion-shader-tutorial/): A tutorial on how to create a heat distortion effect in Unity. (Linden Reid, 2018-03-05, article, Unity-old era)
 - [My take on shaders: Glitch image effect – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-glitch-image-effect/): Tutorial on building a glitch image effect. (2018-01-14, article, Unity-old era)
 - [What is Color Banding? And what is it not?](https://simonschreibt.de/gat/colorbanding/): Explains what color banding is and how to avoid it. (Simon Schreibt, 2015-12-02, article, Unity-old era)
 - [X:Rebirth – Geometric Lensflares](https://simonschreibt.de/gat/xrebirth-geometric-lensflares/): Looks at geometric lens flares in X:Rebirth instead of texture-based ones. (Simon Schreibt, 2015-10-23, article, Unity-old era)

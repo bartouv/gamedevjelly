@@ -1,6 +1,6 @@
 # Vertex displacement & animation
 
-> Shaders & rendering · 28 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 30 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
@@ -17,6 +17,7 @@
 - [Book page turn: vertex shader + flipbook node in Shader Graph](https://mastodon.gamedev.place/@Cyanilux/110725089805501728): Post showing a book page turn using a vertex shader and flipbook node in Shader Graph. (Cyan, 2023-07-16, post, Unity-2022 era)
 - [The Four Vertex Volume](https://simonschreibt.de/gat/four-vertex-volume/): Explains a four-vertex volume rendering trick. (Simon Schreibt, 2023-04-30, article, Unity-2022 era)
 - [Fractured Cube Breakdown](https://www.cyanilux.com/tutorials/fractured-cube-breakdown/): Breaks down a fractured cube shader displacing prefractured pieces using pivots baked into UVs. (Cyan, 2023-03-07, article, Unity-2022 era)
+- [Tessellation and Displacement - Shader Graph Basics - Episode 41](https://www.youtube.com/watch?v=ycJ434Lh21w): Tessellation and displacement for highly detailed meshes. (Ben Cloward, 2022-04-07, video, Unity-2022 era)
 - [Tornado Shader Breakdown](https://www.cyanilux.com/tutorials/tornado-shader-breakdown/): Breakdown of a tornado shader using scrolling alpha-clipped noise layers with vertex displacement. (Cyan, 2022-01-26, article, Unity-2022 era)
 - [Texture Animation Techniques](https://medium.com/tech-at-wildlife-studios/texture-animation-techniques-1daecb316657): Explains baking animations into textures for vertex-shader playback (Vertex Animation Textures). (2020-09-06, article, Unity-old era)
 - [Vertex / Fragment Shader | Unity Tuutorial](https://www.youtube.com/watch?v=GU7FJhOZoMM): Explains vertex and fragment shaders in Unity. (Jettelly, 2020-02-13, video, Unity-old era)
@@ -24,6 +25,7 @@
 - [Shader Showcase Saturday #10: Fortnite Procedural Animations](https://www.alanzucconi.com/2018/09/17/shader-showcase-saturday-10/): Recreates Fortnite-style procedural animation effects with shaders. (Alan Zucconi, 2018-09-17, article, Unity-old era)
 - [Shader Showcase Saturday #7: Billboard Impostors](https://www.alanzucconi.com/2018/08/25/shader-showcase-saturday-7/): Uses billboard impostors to reduce polygon counts in Unity. (Alan Zucconi, 2018-08-25, article, Unity-old era)
 - [Vertex Displacement](https://www.ronja-tutorials.com/post/015-wobble-displacement/): Displaces vertices in the vertex shader for wobble effects. (Ronja, 2018-06-16, article, Unity-old era)
+- [Waving Grass Shader in Unity](https://lindenreidblog.com/2018/01/07/waving-grass-shader-in-unity/): A tutorial on how to write an animated waving grass shader in Unity/CG. (Linden Reid, 2018-01-07, article, Unity-old era)
 - [Tessellation](https://catlikecoding.com/unity/tutorials/advanced-rendering/tessellation/): Catlike Coding tutorial on triangle tessellation with hull and domain shaders. (Catlike Coding, 2017-11-30, article, Unity-old era)
 - [waterfall - William Chyr](https://williamchyr.com/tag/waterfall/): Blog posts about adding a splash to a waterfall using a sine-wave vertex shader. (2017-05-02, article, Unity-old era)
 - [Bending Solid Geometry in Planetary Annihilation](https://allenchou.net/2013/07/bending-solid-geometry-in-planetary-annihilation/): Internship story on bending solid geometry in Planetary Annihilation. (Ming-Lun Chou, 2013-07-04, article, Unity-old era)

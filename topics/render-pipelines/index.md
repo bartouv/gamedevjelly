@@ -1,6 +1,6 @@
 # Render pipelines & SRP
 
-> Shaders & rendering · 61 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 62 hand-filtered guides on GamedevJelly, newest first.
 
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Custom SRP 7.2: Separate Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-2/): Custom SRP tutorial introducing separate shadow passes. (Catlike Coding, 2026-09-18, article, Unity-6 era)
@@ -46,6 +46,7 @@
 - [Cameras and Rendering](https://bartouv.github.io/articles/cameras-and-rendering.html): Deep dive into Unity's camera system and rendering pipeline. Understanding culling, layers, and multi-camera setups for complex scenes. (Gal Bartouv, 2023-01-01, article, Unity-2022 era)
 - [An Intro to Rendering](https://bartouv.github.io/articles/an-intro-to-rendering.html): Understanding the fundamentals of rendering pipelines. From vertices to pixels, learn how Unity transforms your 3D scenes into images. (Gal Bartouv, 2023-01-01, article, Unity-2022 era)
 - [Order independent transparency, part 1](https://interplayoflight.wordpress.com/2022/06/25/order-independent-transparency-part-1/): Explains order-independent transparency approaches for rendering, part 1. (Simon Schreibt, 2022-07-05, article, Unity-2022 era)
+- [The Graphics Pipeline - Shader Graph Basics - Episode 2](https://www.youtube.com/watch?v=ZEXVQgbWxQY): A ride down the graphics pipeline: what happens on the GPU before a pixel shows up. (Ben Cloward, 2021-06-17, video, Unity-2021 era)
 - [https://www.cyanilux.com/tutorials/intro-to-the-shader-pipeline/](https://www.cyanilux.com/tutorials/intro-to-shaders/): Cyanilux overview of how the shader pipeline works for beginners. (Cyan, 2021-01-10, article, Unity-2021 era)
 - [Z-Buffer & Color Buffer | Unity Tutorial](https://www.youtube.com/watch?v=CVGlOfQMNdQ): Explains the Z-buffer and color buffer in rendering. (Jettelly, 2020-02-08, video, Unity-old era)
 - [Render Hell 2.0](https://simonschreibt.de/gat/renderhell/): Updated look at Render Hell, a visual guide to the stages of rendering. (Simon Schreibt, 2015-08-16, article, Unity-old era)

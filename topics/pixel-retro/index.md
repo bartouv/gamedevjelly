@@ -1,6 +1,6 @@
 # Pixel art, dithering & retro
 
-> Stylized looks · 20 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 21 hand-filtered guides on GamedevJelly, newest first.
 
 - [Breaking down Moon Reader's 2.5D pixel art style in Unity](https://jettelly.com/blog/breaking-down-moon-reader-s-2-5d-pixel-art-style): How a 2.5D pixel art look was made in Unity, simpler than it appears. (Jettelly, 2026-07-28, article, Unity-6 era)
 - [Replicating the Shadowglass 3D pixel-art technique](https://tesseractc.at/shadowglass): Recreates the Shadowglass look for first-person 3D pixel art, explaining how the technique works. (2026-02-05, article, Unity-6 era)
@@ -9,6 +9,7 @@
 - [Patreon: Selective effects (bonus post)](https://www.patreon.com/posts/bonus-selective-98590556): Bonus Patreon post on selective effects in Unity. (2024-03-29, post, Unity-2022 era)
 - [Lofi 3D pixel art explorations](https://alexstrook.blogspot.com/2023/07/lofi-3d-pixel-art-explorations.html): Low-res 3D pixel look in Unity via point-filtered render textures or a pixelate post effect. (Alex Strook, 2023-07-01, article, Unity-2022 era)
 - [Unity Retro Effect (PSOne) shader tutorial - Decompiled Art](https://www.youtube.com/watch?v=n5zlq0A8xGg): Tools: Unity Universal Render Pipeline (URP), High Definition Render Pipeline (HDRP), ShaderGraph (Decompiled Art, 2023-06-13, video, Unity-2022 era)
+- [Pixelation Filter - Shader Graph Basics - Episode 61](https://www.youtube.com/watch?v=x95xhWCxBb4): A pixelation filter built as a post-processing shader. (Ben Cloward, 2022-09-15, video, Unity-2022 era)
 - [PlayStation 1 Affine Texture Mapping in Shader Code](https://danielilett.com/2021-11-06-tut5-21-ps1-affine-textures/): Reproduces PlayStation 1 affine texture warping in shader code for a retro look. (Daniel Ilett, 2021-11-06, article, Unity-2021 era)
 - [Retro CRT Shader Breakdown](https://cyangamedev.wordpress.com/2020/09/10/retro-crt-shader-breakdown/): Breakdown of a retro CRT shader. (2020-09-10, article, Unity-old era)
 - [Ultra Effects | Part 9 - Obra Dithering](https://danielilett.com/2020-02-26-tut3-9-obra-dithering/): Recreates the stable dithered look of Return of the Obra Dinn in Unity. (2020-02-26, article, Unity-old era)

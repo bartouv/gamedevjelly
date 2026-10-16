@@ -1,6 +1,6 @@
 # Tech art & DCC workflow
 
-> Art & learning · 97 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 98 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity VFX Graph - Muzzle Flash Effect Tutorial](https://www.youtube.com/watch?v=HISD_W-EwyE): Build a muzzle flash with VFX Graph, using Blender plane meshes and textures made in Material Maker. (Gabriel Aguiar Prod., 2026-08-05, video, Unity-6 era)
 - [What I learned about using Unity Timeline to create a short film](https://www.youtube.com/watch?v=j1JvhqnxgEY): What she learned making a short film with Unity Timeline: how she built it and which assets she used. (Christina Creates Games, 2026-06-24, video, Unity-6 era)
@@ -39,6 +39,7 @@
 - [joyrok](https://joyrok.cargo.site/Tale-of-2-Engines): Joyrok's tech art post comparing two game engines. (Joyrok, 2020-09-14, article, Unity-old era)
 - [Modeling with Tiling Textures | onlineportfolio](https://tylergibbonsart.wixsite.com/onlineportfolio/modeling-with-tiling-textures): Portfolio page on modeling with tiling textures. (2020-09-09, article, Unity-old era)
 - [Generating Perfect Normal Maps for Unity (and Other Programs)](https://bgolus.medium.com/generating-perfect-normal-maps-for-unity-f929e673fc57): How to generate accurate normal maps for Unity and other programs from a high-poly model. (Ben Golus, 2020-02-03, article, Unity-old era)
+- [Getting Started Learning Tech Art & Unity Shader Writing](https://lindenreidblog.com/2019/01/30/getting-started-learning-tech-art-unity-shader-writing/): A starting point for learning tech art and writing shaders in Unity. (Linden Reid, 2019-01-30, article, Unity-old era)
 - [Konsoll 2018: Oskar Stålberg - Developing The Bad North Look](https://www.youtube.com/watch?v=6JcFbivo8dQ): Procedural techniques, technical challenges and art reasoning behind Bad North's minimalist island look. (Oskar Stålberg, 2019-01-29, video, Unity-old era)
 - [Santa Hat](https://www.patreon.com/posts/23472026): Patreon post modeling a Santa hat. (MinionsArt, 2018-12-01, post, Unity-old era)
 - [Baking Shaders into Textures](https://www.ronja-tutorials.com/post/030-baking-shaders/): Bakes shader calculations into textures instead of computing them on the fly. (Ronja, 2018-10-13, article, Unity-old era)

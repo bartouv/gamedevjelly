@@ -1,6 +1,6 @@
 # Grass, trees & foliage
 
-> Environment · 30 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 31 hand-filtered guides on GamedevJelly, newest first.
 
 - [Outbound’s clip shader approach: Precise foliage discarding for real-time environments](https://unity.com/blog/outbound-square-glade-games-foliage-discarding-solution): A clip-shader technique for discarding foliage precisely, stopping grass poking through vehicles. (Unity, 2025-12-02, article, Unity-6 era)
 - [Interactive Grass | Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=GzK9P3MOvp8): Grass that bends away from the player, in Shader Graph. (Game Slave, 2025-11-18, video, Unity-6 era)
@@ -19,6 +19,7 @@
 - [Shader Showcase Saturday #3: Interactive Grass](https://www.alanzucconi.com/2018/07/28/shader-showcase-saturday-3/): Creates interactive grass that reacts to wind and player movement. (Alan Zucconi, 2018-07-28, article, Unity-old era)
 - [Handpainted Grass](https://www.patreon.com/posts/18425663): Patreon post on handpainted grass. (MinionsArt, 2018-04-01, post, Unity-old era)
 - [Pine Tree](https://www.patreon.com/posts/17531808): Patreon post modeling a pine tree. (MinionsArt, 2018-03-01, post, Unity-old era)
+- [Waving Grass Shader in Unity](https://lindenreidblog.com/2018/01/07/waving-grass-shader-in-unity/): A tutorial on how to write an animated waving grass shader in Unity/CG. (Linden Reid, 2018-01-07, article, Unity-old era)
 - [Stylized Tree](https://www.patreon.com/posts/14329689): Patreon post modeling a stylized tree. (MinionsArt, 2017-09-01, post, Unity-old era)
 - [Tree Build-up](https://www.patreon.com/posts/8019316): Patreon post building up a tree model. (MinionsArt, 2017-02-01, post, Unity-old era)
 - [Dark Maus – Top Down Trees](https://simonschreibt.de/gat/darkmaus-topdown-trees/): Looks at how top-down trees are rendered in Dark Maus. (Simon Schreibt, 2016-02-24, article, Unity-old era)

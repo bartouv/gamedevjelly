@@ -1,6 +1,6 @@
 # Stencil, masks & decals
 
-> Shaders & rendering · 17 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 18 hand-filtered guides on GamedevJelly, newest first.
 
 - [Holofoil Cards in Shader Graph and Unity URP](https://danielilett.com/2025-10-13-tut11-01-holofoil-cards/): Makes Pokemon-style holofoil cards in Shader Graph using the stencil buffer and other tricks in URP. (Daniel Ilett, 2025-10-13, article, Unity-6 era, URP)
 - [Infinity Nikki: One-way Window](https://simonschreibt.de/gat/infinity-nikki-one-way-window/): Looks at the one-way window effect in Infinity Nikki. (Simon Schreibt, 2025-02-23, article, Unity-6 era)
@@ -11,6 +11,7 @@
 - [Recreating Wind Waker Style Lights in Unity](https://youtu.be/mNndyHHNh78): Recreates Wind Waker style lights in Unity using stencil techniques. (MinionsArt, 2023-03-01, video, Unity-2022 era)
 - [The Unreal Stencil Dragon](https://simonschreibt.de/gat/the-unreal-stencil-dragon/): Builds a stencil dragon effect in Unreal, extending a project on one shader for many effects. (Simon Schreibt, 2023-02-20, article, Unity-2022 era)
 - [World Position Effects 2: More Shapes](https://www.patreon.com/posts/urp-world-part-2-77812661): Patreon post on world position effects with more shapes for URP. (MinionsArt, 2023-01-01, post, Unity-2022 era, URP)
+- [Fullscreen Masks - Shader Graph Basics - Episode 50](https://www.youtube.com/watch?v=HcMFgJas0yg): Three types of fullscreen mask for post-processing shaders. (Ben Cloward, 2022-06-16, video, Unity-2022 era)
 - [Portals | Series Introduction](https://danielilett.com/2019-12-01-tut4-intro-portals/): Introduction to a series on portal rendering techniques. (2019-12-01, article, Unity-old era)
 - [https://www.ronja-tutorials.com/post/042-dithering/](https://www.ronja-tutorials.com/2019/05/11/dithering.html): Ronja tutorial on dithering in shaders for transparency effects. (2019-05-11, article, Unity-old era)
 - [Stencil Buffers](https://www.ronja-tutorials.com/post/022-stencil-buffers/): Explains stencil buffers and how they differ from depth buffer testing. (2018-08-18, article, Unity-old era)

@@ -1,6 +1,6 @@
 # UVs, triplanar & texturing
 
-> Shaders & rendering · 45 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 48 hand-filtered guides on GamedevJelly, newest first.
 
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
 - [Terrain/Mesh Blending for URP](https://www.patreon.com/posts/terrain-mesh-urp-152116212): Patreon post on blending terrain and mesh surfaces together in URP. (MinionsArt, 2026-03-01, post, Unity-6 era, URP)
@@ -16,7 +16,10 @@
 - [Unity Shader Graph Basics (Part 2 - Textures & UVs)](https://danielilett.com/2023-12-04-tut7-4-intro-to-shader-graph-part-2/): Applies textures and UV coordinates for base color in Shader Graph. (Daniel Ilett, 2023-12-04, article, Unity-2022 era)
 - [Deus Ex – Alpha Terrain](https://simonschreibt.de/gat/deus-ex-alpha-terrain/): Explains how Deus Ex alpha terrain blends with stone objects. (Simon Schreibt, 2023-05-28, article, Unity-2022 era)
 - [Swapping Colours](https://www.cyanilux.com/tutorials/color-swap/): Cyanilux examples of swapping colours and palettes on textures. (Cyan, 2023-02-21, article, Unity-2022 era)
+- [UV Rotation - Shader Graph Basics - Episode 42](https://www.youtube.com/watch?v=q62CdbKNdJQ): Rotating textures with sine and cosine, plus practical uses. (Ben Cloward, 2022-04-14, video, Unity-2022 era)
 - [PlayStation 1 Affine Texture Mapping in Shader Code](https://danielilett.com/2021-11-06-tut5-21-ps1-affine-textures/): Reproduces PlayStation 1 affine texture warping in shader code for a retro look. (Daniel Ilett, 2021-11-06, article, Unity-2021 era)
+- [Advanced Detail Mapping - Shader Graph Basics - Episode 14](https://www.youtube.com/watch?v=avZ26yW2KBw): An advanced detail mapping technique that applies several detail textures. (Ben Cloward, 2021-09-09, video, Unity-2021 era)
+- [Texture Coordinates - Shader Graph Basics - Episode 8](https://www.youtube.com/watch?v=reAlVCXBtjs): Texture coordinates explained for beginners. (Ben Cloward, 2021-07-29, video, Unity-2021 era)
 - [Normal Maps, Tangent Space & IBL • Shaders for Game Devs [Part 3]](https://www.youtube.com/watch?v=E4PHFnvMzFc): Shaders for game devs part 3 on normal maps, tangent space and image-based lighting. (Freya Holmér, 2021-02-26, video, Unity-2021 era)
 - [Modeling with Tiling Textures | onlineportfolio](https://tylergibbonsart.wixsite.com/onlineportfolio/modeling-with-tiling-textures): Portfolio page on modeling with tiling textures. (2020-09-09, article, Unity-old era)
 - [Generating Perfect Normal Maps for Unity (and Other Programs)](https://bgolus.medium.com/generating-perfect-normal-maps-for-unity-f929e673fc57): How to generate accurate normal maps for Unity and other programs from a high-poly model. (Ben Golus, 2020-02-03, article, Unity-old era)

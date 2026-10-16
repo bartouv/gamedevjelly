@@ -1,6 +1,6 @@
 # Math for game devs
 
-> Procedural & math · 174 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 178 hand-filtered guides on GamedevJelly, newest first.
 
 - [@freya.bsky.social: quaternion powers q², √q and qˣ scale a rotation](https://bsky.app/profile/freya.bsky.social/post/3mwqvwetixc2r): Raising a quaternion to a power scales its rotation: square doubles, square root halves, qˣ scales by x. (Freya Holmér, 2026-09-30, post, Unity-6 era)
 - [@freya.bsky.social: quaternion (x,y,z,0) is a 180° rotation about that axis](https://bsky.app/profile/freya.bsky.social/post/3mwedrkwlk227): A unit vector as a pure quaternion gives a half-turn around it, with no trig or euler conversion. (Freya Holmér, 2026-09-25, post, Unity-6 era)
@@ -77,11 +77,14 @@
 - [Pseudorandom Surfaces: Simplex Derivatives](https://catlikecoding.com/unity/tutorials/pseudorandom-surfaces/simplex-derivatives/): Calculates analytic derivatives of simplex noise for pseudorandom surfaces. (Catlike Coding, 2022-08-30, article, Unity-2022 era)
 - [How to rotate a vector](https://www.youtube.com/watch?v=7j5yW5QDC2U): Explains how to rotate a vector in 2D and 3D. (Freya Holmér, 2022-02-28, video, Unity-2022 era)
 - [SGC21- Oskar Stålberg - Beyond Townscapers](https://www.youtube.com/watch?v=Uxeo9c-PX-w): Experimental tile-based procedural generation beyond Townscaper: irregular grids, dual meshes and new tile setups. (Oskar Stålberg, 2021-12-08, video, Unity-2021 era)
+- [Smoothstep - Shader Graph Basics - Episode 15](https://www.youtube.com/watch?v=dn3y5KVxylQ): The Smoothstep node: the math, then practical uses. (Ben Cloward, 2021-09-16, video, Unity-2021 era)
 - [ShaderQuest Part 6: Shaping functions](https://halisavakis.com/shaderquest-part-6-shaping-functions/): ShaderQuest part six on shaping functions in shaders. (Harry Alisavakis, 2021-09-12, article, Unity-2021 era)
 - [The Beauty of Bézier Curves](https://www.youtube.com/watch?v=aVwxzDHniEw): Visual explanation of Bezier curves and how they are built. (Freya Holmér, 2021-08-19, video, Unity-2021 era)
 - [Voronoi Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/voronoi-noise/): Catlike Coding tutorial on generating Voronoi noise variants in C#. (Catlike Coding, 2021-08-02, article, Unity-2021 era)
+- [Dot Product Node - Shader Graph Basics - Episode 7](https://www.youtube.com/watch?v=sD6y-hUxEck): The dot product node: the math behind it and how to use it in a shader. (Ben Cloward, 2021-07-22, video, Unity-2021 era)
 - [EPC2021 | Q&A session with Oskar Stålberg | Oskar Stålberg](https://www.youtube.com/watch?v=NOJYZYqY6_M): Q&A under Townscaper's hood: Marching Cubes plus WFC on an irregular quadrilateral grid at interactive speed. (Oskar Stålberg, 2021-07-15, video, Unity-2021 era)
 - [Pseudorandom Noise: Noise Variants](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/noise-variants/): Creates fractal and tiling variants of Perlin and value noise. (Catlike Coding, 2021-07-07, article, Unity-2021 era)
+- [Basic Shader Math - Shader Graph Basics - Episode 4](https://www.youtube.com/watch?v=bihZJzeuwOU): The add, subtract, multiply and divide nodes, and what basic shader math does. (Ben Cloward, 2021-07-01, video, Unity-2021 era)
 - [Polar Coordinates](https://www.ronja-tutorials.com/post/053-polar-coordinates/): Explains polar coordinates in shaders for radial effects. (Ronja, 2021-06-20, article, Unity-2021 era)
 - [Perlin Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/perlin-noise/): Catlike Coding tutorial on implementing Perlin noise in C#. (Catlike Coding, 2021-06-18, article, Unity-2021 era)
 - [Value Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/value-noise/): Catlike Coding tutorial on implementing value noise in C#. (Catlike Coding, 2021-05-30, article, Unity-2021 era)
@@ -115,6 +118,7 @@
 - [Sine and Cosine - A Visual Explanation](https://www.youtube.com/watch?v=slGflbRnx1Q): Visual explanation of sine and cosine. (Freya Holmér, 2019-08-17, video, Unity-old era)
 - [The Dot Product - A Visual Explanation](https://www.youtube.com/watch?v=2PrSUK1VrKA): Visual explanation of the dot product. (Freya Holmér, 2019-08-05, video, Unity-old era)
 - [HSV Color Space](https://www.ronja-tutorials.com/post/041-hsv-colorspace/): Explains the HSV color space and using it in shaders. (Ronja, 2019-04-16, article, Unity-old era)
+- [Basic Math for Shaders](https://lindenreidblog.com/2018/08/25/basic-math-for-shaders/): What’s the difference between a cross product and a dot product? And what’s a surface normal?? (Linden Reid, 2018-08-25, article, Unity-old era)
 - [Polygon Clipping](https://www.ronja-tutorials.com/post/014-polygon-clipping/): Clips a polygon shape in a shader against a list of points. (Ronja, 2018-06-10, article, Unity-old era)
 - [Game Math: Deriving the Slerp Formula](https://allenchou.net/2018/05/game-math-deriving-the-slerp-formula/): Derives the slerp formula for spherical interpolation. (Ming-Lun Chou, 2018-05-17, article, Unity-old era)
 - [Game Math: Swing-Twist Interpolation (…Sterp?)](https://allenchou.net/2018/05/game-math-swing-twist-interpolation-sterp/): Explains swing-twist interpolation for rotations, with source on GitHub. (Ming-Lun Chou, 2018-05-13, article, Unity-old era)
@@ -148,7 +152,3 @@
 - [Game Math: Precise Control over Numeric Springing](https://allenchou.net/2015/04/game-math-precise-control-over-numeric-springing/): Game math on precise control over numeric springing. (Ming-Lun Chou, 2015-04-08, article, Unity-old era)
 - [Game Math: Interpolating Quaternions with Circular Blending](https://allenchou.net/2014/04/game-math-interpolating-quaternions-with-circular-blending/): Interpolates quaternions with circular blending for skeletal animation data. (Ming-Lun Chou, 2014-04-18, article, Unity-old era)
 - [Game Math: Quaternion Implementations](https://allenchou.net/2014/04/game-math-quaternion-implementations/): Quaternion implementations for game math. (Ming-Lun Chou, 2014-04-14, article, Unity-old era)
-- [Game Math: Quaternion Basics](https://allenchou.net/2014/04/game-math-quaternion-basics/): Quaternion basics for game math. (Ming-Lun Chou, 2014-04-09, article, Unity-old era)
-- [Game Math: Faster Re-Normalization of Unit Vectors.](https://allenchou.net/2014/02/game-math-fast-re-normalization-of-unit-vectors/): Faster re-normalization of unit vectors. (Ming-Lun Chou, 2014-02-28, article, Unity-old era)
-- [Game Math: Faster Sine & Cosine with Polynomial Curves](https://allenchou.net/2014/02/game-math-faster-sine-cosine-with-polynomial-curves/): Faster sine and cosine using polynomial curves. (Ming-Lun Chou, 2014-02-28, article, Unity-old era)
-- [Game Math: Approximation with Polynomial Curves](https://allenchou.net/2014/02/game-math-approximation-with-polynomial-curves/): Approximating functions with polynomial curves. (Ming-Lun Chou, 2014-02-27, article, Unity-old era)

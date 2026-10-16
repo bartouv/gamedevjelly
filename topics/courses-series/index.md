@@ -44,7 +44,7 @@
 - [Shader Basics, Blending & Textures • Shaders for Game Devs [Part 1]](https://www.youtube.com/watch?v=kfM-yu0iQBk): Shaders for game devs part 1 on shader basics, blending and textures. (Freya Holmér, 2021-02-26, video, Unity-2021 era)
 - [ShaderQuest Part 3: Shaders and Materials – Harry Alisavakis](https://halisavakis.com/shaderquest-part-3-shaders-and-materials/): ShaderQuest series part on shaders and materials. (Harry Alisavakis, 2021-02-18, article, Unity-2021 era)
 - [ShaderQuest Part 2: Introducing Shaders – Harry Alisavakis](https://halisavakis.com/shaderquest-part-2-introducing-shaders/): ShaderQuest series part introducing shaders. (Harry Alisavakis, 2021-01-31, article, Unity-2021 era)
-- [Shaders — Travis Reid](https://www.lindenreid.com/shader-highlights): Portfolio page showing shader highlights. (2021-01-30, article, Unity-2021 era)
+- [Shaders — Travis Reid](https://www.lindenreid.com/shader-highlights): Portfolio page showing shader highlights. (Linden Reid, 2021-01-30, article, Unity-2021 era)
 - [ShaderQuest Part 1: Graphics Concepts – Harry Alisavakis](https://halisavakis.com/shaderquest-part-1-graphics-concepts/): ShaderQuest series part on core graphics concepts. (Harry Alisavakis, 2021-01-19, article, Unity-2021 era)
 - [ShaderQuest Part 0: Series Introduction](https://halisavakis.com/shaderquest-part-0-series-introduction/): Introduction to the ShaderQuest series on learning shaders. (Harry Alisavakis, 2021-01-05, article, Unity-2021 era)
 - [Interpolation & Velocity • Math for Game Devs [Part 4]](https://www.youtube.com/watch?v=-Ii3MrJFBkQ): Math for game devs part 4 on interpolation and velocity. (Freya Holmér, 2020-11-09, video, Unity-old era)

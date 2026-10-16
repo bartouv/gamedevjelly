@@ -1,6 +1,6 @@
 # Glass, refraction & transparency
 
-> Shaders & rendering · 30 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 32 hand-filtered guides on GamedevJelly, newest first.
 
 - [GitHub - Youssef-Afella/UnityURP-FakeRealGlass: Fast glass shader that doesn't require any RayTracing or RayMarching](https://github.com/Youssef-Afella/UnityURP-FakeRealGlass): Repo: URP glass shader that fakes realistic refraction without ray tracing or raymarching. (2026-02-08, repo, Unity-6 era, URP)
 - [Unity Shader Code Basics 03 - Transparency](https://danielilett.com/2026-01-01-tut10-03-transparency/): Explains drawing transparent objects and blending in hand-written Unity shaders. (Daniel Ilett, 2026-01-01, article, Unity-6 era)
@@ -15,6 +15,7 @@
 - [https://www.cyanilux.com/tutorials/snowglobe-breakdown/](https://www.cyanilux.com/tutorials/snowglobe/): Cyanilux breakdown of a snow globe effect built with shaders. (Cyan, 2023-01-04, article, Unity-2022 era)
 - [Snowglobe Breakdown](https://www.cyanilux.com/tutorials/snowglobe-breakdown/): Breaks down a snow globe: refractive glass shader with particles inside following the rigidbody. (Cyan, 2023-01-04, article, Unity-2022 era)
 - [Order independent transparency, part 1](https://interplayoflight.wordpress.com/2022/06/25/order-independent-transparency-part-1/): Explains order-independent transparency approaches for rendering, part 1. (Simon Schreibt, 2022-07-05, article, Unity-2022 era)
+- [Reflection and Refraction Vectors - Shader Graph Basics - Episode 24](https://www.youtube.com/watch?v=TNGNtVhCGvs): Reflection and refraction vectors, and how to build effects with them. (Ben Cloward, 2021-11-25, video, Unity-2021 era)
 - [Coloring Raymarched Volumetric Light Through Stained Glass](https://valeriomarty.medium.com/coloring-raymarched-volumetric-light-as-it-passes-through-stained-glass-a19846def1cd): Colors raymarched volumetric light as it passes through stained glass, continuing a previous tutorial. (2021-08-28, article, Unity-2021 era)
 - [Technically Speaking Challenge Stained Glass — Joyrok](https://joyrok.com/Technically-Speaking-Challenge-Stained-Glass): Tech art write-up on a stained glass effect for the Technically Speaking challenge. (Joyrok, 2021-06-25, article, Unity-2021 era)
 - [Mafia II – Hat vs. Hair](https://simonschreibt.de/gat/mafia-ii-hat-vs-hair/): Looks at the hat versus hair problem in Mafia II. (Simon Schreibt, 2020-11-09, article, Unity-old era)
@@ -22,6 +23,7 @@
 - [Alpha to Coverage Anti-Aliasing](https://www.patreon.com/posts/alpha-to-or-anti-33042721): Patreon post on alpha-to-coverage and anti-aliasing for cutout transparency. (2020-01-14, post, Unity-old era)
 - [Shader Showcase Saturday #1: Volumetric Crystals](https://www.alanzucconi.com/2018/07/14/shader-showcase-saturday-1/): Creates volumetric crystals with shaders. (Alan Zucconi, 2018-07-14, article, Unity-old era)
 - [Basic Transparency](https://www.ronja-tutorials.com/post/006-simple-transparency/): Basic transparency in shaders by blending with the screen. (Ronja, 2018-04-06, article, Unity-old era)
+- [X-Ray Shader Tutorial in Unity](https://lindenreidblog.com/2018/03/17/x-ray-shader-tutorial-in-unity/): A tutorial on how to write a shader in Unity that draws objects in front of walls. (Linden Reid, 2018-03-17, article, Unity-old era)
 - [Anti-aliased Alpha Test: The Esoteric Alpha To Coverage](https://bgolus.medium.com/anti-aliased-alpha-test-the-esoteric-alpha-to-coverage-8b177335ae4f): How alpha to coverage gives anti-aliased alpha-tested edges, which matters most in VR. (Ben Golus, 2017-08-12, article, Unity-old era)
 - [Shaders Case Study - Spelunky Ice Cave Crystals](https://www.youtube.com/watch?v=7fMCTVhEzmU): Case study recreating Spelunky's ice cave crystal look with shaders. (Makin' Stuff Look Good, 2016-04-30, video, Unity-old era)
 - [Blubb! – Fish Tanks in Games](https://simonschreibt.de/gat/fishtanks-in-games/): Looks at fish tanks in games. (Simon Schreibt, 2016-02-02, article, Unity-old era)

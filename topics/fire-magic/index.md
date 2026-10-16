@@ -1,6 +1,6 @@
 # Fire, magic & impacts
 
-> VFX · 28 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 29 hand-filtered guides on GamedevJelly, newest first.
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [A stylized Eldritch Blast VFX in Unity](https://jettelly.com/blog/a-stylized-take-on-eldritch-blast-vfx-in-unity): Breakdown of a stylized magic blast whose inner eyes are fully procedural. (Jettelly, 2026-10-03, article, Unity-6 era)
@@ -28,5 +28,6 @@
 - [Recreating Overwatch's Dragonstrike | Mix and Jam](https://www.youtube.com/watch?v=tYq58H6-Yqc): Recreates Overwatch's Dragonstrike ability effect in Unity. (Mix and Jam, 2019-05-03, video, Unity-old era)
 - [Recreating Breath of the Wild's Fire Arrow FX | Mix and Jam](https://www.youtube.com/watch?v=I5WjuVaM7fc): Recreates Breath of the Wild's fire arrow effects in Unity. (Mix and Jam, 2019-02-21, video, Unity-old era)
 - [Shader Showcase Saturday #4: How To Start A Fire With Shaders](https://www.alanzucconi.com/2018/08/05/shader-showcase-saturday-4/): Creates realistic animated fire with shaders. (Alan Zucconi, 2018-08-05, article, Unity-old era)
+- [Heat Distortion Shader Tutorial](https://lindenreidblog.com/2018/03/05/heat-distortion-shader-tutorial/): A tutorial on how to create a heat distortion effect in Unity. (Linden Reid, 2018-03-05, article, Unity-old era)
 - [Company of Heroes – Flamethrower](https://simonschreibt.de/gat/company-of-heroes-flamethrower/): Explains how Company of Heroes renders its flamethrower flames and fire effect. (Simon Schreibt, 2013-08-20, article, Unity-old era)
 - [Crafting a Dragon Ball VFX in Unity](https://80.lv/articles/crafting-a-kamehameha-like-vfx-001agt/): Breakdown of a Dragon Ball style laser beam effect: beam, dust circles, charging sphere and particles. (article)

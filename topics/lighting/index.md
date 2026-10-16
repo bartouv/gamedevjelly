@@ -1,6 +1,6 @@
 # Lighting & shadows
 
-> Shaders & rendering · 89 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 92 hand-filtered guides on GamedevJelly, newest first.
 
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Custom SRP 7.2: Separate Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-2/): Custom SRP tutorial introducing separate shadow passes. (Catlike Coding, 2026-09-18, article, Unity-6 era)
@@ -43,8 +43,10 @@
 - [Recreating Wind Waker Style Lights in Unity](https://youtu.be/mNndyHHNh78): Recreates Wind Waker style lights in Unity using stencil techniques. (MinionsArt, 2023-03-01, video, Unity-2022 era)
 - [Creating a Realistic Scene in Unity! (Full Breakdown)](https://www.youtube.com/watch?v=-mRJEe4XAKo): Full breakdown of creating a realistic scene with lighting in Unity. (Sykoo, 2023-02-16, video, Unity-2022 era)
 - [How do I make a shader that will work with Unity 2D Lights? - Questions & Answers - Unity Discussions](https://discussions.unity.com/t/how-do-i-make-a-shader-that-will-work-with-unity-2d-lights/256215/2): Forum answer on adapting a sprite shader to work with Unity 2D lights. (2023-01-13, article, Unity-2022 era)
+- [Metal Shader - Advanced Materials - Episode 7](https://www.youtube.com/watch?v=sjvL4q_KRZA): Building a metal shader, including how base color and reflections behave for metals. (Ben Cloward, 2022-11-10, video, Unity-2022 era)
 - [Rendering realtime caustics](https://alexanderameye.github.io/notes/realtime-caustics/): Tutorial with code on rendering realtime caustics in Unity using shaders. (Alexander Ameye, 2022-03-21, article, Unity-2022 era)
 - [Showing multiple matcap techniques, including a proposed improved method that's no more expensive than the usual fix if you're starting with the world position and world normal.](https://gist.github.com/bgolus/02e37cd76568520e20219dc51653ceaa): Gist: Compares several matcap techniques including an improved method. (Ben Golus, 2022-01-29, article, Unity-2022 era)
+- [MatCap Materials - Shader Graph Basics - Episode 31](https://www.youtube.com/watch?v=osgMB0mf23w): Building a MatCap material the correct way. (Ben Cloward, 2022-01-27, video, Unity-2022 era)
 - [Custom Lighting in Shader Graph Part 2](https://bronsonzgeb.com/index.php/2021/10/11/custom-lighting-in-shader-graph-part-2/): Continues the custom lighting series: adding more lighting terms in a Shader Graph. (Bronson Zgeb, 2021-10-11, article, Unity-2021 era)
 - [Custom Lighting in URP with Shader Graph](https://bronsonzgeb.com/index.php/2021/10/04/custom-lighting-in-urp-with-shader-graph/): Builds custom lighting for URP inside Shader Graph using custom function nodes. (Bronson Zgeb, 2021-10-04, article, Unity-2021 era)
 - [The Secret Behind Valve’s Flickering Lights](https://www.alanzucconi.com/2021/06/15/valve-flickering-lights/): Explains how Valve's classic flickering light effect works and how to reuse it. (Alan Zucconi, 2021-06-15, article, Unity-2021 era)
@@ -64,6 +66,7 @@
 - [Shader Fundamentals - Image Based Lighting](https://www.youtube.com/watch?v=xWCZiksqCGA): Shader fundamentals on image based lighting. (Makin' Stuff Look Good, 2019-06-18, video, Unity-old era)
 - [Shader Showcase Saturday #8: Subsurface Scattering - Alan Zucconi](https://www.alanzucconi.com/2018/09/02/shader-showcase-saturday-8/): Shader Showcase Saturday on simulating subsurface scattering for marble and wax. (2018-09-02, article, Unity-old era)
 - [Fresnel](https://www.ronja-tutorials.com/post/012-fresnel/): Builds a fresnel effect to darken, lighten or color object edges. (Ronja, 2018-05-26, article, Unity-old era)
+- [Custom Diffuse Shader in Unity](https://lindenreidblog.com/2018/02/20/custom-diffuse-shader-in-unity/): A tutorial on how to create a smooth diffuse shader in Unity. (Linden Reid, 2018-02-20, article, Unity-old era)
 - [Shader bits: Camera depth textures – Harry Alisavakis](http://halisavakis.com/shader-bits-camera-depth-texture/): Shader snippets for sampling the camera depth texture. (Harry Alisavakis, 2018-01-22, article, Unity-old era)
 - [Car Paint Shader: Thin-Film Interference](https://www.alanzucconi.com/2017/10/27/carpaint-shader-thin-film-interference/): Step-by-step car paint shader simulating iridescent thin-film interference. (Alan Zucconi, 2017-10-27, article, Unity-old era)
 - [Fast Subsurface Scattering in Unity (Part 1) - Alan Zucconi](https://www.alanzucconi.com/2017/08/30/fast-subsurface-scattering-1/): Part one of implementing a fast subsurface scattering technique in Unity. (2017-08-30, article, Unity-old era)
