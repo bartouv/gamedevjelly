@@ -60,3 +60,4 @@ Shader and graphics programmer, creator of Shapes and Shader Forge, known for ma
 - [Intro to Shader Coding in Unity - An Improvised Live Course](https://www.youtube.com/watch?v=9WW5-0N1DsI): Improvised live course introducing shader coding in Unity. (Freya Holmér, 2019-08-08, video, Unity-old era)
 - [Specular Lighting - A Visual Explanation](https://www.youtube.com/watch?v=JmfQLHMw7N8): Visual explanation of specular lighting. (Freya Holmér, 2019-08-06, video, Unity-old era)
 - [The Dot Product - A Visual Explanation](https://www.youtube.com/watch?v=2PrSUK1VrKA): Visual explanation of the dot product. (Freya Holmér, 2019-08-05, video, Unity-old era)
+- [Glowy Ring Shader](https://www.youtube.com/watch?v=T7oR5fQslBQ): Builds a glowing ring shader in Unity. (Freya Holmér, 2019-07-26, video, Unity-old era)

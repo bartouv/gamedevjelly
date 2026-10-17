@@ -1,6 +1,6 @@
 # 2D games
 
-> Platforms · 46 hand-filtered guides on GamedevJelly, newest first.
+> Platforms · 48 hand-filtered guides on GamedevJelly, newest first.
 
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [Breaking down Moon Reader's 2.5D pixel art style in Unity](https://jettelly.com/blog/breaking-down-moon-reader-s-2-5d-pixel-art-style): How a 2.5D pixel art look was made in Unity, simpler than it appears. (Jettelly, 2026-07-28, article, Unity-6 era)
@@ -23,6 +23,8 @@
 - [Art Design Deep Dive: Dynamic 2D Lighting](https://www.gamasutra.com/blogs/PercyLegendre/20200914/370050/Art_Design_Deep_Dive_Dynamic_2D_lighting_in_Dwerve.php?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+GamasutraFeatureArticles+%28Gamasutra+Feature+Articles%29): Deep dive on art design for dynamic 2D lighting. (2020-09-14, article, Unity-old era)
 - [Optimize performance of 2D games with Unity Tilemap](https://unity.com/how-to/optimize-performance-2d-games-unity-tilemap#general-performance-tips): Unity guide to optimizing 2D game performance with Tilemap. (2020-08-08, article, Unity-old era)
 - [Lost Crypt - 2D Sample Project | Tutorial Projects | Unity Asset Store](https://assetstore.unity.com/packages/essentials/tutorial-projects/lost-crypt-2d-sample-project-158673): Asset Store 2D sample project Lost Crypt from Unity Technologies. (2020-04-14, article, Unity-old era)
+- [Sprite Glow/Outline Shader Breakdown](https://www.cyanilux.com/tutorials/sprite-outline-shader-breakdown/): Breaks down a sprite glow and outline shader using an SDF stored in the alpha channel. (Cyan, 2020-03-13, article, Unity-old era)
+- [Sprite Stencil Overlay Breakdown](https://www.cyanilux.com/tutorials/sprite-stencil-overlay-breakdown/): Uses RenderObjects on the Forward Renderer for a stencil overlay effect on sprites. (Cyan, 2020-02-24, article, Unity-old era, URP)
 - [The Shader Approach to Billboarding](https://80.lv/articles/the-shader-approach-to-billboarding/): Explains the shader approach to billboarding used for the 2.5D look of Songs of Syx. (2019-09-24, article, Unity-old era)
 - [2D SDF Shadows](https://www.ronja-tutorials.com/post/037-2d-shadows/): Builds 2D shadows using combined signed distance functions. (Ronja, 2018-12-01, article, Unity-old era)
 - [2D SDF Space Manipulation](https://www.ronja-tutorials.com/post/036-sdf-space-manipulation/): Manipulates space for 2D signed distance function shapes. (Ronja, 2018-11-24, article, Unity-old era)

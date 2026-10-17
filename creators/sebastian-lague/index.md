@@ -20,6 +20,7 @@ Game developer behind the Coding Adventure series: long-form videos on simulatio
 - [Coding Adventure: Planetary Fluid Sim](https://www.youtube.com/watch?v=8nIB7e_eds4) (Sebastian Lague, 2025-01-29, video, Unity-6 era)
 - [Coding Adventure: Rendering Fluids](https://www.youtube.com/watch?v=kOkfC5fLfgE) (Sebastian Lague, 2024-12-06, video, Unity-6 era)
 - [Coding Adventure: Sound (and the Fourier Transform)](https://www.youtube.com/watch?v=iA6wRgwl7k0) (Sebastian Lague, 2024-08-10, video, Unity-2022 era)
+- [GitHub - SebLague/Clouds: Cloud rendering test](https://github.com/SebLague/Clouds): Repo: cloud rendering test by Sebastian Lague. (Sebastian Lague, 2019-10-28, repo, Unity-old era)
 - [Coding Adventure: Ray Marching](https://www.youtube.com/watch?v=Cp5WWtMoeKg): Video experimenting with ray marching to render shapes in Unity. (Sebastian Lague, video)
 - [Coding Adventure: Portals](https://www.youtube.com/watch?v=cWpFZbjtSQg): Video experimenting with building seamless portals in Unity. (Sebastian Lague, video)
 - [Coding Adventure: Marching Cubes](https://www.youtube.com/watch?v=M3iI2l0ltbE): Video experimenting with the marching cubes algorithm for terrain meshes. (Sebastian Lague, video)

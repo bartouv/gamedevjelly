@@ -1,6 +1,6 @@
 # Toon & cel shading
 
-> Stylized looks · 29 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 50 hand-filtered guides on GamedevJelly, newest first.
 
 - [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
@@ -14,8 +14,29 @@
 - [Wind Waker Style Patreon post](https://www.patreon.com/posts/wind-waker-style-78831006): Patreon post on a Wind Waker style effect in Unity. (MinionsArt, 2023-02-07, post, Unity-2022 era)
 - [Toon Shader Ink Outlines - Shader Graph Basics - Episode 39](https://www.youtube.com/watch?v=IaHl5hKnjq4): Three methods for toon shader ink outlines. (Ben Cloward, 2022-03-24, video, Unity-2022 era)
 - [Toon Shader Paint - Shader Graph Basics - Episode 38](https://www.youtube.com/watch?v=SOYNf4sYNzY): Several ways to create the painted look of a toon shader. (Ben Cloward, 2022-03-17, video, Unity-2022 era)
+- [GitHub - MirzaBeig/Anime-Speed-Lines: Post-processing effect to procedurally generate a anime/manga-style vignette of lines typically used to portray speed or surprise.](https://github.com/MirzaBeig/Anime-Speed-Lines): Repo: post-processing effect that draws anime-style speed lines vignette. (2022-01-28, repo, Unity-2022 era)
+- [Unity | Making a Lit Toon Shader in Shader Graph](https://www.youtube.com/watch?v=FIP6I1x6lMA): Makes a lit toon shader in Shader Graph. (2021-08-28, video, Unity-2021 era)
+- [Custom Lighting in Unity URP Shader Graph! Ready for Toony Lights! ✔️ 2021.1 | Game Dev Tutorial](https://www.youtube.com/watch?v=GQyCPaThQnA): Implements custom lighting in URP Shader Graph for toon-style lights. (Ned Makes Games, 2021-08-17, video, Unity 2021, URP)
 - [Toon outline shader | Unity Tutorial](https://www.youtube.com/watch?v=WnIGh8xrdG8): Writes a toon outline shader in Unity. (Jettelly, 2021-08-06, video, Unity-2021 era)
+- [Fuego estilo toon | Unity Tutorial](https://www.youtube.com/watch?v=Y_6m6JRMClk): Video (Spanish): builds toon-style fire in Unity. (Jettelly, 2021-02-23, video, Unity-2021 era)
+- [GitHub - chrisloop/HDRP2020Toon2: Edge detection - depth/normals, depth fade, normal map influence](https://github.com/chrisloop/HDRP2020Toon2): Repo: HDRP 2020 toon shader with edge detection from depth and normals plus depth fade. (2021-01-30, repo, Unity 2020, HDRP)
+- [GitHub - chrisloop/URP2020ToonShader2](https://github.com/chrisloop/URP2020ToonShader2): Repo: URP 2020 toon shader, second version. (2020-11-20, repo, Unity 2020, URP)
+- [GitHub - chrisloop/URP2020ToonShader](https://github.com/chrisloop/URP2020ToonShader): Repo: URP 2020 toon shader. (2020-10-11, repo, Unity 2020, URP)
 - [joyrok](https://joyrok.cargo.site/Tale-of-2-Engines): Joyrok's tech art post comparing two game engines. (Joyrok, 2020-09-14, article, Unity-old era)
+- [Stylized Coins Shader | Unity Tutorial](https://www.youtube.com/watch?v=V1K1nxMcaGc): Builds a stylized coin shader in Unity. (Jettelly, 2020-08-06, video, Unity-old era)
+- [Analysing a Toon Shader | Unity Tutorial](https://www.youtube.com/watch?v=HD85S4TYVjg): Analyzes how a toon shader is put together. (Jettelly, 2020-07-28, video, Unity-old era)
+- [Cel-shading in Shader Graph and URP](https://danielilett.com/2020-03-21-tut5-1-urp-cel-shading/): Builds cel-shaded lighting in Shader Graph for URP using a bit of custom HLSL. (Daniel Ilett, 2020-03-21, article, Unity-old era, URP)
+- [GitHub - ColinLeung-NiloCat/UnityURPToonLitShaderExample: A very simple toon lit shader example, for you to learn writing custom lit shader in Unity URP](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample): Repo: simple URP toon lit shader example for learning to write shaders. (2020-03-15, repo, Unity-old era, URP)
+- [My take on shaders: Cel shading – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-cel-shading/): Tutorial on cel shading. (2020-01-07, article, Unity-old era)
+- [Toon Glass Shader Breakdown](https://www.cyanilux.com/tutorials/toon-glass-shader-breakdown/): Breaks down a toon glass shader with diagonal lines that shift with camera position. (Cyan, 2020-01-03, article, Unity-old era)
+- [Zelda's Toon Shader in Unity](https://www.youtube.com/watch?v=dyiLJ1PFhM0): Recreates the Zelda toon shading style in Unity. (2019-09-24, video, Unity-old era)
+- [Shaders For People Who Don't Know How To Shader - Part 10: Toon Lighting](https://xibanya.github.io/ShaderTutorials/tutorial/Part10ToonLighting.html): Builds a toon lighting shader step by step in a beginner-friendly shader series. (Team Dogpit, 2019-07-09, article, Unity-old era)
+- [Cel Shading: Part 5 - Finishing Touches](https://danielilett.com/2019-06-23-tut2-5-cel-shading-end/): Finishes a cel shader with a lighting ramp texture and different shading styles for finer control. (Daniel Ilett, 2019-06-23, article, Unity-old era, BUILTIN)
+- [Cel Shading: Part 4 - Edge Outlining](https://danielilett.com/2019-06-15-tut2-4-edge-outline/): Adds inverted-hull outlines in a second shader pass to emphasize a toon style. (Daniel Ilett, 2019-06-15, article, Unity-old era, BUILTIN)
+- [Cel Shading: Part 3 - Bump Mapping and Fresnel Lighting](https://danielilett.com/2019-06-12-tut2-3-fresnel/): Adds normal-map bump detail and Fresnel rim lighting to a cel-shaded Unity shader. (Daniel Ilett, 2019-06-12, article, Unity-old era, BUILTIN)
+- [Cel Shading: Part 2 - Cel-shaded Lighting](https://danielilett.com/2019-06-08-tut2-2-cel-shading/): Adds a hard cutoff to the lighting ramp to produce cel-shaded lighting in a Unity shader. (Daniel Ilett, 2019-06-08, article, Unity-old era, BUILTIN)
+- [Cel Shading: Part 1 - Diffuse Lighting](https://danielilett.com/2019-06-05-tut2-1-diffuse/): Reads Unity light data and uses a dot product to compute diffuse lighting in a shader. (Daniel Ilett, 2019-06-05, article, Unity-old era, BUILTIN)
+- [Cel Shading: Part 0 - Lighting Models](https://danielilett.com/2019-06-01-tut2-0-lighting-models/): Introduces lighting models, splitting light into ambient, diffuse and specular, as groundwork for cel shading. (Daniel Ilett, 2019-06-01, article, Unity-old era, BUILTIN)
 - [Cel Shading | Series Introduction](https://danielilett.com/2019-05-29-tut2-intro/): Introduces a series on cel shading, the stylized look of games like Wind Waker. (2019-05-29, article, Unity-old era)
 - [https://www.ronja-tutorials.com/post/040-halftone-shading/](https://www.ronja-tutorials.com/2019/03/02/halftone-shading.html): Ronja tutorial on halftone shading in Unity. (2019-03-02, article, Unity-old era)
 - [Halftone Shading](https://www.ronja-tutorials.com/post/040-halftone-shading/): Halftone toon shading using fully lit or fully unlit areas. (Ronja, 2019-03-02, article, Unity-old era)

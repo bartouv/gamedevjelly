@@ -1,6 +1,6 @@
 # Courses, series & lectures
 
-> Art & learning · 115 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 121 hand-filtered guides on GamedevJelly, newest first.
 
 - [Maths Archives - Alan Zucconi](https://www.alanzucconi.com/category/maths/): Archive of Alan Zucconi's math tutorials for games. (Alan Zucconi, 2026-08-15, article, Unity-6 era)
 - [Unity Performance Expertise](https://thegamedev.guru/): Performance-focused Unity site with guides and tutorials by The Gamedev Guru. (GameDevGuru, 2026-02-13, article, Unity-6 era)
@@ -46,6 +46,7 @@
 - [ShaderQuest Part 2: Introducing Shaders – Harry Alisavakis](https://halisavakis.com/shaderquest-part-2-introducing-shaders/): ShaderQuest series part introducing shaders. (Harry Alisavakis, 2021-01-31, article, Unity-2021 era)
 - [Shaders — Travis Reid](https://www.lindenreid.com/shader-highlights): Portfolio page showing shader highlights. (Linden Reid, 2021-01-30, article, Unity-2021 era)
 - [ShaderQuest Part 1: Graphics Concepts – Harry Alisavakis](https://halisavakis.com/shaderquest-part-1-graphics-concepts/): ShaderQuest series part on core graphics concepts. (Harry Alisavakis, 2021-01-19, article, Unity-2021 era)
+- [Intro to the Shader Pipeline](https://www.cyanilux.com/tutorials/intro-to-the-shader-pipeline/): Introduces meshes, shaders and materials in Unity and setting shader properties from C#. (Cyan, 2021-01-10, article, Unity-2021 era)
 - [ShaderQuest Part 0: Series Introduction](https://halisavakis.com/shaderquest-part-0-series-introduction/): Introduction to the ShaderQuest series on learning shaders. (Harry Alisavakis, 2021-01-05, article, Unity-2021 era)
 - [Interpolation & Velocity • Math for Game Devs [Part 4]](https://www.youtube.com/watch?v=-Ii3MrJFBkQ): Math for game devs part 4 on interpolation and velocity. (Freya Holmér, 2020-11-09, video, Unity-old era)
 - [Trigonometry • Math for Game Devs [Part 3]](https://www.youtube.com/watch?v=1NLekEd770w): Math for game devs part 3 on trigonometry. (Freya Holmér, 2020-11-09, video, Unity-old era)
@@ -66,11 +67,14 @@
 - [YouTube playlist (Unity videos)](https://www.youtube.com/playlist?list=PLuldlT8dkudpCEkYQJb_H26BcbE7ozisX): YouTube playlist of Unity videos; page content is unreadable. (2020-03-10, video, Unity-old era)
 - [Kristin Lague · YouTube channel](https://www.youtube.com/channel/UCCHg9mt6Tu6f-WCF4gf5oyQ): Kristin Lague's YouTube channel with Unity game development tutorials. (Kristin Lague, 2020-03-08, video, Unity-old era)
 - [My VFX Tutorials/Ideas](https://twitter.com/i/events/1186692538700386305): Twitter events page collecting VFX tutorials and ideas. (2020-03-06, post, Unity-old era)
+- [Learning Shaders in Unity with Amplify Shader Editor](https://80.lv/articles/009snw-learning-shaders-in-unity-with-amplify-shader-editor): Interview covering Amplify Shader Editor for Unity and how the team approaches shader work. (2019-11-14, article, Unity-old era)
+- [Shader Series 5 – Unity Shader Graph](https://gamedevbill.com/shader-series-5-unity-shader-graph/): Introduction to using Unity's Shader Graph for graph-based shaders. (GameDevBill, 2019-10-28, article, Unity-old era)
 - [A Journey Into Journey’s Sand Shader](https://www.alanzucconi.com/2019/10/08/journey-sand-shader-1/): Part one of a series recreating Journey's sand rendering. (Alan Zucconi, 2019-10-08, article, Unity-old era)
 - [Math for Game Dev - An Improvised Live Course](https://www.youtube.com/watch?v=yg6h4XQqPNQ): Improvised live course on math for game development. (Freya Holmér, 2019-09-25, video, Unity-old era)
 - [Ultra Effects | Series Introduction](https://danielilett.com/2019-09-18-tut3-intro-ultra/): Introduction to a series on image effects such as fisheye lenses. (2019-09-18, article, Unity-old era)
 - [Community Store Patreon post](https://www.patreon.com/posts/community-store-30143025): Patreon community store post. (2019-09-15, post, Unity-old era)
 - [Procedural Geometry - An Improvised Live Course](https://www.youtube.com/watch?v=6xs0Saff940): Improvised live course on procedural geometry in Unity. (Freya Holmér, 2019-08-19, video, Unity-old era)
+- [Shader Series 3 – Shaders In Unity](https://gamedevbill.com/shader-series-3-shaders-in-unity/): Overview of setting up shaders in Unity with samples and a GitHub project. (GameDevBill, 2019-08-12, article, Unity-old era)
 - [Intro to Shader Coding in Unity - An Improvised Live Course](https://www.youtube.com/watch?v=9WW5-0N1DsI): Improvised live course introducing shader coding in Unity. (Freya Holmér, 2019-08-08, video, Unity-old era)
 - [Shader Series 2 – Basic Shaders](https://gamedevbill.com/shader-series-2-basic-shaders/): Basic shader samples that teach shader concepts by example. (GameDevBill, 2019-08-05, article, Unity-old era)
 - [Shader Series 1 – High Level Concepts](https://gamedevbill.com/shader-series-1-high-level-concepts/): High-level concepts to get started writing shaders. (GameDevBill, 2019-07-27, article, Unity-old era)
@@ -93,6 +97,7 @@
 - [Render Hell – Book IV](https://simonschreibt.de/gat/renderhell-book4/): Render Hell book four, an illustrated tour of rendering. (Simon Schreibt, 2015-08-16, article, Unity-old era)
 - [Render Hell – Book V](https://simonschreibt.de/gat/renderhell-book5/): Render Hell book five, concluding the illustrated rendering series. (Simon Schreibt, 2015-08-16, article, Unity-old era)
 - [Sykoo · YouTube channel](https://www.youtube.com/user/SykooTV): Sykoo's YouTube channel with Unity game development content. (Sykoo, 2015-08-02, video, Unity-old era)
+- [A gentle introduction to shaders in Unity - Shader tutorial](https://www.alanzucconi.com/2015/06/10/a-gentle-introduction-to-shaders-in-unity3d/): Beginner introduction to writing shaders in Unity with downloadable examples. (Alan Zucconi, 2015-06-10, article, Unity-old era)
 - [Unity C# and Shader Tutorials](https://catlikecoding.com/unity/tutorials/): Catlike Coding index of in-depth Unity C# and shader tutorials. (Catlike Coding, 2011-09-26, article, Unity-old era)
 - [Shader Primer](https://allenchou.net/2011/02/shader-primer/): Primer on shaders. (Ming-Lun Chou, 2011-02-17, article, Unity-old era)
 - [Tutorials & Posts](https://nedmakesgames.github.io/blog/): Ned Makes Games blog index of Unity game dev tutorials and videos. (article)
@@ -109,6 +114,7 @@
 - [Febucci's Unity Tips - Twitter Collection](https://mobile.twitter.com/i/events/1153425558711279616): Collection of Unity tips posted by Febucci on Twitter. (post)
 - [DeepSpaceBanana Art - Art](https://deepspacebanana.github.io/deepspacebanana.github.io/blog/shader/art/unreal%20engine/Rainy-Surface-Shader-Part-1): Technical artist portfolio page including a rainy surface shader breakdown for Unreal Engine. (article)
 - [Cyan](https://cyangamedev.wordpress.com/): Cyan's blog home with Unity shader and Shader Graph articles. (Cyan, article)
+- [Create with Code Live - Summer 2020](https://learn.unity.com/course/create-with-code-live-summer-2020?utm_campaign=education_global_announcement_200630-edu-cwc-live-summer&utm_content=200630-edu-cwc-live-summer-em&utm_medium=email&utm_source=Eloqua): Announcement for a Unity Create with Code live event and game jam for emerging programmers. (article)
 - [Coding Adventure: Portals](https://www.youtube.com/watch?v=cWpFZbjtSQg): Video experimenting with building seamless portals in Unity. (Sebastian Lague, video)
 - [Catlike Coding](https://catlikecoding.com/): Catlike Coding home page with Unity and Godot tutorials. (Catlike Coding, article)
 - [@GameDevBill: profile, shaders and VR dev](https://twitter.com/gamedevbill): Bill Ramsour's X profile, a shader and VR developer. (GameDevBill, post)

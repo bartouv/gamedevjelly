@@ -1,6 +1,6 @@
 # Stencil, masks & decals
 
-> Shaders & rendering · 18 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 27 hand-filtered guides on GamedevJelly, newest first.
 
 - [Holofoil Cards in Shader Graph and Unity URP](https://danielilett.com/2025-10-13-tut11-01-holofoil-cards/): Makes Pokemon-style holofoil cards in Shader Graph using the stencil buffer and other tricks in URP. (Daniel Ilett, 2025-10-13, article, Unity-6 era, URP)
 - [Infinity Nikki: One-way Window](https://simonschreibt.de/gat/infinity-nikki-one-way-window/): Looks at the one-way window effect in Infinity Nikki. (Simon Schreibt, 2025-02-23, article, Unity-6 era)
@@ -12,11 +12,20 @@
 - [The Unreal Stencil Dragon](https://simonschreibt.de/gat/the-unreal-stencil-dragon/): Builds a stencil dragon effect in Unreal, extending a project on one shader for many effects. (Simon Schreibt, 2023-02-20, article, Unity-2022 era)
 - [World Position Effects 2: More Shapes](https://www.patreon.com/posts/urp-world-part-2-77812661): Patreon post on world position effects with more shapes for URP. (MinionsArt, 2023-01-01, post, Unity-2022 era, URP)
 - [Fullscreen Masks - Shader Graph Basics - Episode 50](https://www.youtube.com/watch?v=HcMFgJas0yg): Three types of fullscreen mask for post-processing shaders. (Ben Cloward, 2022-06-16, video, Unity-2022 era)
+- [Impossible Geometry with Stencils in Unity URP](https://danielilett.com/2022-01-05-tut5-22-impossible-geom-stencils/): Renders impossible geometry in URP by using the stencil buffer to mask layers on screen. (Daniel Ilett, 2022-01-05, article, Unity-2022 era, URP)
+- [Wall Cutout in Shader Graph and URP](https://danielilett.com/2021-03-19-tut5-15-wall-cutout/): Builds a wall cutout effect in Shader Graph and URP using alpha clipping and raycasts. (2021-03-19, article, Unity-2021 era, URP)
+- [Wall Cutout in Unity Shader Graph](https://www.youtube.com/watch?v=jidloC6gyf8): Builds a wall cutout effect in Shader Graph so walls fade near the player. (2021-03-01, video, Unity-2021 era)
+- [Million Particle Portals in Visual Effect Graph](https://danielilett.com/2020-06-14-tut5-8-urp-vfx-portal/): Pushes VFX Graph to render million-particle portals. (2020-06-14, article, Unity-old era, URP)
+- [Space Portal Shader | Unity Tutorial](https://www.youtube.com/watch?v=toQIuCtk2pI): Builds a space portal shader in Unity. (Jettelly, 2020-04-21, video, Unity-old era)
+- [Transparency Dithering in Shader Graph and URP](https://danielilett.com/2020-04-19-tut5-5-urp-dither-transparency/): Approximates transparency using dithered alpha clipping in Shader Graph and URP. (2020-04-19, article, Unity-old era, URP)
+- [Sprite Stencil Overlay Breakdown](https://www.cyanilux.com/tutorials/sprite-stencil-overlay-breakdown/): Uses RenderObjects on the Forward Renderer for a stencil overlay effect on sprites. (Cyan, 2020-02-24, article, Unity-old era, URP)
 - [Portals | Series Introduction](https://danielilett.com/2019-12-01-tut4-intro-portals/): Introduction to a series on portal rendering techniques. (2019-12-01, article, Unity-old era)
 - [https://www.ronja-tutorials.com/post/042-dithering/](https://www.ronja-tutorials.com/2019/05/11/dithering.html): Ronja tutorial on dithering in shaders for transparency effects. (2019-05-11, article, Unity-old era)
 - [Stencil Buffers](https://www.ronja-tutorials.com/post/022-stencil-buffers/): Explains stencil buffers and how they differ from depth buffer testing. (2018-08-18, article, Unity-old era)
+- [Impossible Geometry: Non-Euclidean Cubes - Alan Zucconi](https://www.alanzucconi.com/2015/12/09/3873/): Builds non-Euclidean cubes in Unity where each face shows a different space. (2015-12-09, article, Unity-old era)
 - [Deus Ex – Occlusion](https://simonschreibt.de/gat/deus-ex-occlusion/): Explains how Deus Ex handles occlusion and object visibility through walls, with updates. (Simon Schreibt, 2013-01-21, article, Unity-old era)
 - [Parallax Card](https://alexanderameye.github.io/parallax-card): Tutorial on building a parallax card effect. (Alexander Ameye, article)
 - [My take on shaders: Stencil shader (Antichamber effect) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-stencil-shader-antichamber-effect/): Builds an Antichamber-style effect with a stencil shader. (article)
 - [Stencil Portal in Unity: VFX Breakdown](https://shahriyarshahrabi.medium.com/stencil-portal-in-unity-vfx-breakdown-3dd76b60ad07): Breakdown of VFX tricks in a scene, including a stencil portal and related rendering issues. (article)
 - [How I’d do it: ABZÛ portal cards – Harry Alisavakis](http://halisavakis.com/how-id-do-it-abzu-portal-cards/): Recreates ABZU portal cards, inspired by a GDC talk on the game's art tricks. (article)
+- [Holofoil Card Shader Breakdown](https://www.cyanilux.com/tutorials/holofoil-card-shader-breakdown/): Breaks down a holofoil trading card shader and its stencil effect. (Cyan, article)

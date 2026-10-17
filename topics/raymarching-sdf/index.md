@@ -1,6 +1,6 @@
 # Raymarching & SDF
 
-> Procedural & math · 48 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 53 hand-filtered guides on GamedevJelly, newest first.
 
 - [Distance-field textures for infinitely sharp maps](https://bsky.app/profile/alexstrook.bsky.social/post/3mf6m7ajwrk2r): Using distance-field textures in shaders to render crisp, vector-like map lines at any zoom. (Alex Strook, 2026-02-19, post, Unity-6 era)
 - [Metaballs & Implicit Surfaces: how it works](https://moonjump.com/game-dev-mechanics-metaballs-implicit-surfaces-how-it-works/): Explains scalar fields and falloff functions that merge organic blobby shapes, plus real-time GPU rendering approaches. (Moonjump, 2026-01-21, article, Unity-6 era)
@@ -10,20 +10,25 @@
 - [Volumetrics: Introduction to ray marching | Tutorial](https://www.youtube.com/watch?v=hXYOlXVRRL8): Introduces volumetric ray marching in Unity. (Unity, 2023-09-14, video, Unity-2022 era)
 - [Waterfall Shader Breakdown](https://www.cyanilux.com/tutorials/waterfall-shader-breakdown/): Breakdown of a waterfall shader that parts around a sphere using signed distance fields. (2023-05-29, article, Unity-2022 era)
 - [Protean Clouds (Shadertoy, ~120 lines)](https://shadertoy.com/view/3l23Rh): Shadertoy: compact raymarched volumetric cloud shader in about 120 lines. (Alan Zucconi, 2022-12-22, article, Unity-2022 era)
+- [Unity URP Tutorial - Volumetric Raymarching Cloud Shader](https://www.youtube.com/watch?v=0G8CVQZhMXw): Writes a volumetric raymarching cloud shader for URP. (2022-01-20, video, Unity-2022 era, URP)
 - [Drawing with SDFs in Unity](https://bronsonzgeb.com/index.php/2022/01/15/drawing-with-sdfs-in-unity/): Draws shapes with signed distance fields in a Unity shader, from the basics. (Bronson Zgeb, 2022-01-15, article, Unity-2022 era)
 - [Coloring Raymarched Volumetric Light Through Stained Glass](https://valeriomarty.medium.com/coloring-raymarched-volumetric-light-as-it-passes-through-stained-glass-a19846def1cd): Colors raymarched volumetric light as it passes through stained glass, continuing a previous tutorial. (2021-08-28, article, Unity-2021 era)
 - [SDFs Part Two — Joyrok](https://joyrok.com/SDFs-Part-Two): Tech art post on distance fields, part two of the SDF series. (Joyrok, 2021-07-25, article, Unity-2021 era)
 - [What Are SDFs Anyway? — Joyrok](https://joyrok.com/What-Are-SDFs-Anyway): Explains signed distance fields and how they are used in tech art. (Joyrok, 2021-05-16, article, Unity-2021 era)
+- [Drawing Boxes and Rectangles in URP Shader Graph with 2D SDFs! ✔️ 2021.1 | Unity Game Dev Tutorial](https://www.youtube.com/watch?v=WuNdmjca7eM): Draws boxes and rectangles in Shader Graph with 2D signed distance fields. (Ned Makes Games, 2021-04-13, video, Unity 2021, URP)
+- [Drawing a Line Segment in the URP Shader Graph with 2D SDFs! ✔️ 2021.1 | Unity Game Dev Tutorial](https://www.youtube.com/watch?v=D_Zq6q1gnvw): Draws line segments in Shader Graph with 2D signed distance fields. (Ned Makes Games, 2021-04-13, video, Unity 2021, URP)
 - [Rendering a Sphere on a Quad](https://bgolus.medium.com/rendering-a-sphere-on-a-quad-13c92025570c): Ben Golus explains rendering a sphere impostor on a quad and improving how convincing it looks. (Ben Golus, 2021-01-10, article, Unity-2021 era)
 - [MudBun: Volumetric VFX Mesh Tool for Unity](http://longbunnylabs.com/MudBun/): Product page for MudBun, a volumetric VFX mesh tool that generates meshes procedurally. (2020-07-08, article, Unity-old era)
 - [Rendering volumetric clouds using signed distance fields – UHawk VR Development Blog](https://blog.uhawkvr.com/rendering/rendering-volumetric-clouds-using-signed-distance-fields/): Renders volumetric clouds in Unity using signed distance fields. (2020-05-06, article, Unity-old era)
 - [Getting started with shaders: signed distance functions!](https://jvns.ca/blog/2020/03/15/writing-shaders-with-signed-distance-functions/): Introduces writing shaders using signed distance functions. (2020-03-15, article, Unity-old era)
+- [Unity3d VFX Graph - How To Convert A Mesh To A Sign Distance Field (SDF) ?](https://www.youtube.com/watch?v=Ujvel8WWoaM): Converts a mesh into a signed distance field for VFX Graph. (2020-03-06, video, Unity-old era)
 - [Ray Marching for Dummies!](https://www.youtube.com/watch?v=PGtv-dBi2wE): Beginner introduction to ray marching. (2020-01-02, video, Unity-old era)
 - [https://www.ronja-tutorials.com/post/045-spheretracing-depth/](https://www.ronja-tutorials.com/2019/10/14/spheretracing-depth.html): Ronja tutorial on adding depth output to a sphere tracing shader. (Ronja, 2019-10-14, article, Unity-old era)
 - [Handling Depth for Spheretracing](https://www.ronja-tutorials.com/post/045-spheretracing-depth/): Handles depth when spheretracing signed distance fields. (Ronja, 2019-10-14, article, Unity-old era)
 - [Raymarching in Unity](https://medium.com/@shahriyarshahrabi/raymarching-in-unity-59c72664252a): Introduction to raymarching in Unity shaders. (2019-09-21, article, Unity-old era)
 - [https://www.ronja-tutorials.com/post/044-spheretracing-shading/](https://www.ronja-tutorials.com/2019/08/15/spheretracing-shading.html): Ronja tutorial on shading and lighting for sphere-traced signed distance fields. (Ronja, 2019-08-15, article, Unity-old era)
 - [Spheretracing with Shading](https://www.ronja-tutorials.com/post/044-spheretracing-shading/): Shades spheretraced signed distance functions in a volumetric rendering series. (Ronja, 2019-08-15, article, Unity-old era)
+- [GitHub - keijiro/SdfVfxSamples: Unity VFX Graph samples with SDF (signed distance field)](https://github.com/keijiro/VectorFieldExamples): Repo: VFX Graph samples using signed distance fields. (Keijiro Takahashi, 2019-07-26, repo, Unity-old era)
 - [https://www.ronja-tutorials.com/post/043-spheretracing-basics/](https://www.ronja-tutorials.com/2019/06/21/spheretracing-basics.html): Ronja tutorial on sphere tracing basics for rendering signed distance fields. (Ronja, 2019-06-21, article, Unity-old era)
 - [Spheretracing Basics](https://www.ronja-tutorials.com/post/043-spheretracing-basics/): Introduces spheretracing, a raytracing technique for signed distance functions. (Ronja, 2019-06-21, article, Unity-old era)
 - [2D SDF Shadows](https://www.ronja-tutorials.com/post/037-2d-shadows/): Builds 2D shadows using combined signed distance functions. (Ronja, 2018-12-01, article, Unity-old era)

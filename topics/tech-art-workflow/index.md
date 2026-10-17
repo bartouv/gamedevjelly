@@ -1,6 +1,6 @@
 # Tech art & DCC workflow
 
-> Art & learning · 98 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 103 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity VFX Graph - Muzzle Flash Effect Tutorial](https://www.youtube.com/watch?v=HISD_W-EwyE): Build a muzzle flash with VFX Graph, using Blender plane meshes and textures made in Material Maker. (Gabriel Aguiar Prod., 2026-08-05, video, Unity-6 era)
 - [What I learned about using Unity Timeline to create a short film](https://www.youtube.com/watch?v=j1JvhqnxgEY): What she learned making a short film with Unity Timeline: how she built it and which assets she used. (Christina Creates Games, 2026-06-24, video, Unity-6 era)
@@ -33,11 +33,16 @@
 - [Simon’s Tech Art Learning Materials | Simonschreibt.](https://simonschreibt.de/gat/tech-art-course/): Simon's tech art course learning materials and slides. (Simon Schreibt, 2022-08-13, article, Unity-2022 era)
 - [How to (Not) Create Textures for VFX](https://www.youtube.com/watch?v=KaNDezgsg4M): Advice on how not to create textures for VFX. (Simon Schreibt, 2022-06-18, video, Unity-2022 era)
 - [GDC/ADDON 2022: How (not) to create Textures for VFX](https://simonschreibt.de/gat/how-not-to-create-textures-for-vfx/): GDC 2022 talk on mistakes and best practices when creating textures for VFX. (Simon Schreibt, 2022-05-22, article, Unity-2022 era)
+- [Unity Basics - How to Reverse Engineer Shader Effects](https://danielilett.com/2021-08-21-basics-4-reverse-engineering-effects/): Explains how to break down a large shader effect into smaller steps to reverse engineer it. (Daniel Ilett, 2021-08-21, article, Unity-2021 era)
 - [GDC 2018: Creativity of Rules and Patterns - Designing Procedural Systems](https://www.youtube.com/watch?v=OpaTFzLb6YA): Designing procedural systems as rule languages and patterns, with Houdini-style building examples. (Ana Opara, 2021-07-07, video, Unity-2021 era)
 - [Technically Speaking Challenge Stained Glass — Joyrok](https://joyrok.com/Technically-Speaking-Challenge-Stained-Glass): Tech art write-up on a stained glass effect for the Technically Speaking challenge. (Joyrok, 2021-06-25, article, Unity-2021 era)
 - [Math in Art - Game Dev Bill](https://gamedevbill.com/math-in-art/): Explains embedding math in art to make shaders cheaper. (GameDevBill, 2020-09-21, article, Unity-old era)
 - [joyrok](https://joyrok.cargo.site/Tale-of-2-Engines): Joyrok's tech art post comparing two game engines. (Joyrok, 2020-09-14, article, Unity-old era)
 - [Modeling with Tiling Textures | onlineportfolio](https://tylergibbonsart.wixsite.com/onlineportfolio/modeling-with-tiling-textures): Portfolio page on modeling with tiling textures. (2020-09-09, article, Unity-old era)
+- [GitHub - Tvtig/UnityLightsaber: A lighsaber modelled in blender and brough to life in unity](https://github.com/Tvtig/UnityLightsaber): Repo: lightsaber modeled in Blender and brought to life in Unity. (2020-07-18, repo, Unity-old era)
+- [GitHub - Gaxil/Unity-AlembicToVAT: Alembic to VAT (Vertex Animation Texture) mini tool](https://github.com/Gaxil/Unity-AlembicToVAT): Repo: mini tool converting Alembic to Vertex Animation Textures. (2020-05-15, repo, Unity-old era)
+- [Terrain and Mesh Blending in Unity](https://inresin.wordpress.com/2020/04/03/terrain-and-mesh-blending-in-unity/amp/): Article on blending terrain and meshes in Unity. (2020-04-03, article, Unity-old era)
+- [Paper Shader in Unity - Game Dev Bill](https://gamedevbill.com/paper-shader-in-unity/): Writes a Unity shader that creates realistic-looking paper. (2020-03-07, article, Unity-old era)
 - [Generating Perfect Normal Maps for Unity (and Other Programs)](https://bgolus.medium.com/generating-perfect-normal-maps-for-unity-f929e673fc57): How to generate accurate normal maps for Unity and other programs from a high-poly model. (Ben Golus, 2020-02-03, article, Unity-old era)
 - [Getting Started Learning Tech Art & Unity Shader Writing](https://lindenreidblog.com/2019/01/30/getting-started-learning-tech-art-unity-shader-writing/): A starting point for learning tech art and writing shaders in Unity. (Linden Reid, 2019-01-30, article, Unity-old era)
 - [Konsoll 2018: Oskar Stålberg - Developing The Bad North Look](https://www.youtube.com/watch?v=6JcFbivo8dQ): Procedural techniques, technical challenges and art reasoning behind Bad North's minimalist island look. (Oskar Stålberg, 2019-01-29, video, Unity-old era)

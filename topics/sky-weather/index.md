@@ -1,6 +1,6 @@
 # Sky, clouds & weather
 
-> Environment · 26 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 34 hand-filtered guides on GamedevJelly, newest first.
 
 - [@minionsart.bsky.social: low rolling volume clouds, kept simple to follow](https://bsky.app/profile/minionsart.bsky.social/post/3mtbyivjdfk2z): Cloud effect built on a local volume fog cube post, explained in an easy tutorial. (MinionsArt, 2026-08-17, post, Unity-6 era)
 - [Low Rolling Clouds Volume](https://www.patreon.com/minionsart/posts/rolling-local-166282612): Patreon post on a localized volume of low rolling clouds. (MinionsArt, 2026-08-01, post, Unity-6 era)
@@ -10,9 +10,17 @@
 - [Learn How to Create Appealing Clouds in Unity in 3 Simple Steps](https://80.lv/articles/learn-how-to-create-appealing-clouds-in-unity-in-3-simple-steps/): Cookbook recipe for building stylized clouds in URP in three steps. (2023-08-30, article, Unity-2022 era, URP)
 - [Rain Effects Breakdown](https://www.cyanilux.com/tutorials/rain-effects-breakdown/): Breakdown of rain effects including particles and ripple shaders for puddles. (2023-07-10, article, Unity-2022 era)
 - [Protean Clouds (Shadertoy, ~120 lines)](https://shadertoy.com/view/3l23Rh): Shadertoy: compact raymarched volumetric cloud shader in about 120 lines. (Alan Zucconi, 2022-12-22, article, Unity-2022 era)
+- [Unity URP Tutorial - Volumetric Raymarching Cloud Shader](https://www.youtube.com/watch?v=0G8CVQZhMXw): Writes a volumetric raymarching cloud shader for URP. (2022-01-20, video, Unity-2022 era, URP)
+- [Volumetric Clouds in Unity 2021.2! (Tutorial in 5 minutes)](https://www.youtube.com/watch?v=vzG-kT5bik0): Five-minute tutorial on volumetric clouds in Unity 2021.2. (Sykoo, 2021-07-08, video, Unity 2021, HDRP)
 - [My take on shaders: Sky shader – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-sky-shader/): Tutorial on writing a sky shader. (2020-12-15, article, Unity-old era)
+- [Unity Flowing Raindrops shader tutorial - Decompiled Art](https://www.youtube.com/watch?v=pvimlxdttRA&app=desktop): Makes a flowing raindrops shader. (2020-09-19, video, Unity-old era)
 - [An Introduction to Mie Theory](https://www.alanzucconi.com/2020/07/30/atmospheric-scattering-8/): Introduction to Mie theory for atmospheric scattering (members-only post). (Alan Zucconi, 2020-07-30, article, Unity-old era)
+- [Rain Puddles in VFX Graph and Shader Graph](https://danielilett.com/2020-05-19-tut5-7-urp-rain/): Builds reactive rain puddles using VFX Graph and Shader Graph. (2020-05-19, article, Unity-old era, URP)
 - [Rendering volumetric clouds using signed distance fields – UHawk VR Development Blog](https://blog.uhawkvr.com/rendering/rendering-volumetric-clouds-using-signed-distance-fields/): Renders volumetric clouds in Unity using signed distance fields. (2020-05-06, article, Unity-old era)
+- [GitHub - SebLague/Clouds: Cloud rendering test](https://github.com/SebLague/Clouds): Repo: cloud rendering test by Sebastian Lague. (Sebastian Lague, 2019-10-28, repo, Unity-old era)
+- [Cloud Shader Breakdown](https://www.cyanilux.com/tutorials/cloud-shader-breakdown/): Breaks down a cloud shader offsetting a subdivided plane's vertices with layered noise. (Cyan, 2019-09-25, article, Unity-old era)
+- [Unity ShaderGraph Procedural Skybox Tutorial Pt.1](https://timcoster.com/2019/09/03/unity-shadergraph-skybox-quick-tutorial/): Builds a procedural skybox in Shader Graph, part one. (2019-09-03, article, Unity-old era)
+- [Volumetric Clouds in Unity + Time of Day lighting](https://www.youtube.com/watch?v=LLUUIAKFgWg): Creates volumetric clouds in Unity with time-of-day lighting. (2018-09-21, video, Unity-old era)
 - [Shader Showcase Saturday #5: Dripping Rain - Alan Zucconi](https://www.alanzucconi.com/2018/08/10/shader-showcase-saturday-5/): Shader Showcase Saturday on creating dripping rain over materials. (2018-08-10, article, Unity-old era)
 - [SHADER/raymarching/raymarching clouds.glsl at master · danielscherzer/SHADER](https://github.com/danielscherzer/SHADER/blob/master/raymarching/raymarching%20clouds.glsl): Repo: GLSL fragment shader example for raymarched clouds from a shader programming lecture. (2018-01-18, repo, Unity-old era)
 - [My take on shaders: Firewatch multi-colored fog – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-firewatch-multi-colored-fog/): Recreates Firewatch-style multi-colored fog. (2017-11-26, article, Unity-old era)

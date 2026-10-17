@@ -24,4 +24,5 @@ YouTube channel with Unity game development tutorials and guidance for aspiring 
 - [Building Runtime UI with UI Toolkit In Unity](https://www.youtube.com/watch?v=6DcwHPxCE54): Builds runtime in-game UI with UI Toolkit. (Game Dev Guide, 2024-04-03, video, Unity-2022 era)
 - [How To Build Roads Procedurally In Unity with the Splines Package](https://www.youtube.com/watch?v=ZiHH_BvjoGk): Builds procedural roads along splines with Unity's Splines package. (Game Dev Guide, 2023-06-30, video, Unity-2022 era)
 - [Unlocking The Power Of Unity's Scriptable Render Pipeline](https://www.youtube.com/watch?v=9fa4uFm1eCE): Explains what Unity's Scriptable Render Pipeline enables. (Game Dev Guide, 2023-04-05, video, Unity-2022 era)
+- [Procedurally Generating A Hexagon Grid in Unity](https://www.youtube.com/watch?v=EPaSmQ2vtek): Procedurally generates a hexagon grid in Unity. (Game Dev Guide, 2022-04-10, video, Unity-2022 era)
 - [Game Dev Guide · YouTube channel](https://www.youtube.com/channel/UCR35rzd4LLomtQout93gi0w/videos): Game Dev Guide YouTube channel with Unity game development videos. (Game Dev Guide, 2020-03-29, video, Unity-old era)

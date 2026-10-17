@@ -1,6 +1,6 @@
 # Compute shaders & GPU
 
-> Shaders & rendering · 29 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 36 hand-filtered guides on GamedevJelly, newest first.
 
 - [Moving two million soldiers in Unity with compute shaders and flow fields](https://jettelly.com/blog/making-two-million-soldiers-move-in-unity): How compute shaders and flow fields drive two million units at about 11 ms per frame. (Jettelly, 2026-09-27, article, Unity-6 era)
 - [Making fire feel alive: Real-time fluid simulation in Ignitement](https://unity.com/blog/real-time-fluid-simulation-fire-vfx-ignitement-breakdown): Real-time 2D fluid simulation used to create dynamic, gameplay-driven fire effects. (Unity, 2026-04-23, article, Unity-6 era)
@@ -13,15 +13,19 @@
 - [Coding Adventure: Software Rasterizer](https://www.youtube.com/watch?v=yyJ-hdISgnw) (Sebastian Lague, 2025-05-30, video, Unity-6 era)
 - [Coding Adventure: Planetary Fluid Sim](https://www.youtube.com/watch?v=8nIB7e_eds4) (Sebastian Lague, 2025-01-29, video, Unity-6 era)
 - [Coding Adventure: Rendering Fluids](https://www.youtube.com/watch?v=kOkfC5fLfgE) (Sebastian Lague, 2024-12-06, video, Unity-6 era)
+- [Custom SRP 2.5: Structured Buffers](https://catlikecoding.com/unity/custom-srp/2-5-0/): Custom SRP tutorial using structured buffers for light and shadow data. (Catlike Coding, 2024-03-30, article, Unity-2022 era)
 - [GitHub - GarrettGunnell/Water: Sum of sines and fft fluid simulation with a physically based water shader](https://github.com/GarrettGunnell/Water): Repo: sum-of-sines and FFT water simulation with a physically based shader. (2023-06-11, repo, Unity-2022 era)
 - [GitHub - AJTech2002/Smoothed-Particle-Hydrodynamics](https://github.com/AJTech2002/Smoothed-Particle-Hydrodynamics): Repo: smoothed-particle hydrodynamics fluid simulation in Unity. (2023-04-12, repo, Unity-2022 era)
 - [My take on shaders: Compute shaders – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-compute-shaders/): Tutorial introducing compute shaders. (2022-10-08, article, Unity-2022 era)
 - [Interactive Volumetric Fog with Fluid Dynamics](https://shahriyarshahrabi.medium.com/interactive-volumetric-fog-with-fluid-dynamics-and-arbitrary-boundaries-f82fdee86397): Breaks down real-time interactive volumetric fog using fluid simulation and compute shaders in Unity. (2021-10-16, article, Unity-2021 era)
 - [Gentle Introduction to Fluid Simulation](https://shahriyarshahrabi.medium.com/gentle-introduction-to-fluid-simulation-for-programmers-and-technical-artists-7c0045c40bac): Intuitive explanation of fluid simulation aimed at programmers and technical artists. (2021-10-05, article, Unity-2021 era)
+- [GitHub - keijiro/NoiseBall6: Unity sample project: Direct mesh data access from compute shaders](https://github.com/keijiro/NoiseBall6): Repo: direct mesh data access from compute shaders in Unity. (Keijiro Takahashi, 2021-06-07, repo, Unity-2021 era)
 - [Lexdev: Frostpunk Heatmap Case Study](https://lexdev.net/tutorials/case_studies/frostpunk_heatmap.html): Case study using compute shaders and variants for a Frostpunk-style heatmap. (Lexdev, 2020-10-31, article, Unity-old era)
+- [Graphics.DrawProcedural](https://www.ronja-tutorials.com/post/051-draw-procedural/): Uses Graphics.DrawProcedural to render compute shader output. (Ronja, 2020-09-16, article, Unity-old era)
 - [Lexdev: Civilization Fog of War Case Study](https://lexdev.net/tutorials/case_studies/civilization_fogofwar.html): Case study using a simple compute shader for Civilization VI fog of war. (Lexdev, 2020-06-01, article, Unity-old era)
 - [Unity Toy Path Tracer](http://theinstructionlimit.com/unity-toy-path-tracer): Devlog on a toy path tracer built in Unity. (2020-02-18, article, Unity-old era)
 - [Simple GPU Occlusion for Lens Flares](http://dotsquid.com/2019/06/26/simple-gpu-occlusion-for-lens-flares/): Describes a simple GPU-based occlusion method for lens flares in Summer Catchers. (2019-06-26, article, Unity-old era)
+- [GitHub - luxonpi/UnityFluidExperiments: Collection of Fluid Simulation Experiments in Unity](https://github.com/MaxSigma/UnityFluidExperiments): Repo: fluid simulation experiments in Unity. (2019-03-11, repo, Unity-old era)
 - [GitHub - keijiro/StableFluids: A straightforward GPU implementation of Jos Stam's "Stable Fluids" on Unity.](https://github.com/keijiro/StableFluids): Repo: GPU implementation of Jos Stam's Stable Fluids in Unity. (Keijiro Takahashi, 2018-06-27, repo, Unity-old era)
 - [Daily Pathtracer Part 3: C# & Unity & Burst · Aras' website](http://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-3-CSharp-Unity-Burst/): Part three of a path tracer series, implemented in C# with Unity and Burst. (2018-03-28, article, Unity-old era)
 - [GPU Sorting (Part 2)](https://www.alanzucconi.com/2017/12/13/gpu-sorting-2/): Part two of GPU sorting with compute shaders, including source download. (Alan Zucconi, 2017-12-13, article, Unity-old era)
@@ -29,5 +33,8 @@
 - [How to Simulate Cellular Automata with Shaders](https://www.alanzucconi.com/2016/03/16/cellular-automata-with-shaders/): Simulates Conway's Game of Life with GPU shaders. (Alan Zucconi, 2016-03-16, article, Unity-old era)
 - [How to Use Shaders for Simulations - Alan Zucconi](https://www.alanzucconi.com/2016/03/02/shaders-for-simulations/): Series on using GPU shaders to run simulations. (Alan Zucconi, 2016-03-02, article, Unity-old era)
 - [Actually Making Signed Distance Field Textures With JFA](https://blog.demofox.org/2016/03/02/actually-making-signed-distance-field-textures-with-jfa/): Explains generating signed distance field textures with the jump flooding algorithm. (2016-03-02, article, Unity-old era)
+- [Intro to Compute Shaders in Unity URP! Replace Geometry Shaders ✔️ 2020.3 | Game Dev Tutorial](https://www.youtube.com/watch?v=EB5HiqDl7VE&feature=youtu.be): Intro to compute shaders in URP as a replacement for geometry shaders. (video, Unity 2020, URP)
+- [Generate a Mesh Asset Using Compute Shaders in the Unity Editor! ✔️ 2020.3 | Game Dev Tutorial](https://www.youtube.com/watch?v=AiWCPiGr10o&feature=youtu.be): Generates a mesh asset with compute shaders in the Unity editor. (video, Unity 2020)
 - [Compute Shaders](https://catlikecoding.com/unity/tutorials/basics/compute-shaders/): Catlike Coding tutorial using a compute shader to display a million moving cubes. (article)
 - [Coding Adventure: Marching Cubes](https://www.youtube.com/watch?v=M3iI2l0ltbE): Video experimenting with the marching cubes algorithm for terrain meshes. (Sebastian Lague, video)
+- [Adding Shadow Casting to Grass Baked with Compute Shaders ✔️ 2020.3 | Unity URP Game Dev Tutorial](https://www.youtube.com/watch?v=IPoHY_yJxMc): Adds shadow casting to grass drawn through compute shaders in URP. (video, Unity 2020, URP)

@@ -1,6 +1,6 @@
 # Pixel art, dithering & retro
 
-> Stylized looks · 21 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 31 hand-filtered guides on GamedevJelly, newest first.
 
 - [Breaking down Moon Reader's 2.5D pixel art style in Unity](https://jettelly.com/blog/breaking-down-moon-reader-s-2-5d-pixel-art-style): How a 2.5D pixel art look was made in Unity, simpler than it appears. (Jettelly, 2026-07-28, article, Unity-6 era)
 - [Replicating the Shadowglass 3D pixel-art technique](https://tesseractc.at/shadowglass): Recreates the Shadowglass look for first-person 3D pixel art, explaining how the technique works. (2026-02-05, article, Unity-6 era)
@@ -10,9 +10,19 @@
 - [Lofi 3D pixel art explorations](https://alexstrook.blogspot.com/2023/07/lofi-3d-pixel-art-explorations.html): Low-res 3D pixel look in Unity via point-filtered render textures or a pixelate post effect. (Alex Strook, 2023-07-01, article, Unity-2022 era)
 - [Unity Retro Effect (PSOne) shader tutorial - Decompiled Art](https://www.youtube.com/watch?v=n5zlq0A8xGg): Tools: Unity Universal Render Pipeline (URP), High Definition Render Pipeline (HDRP), ShaderGraph (Decompiled Art, 2023-06-13, video, Unity-2022 era)
 - [Pixelation Filter - Shader Graph Basics - Episode 61](https://www.youtube.com/watch?v=x95xhWCxBb4): A pixelation filter built as a post-processing shader. (Ben Cloward, 2022-09-15, video, Unity-2022 era)
+- [Halftone Effect in URP Shader Graph](https://danielilett.com/2022-07-28-tut6-1-halftone/): Builds a halftone dot-matrix shading effect in URP Shader Graph. (Daniel Ilett, 2022-07-28, article, Unity-2022 era, URP)
 - [PlayStation 1 Affine Texture Mapping in Shader Code](https://danielilett.com/2021-11-06-tut5-21-ps1-affine-textures/): Reproduces PlayStation 1 affine texture warping in shader code for a retro look. (Daniel Ilett, 2021-11-06, article, Unity-2021 era)
+- [GitHub - DeadlyRedCube/Cathode-Retro: A collection of shaders to emulate the display of an NTSC signal through a CRT TV](https://github.com/DeadlyRedCube/Cathode-Retro): Repo: shaders that emulate an NTSC signal displayed on a CRT TV. (2021-10-28, repo, Unity-2021 era)
+- [GAME BOY effect in Unity](https://www.youtube.com/watch?v=D_g1GXdmfOc): Builds a Game Boy look as a Unity post-process effect. (Jettelly, 2021-10-21, video, Unity-2021 era)
+- [Retro Console Palettes in Shader Graph](https://danielilett.com/2020-10-31-tut5-12-urp-retro-consoles/): Emulates retro console color limits by posterizing palettes in Shader Graph. (Daniel Ilett, 2020-10-31, article, Unity-old era, URP)
 - [Retro CRT Shader Breakdown](https://cyangamedev.wordpress.com/2020/09/10/retro-crt-shader-breakdown/): Breakdown of a retro CRT shader. (2020-09-10, article, Unity-old era)
+- [GitHub - Cyanilux/URP_RetroCRTShader: 📺📼 A shader graph which replicates some retro tv/monitor/vhs effects. CRT warping, scanlines, static, distortion, etc.](https://github.com/Cyanilux/URP_RetroCRTShader): Repo: Shader Graph recreating retro TV, monitor and VHS effects. (2020-09-04, repo, Unity-old era, URP)
+- [Creating a Halftone Shader | Unity Tutorial](https://www.youtube.com/watch?v=uUQpue_KTMs): Creates a halftone shader in Unity. (Jettelly, 2020-08-22, video, Unity-old era)
+- [From Sprite to PIXEL ART | Unity Tutorial](https://www.youtube.com/watch?v=GHJ_rT5e1x8): Converts a sprite to a pixel art look in Unity. (Jettelly, 2020-04-14, video, Unity-old era)
 - [Ultra Effects | Part 9 - Obra Dithering](https://danielilett.com/2020-02-26-tut3-9-obra-dithering/): Recreates the stable dithered look of Return of the Obra Dinn in Unity. (2020-02-26, article, Unity-old era)
+- [Ultra Effects: Part 7 - Vintage Video](https://danielilett.com/2020-02-12-tut3-7-vintage-video/): Builds a simple CRT screen effect with scanlines and fuzzy glitches as a post process. (Daniel Ilett, 2020-02-12, article, Unity-old era, BUILTIN)
+- [Ultra Effects: Part 3 - Tiling Trouble](https://danielilett.com/2019-10-30-tut3-3-tiling-trouble/): Pixelates the screen and overlays a mosaic pattern as a tiled post-process effect. (Daniel Ilett, 2019-10-30, article, Unity-old era, BUILTIN)
+- [Image Effects: Part 5 - Retro Arcade](https://danielilett.com/2019-05-15-tut1-5-smo-retro/): Recreates a retro console look in Unity by downsampling and restricting the color palette. (Daniel Ilett, 2019-05-15, article, Unity-old era, BUILTIN)
 - [https://www.ronja-tutorials.com/post/042-dithering/](https://www.ronja-tutorials.com/2019/05/11/dithering.html): Ronja tutorial on dithering in shaders for transparency effects. (2019-05-11, article, Unity-old era)
 - [Dithering](https://www.ronja-tutorials.com/post/042-dithering/): Uses dithering to simulate more shades than a limited color palette allows. (Ronja, 2019-05-11, article, Unity-old era)
 - [https://www.ronja-tutorials.com/post/040-halftone-shading/](https://www.ronja-tutorials.com/2019/03/02/halftone-shading.html): Ronja tutorial on halftone shading in Unity. (2019-03-02, article, Unity-old era)

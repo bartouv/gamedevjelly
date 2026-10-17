@@ -1,6 +1,6 @@
 # Volumetrics & fog
 
-> Shaders & rendering · 41 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 47 hand-filtered guides on GamedevJelly, newest first.
 
 - [@minionsart.bsky.social: low rolling volume clouds, kept simple to follow](https://bsky.app/profile/minionsart.bsky.social/post/3mtbyivjdfk2z): Cloud effect built on a local volume fog cube post, explained in an easy tutorial. (MinionsArt, 2026-08-17, post, Unity-6 era)
 - [Low Rolling Clouds Volume](https://www.patreon.com/minionsart/posts/rolling-local-166282612): Patreon post on a localized volume of low rolling clouds. (MinionsArt, 2026-08-01, post, Unity-6 era)
@@ -20,10 +20,15 @@
 - [GitHub - GarrettGunnell/Shell-Texturing: Volumetric rendering of fur](https://github.com/GarrettGunnell/Shell-Texturing): Repo: volumetric fur rendering using shell texturing. (2023-10-02, repo, Unity-2022 era)
 - [Volumetrics: Introduction to ray marching | Tutorial](https://www.youtube.com/watch?v=hXYOlXVRRL8): Introduces volumetric ray marching in Unity. (Unity, 2023-09-14, video, Unity-2022 era)
 - [The Four Vertex Volume](https://simonschreibt.de/gat/four-vertex-volume/): Explains a four-vertex volume rendering trick. (Simon Schreibt, 2023-04-30, article, Unity-2022 era)
+- [Unity URP Tutorial - Volumetric Raymarching Cloud Shader](https://www.youtube.com/watch?v=0G8CVQZhMXw): Writes a volumetric raymarching cloud shader for URP. (2022-01-20, video, Unity-2022 era, URP)
 - [Interactive Volumetric Fog with Fluid Dynamics](https://shahriyarshahrabi.medium.com/interactive-volumetric-fog-with-fluid-dynamics-and-arbitrary-boundaries-f82fdee86397): Breaks down real-time interactive volumetric fog using fluid simulation and compute shaders in Unity. (2021-10-16, article, Unity-2021 era)
 - [Coloring Raymarched Volumetric Light Through Stained Glass](https://valeriomarty.medium.com/coloring-raymarched-volumetric-light-as-it-passes-through-stained-glass-a19846def1cd): Colors raymarched volumetric light as it passes through stained glass, continuing a previous tutorial. (2021-08-28, article, Unity-2021 era)
+- [Volumetric Clouds in Unity 2021.2! (Tutorial in 5 minutes)](https://www.youtube.com/watch?v=vzG-kT5bik0): Five-minute tutorial on volumetric clouds in Unity 2021.2. (Sykoo, 2021-07-08, video, Unity 2021, HDRP)
 - [Unity Fake Volumetric Light](https://realtimevfx.com/t/unity-fake-volumetric-light/16480?utm_source=dlvr.it&utm_medium=twitter): Forum post on a fake volumetric light shader that fades vertex color by view normal. (2021-05-04, article, Unity-2021 era)
 - [Rendering volumetric clouds using signed distance fields – UHawk VR Development Blog](https://blog.uhawkvr.com/rendering/rendering-volumetric-clouds-using-signed-distance-fields/): Renders volumetric clouds in Unity using signed distance fields. (2020-05-06, article, Unity-old era)
+- [Fog Plane Shader Breakdown](https://www.cyanilux.com/tutorials/fog-plane-shader-breakdown/): Creates fog plane effects from scene depth, commonly vertical fog layers. (Cyan, 2019-12-05, article, Unity-old era)
+- [GitHub - SebLague/Clouds: Cloud rendering test](https://github.com/SebLague/Clouds): Repo: cloud rendering test by Sebastian Lague. (Sebastian Lague, 2019-10-28, repo, Unity-old era)
+- [Volumetric Clouds in Unity + Time of Day lighting](https://www.youtube.com/watch?v=LLUUIAKFgWg): Creates volumetric clouds in Unity with time-of-day lighting. (2018-09-21, video, Unity-old era)
 - [Looking Through Water](https://catlikecoding.com/unity/tutorials/flow/looking-through-water/): Catlike Coding tutorial on underwater fog and fake refraction. (2018-08-30, article, Unity-old era)
 - [My take on shaders: Vertical fog – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-vertical-fog/): Tutorial on building a vertical fog shader. (2018-07-03, article, Unity-old era)
 - [My take on shaders: Firewatch multi-colored fog – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-firewatch-multi-colored-fog/): Recreates Firewatch-style multi-colored fog. (2017-11-26, article, Unity-old era)
@@ -31,6 +36,7 @@
 - [A Shader for the Atmospheric Sphere](https://www.alanzucconi.com/2017/10/10/shader-atmospheric-sphere/): Writes the shader for the atmospheric sphere in a scattering series. (Alan Zucconi, 2017-10-10, article, Unity-old era)
 - [A Journey Through the Atmosphere](https://www.alanzucconi.com/2017/10/10/atmospheric-scattering-4/): Models how atmospheric density changes with altitude for scattering. (Alan Zucconi, 2017-10-10, article, Unity-old era)
 - [Volumetric Atmospheric Scattering](https://www.alanzucconi.com/2017/10/10/atmospheric-scattering-1/): Intro to volumetric atmospheric scattering, explaining why the sky is blue and sunsets are red. (Alan Zucconi, 2017-10-10, article, Unity-old era)
+- [Rendering 14: Fog](https://catlikecoding.com/unity/tutorials/rendering/part-14/): Rendering series part 14: fog for forward and deferred shading. (Catlike Coding, 2017-03-31, article, Unity-old era, BUILTIN)
 - [Creating a Volumetric Ray Marcher](https://shaderbits.com/blog/creating-volumetric-ray-marcher): Tutorial on creating a volumetric ray marcher. (2016-11-25, article, Unity-old era)
 - [Volumetric Rendering: Signed Distance Functions - Alan Zucconi](https://www.alanzucconi.com/2016/07/01/signed-distance-functions/): Explains using signed distance functions to build complex 3D shapes in a volumetric shader. (2016-07-01, article, Unity-old era)
 - [Volumetric Rendering: Raymarching - Alan Zucconi](https://www.alanzucconi.com/2016/07/01/raymarching/): Explains the raymarching technique for volumetric rendering with clear shader code. (2016-07-01, article, Unity-old era)

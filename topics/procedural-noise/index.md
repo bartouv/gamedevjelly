@@ -1,6 +1,6 @@
 # Noise & procedural textures
 
-> Procedural & math · 31 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 34 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
 - [Voronoi Diagrams: how it works](https://moonjump.com/game-dev-mechanics-voronoi-diagrams-how-it-works/): Explains Voronoi partitioning and its uses in map generation, fracture, Worley noise, and GPU signed distance fields. (Moonjump, 2026-01-06, article, Unity-6 era)
@@ -20,6 +20,8 @@
 - [Pseudorandom Noise: Noise Variants](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/noise-variants/): Creates fractal and tiling variants of Perlin and value noise. (Catlike Coding, 2021-07-07, article, Unity-2021 era)
 - [Perlin Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/perlin-noise/): Catlike Coding tutorial on implementing Perlin noise in C#. (Catlike Coding, 2021-06-18, article, Unity-2021 era)
 - [Value Noise](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/value-noise/): Catlike Coding tutorial on implementing value noise in C#. (Catlike Coding, 2021-05-30, article, Unity-2021 era)
+- [Hashing Space](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/hashing-space/): Hashes positions on an arbitrary grid for pseudorandom noise. (Catlike Coding, 2021-04-30, article, Unity-2021 era)
+- [Basics of White Noise! Random Numbers for Shaders and ProcGen in Unity ✔️ 2021.1 | Game Dev Tutorial](https://www.youtube.com/watch?v=nohGiVNWhJE): Explains white noise as random numbers for shaders and procedural generation. (Ned Makes Games, 2021-04-13, video, Unity 2021)
 - [Pseudorandom Noise: Hashing](https://catlikecoding.com/unity/tutorials/pseudorandom-noise/hashing/): Builds a small xxHash-style hash function and visualizes hash output for pseudorandom noise. (Catlike Coding, 2021-03-24, article, Unity-2021 era)
 - [EPC2019 | More Like This, Please! Single Example Texture Synthesis & Remixing | Anastasia Opara](https://www.youtube.com/watch?v=kFLZiak5gyc): Single-example texture synthesis: generating, remixing and inpainting textures from one reference image. (Ana Opara, 2019-11-06, video, Unity-old era)
 - [Voronoi](https://cyangamedev.wordpress.com/2019/07/16/voronoi/): Explains Voronoi patterns and building them in shaders. (2019-07-16, article, Unity-old era)
@@ -29,6 +31,7 @@
 - [Perlin Noise](https://www.ronja-tutorials.com/post/026-perlin-noise/): Implements Perlin gradient noise in shaders. (Ronja, 2018-09-15, article, Unity-old era)
 - [Value Noise](https://www.ronja-tutorials.com/post/025-value-noise/): Implements value noise by interpolating random values in shaders. (Ronja, 2018-09-08, article, Unity-old era)
 - [White Noise](https://www.ronja-tutorials.com/post/024-white-noise/): Generates white noise random numbers in shaders. (Ronja, 2018-09-02, article, Unity-old era)
+- [Dissolve Shader](https://www.febucci.com/2018/09/dissolve-shader/#dissolveshaderwithoutlines): Builds a noise-based alpha-clipping dissolve effect with edge glow. (2018-09-01, article, Unity-old era)
 - [EPC2018 | Proceduralism and Deep Learning | Anastasia Opara](https://www.youtube.com/watch?v=dpYwLny0P8M): How deep learning can complement procedural content pipelines, from texture to shape generation. (Ana Opara, 2018-07-11, video, Unity-old era)
 - [Checkerboard Pattern](https://www.ronja-tutorials.com/post/011-chessboard/): Generates a checkerboard pattern procedurally in a shader. (Ronja, 2018-05-18, article, Unity-old era)
 - [To Voronoi and Beyond](https://www.alanzucconi.com/2015/02/24/to-voronoi-and-beyond/): Builds Voronoi diagrams with Unity shaders, C# and shader code included. (Alan Zucconi, 2015-02-24, article, Unity-old era)

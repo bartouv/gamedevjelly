@@ -1,11 +1,18 @@
 # Snow, ice, sand & lava
 
-> Environment · 12 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 21 hand-filtered guides on GamedevJelly, newest first.
 
 - [Snow and Icicles Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118211037): Patreon post building snow and icicles in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
 - [Snow and Icicles Tessellation Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118519855): Patreon post building snow and icicles with tessellation in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
 - [Voronoi-based Lava in Unity Shader Graph](https://danielilett.com/2023-06-20-tut7-2-voronoi-lava/): Builds animated lava in Shader Graph using custom Voronoi noise that exposes cell edges. (Daniel Ilett, 2023-06-20, article, Unity-2022 era)
 - [Sand Rendering in Journey (GDC, John Edwards)](https://www.youtube.com/watch?v=wt2yYnBRD3U): GDC talk on how Journey renders its sand. (Alan Zucconi, 2022-11-06, video, Unity-2022 era)
+- [Unity | Interactive Snow Shader | Stylized Setup URP + Built-In](https://www.youtube.com/watch?v=zr5kgZeo9LA): Builds an interactive snow shader for URP and built-in pipelines. (2022-08-27, video, Unity-2022 era, MULTI)
+- [Unity Shader Graph - Snow Interactive Effect Tutorial](https://www.youtube.com/watch?v=ftCyZ7F5q9E): Builds an interactive snow effect in Shader Graph. (2021-06-04, video, Unity-2021 era)
+- [Snow Layers in Unity Shader Graph and URP](https://danielilett.com/2021-03-25-tut5-16-snow-layers/): Builds snow layers that only cover upward-facing surfaces using a dot product in Shader Graph. (Daniel Ilett, 2021-03-25, article, Unity-2021 era, URP)
+- [Ice Refraction in Shader Graph and URP](https://danielilett.com/2021-02-04-tut5-14-ice-refraction/): Builds ice refraction in Shader Graph and URP by distorting normals and scene color. (2021-02-04, article, Unity-2021 era, URP)
+- [Unity: Frosty Icicle Shader with Amplify [URP]](https://www.youtube.com/watch?v=4oqT2l7VLSg&feature=youtu.be): Builds a frosty icicle shader in Amplify Shader Editor for URP. (2021-01-13, video, Unity-2021 era, URP)
+- [Cracked Ice Depth | Unity Tutorial (Optimized) [2021]](https://www.youtube.com/watch?v=_dZthyScKF8): Builds a cracked ice shader with depth illusion in Unity. (Jettelly, 2020-12-09, video, Unity 2021)
+- [Journey Sand Shader: Ripples - Alan Zucconi](https://www.alanzucconi.com/2019/10/08/journey-sand-shader-6/): Final part of the Journey sand shader series, recreating the sand ripples. (2019-10-08, article, Unity-old era)
 - [Journey Sand Shader: Glitter Reflection](https://www.alanzucconi.com/2019/10/08/journey-sand-shader-5/): Part five of a series recreating Journey's glittering sand reflections. (Alan Zucconi, 2019-10-08, article, Unity-old era)
 - [Journey Sand Shader: Specular Reflection](https://www.alanzucconi.com/2019/10/08/journey-sand-shader-4/): Part four of a series recreating Journey's sand specular reflections. (Alan Zucconi, 2019-10-08, article, Unity-old era)
 - [Journey Sand Shader: Sand Normal](https://www.alanzucconi.com/2019/10/08/journey-sand-shader-3/): Part three of a series on the normal mapping behind Journey's sand. (Alan Zucconi, 2019-10-08, article, Unity-old era)
@@ -13,4 +20,6 @@
 - [A Journey Into Journey’s Sand Shader](https://www.alanzucconi.com/2019/10/08/journey-sand-shader-1/): Part one of a series recreating Journey's sand rendering. (Alan Zucconi, 2019-10-08, article, Unity-old era)
 - [Shader Showcase Saturday #6: Dynamic Snow](https://www.alanzucconi.com/2018/08/18/shader-showcase-saturday-6/): Creates dynamic, realistic snow using shaders. (Alan Zucconi, 2018-08-18, article, Unity-old era)
 - [My take on shaders: Snow shader – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-snow-shader/): Simple snow shader tutorial. (2018-01-13, article, Unity-old era)
+- [Ice Shader in Unity](https://lindenreid.wordpress.com/2017/12/30/ice-shader-in-unity/): Writes an ice shader in Unity. (Linden Reid, 2017-12-30, article, Unity-old era)
 - [Shaders Case Study - Spelunky Ice Cave Crystals](https://www.youtube.com/watch?v=7fMCTVhEzmU): Case study recreating Spelunky's ice cave crystal look with shaders. (Makin' Stuff Look Good, 2016-04-30, video, Unity-old era)
+- [Create a Sand Dune Shader Graph in Unity URP! No Textures Needed! ✔️ 2020.3 | Game Dev Tutorial](https://www.youtube.com/watch?v=KqWfo6EPjCw): Builds a sand dune shader in Shader Graph for URP without textures. (video, Unity 2020, URP)

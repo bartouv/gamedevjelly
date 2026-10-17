@@ -1,6 +1,6 @@
 # Fire, magic & impacts
 
-> VFX · 29 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 49 hand-filtered guides on GamedevJelly, newest first.
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [A stylized Eldritch Blast VFX in Unity](https://jettelly.com/blog/a-stylized-take-on-eldritch-blast-vfx-in-unity): Breakdown of a stylized magic blast whose inner eyes are fully procedural. (Jettelly, 2026-10-03, article, Unity-6 era)
@@ -23,9 +23,29 @@
 - [Battlefront II: Layered Explosion](https://simonschreibt.de/gat/battlefront-ii-layered-explosion/): Looks at how Battlefront II builds layered explosion effects. (Simon Schreibt, 2023-04-25, article, Unity-2022 era)
 - [Efectos visuales en armas Tutorial - Unity Shader Graph](https://www.youtube.com/watch?v=ad6iOHNkLoc): Weapon visual effects with Shader Graph. In Spanish. (Game Slave, 2023-04-11, video, Unity-2022 era)
 - [Tornado Shader Breakdown](https://www.cyanilux.com/tutorials/tornado-shader-breakdown/): Breakdown of a tornado shader using scrolling alpha-clipped noise layers with vertex displacement. (Cyan, 2022-01-26, article, Unity-2022 era)
+- [Sword Slash Shader Breakdown](https://www.cyanilux.com/tutorials/sword-slash-shader-breakdown/): Breaks down a sword slash shader panning a texture along a ring mesh. (Cyan, 2021-12-08, article, Unity-2021 era)
+- [We recreate the star of Super Mario and IT WORKS!](https://www.youtube.com/watch?v=xAuAORbvJjs): Recreates the Super Mario star power effect in Unity. (Jettelly, 2021-05-11, video, Unity-2021 era)
+- [Fuego estilo toon | Unity Tutorial](https://www.youtube.com/watch?v=Y_6m6JRMClk): Video (Spanish): builds toon-style fire in Unity. (Jettelly, 2021-02-23, video, Unity-2021 era)
+- [Unity VFX Graph - Heat Distortion Effect Tutorial](https://www.youtube.com/watch?v=CXCyVDEplyM): Creates a heat distortion effect with VFX Graph. (2021-02-12, video, Unity-2021 era)
+- [Unity Tutorial - Visual Effect Graph - Fireworks in 2 minutes](https://www.youtube.com/watch?v=BeLBFPz9qlI&feature=youtu.be): Makes fireworks in VFX Graph in about two minutes. (2020-12-17, video, Unity-old era)
+- [Shockwave Shader Graph - Game Dev Bill](https://gamedevbill.com/shockwave-shader-graph/): Builds a shockwave Shader Graph effect for sprites and scenes. (2020-12-08, article, Unity-old era)
+- [GitHub - MdIqubal/Matrix-Shockwave-Shader: Surface shader with tesselation - Tried recreating the shockwave effect in Matrix when Neo takes off.](https://github.com/MdIqubal/Matrix-Shockwave-Shader): Repo: Matrix-style shockwave surface shader using tessellation. (2020-12-07, repo, Unity-old era, BUILTIN)
 - [Stylized VFX in Unity. Part 1: Step, Smoothstep, Dissolve](https://torchinsky.me/stylized-vfx-unity-01/): Explains step, smoothstep and dissolve for stylized VFX, part one. (Torch in Sky, 2020-11-26, article, Unity-old era)
+- [Vertex Animation in Unity - Snake effect from Naruto Shippuden](https://www.youtube.com/watch?v=v2irAJtV8sU): Makes a Naruto-style snake effect using vertex animation in Unity. (2020-08-29, video, Unity-old era)
+- [Unity/Amplify: Heat Haze Distortion, Boiling Bubbles, Fire/Smoke and God Rays!](https://www.youtube.com/watch?v=jFkhFuc0H4k): Uses Amplify for heat haze distortion, boiling bubbles, fire and smoke. (2020-08-29, video, Unity-old era)
+- [Fire/Flame Shader Breakdown](https://www.cyanilux.com/tutorials/fire-shader-breakdown/): Breaks down a fire shader distorting UVs with noise to sample a flame shape. (Cyan, 2020-08-04, article, Unity-old era)
+- [GitHub - Tvtig/UnityLightsaber: A lighsaber modelled in blender and brough to life in unity](https://github.com/Tvtig/UnityLightsaber): Repo: lightsaber modeled in Blender and brought to life in Unity. (2020-07-18, repo, Unity-old era)
+- [Unity VFX Graph - Magic Orb Effect Tutorial](https://www.youtube.com/watch?v=7bMOhNUA1bI): Creates a magic orb effect with VFX Graph. (2020-05-24, video, Unity-old era)
+- [Unity VFX Graph - Portal Effect Tutorial](https://www.youtube.com/watch?v=V2NZb0WN7SY): Creates a portal effect with VFX Graph. (2020-05-22, video, Unity-old era)
 - [Lexdev: Gears Hammer of Dawn Case Study](https://lexdev.net/tutorials/case_studies/gears_hammerofdawn.html): Case study on making a sky-fired laser beam feel impactful. (2020-05-12, article, Unity-old era)
+- [Unity VFX Graph - Weapon Effect Tutorial](https://www.youtube.com/watch?v=H5QZhChfa1I): Creates a weapon effect with VFX Graph. (2020-05-06, video, Unity-old era)
+- [Paper Burn Shader in Unity - Game Dev Bill](https://gamedevbill.com/paper-burn-shader-in-unity/): Walks through a realistic paper burn shader in Unity. (2020-04-02, article, Unity-old era)
+- [Ultra Effects: Part 11 - Fire Frames](https://danielilett.com/2020-03-11-tut3-11-fire-frames/): Burns away the screen edges using noise, color ramps and UV math in a post-process effect. (Daniel Ilett, 2020-03-11, article, Unity-old era, BUILTIN)
+- [🔥Creating an area attack with Particle System and Shader CG.](https://www.youtube.com/watch?v=xnMA8WhLFZw): Creates an area attack effect with a particle system and a CG shader. (Jettelly, 2020-03-06, video, Unity-old era)
+- [FREE | Unity Shader - Area Attack | CH1 (Optimized) [2021]](https://www.youtube.com/watch?v=AOC5fLqmqXM): Builds a free area attack ground shader effect in Unity. (Jettelly, 2020-02-29, video, Unity 2021)
+- [Write-up: Tornado & Explosion – Harry Alisavakis](https://halisavakis.com/write-up-tornado-explosion/): Write-up of a tornado and explosion effect made with shaders. (Harry Alisavakis, 2019-05-04, article, Unity-old era)
 - [Recreating Overwatch's Dragonstrike | Mix and Jam](https://www.youtube.com/watch?v=tYq58H6-Yqc): Recreates Overwatch's Dragonstrike ability effect in Unity. (Mix and Jam, 2019-05-03, video, Unity-old era)
+- [Unity Fire Shader Tutorial: Procedural Flames](https://blog.febucci.com/2019/05/fire-shader/): Builds procedural flames by scrolling noise textures, color gradients and masks in a Unity shader. (Febucci, 2019-05-01, article, Unity-old era)
 - [Recreating Breath of the Wild's Fire Arrow FX | Mix and Jam](https://www.youtube.com/watch?v=I5WjuVaM7fc): Recreates Breath of the Wild's fire arrow effects in Unity. (Mix and Jam, 2019-02-21, video, Unity-old era)
 - [Shader Showcase Saturday #4: How To Start A Fire With Shaders](https://www.alanzucconi.com/2018/08/05/shader-showcase-saturday-4/): Creates realistic animated fire with shaders. (Alan Zucconi, 2018-08-05, article, Unity-old era)
 - [Heat Distortion Shader Tutorial](https://lindenreidblog.com/2018/03/05/heat-distortion-shader-tutorial/): A tutorial on how to create a heat distortion effect in Unity. (Linden Reid, 2018-03-05, article, Unity-old era)

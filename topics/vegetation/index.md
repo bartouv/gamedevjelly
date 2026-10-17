@@ -1,6 +1,6 @@
 # Grass, trees & foliage
 
-> Environment · 31 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 39 hand-filtered guides on GamedevJelly, newest first.
 
 - [Outbound’s clip shader approach: Precise foliage discarding for real-time environments](https://unity.com/blog/outbound-square-glade-games-foliage-discarding-solution): A clip-shader technique for discarding foliage precisely, stopping grass poking through vehicles. (Unity, 2025-12-02, article, Unity-6 era)
 - [Interactive Grass | Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=GzK9P3MOvp8): Grass that bends away from the player, in Shader Graph. (Game Slave, 2025-11-18, video, Unity-6 era)
@@ -13,12 +13,19 @@
 - [Even Better Interactive Grass System](https://youtu.be/2OA9sicjj7E): Improved interactive grass system for Unity. (MinionsArt, 2023-03-01, video, Unity-2022 era)
 - [Very experimental grass system](https://echoesofsomewhere.com/2023/02/19/very-experimental-grass-system/): Devlog describing an experimental grass rendering system. (2023-02-19, article, Unity-2022 era)
 - [Six Grass Rendering Techniques in Unity](https://danielilett.com/2022-12-05-tut6-2-six-grass-techniques/): Compares six different ways to render grass in Unity. (Daniel Ilett, 2022-12-05, article, Unity-2022 era)
+- [Stylised Grass with Shaders in URP](https://danielilett.com/2021-08-24-tut5-17-stylised-grass/): Draws thousands of stylised grass blades with geometry and tessellation shaders in URP. (2021-08-24, article, Unity-2021 era, URP)
+- [GitHub - hecomi/UnityFurURP: Fur shader implementation for URP](https://github.com/hecomi/UnityFurURP): Repo: fur shader for URP. (2021-06-27, repo, Unity-2021 era, URP)
+- [Unity URP | Tessellation + Interactive Grass](https://www.youtube.com/watch?v=aLzUJRQHLWc): Combines tessellation with interactive grass in URP. (2021-03-19, video, Unity-2021 era, URP)
 - [Soft Foliage Shader Breakdown](https://www.cyanilux.com/tutorials/soft-foliage-shader-breakdown/): Breakdown of a soft foliage shader using alpha clipping with a foliage texture. (2021-03-16, article, Unity-2021 era)
+- [Unity | I made an Interactive Grass Shader + Tool](https://www.youtube.com/watch?v=xKJHL8nQiuM): Builds an interactive grass shader and companion tool. (2021-01-30, video, Unity-2021 era)
 - [Grass Shader](https://giordi91.github.io/post/grass/): Developer's write-up on building a real-time grass system in a custom engine. (2020-09-25, article, Unity-old era)
 - [My take on shaders: Stylized tree leaves – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-stylized-tree-leaves/): Tutorial on a stylized tree leaves shader. (2020-03-06, article, Unity-old era)
+- [My take on shaders: Grass Shader (Part II) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-grass-shader-part-ii/): Second part of a grass shader tutorial. (2019-12-14, article, Unity-old era)
+- [My take on shaders: Grass Shader (Part I) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-grass-shader-part-i/): First part of a grass shader tutorial using geometry shaders. (2019-11-03, article, Unity-old era)
 - [Shader Showcase Saturday #3: Interactive Grass](https://www.alanzucconi.com/2018/07/28/shader-showcase-saturday-3/): Creates interactive grass that reacts to wind and player movement. (Alan Zucconi, 2018-07-28, article, Unity-old era)
 - [Handpainted Grass](https://www.patreon.com/posts/18425663): Patreon post on handpainted grass. (MinionsArt, 2018-04-01, post, Unity-old era)
 - [Pine Tree](https://www.patreon.com/posts/17531808): Patreon post modeling a pine tree. (MinionsArt, 2018-03-01, post, Unity-old era)
+- [Waving Grass Shader in Unity](https://lindenreid.wordpress.com/2018/01/07/waving-grass-shader-in-unity/): Tutorial on making a waving grass vertex shader in Unity. (Linden Reid, 2018-01-07, article, Unity-old era)
 - [Waving Grass Shader in Unity](https://lindenreidblog.com/2018/01/07/waving-grass-shader-in-unity/): A tutorial on how to write an animated waving grass shader in Unity/CG. (Linden Reid, 2018-01-07, article, Unity-old era)
 - [Stylized Tree](https://www.patreon.com/posts/14329689): Patreon post modeling a stylized tree. (MinionsArt, 2017-09-01, post, Unity-old era)
 - [Tree Build-up](https://www.patreon.com/posts/8019316): Patreon post building up a tree model. (MinionsArt, 2017-02-01, post, Unity-old era)
@@ -33,3 +40,4 @@
 - [How do Major Video Games Render Grass?](https://www.youtube.com/watch?v=bp7REZBV4P4): How major games render grass. (video)
 - [Crumble: Platform Game Mechanics & Shaders in Unity](https://80.lv/articles/crumble-platform-game-mechanics-shaders-in-unity/): Developer breakdown of Crumble: ball and soft body mechanics, grass and watercolor shaders. (article)
 - [Chapter 7. Rendering Countless Blades of Waving Grass](https://developer.nvidia.com/gpugems/gpugems/part-i-natural-effects/chapter-7-rendering-countless-blades-waving-grass): GPU Gems chapter on rendering vast fields of waving grass blades. (article)
+- [Adding Shadow Casting to Grass Baked with Compute Shaders ✔️ 2020.3 | Unity URP Game Dev Tutorial](https://www.youtube.com/watch?v=IPoHY_yJxMc): Adds shadow casting to grass drawn through compute shaders in URP. (video, Unity 2020, URP)

@@ -1,6 +1,6 @@
 # Game art breakdowns
 
-> Art & learning · 140 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 141 hand-filtered guides on GamedevJelly, newest first.
 
 - [The Secrets Behind THAT Cyberpunk 2077 Montage](https://www.youtube.com/watch?v=NlAFWaa9UQo): Breaks down how Cyberpunk 2077's famous montage scene was built from in-engine systems and editing. (Game Maker's Toolkit, 2026-05-15, video, Unity-6 era)
 - [Cairn technical art deep dive: Rendering gameplay-specific rock materials on top of level design](https://unity.com/blog/cairn-technical-art-rendering-gameplay-rock-materials): Using 3D blendmaps and compute shaders to keep climbable rock surfaces consistent between visuals and gameplay. (Unity, 2026-04-17, article, Unity-6 era)
@@ -57,6 +57,7 @@
 - [Stylized VFX in RIME – Water Edition](https://simonschreibt.de/gat/stylized-vfx-in-rime-water-edition/): Talk on three stylized water-related effects in RIME at Unreal Fest Europe 2018. (Simon Schreibt, 2018-05-01, article, Unity-old era)
 - [Cool Stuff with Textures](https://simonschreibt.de/gat/cool-stuff-with-textures/): Talk on using textures for purposes beyond color, at the Digital Art Conference 2017. (Simon Schreibt, 2017-09-27, article, Unity-old era)
 - [Stylized VFX in RIME | Simonschreibt.](https://simonschreibt.de/gat/stylized-vfx-in-rime/): Talk write-up on three stylized effects used in RIME. (2017-06-07, article, Unity-old era)
+- [How I’d do it: BLUK visuals](https://halisavakis.com/how-id-do-it-bluk-visuals/): Recreates the visuals of the mobile game BLUK in Unity. (Harry Alisavakis, 2017-04-05, article, Unity-old era)
 - [The Ocean: Wind Waker Graphics Analysis](https://medium.com/@gordonnl/the-ocean-170fdfd659f1): Wind Waker graphics analysis of how the ocean is rendered. (2017-01-28, article, Unity-old era)
 - [Wind Waker Graphics Analysis](https://medium.com/@gordonnl/wind-waker-graphics-analysis-a0b575a31127): Wind Waker graphics analysis covering how the game's stylized look is achieved. (2016-11-10, article, Unity-old era)
 - [The Joy of VFX – Pintable](https://simonschreibt.de/gat/pintable/): Looks at the VFX in a pinball table game. (Simon Schreibt, 2016-07-10, article, Unity-old era)
