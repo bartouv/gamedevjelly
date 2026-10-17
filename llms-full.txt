@@ -6,7 +6,7 @@
 ## Shaders & rendering
 
 
-### Shader basics & recipes (92 guides; slug `shader-basics`)
+### Shader basics & recipes (97 guides; slug `shader-basics`)
 - [The Shader Survival Guide — MASTER SHADER GRAPH with Unity](https://www.youtube.com/watch?v=qx7pn6JMBnY): Master Shader Graph in Unity: a guided tour of the nodes and the thinking behind shaders. (Game Slave, 2026-08-26, video, Unity-6 era)
 - [Understanding Unity shader structure](https://jettelly.com/blog/understanding-unity-shader-structure): Quick look at what goes into a Unity shader: ShaderLab, HLSL and related pieces. (Jettelly, 2026-08-21, article, Unity-6 era)
 - [Unity VFX Graph - Portal Effect Tutorial](https://www.youtube.com/watch?v=z5uJA4Ay-Po): Create a portal using VFX Graph and Shader Graph, with a Blender circle mesh and Material Maker noise textures. (Gabriel Aguiar Prod., 2026-07-22, video, Unity-6 era)
@@ -23,6 +23,7 @@
 - [Unity UI Shaders you will love - Greyscale, Tints and Gradients](https://www.youtube.com/watch?v=0BOH42BZEic): Use Shader Graph for UI to make four effects, including greyscale, tints and gradients. (Christina Creates Games, 2025-12-08, video, Unity-6 era)
 - [Unity Shader Code Basics 01 - Your First Shader](https://danielilett.com/2025-10-15-tut10-01-your-first-shader/): Introduces writing HLSL shader code in Unity, where Shader Graph falls short. (Daniel Ilett, 2025-10-15, article, Unity-6 era)
 - [@halisavakis.com: HLSL function declared in one file, defined in another](https://bsky.app/profile/halisavakis.com/post/3lyhyn55eyc2l): Shader tip: split declaration and definition across include files so passes share code while implementations vary. (Harry Alisavakis, 2025-09-10, post, Unity-6 era)
+- [Borderlands shader (and textures) (Unreal)](https://www.artstation.com/blogs/spacecentipede/G9DXL/borderlands-shader-and-textures): Unreal Engine: how to build a Borderlands-style cel-shaded material and its textures. The toon and outline ideas port to Shader Graph. (Daniil Spivak, 2025-08-23, article, Unity-6 era)
 - [Unity Shader Graph Basics (Part 10 - Custom Functions)](https://danielilett.com/2024-07-09-tut7-14-intro-to-shader-graph-part-10/): Injects custom HLSL functions into Shader Graph, including access to additional point light data. (Daniel Ilett, 2024-07-09, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 9 - Scene Intersections 2)](https://danielilett.com/2024-05-28-tut7-13-intro-to-shader-graph-part-9/): Uses scene intersections for foamy coastal water edges and glowing edges on passing objects. (Daniel Ilett, 2024-05-28, article, Unity-2022 era)
 - [Unity - Foil Card Shader Graph](https://www.youtube.com/watch?v=f-ca4lAf_Gw): A holographic foil trading-card effect in Shader Graph. (Game Slave, 2024-05-15, video, Unity-2022 era)
@@ -31,7 +32,6 @@
 - [The Best Darn Grid Shader (Yet)](https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8): How to draw a clean, anti-aliased grid in a shader that holds up at any distance and viewing angle. (Ben Golus, 2023-10-20, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 1 - Your First Graph)](https://danielilett.com/2023-09-26-tut7-3-intro-to-shader-graph/): Beginner guide to creating your first Shader Graph shader in Unity. (Daniel Ilett, 2023-09-26, article, Unity-2022 era)
 - [Intro to Shader Graph in Unity 2022 (Part 1 - Your First Shader)](https://www.youtube.com/watch?v=TbZYoSu1w8Y): Shader Graph part 1 on building your first shader. (Daniel Ilett, 2023-09-26, video, Unity 2022)
-- [Lava Lamp Unity Shader Graph | Tutorial](https://www.youtube.com/watch?v=HmICrwj2Exo): A lava-lamp fluid effect in URP with Shader Graph; the technique also works for other liquids. (Game Slave, 2023-07-16, video, Unity-2022 era)
 
 ### Lighting & shadows (134 guides; slug `lighting`)
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
@@ -60,7 +60,7 @@
 - [Introduction to URP for advanced creators (Unity 6 edition)](https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6): Free Unity 6 guide to URP covering render graph, GPU Resident Drawer, decals and Full Screen Shader Graph. (Unity, 2024-10-17, article, Unity-6 era)
 - [Unity 6's New Global Illumination Lighting Features](https://unity.com/blog/engine-platform/new-ways-of-applying-global-illumination-in-unity-6): Unity 6 global illumination options, including Adaptive Probe Volumes, for better-looking and cheaper lighting. (Unity, 2024-07-11, article, Unity-2022 era)
 
-### Post-processing & image effects (110 guides; slug `post-processing`)
+### Post-processing & image effects (111 guides; slug `post-processing`)
 - [Unity Shader Code Basics 09 - Post Processing](https://danielilett.com/2026-09-03-tut10-09-post-processing/): Writes grayscale and other post-process effects in URP using the newer Render Graph API. (Daniel Ilett, 2026-09-03, article, Unity-6 era, URP)
 - [Recreating a painterly shader in Unity URP](https://jettelly.com/blog/recreating-a-painterly-shader-in-unity-urp): Rebuilding a painterly look in URP over a few days using post-process passes. (Jettelly, 2026-07-19, article, Unity-6 era)
 - [Blur Shaders Pro - A Technical Breakdown](https://danielilett.com/2026-04-22-article-blur-shaders-pro/): Walks through building a two-pass Gaussian blur with sparse kernel support for a shader asset. (Daniel Ilett, 2026-04-22, article, Unity-6 era)
@@ -168,7 +168,7 @@
 - [Rendering volumetric clouds using signed distance fields – UHawk VR Development Blog](https://blog.uhawkvr.com/rendering/rendering-volumetric-clouds-using-signed-distance-fields/): Renders volumetric clouds in Unity using signed distance fields. (2020-05-06, article, Unity-old era)
 - [Fog Plane Shader Breakdown](https://www.cyanilux.com/tutorials/fog-plane-shader-breakdown/): Creates fog plane effects from scene depth, commonly vertical fog layers. (Cyan, 2019-12-05, article, Unity-old era)
 
-### Glass, refraction & transparency (42 guides; slug `transparency`)
+### Glass, refraction & transparency (43 guides; slug `transparency`)
 - [GitHub - Youssef-Afella/UnityURP-FakeRealGlass: Fast glass shader that doesn't require any RayTracing or RayMarching](https://github.com/Youssef-Afella/UnityURP-FakeRealGlass): Repo: URP glass shader that fakes realistic refraction without ray tracing or raymarching. (2026-02-08, repo, Unity-6 era, URP)
 - [Unity Shader Code Basics 03 - Transparency](https://danielilett.com/2026-01-01-tut10-03-transparency/): Explains drawing transparent objects and blending in hand-written Unity shaders. (Daniel Ilett, 2026-01-01, article, Unity-6 era)
 - [Pokémon Emerald cartridge shader walkthrough](https://bobacupcake.com/posts/2025-11-03-pokemon-emerald-shader-walkthrough.html): Achieving a translucent plastic cartridge effect by modelling internals and layering transparency tricks. (rob (bobacupcake), 2025-11-03, article, Unity-6 era)
@@ -222,7 +222,7 @@
 - [Vertex Animation in Unity - Snake effect from Naruto Shippuden](https://www.youtube.com/watch?v=v2irAJtV8sU): Makes a Naruto-style snake effect using vertex animation in Unity. (2020-08-29, video, Unity-old era)
 - [Unity Dynamic Deformation Shader with Amplify.](https://www.youtube.com/watch?v=TKkblNiklM0&feature=youtu.be): Builds a dynamic deformation shader in Amplify Shader Editor. (2020-07-29, video, Unity-old era)
 
-### UVs, triplanar & texturing (66 guides; slug `uv-texturing`)
+### UVs, triplanar & texturing (68 guides; slug `uv-texturing`)
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
 - [Terrain/Mesh Blending for URP](https://www.patreon.com/posts/terrain-mesh-urp-152116212): Patreon post on blending terrain and mesh surfaces together in URP. (MinionsArt, 2026-03-01, post, Unity-6 era, URP)
 - [Distance-field textures for infinitely sharp maps](https://bsky.app/profile/alexstrook.bsky.social/post/3mf6m7ajwrk2r): Using distance-field textures in shaders to render crisp, vector-like map lines at any zoom. (Alex Strook, 2026-02-19, post, Unity-6 era)
@@ -279,9 +279,10 @@
 ## Stylized looks
 
 
-### Toon & cel shading (50 guides; slug `toon-shading`)
+### Toon & cel shading (51 guides; slug `toon-shading`)
 - [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
+- [Borderlands shader (and textures) (Unreal)](https://www.artstation.com/blogs/spacecentipede/G9DXL/borderlands-shader-and-textures): Unreal Engine: how to build a Borderlands-style cel-shaded material and its textures. The toon and outline ideas port to Shader Graph. (Daniil Spivak, 2025-08-23, article, Unity-6 era)
 - [Half Past Yellow on the gentle art of making enemies for Tempest Tower](https://unity.com/blog/half-past-yellow-creating-enemy-visuals-tempest-tower): How the crisp, clayish enemy look in a tower defense game was achieved. (Unity, 2025-04-21, article, Unity-6 era)
 - [@halisavakis.com: depth-offset rim lighting that follows light direction](https://bsky.app/profile/halisavakis.com/post/3lbbatqiwg22l): Stylized rim light from depth offset instead of thresholded fresnel, reacting to light direction; pairs well with cel shading. (Harry Alisavakis, 2024-11-19, post, Unity-6 era)
 - [Stylized Metal Shader Graph](https://www.patreon.com/posts/stylized-metal-111029610): Patreon post building a stylized metal shader in Shader Graph. (MinionsArt, 2024-08-01, post, Unity-2022 era)
@@ -304,11 +305,11 @@
 - [Stylized Coins Shader | Unity Tutorial](https://www.youtube.com/watch?v=V1K1nxMcaGc): Builds a stylized coin shader in Unity. (Jettelly, 2020-08-06, video, Unity-old era)
 - [Analysing a Toon Shader | Unity Tutorial](https://www.youtube.com/watch?v=HD85S4TYVjg): Analyzes how a toon shader is put together. (Jettelly, 2020-07-28, video, Unity-old era)
 - [Cel-shading in Shader Graph and URP](https://danielilett.com/2020-03-21-tut5-1-urp-cel-shading/): Builds cel-shaded lighting in Shader Graph for URP using a bit of custom HLSL. (Daniel Ilett, 2020-03-21, article, Unity-old era, URP)
-- [GitHub - ColinLeung-NiloCat/UnityURPToonLitShaderExample: A very simple toon lit shader example, for you to learn writing custom lit shader in Unity URP](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample): Repo: simple URP toon lit shader example for learning to write shaders. (2020-03-15, repo, Unity-old era, URP)
 
-### Outlines & edge detection (30 guides; slug `outlines`)
+### Outlines & edge detection (32 guides; slug `outlines`)
 - [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Zelda Recall Rune in Unity URP](https://danielilett.com/2025-10-11-tut7-16-recall-rune/): Recreates the Zelda Recall Rune effect by drawing chosen objects to a mask and outlining them in URP. (Daniel Ilett, 2025-10-11, article, Unity-6 era, URP)
+- [Borderlands shader (and textures) (Unreal)](https://www.artstation.com/blogs/spacecentipede/G9DXL/borderlands-shader-and-textures): Unreal Engine: how to build a Borderlands-style cel-shaded material and its textures. The toon and outline ideas port to Shader Graph. (Daniil Spivak, 2025-08-23, article, Unity-6 era)
 - [Cyberpunk: Broken Edges](https://simonschreibt.de/gat/cyberpunk-broken-edges/): Looks at broken edges and outline artifacts in Cyberpunk. (Simon Schreibt, 2025-02-10, article, Unity-6 era)
 - [Screen buffer based depth outline shader](https://gist.github.com/BrianAmadori/72230debd937c45e92795a2200e2792c): Gist: Depth outline shader using the screen buffer. (2023-05-30, article, Unity-2022 era)
 - [Outline Post Process in Unity Shader Graph (URP)](https://danielilett.com/2023-03-21-tut7-1-fullscreen-outlines/): Draws outlines as a Fullscreen Shader Graph post process by detecting color changes between neighboring pixels. (Daniel Ilett, 2023-03-21, article, Unity-2022 era, URP)
@@ -331,7 +332,6 @@
 - [Rim Highlight in Unity](https://lindenreidblog.com/2018/03/03/rim-highlight-in-unity/): A tutorial on how to write a shader with an outline highlight in Unity/CG. (Linden Reid, 2018-03-03, article, Unity-old era)
 - [Pixel-Perfect Outline Shaders for Unity](https://www.videopoetics.com/tutorials/pixel-perfect-outline-shaders-unity/#working-in-clip-space): Creates pixel-perfect outline shaders with stable screen-space width. (2018-01-25, article, Unity-old era)
 - [Cel Shader with Outline in Unity](https://lindenreidblog.com/2017/12/19/cel-shader-with-outline-in-unity/): A tutorial on how to write a shader in Unity with cel/toon lighting and an outline effect. (Linden Reid, 2017-12-19, article, Unity-old era)
-- [Glow highlighting in Unity](http://xroft666.blogspot.com/2015/07/glow-highlighting-in-unity.html): Blog post on adding glow highlighting to objects in Unity. (2015-07-01, article, Unity-old era)
 
 ### Pixel art, dithering & retro (31 guides; slug `pixel-retro`)
 - [Breaking down Moon Reader's 2.5D pixel art style in Unity](https://jettelly.com/blog/breaking-down-moon-reader-s-2-5d-pixel-art-style): How a 2.5D pixel art look was made in Unity, simpler than it appears. (Jettelly, 2026-07-28, article, Unity-6 era)
@@ -487,7 +487,7 @@
 - [Hex Map 26: Biomes and Rivers](https://catlikecoding.com/unity/tutorials/hex-map/part-26/): Hex Map part 26: procedurally generating biomes and rivers. (Catlike Coding, 2018-02-20, article, Unity-old era)
 - [Hex Map 25: Water Cycle](https://catlikecoding.com/unity/tutorials/hex-map/part-25/): Hex Map part 25: simulating a partial water cycle. (Catlike Coding, 2018-01-22, article, Unity-old era)
 
-### Snow, ice, sand & lava (21 guides; slug `snow-ice-sand`)
+### Snow, ice, sand & lava (24 guides; slug `snow-ice-sand`)
 - [Snow and Icicles Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118211037): Patreon post building snow and icicles in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
 - [Snow and Icicles Tessellation Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118519855): Patreon post building snow and icicles with tessellation in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
 - [Voronoi-based Lava in Unity Shader Graph](https://danielilett.com/2023-06-20-tut7-2-voronoi-lava/): Builds animated lava in Shader Graph using custom Voronoi noise that exposes cell edges. (Daniel Ilett, 2023-06-20, article, Unity-2022 era)
@@ -509,6 +509,9 @@
 - [Ice Shader in Unity](https://lindenreid.wordpress.com/2017/12/30/ice-shader-in-unity/): Writes an ice shader in Unity. (Linden Reid, 2017-12-30, article, Unity-old era)
 - [Shaders Case Study - Spelunky Ice Cave Crystals](https://www.youtube.com/watch?v=7fMCTVhEzmU): Case study recreating Spelunky's ice cave crystal look with shaders. (Makin' Stuff Look Good, 2016-04-30, video, Unity-old era)
 - [Create a Sand Dune Shader Graph in Unity URP! No Textures Needed! ✔️ 2020.3 | Game Dev Tutorial](https://www.youtube.com/watch?v=KqWfo6EPjCw): Builds a sand dune shader in Shader Graph for URP without textures. (video, Unity 2020, URP)
+- [Ice material (Unreal)](https://www.artstation.com/artwork/AZegvo): Unreal Engine: an ice shader from layered bump offset, parallax occlusion for the cracks, depth gradients and a Fresnel edge. (Daniil Spivak, article)
+- [Sparkling snow shader (Unreal)](https://www.artstation.com/artwork/EzyGK8): Unreal Engine: snow whose flakes sparkle as the object rotates and react to scene lighting, so the glitter fades in shadow. (Daniil Spivak, article)
+- [Setting Up a Detailed Snow Shader in Unreal Engine 5 (80.lv)](https://80.lv/articles/setting-up-a-detailed-snow-shader-in-unreal-engine-5): Unreal Engine 5: a written breakdown of the sparkling snow shader, with the material setup. (Daniil Spivak, article)
 
 ## VFX
 

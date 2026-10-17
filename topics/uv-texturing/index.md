@@ -1,6 +1,6 @@
 # UVs, triplanar & texturing
 
-> Shaders & rendering · 66 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 68 hand-filtered guides on GamedevJelly, newest first.
 
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
 - [Terrain/Mesh Blending for URP](https://www.patreon.com/posts/terrain-mesh-urp-152116212): Patreon post on blending terrain and mesh surfaces together in URP. (MinionsArt, 2026-03-01, post, Unity-6 era, URP)
@@ -68,3 +68,5 @@
 - [Handmade Normal Maps](https://simonschreibt.de/gat/handmade-normal-maps/): Looks at handmade normal maps and what went wrong. (Simon Schreibt, 2013-12-04, article, Unity-old era)
 - [Parallax Card](https://alexanderameye.github.io/parallax-card): Tutorial on building a parallax card effect. (Alexander Ameye, article)
 - [Advanced shaders in Unity - Parallax mapping | Habrador](https://www.habrador.com/tutorials/shaders/3-parallax-mapping/): Tutorial on implementing parallax mapping in advanced Unity shaders. (Habrador (Erik Nordeus), article)
+- [Ice material (Unreal)](https://www.artstation.com/artwork/AZegvo): Unreal Engine: an ice shader from layered bump offset, parallax occlusion for the cracks, depth gradients and a Fresnel edge. (Daniil Spivak, article)
+- [Glitter shader (Unreal)](https://www.artstation.com/artwork/y4VJZR): Unreal Engine: view-dependent sparkles driven by a custom texture whose channels hold each sparkle's normal, trigger angle and mask. (Daniil Spivak, article)

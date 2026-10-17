@@ -1,6 +1,6 @@
 # Glass, refraction & transparency
 
-> Shaders & rendering · 42 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 43 hand-filtered guides on GamedevJelly, newest first.
 
 - [GitHub - Youssef-Afella/UnityURP-FakeRealGlass: Fast glass shader that doesn't require any RayTracing or RayMarching](https://github.com/Youssef-Afella/UnityURP-FakeRealGlass): Repo: URP glass shader that fakes realistic refraction without ray tracing or raymarching. (2026-02-08, repo, Unity-6 era, URP)
 - [Unity Shader Code Basics 03 - Transparency](https://danielilett.com/2026-01-01-tut10-03-transparency/): Explains drawing transparent objects and blending in hand-written Unity shaders. (Daniel Ilett, 2026-01-01, article, Unity-6 era)
@@ -44,3 +44,4 @@
 - [Assassins Creed 3 – Windows](https://simonschreibt.de/gat/assassins-creed-3-windows/): Explains how Assassin's Creed 3 fakes interiors visible through building windows. (Simon Schreibt, 2013-01-25, article, Unity-old era)
 - [URP Shaders in Code, Part 3: Transparent and Crystal Clear](https://nedmakesgames.medium.com/transparent-and-crystal-clear-writing-unity-urp-shaders-with-code-part-3-f6ccd6686507): Part three of writing URP shaders in code, covering transparency and crystal-clear materials. (Ned Makes Games, article, URP)
 - [A New & Unique Approach to Creating Mirrors for Games in Unity](https://80.lv/articles/a-new-unique-approach-to-creating-mirrors-for-games-in-unity/): Describes a mirror rendering approach faster than ray tracing and more detailed than screen space reflections. (article)
+- [Slime Shader: Fake Translucency (Unreal)](https://www.artstation.com/artwork/P6Wkk4): Unreal Engine: a jelly-like translucent look from a fully opaque material, using fake subsurface shading in emissive and World Position Offset for internal depth. (Daniil Spivak, article)

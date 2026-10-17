@@ -1,6 +1,6 @@
 # GamedevJelly
 
-> 2,171 hand-filtered guides, videos and posts plus 62 repos, 72 assets and 40 books. Outdated and obsolete links were removed; the focus is current Unity.
+> 2,178 hand-filtered guides, videos and posts plus 62 repos, 72 assets and 40 books. Outdated and obsolete links were removed; the focus is current Unity.
 
 Use this when building something in Unity (shaders, VFX, gameplay systems, tools, performance) and you want vetted references: find the best guides, repos, assets and books first, then read the most relevant ones before writing code.
 
@@ -11,7 +11,7 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 - [repos.json](https://gamedevjelly.com/data/repos.json), [assets.json](https://gamedevjelly.com/data/assets.json) and [books.json](https://gamedevjelly.com/data/books.json) list tools and reading; repos include install instructions and a `unity7` status where known.
 
 ## Data
-- [Library (all guides)](https://gamedevjelly.com/data/library.json): 2,171 items
+- [Library (all guides)](https://gamedevjelly.com/data/library.json): 2,178 items
 - [Topics](https://gamedevjelly.com/data/topics.json): slugs, names, groups, counts
 - [Creators](https://gamedevjelly.com/data/creators.json): who made the guides, with links
 - [Repos](https://gamedevjelly.com/data/repos.json), [Assets](https://gamedevjelly.com/data/assets.json), [Books](https://gamedevjelly.com/data/books.json)
@@ -27,40 +27,40 @@ Use this when building something in Unity (shaders, VFX, gameplay systems, tools
 - [Performance & optimization](https://gamedevjelly.com/topics/performance/index.md): Engineering, 125 guides
 - [C# & architecture](https://gamedevjelly.com/topics/csharp-architecture/index.md): Engineering, 124 guides
 - [Courses, series & lectures](https://gamedevjelly.com/topics/courses-series/index.md): Art & learning, 121 guides
-- [Post-processing & image effects](https://gamedevjelly.com/topics/post-processing/index.md): Shaders & rendering, 110 guides
+- [Post-processing & image effects](https://gamedevjelly.com/topics/post-processing/index.md): Shaders & rendering, 111 guides
 - [Tech art & DCC workflow](https://gamedevjelly.com/topics/tech-art-workflow/index.md): Art & learning, 103 guides
+- [Shader basics & recipes](https://gamedevjelly.com/topics/shader-basics/index.md): Shaders & rendering, 97 guides
 - [Water, waves & ripples](https://gamedevjelly.com/topics/water/index.md): Environment, 96 guides
 - [Render pipelines & SRP](https://gamedevjelly.com/topics/render-pipelines/index.md): Shaders & rendering, 95 guides
-- [Shader basics & recipes](https://gamedevjelly.com/topics/shader-basics/index.md): Shaders & rendering, 92 guides
 - [Particles & VFX Graph](https://gamedevjelly.com/topics/particles-vfx/index.md): VFX, 91 guides
 - [UI & UI Toolkit](https://gamedevjelly.com/topics/ui/index.md): Gameplay & systems, 76 guides
-- [UVs, triplanar & texturing](https://gamedevjelly.com/topics/uv-texturing/index.md): Shaders & rendering, 66 guides
+- [UVs, triplanar & texturing](https://gamedevjelly.com/topics/uv-texturing/index.md): Shaders & rendering, 68 guides
 - [Physics & collisions](https://gamedevjelly.com/topics/physics/index.md): Gameplay & systems, 64 guides
 - [Animation, rigging & IK](https://gamedevjelly.com/topics/animation/index.md): Gameplay & systems, 62 guides
 - [Dissolve, holograms & sci-fi FX](https://gamedevjelly.com/topics/dissolve-fx/index.md): VFX, 59 guides
 - [Libraries, packages & assets](https://gamedevjelly.com/topics/tools-libraries/index.md): Workflow & tools, 57 guides
 - [Raymarching & SDF](https://gamedevjelly.com/topics/raymarching-sdf/index.md): Procedural & math, 53 guides
 - [Vertex displacement & animation](https://gamedevjelly.com/topics/vertex-effects/index.md): Shaders & rendering, 52 guides
-- [Toon & cel shading](https://gamedevjelly.com/topics/toon-shading/index.md): Stylized looks, 50 guides
+- [Toon & cel shading](https://gamedevjelly.com/topics/toon-shading/index.md): Stylized looks, 51 guides
 - [Fire, magic & impacts](https://gamedevjelly.com/topics/fire-magic/index.md): VFX, 49 guides
 - [2D games](https://gamedevjelly.com/topics/2d/index.md): Platforms, 48 guides
 - [Volumetrics & fog](https://gamedevjelly.com/topics/volumetrics/index.md): Shaders & rendering, 47 guides
-- [Glass, refraction & transparency](https://gamedevjelly.com/topics/transparency/index.md): Shaders & rendering, 42 guides
+- [Glass, refraction & transparency](https://gamedevjelly.com/topics/transparency/index.md): Shaders & rendering, 43 guides
 - [Grass, trees & foliage](https://gamedevjelly.com/topics/vegetation/index.md): Environment, 39 guides
 - [Editor tools & extensions](https://gamedevjelly.com/topics/editor-tools/index.md): Workflow & tools, 38 guides
 - [Compute shaders & GPU](https://gamedevjelly.com/topics/compute-gpu/index.md): Shaders & rendering, 36 guides
 - [AI, pathfinding & boids](https://gamedevjelly.com/topics/ai-pathfinding/index.md): Gameplay & systems, 35 guides
 - [Sky, clouds & weather](https://gamedevjelly.com/topics/sky-weather/index.md): Environment, 34 guides
 - [Noise & procedural textures](https://gamedevjelly.com/topics/procedural-noise/index.md): Procedural & math, 34 guides
+- [Outlines & edge detection](https://gamedevjelly.com/topics/outlines/index.md): Stylized looks, 32 guides
 - [Pixel art, dithering & retro](https://gamedevjelly.com/topics/pixel-retro/index.md): Stylized looks, 31 guides
-- [Outlines & edge detection](https://gamedevjelly.com/topics/outlines/index.md): Stylized looks, 30 guides
 - [Terrain & landscapes](https://gamedevjelly.com/topics/terrain/index.md): Environment, 29 guides
 - [Stencil, masks & decals](https://gamedevjelly.com/topics/stencil-masking/index.md): Shaders & rendering, 27 guides
+- [Snow, ice, sand & lava](https://gamedevjelly.com/topics/snow-ice-sand/index.md): Environment, 24 guides
 - [Debugging & testing](https://gamedevjelly.com/topics/debugging-testing/index.md): Workflow & tools, 24 guides
 - [Builds, version control & DevOps](https://gamedevjelly.com/topics/build-devops/index.md): Workflow & tools, 24 guides
 - [Mobile](https://gamedevjelly.com/topics/mobile/index.md): Platforms, 23 guides
 - [DOTS, ECS, Jobs & Burst](https://gamedevjelly.com/topics/dots/index.md): Engineering, 23 guides
-- [Snow, ice, sand & lava](https://gamedevjelly.com/topics/snow-ice-sand/index.md): Environment, 21 guides
 - [AR & VR](https://gamedevjelly.com/topics/xr/index.md): Platforms, 20 guides
 - [Cameras & cutscenes](https://gamedevjelly.com/topics/cameras/index.md): Gameplay & systems, 18 guides
 - [Data, saving & localization](https://gamedevjelly.com/topics/data-scriptableobjects/index.md): Engineering, 17 guides

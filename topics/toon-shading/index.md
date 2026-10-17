@@ -1,9 +1,10 @@
 # Toon & cel shading
 
-> Stylized looks · 50 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 51 hand-filtered guides on GamedevJelly, newest first.
 
 - [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
+- [Borderlands shader (and textures) (Unreal)](https://www.artstation.com/blogs/spacecentipede/G9DXL/borderlands-shader-and-textures): Unreal Engine: how to build a Borderlands-style cel-shaded material and its textures. The toon and outline ideas port to Shader Graph. (Daniil Spivak, 2025-08-23, article, Unity-6 era)
 - [Half Past Yellow on the gentle art of making enemies for Tempest Tower](https://unity.com/blog/half-past-yellow-creating-enemy-visuals-tempest-tower): How the crisp, clayish enemy look in a tower defense game was achieved. (Unity, 2025-04-21, article, Unity-6 era)
 - [@halisavakis.com: depth-offset rim lighting that follows light direction](https://bsky.app/profile/halisavakis.com/post/3lbbatqiwg22l): Stylized rim light from depth offset instead of thresholded fresnel, reacting to light direction; pairs well with cel shading. (Harry Alisavakis, 2024-11-19, post, Unity-6 era)
 - [Stylized Metal Shader Graph](https://www.patreon.com/posts/stylized-metal-111029610): Patreon post building a stylized metal shader in Shader Graph. (MinionsArt, 2024-08-01, post, Unity-2022 era)

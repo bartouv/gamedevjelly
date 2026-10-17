@@ -1,6 +1,6 @@
 # Shader basics & recipes
 
-> Shaders & rendering · 92 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 97 hand-filtered guides on GamedevJelly, newest first.
 
 - [The Shader Survival Guide — MASTER SHADER GRAPH with Unity](https://www.youtube.com/watch?v=qx7pn6JMBnY): Master Shader Graph in Unity: a guided tour of the nodes and the thinking behind shaders. (Game Slave, 2026-08-26, video, Unity-6 era)
 - [Understanding Unity shader structure](https://jettelly.com/blog/understanding-unity-shader-structure): Quick look at what goes into a Unity shader: ShaderLab, HLSL and related pieces. (Jettelly, 2026-08-21, article, Unity-6 era)
@@ -18,6 +18,7 @@
 - [Unity UI Shaders you will love - Greyscale, Tints and Gradients](https://www.youtube.com/watch?v=0BOH42BZEic): Use Shader Graph for UI to make four effects, including greyscale, tints and gradients. (Christina Creates Games, 2025-12-08, video, Unity-6 era)
 - [Unity Shader Code Basics 01 - Your First Shader](https://danielilett.com/2025-10-15-tut10-01-your-first-shader/): Introduces writing HLSL shader code in Unity, where Shader Graph falls short. (Daniel Ilett, 2025-10-15, article, Unity-6 era)
 - [@halisavakis.com: HLSL function declared in one file, defined in another](https://bsky.app/profile/halisavakis.com/post/3lyhyn55eyc2l): Shader tip: split declaration and definition across include files so passes share code while implementations vary. (Harry Alisavakis, 2025-09-10, post, Unity-6 era)
+- [Borderlands shader (and textures) (Unreal)](https://www.artstation.com/blogs/spacecentipede/G9DXL/borderlands-shader-and-textures): Unreal Engine: how to build a Borderlands-style cel-shaded material and its textures. The toon and outline ideas port to Shader Graph. (Daniil Spivak, 2025-08-23, article, Unity-6 era)
 - [Unity Shader Graph Basics (Part 10 - Custom Functions)](https://danielilett.com/2024-07-09-tut7-14-intro-to-shader-graph-part-10/): Injects custom HLSL functions into Shader Graph, including access to additional point light data. (Daniel Ilett, 2024-07-09, article, Unity-2022 era)
 - [Unity Shader Graph Basics (Part 9 - Scene Intersections 2)](https://danielilett.com/2024-05-28-tut7-13-intro-to-shader-graph-part-9/): Uses scene intersections for foamy coastal water edges and glowing edges on passing objects. (Daniel Ilett, 2024-05-28, article, Unity-2022 era)
 - [Unity - Foil Card Shader Graph](https://www.youtube.com/watch?v=f-ca4lAf_Gw): A holographic foil trading-card effect in Shader Graph. (Game Slave, 2024-05-15, video, Unity-2022 era)
@@ -94,3 +95,7 @@
 - [Shaders 101 - Intro to Shaders](https://www.youtube.com/watch?v=T-HXmQAMhG0): Introduction to what shaders are and how they work in Unity. (Makin' Stuff Look Good, 2016-02-24, video, Unity-old era)
 - [Surface shaders in Unity3D](https://www.alanzucconi.com/2015/06/17/surface-shaders-in-unity3d/): Tutorial on writing surface shaders in Unity with example code. (Alan Zucconi, 2015-06-17, article, Unity-old era, BUILTIN)
 - [Intro to Shader Graph](https://www.cyanilux.com/tutorials/intro-to-shader-graph/): Detailed Shader Graph introduction covering graph setup, data types, previews and more. (article)
+- [Slime Shader: Fake Translucency (Unreal)](https://www.artstation.com/artwork/P6Wkk4): Unreal Engine: a jelly-like translucent look from a fully opaque material, using fake subsurface shading in emissive and World Position Offset for internal depth. (Daniil Spivak, article)
+- [Glitter shader (Unreal)](https://www.artstation.com/artwork/y4VJZR): Unreal Engine: view-dependent sparkles driven by a custom texture whose channels hold each sparkle's normal, trigger angle and mask. (Daniil Spivak, article)
+- [Sparkling snow shader (Unreal)](https://www.artstation.com/artwork/EzyGK8): Unreal Engine: snow whose flakes sparkle as the object rotates and react to scene lighting, so the glitter fades in shadow. (Daniil Spivak, article)
+- [Setting Up a Detailed Snow Shader in Unreal Engine 5 (80.lv)](https://80.lv/articles/setting-up-a-detailed-snow-shader-in-unreal-engine-5): Unreal Engine 5: a written breakdown of the sparkling snow shader, with the material setup. (Daniil Spivak, article)

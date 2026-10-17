@@ -1,6 +1,6 @@
 # Post-processing & image effects
 
-> Shaders & rendering · 110 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 111 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 09 - Post Processing](https://danielilett.com/2026-09-03-tut10-09-post-processing/): Writes grayscale and other post-process effects in URP using the newer Render Graph API. (Daniel Ilett, 2026-09-03, article, Unity-6 era, URP)
 - [Recreating a painterly shader in Unity URP](https://jettelly.com/blog/recreating-a-painterly-shader-in-unity-urp): Rebuilding a painterly look in URP over a few days using post-process passes. (Jettelly, 2026-07-19, article, Unity-6 era)
@@ -112,3 +112,4 @@
 - [Custom Renderer Features](https://www.cyanilux.com/tutorials/custom-renderer-features/): Explains writing custom renderer features and scriptable render passes for Universal RP with examples. (Cyan, article, URP)
 - [Color Grading](https://catlikecoding.com/unity/tutorials/custom-srp/color-grading/): Catlike Coding tutorial on adding color grading tools in a custom SRP. (Catlike Coding, article)
 - [2D GLOW & Bloom Effect in Unity](https://www.youtube.com/watch?v=G1x-NA05CeA): Adds 2D glow and bloom effects in Unity. (video)
+- [Fallout-inspired VATS post-process material (Unreal)](https://www.artstation.com/artwork/6LrXmn): Unreal Engine: a target-highlight post-process combining an outline, Fresnel glow and holographic scanlines. (Daniil Spivak, article)

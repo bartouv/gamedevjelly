@@ -1,6 +1,6 @@
 # Snow, ice, sand & lava
 
-> Environment · 21 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 24 hand-filtered guides on GamedevJelly, newest first.
 
 - [Snow and Icicles Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118211037): Patreon post building snow and icicles in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
 - [Snow and Icicles Tessellation Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118519855): Patreon post building snow and icicles with tessellation in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
@@ -23,3 +23,6 @@
 - [Ice Shader in Unity](https://lindenreid.wordpress.com/2017/12/30/ice-shader-in-unity/): Writes an ice shader in Unity. (Linden Reid, 2017-12-30, article, Unity-old era)
 - [Shaders Case Study - Spelunky Ice Cave Crystals](https://www.youtube.com/watch?v=7fMCTVhEzmU): Case study recreating Spelunky's ice cave crystal look with shaders. (Makin' Stuff Look Good, 2016-04-30, video, Unity-old era)
 - [Create a Sand Dune Shader Graph in Unity URP! No Textures Needed! ✔️ 2020.3 | Game Dev Tutorial](https://www.youtube.com/watch?v=KqWfo6EPjCw): Builds a sand dune shader in Shader Graph for URP without textures. (video, Unity 2020, URP)
+- [Ice material (Unreal)](https://www.artstation.com/artwork/AZegvo): Unreal Engine: an ice shader from layered bump offset, parallax occlusion for the cracks, depth gradients and a Fresnel edge. (Daniil Spivak, article)
+- [Sparkling snow shader (Unreal)](https://www.artstation.com/artwork/EzyGK8): Unreal Engine: snow whose flakes sparkle as the object rotates and react to scene lighting, so the glitter fades in shadow. (Daniil Spivak, article)
+- [Setting Up a Detailed Snow Shader in Unreal Engine 5 (80.lv)](https://80.lv/articles/setting-up-a-detailed-snow-shader-in-unreal-engine-5): Unreal Engine 5: a written breakdown of the sparkling snow shader, with the material setup. (Daniil Spivak, article)
