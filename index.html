@@ -2456,6 +2456,7 @@ const assetFeat = aa ? featBox('Asset of the week', aaShots.length && aa.st.imag
       const want = state.path || c === '__paths' ? 'paths' : c === '__repos' ? 'repos' : c === '__assets' ? 'assets' : c === '__books' ? 'books' : c === '__courses' ? 'courses' : c === '__topics' ? 'topics' : c === '__creators' ? 'creators' : subOf(c) ? 'topics' : catBySlug[c] ? (catBySlug[c].grp ? 'topics' : 'creators') : null;
       if (want && want !== tab) { tab = want; store.set('tab', tab); }
     }
+    $('#facets').hidden = $('#hubHint').hidden = true;   // only a subject view or a search result shows these; every other view starts without them
     renderTab(); renderBrowsing();
     nav.querySelectorAll('.cat[data-cat]').forEach(b => b.setAttribute('aria-pressed', String((b.dataset.cat || null) === c)));
     nav.querySelectorAll('.cat[data-path]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.path === state.path)));
