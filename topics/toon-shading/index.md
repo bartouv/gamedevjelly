@@ -1,6 +1,6 @@
 # Toon & cel shading
 
-> Stylized looks · 51 hand-filtered guides on GamedevJelly, newest first.
+> Stylized looks · 53 hand-filtered guides on GamedevJelly, newest first.
 
 - [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
@@ -30,6 +30,7 @@
 - [GitHub - ColinLeung-NiloCat/UnityURPToonLitShaderExample: A very simple toon lit shader example, for you to learn writing custom lit shader in Unity URP](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample): Repo: simple URP toon lit shader example for learning to write shaders. (2020-03-15, repo, Unity-old era, URP)
 - [My take on shaders: Cel shading – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-cel-shading/): Tutorial on cel shading. (2020-01-07, article, Unity-old era)
 - [Toon Glass Shader Breakdown](https://www.cyanilux.com/tutorials/toon-glass-shader-breakdown/): Breaks down a toon glass shader with diagonal lines that shift with camera position. (Cyan, 2020-01-03, article, Unity-old era)
+- [Watercolor shader (Devblog #13)](https://www.bruteforcegame.com/post/watercolor-shader-devblog-13): A Moebius-inspired watercolor look: cutout texture, outline, unlit coloured shadow, moving textures and an ink mask. (Brute Force Studio, 2019-10-20, article, Unity-old era)
 - [Zelda's Toon Shader in Unity](https://www.youtube.com/watch?v=dyiLJ1PFhM0): Recreates the Zelda toon shading style in Unity. (2019-09-24, video, Unity-old era)
 - [Shaders For People Who Don't Know How To Shader - Part 10: Toon Lighting](https://xibanya.github.io/ShaderTutorials/tutorial/Part10ToonLighting.html): Builds a toon lighting shader step by step in a beginner-friendly shader series. (Team Dogpit, 2019-07-09, article, Unity-old era)
 - [Cel Shading: Part 5 - Finishing Touches](https://danielilett.com/2019-06-23-tut2-5-cel-shading-end/): Finishes a cel shader with a lighting ramp texture and different shading styles for finer control. (Daniel Ilett, 2019-06-23, article, Unity-old era, BUILTIN)
@@ -39,6 +40,7 @@
 - [Cel Shading: Part 1 - Diffuse Lighting](https://danielilett.com/2019-06-05-tut2-1-diffuse/): Reads Unity light data and uses a dot product to compute diffuse lighting in a shader. (Daniel Ilett, 2019-06-05, article, Unity-old era, BUILTIN)
 - [Cel Shading: Part 0 - Lighting Models](https://danielilett.com/2019-06-01-tut2-0-lighting-models/): Introduces lighting models, splitting light into ambient, diffuse and specular, as groundwork for cel shading. (Daniel Ilett, 2019-06-01, article, Unity-old era, BUILTIN)
 - [Cel Shading | Series Introduction](https://danielilett.com/2019-05-29-tut2-intro/): Introduces a series on cel shading, the stylized look of games like Wind Waker. (2019-05-29, article, Unity-old era)
+- [Flat shader and character animation for a game jam (Devblog #5)](https://www.bruteforcegame.com/post/sheep-it-shader-devblog-05): Two shaders behind a flat, cartoon look made during a Ludum Dare jam. (Brute Force Studio, 2019-05-04, article, Unity-old era)
 - [https://www.ronja-tutorials.com/post/040-halftone-shading/](https://www.ronja-tutorials.com/2019/03/02/halftone-shading.html): Ronja tutorial on halftone shading in Unity. (2019-03-02, article, Unity-old era)
 - [Halftone Shading](https://www.ronja-tutorials.com/post/040-halftone-shading/): Halftone toon shading using fully lit or fully unlit areas. (Ronja, 2019-03-02, article, Unity-old era)
 - [Improved Toon Light](https://www.ronja-tutorials.com/post/032-improved-toon/): Improves a simple toon light shader. (Ronja, 2018-10-27, article, Unity-old era)

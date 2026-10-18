@@ -1,9 +1,10 @@
 # Snow, ice, sand & lava
 
-> Environment · 24 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 25 hand-filtered guides on GamedevJelly, newest first.
 
 - [Snow and Icicles Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118211037): Patreon post building snow and icicles in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
 - [Snow and Icicles Tessellation Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118519855): Patreon post building snow and icicles with tessellation in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
+- [Custom sand shader with player trails, from Paper Sky](https://80.lv/articles/check-out-a-custom-sand-shader-created-in-unity-for-a-game): A showcase of the sand shader behind the Paper Sky desert level: a trail follows the player through the sand. (Brute Force Studio, 2024-02-01, article, Unity-2022 era)
 - [Voronoi-based Lava in Unity Shader Graph](https://danielilett.com/2023-06-20-tut7-2-voronoi-lava/): Builds animated lava in Shader Graph using custom Voronoi noise that exposes cell edges. (Daniel Ilett, 2023-06-20, article, Unity-2022 era)
 - [Sand Rendering in Journey (GDC, John Edwards)](https://www.youtube.com/watch?v=wt2yYnBRD3U): GDC talk on how Journey renders its sand. (Alan Zucconi, 2022-11-06, video, Unity-2022 era)
 - [Unity | Interactive Snow Shader | Stylized Setup URP + Built-In](https://www.youtube.com/watch?v=zr5kgZeo9LA): Builds an interactive snow shader for URP and built-in pipelines. (2022-08-27, video, Unity-2022 era, MULTI)

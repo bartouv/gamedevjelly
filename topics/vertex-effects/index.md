@@ -1,6 +1,6 @@
 # Vertex displacement & animation
 
-> Shaders & rendering · 52 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 56 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
@@ -13,6 +13,7 @@
 - [Patreon: Animated Mesh](https://www.patreon.com/posts/animated-mesh-142420286): Patreon post on animated mesh effects in Unity. (2025-10-08, post, Unity-6 era)
 - [Adding Tessellation into URP Shader Graph](https://www.patreon.com/posts/adding-into-urp-130160596): Patreon post on adding tessellation to URP Shader Graph. (MinionsArt, 2025-05-01, post, Unity-6 era, URP)
 - [Unity Shader Graph Basics (Part 5 - Vertex Shaders)](https://danielilett.com/2024-02-13-tut7-7-intro-to-shader-graph-part-5/): Modifies mesh vertices in Shader Graph to create wave displacement effects. (Daniel Ilett, 2024-02-13, article, Unity-2022 era)
+- [Custom sand shader with player trails, from Paper Sky](https://80.lv/articles/check-out-a-custom-sand-shader-created-in-unity-for-a-game): A showcase of the sand shader behind the Paper Sky desert level: a trail follows the player through the sand. (Brute Force Studio, 2024-02-01, article, Unity-2022 era)
 - [Vertex Animated Water - Advanced Materials - Episode 36](https://www.youtube.com/watch?v=dXlzMScf584): Creates vertex-animated water in an advanced materials series. (2024-01-14, video, Unity-2022 era)
 - [Book page turn: vertex shader + flipbook node in Shader Graph](https://mastodon.gamedev.place/@Cyanilux/110725089805501728): Post showing a book page turn using a vertex shader and flipbook node in Shader Graph. (Cyan, 2023-07-16, post, Unity-2022 era)
 - [The Four Vertex Volume](https://simonschreibt.de/gat/four-vertex-volume/): Explains a four-vertex volume rendering trick. (Simon Schreibt, 2023-04-30, article, Unity-2022 era)
@@ -33,10 +34,13 @@
 - [How to write Shaders in Unity using HLSL](https://www.febucci.com/2019/11/how-to-write-shaders-in-unity/): Teaches writing Unity shaders from scratch in HLSL and ShaderLab, covering meshes, UVs and vertex/fragment stages. (Febucci, 2019-11-01, article, Unity-old era)
 - [My take on shaders: Geometry Shaders – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-geometry-shaders/): Collects resources and an introduction to geometry shaders. (Harry Alisavakis, 2019-10-04, article, Unity-old era)
 - [Cloud Shader Breakdown](https://www.cyanilux.com/tutorials/cloud-shader-breakdown/): Breaks down a cloud shader offsetting a subdivided plane's vertices with layered noise. (Cyan, 2019-09-25, article, Unity-old era)
+- [Curved world and sea water shader (Devblog #11)](https://www.bruteforcegame.com/post/curved-water-sea-shader-devblog-11): A vertex-shader world curvature effect, like in endless-runner mobile games, plus a flat-style sea. (Brute Force Studio, 2019-08-22, article, Unity-old era)
 - [Interactive Map Shader: Vertex Displacement - Alan Zucconi](https://www.alanzucconi.com/2019/07/03/interactive-map-01/): First part of an interactive map shader series covering vertex displacement. (2019-07-03, article, Unity-old era)
 - [Jellyfish Shader Breakdown](https://www.cyanilux.com/tutorials/jellyfish-shader-breakdown/): Breaks down a jellyfish shader animating vertices with sine waves. (Cyan, 2019-06-17, article, Unity-old era)
 - [Vertex Displacement](https://www.cyanilux.com/tutorials/vertex-displacement/): Explains moving vertices in Shader Graph, with swaying grass and animated shapes as examples. (Cyan, 2019-06-14, article, Unity-old era)
 - [Write-up: Tornado & Explosion – Harry Alisavakis](https://halisavakis.com/write-up-tornado-explosion/): Write-up of a tornado and explosion effect made with shaders. (Harry Alisavakis, 2019-05-04, article, Unity-old era)
+- [Grass shader that bends as the player rolls through it (Devblog #4)](https://www.bruteforcegame.com/post/grass-shader-devblog-04): Dense interactive grass that blends with the terrain, without placing thousands of objects by hand. (Brute Force Studio, 2019-04-26, article, Unity-old era)
+- [Soft-body jelly shader for a squishy character (Devblog #2)](https://www.bruteforcegame.com/post/soft-body-shader-jelly-joy-devblog-2): Fake a squishy soft body in real time with a vertex shader instead of a physics simulation. (Brute Force Studio, 2019-04-12, article, Unity-old era)
 - [My take on shaders: Butterflies and fish shader – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-butterflies-and-fish-shader/): Builds an unlit butterflies and fish shader. (2018-11-03, article, Unity-old era)
 - [Vertex Shader Tutorial for Unity](https://blog.febucci.com/2018/10/vertex-shader/): Introduces vertex shaders for Unity effects like waves, force fields and moving grass. (Febucci, 2018-10-01, article, Unity-old era)
 - [Shader Showcase Saturday #10: Fortnite Procedural Animations](https://www.alanzucconi.com/2018/09/17/shader-showcase-saturday-10/): Recreates Fortnite-style procedural animation effects with shaders. (Alan Zucconi, 2018-09-17, article, Unity-old era)

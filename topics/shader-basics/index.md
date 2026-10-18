@@ -1,6 +1,6 @@
 # Shader basics & recipes
 
-> Shaders & rendering · 97 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 100 hand-filtered guides on GamedevJelly, newest first.
 
 - [The Shader Survival Guide — MASTER SHADER GRAPH with Unity](https://www.youtube.com/watch?v=qx7pn6JMBnY): Master Shader Graph in Unity: a guided tour of the nodes and the thinking behind shaders. (Game Slave, 2026-08-26, video, Unity-6 era)
 - [Understanding Unity shader structure](https://jettelly.com/blog/understanding-unity-shader-structure): Quick look at what goes into a Unity shader: ShaderLab, HLSL and related pieces. (Jettelly, 2026-08-21, article, Unity-6 era)
@@ -73,7 +73,10 @@
 - [GitHub - Xibanya/ShaderTutorials: Shaders For People Who Don't Know How To Shader, a tutorial series for beginners!](https://github.com/Xibanya/ShaderTutorials): Repo: beginner-friendly shader tutorial series. (Team Dogpit, 2019-08-17, repo, Unity-old era)
 - [Sharper Mipmapping using Shader Based Supersampling](https://bgolus.medium.com/sharper-mipmapping-using-shader-based-supersampling-ed7aadb47bec): A shader-based supersampling approach for sharper results than plain mipmapping. (Ben Golus, 2019-08-10, article, Unity-old era)
 - [Glowy Ring Shader](https://www.youtube.com/watch?v=T7oR5fQslBQ): Builds a glowing ring shader in Unity. (Freya Holmér, 2019-07-26, video, Unity-old era)
+- [Image effects shader basics (Devblog #8)](https://www.bruteforcegame.com/post/image-effects-shader-devblog-08): How post-process shaders run from an OnRenderImage script, and how to chain several effects. (Brute Force Studio, 2019-07-07, article, Unity-old era)
+- [Vertical ground fog shader (Devblog #7)](https://www.bruteforcegame.com/post/vertical-fog-shader-devblog-07): Ground fog that fades by height, built from a mesh and used as a gameplay boundary. (Brute Force Studio, 2019-05-17, article, Unity-old era)
 - [GitHub - ArturoNereu/Unity2019ShaderDevelopment: Creating Shaders (via code and Shader Graph) in Unity 2019](https://github.com/ArturoNereu/Unity2019ShaderDevelopment): Repo: shader creation via code and Shader Graph in Unity 2019. (2019-05-07, repo, Unity 2019)
+- [Flat shader and character animation for a game jam (Devblog #5)](https://www.bruteforcegame.com/post/sheep-it-shader-devblog-05): Two shaders behind a flat, cartoon look made during a Ludum Dare jam. (Brute Force Studio, 2019-05-04, article, Unity-old era)
 - [Getting Started Learning Tech Art & Unity Shader Writing](https://lindenreidblog.com/2019/01/30/getting-started-learning-tech-art-unity-shader-writing/): A starting point for learning tech art and writing shaders in Unity. (Linden Reid, 2019-01-30, article, Unity-old era)
 - [UnityのShaderGraphを利用してSTYLY用のシェーダーを作成する](https://styly.cc/tips/shadergraph_to_shaderlab/): Japanese guide to making a Shader Graph shader and porting it to STYLY. (2019-01-23, article, Unity-old era)
 - [My take on shaders: What’s the deal with surface shaders?](https://halisavakis.com/my-take-on-shaders-whats-the-deal-with-surface-shaders/): Explains what surface shaders are and when to use them. (Harry Alisavakis, 2018-11-09, article, Unity-old era, BUILTIN)

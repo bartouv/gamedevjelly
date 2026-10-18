@@ -1,6 +1,6 @@
 # Performance & optimization
 
-> Engineering · 125 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 126 hand-filtered guides on GamedevJelly, newest first.
 
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [High Performance Unity Game Development: using data-oriented design (Manning)](https://manning.com/books/high-performance-unity-game-development): The book behind the data-oriented design approach: structure a Unity game around arrays of data and pure logic for high frame rates on limited hardware. (Nitzan Wilnai, 2026-10-01, article, Unity-6 era)
@@ -106,6 +106,7 @@
 - [Unity Performance: CPU Slicing Secrets](https://thegamedev.guru/unity-performance/cpu-slicing-secrets/): Explains CPU time slicing techniques to spread expensive work across frames in Unity. (GameDevGuru, 2020-02-10, article, Unity-old era)
 - [Zero allocation code in C# and Unity - Seba's Lab](http://www.sebaslab.com/zero-allocation-code-in-unity/): Article on writing zero-allocation C# code in Unity to avoid garbage collection. (2019-12-15, article, Unity-old era)
 - [Memory Management in Unity - Unity Learn](https://learn.unity.com/tutorial/memory-management-in-unity): Unity Learn guide to memory management in Unity. (2019-07-22, article, Unity-old era)
+- [Physics settings and optimization for a physics-driven game (Devblog #3)](https://www.bruteforcegame.com/post/physic-and-optimization-devblog-03): Gravity, fixed timestep and other physics settings that decide how a game feels, and how to keep them cheap. (Brute Force Studio, 2019-04-15, article, Unity-old era)
 - [Behind the burst compiler](https://xoofx.github.io/blog/2019/03/28/behind-the-burst-compiler): How the Burst compiler works, from its author: IL to optimised native code through LLVM. (Alexandre Mutel (xoofx), 2019-03-28, article, Unity-old era)
 - [Shader Showcase Saturday #7: Billboard Impostors](https://www.alanzucconi.com/2018/08/25/shader-showcase-saturday-7/): Uses billboard impostors to reduce polygon counts in Unity. (Alan Zucconi, 2018-08-25, article, Unity-old era)
 - [Object Management: Reusing Objects](https://catlikecoding.com/unity/tutorials/object-management/reusing-objects/): Object management tutorial on reusing objects via pooling. (Catlike Coding, 2018-06-21, article, Unity-old era)

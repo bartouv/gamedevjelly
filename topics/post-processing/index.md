@@ -1,6 +1,6 @@
 # Post-processing & image effects
 
-> Shaders & rendering · 111 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 112 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 09 - Post Processing](https://danielilett.com/2026-09-03-tut10-09-post-processing/): Writes grayscale and other post-process effects in URP using the newer Render Graph API. (Daniel Ilett, 2026-09-03, article, Unity-6 era, URP)
 - [Recreating a painterly shader in Unity URP](https://jettelly.com/blog/recreating-a-painterly-shader-in-unity-urp): Rebuilding a painterly look in URP over a few days using post-process passes. (Jettelly, 2026-07-19, article, Unity-6 era)
@@ -57,6 +57,7 @@
 - [Ultra Effects | Series Introduction](https://danielilett.com/2019-09-18-tut3-intro-ultra/): Introduction to a series on image effects such as fisheye lenses. (2019-09-18, article, Unity-old era)
 - [My take on shaders: Grab pass distortion](https://halisavakis.com/my-take-on-shaders-grab-pass-distortion/): Builds a grab pass distortion shader. (Harry Alisavakis, 2019-07-21, article, Unity-old era)
 - [Render Textures](https://cyangamedev.wordpress.com/2019/07/08/render-textures/): Explains render textures and how to use them in Unity shaders. (Cyan, 2019-07-08, article, Unity-old era)
+- [Image effects shader basics (Devblog #8)](https://www.bruteforcegame.com/post/image-effects-shader-devblog-08): How post-process shaders run from an OnRenderImage script, and how to chain several effects. (Brute Force Studio, 2019-07-07, article, Unity-old era)
 - [Image Effects: Part 7 - Wrapping Up](https://danielilett.com/2019-05-22-tut1-7-smo-end/): Wraps up an image-effects series covering space transformations, structs, textures and shader concepts. (Daniel Ilett, 2019-05-22, article, Unity-old era, BUILTIN)
 - [Image Effects | Part 6 - Painting Joy](https://danielilett.com/2019-05-18-tut1-6-smo-painting/?utm_source=share&utm_medium=ios_app): Uses the Kuwahara filter to give images an oil painting look. (2019-05-18, article, Unity-old era)
 - [Image Effects: Part 5 - Retro Arcade](https://danielilett.com/2019-05-15-tut1-5-smo-retro/): Recreates a retro console look in Unity by downsampling and restricting the color palette. (Daniel Ilett, 2019-05-15, article, Unity-old era, BUILTIN)

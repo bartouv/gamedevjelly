@@ -1,6 +1,6 @@
 # Volumetrics & fog
 
-> Shaders & rendering · 47 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 49 hand-filtered guides on GamedevJelly, newest first.
 
 - [@minionsart.bsky.social: low rolling volume clouds, kept simple to follow](https://bsky.app/profile/minionsart.bsky.social/post/3mtbyivjdfk2z): Cloud effect built on a local volume fog cube post, explained in an easy tutorial. (MinionsArt, 2026-08-17, post, Unity-6 era)
 - [Low Rolling Clouds Volume](https://www.patreon.com/minionsart/posts/rolling-local-166282612): Patreon post on a localized volume of low rolling clouds. (MinionsArt, 2026-08-01, post, Unity-6 era)
@@ -28,6 +28,8 @@
 - [Rendering volumetric clouds using signed distance fields – UHawk VR Development Blog](https://blog.uhawkvr.com/rendering/rendering-volumetric-clouds-using-signed-distance-fields/): Renders volumetric clouds in Unity using signed distance fields. (2020-05-06, article, Unity-old era)
 - [Fog Plane Shader Breakdown](https://www.cyanilux.com/tutorials/fog-plane-shader-breakdown/): Creates fog plane effects from scene depth, commonly vertical fog layers. (Cyan, 2019-12-05, article, Unity-old era)
 - [GitHub - SebLague/Clouds: Cloud rendering test](https://github.com/SebLague/Clouds): Repo: cloud rendering test by Sebastian Lague. (Sebastian Lague, 2019-10-28, repo, Unity-old era)
+- [Vertical ground fog shader (Devblog #7)](https://www.bruteforcegame.com/post/vertical-fog-shader-devblog-07): Ground fog that fades by height, built from a mesh and used as a gameplay boundary. (Brute Force Studio, 2019-05-17, article, Unity-old era)
+- [Sky and fog shader with flat clouds (Devblog #6)](https://www.bruteforcegame.com/post/sky-and-fog-shader-devblog-06): A moving-cloud skybox shader and the fog that goes with it. (Brute Force Studio, 2019-05-10, article, Unity-old era)
 - [Volumetric Clouds in Unity + Time of Day lighting](https://www.youtube.com/watch?v=LLUUIAKFgWg): Creates volumetric clouds in Unity with time-of-day lighting. (2018-09-21, video, Unity-old era)
 - [Looking Through Water](https://catlikecoding.com/unity/tutorials/flow/looking-through-water/): Catlike Coding tutorial on underwater fog and fake refraction. (2018-08-30, article, Unity-old era)
 - [My take on shaders: Vertical fog – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-vertical-fog/): Tutorial on building a vertical fog shader. (2018-07-03, article, Unity-old era)

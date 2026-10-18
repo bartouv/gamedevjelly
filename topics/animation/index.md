@@ -1,6 +1,6 @@
 # Animation, rigging & IK
 
-> Gameplay & systems · 62 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 63 hand-filtered guides on GamedevJelly, newest first.
 
 - [Giving a simple fighter personality with procedural animation in Unity](https://jettelly.com/blog/giving-a-simple-fighter-personality-in-unity): Breakdown of procedural animation that gives a legless, faceless fighter character and weight. (Jettelly, 2026-10-08, article, Unity-6 era)
 - [Self-balancing active ragdoll in Unity](https://jettelly.com/blog/self-balancing-active-ragdoll-in-unity-breakdown-of-an-upcoming-tool): Active ragdoll combining physics, IK and procedural animation, with a breakdown of the upcoming tool. (Jettelly, 2026-07-20, article, Unity-6 era)
@@ -47,6 +47,7 @@
 - [Shader animation in Unity](https://torchinsky.me/shader-animation-unity/): Explains shader-driven respawn animation and effects for a game character. (Torch in Sky, 2020-06-16, article, Unity-old era)
 - [https://weaverdev.io/projects/bonehead-procedural-animation/](https://weaverdev.io/blog/bonehead-procedural-animation): Weaverdev project write-up on procedural animation for a Bonehead character. (2020-03-13, article, Unity-old era)
 - [Tower Defense: Animation](https://catlikecoding.com/unity/tutorials/tower-defense/animation/): Tower defense tutorial animating enemy movement, intro, outro and death. (Catlike Coding, 2019-09-19, article, Unity-old era)
+- [Soft-body jelly shader for a squishy character (Devblog #2)](https://www.bruteforcegame.com/post/soft-body-shader-jelly-joy-devblog-2): Fake a squishy soft body in real time with a vertex shader instead of a physics simulation. (Brute Force Studio, 2019-04-12, article, Unity-old era)
 - [Recreating Pokemon Let's GO's Capture Animation | Mix and Jam](https://www.youtube.com/watch?v=8KS5FPZq4j8): Recreates the Pokemon Let's GO capture animation in Unity. (Mix and Jam, 2019-02-27, video, Unity-old era)
 - [Shader Showcase Saturday #10: Fortnite Procedural Animations](https://www.alanzucconi.com/2018/09/17/shader-showcase-saturday-10/): Recreates Fortnite-style procedural animation effects with shaders. (Alan Zucconi, 2018-09-17, article, Unity-old era)
 - [Easing Functions for Game Animations: Visual Guide](https://blog.febucci.com/2018/08/easing-functions/): Visual guide to easing functions like ease-in, ease-out and bounce for game animation. (Febucci, 2018-08-01, article, Unity-old era)

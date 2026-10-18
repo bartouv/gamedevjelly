@@ -1,6 +1,6 @@
 # Physics & collisions
 
-> Gameplay & systems · 64 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 67 hand-filtered guides on GamedevJelly, newest first.
 
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
 - [How Rust LTD Built The Deep Firearm Simulation in Hot Dogs, Horseshoes & Hand Grenades 2](https://unity.com/blog/rust-ltd-hot-dogs-horseshoes-hand-grenades-2): ECS ballistics, custom firearm physics and Quest 3 frame budgeting in a VR firearm simulator. (Unity, 2026-09-25, article, Unity-6 era)
@@ -35,9 +35,12 @@
 - [Moving the Ground](https://catlikecoding.com/unity/tutorials/movement/moving-the-ground/): Catlike Coding tutorial on standing on and moving over moving terrain. (Catlike Coding, 2020-04-25, article, Unity-old era)
 - [Movement: Surface Contact](https://catlikecoding.com/unity/tutorials/movement/surface-contact/): Catlike Coding movement tutorial on refining how a sphere interacts with surfaces. (Catlike Coding, 2019-12-09, article, Unity-old era)
 - [Movement: Physics](https://catlikecoding.com/unity/tutorials/movement/physics/): Catlike Coding movement tutorial on controlling a rigidbody sphere. (Catlike Coding, 2019-11-19, article, Unity-old era)
+- [Tongue tether swing mechanic in 3D (Devblog #14)](https://www.bruteforcegame.com/post/tongue-tether-swing-3d-devblog-14): A grappling-hook style swing built for a 3D platformer. (Brute Force Studio, 2019-11-17, article, Unity-old era)
 - [Movement: Sliding a Sphere](https://catlikecoding.com/unity/tutorials/movement/sliding-a-sphere/): Catlike Coding movement tutorial on sliding a sphere from player input. (Catlike Coding, 2019-10-25, article, Unity-old era)
+- [How to make a rolling ball feel juicy and responsive (Devblog #9)](https://www.bruteforcegame.com/post/how-to-roll-a-ball-devlog-09): Taking the standard roll-a-ball setup further with tuned movement and input response. (Brute Force Studio, 2019-07-14, article, Unity-old era)
 - [Recreating Mario Kart's Drifting | Mix and Jam](https://www.youtube.com/watch?v=Ki-tWT50cEQ): Recreates Mario Kart drifting in Unity. (Mix and Jam, 2019-06-20, video, Unity-old era)
 - [Recreating Breath of the Wild's Stasis Rune | Mix and Jam](https://www.youtube.com/watch?v=IxYcX7YiG1w): Recreates Breath of the Wild's Stasis Rune in Unity. (Mix and Jam, 2019-05-15, video, Unity-old era)
+- [Physics settings and optimization for a physics-driven game (Devblog #3)](https://www.bruteforcegame.com/post/physic-and-optimization-devblog-03): Gravity, fixed timestep and other physics settings that decide how a game feels, and how to keep them cheap. (Brute Force Studio, 2019-04-15, article, Unity-old era)
 - [Recreating God of War's Axe Throw | Mix and Jam](https://www.youtube.com/watch?v=M-3P59GtRW4): Recreates God of War's axe throw and recall in Unity. (Mix and Jam, 2019-03-28, video, Unity-old era)
 - [MathUtilities/Assets/Volume at master · zalo/MathUtilities](https://github.com/zalo/MathUtilities/tree/master/Assets/Volume): Repo: Collection of math and physics tricks for Unity, including volume calculations. (2017-02-11, repo, Unity-old era)
 - [GitHub - zalo/MathUtilities: A collection of some of the neat math and physics tricks that I've collected over the last few years.](https://github.com/zalo/MathUtilities): Repo: collection of math and physics tricks implemented for Unity. (2017-02-11, repo, Unity-old era)

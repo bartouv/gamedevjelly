@@ -1,6 +1,6 @@
 # Grass, trees & foliage
 
-> Environment · 39 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 40 hand-filtered guides on GamedevJelly, newest first.
 
 - [Outbound’s clip shader approach: Precise foliage discarding for real-time environments](https://unity.com/blog/outbound-square-glade-games-foliage-discarding-solution): A clip-shader technique for discarding foliage precisely, stopping grass poking through vehicles. (Unity, 2025-12-02, article, Unity-6 era)
 - [Interactive Grass | Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=GzK9P3MOvp8): Grass that bends away from the player, in Shader Graph. (Game Slave, 2025-11-18, video, Unity-6 era)
@@ -22,6 +22,7 @@
 - [My take on shaders: Stylized tree leaves – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-stylized-tree-leaves/): Tutorial on a stylized tree leaves shader. (2020-03-06, article, Unity-old era)
 - [My take on shaders: Grass Shader (Part II) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-grass-shader-part-ii/): Second part of a grass shader tutorial. (2019-12-14, article, Unity-old era)
 - [My take on shaders: Grass Shader (Part I) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-grass-shader-part-i/): First part of a grass shader tutorial using geometry shaders. (2019-11-03, article, Unity-old era)
+- [Grass shader that bends as the player rolls through it (Devblog #4)](https://www.bruteforcegame.com/post/grass-shader-devblog-04): Dense interactive grass that blends with the terrain, without placing thousands of objects by hand. (Brute Force Studio, 2019-04-26, article, Unity-old era)
 - [Shader Showcase Saturday #3: Interactive Grass](https://www.alanzucconi.com/2018/07/28/shader-showcase-saturday-3/): Creates interactive grass that reacts to wind and player movement. (Alan Zucconi, 2018-07-28, article, Unity-old era)
 - [Handpainted Grass](https://www.patreon.com/posts/18425663): Patreon post on handpainted grass. (MinionsArt, 2018-04-01, post, Unity-old era)
 - [Pine Tree](https://www.patreon.com/posts/17531808): Patreon post modeling a pine tree. (MinionsArt, 2018-03-01, post, Unity-old era)

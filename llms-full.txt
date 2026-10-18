@@ -6,7 +6,7 @@
 ## Shaders & rendering
 
 
-### Shader basics & recipes (97 guides; slug `shader-basics`)
+### Shader basics & recipes (100 guides; slug `shader-basics`)
 - [The Shader Survival Guide — MASTER SHADER GRAPH with Unity](https://www.youtube.com/watch?v=qx7pn6JMBnY): Master Shader Graph in Unity: a guided tour of the nodes and the thinking behind shaders. (Game Slave, 2026-08-26, video, Unity-6 era)
 - [Understanding Unity shader structure](https://jettelly.com/blog/understanding-unity-shader-structure): Quick look at what goes into a Unity shader: ShaderLab, HLSL and related pieces. (Jettelly, 2026-08-21, article, Unity-6 era)
 - [Unity VFX Graph - Portal Effect Tutorial](https://www.youtube.com/watch?v=z5uJA4Ay-Po): Create a portal using VFX Graph and Shader Graph, with a Blender circle mesh and Material Maker noise textures. (Gabriel Aguiar Prod., 2026-07-22, video, Unity-6 era)
@@ -60,7 +60,7 @@
 - [Introduction to URP for advanced creators (Unity 6 edition)](https://unity.com/resources/introduction-to-urp-advanced-creators-unity-6): Free Unity 6 guide to URP covering render graph, GPU Resident Drawer, decals and Full Screen Shader Graph. (Unity, 2024-10-17, article, Unity-6 era)
 - [Unity 6's New Global Illumination Lighting Features](https://unity.com/blog/engine-platform/new-ways-of-applying-global-illumination-in-unity-6): Unity 6 global illumination options, including Adaptive Probe Volumes, for better-looking and cheaper lighting. (Unity, 2024-07-11, article, Unity-2022 era)
 
-### Post-processing & image effects (111 guides; slug `post-processing`)
+### Post-processing & image effects (112 guides; slug `post-processing`)
 - [Unity Shader Code Basics 09 - Post Processing](https://danielilett.com/2026-09-03-tut10-09-post-processing/): Writes grayscale and other post-process effects in URP using the newer Render Graph API. (Daniel Ilett, 2026-09-03, article, Unity-6 era, URP)
 - [Recreating a painterly shader in Unity URP](https://jettelly.com/blog/recreating-a-painterly-shader-in-unity-urp): Rebuilding a painterly look in URP over a few days using post-process passes. (Jettelly, 2026-07-19, article, Unity-6 era)
 - [Blur Shaders Pro - A Technical Breakdown](https://danielilett.com/2026-04-22-article-blur-shaders-pro/): Walks through building a two-pass Gaussian blur with sparse kernel support for a shader asset. (Daniel Ilett, 2026-04-22, article, Unity-6 era)
@@ -141,7 +141,7 @@
 - [GitHub - luxonpi/UnityFluidExperiments: Collection of Fluid Simulation Experiments in Unity](https://github.com/MaxSigma/UnityFluidExperiments): Repo: fluid simulation experiments in Unity. (2019-03-11, repo, Unity-old era)
 - [GitHub - keijiro/StableFluids: A straightforward GPU implementation of Jos Stam's "Stable Fluids" on Unity.](https://github.com/keijiro/StableFluids): Repo: GPU implementation of Jos Stam's Stable Fluids in Unity. (Keijiro Takahashi, 2018-06-27, repo, Unity-old era)
 
-### Volumetrics & fog (47 guides; slug `volumetrics`)
+### Volumetrics & fog (49 guides; slug `volumetrics`)
 - [@minionsart.bsky.social: low rolling volume clouds, kept simple to follow](https://bsky.app/profile/minionsart.bsky.social/post/3mtbyivjdfk2z): Cloud effect built on a local volume fog cube post, explained in an easy tutorial. (MinionsArt, 2026-08-17, post, Unity-6 era)
 - [Low Rolling Clouds Volume](https://www.patreon.com/minionsart/posts/rolling-local-166282612): Patreon post on a localized volume of low rolling clouds. (MinionsArt, 2026-08-01, post, Unity-6 era)
 - [Volumetric Box/Fog Volume](https://www.patreon.com/minionsart/posts/making-fog-cube-163433291): Patreon post on making a box-shaped volumetric fog volume. (MinionsArt, 2026-07-01, post, Unity-6 era)
@@ -195,7 +195,7 @@
 - [Optimized Spooky Shader | Unity Tutorial](https://www.youtube.com/watch?v=lsqr2-PA6Uc): Builds an optimized spooky shader in Unity. (Jettelly, 2020-03-19, video, Unity-old era)
 - [RandomDevNotes/UnityAlphaBlending at master · Demkeys/RandomDevNotes](https://github.com/Demkeys/RandomDevNotes/tree/master/UnityAlphaBlending): Repo: Research notes on alpha blending in Unity. (2020-02-24, repo, Unity-old era)
 
-### Vertex displacement & animation (52 guides; slug `vertex-effects`)
+### Vertex displacement & animation (56 guides; slug `vertex-effects`)
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
@@ -207,6 +207,7 @@
 - [Patreon: Animated Mesh](https://www.patreon.com/posts/animated-mesh-142420286): Patreon post on animated mesh effects in Unity. (2025-10-08, post, Unity-6 era)
 - [Adding Tessellation into URP Shader Graph](https://www.patreon.com/posts/adding-into-urp-130160596): Patreon post on adding tessellation to URP Shader Graph. (MinionsArt, 2025-05-01, post, Unity-6 era, URP)
 - [Unity Shader Graph Basics (Part 5 - Vertex Shaders)](https://danielilett.com/2024-02-13-tut7-7-intro-to-shader-graph-part-5/): Modifies mesh vertices in Shader Graph to create wave displacement effects. (Daniel Ilett, 2024-02-13, article, Unity-2022 era)
+- [Custom sand shader with player trails, from Paper Sky](https://80.lv/articles/check-out-a-custom-sand-shader-created-in-unity-for-a-game): A showcase of the sand shader behind the Paper Sky desert level: a trail follows the player through the sand. (Brute Force Studio, 2024-02-01, article, Unity-2022 era)
 - [Vertex Animated Water - Advanced Materials - Episode 36](https://www.youtube.com/watch?v=dXlzMScf584): Creates vertex-animated water in an advanced materials series. (2024-01-14, video, Unity-2022 era)
 - [Book page turn: vertex shader + flipbook node in Shader Graph](https://mastodon.gamedev.place/@Cyanilux/110725089805501728): Post showing a book page turn using a vertex shader and flipbook node in Shader Graph. (Cyan, 2023-07-16, post, Unity-2022 era)
 - [The Four Vertex Volume](https://simonschreibt.de/gat/four-vertex-volume/): Explains a four-vertex volume rendering trick. (Simon Schreibt, 2023-04-30, article, Unity-2022 era)
@@ -220,7 +221,6 @@
 - [GitHub - MdIqubal/Matrix-Shockwave-Shader: Surface shader with tesselation - Tried recreating the shockwave effect in Matrix when Neo takes off.](https://github.com/MdIqubal/Matrix-Shockwave-Shader): Repo: Matrix-style shockwave surface shader using tessellation. (2020-12-07, repo, Unity-old era, BUILTIN)
 - [Texture Animation Techniques](https://medium.com/tech-at-wildlife-studios/texture-animation-techniques-1daecb316657): Explains baking animations into textures for vertex-shader playback (Vertex Animation Textures). (2020-09-06, article, Unity-old era)
 - [Vertex Animation in Unity - Snake effect from Naruto Shippuden](https://www.youtube.com/watch?v=v2irAJtV8sU): Makes a Naruto-style snake effect using vertex animation in Unity. (2020-08-29, video, Unity-old era)
-- [Unity Dynamic Deformation Shader with Amplify.](https://www.youtube.com/watch?v=TKkblNiklM0&feature=youtu.be): Builds a dynamic deformation shader in Amplify Shader Editor. (2020-07-29, video, Unity-old era)
 
 ### UVs, triplanar & texturing (68 guides; slug `uv-texturing`)
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
@@ -279,7 +279,7 @@
 ## Stylized looks
 
 
-### Toon & cel shading (51 guides; slug `toon-shading`)
+### Toon & cel shading (53 guides; slug `toon-shading`)
 - [Toon Shading (Cel Shading): how it works](https://moonjump.com/game-dev-mechanics-toon-shading-cel-shading-how-it-works/): Explains quantized diffuse lighting, hard specular cutoffs, and inverted-hull outlines for cel-shaded looks. (Moonjump, 2026-01-28, article, Unity-6 era)
 - [Graphics and rendering tips from Survival Kids](https://unity.com/blog/graphics-and-rendering-tips-from-survival-kids): Stylized paint-style shadows, Adaptive Probe Volumes and ambient occlusion tips from Survival Kids' graphics work. (Unity, 2025-08-27, article, Unity-6 era)
 - [Borderlands shader (and textures) (Unreal)](https://www.artstation.com/blogs/spacecentipede/G9DXL/borderlands-shader-and-textures): Unreal Engine: how to build a Borderlands-style cel-shaded material and its textures. The toon and outline ideas port to Shader Graph. (Daniil Spivak, 2025-08-23, article, Unity-6 era)
@@ -360,7 +360,7 @@
 - [https://www.ronja-tutorials.com/post/040-halftone-shading/](https://www.ronja-tutorials.com/2019/03/02/halftone-shading.html): Ronja tutorial on halftone shading in Unity. (2019-03-02, article, Unity-old era)
 - [Shader Showcase Saturday #11: Return of the Obra Dinn](https://www.alanzucconi.com/2018/10/24/shader-showcase-saturday-11/): Analyzes the aesthetic of Return of the Obra Dinn and how to recreate it with shaders. (Alan Zucconi, 2018-10-24, article, Unity-old era)
 
-### Painterly, sketch & watercolor (14 guides; slug `painterly`)
+### Painterly, sketch & watercolor (15 guides; slug `painterly`)
 - [Recreating a painterly shader in Unity URP](https://jettelly.com/blog/recreating-a-painterly-shader-in-unity-urp): Rebuilding a painterly look in URP over a few days using post-process passes. (Jettelly, 2026-07-19, article, Unity-6 era)
 - [Mystery Dungeon Sketches in Unity URP](https://danielilett.com/2024-09-27-tut7-15-mystery-dungeon-sketch-urp/): Builds a Mystery Dungeon style sketch look in URP with shadow maps, depth textures, post processing and triplanar mapping. (Daniel Ilett, 2024-09-27, article, Unity-2022 era, URP)
 - [Mystery Dungeon Sketch Post Process in Unity URP](https://www.youtube.com/watch?v=h2f05Id8uKc): Builds a Mystery Dungeon style sketch post process in URP using triplanar mapping. (Daniel Ilett, 2024-09-27, video, Unity-2022 era, URP)
@@ -371,6 +371,7 @@
 - [Watercolour Shader Experiments](https://cyangamedev.wordpress.com/2020/10/06/watercolour-shader-experiments/): Experiments creating watercolour-style shaders in Unity. (Cyan, 2020-10-06, article, Unity-old era)
 - [GitHub - AlexStrook/ClayxelsPaintingEffect: a custom shader experiment with clayxels. Requires Clayxels](https://github.com/AlexStrook/ClayxelsPaintingEffect): Repo: painting-style shader experiment built on Clayxels. (2020-09-29, repo, Unity-old era)
 - [Ultra Effects | Part 10 - Dungeon Drawing](https://danielilett.com/2020-03-04-tut3-10-dungeon-drawing/): Combines depth, color and normal outlines into a sketched dungeon drawing look. (2020-03-04, article, Unity-old era)
+- [Watercolor shader (Devblog #13)](https://www.bruteforcegame.com/post/watercolor-shader-devblog-13): A Moebius-inspired watercolor look: cutout texture, outline, unlit coloured shadow, moving textures and an ink mask. (Brute Force Studio, 2019-10-20, article, Unity-old era)
 - [Image Effects | Part 6 - Painting Joy](https://danielilett.com/2019-05-18-tut1-6-smo-painting/?utm_source=share&utm_medium=ios_app): Uses the Kuwahara filter to give images an oil painting look. (2019-05-18, article, Unity-old era)
 - [Scribble Cel](https://simonschreibt.de/gat/scribble-cel/): Covers a scribbled cel-shaded look with animated hand-drawn line wobble, with several updates. (Simon Schreibt, 2013-05-15, article, Unity-old era)
 - [Real-Time Watercolor in Tint](https://medium.com/lykkestudios/creating-realtime-watercolor-in-our-mobile-game-tint-on-apple-arcade-4f914110b5d8): Describes how Lykke Studios built a real-time watercolor paint simulation for the mobile game Tint. (article)
@@ -379,7 +380,7 @@
 ## Environment
 
 
-### Water, waves & ripples (96 guides; slug `water`)
+### Water, waves & ripples (97 guides; slug `water`)
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
 - [A real-time potion shader breakdown in Unity](https://jettelly.com/blog/a-real-time-potion-shader-breakdown-in-unity): Liquid that reacts to movement, built with C# and Shader Graph. (Jettelly, 2026-08-26, article, Unity-6 era)
 - [Generating a Living Sea](https://bartouv.github.io/articles/generating-a-living-sea.html): The three systems behind a Privateer battle are really one pipeline: wave function collapse builds an island map, the jump flood algorithm turns its coast into a distance field, and the boids fish read that field to stay in the water. (Gal Bartouv, 2026-07-01, article, Unity-6 era)
@@ -406,7 +407,7 @@
 - [Waycaster - Waterfall FX in Unity Tutorial](https://www.youtube.com/watch?v=894TZuJralo&t=33s): Builds a waterfall effect in Unity with the Waycaster approach. (2021-09-29, video, Unity-2021 era)
 - [WaveMaker | Physics | Unity Asset Store](https://assetstore.unity.com/packages/tools/physics/wavemaker-169129?aid=1101l9Jkz&utm_source=aff): Asset Store package for simulating wave physics in Unity. (2021-07-14, article, Unity-2021 era)
 
-### Sky, clouds & weather (34 guides; slug `sky-weather`)
+### Sky, clouds & weather (35 guides; slug `sky-weather`)
 - [@minionsart.bsky.social: low rolling volume clouds, kept simple to follow](https://bsky.app/profile/minionsart.bsky.social/post/3mtbyivjdfk2z): Cloud effect built on a local volume fog cube post, explained in an easy tutorial. (MinionsArt, 2026-08-17, post, Unity-6 era)
 - [Low Rolling Clouds Volume](https://www.patreon.com/minionsart/posts/rolling-local-166282612): Patreon post on a localized volume of low rolling clouds. (MinionsArt, 2026-08-01, post, Unity-6 era)
 - [5 Skybox Methods Every Unity Dev Needs To Know About](https://www.youtube.com/watch?v=Yd0xNTYNfss): Covers five skybox methods for Unity developers. (Game Dev Guide, 2025-08-08, video, Unity-6 era)
@@ -425,15 +426,15 @@
 - [GitHub - SebLague/Clouds: Cloud rendering test](https://github.com/SebLague/Clouds): Repo: cloud rendering test by Sebastian Lague. (Sebastian Lague, 2019-10-28, repo, Unity-old era)
 - [Cloud Shader Breakdown](https://www.cyanilux.com/tutorials/cloud-shader-breakdown/): Breaks down a cloud shader offsetting a subdivided plane's vertices with layered noise. (Cyan, 2019-09-25, article, Unity-old era)
 - [Unity ShaderGraph Procedural Skybox Tutorial Pt.1](https://timcoster.com/2019/09/03/unity-shadergraph-skybox-quick-tutorial/): Builds a procedural skybox in Shader Graph, part one. (2019-09-03, article, Unity-old era)
+- [Sky and fog shader with flat clouds (Devblog #6)](https://www.bruteforcegame.com/post/sky-and-fog-shader-devblog-06): A moving-cloud skybox shader and the fog that goes with it. (Brute Force Studio, 2019-05-10, article, Unity-old era)
 - [Volumetric Clouds in Unity + Time of Day lighting](https://www.youtube.com/watch?v=LLUUIAKFgWg): Creates volumetric clouds in Unity with time-of-day lighting. (2018-09-21, video, Unity-old era)
 - [Shader Showcase Saturday #5: Dripping Rain - Alan Zucconi](https://www.alanzucconi.com/2018/08/10/shader-showcase-saturday-5/): Shader Showcase Saturday on creating dripping rain over materials. (2018-08-10, article, Unity-old era)
 - [SHADER/raymarching/raymarching clouds.glsl at master · danielscherzer/SHADER](https://github.com/danielscherzer/SHADER/blob/master/raymarching/raymarching%20clouds.glsl): Repo: GLSL fragment shader example for raymarched clouds from a shader programming lecture. (2018-01-18, repo, Unity-old era)
 - [My take on shaders: Firewatch multi-colored fog – Harry Alisavakis](http://halisavakis.com/my-take-on-shaders-firewatch-multi-colored-fog/): Recreates Firewatch-style multi-colored fog. (2017-11-26, article, Unity-old era)
 - [Atmospheric Scattering Shader](https://www.alanzucconi.com/2017/10/10/atmospheric-scattering-7/): Final shader step of a series simulating Rayleigh scattering for a planet's atmosphere. (Alan Zucconi, 2017-10-10, article, Unity-old era)
 - [A Shader for the Atmospheric Sphere](https://www.alanzucconi.com/2017/10/10/shader-atmospheric-sphere/): Writes the shader for the atmospheric sphere in a scattering series. (Alan Zucconi, 2017-10-10, article, Unity-old era)
-- [A Journey Through the Atmosphere](https://www.alanzucconi.com/2017/10/10/atmospheric-scattering-4/): Models how atmospheric density changes with altitude for scattering. (Alan Zucconi, 2017-10-10, article, Unity-old era)
 
-### Grass, trees & foliage (39 guides; slug `vegetation`)
+### Grass, trees & foliage (40 guides; slug `vegetation`)
 - [Outbound’s clip shader approach: Precise foliage discarding for real-time environments](https://unity.com/blog/outbound-square-glade-games-foliage-discarding-solution): A clip-shader technique for discarding foliage precisely, stopping grass poking through vehicles. (Unity, 2025-12-02, article, Unity-6 era)
 - [Interactive Grass | Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=GzK9P3MOvp8): Grass that bends away from the player, in Shader Graph. (Game Slave, 2025-11-18, video, Unity-6 era)
 - [GPU Instanced Grass Breakdown](https://www.cyanilux.com/tutorials/gpu-instanced-grass-breakdown/): Breakdown of GPU instanced grass using Shader Graph with DrawMeshInstanced APIs. (Cyan, 2025-10-03, article, Unity-6 era)
@@ -454,11 +455,11 @@
 - [My take on shaders: Stylized tree leaves – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-stylized-tree-leaves/): Tutorial on a stylized tree leaves shader. (2020-03-06, article, Unity-old era)
 - [My take on shaders: Grass Shader (Part II) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-grass-shader-part-ii/): Second part of a grass shader tutorial. (2019-12-14, article, Unity-old era)
 - [My take on shaders: Grass Shader (Part I) – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-grass-shader-part-i/): First part of a grass shader tutorial using geometry shaders. (2019-11-03, article, Unity-old era)
+- [Grass shader that bends as the player rolls through it (Devblog #4)](https://www.bruteforcegame.com/post/grass-shader-devblog-04): Dense interactive grass that blends with the terrain, without placing thousands of objects by hand. (Brute Force Studio, 2019-04-26, article, Unity-old era)
 - [Shader Showcase Saturday #3: Interactive Grass](https://www.alanzucconi.com/2018/07/28/shader-showcase-saturday-3/): Creates interactive grass that reacts to wind and player movement. (Alan Zucconi, 2018-07-28, article, Unity-old era)
 - [Handpainted Grass](https://www.patreon.com/posts/18425663): Patreon post on handpainted grass. (MinionsArt, 2018-04-01, post, Unity-old era)
 - [Pine Tree](https://www.patreon.com/posts/17531808): Patreon post modeling a pine tree. (MinionsArt, 2018-03-01, post, Unity-old era)
 - [Waving Grass Shader in Unity](https://lindenreid.wordpress.com/2018/01/07/waving-grass-shader-in-unity/): Tutorial on making a waving grass vertex shader in Unity. (Linden Reid, 2018-01-07, article, Unity-old era)
-- [Waving Grass Shader in Unity](https://lindenreidblog.com/2018/01/07/waving-grass-shader-in-unity/): A tutorial on how to write an animated waving grass shader in Unity/CG. (Linden Reid, 2018-01-07, article, Unity-old era)
 
 ### Terrain & landscapes (29 guides; slug `terrain`)
 - [Unity Shader Graph Basics (Part 13 - Terrain Lit Official Support)](https://danielilett.com/2026-09-17-tut9-13-official-terrains/): Uses Unity 6.3's new Terrain Lit graph type and terrain nodes in Shader Graph. (Daniel Ilett, 2026-09-17, article, Unity 6)
@@ -487,9 +488,10 @@
 - [Hex Map 26: Biomes and Rivers](https://catlikecoding.com/unity/tutorials/hex-map/part-26/): Hex Map part 26: procedurally generating biomes and rivers. (Catlike Coding, 2018-02-20, article, Unity-old era)
 - [Hex Map 25: Water Cycle](https://catlikecoding.com/unity/tutorials/hex-map/part-25/): Hex Map part 25: simulating a partial water cycle. (Catlike Coding, 2018-01-22, article, Unity-old era)
 
-### Snow, ice, sand & lava (24 guides; slug `snow-ice-sand`)
+### Snow, ice, sand & lava (25 guides; slug `snow-ice-sand`)
 - [Snow and Icicles Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118211037): Patreon post building snow and icicles in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
 - [Snow and Icicles Tessellation Shader Graph](https://www.patreon.com/posts/snow-and-icicles-118519855): Patreon post building snow and icicles with tessellation in Shader Graph. (MinionsArt, 2024-12-01, post, Unity-6 era)
+- [Custom sand shader with player trails, from Paper Sky](https://80.lv/articles/check-out-a-custom-sand-shader-created-in-unity-for-a-game): A showcase of the sand shader behind the Paper Sky desert level: a trail follows the player through the sand. (Brute Force Studio, 2024-02-01, article, Unity-2022 era)
 - [Voronoi-based Lava in Unity Shader Graph](https://danielilett.com/2023-06-20-tut7-2-voronoi-lava/): Builds animated lava in Shader Graph using custom Voronoi noise that exposes cell edges. (Daniel Ilett, 2023-06-20, article, Unity-2022 era)
 - [Sand Rendering in Journey (GDC, John Edwards)](https://www.youtube.com/watch?v=wt2yYnBRD3U): GDC talk on how Journey renders its sand. (Alan Zucconi, 2022-11-06, video, Unity-2022 era)
 - [Unity | Interactive Snow Shader | Stylized Setup URP + Built-In](https://www.youtube.com/watch?v=zr5kgZeo9LA): Builds an interactive snow shader for URP and built-in pipelines. (2022-08-27, video, Unity-2022 era, MULTI)
@@ -711,7 +713,7 @@
 ## Gameplay & systems
 
 
-### Gameplay systems & mechanics (183 guides; slug `gameplay-systems`)
+### Gameplay systems & mechanics (185 guides; slug `gameplay-systems`)
 - [Create a rebind menu for Unity's new input system!](https://www.youtube.com/watch?v=uqRHrQUwdzw): Build a key rebinding menu with the new Input System, using binding overrides instead of reassigning inputs. (Christina Creates Games, 2026-10-12, video, Unity-6 era)
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
@@ -738,7 +740,7 @@
 - [Unity Input System: Assets, Maps & Interactions (Part 2)](https://www.youtube.com/watch?v=dZQ85dp3w6s): Covers Input System assets, action maps and interactions like hold and tap in Unity. (Gamedev Engine Room, 2026-02-11, video, Unity-6 era)
 - [Unity Input System: The Basics (Part 1)](https://www.youtube.com/watch?v=aMFYcwv5g78): Introduces the Unity Input System basics: setup, actions and reading player input. (Gamedev Engine Room, 2026-02-04, video, Unity-6 era)
 
-### Animation, rigging & IK (62 guides; slug `animation`)
+### Animation, rigging & IK (63 guides; slug `animation`)
 - [Giving a simple fighter personality with procedural animation in Unity](https://jettelly.com/blog/giving-a-simple-fighter-personality-in-unity): Breakdown of procedural animation that gives a legless, faceless fighter character and weight. (Jettelly, 2026-10-08, article, Unity-6 era)
 - [Self-balancing active ragdoll in Unity](https://jettelly.com/blog/self-balancing-active-ragdoll-in-unity-breakdown-of-an-upcoming-tool): Active ragdoll combining physics, IK and procedural animation, with a breakdown of the upcoming tool. (Jettelly, 2026-07-20, article, Unity-6 era)
 - [What I learned about using Unity Timeline to create a short film](https://www.youtube.com/watch?v=j1JvhqnxgEY): What she learned making a short film with Unity Timeline: how she built it and which assets she used. (Christina Creates Games, 2026-06-24, video, Unity-6 era)
@@ -765,7 +767,7 @@
 - [Procedural Animation in Unity: Environment Interactions [FINAL]](https://www.youtube.com/watch?v=J2Dr_l4ISfU): Final part of the environment-interaction series: characters reacting to the world with animation rigging. (iHeartGameDev, 2024-11-03, video, Unity-6 era)
 - [Definitive guide to animation with Unity 2022 LTS](https://unity.com/resources/definitive-guide-animation-unity-2022-lts-ebook): Unity's animation tools and techniques: importing, humanoid rigs, animation controllers and more. (Unity, 2024-06-13, article, Unity-2022 era)
 
-### Physics & collisions (64 guides; slug `physics`)
+### Physics & collisions (67 guides; slug `physics`)
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
 - [How Rust LTD Built The Deep Firearm Simulation in Hot Dogs, Horseshoes & Hand Grenades 2](https://unity.com/blog/rust-ltd-hot-dogs-horseshoes-hand-grenades-2): ECS ballistics, custom firearm physics and Quest 3 frame budgeting in a VR firearm simulator. (Unity, 2026-09-25, article, Unity-6 era)
 - [Self-balancing active ragdoll in Unity](https://jettelly.com/blog/self-balancing-active-ragdoll-in-unity-breakdown-of-an-upcoming-tool): Active ragdoll combining physics, IK and procedural animation, with a breakdown of the upcoming tool. (Jettelly, 2026-07-20, article, Unity-6 era)
@@ -924,7 +926,7 @@
 - [A Better Alternative to Singletons in Unity](https://www.youtube.com/watch?v=INhWBgwDpIs): Presents alternatives to singletons in Unity, such as service locators and dependency injection. (Gamedev Engine Room, 2026-03-09, video, Unity-6 era)
 - [Data-Oriented Next Fest - The Hot Path Show Ep. 56](https://www.youtube.com/watch?v=sP5E4Enoh4k): Last year I did a livestream with Nitzan Wilnai who is writing a book on data-oriented design in Unity. Nitzan's upcoming game: Cardwheel is in Steam Next Fest right now! (Turbo Makes Games, 2026-02-28, video, Unity-6 era)
 
-### Performance & optimization (125 guides; slug `performance`)
+### Performance & optimization (126 guides; slug `performance`)
 - [How Moonlight Kids built time-loop metroidbrainia Echo Weaver in Unity 6](https://unity.com/blog/echo-weaver-time-loop-unity): Chunk streaming, loop-reset architecture and 2D optimization tips from a time-loop Unity 6 game. (Unity, 2026-10-08, article, Unity-6 era)
 - [High Performance Unity Game Development: using data-oriented design (Manning)](https://manning.com/books/high-performance-unity-game-development): The book behind the data-oriented design approach: structure a Unity game around arrays of data and pure logic for high frame rates on limited hardware. (Nitzan Wilnai, 2026-10-01, article, Unity-6 era)
 - [Scaling Scritchy Scratchy Across Platforms](https://unity.com/blog/scaling-scritchy-scratchy-across-platforms): Porting a game across PC, mobile and Switch while keeping performance and tactile gameplay. (Unity, 2026-09-28, article, Unity-6 era)
@@ -1446,6 +1448,10 @@
 - [Cartoon FX Remaster](https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-remaster-4010) by Jean Moreno (Shaders & look, 24.9): You want stylised particle effects (explosions, hits, magic) for cartoon looks.
 - [POLYGON - Starter Pack - Art by Synty](https://assetstore.unity.com/packages/3d/environments/polygon-starter-pack-art-by-synty-156819) by Synty Studios (Free essentials, 0.0): You want a free low-poly art pack (props, characters, environment) to prototype with.
 - [Low Poly Ultimate Pack](https://assetstore.unity.com/packages/3d/props/low-poly-ultimate-pack-54733) by polyperfect (Art & 3D tools, 150.0): You want thousands of low-poly prefabs to prototype or ship a stylised game.
+- [Brute Force - Sand Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-sand-shader-239142) by BRUTE FORCE STUDIO (Shaders & look, 19.99): You want stylized sand with trails left by the player.
+- [Brute Force - Grass Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-grass-shader-192388) by BRUTE FORCE STUDIO (Shaders & look, 14.99): You want stylized, wind-swayed grass that reacts to the player.
+- [Brute Force - Snow & Ice Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-snow-ice-shader-221389) by BRUTE FORCE STUDIO (Shaders & look, 19.99): You want stylized snow and ice surfaces.
+- [Brute Force - Ground Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-ground-shader-267152) by BRUTE FORCE STUDIO (Shaders & look, 19.99): You want a stylized ground shader that blends terrain layers.
 
 ## Books
 - [Unity 6 Shaders and Effects Cookbook](https://www.packtpub.com/product/unity-6-shaders-and-effects-cookbook-9781835468579) by John P. Doran (Packt, 2025, Intermediate): You want recipe-style Shader Graph and visual effects examples written for Unity 6.

@@ -1,6 +1,6 @@
 # Sky, clouds & weather
 
-> Environment · 34 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 35 hand-filtered guides on GamedevJelly, newest first.
 
 - [@minionsart.bsky.social: low rolling volume clouds, kept simple to follow](https://bsky.app/profile/minionsart.bsky.social/post/3mtbyivjdfk2z): Cloud effect built on a local volume fog cube post, explained in an easy tutorial. (MinionsArt, 2026-08-17, post, Unity-6 era)
 - [Low Rolling Clouds Volume](https://www.patreon.com/minionsart/posts/rolling-local-166282612): Patreon post on a localized volume of low rolling clouds. (MinionsArt, 2026-08-01, post, Unity-6 era)
@@ -20,6 +20,7 @@
 - [GitHub - SebLague/Clouds: Cloud rendering test](https://github.com/SebLague/Clouds): Repo: cloud rendering test by Sebastian Lague. (Sebastian Lague, 2019-10-28, repo, Unity-old era)
 - [Cloud Shader Breakdown](https://www.cyanilux.com/tutorials/cloud-shader-breakdown/): Breaks down a cloud shader offsetting a subdivided plane's vertices with layered noise. (Cyan, 2019-09-25, article, Unity-old era)
 - [Unity ShaderGraph Procedural Skybox Tutorial Pt.1](https://timcoster.com/2019/09/03/unity-shadergraph-skybox-quick-tutorial/): Builds a procedural skybox in Shader Graph, part one. (2019-09-03, article, Unity-old era)
+- [Sky and fog shader with flat clouds (Devblog #6)](https://www.bruteforcegame.com/post/sky-and-fog-shader-devblog-06): A moving-cloud skybox shader and the fog that goes with it. (Brute Force Studio, 2019-05-10, article, Unity-old era)
 - [Volumetric Clouds in Unity + Time of Day lighting](https://www.youtube.com/watch?v=LLUUIAKFgWg): Creates volumetric clouds in Unity with time-of-day lighting. (2018-09-21, video, Unity-old era)
 - [Shader Showcase Saturday #5: Dripping Rain - Alan Zucconi](https://www.alanzucconi.com/2018/08/10/shader-showcase-saturday-5/): Shader Showcase Saturday on creating dripping rain over materials. (2018-08-10, article, Unity-old era)
 - [SHADER/raymarching/raymarching clouds.glsl at master · danielscherzer/SHADER](https://github.com/danielscherzer/SHADER/blob/master/raymarching/raymarching%20clouds.glsl): Repo: GLSL fragment shader example for raymarched clouds from a shader programming lecture. (2018-01-18, repo, Unity-old era)

@@ -1,6 +1,6 @@
 # Gameplay systems & mechanics
 
-> Gameplay & systems · 183 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 185 hand-filtered guides on GamedevJelly, newest first.
 
 - [Create a rebind menu for Unity's new input system!](https://www.youtube.com/watch?v=uqRHrQUwdzw): Build a key rebinding menu with the new Input System, using binding overrides instead of reassigning inputs. (Christina Creates Games, 2026-10-12, video, Unity-6 era)
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
@@ -138,17 +138,17 @@
 - [Movement: Surface Contact](https://catlikecoding.com/unity/tutorials/movement/surface-contact/): Catlike Coding movement tutorial on refining how a sphere interacts with surfaces. (Catlike Coding, 2019-12-09, article, Unity-old era)
 - [Recreating Superhot's Bullet Time | Mix and Jam](https://www.youtube.com/watch?v=T6VfWfqbgVs): Recreates Superhot's bullet time mechanic in Unity. (Mix and Jam, 2019-11-27, video, Unity-old era)
 - [Movement: Physics](https://catlikecoding.com/unity/tutorials/movement/physics/): Catlike Coding movement tutorial on controlling a rigidbody sphere. (Catlike Coding, 2019-11-19, article, Unity-old era)
+- [Tongue tether swing mechanic in 3D (Devblog #14)](https://www.bruteforcegame.com/post/tongue-tether-swing-3d-devblog-14): A grappling-hook style swing built for a 3D platformer. (Brute Force Studio, 2019-11-17, article, Unity-old era)
 - [Movement: Sliding a Sphere](https://catlikecoding.com/unity/tutorials/movement/sliding-a-sphere/): Catlike Coding movement tutorial on sliding a sphere from player input. (Catlike Coding, 2019-10-25, article, Unity-old era)
 - [Tower Defense: Animation](https://catlikecoding.com/unity/tutorials/tower-defense/animation/): Tower defense tutorial animating enemy movement, intro, outro and death. (Catlike Coding, 2019-09-19, article, Unity-old era)
 - [Recreating Monument Valley's Level Design | Mix and Jam](https://www.youtube.com/watch?v=hetaWVfaLQc): Recreates Monument Valley's impossible level design in Unity. (Mix and Jam, 2019-09-19, video, Unity-old era)
 - [Tower Defense: Scenarios](https://catlikecoding.com/unity/tutorials/tower-defense/scenarios/): Tower defense tutorial creating scenarios that spawn waves of varied enemies. (Catlike Coding, 2019-08-22, article, Unity-old era)
 - [Recreating Metal Gear Rising's Blade Mode | Mix and Jam](https://www.youtube.com/watch?v=YGDzRVwmTgM): Recreates Metal Gear Rising's slicing Blade Mode in Unity. (Mix and Jam, 2019-08-16, video, Unity-old era)
 - [Tower Defense: Ballistics](https://catlikecoding.com/unity/tutorials/tower-defense/ballistics/): Tower defense tutorial launching and detonating ballistic shells. (Catlike Coding, 2019-07-21, article, Unity-old era)
+- [How to make a rolling ball feel juicy and responsive (Devblog #9)](https://www.bruteforcegame.com/post/how-to-roll-a-ball-devlog-09): Taking the standard roll-a-ball setup further with tuned movement and input response. (Brute Force Studio, 2019-07-14, article, Unity-old era)
 - [Recreating Star Fox's Rail Movement | Mix and Jam](https://www.youtube.com/watch?v=JVbr7osMYTo): Recreates Star Fox rail movement in Unity. (Mix and Jam, 2019-07-07, video, Unity-old era)
 - [Tower Defense: Towers](https://catlikecoding.com/unity/tutorials/tower-defense/towers/): Tower defense tutorial adding towers that shoot enemies. (Catlike Coding, 2019-06-22, article, Unity-old era)
 - [Recreating Mario Kart's Drifting | Mix and Jam](https://www.youtube.com/watch?v=Ki-tWT50cEQ): Recreates Mario Kart drifting in Unity. (Mix and Jam, 2019-06-20, video, Unity-old era)
 - [Recreating Kingdom Hearts' Shotlock | Mix and Jam](https://www.youtube.com/watch?v=bN5BSUUW8GA): Recreates Kingdom Hearts' Shotlock targeting in Unity. (Mix and Jam, 2019-06-08, video, Unity-old era)
 - [Recreating Celeste's Movement | Mix and Jam](https://www.youtube.com/watch?v=STyY26a_dPY): Recreates Celeste's player movement in Unity. (Mix and Jam, 2019-05-29, video, Unity-old era)
 - [Coding to the Beat: a rhythm game in Unity](https://www.gamasutra.com/blogs/GrahamTattersall/20190515/342454/Coding_to_the_Beat__Under_the_Hood_of_a_Rhythm_Game_in_Unity.php): Dev write-up on building a rhythm game in Unity, syncing gameplay to the beat. (2019-05-15, article, Unity-old era)
-- [Recreating Breath of the Wild's Stasis Rune | Mix and Jam](https://www.youtube.com/watch?v=IxYcX7YiG1w): Recreates Breath of the Wild's Stasis Rune in Unity. (Mix and Jam, 2019-05-15, video, Unity-old era)
-- [Tower Defense: The Board](https://catlikecoding.com/unity/tutorials/tower-defense/the-board/): Tower defense tutorial building a tiled board with destinations, walls and pathfinding. (Catlike Coding, 2019-04-25, article, Unity-old era)

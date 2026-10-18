@@ -1,6 +1,6 @@
 # Water, waves & ripples
 
-> Environment · 96 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 97 hand-filtered guides on GamedevJelly, newest first.
 
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
 - [A real-time potion shader breakdown in Unity](https://jettelly.com/blog/a-real-time-potion-shader-breakdown-in-unity): Liquid that reacts to movement, built with C# and Shader Graph. (Jettelly, 2026-08-26, article, Unity-6 era)
@@ -49,6 +49,7 @@
 - [Creating water shader | Unity Tutorial | Chapter 1](https://www.youtube.com/watch?v=bewT2SZHJP0): Builds a water shader in Unity, chapter 1. (Jettelly, 2020-02-26, video, Unity-old era)
 - [Ultra Effects: Part 2 - Sinking Feeling](https://danielilett.com/2019-10-22-tut3-2-sinking-feeling/): Makes the camera feel underwater by offsetting UVs with a flow map texture. (Daniel Ilett, 2019-10-22, article, Unity-old era, BUILTIN)
 - [Devlog #2: The Waterfall Shader](http://swordcerygame.com/2019/09/07/devlog-2-the-waterfall-shader/): Devlog breaking down how a stylized waterfall shader was built. (2019-09-07, article, Unity-old era)
+- [Curved world and sea water shader (Devblog #11)](https://www.bruteforcegame.com/post/curved-water-sea-shader-devblog-11): A vertex-shader world curvature effect, like in endless-runner mobile games, plus a flat-style sea. (Brute Force Studio, 2019-08-22, article, Unity-old era)
 - [Low Poly Water GPU | Substances | Unity Asset Store](https://assetstore.unity.com/packages/vfx/shaders/substances/low-poly-water-gpu-79255): Asset Store low poly water package using GPU effects. (2019-08-21, article, Unity-old era)
 - [Stylized Water 1 | VFX Shaders | Unity Asset Store](https://assetstore.unity.com/packages/vfx/shaders/stylized-water-shader-71207): Asset Store stylized water shader package from Staggart Creations. (2019-07-20, article, Unity-old era)
 - [Water Shader Breakdown](https://www.cyanilux.com/tutorials/water-shader-breakdown/): Breaks down a water shader using scene color for refraction and depth-reconstructed positions. (Cyan, 2019-06-10, article, Unity-old era)
