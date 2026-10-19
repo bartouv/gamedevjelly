@@ -1,6 +1,6 @@
 # Vertex displacement & animation
 
-> Shaders & rendering · 56 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 58 hand-filtered guides on GamedevJelly, newest first.
 
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
@@ -23,7 +23,9 @@
 - [Tornado Shader Breakdown](https://www.cyanilux.com/tutorials/tornado-shader-breakdown/): Breakdown of a tornado shader using scrolling alpha-clipped noise layers with vertex displacement. (Cyan, 2022-01-26, article, Unity-2022 era)
 - [Mastering Tessellation Shaders in Unity! Easy LoD, Curved Triangles, Height Maps | Game Dev Tutorial](https://www.youtube.com/watch?v=63ufydgBcIk): Covers tessellation shaders in Unity with LOD, curved triangles and height maps. (Ned Makes Games, 2021-11-24, video, Unity-2021 era)
 - [Super Mario 64's Painting Effect in Unity Shader Graph and URP](https://danielilett.com/2021-10-12-tut5-18-mario-64-painting/): Recreates the Super Mario 64 painting ripple effect with Shader Graph UV offsets. (Daniel Ilett, 2021-10-12, article, Unity-2021 era, URP)
+- [PickUpItem-VertexShaderFunction: vertex-shader animation for pickup items](https://github.com/LazyEti/PickUpItem-VertexShaderFunction): A simple, customizable vertex-shader animation for pickup items. (Lazy Eti, 2021-04-26, repo, Unity-2021 era)
 - [Animacion de vertices con Shader Graph | Unity Tutorial](https://www.youtube.com/watch?v=SxdyC4ogUBs): Video (Spanish): animates vertices with Shader Graph. (Jettelly, 2021-03-11, video, Unity-2021 era)
+- [GitHub - LazyEti/StylizedCulling-VertexShaderFunction: A vertex shader function that culls meshes with Squash/Stretch based on their distance to the player.](https://github.com/LazyEti/StylizedCulling-VertexShaderFunction): Repo: vertex shader function that culls meshes with squash and stretch. (Lazy Eti, 2021-03-08, repo, Unity-2021 era)
 - [GitHub - MdIqubal/Matrix-Shockwave-Shader: Surface shader with tesselation - Tried recreating the shockwave effect in Matrix when Neo takes off.](https://github.com/MdIqubal/Matrix-Shockwave-Shader): Repo: Matrix-style shockwave surface shader using tessellation. (2020-12-07, repo, Unity-old era, BUILTIN)
 - [Texture Animation Techniques](https://medium.com/tech-at-wildlife-studios/texture-animation-techniques-1daecb316657): Explains baking animations into textures for vertex-shader playback (Vertex Animation Textures). (2020-09-06, article, Unity-old era)
 - [Vertex Animation in Unity - Snake effect from Naruto Shippuden](https://www.youtube.com/watch?v=v2irAJtV8sU): Makes a Naruto-style snake effect using vertex animation in Unity. (2020-08-29, video, Unity-old era)

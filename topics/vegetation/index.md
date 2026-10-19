@@ -1,6 +1,6 @@
 # Grass, trees & foliage
 
-> Environment · 40 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 41 hand-filtered guides on GamedevJelly, newest first.
 
 - [Outbound’s clip shader approach: Precise foliage discarding for real-time environments](https://unity.com/blog/outbound-square-glade-games-foliage-discarding-solution): A clip-shader technique for discarding foliage precisely, stopping grass poking through vehicles. (Unity, 2025-12-02, article, Unity-6 era)
 - [Interactive Grass | Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=GzK9P3MOvp8): Grass that bends away from the player, in Shader Graph. (Game Slave, 2025-11-18, video, Unity-6 era)
@@ -17,6 +17,7 @@
 - [GitHub - hecomi/UnityFurURP: Fur shader implementation for URP](https://github.com/hecomi/UnityFurURP): Repo: fur shader for URP. (2021-06-27, repo, Unity-2021 era, URP)
 - [Unity URP | Tessellation + Interactive Grass](https://www.youtube.com/watch?v=aLzUJRQHLWc): Combines tessellation with interactive grass in URP. (2021-03-19, video, Unity-2021 era, URP)
 - [Soft Foliage Shader Breakdown](https://www.cyanilux.com/tutorials/soft-foliage-shader-breakdown/): Breakdown of a soft foliage shader using alpha clipping with a foliage texture. (2021-03-16, article, Unity-2021 era)
+- [GitHub - LazyEti/StylizedCulling-VertexShaderFunction: A vertex shader function that culls meshes with Squash/Stretch based on their distance to the player.](https://github.com/LazyEti/StylizedCulling-VertexShaderFunction): Repo: vertex shader function that culls meshes with squash and stretch. (Lazy Eti, 2021-03-08, repo, Unity-2021 era)
 - [Unity | I made an Interactive Grass Shader + Tool](https://www.youtube.com/watch?v=xKJHL8nQiuM): Builds an interactive grass shader and companion tool. (2021-01-30, video, Unity-2021 era)
 - [Grass Shader](https://giordi91.github.io/post/grass/): Developer's write-up on building a real-time grass system in a custom engine. (2020-09-25, article, Unity-old era)
 - [My take on shaders: Stylized tree leaves – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-stylized-tree-leaves/): Tutorial on a stylized tree leaves shader. (2020-03-06, article, Unity-old era)

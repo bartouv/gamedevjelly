@@ -78,3 +78,4 @@ Asset Store tools and other tools worth knowing.
 - [Brute Force - Grass Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-grass-shader-192388) by BRUTE FORCE STUDIO (Shaders & look, 14.99): You want stylized, wind-swayed grass that reacts to the player.
 - [Brute Force - Snow & Ice Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-snow-ice-shader-221389) by BRUTE FORCE STUDIO (Shaders & look, 19.99): You want stylized snow and ice surfaces.
 - [Brute Force - Ground Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-ground-shader-267152) by BRUTE FORCE STUDIO (Shaders & look, 19.99): You want a stylized ground shader that blends terrain layers.
+- [Fake Point Light (URP/Built-In)](https://assetstore.unity.com/packages/vfx/shaders/fake-point-light-urp-built-in-283797) by LazyEti (Shaders & look, 20.0): You want stylized torch and campfire light without URP's per-object light limit.

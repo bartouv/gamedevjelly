@@ -195,7 +195,7 @@
 - [Optimized Spooky Shader | Unity Tutorial](https://www.youtube.com/watch?v=lsqr2-PA6Uc): Builds an optimized spooky shader in Unity. (Jettelly, 2020-03-19, video, Unity-old era)
 - [RandomDevNotes/UnityAlphaBlending at master · Demkeys/RandomDevNotes](https://github.com/Demkeys/RandomDevNotes/tree/master/UnityAlphaBlending): Repo: Research notes on alpha blending in Unity. (2020-02-24, repo, Unity-old era)
 
-### Vertex displacement & animation (56 guides; slug `vertex-effects`)
+### Vertex displacement & animation (58 guides; slug `vertex-effects`)
 - [Shooting holes through walls in Unity with ManifoldCSG](https://jettelly.com/blog/shooting-holes-through-walls-in-unity-with-manifoldcsg): How each shot cuts a hole through a wall mesh at runtime using ManifoldCSG. (Jettelly, 2026-10-09, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
@@ -217,10 +217,10 @@
 - [Tornado Shader Breakdown](https://www.cyanilux.com/tutorials/tornado-shader-breakdown/): Breakdown of a tornado shader using scrolling alpha-clipped noise layers with vertex displacement. (Cyan, 2022-01-26, article, Unity-2022 era)
 - [Mastering Tessellation Shaders in Unity! Easy LoD, Curved Triangles, Height Maps | Game Dev Tutorial](https://www.youtube.com/watch?v=63ufydgBcIk): Covers tessellation shaders in Unity with LOD, curved triangles and height maps. (Ned Makes Games, 2021-11-24, video, Unity-2021 era)
 - [Super Mario 64's Painting Effect in Unity Shader Graph and URP](https://danielilett.com/2021-10-12-tut5-18-mario-64-painting/): Recreates the Super Mario 64 painting ripple effect with Shader Graph UV offsets. (Daniel Ilett, 2021-10-12, article, Unity-2021 era, URP)
+- [PickUpItem-VertexShaderFunction: vertex-shader animation for pickup items](https://github.com/LazyEti/PickUpItem-VertexShaderFunction): A simple, customizable vertex-shader animation for pickup items. (Lazy Eti, 2021-04-26, repo, Unity-2021 era)
 - [Animacion de vertices con Shader Graph | Unity Tutorial](https://www.youtube.com/watch?v=SxdyC4ogUBs): Video (Spanish): animates vertices with Shader Graph. (Jettelly, 2021-03-11, video, Unity-2021 era)
+- [GitHub - LazyEti/StylizedCulling-VertexShaderFunction: A vertex shader function that culls meshes with Squash/Stretch based on their distance to the player.](https://github.com/LazyEti/StylizedCulling-VertexShaderFunction): Repo: vertex shader function that culls meshes with squash and stretch. (Lazy Eti, 2021-03-08, repo, Unity-2021 era)
 - [GitHub - MdIqubal/Matrix-Shockwave-Shader: Surface shader with tesselation - Tried recreating the shockwave effect in Matrix when Neo takes off.](https://github.com/MdIqubal/Matrix-Shockwave-Shader): Repo: Matrix-style shockwave surface shader using tessellation. (2020-12-07, repo, Unity-old era, BUILTIN)
-- [Texture Animation Techniques](https://medium.com/tech-at-wildlife-studios/texture-animation-techniques-1daecb316657): Explains baking animations into textures for vertex-shader playback (Vertex Animation Textures). (2020-09-06, article, Unity-old era)
-- [Vertex Animation in Unity - Snake effect from Naruto Shippuden](https://www.youtube.com/watch?v=v2irAJtV8sU): Makes a Naruto-style snake effect using vertex animation in Unity. (2020-08-29, video, Unity-old era)
 
 ### UVs, triplanar & texturing (68 guides; slug `uv-texturing`)
 - [@halisavakis.com: setting a vertex UV to (0,0) gives free growth rings](https://bsky.app/profile/halisavakis.com/post/3mg3vnq65i22h): Procedural branch end caps got automatic tree growth rings from a placeholder UV coordinate on the middle vertex. (Harry Alisavakis, 2026-03-02, post, Unity-6 era)
@@ -434,7 +434,7 @@
 - [Atmospheric Scattering Shader](https://www.alanzucconi.com/2017/10/10/atmospheric-scattering-7/): Final shader step of a series simulating Rayleigh scattering for a planet's atmosphere. (Alan Zucconi, 2017-10-10, article, Unity-old era)
 - [A Shader for the Atmospheric Sphere](https://www.alanzucconi.com/2017/10/10/shader-atmospheric-sphere/): Writes the shader for the atmospheric sphere in a scattering series. (Alan Zucconi, 2017-10-10, article, Unity-old era)
 
-### Grass, trees & foliage (40 guides; slug `vegetation`)
+### Grass, trees & foliage (41 guides; slug `vegetation`)
 - [Outbound’s clip shader approach: Precise foliage discarding for real-time environments](https://unity.com/blog/outbound-square-glade-games-foliage-discarding-solution): A clip-shader technique for discarding foliage precisely, stopping grass poking through vehicles. (Unity, 2025-12-02, article, Unity-6 era)
 - [Interactive Grass | Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=GzK9P3MOvp8): Grass that bends away from the player, in Shader Graph. (Game Slave, 2025-11-18, video, Unity-6 era)
 - [GPU Instanced Grass Breakdown](https://www.cyanilux.com/tutorials/gpu-instanced-grass-breakdown/): Breakdown of GPU instanced grass using Shader Graph with DrawMeshInstanced APIs. (Cyan, 2025-10-03, article, Unity-6 era)
@@ -450,6 +450,7 @@
 - [GitHub - hecomi/UnityFurURP: Fur shader implementation for URP](https://github.com/hecomi/UnityFurURP): Repo: fur shader for URP. (2021-06-27, repo, Unity-2021 era, URP)
 - [Unity URP | Tessellation + Interactive Grass](https://www.youtube.com/watch?v=aLzUJRQHLWc): Combines tessellation with interactive grass in URP. (2021-03-19, video, Unity-2021 era, URP)
 - [Soft Foliage Shader Breakdown](https://www.cyanilux.com/tutorials/soft-foliage-shader-breakdown/): Breakdown of a soft foliage shader using alpha clipping with a foliage texture. (2021-03-16, article, Unity-2021 era)
+- [GitHub - LazyEti/StylizedCulling-VertexShaderFunction: A vertex shader function that culls meshes with Squash/Stretch based on their distance to the player.](https://github.com/LazyEti/StylizedCulling-VertexShaderFunction): Repo: vertex shader function that culls meshes with squash and stretch. (Lazy Eti, 2021-03-08, repo, Unity-2021 era)
 - [Unity | I made an Interactive Grass Shader + Tool](https://www.youtube.com/watch?v=xKJHL8nQiuM): Builds an interactive grass shader and companion tool. (2021-01-30, video, Unity-2021 era)
 - [Grass Shader](https://giordi91.github.io/post/grass/): Developer's write-up on building a real-time grass system in a custom engine. (2020-09-25, article, Unity-old era)
 - [My take on shaders: Stylized tree leaves – Harry Alisavakis](https://halisavakis.com/my-take-on-shaders-stylized-tree-leaves/): Tutorial on a stylized tree leaves shader. (2020-03-06, article, Unity-old era)
@@ -459,7 +460,6 @@
 - [Shader Showcase Saturday #3: Interactive Grass](https://www.alanzucconi.com/2018/07/28/shader-showcase-saturday-3/): Creates interactive grass that reacts to wind and player movement. (Alan Zucconi, 2018-07-28, article, Unity-old era)
 - [Handpainted Grass](https://www.patreon.com/posts/18425663): Patreon post on handpainted grass. (MinionsArt, 2018-04-01, post, Unity-old era)
 - [Pine Tree](https://www.patreon.com/posts/17531808): Patreon post modeling a pine tree. (MinionsArt, 2018-03-01, post, Unity-old era)
-- [Waving Grass Shader in Unity](https://lindenreid.wordpress.com/2018/01/07/waving-grass-shader-in-unity/): Tutorial on making a waving grass vertex shader in Unity. (Linden Reid, 2018-01-07, article, Unity-old era)
 
 ### Terrain & landscapes (29 guides; slug `terrain`)
 - [Unity Shader Graph Basics (Part 13 - Terrain Lit Official Support)](https://danielilett.com/2026-09-17-tut9-13-official-terrains/): Uses Unity 6.3's new Terrain Lit graph type and terrain nodes in Shader Graph. (Daniel Ilett, 2026-09-17, article, Unity 6)
@@ -1312,68 +1312,70 @@
 
 
 ## Repos
-- [UniTask](https://github.com/Cysharp/UniTask) (Async & reactive, ★11252, last push 2026-10-06): You want async/await in Unity without allocations, with PlayerLoop-aware delays and cancellation. Install: https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
-- [R3](https://github.com/Cysharp/R3) (Async & reactive, ★4019, last push 2026-10-08, Unity 7: workaround): You want Rx-style reactive streams; the successor to UniRx.
+- [UniTask](https://github.com/Cysharp/UniTask) (Async & reactive, ★11259, last push 2026-10-06): You want async/await in Unity without allocations, with PlayerLoop-aware delays and cancellation. Install: https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
+- [R3](https://github.com/Cysharp/R3) (Async & reactive, ★4023, last push 2026-10-08, Unity 7: workaround): You want Rx-style reactive streams; the successor to UniRx.
 - [MessagePipe](https://github.com/Cysharp/MessagePipe) (Async & reactive, ★2004, last push 2026-10-14): You need an in-process pub/sub or mediator that works with DI containers.
 - [ZString](https://github.com/Cysharp/ZString) (Serialization & data, ★2819, last push 2026-10-07): You build strings every frame and want zero allocations.
-- [MemoryPack](https://github.com/Cysharp/MemoryPack) (Serialization & data, ★4759, last push 2026-10-07): You need very fast binary serialization for save data or networking.
-- [MessagePack-CSharp](https://github.com/MessagePack-CSharp/MessagePack-CSharp) (Serialization & data, ★6793, last push 2026-10-16): You want compact, fast MessagePack serialization with Unity (IL2CPP) support.
-- [MagicOnion](https://github.com/Cysharp/MagicOnion) (Networking & backend, ★4455, last push 2026-10-14): You want type-safe RPC between a Unity client and a C# server.
+- [MemoryPack](https://github.com/Cysharp/MemoryPack) (Serialization & data, ★4760, last push 2026-10-07): You need very fast binary serialization for save data or networking.
+- [MessagePack-CSharp](https://github.com/MessagePack-CSharp/MessagePack-CSharp) (Serialization & data, ★6797, last push 2026-10-16): You want compact, fast MessagePack serialization with Unity (IL2CPP) support.
+- [MagicOnion](https://github.com/Cysharp/MagicOnion) (Networking & backend, ★4455, last push 2026-10-19): You want type-safe RPC between a Unity client and a C# server.
 - [VContainer](https://github.com/hadashiA/VContainer) (Dependency injection, ★3072, last push 2026-10-06): You want a fast, lightweight DI container with low GC pressure. Install: https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer
-- [Reflex](https://github.com/gustavopsantos/Reflex) (Dependency injection, ★1634, last push 2026-10-10, Unity 7: ok): You want a minimal DI container with a small API.
+- [Reflex](https://github.com/gustavopsantos/Reflex) (Dependency injection, ★1635, last push 2026-10-10, Unity 7: ok): You want a minimal DI container with a small API.
 - [Zenject](https://github.com/modesttree/Zenject) (Dependency injection, ★2940, last push 2024-01-26): You use Zenject. Its last push was Jan 2024; the maintained Extenject fork (below) is the one to install for new work.
-- [PrimeTween](https://github.com/KyryloKuzyk/PrimeTween) (UI & tweening, ★2004, last push 2026-10-15): You want allocation-free tweens and sequences in one line.
+- [PrimeTween](https://github.com/KyryloKuzyk/PrimeTween) (UI & tweening, ★2006, last push 2026-10-15): You want allocation-free tweens and sequences in one line.
 - [dotween](https://github.com/Demigiant/dotween) (UI & tweening, ★2690, last push 2026-07-26, Unity 7: wip): You want the long-standing tween library; free tier, with a paid Pro add-on.
-- [SoftMaskForUGUI](https://github.com/mob-sakai/SoftMaskForUGUI) (UI & tweening, ★2835, last push 2026-08-27): You need soft (alpha) masks in uGUI.
-- [UIEffect](https://github.com/mob-sakai/UIEffect) (UI & tweening, ★7690, last push 2026-08-27): You want shader-based effects (shadow, gradient, dissolve, blur) on uGUI.
-- [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) (Editor & debugging, ★5220, last push 2026-09-16): You want inspector attributes (ShowIf, Button, Foldout) without writing editors. Install: https://github.com/dbrizov/NaughtyAttributes.git#upm
+- [SoftMaskForUGUI](https://github.com/mob-sakai/SoftMaskForUGUI) (UI & tweening, ★2837, last push 2026-08-27): You need soft (alpha) masks in uGUI.
+- [UIEffect](https://github.com/mob-sakai/UIEffect) (UI & tweening, ★7691, last push 2026-08-27): You want shader-based effects (shadow, gradient, dissolve, blur) on uGUI.
+- [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes) (Editor & debugging, ★5224, last push 2026-09-16): You want inspector attributes (ShowIf, Button, Foldout) without writing editors. Install: https://github.com/dbrizov/NaughtyAttributes.git#upm
 - [graphy](https://github.com/Tayx94/graphy) (Editor & debugging, ★2910, last push 2026-08-29): You want an on-screen FPS, memory and audio overlay in builds.
-- [Harmony](https://github.com/pardeike/Harmony) (Editor & debugging, ★6694, last push 2026-10-17): You need to patch .NET methods at runtime, mostly for modding.
-- [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) (Official source & samples, ★13029, last push 2026-10-15): You want to read Unity's C# source for the engine and editor.
-- [Graphics](https://github.com/Unity-Technologies/Graphics) (Official source & samples, ★3014, last push 2026-09-29): You want the source and samples for URP, HDRP, Shader Graph and VFX Graph.
+- [Harmony](https://github.com/pardeike/Harmony) (Editor & debugging, ★6702, last push 2026-10-17): You need to patch .NET methods at runtime, mostly for modding.
+- [UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) (Official source & samples, ★13035, last push 2026-10-15): You want to read Unity's C# source for the engine and editor.
+- [Graphics](https://github.com/Unity-Technologies/Graphics) (Official source & samples, ★3016, last push 2026-09-29): You want the source and samples for URP, HDRP, Shader Graph and VFX Graph.
 - [InputSystem](https://github.com/Unity-Technologies/InputSystem) (Official source & samples, ★1528, last push 2026-10-12, Unity 7: ok): You use the new Input System and want its source and issues.
-- [Unity.Mathematics](https://github.com/Unity-Technologies/Unity.Mathematics) (Official source & samples, ★1441, last push 2026-08-06): You want Burst-friendly math types (float3, quaternion, noise).
-- [EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) (Official source & samples, ★8204, last push 2026-10-16): You are learning DOTS/ECS and want official samples.
+- [Unity.Mathematics](https://github.com/Unity-Technologies/Unity.Mathematics) (Official source & samples, ★1443, last push 2026-08-06): You want Burst-friendly math types (float3, quaternion, noise).
+- [EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) (Official source & samples, ★8205, last push 2026-10-18): You are learning DOTS/ECS and want official samples.
 - [SpaceshipDemo](https://github.com/Unity-Technologies/SpaceshipDemo) (Official source & samples, ★1182, last push 2025-10-24): You want a full HDRP showcase project to read and learn from.
 - [BoatAttack](https://github.com/Unity-Technologies/BoatAttack) (Official source & samples, ★2798, last push 2025-12-05): You want a URP showcase project (water, boats, race game).
-- [com.unity.netcode.gameobjects](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects) (Networking & backend, ★2327, last push 2026-10-17, Unity 7: ok): You want Unity's official GameObject-based multiplayer.
-- [Mirror](https://github.com/MirrorNetworking/Mirror) (Networking & backend, ★6366, last push 2026-09-19): You want a mature, community-driven multiplayer framework.
-- [FishNet](https://github.com/FirstGearGames/FishNet) (Networking & backend, ★2072, last push 2026-10-16): You want a feature-rich networking framework with prediction support.
-- [YarnSpinner-Unity](https://github.com/YarnSpinnerTool/YarnSpinner-Unity) (Dialogue, ★839, last push 2026-10-13): You want a dialogue scripting language with Unity integration.
-- [ink-unity-integration](https://github.com/inkle/ink-unity-integration) (Dialogue, ★723, last push 2026-07-08): You want to run inkle's ink narrative scripts in Unity.
-- [unity-builder](https://github.com/game-ci/unity-builder) (CI & build, ★1101, last push 2026-10-16): You want to build Unity projects in GitHub Actions.
-- [unity-mcp](https://github.com/CoplayDev/unity-mcp) (AI & agents, ★15049, last push 2026-10-08, Unity 7: ok): You want an AI client (Claude, Cursor, etc.) to drive the Unity Editor over MCP. Most popular option.
-- [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (AI & agents, ★4488, last push 2026-10-17): You want an MCP bridge between AI agents and the Unity Editor and runtime.
+- [com.unity.netcode.gameobjects](https://github.com/Unity-Technologies/com.unity.netcode.gameobjects) (Networking & backend, ★2327, last push 2026-10-19, Unity 7: ok): You want Unity's official GameObject-based multiplayer.
+- [Mirror](https://github.com/MirrorNetworking/Mirror) (Networking & backend, ★6366, last push 2026-10-19): You want a mature, community-driven multiplayer framework.
+- [FishNet](https://github.com/FirstGearGames/FishNet) (Networking & backend, ★2073, last push 2026-10-18): You want a feature-rich networking framework with prediction support.
+- [YarnSpinner-Unity](https://github.com/YarnSpinnerTool/YarnSpinner-Unity) (Dialogue, ★840, last push 2026-10-13): You want a dialogue scripting language with Unity integration.
+- [ink-unity-integration](https://github.com/inkle/ink-unity-integration) (Dialogue, ★725, last push 2026-07-08): You want to run inkle's ink narrative scripts in Unity.
+- [unity-builder](https://github.com/game-ci/unity-builder) (CI & build, ★1101, last push 2026-10-18): You want to build Unity projects in GitHub Actions.
+- [unity-mcp](https://github.com/CoplayDev/unity-mcp) (AI & agents, ★15146, last push 2026-10-19, Unity 7: ok): You want an AI client (Claude, Cursor, etc.) to drive the Unity Editor over MCP. Most popular option.
+- [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (AI & agents, ★4498, last push 2026-10-19): You want an MCP bridge between AI agents and the Unity Editor and runtime.
 - [StableFluids](https://github.com/keijiro/StableFluids) (Rendering & VFX, ★1172, last push 2025-08-28): You want a GPU implementation of Stam's Stable Fluids.
 - [Marching-Cubes](https://github.com/SebLague/Marching-Cubes) (Learning repos, ★1122, last push 2019-07-11): You want the marching cubes algorithm in Unity.
-- [UniState](https://github.com/bazyleu/UniState) (Gameplay & AI, ★252, last push 2026-09-16): You need a scalable, async state machine for game flow, UI or characters without writing glue code. Install: https://github.com/bazyleu/UniState.git?path=Assets/UniState
+- [UniState](https://github.com/bazyleu/UniState) (Gameplay & AI, ★251, last push 2026-09-16): You need a scalable, async state machine for game flow, UI or characters without writing glue code. Install: https://github.com/bazyleu/UniState.git?path=Assets/UniState
 - [MGenerators](https://github.com/Engine-Room-Games/MGenerators) (C# & performance, ★14, last push 2026-05-30): You want Roslyn source generators to remove boilerplate around common gameplay patterns.
 - [MLock](https://github.com/migus88/MLock) (Gameplay & AI, ★8, last push 2026-10-15): You need to lock and unlock gameplay elements (input, doors, abilities) through configurable tags.
 - [MPath](https://github.com/migus88/MPath) (Gameplay & AI, ★17, last push 2026-10-14): You need fast A* pathfinding on a 2D grid, in Unity or plain .NET.
-- [PurrNet](https://github.com/PurrNet/PurrNet) (Networking & backend, ★691, last push 2026-10-17): You are choosing a Unity networking solution and want a modern, high-level alternative to Netcode for GameObjects. Install: https://github.com/PurrNet/PurrNet.git?path=/Assets/PurrNet#release
-- [OneOf](https://github.com/mcintyre321/OneOf) (C# & performance, ★4059, last push 2026-09-27): You want F#-style discriminated unions with exhaustive matching in C#.
+- [PurrNet](https://github.com/PurrNet/PurrNet) (Networking & backend, ★692, last push 2026-10-17): You are choosing a Unity networking solution and want a modern, high-level alternative to Netcode for GameObjects. Install: https://github.com/PurrNet/PurrNet.git?path=/Assets/PurrNet#release
+- [OneOf](https://github.com/mcintyre321/OneOf) (C# & performance, ★4058, last push 2026-09-27): You want F#-style discriminated unions with exhaustive matching in C#.
 - [UniText](https://github.com/LightSideKittens/UniText) (UI & tweening, ★712, last push 2026-09-24): You need a text engine that handles every language, emoji and style beyond what TextMeshPro covers.
 - [GenJson](https://github.com/PereViader/GenJson) (Serialization & data, ★27, last push 2026-09-19): You want fast, allocation-light, source-generated JSON in Unity or plain C#.
 - [LinqGen](https://github.com/cathei/LinqGen) (C# & performance, ★316, last push 2024-07-07): You want LINQ-style queries without allocations, using code generation. Install: https://github.com/cathei/LinqGen.git?path=LinqGen.Unity/Packages/com.cathei.linqgen
 - [Fluid Behavior Tree](https://github.com/ashblue/fluid-behavior-tree) (Gameplay & AI, ★1184, last push 2026-05-08): You need behaviour trees for enemy or NPC AI with a code-first builder API.
 - [Data-Oriented Design (Claude skill)](https://github.com/Data-Oriented-Design-for-Games/data-oriented-design) (AI & agents, ★8, last push 2026-07-21): You want Claude to apply data-oriented design to your game code, following Nitzan Wilnai's book.
-- [ml-agents](https://github.com/Unity-Technologies/ml-agents) (AI & agents, ★19768, last push 2026-10-13): You want to train game AI with reinforcement learning inside Unity.
+- [ml-agents](https://github.com/Unity-Technologies/ml-agents) (AI & agents, ★19770, last push 2026-10-13): You want to train game AI with reinforcement learning inside Unity.
 - [FPSSample](https://github.com/Unity-Technologies/FPSSample) (Official source & samples, ★5133, last push 2025-10-23): You want a full multiplayer first-person shooter project to study.
-- [UniversalRenderingExamples](https://github.com/Unity-Technologies/UniversalRenderingExamples) (Official source & samples, ★2312, last push 2025-10-23): You want URP examples for custom renderer features and effects.
+- [UniversalRenderingExamples](https://github.com/Unity-Technologies/UniversalRenderingExamples) (Official source & samples, ★2313, last push 2025-10-23): You want URP examples for custom renderer features and effects.
 - [Megacity Metro](https://github.com/Unity-Technologies/megacity-metro) (Official source & samples, ★1183, last push 2026-04-10): You want a large-scale multiplayer DOTS sample (Netcode for Entities).
-- [Unity Toon Shader](https://github.com/Unity-Technologies/com.unity.toonshader) (Rendering & VFX, ★1608, last push 2026-10-17): You want the official toon shader (UTS) source for URP and HDRP.
+- [Unity Toon Shader](https://github.com/Unity-Technologies/com.unity.toonshader) (Rendering & VFX, ★1609, last push 2026-10-17): You want the official toon shader (UTS) source for URP and HDRP.
 - [glTFast](https://github.com/atteneder/glTFast) (Serialization & data, ★1491, last push 2026-09-18): You want to import and export glTF 3D models at runtime or in the editor.
-- [UnityGLTF](https://github.com/KhronosGroup/UnityGLTF) (Serialization & data, ★2237, last push 2026-10-14): You want the Khronos glTF importer and exporter for Unity.
+- [UnityGLTF](https://github.com/KhronosGroup/UnityGLTF) (Serialization & data, ★2236, last push 2026-10-14): You want the Khronos glTF importer and exporter for Unity.
 - [Alchemy](https://github.com/annulusgames/Alchemy) (Editor & debugging, ★1386, last push 2026-10-15): You want inspector attributes and serialization extras (an open-source Odin alternative).
-- [UnityHFSM](https://github.com/Inspiaaa/UnityHFSM) (Gameplay & AI, ★1622, last push 2026-03-25): You want a hierarchical finite state machine for game logic.
-- [Runtime Inspector](https://github.com/yasirkula/UnityRuntimeInspector) (Editor & debugging, ★2168, last push 2026-08-30): You want an in-game hierarchy and inspector for debugging builds.
+- [UnityHFSM](https://github.com/Inspiaaa/UnityHFSM) (Gameplay & AI, ★1623, last push 2026-03-25): You want a hierarchical finite state machine for game logic.
+- [Runtime Inspector](https://github.com/yasirkula/UnityRuntimeInspector) (Editor & debugging, ★2169, last push 2026-08-30): You want an in-game hierarchy and inspector for debugging builds.
 - [Addressables-Sample](https://github.com/Unity-Technologies/Addressables-Sample) (Official source & samples, ★1451, last push 2026-05-06): You want working Addressables examples (loading, groups, remote content).
-- [UnityLibrary](https://github.com/UnityCommunity/UnityLibrary) (Learning repos, ★4403, last push 2026-10-07): You want a large library of Unity scripts and shader snippets.
-- [URP_ShaderGraphCustomLighting](https://github.com/Cyanilux/URP_ShaderGraphCustomLighting) (Rendering & VFX, ★783, last push 2025-07-09): You want custom lighting functions and sub-graphs for Shader Graph in URP.
+- [UnityLibrary](https://github.com/UnityCommunity/UnityLibrary) (Learning repos, ★4404, last push 2026-10-07): You want a large library of Unity scripts and shader snippets.
+- [URP_ShaderGraphCustomLighting](https://github.com/Cyanilux/URP_ShaderGraphCustomLighting) (Rendering & VFX, ★784, last push 2025-07-09): You want custom lighting functions and sub-graphs for Shader Graph in URP.
 - [URP_BlitRenderFeature](https://github.com/Cyanilux/URP_BlitRenderFeature) (Rendering & VFX, ★697, last push 2026-07-17): You want a more flexible Blit Renderer Feature for fullscreen effects in URP.
 - [ShaderGraphVariables](https://github.com/Cyanilux/ShaderGraphVariables) (Rendering & VFX, ★333, last push 2026-10-12): You want Register Variable and Get Variable nodes to tidy big Shader Graphs.
 - [URP_ShaderCodeTemplates](https://github.com/Cyanilux/URP_ShaderCodeTemplates) (Rendering & VFX, ★322, last push 2023-09-24): You are learning to write shader code for URP and want ShaderLab and HLSL templates.
 - [BakeShader](https://github.com/Cyanilux/BakeShader) (Rendering & VFX, ★221, last push 2024-03-04): You want to bake a shader to a texture, flipbook or mesh UV in the editor.
+- [PickUpItem-VertexShaderFunction](https://github.com/LazyEti/PickUpItem-VertexShaderFunction) (Rendering & VFX, ★27, last push 2021-04-26): You want a simple vertex-shader animation for pickup items.
+- [StylizedCulling-VertexShaderFunction](https://github.com/LazyEti/StylizedCulling-VertexShaderFunction) (Rendering & VFX, ★17, last push 2021-04-26): You want meshes to squash and stretch away with distance instead of popping out.
 
 ## Assets
 - [Amplify Shader Editor](https://assetstore.unity.com/packages/tools/visual-scripting/amplify-shader-editor-68570) by Amplify Creations (Shaders & look, 80.0): You want to build shaders visually with nodes, across render pipelines.
@@ -1452,6 +1454,7 @@
 - [Brute Force - Grass Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-grass-shader-192388) by BRUTE FORCE STUDIO (Shaders & look, 14.99): You want stylized, wind-swayed grass that reacts to the player.
 - [Brute Force - Snow & Ice Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-snow-ice-shader-221389) by BRUTE FORCE STUDIO (Shaders & look, 19.99): You want stylized snow and ice surfaces.
 - [Brute Force - Ground Shader](https://assetstore.unity.com/packages/vfx/shaders/brute-force-ground-shader-267152) by BRUTE FORCE STUDIO (Shaders & look, 19.99): You want a stylized ground shader that blends terrain layers.
+- [Fake Point Light (URP/Built-In)](https://assetstore.unity.com/packages/vfx/shaders/fake-point-light-urp-built-in-283797) by LazyEti (Shaders & look, 20.0): You want stylized torch and campfire light without URP's per-object light limit.
 
 ## Books
 - [Unity 6 Shaders and Effects Cookbook](https://www.packtpub.com/product/unity-6-shaders-and-effects-cookbook-9781835468579) by John P. Doran (Packt, 2025, Intermediate): You want recipe-style Shader Graph and visual effects examples written for Unity 6.
