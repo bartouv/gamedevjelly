@@ -1,10 +1,12 @@
 # Noise & procedural textures
 
-> Procedural & math · 34 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 36 hand-filtered guides on GamedevJelly, newest first.
 
+- [Optimizing Unity's Voronoi node](https://www.proceduralpixels.com/blog/optimizing-unity-s-voronoi-node): Several optimization passes on Shader Graph's Voronoi noise, profiled on a budget Android phone. (Jan Mróz, 2026-10-30, article, Unity-6 era)
 - [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
 - [Voronoi Diagrams: how it works](https://moonjump.com/game-dev-mechanics-voronoi-diagrams-how-it-works/): Explains Voronoi partitioning and its uses in map generation, fracture, Worley noise, and GPU signed distance fields. (Moonjump, 2026-01-06, article, Unity-6 era)
 - [Noise Functions (Perlin & Simplex): how it works](https://moonjump.com/game-dev-mechanics-noise-functions-perlin-simplex-how-it-works/): Learn how Perlin and Simplex noise generate coherent randomness for procedural terrain, textures, and animation. (Moonjump, 2025-12-05, article, Unity-6 era)
+- [Using texture units to speed up math on the GPU](https://www.proceduralpixels.com/blog/i-used-texture-units-to-speed-up-math-on-the-gpu): Replace expensive shader math with texture lookups, and measure when it pays off. (Jan Mróz, 2025-11-18, article, Unity-6 era)
 - [Procedural Terrain Generation: how it works](https://moonjump.com/game-dev-mechanics-procedural-terrain-generation-how-it-works/): Learn how Perlin noise, fractal Brownian motion and domain warping combine to generate believable procedural landscapes. (Moonjump, 2025-10-12, article, Unity-6 era)
 - [@alanzucconi.com: noise shader makes a game impossible to screenshot](https://bsky.app/profile/alanzucconi.com/post/3lcvd3j4vh22e): Horror game uses a noise shader so the hidden content only reads in motion; stills look like static. (Alan Zucconi, 2024-12-09, post, Unity-6 era)
 - [Voronoi-based Lava in Unity Shader Graph](https://danielilett.com/2023-06-20-tut7-2-voronoi-lava/): Builds animated lava in Shader Graph using custom Voronoi noise that exposes cell edges. (Daniel Ilett, 2023-06-20, article, Unity-2022 era)

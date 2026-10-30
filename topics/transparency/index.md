@@ -1,7 +1,8 @@
 # Glass, refraction & transparency
 
-> Shaders & rendering · 43 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 44 hand-filtered guides on GamedevJelly, newest first.
 
+- [Everything I know about overdraw](https://www.proceduralpixels.com/blog/what-is-overdraw): Why a scary overdraw heatmap doesn't always mean a slow frame: early-Z, discard and transparency, measured on a Mali GPU. (Jan Mróz, 2026-09-21, article, Unity-6 era)
 - [GitHub - Youssef-Afella/UnityURP-FakeRealGlass: Fast glass shader that doesn't require any RayTracing or RayMarching](https://github.com/Youssef-Afella/UnityURP-FakeRealGlass): Repo: URP glass shader that fakes realistic refraction without ray tracing or raymarching. (2026-02-08, repo, Unity-6 era, URP)
 - [Unity Shader Code Basics 03 - Transparency](https://danielilett.com/2026-01-01-tut10-03-transparency/): Explains drawing transparent objects and blending in hand-written Unity shaders. (Daniel Ilett, 2026-01-01, article, Unity-6 era)
 - [Pokémon Emerald cartridge shader walkthrough](https://bobacupcake.com/posts/2025-11-03-pokemon-emerald-shader-walkthrough.html): Achieving a translucent plastic cartridge effect by modelling internals and layering transparency tricks. (rob (bobacupcake), 2025-11-03, article, Unity-6 era)

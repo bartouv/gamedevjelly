@@ -1,12 +1,13 @@
 # Volumetrics & fog
 
-> Shaders & rendering · 49 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 50 hand-filtered guides on GamedevJelly, newest first.
 
 - [@minionsart.bsky.social: low rolling volume clouds, kept simple to follow](https://bsky.app/profile/minionsart.bsky.social/post/3mtbyivjdfk2z): Cloud effect built on a local volume fog cube post, explained in an easy tutorial. (MinionsArt, 2026-08-17, post, Unity-6 era)
 - [Low Rolling Clouds Volume](https://www.patreon.com/minionsart/posts/rolling-local-166282612): Patreon post on a localized volume of low rolling clouds. (MinionsArt, 2026-08-01, post, Unity-6 era)
 - [Volumetric Box/Fog Volume](https://www.patreon.com/minionsart/posts/making-fog-cube-163433291): Patreon post on making a box-shaped volumetric fog volume. (MinionsArt, 2026-07-01, post, Unity-6 era)
 - [Volumetric Lighting (God Rays): how it works](https://moonjump.com/game-dev-mechanics-volumetric-lighting-god-rays-how-it-works/): Explains light scattering, the Beer-Lambert law, and the screen-space radial blur used for god rays. (Moonjump, 2026-02-15, article, Unity-6 era)
 - [How we use visual effects to build atmosphere in our cRPG, Glasshouse](https://unity.com/blog/glasshouse-flat28-building-atmosphere-hdrp): Using HDRP and visual effects to build the moody feudalpunk atmosphere of a CRPG. (Unity, 2025-09-29, article, Unity-6 era)
+- [Rendering into a custom texture in Unity](https://www.proceduralpixels.com/blog/rendering-into-custom-texture-in-unity): A URP render feature that draws character trails into a texture to disperse volumetric fog. (Jan Mróz, 2025-09-17, article, Unity-6 era)
 - [How to create atmospheric environments on a budget](https://unity.com/blog/how-to-create-atmospheric-environments-on-a-budget): Building cinematic atmospheric environments with HDRP and volumetric lighting while keeping performance budget low. (Unity, 2025-08-22, article, Unity-6 era)
 - [High-End Lighting & Environments with HDRP in Unity 6](https://unity.com/resources/lighting-environments-hdrp-unity-6): HDRP in Unity 6: physically accurate lighting, environments and effects, with performance guidance. (Unity, 2025-08-14, article, Unity-6 era)
 - [Tricubic sampling gist for smoother low-res volumetric light shafts](https://gist.github.com/Fewes/59d2c831672040452aa77da6eaab2234): Felix Westin's tricubic texture sampling snippet, used to reduce low-resolution artifacts in intense light shafts. (Harry Alisavakis, 2025-06-15, article, Unity-6 era)

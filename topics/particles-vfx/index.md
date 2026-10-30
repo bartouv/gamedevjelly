@@ -1,6 +1,6 @@
 # Particles & VFX Graph
 
-> VFX · 91 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 96 hand-filtered guides on GamedevJelly, newest first.
 
 - [A Fire Tornado with Ring Particles in Unity](https://jettelly.com/blog/building-a-fire-tornado-with-ring-particles-in-unity): Breakdown of a fire tornado made from stacked rising ring particles in Unity's particle system. (Jettelly, 2026-10-11, article, Unity-6 era)
 - [Spooky particles: vertex color animated mesh particles (tutorial)](https://minionsart.github.io/tutorials/Posts.html?post=spooky_particles): Tutorial post with files for animating mesh particles using vertex colors, updated with axis fixes. (MinionsArt, 2026-10-05, article, Unity-6 era)
@@ -15,10 +15,15 @@
 - [Zeri W ability recreated in Unity with Shuriken particles (ArtStation)](https://www.artstation.com/artwork/2Bl1YJ): Fan-art breakdown of a League of Legends ability built with Shuriken particles. (Jettelly, 2026-07-18, article, Unity-6 era)
 - [Unity VFX Graph - Impact Effect Tutorial](https://www.youtube.com/watch?v=T_zktTRBCCA): Build an impact effect in VFX Graph with triangle and beam textures made in Material Maker, plus added particles. (Gabriel Aguiar Prod., 2026-07-08, video, Unity-6 era)
 - [Unity VFX Graph - Meteor Effect Tutorial](https://www.youtube.com/watch?v=6Q23T7GVXUU): Make a meteor with VFX Graph and Shader Graph, covering the Blender mesh, a fresnel shader, movement and Material Maker textures. (Gabriel Aguiar Prod., 2026-06-24, video, Unity-6 era)
+- [Optimizing a GPU-driven particle system to run 4x faster](https://www.proceduralpixels.com/blog/optimizing-gpu-driven-particle-system-to-run-4x-faster): Profiling and speeding up a compute-shader particle system built on append/consume buffers. (Jan Mróz, 2026-06-21, article, Unity-6 era)
+- [Implementing a mesh dissolve effect from scratch](https://www.proceduralpixels.com/blog/implementing-mesh-dissolve-effect-from-scratch): A burning-object effect with GPU particles spawned on the mesh, using compute shaders instead of VFX Graph. (Jan Mróz, 2026-06-18, article, Unity-6 era)
+- [Rendering 90,000 particles in Unity: what actually costs CPU and GPU time](https://www.proceduralpixels.com/blog/rendering-90000-particles-in-unity): Unity 6 URP instancing compared: GameObjects, RenderMeshInstanced, indirect draws and more, all profiled. (Jan Mróz, 2026-06-04, article, Unity-6 era)
 - [Unity VFX Graph - Waterfall Effect Tutorial](https://www.youtube.com/watch?v=uFcTWm40fCA): Create a waterfall with VFX Graph and Shader Graph, including the Blender meshes, waterfall shader and ripples. (Gabriel Aguiar Prod., 2026-05-27, video, Unity-6 era)
 - [Unity VFX Graph - Black Hole Effect Tutorial](https://www.youtube.com/watch?v=7iai1U150Io): Build a black hole with VFX Graph and Shader Graph, covering a fresnel shader, ring meshes and a scrolling shader. (Gabriel Aguiar Prod., 2026-05-13, video, Unity-6 era)
 - [Making fire feel alive: Real-time fluid simulation in Ignitement](https://unity.com/blog/real-time-fluid-simulation-fire-vfx-ignitement-breakdown): Real-time 2D fluid simulation used to create dynamic, gameplay-driven fire effects. (Unity, 2026-04-23, article, Unity-6 era)
 - [Patreon: Laser Beam for URP](https://www.patreon.com/posts/laser-beam-urp-141944688): Patreon post on a laser beam effect for URP. (2026-02-23, post, Unity-6 era, URP)
+- [3D particles with no CPU code, no meshes, no instancing](https://www.proceduralpixels.com/blog/grid-based-particles-in-fragment-shaders-implementation-and-optimization): Grid-based particles rendered entirely in one full-screen fragment shader, then optimized. (Jan Mróz, 2025-12-29, article, Unity-6 era)
+- [Stateless particles: rendering without a mesh](https://www.proceduralpixels.com/blog/stateless-particles---rendering-without-a-mesh): Procedural draws that build particle geometry in the vertex shader with no mesh or simulation state. (Jan Mróz, 2025-12-16, article, Unity-6 era)
 - [Beginner's Guide to Exploding Tanks in Unity](https://www.youtube.com/watch?v=32KHX1yqStU): Beginner guide to making tanks explode in Unity. (gamedev:hq, 2025-11-06, video, Unity-6 era)
 - [Particle Systems: how it works](https://moonjump.com/game-dev-mechanics-particle-systems-how-it-works/): Learn particle motion math, emitter types, object pooling, and GPU rendering techniques for thousands of simultaneous particles. (Moonjump, 2025-11-02, article, Unity-6 era)
 - [Laser Beam](https://www.patreon.com/posts/141944688): Patreon post on building a laser beam effect. (MinionsArt, 2025-10-01, post, Unity-6 era)

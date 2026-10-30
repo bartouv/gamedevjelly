@@ -1,10 +1,13 @@
 # Debugging & testing
 
-> Workflow & tools · 24 hand-filtered guides on GamedevJelly, newest first.
+> Workflow & tools · 28 hand-filtered guides on GamedevJelly, newest first.
 
+- [How to debug random graphics bugs](https://www.proceduralpixels.com/blog/how-to-debug-random-graphics-bugs): Hunting down a mesh that flashes stretched for one frame every few minutes, step by step. (Jan Mróz, 2026-08-24, article, Unity-6 era)
 - [My Unity Singletons Are Finally Testable](https://www.youtube.com/watch?v=jla72YY5Rvg): Makes Unity singletons testable by replacing hard-wired access with swappable, injectable dependencies. (Gamedev Engine Room, 2026-06-03, video, Unity-6 era)
 - [You're Using Debug.Log Wrong in Unity](https://www.youtube.com/watch?v=Jid2tW-B_Y0): Uses Unity's logging attributes and APIs to tag, filter and organize logs beyond plain Debug.Log. (Gamedev Engine Room, 2026-05-11, video, Unity-6 era)
+- [Profiling the GPU in the Unity Editor](https://www.proceduralpixels.com/blog/profiling-the-gpu-in-unity-editor): Connect Nsight Graphics to the Unity Editor and read a native GPU capture. (Jan Mróz, 2026-01-29, article, Unity-6 era)
 - [Unity Performance Testing Framework: Code Benchmarking](https://www.youtube.com/watch?v=gdT0OSF1P9g): Uses the Unity Performance Testing Framework to benchmark code and measure performance changes. (Gamedev Engine Room, 2025-11-27, video, Unity-6 era)
+- [The art of debugging rendering](https://www.proceduralpixels.com/blog/fix-your-rendering-the-art-of-debugging-rendering): How to approach rendering bugs with frame debuggers and GPU captures. (Jan Mróz, 2025-11-11, article, Unity-6 era)
 - [Benchmark Any C# Code Like a Pro](https://www.youtube.com/watch?v=kEjw8bmctrA): Shows how to benchmark C# code reliably, avoiding common measurement mistakes. (Gamedev Engine Room, 2025-11-06, video, Unity-6 era)
 - [Unity Game Optimization: Profile, Find Bottlenecks & Fix Performance](https://www.youtube.com/watch?v=tnzs3DeE4Cg): Teaches profiling a Unity game, finding bottlenecks and applying optimization fixes. (Gamedev Engine Room, 2025-10-30, video, Unity-6 era)
 - [GPU Reality Check - Radeon GPU Profiler for Unity Pipelines](https://thegamedev.guru/unity-gpu-performance/radeon-gpu-profiler-unity-pipeline-state/): Uses Radeon GPU Profiler to tell CPU-bound from GPU-bound work and inspect pipeline state changes in Unity. (GameDevGuru, 2025-10-23, article, Unity-6 era)
@@ -14,6 +17,7 @@
 - [Testing Unity: Unit & Integration Tests Explained](https://www.youtube.com/watch?v=5TI0uIyjP6I): Explains unit and integration testing in Unity with practical setup and test examples. (Gamedev Engine Room, 2025-10-10, video, Unity-6 era)
 - [Unit Testing in Unity: Everything You Need to Know](https://www.youtube.com/watch?v=3YvnGzuwDbk): Introduces unit testing in Unity: test frameworks, writing tests and structuring testable code. (Gamedev Engine Room, 2025-10-03, video, Unity-6 era)
 - [Tips on Editor workflows, debugging, and 2D best practices in Unity 6](https://unity.com/blog/editor-workflows-debugging-2d-best-practices-unity-6): Unity 6 Editor workflow, debugging and 2D tips for saving time throughout development. (Unity, 2025-07-25, article, Unity-6 era)
+- [GPU profiling basics with Nsight Graphics](https://www.proceduralpixels.com/blog/how-to-profile-the-rendering-gpu-profiling-basics): Install Nsight Graphics, attach it to a Unity build and find GPU bottlenecks. (Jan Mróz, 2025-07-18, article, Unity-6 era)
 - [How to Use Profiling Tools in Unity 6 Efficiently](https://unity.com/blog/use-unity-6-profiling-tools-smart-efficient): Step-by-step guidance for profiling a Unity 6 game, managing memory and trimming power consumption. (Unity, 2025-07-11, article, Unity-6 era)
 - [Ultimate Guide to Profiling Unity 6 Games](https://unity.com/resources/ultimate-guide-to-profiling-unity-games-unity-6): Unity 6 profiling toolset guide: Profiler, memory analysis and finding bottlenecks across platforms. (Unity, 2025-07-11, article, Unity-6 era)
 - [The Game Kitchen on 3 technical challenges making The Stone of Madness](https://unity.com/blog/the-game-kitchen-stone-of-madness-3-technical-challenges): Three technical challenges in custom rendering, UI and testing while building a 2.5D adventure. (Unity, 2025-03-06, article, Unity-6 era)

@@ -1,12 +1,13 @@
 # Lighting & shadows
 
-> Shaders & rendering · 134 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 136 hand-filtered guides on GamedevJelly, newest first.
 
 - [Custom SRP 7.3: Raster Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-3/): Custom SRP tutorial converting shadow passes to raster render passes. (Catlike Coding, 2026-10-08, article, Unity-6 era)
 - [Custom SRP 7.2: Separate Shadow Passes](https://catlikecoding.com/unity/custom-srp/7-2/): Custom SRP tutorial introducing separate shadow passes. (Catlike Coding, 2026-09-18, article, Unity-6 era)
 - [Custom SRP 7.1: Splitting Shadow Code](https://catlikecoding.com/unity/custom-srp/7-1-0/): Custom SRP tutorial splitting directional and other shadow code. (Catlike Coding, 2026-08-19, article, Unity-6 era)
 - [How Mega Cat Studios Used Unity to Reimagine Backyard Baseball in 3D ❘ Unity Blog](https://unity.com/blog/reimagining-backyard-baseball-3d-level-design-and-environment-art): Readable 3D level design, decals, lighting and VFX when remaking a baseball game in 3D. (Unity, 2026-07-28, article, Unity-6 era)
 - [Unity Shader Code Basics 07 - Physically Based Rendering](https://danielilett.com/2026-04-28-tut10-07-pbr/): Describes surfaces by albedo, metallic, smoothness and height to build a physically based shader in HLSL for Unity. (Daniel Ilett, 2026-04-28, article, Unity-6 era)
+- [Optimizing URP lighting for low-end devices](https://www.proceduralpixels.com/blog/optimizing-urp-lighting-for-low-end-devices): Cutting the cost of URP's lit shaders for an environment built from two shaders. (Jan Mróz, 2026-04-24, article, Unity-6 era)
 - [Unity Shader Code Basics 06 - Lighting & Shadows](https://danielilett.com/2026-04-17-tut10-06-lighting/): Loops over lights for diffuse, specular, Fresnel and ambient lighting and handles shadows in Unity shader code. (Daniel Ilett, 2026-04-17, article, Unity-6 era)
 - [@freya.bsky.social: analytic 2D lighting with complex numbers and conformal maps](https://bsky.app/profile/freya.bsky.social/post/3mhwni2jhis2b): Shader lighting via piecewise conformal maps of angular exposure yields fully analytic penumbras. (Freya Holmér, 2026-03-26, post, Unity-6 era)
 - [Screen Space Ambient Occlusion (SSAO): how it works](https://moonjump.com/game-dev-mechanics-screen-space-ambient-occlusion-ssao-how-it-works/): Covers the SSAO algorithm from the AO integral and depth sampling through hemisphere kernels and noise rotation. (Moonjump, 2026-03-08, article, Unity-6 era)
@@ -19,6 +20,7 @@
 - [How to create atmospheric environments on a budget](https://unity.com/blog/how-to-create-atmospheric-environments-on-a-budget): Building cinematic atmospheric environments with HDRP and volumetric lighting while keeping performance budget low. (Unity, 2025-08-22, article, Unity-6 era)
 - [Lighting & Environment HRDP Updates in Unity 6](https://unity.com/blog/lighting-and-environments-hdrp-updates-unity-6): HDRP improvements in Unity 6 for physically accurate lighting, high-fidelity materials and cinematic effects. (Unity, 2025-08-14, article, Unity-6 era)
 - [High-End Lighting & Environments with HDRP in Unity 6](https://unity.com/resources/lighting-environments-hdrp-unity-6): HDRP in Unity 6: physically accurate lighting, environments and effects, with performance guidance. (Unity, 2025-08-14, article, Unity-6 era)
+- [Render Graph: creative shadowcasting](https://www.proceduralpixels.com/blog/render-graph-creative-shadowcasting): Use a shadowcasting pass to keep covered surfaces dry in a URP rain effect. (Jan Mróz, 2025-07-03, article, Unity-6 era)
 - [Cool things to do with Light Cookies](https://youtu.be/n6RFeQfG9mU): Shows creative uses of light cookies such as moving cloud shadows. (MinionsArt, 2025-04-01, video, Unity-6 era)
 - [Sims 4: Mirrors](https://simonschreibt.de/gat/sims-4-mirrors/): Analysis of how mirrors are rendered in The Sims 4. (Simon Schreibt, 2025-03-28, article, Unity-6 era)
 - [Infinity Nikki: Mysterious Shadow Drop](https://simonschreibt.de/gat/infinity-nikki-shadow/): Looks at the shadow drop effect in Infinity Nikki. (Simon Schreibt, 2025-03-02, article, Unity-6 era)

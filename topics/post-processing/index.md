@@ -1,6 +1,6 @@
 # Post-processing & image effects
 
-> Shaders & rendering · 112 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 113 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 09 - Post Processing](https://danielilett.com/2026-09-03-tut10-09-post-processing/): Writes grayscale and other post-process effects in URP using the newer Render Graph API. (Daniel Ilett, 2026-09-03, article, Unity-6 era, URP)
 - [Recreating a painterly shader in Unity URP](https://jettelly.com/blog/recreating-a-painterly-shader-in-unity-urp): Rebuilding a painterly look in URP over a few days using post-process passes. (Jettelly, 2026-07-19, article, Unity-6 era)
@@ -11,6 +11,7 @@
 - [Volumetric Lighting (God Rays): how it works](https://moonjump.com/game-dev-mechanics-volumetric-lighting-god-rays-how-it-works/): Explains light scattering, the Beer-Lambert law, and the screen-space radial blur used for god rays. (Moonjump, 2026-02-15, article, Unity-6 era)
 - [Bloom (Post-Processing): how it works](https://moonjump.com/game-dev-mechanics-bloom-post-processing-how-it-works/): Breaks down bloom into brightness extraction, Gaussian blur, and HDR compositing, with math and shader code. (Moonjump, 2026-01-31, article, Unity-6 era)
 - [Unity Shader Graph Basics (Part 12 - Post Processing)](https://danielilett.com/2025-10-14-tut9-12-post-processing/): Reads screen contents with the Fullscreen graph type to build post-process effects in Shader Graph. (Daniel Ilett, 2025-10-14, article, Unity-6 era)
+- [GPU sorting algorithms: benchmarks](https://www.proceduralpixels.com/blog/gpu-sorting-algorithms-benchmarks): GPU sorting benchmarked, with a median-filter bloom as the practical use case. (Jan Mróz, 2025-07-31, article, Unity-6 era)
 - [@halisavakis.com: fake multiple scattering by compositing bloom with fog](https://bsky.app/profile/halisavakis.com/post/3lr75nqc5yk2x): Proof of concept blurring high-frequency fog detail via a bloom composited with the fog, plus its limitations. (Harry Alisavakis, 2025-06-09, post, Unity-6 era)
 - [Custom Post Processing with Render Graph](https://www.patreon.com/posts/custom-post-with-125382930): Patreon post on custom post processing using URP's Render Graph. (MinionsArt, 2025-03-01, post, Unity-6 era, URP)
 - [Custom Post Processing for Volumes in URP](https://www.patreon.com/posts/custom-post-for-123154106): Patreon post on custom post processing for URP volumes. (MinionsArt, 2025-02-01, post, Unity-6 era, URP)

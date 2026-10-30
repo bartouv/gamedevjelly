@@ -1,10 +1,13 @@
 # Sky, clouds & weather
 
-> Environment · 35 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 38 hand-filtered guides on GamedevJelly, newest first.
 
 - [@minionsart.bsky.social: low rolling volume clouds, kept simple to follow](https://bsky.app/profile/minionsart.bsky.social/post/3mtbyivjdfk2z): Cloud effect built on a local volume fog cube post, explained in an easy tutorial. (MinionsArt, 2026-08-17, post, Unity-6 era)
 - [Low Rolling Clouds Volume](https://www.patreon.com/minionsart/posts/rolling-local-166282612): Patreon post on a localized volume of low rolling clouds. (MinionsArt, 2026-08-01, post, Unity-6 era)
 - [5 Skybox Methods Every Unity Dev Needs To Know About](https://www.youtube.com/watch?v=Yd0xNTYNfss): Covers five skybox methods for Unity developers. (Game Dev Guide, 2025-08-08, video, Unity-6 era)
+- [Render Graph: creative shadowcasting](https://www.proceduralpixels.com/blog/render-graph-creative-shadowcasting): Use a shadowcasting pass to keep covered surfaces dry in a URP rain effect. (Jan Mróz, 2025-07-03, article, Unity-6 era)
+- [Render Graph: polishing the rain atmosphere effect](https://www.proceduralpixels.com/blog/render-graph-polishing-rain-atmosphere-effect): Improve a wet-surface rain effect that edits the URP GBuffer before lighting. (Jan Mróz, 2025-06-17, article, Unity-6 era)
+- [Render Graph: creating a rain atmosphere](https://www.proceduralpixels.com/blog/render-graph-creating-rain-atmosphere): A URP Render Graph feature that makes the scene look wet by changing GBuffer contents. (Jan Mróz, 2025-06-03, article, Unity-6 era)
 - [Cool things to do with Light Cookies](https://youtu.be/n6RFeQfG9mU): Shows creative uses of light cookies such as moving cloud shadows. (MinionsArt, 2025-04-01, video, Unity-6 era)
 - [Stylized Skybox Shader](https://www.patreon.com/posts/stylized-skybox-89917325): Patreon post on a stylized skybox shader. (MinionsArt, 2023-09-01, post, Unity-2022 era)
 - [Learn How to Create Appealing Clouds in Unity in 3 Simple Steps](https://80.lv/articles/learn-how-to-create-appealing-clouds-in-unity-in-3-simple-steps/): Cookbook recipe for building stylized clouds in URP in three steps. (2023-08-30, article, Unity-2022 era, URP)

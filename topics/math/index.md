@@ -1,6 +1,6 @@
 # Math for game devs
 
-> Procedural & math · 195 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 197 hand-filtered guides on GamedevJelly, newest first.
 
 - [@freya.bsky.social: quaternion powers q², √q and qˣ scale a rotation](https://bsky.app/profile/freya.bsky.social/post/3mwqvwetixc2r): Raising a quaternion to a power scales its rotation: square doubles, square root halves, qˣ scales by x. (Freya Holmér, 2026-09-30, post, Unity-6 era)
 - [@freya.bsky.social: quaternion (x,y,z,0) is a 180° rotation about that axis](https://bsky.app/profile/freya.bsky.social/post/3mwedrkwlk227): A unit vector as a pure quaternion gives a half-turn around it, with no trig or euler conversion. (Freya Holmér, 2026-09-25, post, Unity-6 era)
@@ -11,6 +11,8 @@
 - [@freya.bsky.social: random rotations equal uniform points on a 4D sphere](https://bsky.app/profile/freya.bsky.social/post/3mrarycmzc22x): Uniformly distributed random rotation quaternions are exactly uniform random points on the 4D sphere surface. (Freya Holmér, 2026-07-22, post, Unity-6 era)
 - [@freya.bsky.social: analytic 2D lighting with complex numbers and conformal maps](https://bsky.app/profile/freya.bsky.social/post/3mhwni2jhis2b): Shader lighting via piecewise conformal maps of angular exposure yields fully analytic penumbras. (Freya Holmér, 2026-03-26, post, Unity-6 era)
 - [Coding Adventure: Additive Synthesis](https://www.youtube.com/watch?v=rRnOtKlg4jA) (Sebastian Lague, 2026-03-20, video, Unity-6 era)
+- [The nature of the pixel](https://www.proceduralpixels.com/blog/the-nature-of-the-pixel): Aliasing, sampling and why many rendering problems come from the screen being made of discrete pixels. (Jan Mróz, 2026-03-20, article, Unity-6 era)
+- [Verlet solver: the simplest physics engine](https://www.proceduralpixels.com/blog/verlet-solver---simplest-physics-engine-implementation): Build your first custom physics engine in an evening with Verlet integration. (Jan Mróz, 2026-03-13, article, Unity-6 era)
 - [@freya.bsky.social: A+B is the midpoint of A and B in homogeneous coordinates](https://bsky.app/profile/freya.bsky.social/post/3mgkadq5i3s2d): In homogeneous coordinates adding two points gives their midpoint, a trick behind w=0 or w=1 handling. (Freya Holmér, 2026-03-08, post, Unity-6 era)
 - [Skeletal Animation & Skinning: how it works](https://moonjump.com/game-dev-mechanics-skeletal-animation-skinning-how-it-works/): Explains bone hierarchies, inverse bind matrices, and linear blend skinning that deform meshes into animated characters. (Moonjump, 2026-03-05, article, Unity-6 era)
 - [Third-Person Camera Systems: how it works](https://moonjump.com/game-dev-mechanics-third-person-camera-systems-how-it-works/): Shows follow cameras, exponential damping, and raycast-based collision avoidance for third-person cameras. (Moonjump, 2026-03-01, article, Unity-6 era)
@@ -150,5 +152,3 @@
 - [Inverse Kinematics for Robotic Arms](https://www.alanzucconi.com/2017/04/10/robotic-arms/): Moves robotic arms in Unity with inverse kinematics and procedural animation in C#. (Alan Zucconi, 2017-04-10, article, Unity-old era)
 - [An Introduction to Gradient Descent](https://www.alanzucconi.com/2017/04/10/gradient-descent/): Introduces gradient descent as a way to solve inverse kinematics for procedural animation. (Alan Zucconi, 2017-04-10, article, Unity-old era)
 - [Implementing Forward Kinematics](https://www.alanzucconi.com/2017/04/06/implementing-forward-kinematics/): Implements forward kinematics in Unity with code, as part of an IK series. (Alan Zucconi, 2017-04-06, article, Unity-old era)
-- [The Mathematics of Forward Kinematics](https://www.alanzucconi.com/2017/04/06/forward-kinematics/): Explains the mathematics of forward kinematics behind procedural animation and IK. (Alan Zucconi, 2017-04-06, article, Unity-old era)
-- [MathUtilities/Assets/Volume at master · zalo/MathUtilities](https://github.com/zalo/MathUtilities/tree/master/Assets/Volume): Repo: Collection of math and physics tricks for Unity, including volume calculations. (2017-02-11, repo, Unity-old era)

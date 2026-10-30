@@ -1,10 +1,13 @@
 # Grass, trees & foliage
 
-> Environment · 41 hand-filtered guides on GamedevJelly, newest first.
+> Environment · 44 hand-filtered guides on GamedevJelly, newest first.
 
+- [Custom GPU-driven rendering in Unity](https://www.proceduralpixels.com/blog/custom-gpu-driven-rendering-in-unity): Spawn instances from a painted texture on the GPU, frustum-cull them and draw them with one indirect call. (Jan Mróz, 2026-06-12, article, Unity-6 era)
+- [Making Unity's terrain grass look better](https://www.proceduralpixels.com/blog/making-unity-grass-look-better): Before-and-after fixes that make Unity terrain grass look far less flat. (Jan Mróz, 2025-12-04, article, Unity-6 era)
 - [Outbound’s clip shader approach: Precise foliage discarding for real-time environments](https://unity.com/blog/outbound-square-glade-games-foliage-discarding-solution): A clip-shader technique for discarding foliage precisely, stopping grass poking through vehicles. (Unity, 2025-12-02, article, Unity-6 era)
 - [Interactive Grass | Unity Shader Graph Tutorial](https://www.youtube.com/watch?v=GzK9P3MOvp8): Grass that bends away from the player, in Shader Graph. (Game Slave, 2025-11-18, video, Unity-6 era)
 - [GPU Instanced Grass Breakdown](https://www.cyanilux.com/tutorials/gpu-instanced-grass-breakdown/): Breakdown of GPU instanced grass using Shader Graph with DrawMeshInstanced APIs. (Cyan, 2025-10-03, article, Unity-6 era)
+- [Shell texturing vs raymarching](https://www.proceduralpixels.com/blog/shell-texturing-vs-raymarching): The main problem with shell texturing (fur, grass) and how raymarching can replace it. (Jan Mróz, 2025-09-03, article, Unity-6 era)
 - [Grass System for URP](https://www.patreon.com/posts/grass-system-urp-83683483): Patreon post on a URP grass system for Unity. (2025-06-27, post, Unity-6 era, URP)
 - [Optimizing Performance for Thrive: Heavy Lies the Crown](https://unity.com/blog/optimizing-performance-thrive-heavy-lies-the-crown): Custom vegetation system built to optimize performance in a lush open game. (Unity, 2025-06-18, article, Unity-6 era)
 - [Grass System Patreon post](https://www.patreon.com/posts/grass-system-100668614): Patreon post on a grass system for Unity. (2024-03-29, post, Unity-2022 era)

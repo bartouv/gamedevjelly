@@ -1,8 +1,10 @@
 # Tech art & DCC workflow
 
-> Art & learning · 103 hand-filtered guides on GamedevJelly, newest first.
+> Art & learning · 106 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity VFX Graph - Muzzle Flash Effect Tutorial](https://www.youtube.com/watch?v=HISD_W-EwyE): Build a muzzle flash with VFX Graph, using Blender plane meshes and textures made in Material Maker. (Gabriel Aguiar Prod., 2026-08-05, video, Unity-6 era)
+- [How I'd learn graphics programming today](https://www.proceduralpixels.com/blog/how-i-d-learn-graphics-programming-today): A learning path into graphics programming, from engine experiments to real rendering knowledge. (Jan Mróz, 2026-07-10, article, Unity-6 era)
+- [Future of graphics programming: GIC Katowice panel summary](https://www.proceduralpixels.com/blog/future-of-graphics-programming---gic-katowice-panel-summary): Notes from a panel with AMD engineers on path tracing, neural rendering and what comes next. (Jan Mróz, 2026-07-03, article, Unity-6 era)
 - [What I learned about using Unity Timeline to create a short film](https://www.youtube.com/watch?v=j1JvhqnxgEY): What she learned making a short film with Unity Timeline: how she built it and which assets she used. (Christina Creates Games, 2026-06-24, video, Unity-6 era)
 - [How to create a shader for expressions and use it on your Synty Character](https://www.youtube.com/watch?v=QmMb3Op-eg0): Create a shader that shows a range of facial expressions on a Synty POLYGON character's face. (Christina Creates Games, 2026-06-03, video, Unity-6 era)
 - [How to Change the Faces of Synty Characters](https://www.youtube.com/watch?v=aL8N01orAz4): Switch the faces of Synty characters with a customisable face-plate system. (Christina Creates Games, 2026-06-01, video, Unity-6 era)
@@ -19,6 +21,7 @@
 - [How PlaySide Studios Built KILL KNIGHT's Visual Identity](https://unity.com/blog/how-playside-studios-built-kill-knight-visual-identity): An art pipeline and development challenges behind a stylized action game's visual identity. (Unity, 2025-10-28, article, Unity-6 era)
 - [CD bagel shader walkthrough](https://bobacupcake.com/posts/2025-09-28-cd-bagel-shader-walkthrough.html): From a 3D-scanned donut to an iridescent CD-like shader: model, textures and shading choices. (rob (bobacupcake), 2025-09-28, article, Unity-6 era)
 - [Level layout and terrain workflows in Survival Kids](https://unity.com/blog/level-layout-and-terrain-workflows-in-survival-kids): Terrain and level-building workflows built for fast iteration and fewer reworks in Survival Kids. (Unity, 2025-09-03, article, Unity-6 era)
+- [Rendering into texture: the most important TA skill](https://www.proceduralpixels.com/blog/rendering-into-texture-the-most-important-ta-skill): Why rendering custom content into custom textures unlocks most tech-art effects. (Jan Mróz, 2025-08-28, article, Unity-6 era)
 - [Tips to Increase Productivity in Unity 6](https://unity.com/resources/tips-improve-productivity-workflow-unity-6): Tips for working faster across Unity 6 toolsets, for both artists and programmers. (Unity, 2025-07-25, article, Unity-6 era)
 - [Hue-shifting colours for nicer shadows](https://bsky.app/profile/gamemakerstoolkit.com/post/3lrxecikwz22a): Colour tip: darken shadows by shifting hue as well as brightness to avoid muddy tones. (Game Maker's Toolkit, 2025-06-19, post, Unity-6 era)
 - [Technically Art issue 141 (17 Jan 2025)](https://halisavakis.com/technically-art-issue-141-17-1-2025/): Curated weekly roundup of shader, VFX and tech art posts and links. (Harry Alisavakis, 2025-01-17, article, Unity-6 era)

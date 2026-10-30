@@ -1,15 +1,25 @@
 # Compute shaders & GPU
 
-> Shaders & rendering · 36 hand-filtered guides on GamedevJelly, newest first.
+> Shaders & rendering · 46 hand-filtered guides on GamedevJelly, newest first.
 
 - [Moving two million soldiers in Unity with compute shaders and flow fields](https://jettelly.com/blog/making-two-million-soldiers-move-in-unity): How compute shaders and flow fields drive two million units at about 11 ms per frame. (Jettelly, 2026-09-27, article, Unity-6 era)
+- [Optimizing a GPU-driven particle system to run 4x faster](https://www.proceduralpixels.com/blog/optimizing-gpu-driven-particle-system-to-run-4x-faster): Profiling and speeding up a compute-shader particle system built on append/consume buffers. (Jan Mróz, 2026-06-21, article, Unity-6 era)
+- [Implementing a mesh dissolve effect from scratch](https://www.proceduralpixels.com/blog/implementing-mesh-dissolve-effect-from-scratch): A burning-object effect with GPU particles spawned on the mesh, using compute shaders instead of VFX Graph. (Jan Mróz, 2026-06-18, article, Unity-6 era)
+- [GPU buffers in Unity: 101](https://www.proceduralpixels.com/blog/gpu-buffers-in-unity-101): Structured, append, raw and constant buffers in Unity: what each is for and how to use them. (Jan Mróz, 2026-06-12, article, Unity-6 era)
+- [Custom GPU-driven rendering in Unity](https://www.proceduralpixels.com/blog/custom-gpu-driven-rendering-in-unity): Spawn instances from a painted texture on the GPU, frustum-cull them and draw them with one indirect call. (Jan Mróz, 2026-06-12, article, Unity-6 era)
+- [Rendering 90,000 particles in Unity: what actually costs CPU and GPU time](https://www.proceduralpixels.com/blog/rendering-90000-particles-in-unity): Unity 6 URP instancing compared: GameObjects, RenderMeshInstanced, indirect draws and more, all profiled. (Jan Mróz, 2026-06-04, article, Unity-6 era)
 - [Making fire feel alive: Real-time fluid simulation in Ignitement](https://unity.com/blog/real-time-fluid-simulation-fire-vfx-ignitement-breakdown): Real-time 2D fluid simulation used to create dynamic, gameplay-driven fire effects. (Unity, 2026-04-23, article, Unity-6 era)
 - [Cairn technical art deep dive: Rendering gameplay-specific rock materials on top of level design](https://unity.com/blog/cairn-technical-art-rendering-gameplay-rock-materials): Using 3D blendmaps and compute shaders to keep climbable rock surfaces consistent between visuals and gameplay. (Unity, 2026-04-17, article, Unity-6 era)
 - [Rendering at 500 km/h in Gear.Club Unlimited 3](https://unity.com/blog/eden-games-gear-club-unlimited-3): Rendering tech behind a racing game: GPU-driven architecture, ray tracing and 60 fps at high speed. (Unity, 2026-03-25, article, Unity-6 era)
+- [Benchmarking GPU pipeline stages](https://www.proceduralpixels.com/blog/benchmarking-gpu-pipeline-stages): Benchmarks of vertex, rasterization and fragment stages to see what each one really costs (slides included). (Jan Mróz, 2026-02-06, article, Unity-6 era)
+- [Custom occlusion culling, faster than Unity's](https://www.proceduralpixels.com/blog/custom-occlusion-culling-faster-than-unity): A GPU occlusion culling system that beats baked occlusion and the GPU Resident Drawer on CPU and GPU time. (Jan Mróz, 2026-01-20, article, Unity-6 era)
 - [GPU Instancing: how it works](https://moonjump.com/game-dev-mechanics-gpu-instancing-how-it-works/): Explains how uploading one mesh plus per-instance transforms collapses thousands of draw calls into one. (Moonjump, 2026-01-10, article, Unity-6 era)
+- [Stateless particles: rendering without a mesh](https://www.proceduralpixels.com/blog/stateless-particles---rendering-without-a-mesh): Procedural draws that build particle geometry in the vertex shader with no mesh or simulation state. (Jan Mróz, 2025-12-16, article, Unity-6 era)
+- [The GPU pipeline: my reasoning model for rendering optimization](https://www.proceduralpixels.com/blog/gpu-pipeline-my-reasoning-model): A deep dive into how the GPU pipeline works and how to reason about where frame time goes. (Jan Mróz, 2025-11-27, article, Unity-6 era)
 - [Bad Apple!! but it's a smoke simulation](https://www.youtube.com/watch?v=8BCdKJ4ObZ4) (Sebastian Lague, 2025-10-26, video, Unity-6 era)
 - [Coding Adventure: Simulating Smoke](https://www.youtube.com/watch?v=Q78wvrQ9xsU) (Sebastian Lague, 2025-10-11, video, Unity-6 era)
 - [GPU Instanced Grass Breakdown](https://www.cyanilux.com/tutorials/gpu-instanced-grass-breakdown/): Breakdown of GPU instanced grass using Shader Graph with DrawMeshInstanced APIs. (Cyan, 2025-10-03, article, Unity-6 era)
+- [GPU sorting algorithms: benchmarks](https://www.proceduralpixels.com/blog/gpu-sorting-algorithms-benchmarks): GPU sorting benchmarked, with a median-filter bloom as the practical use case. (Jan Mróz, 2025-07-31, article, Unity-6 era)
 - [Coding Adventure: Software Rasterizer](https://www.youtube.com/watch?v=yyJ-hdISgnw) (Sebastian Lague, 2025-05-30, video, Unity-6 era)
 - [Coding Adventure: Planetary Fluid Sim](https://www.youtube.com/watch?v=8nIB7e_eds4) (Sebastian Lague, 2025-01-29, video, Unity-6 era)
 - [Coding Adventure: Rendering Fluids](https://www.youtube.com/watch?v=kOkfC5fLfgE) (Sebastian Lague, 2024-12-06, video, Unity-6 era)

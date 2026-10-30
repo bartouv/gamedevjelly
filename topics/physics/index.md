@@ -1,6 +1,6 @@
 # Physics & collisions
 
-> Gameplay & systems · 67 hand-filtered guides on GamedevJelly, newest first.
+> Gameplay & systems · 69 hand-filtered guides on GamedevJelly, newest first.
 
 - [Dark Roll 2: soft pillow mesh deformation script in Unity](https://jettelly.com/blog/making-dark-roll-2-s-pillow-feel-soft-in-unity): How a mesh deformation script for a soft landing pillow was reused for the game's sludge. (Jettelly, 2026-10-02, article, Unity-6 era)
 - [How Rust LTD Built The Deep Firearm Simulation in Hot Dogs, Horseshoes & Hand Grenades 2](https://unity.com/blog/rust-ltd-hot-dogs-horseshoes-hand-grenades-2): ECS ballistics, custom firearm physics and Quest 3 frame budgeting in a VR firearm simulator. (Unity, 2026-09-25, article, Unity-6 era)
@@ -8,8 +8,10 @@
 - [A physics-based character movement system in Unity](https://jettelly.com/blog/a-physics-based-character-movement-system-in-unity): Code-only character movement using physics with no animation clips. (Jettelly, 2026-07-11, article, Unity-6 era)
 - [Realistic building destruction with Unity ECS](https://jettelly.com/blog/realistic-building-destruction-with-unity-ecs): Buildings collapse according to how their parts are supported, built on Unity ECS. (Jettelly, 2026-07-08, article, Unity-6 era)
 - [Fix Physics Performance In Large Unity Scenes](https://www.youtube.com/watch?v=2wl2t-p35kA): Fixes physics performance problems in large Unity scenes. (Game Dev Guide, 2026-06-11, video, Unity-6 era)
+- [Using a grid to speed up dynamic collisions](https://www.proceduralpixels.com/blog/using-grid-to-speed-up-dynamic-collisions): Spatial-grid broad phase for a custom Verlet physics solver, with before-and-after timings. (Jan Mróz, 2026-05-08, article, Unity-6 era)
 - [Smoothing tire grip over time to fix jitter and sliding in Unity](https://youtu.be/2d_kAyWs1_A): PaceGame fixes jittering and sliding by smoothing how tire grip is applied across frames. (Jettelly, 2026-05-03, video, Unity-6 era)
 - [Barely Breathing: state-based physics controller for a fish](https://jettelly.com/blog/barely-breathing-a-state-based-physics-controller-for-a-fish-in-a-3d-platformer): Player movement changes with environment through a state-based physics system in Unity. (Jettelly, 2026-04-20, article, Unity-6 era)
+- [Verlet solver: the simplest physics engine](https://www.proceduralpixels.com/blog/verlet-solver---simplest-physics-engine-implementation): Build your first custom physics engine in an evening with Verlet integration. (Jan Mróz, 2026-03-13, article, Unity-6 era)
 - [Networking a Physics Co-op Game: LEGO Voyagers](https://unity.com/blog/light-brick-studio-lego-voyagers): Retrofitting online co-op into a physics-heavy project late in development. (Unity, 2026-02-26, article, Unity-6 era)
 - [Octrees: how it works](https://moonjump.com/game-dev-mechanics-octrees-how-it-works/): Explains octree space partitioning and how it speeds up spatial queries such as collision detection and frustum culling. (Moonjump, 2026-02-11, article, Unity-6 era)
 - [Projectile Trajectories & Ballistics: how it works](https://moonjump.com/game-dev-mechanics-projectile-trajectories-ballistics-how-it-works/): Covers kinematic equations, inverse aiming solutions, and arc visualization for projectiles like grenades and artillery shells. (Moonjump, 2026-01-13, article, Unity-6 era)

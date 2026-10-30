@@ -1,6 +1,6 @@
 # DOTS, ECS, Jobs & Burst
 
-> Engineering · 23 hand-filtered guides on GamedevJelly, newest first.
+> Engineering · 24 hand-filtered guides on GamedevJelly, newest first.
 
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
 - [How Rust LTD Built The Deep Firearm Simulation in Hot Dogs, Horseshoes & Hand Grenades 2](https://unity.com/blog/rust-ltd-hot-dogs-horseshoes-hand-grenades-2): ECS ballistics, custom firearm physics and Quest 3 frame budgeting in a VR firearm simulator. (Unity, 2026-09-25, article, Unity-6 era)
@@ -18,6 +18,7 @@
 - [Unity DOTS State Machines - The Hot Path Show Ep. 58](https://www.youtube.com/watch?v=cW5HAmUNAck): The Hot Path Show is a weekly livestream focused on showcasing different ways to solve problems in game development through data-oriented design. (Turbo Makes Games, 2026-04-11, video, Unity-6 era)
 - [Using External Libraries in Unity - The Hot Path Show Ep. 57](https://www.youtube.com/watch?v=dFUfktINtsQ): 0:00:00 - Intro Shenanigans (Turbo Makes Games, 2026-03-21, video, Unity-6 era)
 - [Data-Oriented Next Fest - The Hot Path Show Ep. 56](https://www.youtube.com/watch?v=sP5E4Enoh4k): Last year I did a livestream with Nitzan Wilnai who is writing a book on data-oriented design in Unity. Nitzan's upcoming game: Cardwheel is in Steam Next Fest right now! (Turbo Makes Games, 2026-02-28, video, Unity-6 era)
+- [Moving instance updates off the main thread](https://www.proceduralpixels.com/blog/moving-instance-updates-off-the-main-thread): Profile a render feature's CPU side and move instance updates to Burst jobs. (Jan Mróz, 2025-09-24, article, Unity-6 era)
 - [Intro to the DOTS Features & Samples in Unity 6](https://unity.com/resources/dots-concepts-features-samples-resources-unity-6): Introduction to Unity 6 DOTS features, performance benefits, samples and learning resources. (Unity, 2025-05-15, article, Unity-6 era)
 - [Thread States in Superluminal and some Unity job system follow-up](https://blog.s-schoener.com/2025-01-21-unity-vfx-graph-multithread/): Measure job scheduling cost in Unity using Superluminal thread states and Profile Analyzer. (Sebastian Schöner, 2025-01-22, article, Unity-6 era)
 - [Introduction to the Data-Oriented Technology Stack](https://unity.com/resources/introduction-to-dots-ebook): Evaluating whether DOTS suits your project: concepts of Unity's Data-Oriented Technology Stack. (Unity, 2024-05-30, article, Unity-2022 era)

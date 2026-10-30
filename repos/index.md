@@ -35,6 +35,7 @@ Open-source repos worth knowing for Unity.
 - [unity-mcp](https://github.com/CoplayDev/unity-mcp) (AI & agents, ★15146, last push 2026-10-19, Unity 7: ok): You want an AI client (Claude, Cursor, etc.) to drive the Unity Editor over MCP. Most popular option.
 - [Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) (AI & agents, ★4498, last push 2026-10-19): You want an MCP bridge between AI agents and the Unity Editor and runtime.
 - [StableFluids](https://github.com/keijiro/StableFluids) (Rendering & VFX, ★1172, last push 2025-08-28): You want a GPU implementation of Stam's Stable Fluids.
+- [Hydraulic-Erosion](https://github.com/SebLague/Hydraulic-Erosion) (Learning repos, ★1045, last push 2024-01-04): You want terrain hydraulic erosion code to learn from.
 - [Marching-Cubes](https://github.com/SebLague/Marching-Cubes) (Learning repos, ★1122, last push 2019-07-11): You want the marching cubes algorithm in Unity.
 - [UniState](https://github.com/bazyleu/UniState) (Gameplay & AI, ★251, last push 2026-09-16): You need a scalable, async state machine for game flow, UI or characters without writing glue code. Install: https://github.com/bazyleu/UniState.git?path=Assets/UniState
 - [MGenerators](https://github.com/Engine-Room-Games/MGenerators) (C# & performance, ★14, last push 2026-05-30): You want Roslyn source generators to remove boilerplate around common gameplay patterns.

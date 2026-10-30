@@ -1,6 +1,6 @@
 # Procedural generation
 
-> Procedural & math · 143 hand-filtered guides on GamedevJelly, newest first.
+> Procedural & math · 144 hand-filtered guides on GamedevJelly, newest first.
 
 - [Hex Map 5.6: Create Climate Burst Job](https://catlikecoding.com/unity/hex-map/5-6/): Hex Map 5.6 update converting climate creation into a Burst job. (Catlike Coding, 2026-10-02, article, Unity-6 era)
 - [Barely Breathing: procedural puddles that follow the environment](https://jettelly.com/blog/barely-breathing-a-new-procedural-puddle-generator): Updated procedural puddle generator that spreads around obstacles and follows environment shape. (Jettelly, 2026-09-12, article, Unity-6 era)
@@ -26,6 +26,7 @@
 - [Wave Function Collapse: how it works](https://moonjump.com/game-dev-mechanics-wave-function-collapse-how-it-works/): Learn how the Wave Function Collapse constraint-satisfaction algorithm generates varied worlds from simple tile rules. (Moonjump, 2025-12-19, article, Unity-6 era)
 - [Cellular Automata: how it works](https://moonjump.com/game-dev-mechanics-cellular-automata-how-it-works/): Learn how neighbor-counting rules turn random noise into organic cave systems for procedural generation. (Moonjump, 2025-12-12, article, Unity-6 era)
 - [Marching Cubes: how it works](https://moonjump.com/game-dev-mechanics-marching-cubes-how-it-works/): Learn how Marching Cubes converts a 3D scalar field into a smooth triangle mesh for metaballs and volumetric terrain. (Moonjump, 2025-12-08, article, Unity-6 era)
+- [Terrain hack: the fastest erosion algorithm](https://www.proceduralpixels.com/blog/terrain-hack-fastest-erosion-algorithm-ever): A very fast hydraulic erosion trick from Shadertoy, explained in detail and ported to Unity. (Jan Mróz, 2025-12-08, article, Unity-6 era)
 - [Noise Functions (Perlin & Simplex): how it works](https://moonjump.com/game-dev-mechanics-noise-functions-perlin-simplex-how-it-works/): Learn how Perlin and Simplex noise generate coherent randomness for procedural terrain, textures, and animation. (Moonjump, 2025-12-05, article, Unity-6 era)
 - [Maze 5.1.0](https://catlikecoding.com/unity/maze/5-1-0/): Tutorial: adds windows to maze walls in Unity (Maze 5.1.0). (Catlike Coding, 2025-10-30, article, Unity-6 era)
 - [Procedural Terrain Generation: how it works](https://moonjump.com/game-dev-mechanics-procedural-terrain-generation-how-it-works/): Learn how Perlin noise, fractal Brownian motion and domain warping combine to generate believable procedural landscapes. (Moonjump, 2025-10-12, article, Unity-6 era)

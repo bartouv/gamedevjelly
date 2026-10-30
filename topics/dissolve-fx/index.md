@@ -1,10 +1,11 @@
 # Dissolve, holograms & sci-fi FX
 
-> VFX · 59 hand-filtered guides on GamedevJelly, newest first.
+> VFX · 60 hand-filtered guides on GamedevJelly, newest first.
 
 - [Unity Shader Code Basics 10 - Dissolve & Noise](https://danielilett.com/2026-09-10-tut10-10-dissolve-noise/): Builds dissolve and noise effects in hand-written Unity code shaders rather than Shader Graph. (Daniel Ilett, 2026-09-10, article, Unity 6)
 - [A dissolve effect in Unity using HLSL and VFX Graph](https://jettelly.com/blog/a-dissolve-effect-in-unity-using-hlsl-and-vfx-graph): Dissolve shader paired with VFX Graph so particles spawn only around the dissolving region. (Jettelly, 2026-07-27, article, Unity-6 era)
 - [Unity VFX Graph - Portal Effect Tutorial](https://www.youtube.com/watch?v=z5uJA4Ay-Po): Create a portal using VFX Graph and Shader Graph, with a Blender circle mesh and Material Maker noise textures. (Gabriel Aguiar Prod., 2026-07-22, video, Unity-6 era)
+- [Implementing a mesh dissolve effect from scratch](https://www.proceduralpixels.com/blog/implementing-mesh-dissolve-effect-from-scratch): A burning-object effect with GPU particles spawned on the mesh, using compute shaders instead of VFX Graph. (Jan Mróz, 2026-06-18, article, Unity-6 era)
 - [Unity VFX Graph - Black Hole Effect Tutorial](https://www.youtube.com/watch?v=7iai1U150Io): Build a black hole with VFX Graph and Shader Graph, covering a fresnel shader, ring meshes and a scrolling shader. (Gabriel Aguiar Prod., 2026-05-13, video, Unity-6 era)
 - [Low Poly Glitch Effect](https://www.patreon.com/posts/low-poly-glitch-137243734): Patreon post on a low-poly glitch effect. (MinionsArt, 2025-08-01, post, Unity-6 era)
 - [A look at Ghost Shaders](https://www.patreon.com/posts/look-at-ghost-115109082): Patreon post surveying ghost shader approaches. (MinionsArt, 2024-10-01, post, Unity-6 era)
